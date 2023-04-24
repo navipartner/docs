@@ -1,0 +1,107 @@
+# [[docs]]
+#   name = "Prologue"
+#   weight = 10
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
+
+# [[docs]]
+#   name = "Help"
+#   weight = 60
+#   identifier = "help"
+#   url = "/docs/help/"
+
+# [[docs]]
+#   name = "Lorem"
+#   weight = 70
+#   identifier = "lorem"
+#   url = "/docs/lorem/"
+
+# [[guide]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/guide/lorem/"
+
+# [[tutorial]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/tutorial/lorem/"
+
+[[main]]
+  name = "Retail"
+  weight = 10
+  identifier = "retail"
+  url = "/docs/retail/gettingstarted/intro" 
+
+  [[main]]
+  name = "Entertainment "
+  weight = 20
+  identifier = "entertainment"
+  url = "/docs/entertainment/intro"
+
+  [[main]]
+  name = "WMS"
+  weight = 30
+  identifier = "wms"
+  url = "/docs/wms/intro"
+
+  [[main]]
+  name = "E-commerce "
+  weight = 40
+  identifier = "ecommerce"
+  url = "/docs/ecommerce/intro"
+
+  [[main]]
+  name = "Power BI"
+  weight = 50
+  identifier = "power-bi"
+  url = "/docs/power_bi/intro"
+
+  [[main]]
+  name = "API docs "
+  weight = 60
+  identifier = "api-docs"
+  url = "/docs/api/gettingstarted/intro"
+
+  [[main]]
+  name = "Partner docs "
+  weight = 70
+  identifier = "partner-docs"
+  url = "/docs/partner/intro"
+
+  [[main]]
+  name = "Troubleshooting "
+  weight = 80
+  identifier = "troubleshooting "
+  url = "/docs/troubleshooting/intro"
+
+[[main]]
+  name = "Old docs"
+  weight = 90
+  url = "https://support.navipartner.com/"
+
+
+
+[[social]]
+  name = "Linkedin"
+  pre = '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>'
+  url = "https://www.linkedin.com/company/navi-partner/mycompany/verification/?viewAsMember=true"
+  weight = 10
+
+[[social]]
+  name = "Facebook"
+  pre = '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>'
+  url = "https://www.facebook.com/profile.php?id=100040012614456"
+  weight = 20
+
+[[social]]
+  name = "YouTube"
+  pre = '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>'
+  url = "https://www.youtube.com/user/NaviPartnerKbh/videos"
+  weight = 30
+
+# [[footer]]
+#   name = "Privacy"
+#   url = "/privacy-policy/"
+#   weight = 10
