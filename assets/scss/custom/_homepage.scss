@@ -1,0 +1,44 @@
+.navbar-brand .logo {
+    max-width: 170px;
+    margin-top: -5px;
+}
+
+#mode {
+    padding: 0.2rem
+}
+
+.nav {
+    --bs-nav-link-font-size: 1rem;
+    --bs-nav-link-padding-x: 0.2rem;
+}
+.section-home {
+    .row {
+        gap: 25px 2%;
+
+        > * {
+            
+            padding-top: calc(var(--bs-gutter-x) * .25);
+            padding-right: calc(var(--bs-gutter-x) * .25);
+            padding-bottom: calc(var(--bs-gutter-x) * .25);
+            padding-left: calc(var(--bs-gutter-x) * .25);
+        }
+    }
+
+    .col-lg-5 {
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px #d1d1d1;
+    }
+}
+
+@media (min-width: 992px) {
+    .social-link {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .doks-search {
+        max-width: 10rem;
+    }
+    }
