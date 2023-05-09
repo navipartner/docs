@@ -44,11 +44,11 @@ Once you've completed the initial setup, there some additional configurations th
 
 ### Install Major Tom
 
-Refer to the [how-to guide](install_major_tom.md) for installing our desktop POS software.
+Refer to the [how-to guide](major_tom.md) for installing our desktop POS software.
 
 ### Install Minor Tom
 
-Refer to the [how-to guide](install_minor_tom.md) for installing the abbreviated version of our desktop POS software. 
+Refer to the [how-to guide](minor_tom.md) for installing the abbreviated version of our desktop POS software. 
 
 ### Install ClickOnce
 
