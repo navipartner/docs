@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "download"
-weight: 20
+weight: 15
 toc: true
 type: docs
 ---
@@ -27,8 +27,7 @@ The trial version of the NP Retail solution is readily available on the [NaviPar
 4. Open one of the available solutions in your browser to get started.    
    A set of instructions is displayed. Follow these instructions to set up the application on your smart device.
 
-> **Note**
-> If you need assistance in using the free trial version, click the **Help** button in the bottom right corner or visit the [support page](https://www.navipartner.com/trial-test?utm_source=Welcome&utm_medium=email&utm_campaign=welcome).
+{{< alert icon="💡" text="If you need assistance in using the free trial version, click the <b>Help</b> button in the bottom right corner or visit the support page." />}}
 
 
 5. Download the **NP Retail Cloud POS** app from the App Store, and install it. 
@@ -48,7 +47,7 @@ Refer to the [how-to guide](major_tom.md) for installing our desktop POS softwar
 
 ### Install Minor Tom
 
-Refer to the [how-to guide](minor_tom.md) for installing the abbreviated version of our desktop POS software. 
+Refer to the [how-to guide](minor_tom) for installing the abbreviated version of our desktop POS software. 
 
 ### Install ClickOnce
 

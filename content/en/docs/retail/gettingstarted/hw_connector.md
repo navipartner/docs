@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "hw_connector"
-weight: 20
+weight: 30
 toc: true
 type: docs
 ---
@@ -21,5 +21,4 @@ Hardware connector is an essential bridge between local hardware and the WEB MT 
 2. Open it to initiate installation, and wait for it to be completed.     
    The **NP Hardware Connector** will automatically be opened once the installation is complete.
 
-   > [!Note]
-   > The program will not run automatically on Windows startup, so you will need to run it manually every time you wish to use it. 
+{{< alert icon="💡" text="The program will not run automatically on Windows startup, so you will need to run it manually every time you wish to use it." />}}
