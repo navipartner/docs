@@ -29,9 +29,20 @@
 #   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "NP Solutions"
+  name = "Solutions"
   weight = 1
-  identifier = "np-solutions"
+  identifier = "solutions"
+
+[[main]]
+  name = "API docs"
+  weight = 2
+  identifier = "api-docs"
+  url = "/docs/api/intro"
+
+[[main]]
+  name = "More"
+  weight = 3
+  identifier = "more"
   
 
 [[main]]
@@ -39,63 +50,56 @@
   weight = 10
   identifier = "retail"
   url = "/docs/retail/gettingstarted/intro" 
-  parent = "np-solutions"
+  parent = "solutions"
 
 [[main]]
   name = "Entertainment "
   weight = 20
   identifier = "entertainment"
   url = "/docs/entertainment/intro"
-  parent = "np-solutions"
+  parent = "solutions"
 
 [[main]]
   name = "WMS"
   weight = 30
   identifier = "wms"
   url = "/docs/wms/intro"
-  parent = "np-solutions"
+  parent = "solutions"
 
 [[main]]
   name = "E-commerce "
   weight = 40
   identifier = "ecommerce"
   url = "/docs/ecommerce/intro"
-  parent = "np-solutions"
+  parent = "solutions"
 
 [[main]]
   name = "Power BI"
   weight = 50
   identifier = "power-bi"
   url = "/docs/power_bi/intro"
-  parent = "np-solutions"
+  parent = "solutions"
 
-[[main]]
-  name = "API docs "
-  weight = 60
-  identifier = "api-docs"
-  url = "/docs/api/gettingstarted/intro"
-  parent = "np-solutions"
 
 [[main]]
   name = "Partner docs "
-  weight = 70
+  weight = 10
   identifier = "partner-docs"
   url = "/docs/partner/intro"
-  parent = "np-solutions"
+  parent = "more"
 
 [[main]]
   name = "Troubleshooting "
-  weight = 80
+  weight = 20
   identifier = "troubleshooting "
   url = "/docs/troubleshooting/intro"
-  parent = "np-solutions"
+  parent = "more"
 
 [[main]]
   name = "Old docs"
-  weight = 90
+  weight = 30
   url = "https://support.navipartner.com/"
-  parent = "np-solutions"
-
+  parent = "more"
 
 
 [[social]]
