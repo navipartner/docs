@@ -41,9 +41,8 @@ Minor Tom is an abbreviated version of Major Tom, which offers only the essentia
         The **URL** field is updated with a new URL.
      -  Click **Save** to save the changes.
 
-> [!Note]
-> The customers' Azure tenant needs to be [configured](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) prior to using the cloud version so that their session can be automatically extended on the following login.
+   {{< alert icon="📝" text="The customer's Azure tenant needs to be <a href=\"https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime\">configured</a> prior to using the cloud version so that their session can be automatically extended on the following login." />}}
 
-1. Once the installation is complete, click **New Sale** in the sidebar (right-click to open/close the sidebar) to start using the POS features.
+4. Once the installation is complete, click **New Sale** in the sidebar (right-click to open/close the sidebar) to start using the POS features.
 
-   {{< alert icon="💡" text="Whenever a new Minor Tom version is available, it will be automatically detected and downloaded as soon as you launch the app." />}}
+   {{< alert icon="📝" text="Whenever a new Minor Tom version is available, it will be automatically detected and downloaded as soon as you launch the app." />}}
