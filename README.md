@@ -23,3 +23,7 @@ Public documentation portal
 ## Formatting links in text
 
 Help support the team developing Doks by [becoming a financial contributor](/docs/contributing/financial-contributions/).
+
+## Referencing global images
+
+Place images in the 'static' folder (NOT static/images), and then act as if they are located in the same folder as the article you're referencing them from.
