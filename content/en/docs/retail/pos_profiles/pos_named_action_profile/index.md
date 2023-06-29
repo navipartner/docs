@@ -5,7 +5,7 @@ lead: ""
 date: 2023-05-11T11:51:19+02:00
 lastmod: 2023-05-11T11:51:19+02:00
 draft: false
-images: ![lightbulb](Lightbulb_icon.PNG)
+images: 
 menu:
   docs:
     parent: "pos_profiles"
@@ -19,11 +19,10 @@ To ensure you have a fully operational POS unit, certain actions need to be set 
 Follow the provided steps to set all actions that need to be set in order to set the **POS Named Action Profile**.
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Actions Profiles** and choose the related link.
-2. ![lightbulb](/images/Lightbulb_icon.png)
-3. Create **New**.    
+2. Create **New**.    
    The **POS Named Actions Profile** window is displayed. 
-4. Type in the code in the **General** section.
-5. Populate the fields in the **Actions** section with the correct actions:
+3. Type in the code in the **General** section.
+4. Populate the fields in the **Actions** section with the correct actions:
 
 | Field Name      | Description |
 | ----------- | ----------- |

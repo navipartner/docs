@@ -17,6 +17,51 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
+## Version 22.0 (May 28th 2023)
+
+In this release, NP Retail has undergone performance optimization, including transfer of POS to CDN. Additionally, the following features have been developed:
+
+### Group codes
+
+This feature gives users the ability to mark the POS sale exported from the POS to a standard sales order with a predefined group code. It allows the import of standard sales orders to a POS sale to be filtered by a group code.
+
+A new administrative section **Group Codes** has been added to Business Central to support this addition, along with two new parameters introduced for the **SALES_DOC_EXP** and **SALES_DOC_IMP** POS actions.
+
+For more information and operating instructions, refer to the [Group code setup](retail/posunit/howto/group_codes.md) article.
+
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/a78117b9-9ac9-480d-84d7-c1961842326a" loading="lazy" title="Synthesia video player - New Feature: Export/Import Group codes" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+### MPOS actions for improved barcode scanning
+
+Two new MPOS actions for improved barcode scanning have been introduced:  
+
+- **M_SCANDITITEMINFO** - users can use the camera on their mobile devices to scan item barcodes and receive the predefined information about that item. 
+
+- **M_SCANDITSCAN** – users can use the camera on their mobile devices to scan item barcodes and find the same barcode in direct vicinity.
+
+For more information and operating instructions, refer to the article on [MPOS action setup for Scandit](retail/mpos/howto/scandit_pos_actions.md).
+
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/af673f15-f1a2-4feb-a335-a9ac2fd45c6c" loading="lazy" title="Synthesia video player - New Feature: MPOS Improved barcode scanning" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+### MPOS redesign
+
+Our MPOS has undergone a complete UI overhaul, making the previous scaled-down version of the regular MPOS more modern and streamlined. 
+
+For operating instructions, refer to the article on [MPOS setup](retail/mpos/howto/MPOS_View.md).
+
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/de9a7cbc-268b-49bb-9df1-56537ed433ec" loading="lazy" title="Synthesia video player - New Feature: New MPOS Layout" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+### New POS editor
+
+With the new POS editor, POS buttons and actions can now be configured solely from within the POS UI no longer requiring accompanying setup in Business Central. This means that it's not necessary to leave the POS to change a button or a workflow parameter. Users will be able to see their changes being reflected instantly without jumping back and forth multiple windows. Consequently, the POS configuration is simplified and load time reduced.
+
+For operating instructions, refer to the article on [POS editor activation](retail/posunit/howto/pos_editor.md)
+
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/d9ec4a31-da28-47c1-a964-208d2a29af7f" loading="lazy" title="Synthesia video player - New Feature: New POS Editor" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+## Version 21.0 (April 28th 2023)
+
+In this release, NP Retail has undergone some backend performance enhancements. Furthermore, the V3 POS Balancing feature has been sunsetted and fully replaced with the [V4 Balancing feature](retail/posunit/howto/balance_the_pos.md).
 ## Version 20.0 (March 27th 2023)
 
 ### GS1 coupons posting with G/L account
