@@ -1,5 +1,5 @@
 ---
-title: "POS Named Action Profile"
+title: "Set up POS Named Action Profile"
 description: "POS Named Action Profile is a necessary setup component for having fully operational POS units."
 lead: ""
 date: 2023-05-11T11:51:19+02:00
@@ -37,7 +37,7 @@ Follow the provided steps to set all actions that need to be set in order to set
 | **Idle Timeout Action Code** | Add the action *SS_IDLE_TIMEOUT*. |
 | **Admin Menu Action Code** | Add the action *SS_ADMIN_MENU*. |
 
-![POS_NAMED](images/POS_Ac_Set.png)
+![POS_NAMED](POS_Ac_Set.png)
 
 ## Next steps
 
@@ -49,5 +49,3 @@ After setting up the POS Named Actions Profile, you need to add it to the POS Un
 
 2. Open the **POS Unit Card**.
 3. Provide the prepared POS profile in the **POS Named Action Profile** field. 
-
-![POS_NAMED_PROFILE_ACC](images/POS_NAM.png)
