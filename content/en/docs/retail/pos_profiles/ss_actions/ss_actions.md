@@ -1,5 +1,5 @@
 ---
-title: "POS self-service actions"
+title: "POS self-service actions (reference)"
 description: "There are specific POS actions intended for the self-service mode. On the POS unit dedicated for self-service, the POS setup is configured from the **POS Named Action Profile** located in the **POS Unit Card**. "
 lead: ""
 date: 2023-07-05T14:37:24+02:00
@@ -15,12 +15,9 @@ toc: true
 type: docs
 ---
 
-There are specific POS actions intended for the self-service mode. On the POS unit dedicated for self-service, the POS setup is configured from the **POS Named Action Profile** located in the **POS Unit Card**. 
+There are specific POS actions intended for the self-service mode. On the POS unit dedicated for self-service, the POS setup is configured from the **POS Named Action Profile** located in the **POS Unit Card**. All POS actions for self-service have the **SS** prefix.
 
 Other than that, it needs to be specified that the POS unit is going to be used for a normal cash register or as an unattended self-service register. 
-
-> [!Note]
-> All POS actions for self-service have the "SS" prefix.
 
 ## SS-ADMIN-MENU - brings up the self-service admin menu
 
@@ -59,7 +56,7 @@ It is also possible to associate a list of items to a main item, whereby when yo
 
 This function is built-in. It is used for locking the POS, and redirection to the login screen. If you wish to exit the sales or payment view, and back to the login view, you can use the **Cancel Sale** button.
 
-![ss-login-screen](../images/ss-login-screen.png)
+![ss-login-screen](ss-login-screen.png)
 
 ## SS-PAYMENT - unattended payment
 

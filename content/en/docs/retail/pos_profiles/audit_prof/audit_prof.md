@@ -15,7 +15,6 @@ toc: true
 type: docs
 ---
 
-# POS Audit Profile (reference guide)
 
 The POS audit profile is used for assigning different number series and different rules for printing to different POS units.
 

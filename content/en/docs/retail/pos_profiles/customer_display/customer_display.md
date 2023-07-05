@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "customer_display-2a4a943981df0a57cb801d7c71fb300e"
-weight: 999
+weight: 10
 toc: true
 type: docs
 ---
@@ -42,7 +42,7 @@ You can set up the content of customer display in **Display Setup**. Here, it is
    Add more lines for a slideshow of images.
 8. Go back to the **POS Display Profile**, and enable **Activate** to allow the customer display of POS Units to use this **POS Display Profile**.
 
-{{< alert icon="📝" text="The fields in the **Receipt** panel are used for customizing the display of sales lines."/>}}
+{{< alert icon="📝" text="The fields in the <b>Receipt</b> panel are used for customizing the display of sales lines."/>}}
 
 {{< alert icon="📝" text="If the customer display is blank, try pressing <b>Alt + Tab</b> to check if the window is displayed in the background. If the customer display is displayed on the wrong screen or if the new media content is not displayed, go to POS Unit Display and update the information."/>}}
 

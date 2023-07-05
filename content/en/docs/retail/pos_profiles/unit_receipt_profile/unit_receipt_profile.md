@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "unit_receipt_profile-58d771e834dacb607f87691f1af546ee"
-weight: 999
+weight: 10
 toc: true
 type: docs
 ---
@@ -28,7 +28,7 @@ Sales receipts are created per each POS unit separately, but in most cases all P
 4. To edit the existing POS unit receipt text profile, click the three dots in the header, followed by **Manage**, and then **Edit**.
 5. Add the desired receipt text in the **Sales Ticket Receipt Text** field.
 
-{{< alert icon="📝" text="Be aware of the value in the **Break Line** field, as it will impact what the receipt looks like."/>}}
+{{< alert icon="📝" text="Be aware of the value in the <b>Break Line</b> field, as it will impact what the receipt looks like."/>}}
 
 6. To create a new receipt text profile, click **New**, and add all necessary information, including the receipt text in the **POS Unit Receipt Text Profile** field.   
    All changes you add are automatically saved.
