@@ -29,4 +29,4 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 ### What's new
 
-Learn which [**new features and improvements**](../gettingstarted/release_notes.md) have been introduced in the newest versions of the NP Retail solution.
+Learn which [**new features and improvements**]({{< ref "release_notes.md" >}}) have been introduced in the newest versions of the NP Retail solution.
