@@ -1,5 +1,5 @@
 ---
-title: "Physical_inventory"
+title: "Physical inventory"
 description: ""
 lead: ""
 date: 2023-07-06T15:23:14+02:00

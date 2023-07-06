@@ -44,6 +44,6 @@ Sale menus are used to view, modify, and delete the selected sales items.
 
 Payment menus are used for creating, modifying, and deleting payments.
 
-![PAYMENTS](mpos_paymentss.png)
+![PAYMENTS](mpos_payments.png)
 
 This page contains the list of all created menus. Menus can be defined for all POS units or for specific ones, in which case it is necessary to provide the **POS Unit No.** of that specific POS unit. It is also possible to provide access to some menus only to specific salespeople, in which case the **Salesperson code** needs to be provided as well.  

@@ -1,5 +1,5 @@
 ---
-title: "Stocktake_template"
+title: "Stock-Take Templates (reference guide)"
 description: ""
 lead: ""
 date: 2023-07-06T15:53:37+02:00
@@ -14,8 +14,6 @@ weight: 999
 toc: true
 type: docs
 ---
-
-# Stock-Take Templates (reference guide)
 
 The following fields and options are available in the **Stock-Take Templates** administrative section of Business Central:
 
@@ -89,6 +87,7 @@ With this option, the user can control when the stock take lines are removed fro
 | **Manual** | the worksheet needs to be cleared manually. There's no requirement to clear the worksheet after it has ben transferred to the **Inventory Journal**. |
 | **Per Transfer** | the lines that were successfully transferred to the **Item Inventory Journal** have been deleted. All future work needs to be conducted from the **Inventory Journal**. This option should only be used in conjunction with **Transfer Action** which involves posting. |
 | **Final Transfer** | this option is the same as the one above, except that it requires all lines which have the **Transferred** status after transferring is completed. |
+
 ## Default Profile
 
 When creating a new stock-take configuration, it inherits all default settings from the first profile marked as the default profile. 
@@ -101,8 +100,7 @@ This setting controls what the user may change in the transfer dialog when creat
 
 This setting controls whether the user can change the value of the item unit cost in the stock take worksheet. The proposed value (regardless of how it is calculated) will be transferred to the item inventory journal when the item costing method differs from standard. 
 
-   > [!Note]
-   > The **Scope** section defines the items that should be included in the stock-take. An annual stock take might not specify any other value other than the **Location Code** on the template and configuration level. On the worksheet level, it might be practical to divide the work in item categories or areas or in some other way to have an organized and efficient stock-take.  
+{{< alert icon="📝" text="The <b>Scope</b> section defines the items that should be included in the stock-take. An annual stock take might not specify any other value other than the <b>Location Code</b> on the template and configuration level. On the worksheet level, it might be practical to divide the work in item categories or areas or in some other way to have an organized and efficient stock-take."/>}}
 
 ## Location Code 
 

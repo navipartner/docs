@@ -1,5 +1,5 @@
 ---
-title: "Register"
+title: "Worksheet line registration"
 description: ""
 lead: ""
 date: 2023-07-06T13:58:43+02:00
@@ -15,15 +15,13 @@ toc: true
 type: docs
 ---
 
-# Worksheet line registration
-
 The Item Worksheet will not make any changes to the item master data and the related information until the Item Worksheet lines are registered. Worksheet lines can be registered from the **Item Worksheet** page. Only the lines that are within the filter on the page will be registered. Before registering, the lines will be validated, including the lines that already have the **validated’** status. 
 
 If the field **Register Lines** on the **Item Worksheet Template** is checked, the system will create new entries in the **Registered Item Worksheet** table after registering the lines. 
 
 If the field **Delete Processed Lines** on the **Item Worksheet Template** is checked, the system will delete any registered lines from the **Item Worksheet** table after registering the lines. This includes lines marked as **Skip**. 
 
-{{< alert icon="📝" text="To find the registered item worksheets, search for them via the Business Central's **Tell Me** feature. To clean up the database, the **Registered Item Worksheets** can be deleted using the task: <b>Delete Reg. Item Worksheets**."/>}}
+{{< alert icon="📝" text="To find the registered item worksheets, search for them via the Business Central's <b>Tell Me</b> feature. To clean up the database, the <b>Registered Item Worksheets</b> can be deleted using the task: <b>Delete Reg. Item Worksheets</b>."/>}}
 
 The information includes the date and time the registration took place, as well as the ID of the user that has registered the lines.
 
