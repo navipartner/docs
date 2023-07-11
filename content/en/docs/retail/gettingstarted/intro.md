@@ -19,13 +19,13 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 ## Get started
 
-- To start with, we recommend <a href="/docs/retail/gettingstarted/download/">downloading the demo</a>, and experiencing first-hand what our solution can do.
+- To start with, we recommend [downloading the demo]({{< ref "download.md" >}}), and experiencing first-hand what our solution can do.
 
-- Once you're ready for more advanced features, see our guides for setting up desktop software products <a href="/docs/retail/gettingstarted/major_tom/">Major Tom</a> and <a href="/docs/retail/gettingstarted/minor_tom/">Minor Tom</a>.
+- Once you're ready for more advanced features, see our guides for setting up desktop software products [Major Tom]({{< ref "major_tom.md" >}}) and [Minor Tom]({{< ref "minor_tom.md" >}}).
  
-- Download and install the <a href="/docs/retail/gettingstarted/hw_connector/">HW Connector</a> app to bridge the local hardware to the WEB MT interface of the POS.
+- Download and install the [HW Connector]({{< ref "hw_connector.md" >}}) app to bridge the local hardware to the WEB MT interface of the POS.
 
-- If you're unsure whether our solution is supported by your hardware components, refer to the <a href="/docs/retail/gettingstarted/system_requirements/">system requirements</a>.
+- If you're unsure whether our solution is supported by your hardware components, refer to the [system requirements]({{< ref "system_requirements.md" >}}).
 
 ### What's new
 
