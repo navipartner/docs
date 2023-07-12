@@ -25,4 +25,4 @@ In order to establish a functional SMS module, certain actions need to be set up
 | **Auto Send Attempts** | Specifies how many attempts will be made to send the SMS. After the specified number of attempts is reached, the SMS is discarded from the environment. | 
 | **Customer No.** | Specifies the phone number of the customer. |
 | **Default Sender No.** | Specifies the sender phone number. |
-| **Domestic Phone Prefix** | Specifies the local country calling code of the sender. | 
+| **Domestic Phone Prefix** | Specifies the local country calling code of the sender. |
