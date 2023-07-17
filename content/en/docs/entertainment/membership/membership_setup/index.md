@@ -25,5 +25,5 @@ To set up the ticket web services, follow the provided steps:
    
   {{< alert icon="📝" text="In a multitenant environment, you need to perform this from the **default** tenant. You can see which tenant you're currently using in the URL."/>}}
 
-1. Refer to the [list of member web services]({{< ref "../membership_webservices_ref/index.md" >}}) to decide on the next action you wish to take. 
-2. (Optional) Set up [auto-renewal process]({{< ref "../autorenewal/index.md" >}}).
+5. Refer to the [list of member web services]({{< ref "../membership_webservices_ref/index.md" >}}) to decide on the next action you wish to take. 
+6. (Optional) Set up [auto-renewal process]({{< ref "../autorenewal/index.md" >}}).
