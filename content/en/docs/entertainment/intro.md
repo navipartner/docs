@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the NP Entertainment product documentation"
+title: "NP Entertainment product overview"
 description: ""
 lead: ""
 date: 2023-07-12T15:49:53+02:00
