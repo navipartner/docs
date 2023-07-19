@@ -41,4 +41,4 @@ The **Counting** screen is displayed when you click **Cash Count** on the POS. I
 
 ![counting_transfer_v4](counting_transfer_v4.png)
 
-For more information about individual fields and options on the **Counting** screen, refer to the [reference guide]({{< ref "../counting_ref/index.md" >}}).
+For more information about individual fields and options on the **Counting** screen, refer to the [reference guide]({{< ref "../reference/counting_ref/index.md" >}}).

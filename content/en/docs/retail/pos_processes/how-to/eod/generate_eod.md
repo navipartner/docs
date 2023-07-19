@@ -26,7 +26,7 @@ To generate the POS balance report and count the contents of the payment bin, ma
 ## Procedure
 
 1. From the **POS**, click **Other Functions (menu)**, followed by **End of Day Balancing**.     
-   The **POS Workshift Checkpoint** is displayed, along with the [Z-Report overview]({{< ref "index.md" >}}). To see all work shift statistics, open the **Show All** tab.
+   The **POS Workshift Checkpoint** is displayed, along with the [Z-Report overview]({{< ref "../../explanation/end-of-day-exp.md" >}}). To see all work shift statistics, open the **Show All** tab.
 
    ![balance_the_pos_v4_all](balance_pos_v4_balancing_screen_%20all.png)
 

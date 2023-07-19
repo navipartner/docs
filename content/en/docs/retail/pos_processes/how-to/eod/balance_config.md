@@ -21,7 +21,7 @@ To configure the POS balancing feature, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS End of Day Profile**, and choose the related link.
 2. Click **New** to open a blank **NPR POS End of Day Profile Card**. 
-3. Populate the fields while referring to the EOD [reference table]({{< ref "../../pos_profiles/eod_profile/eod_profile.md" >}}).
+3. Populate the fields while referring to the EOD [reference table]({{< ref "../../../pos_profiles/eod_profile/eod_profile.md" >}}).
 4. Search for **POS Actions Profiles**, and create a new **POS Named Action Profile** (or edit an existing one).
 5. In the **End of Day Action Code** field, provide **POS Action BALANCE V4**.     
    In this way, you're notifying the system that the new balancing function is used.
@@ -50,7 +50,7 @@ If the button is marked in read, that means that the currency hasn't yet been co
 
 ![counting_transfer_v4](counting_transfer_v4.png)
 
-For more information about individual fields and options on the **Counting** screen, refer to the [reference guide]({{< ref "../counting_ref/index.md" >}}).
+For more information about individual fields and options on the **Counting** screen, refer to the [reference guide]({{< ref "../../reference/counting_ref/index.md" >}}).
 
 ### Generate end-of-day report (POS balance)
 

@@ -48,4 +48,4 @@ To create new POS payment method, follow the provided steps:
 
 ## Next steps
 
-If needed, you can limit payment types to specific items only. For more information, refer to [these instructions]({{< ref "../../vouchers/meal_eco/index.md" >}})
+If needed, you can limit payment types to specific items only. For more information, refer to [these instructions]({{< ref "../../../vouchers/meal_eco/index.md" >}})

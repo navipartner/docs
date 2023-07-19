@@ -17,9 +17,9 @@ type: docs
 The article consists of main steps that constitute the process of item add-on setup, followed by several common use cases, examples, and best practices. 
 
 1. Create the main items that will be sold by configuring the necessary options in their respective **Item Cards.**
-2. Define the item add-ons in the [**Item AddOns**]({{< ref "../item_addon_ref/index.md" >}}) administrative section.
+2. Define the item add-ons in the [**Item AddOns**]({{< ref "../../reference/item_addon_ref/index.md" >}}) administrative section.
 3. Associate item add-ons with the main item they are going to sold with. This is done in the **NPR Properties** section of the **Item Card**.
-4. Define the [button on the POS Menu]({{< ref "../../pos_layout/new_button/index.md" >}}) which will be used on the POS unit, if you need a standalone menu, without the main item. 
+4. Define the [button on the POS Menu]({{< ref "../../../pos_layout/new_button/index.md" >}}) which will be used on the POS unit, if you need a standalone menu, without the main item. 
 
 ## Examples, use cases, and best practices
 
