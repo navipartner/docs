@@ -1,20 +1,19 @@
 ---
-title: "EFT setup"
+title: "EFT overview"
 description: ""
 lead: ""
-date: 2023-07-06T08:44:28+02:00
-lastmod: 2023-07-06T08:44:28+02:00
+date: 2023-07-19T15:55:02+02:00
+lastmod: 2023-07-19T15:55:02+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "eft_setup-2e08fc674499fc6582e99259ffebdc9c"
-weight: 99
+    identifier: "intro-fa289693346b87b0d158bb0c1466e31f"
+weight: 999
 toc: true
 type: docs
 ---
-
 Electronic Funds Transfer (EFT) is a term that covers all of electronic payment integrations in NP Retail.
 This can be anything from credit card terminals to smartphone payment systems, depending on the local market and our available integrations.
 
