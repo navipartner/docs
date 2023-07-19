@@ -19,7 +19,7 @@ The Global Blue tax free setup is performed in several sections of Business Cent
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Tax Free Profiles** and select the related link.               
    The page which contains all POS tax free profiles created in the environment is displayed. Here, you can link the tax free parameters to each available POS unit.
-2. Click **New** and define [all necessary options]({{< ref "../../pos_profiles/tax_free_ref/tax_free_ref.md" >}}).   
+2. Click **New** and define [all necessary options]({{< ref "../../pos_profiles/reference/tax_free_ref/tax_free_ref.md" >}}).   
    The **Code** field is mandatory. 
 3. In the **Handler ID** field, select the **GLOBALBLUE_I2** for the Global Blue integrated solution.    
    As soon as you specify the handler ID, you need to set the accompanying parameters.
