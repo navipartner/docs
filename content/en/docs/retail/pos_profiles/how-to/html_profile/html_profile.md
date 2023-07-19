@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-This guide refers to the newer version of the [POS Display Profile]({{< ref "../display_profile/display_profile.md" >}}). While it shares the same purpose, such as displaying media content and the receipt view, this profile can do much more, like returning input from the customer display if the touch screen is in use, and the HTML file is equipped to handle the customer's input.
+This guide refers to the newer version of the [POS Display Profile]({{< ref "../../reference/display_profile/display_profile.md" >}}). While it shares the same purpose, such as displaying media content and the receipt view, this profile can do much more, like returning input from the customer display if the touch screen is in use, and the HTML file is equipped to handle the customer's input.
  
 There is standard HTML which can be used for the display, which is compatible with the Display Content Lines, which can be added by clicking the action **Download Template Data**
 
@@ -31,7 +31,7 @@ This HTML file can:
 
  - Have at least one POS unit configured for sales purposes.
  - Have a dedicated customer display hardware attached to POS units that will inherit this configuration.
-    - The [Hardware Connector]({{< ref "../../gettingstarted/hw_connector.md" >}}) needs to be installed and run.
+    - The [Hardware Connector]({{< ref "../../../gettingstarted/hw_connector.md" >}}) needs to be installed and run.
     - The POS unit must run in Windows.
  - If input is required from the customer, a touch screen is required.
 
