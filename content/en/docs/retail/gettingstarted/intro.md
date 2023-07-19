@@ -1,5 +1,5 @@
 ---
-title: "Welcome to NP Retail"
+title: "NP Retail product overview"
 description: "Get acquainted with the features and functionalities offered by the NP Retail solution for POS systems."
 lead: ""
 date: 2023-04-24T11:52:06+02:00
