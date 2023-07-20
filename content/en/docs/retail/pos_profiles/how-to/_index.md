@@ -1,5 +1,5 @@
 ---
-title: "How To"
+title: "How-to guides"
 description: ""
 lead: ""
 date: 2023-07-19T14:30:43+02:00

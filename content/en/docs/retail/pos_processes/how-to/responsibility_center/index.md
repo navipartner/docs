@@ -19,7 +19,7 @@ type: docs
 
 ## Prerequisites
 
-- Add the **Change Responsibility Center** [button to the POS menu]({{< ref "../../../pos_layout/new_button/index.md" >}}) you want it to be displayed in.       
+- Add the **Change Responsibility Center** [button to the POS menu]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
   The action you need to attach to the button is **CHANGE_RESP_CENTER**.     
 - In the **POS Parameter Values** specify the name of the responsibility center you want to switch to in the **Fixed Resp Center** parameter.
 - In the **POS Parameter Values** set the **Lookup Resp Center** either to **FALSE** to ensure that you are instantly switched to the selected responsibility center when the button is clicked on the POS or set it to **TRUE** if you want to select the responsibility center from the list instead. 

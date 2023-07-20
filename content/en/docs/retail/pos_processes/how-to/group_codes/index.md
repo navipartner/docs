@@ -21,7 +21,7 @@ If you navigate to **POS Actions** administrative section, you set up parameters
 
 ## Export current POS sale to a standard sales order (SALES_DOC_EXP)
 
-The **SALES_DOC_EXP** POS action can be mapped to a [button]({{< ref "../../../pos_layout/new_button/index.md" >}}) on the POS used for exporting the current POS sale to a standard sales order. It has two parameters:
+The **SALES_DOC_EXP** POS action can be mapped to a [button]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) on the POS used for exporting the current POS sale to a standard sales order. It has two parameters:
 
 - **GroupCodesEnabled** – enables the group code functionality.  
 - **GroupCode** – if the **GroupCode** parameter is not set, a lookup page is opened. From it, users can choose the group code that is going to be assigned to the sales order. If the **GroupCode** parameter is set on the POS action, the value is automatically assigned to the exported sales order. 
