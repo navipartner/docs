@@ -15,12 +15,12 @@ toc: true
 type: docs
 ---
 
-Dynamic tickets have a flexible [admission]({{< ref "../admission_schedule_lines/index.md" >}}) setup. To create a dynamic ticket, follow the provided steps.
+Dynamic tickets have a flexible [admission]({{< ref "../../explanation/admission_schedule_lines/index.md" >}}) setup. To create a dynamic ticket, follow the provided steps.
 
 {{< alert icon="❗" text="If you don't know how to set up tickets, please read related links first."/>}}
 
 1. Create the **Ticket Item** that corresponds to your business needs in **Items**.
-2. Create the desired [admission]({{< ref "../admission_schedule_lines/index.md" >}}) in the **Ticket Admission** list.
+2. Create the desired [admission]({{< ref "../../explanation/admission_schedule_lines/index.md" >}}) in the **Ticket Admission** list.
 3. Create **Ticket BOM** with one default **Admission**.
 4. Specify the **Required Admissions** by setting the **Admission Inclusion** to:
    - **Required** - this option makes the admission mandatory;
