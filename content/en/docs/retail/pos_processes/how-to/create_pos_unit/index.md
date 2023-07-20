@@ -52,5 +52,5 @@ After you create a POS unit, you need to link it to the POS user's ID before it 
 2. In the **User Setup** screen, fill out all necessary fields.  
    Make sure you've added the number of the newly-created POS unit in the **POS Unit No.** field.
 
-The new POS unit is created, attached to the [POS store]({{< ref "../../../pos_store/new/index.md" >}}), and ready to be used.
+The new POS unit is created, attached to the [POS store]({{< ref "../../../pos_store/how-to/new/index.md" >}}), and ready to be used.
 
