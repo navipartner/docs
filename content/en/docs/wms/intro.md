@@ -29,9 +29,9 @@ One of the staples of the WMS solution is the RFID system. There are several req
 
 The initial setup of NP WMS consists of the following steps:
 
-1. To get started, you need to [download and install the NP WMS extension for Business Central]({{< ref "install_wms_bc/index.md" >}}), as well as the [accompanying mobile applications]({{< ref "install_apps/index.md" >}}). 
+1. To get started, you need to [download and install the NP WMS extension for Business Central]({{< ref "how-to/install_wms_bc/index.md" >}}), as well as the [accompanying mobile applications]({{< ref "how-to/install_apps/index.md" >}}). 
 
-2. (Optional) [Download and install one of the preset WMS templates]({{< ref "fetch_setup_data/index.md" >}}) provided by NaviPartner, to accelerate the setup procedure:
+2. (Optional) [Download and install one of the preset WMS templates]({{< ref "how-to/fetch_setup_data/index.md" >}}) provided by NaviPartner, to accelerate the setup procedure:
 
 - Live templates - provides sample setups of NP WMS
 - Test Data - provides the necessary data for testing NP WMS
@@ -40,14 +40,14 @@ The initial setup of NP WMS consists of the following steps:
 
   {{< alert icon="📝" text="For pricing details refer to <a href=\"https://www.navipartner.com/np-wms-pricing\">our website</a>. A trial period is offered to test the functionalities."/>}}
 
-4. Set the main parameters for your instance of NP WMS in [CS setup]({{< ref "cs_setup_ref/index.md" >}}). These parameters include, but aren't limited to:
+4. Set the main parameters for your instance of NP WMS in [CS setup]({{< ref "reference/cs_setup_ref/index.md" >}}). These parameters include, but aren't limited to:
 
-    - [CS UIs]({{< ref "cs_uis/index.md" >}}) - user interface of the mobile apps. 
+    - [CS UIs]({{< ref "explanation/cs_uis/index.md" >}}) - user interface of the mobile apps. 
     - [Warehouse employees](https://docs.microsoft.com/en-us/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees) - entities in BC which correspond to warehouse employees.
-    - [CS users]({{< ref "cs_user_setup/index.md" >}}) - users who will have access to the mobile devices used for warehouse management. CS users are based on the existing warehouse employees.
+    - [CS users]({{< ref "how-to/cs_user_setup/index.md" >}}) - users who will have access to the mobile devices used for warehouse management. CS users are based on the existing warehouse employees.
  
 
-5. [Create QR codes]({{< ref "create_qr/index.md" >}}) which will be associated with the individual users in NP WMS.
+5. [Create QR codes]({{< ref "how-to/create_qr/index.md" >}}) which will be associated with the individual users in NP WMS.
 
 After the necessary setup is performed, you can explore the rest of the available options to personalize your WMS instance.
 
