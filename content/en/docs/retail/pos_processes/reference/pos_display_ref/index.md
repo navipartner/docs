@@ -1,5 +1,5 @@
 ---
-title: "POS Unit Display (reference guide)"
+title: "POS Unit Display"
 description: ""
 lead: ""
 date: 2023-07-12T14:01:00+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_display_ref-0374f1aa9e538c3c75dbead7f430c44e"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---

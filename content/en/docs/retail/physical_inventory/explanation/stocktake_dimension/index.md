@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "stocktake_dimension-938e4597668f1e1e52cda8668814da6d"
-weight: 999
+weight: 102
 toc: true
 type: docs
 ---

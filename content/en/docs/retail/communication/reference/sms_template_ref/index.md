@@ -1,5 +1,5 @@
 ---
-title: "SMS template (reference guide)"
+title: "SMS template"
 description: ""
 lead: ""
 date: 2023-07-10T22:40:15+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sms_template_ref-c4928e93c33780b781bba73a0ce2de1f"
-weight: 999
+weight: 66
 toc: true
 type: docs
 ---

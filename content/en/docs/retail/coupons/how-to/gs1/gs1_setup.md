@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "gs1_setup-b86ea27d61f72bce6632251f402e974c"
-weight: 100
+weight: 35
 toc: true
 type: docs
 ---

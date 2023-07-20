@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "global_profile-e66fca50550421beeeb4a87f50f366f9"
-weight: 100
+weight: 21
 toc: true
 type: docs
 ---

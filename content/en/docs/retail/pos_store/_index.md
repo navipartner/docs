@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_store-1a1224226d5812a7d5eedd387170850c"
-weight: 999
+weight: 55
 toc: true
 type: docs
 ---

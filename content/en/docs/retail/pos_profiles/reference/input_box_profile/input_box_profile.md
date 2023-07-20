@@ -1,5 +1,5 @@
 ---
-title: "POS Input Box Profile (reference guide)"
+title: "POS Input Box Profile"
 description: "The POS Input Box Profile is used for setting up which data will be recognized in the input box in a POS Unit."
 lead: ""
 date: 2023-07-04T15:23:46+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "input_box_profile-351ec7949c1a360a0f90b84bb23e07b4"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

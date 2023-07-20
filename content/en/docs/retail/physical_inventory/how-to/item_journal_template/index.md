@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "item_journal_template-b81a02eb9bbe78c4c56c7d968d3ceaff"
-weight: 999
+weight: 100
 toc: true
 type: docs
 ---

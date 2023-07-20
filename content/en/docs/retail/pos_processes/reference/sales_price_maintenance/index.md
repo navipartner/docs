@@ -1,5 +1,5 @@
 ---
-title: "Sales price maintenance (reference guide)"
+title: "Sales price maintenance"
 description: ""
 lead: ""
 date: 2023-07-12T14:01:43+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sales_price_maintenance-eeae5a64ceb45d152021afc6e72357de"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---

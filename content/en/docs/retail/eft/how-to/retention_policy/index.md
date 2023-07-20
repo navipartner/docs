@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "retention_policy-046bce42518bc05253271286981fb32a"
-weight: 999
+weight: 26
 toc: true
 type: docs
 ---

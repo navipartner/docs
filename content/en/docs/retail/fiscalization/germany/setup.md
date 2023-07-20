@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup-8df0c2c4fc338a8069a445f6e00c687c"
-weight: 999
+weight: 77
 toc: true
 type: docs
 ---

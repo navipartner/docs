@@ -1,5 +1,5 @@
 ---
-title: "POS Display Profile (reference guide)"
+title: "POS Display Profile"
 description: ""
 lead: ""
 date: 2023-07-04T15:01:55+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "display_profile-cf257216b65432727a668aa9fed112ae"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

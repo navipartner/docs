@@ -1,5 +1,5 @@
 ---
-title: "Tax-free profile parameters (reference guide)"
+title: "Tax-free profile parameters"
 description: ""
 lead: ""
 date: 2023-07-07T12:07:52+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "params_ref-6804ab2a4e22ddd14fa3b6586552853b"
-weight: 999
+weight: 72
 toc: true
 type: docs
 ---

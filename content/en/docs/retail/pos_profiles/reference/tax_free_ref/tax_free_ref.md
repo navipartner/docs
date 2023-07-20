@@ -1,5 +1,5 @@
 ---
-title: "POS tax-free profile (reference guide)"
+title: "POS tax-free profile"
 description: "If a shop is tax-free, all sales performed in it are exempt from the payment of certain taxes/duties. In the tax-free profile, it's necessary to set a handler for the Global Blue or the Premier Tax Free interface. "
 lead: ""
 date: 2023-07-05T10:36:54+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "tax_free_ref-dbd945a4bf1cd9422b700787ad07517d"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

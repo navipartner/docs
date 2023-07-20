@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "stocktake_worksheet-297b4292680e3efd3eacbb4cd3634698"
-weight: 999
+weight: 100
 toc: true
 type: docs
 ---

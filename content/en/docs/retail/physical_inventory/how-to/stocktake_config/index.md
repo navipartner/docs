@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "stocktake_config-9124a04d031617f12c0a81e05145ac45"
-weight: 999
+weight: 100
 toc: true
 type: docs
 ---

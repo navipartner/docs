@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "bluetooth-67ad883cbf58abc529d8407ad50afee2"
-weight: 999
+weight: 131
 toc: true
 type: docs
 ---

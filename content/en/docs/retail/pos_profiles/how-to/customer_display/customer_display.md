@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "customer_display-2a4a943981df0a57cb801d7c71fb300e"
-weight: 100
+weight: 21
 toc: true
 type: docs
 ---

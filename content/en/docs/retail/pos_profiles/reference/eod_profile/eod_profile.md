@@ -1,5 +1,5 @@
 ---
-title: "End-of-Day Profile (reference guide)"
+title: "End-of-Day Profile"
 description: ""
 lead: ""
 date: 2023-07-04T15:19:37+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "eod_profile-95cb4f27fc56a980294e007bde68f1fb"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

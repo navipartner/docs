@@ -1,5 +1,5 @@
 ---
-title: "SMS Setup (reference guide)"
+title: "SMS Setup"
 description: ""
 lead: ""
 date: 2023-07-10T22:39:33+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sms_ref-5d6c83d929f25794e304b2e4cd0d47e7"
-weight: 999
+weight: 66
 toc: true
 type: docs
 ---

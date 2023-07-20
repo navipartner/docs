@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "meal_eco_setup-03e15c19b2583407077e6f6e3c6d6857"
-weight: 999
+weight: 45
 toc: true
 type: docs
 ---

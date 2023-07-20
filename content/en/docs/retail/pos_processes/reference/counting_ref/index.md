@@ -1,5 +1,5 @@
 ---
-title: "POS Counting screen (reference guide)"
+title: "POS Counting screen"
 description: ""
 lead: ""
 date: 2023-07-07T13:03:46+02:00

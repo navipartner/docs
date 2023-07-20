@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "card_surcharge-7eed0384642de1cadf97b168ed5314b2"
-weight: 999
+weight: 26
 toc: true
 type: docs
 ---

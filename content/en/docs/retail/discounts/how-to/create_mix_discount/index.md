@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_mix_discount-489a6995ea4172756c78671fe98700f6"
-weight: 130
+weight: 40
 toc: true
 type: docs
 ---
