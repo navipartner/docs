@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "intro"
-weight: 10
+weight: 1
 toc: true
 type: docs
 ---

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "security_profiles-f445f306f29aebc7635df78a7c604ea2"
-weight: 10
+weight: 100
 toc: true
 type: docs
 ---

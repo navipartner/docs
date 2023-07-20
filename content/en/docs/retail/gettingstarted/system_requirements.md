@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "system_requirements"
-weight: 20
+weight: 2
 toc: true
 type: docs
 ---

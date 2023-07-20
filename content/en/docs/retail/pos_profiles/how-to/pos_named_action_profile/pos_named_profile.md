@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "pos_named_action_profile-8d88255ebbdc0a7e0e611a1203702b52"
-weight: 10
+weight: 100
 toc: true
 type: docs
 ---

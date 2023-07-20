@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "new_coupon-2f00a52bb7f64a705fce84513324e704"
-weight: 10
+weight: 100
 toc: true
 type: docs
 ---

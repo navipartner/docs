@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "hw_connector"
-weight: 30
+weight: 2
 toc: true
 type: docs
 ---
