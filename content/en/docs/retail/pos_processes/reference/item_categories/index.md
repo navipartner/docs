@@ -1,5 +1,5 @@
 ---
-title: "Item categories (reference guide)"
+title: "Item categories"
 description: ""
 lead: ""
 date: 2023-07-12T13:49:53+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "item_categories-87266ed9134ca63ea6de3bd5d4920d8a"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---

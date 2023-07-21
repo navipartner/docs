@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "click_and_collect"
     identifier: "intro-46612bab9696f708185eb830b13cf34d"
-weight: 10
+weight: 50
 toc: true
 type: docs
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Coupon types (reference guide)"
+title: "Coupon types"
 description: ""
 lead: ""
 date: 2023-07-05T17:11:29+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "coupon_types-d0ef46fe5024a9d8c4651b9eda1b976b"
-weight: 999
+weight: 36
 toc: true
 type: docs
 ---

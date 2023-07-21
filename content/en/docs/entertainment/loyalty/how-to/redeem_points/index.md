@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "redeem_points-4cded12b3967b016e3aac86dcf551dc1"
-weight: 999
+weight: 162
 toc: true
 type: docs
 ---

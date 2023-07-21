@@ -1,5 +1,5 @@
 ---
-title: "POS View Profile (reference guide)"
+title: "POS View Profile"
 description: ""
 lead: ""
 date: 2023-07-05T10:33:41+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "view_profile_ref-f7ea15c2eb0bc2823e76bf8bd9347631"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

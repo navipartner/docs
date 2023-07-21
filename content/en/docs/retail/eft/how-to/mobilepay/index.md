@@ -1,5 +1,5 @@
 ---
-title: "Set up integration with MobilePay in NP Retail"
+title: "Set up integration with MobilePay in NP Retail (EFT)"
 description: ""
 lead: ""
 date: 2023-07-06T09:52:06+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "mobilepay-3a414a541a3ada398db5cdaf5a7e4f2f"
-weight: 999
+weight: 26
 toc: true
 type: docs
 ---

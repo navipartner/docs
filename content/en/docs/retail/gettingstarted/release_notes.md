@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "release_notes"
-weight: 35
+weight: 2
 toc: true
 type: docs
 ---

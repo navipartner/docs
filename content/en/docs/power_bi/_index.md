@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "power_bi-1dc089503832acc253cbb98d8cecc76b"
-weight: 999
+weight: 210
 toc: true
 type: docs
 ---

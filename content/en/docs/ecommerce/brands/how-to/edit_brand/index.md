@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "edit_brand-c2b3f86d017537f319110458b6f33e9e"
-weight: 999
+weight: 186
 toc: true
 type: docs
 ---

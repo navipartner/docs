@@ -1,5 +1,5 @@
 ---
-title: "POS actions (reference guide)"
+title: "POS actions"
 description: ""
 lead: ""
 date: 2023-07-12T13:53:21+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_actions_ref-d5364fc54cc977bd3268d6ab93bcc686"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---

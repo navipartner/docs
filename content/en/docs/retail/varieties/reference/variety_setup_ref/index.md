@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "variety_setup_ref-118711abe9b14ebcc7436fca74ab330a"
-weight: 999
+weight: 97
 toc: true
 type: docs
 ---

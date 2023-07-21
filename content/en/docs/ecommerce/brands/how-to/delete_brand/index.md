@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "delete_brand-765cbd7340c74b7b13f46ebb6c1ce632"
-weight: 999
+weight: 186
 toc: true
 type: docs
 ---

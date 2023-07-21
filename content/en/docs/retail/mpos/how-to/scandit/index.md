@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "scandit-3726abdaeb2adfa3dc3b4ccc3c534b09"
-weight: 999
+weight: 131
 toc: true
 type: docs
 ---

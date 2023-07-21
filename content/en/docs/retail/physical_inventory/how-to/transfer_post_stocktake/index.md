@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "transfer_post_stocktake-ebd79c5933fb427aa3389e85b7f7668c"
-weight: 999
+weight: 100
 toc: true
 type: docs
 ---

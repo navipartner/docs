@@ -1,5 +1,5 @@
 ---
-title: "Item add-ons (reference guide)"
+title: "Item add-ons"
 description: ""
 lead: ""
 date: 2023-07-11T16:03:44+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "item_addon_ref-2d4e71cdc3ada5e18111bff60384962d"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---

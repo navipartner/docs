@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "event_templates-e29f9d3cbe27c6b4a4ec4a2eac3f70dd"
-weight: 999
+weight: 81
 toc: true
 type: docs
 ---

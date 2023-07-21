@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_bins-bf40bb8445d6e43d7a0e1f1584ddfc27"
-weight: 999
+weight: 14
 toc: true
 type: docs
 ---

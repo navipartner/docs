@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pepper_install_button-c5fc5b91164ac3c9b65100188e0947ad"
-weight: 104
+weight: 26
 toc: true
 type: docs
 ---

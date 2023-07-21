@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pepper_terminal-298f246ae34124230aaab79056002dee"
-weight: 102
+weight: 26
 toc: true
 type: docs
 ---

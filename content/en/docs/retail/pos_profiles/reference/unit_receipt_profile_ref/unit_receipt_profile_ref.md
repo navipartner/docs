@@ -1,5 +1,5 @@
 ---
-title: "POS Unit Receipt Text Profile (reference guide)"
+title: "POS Unit Receipt Text Profile"
 description: "The POS Unit Receipt Text Profile can be used for assigning additional text to the receipt footer area. Every POS unit can contain distinct text in the footer if they have different POS unit Receipt Text Profiles with different text in them."
 lead: ""
 date: 2023-07-05T10:31:28+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "unit_receipt_profile_ref-5f42c9a658b448738a3bde2baf46f345"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---

@@ -1,5 +1,5 @@
 ---
-title: "POS Payment View Event Setup (reference guide)"
+title: "POS Payment View Event Setup"
 description: ""
 lead: ""
 date: 2023-07-12T13:56:27+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_view_ref-06cd95e79a1921c3b62f100874a793fb"
-weight: 999
+weight: 18
 toc: true
 type: docs
 ---
@@ -21,9 +21,9 @@ The **POS Payment View Event Setup** page consists of two sections:
 
 In the **General** section you can define which dimension will be used, and how often it will be displayed in POS transactions:
 
-| Field Name      | Description |
+| Field Name  | Description |
 | ----------- | ----------- |
-| **Dimension Popup Enabled**       | If this field is checked a pop-up window will be displayed when the view is switched from sales to payment in the POS unit.   |
+| **Dimension Popup Enabled** | If this field is checked a pop-up window will be displayed when the view is switched from sales to payment in the POS unit.   |
 | **Dimension Code**   | Specifies which dimension will pop up in the POS.        |
 | **Popup per**  | A popup can be displayed per a **POS Store**, **POS unit** or **All**. |
 | **Popup every** | Specifies the time interval after which the popup will recur. |
@@ -34,4 +34,4 @@ In the **General** section you can define which dimension will be used, and how 
 
 In **Popup Dimension Filter** section you can set up an **Item** or an **Item Category** which needs to be in the sales lines so the popup is displayed in the POS.
 
-{{< alert icon="📝" text="To be able to use this functionality in POS transactions, in <b>POS scenarios</b> for <b>PAYMENT_VIEW<B>, you need to check the <b>Popup Dimension</b> checkbox."/>}}
+{{< alert icon="📝" text="To be able to use this functionality in POS transactions, in <b>POS scenarios</b> for <b>PAYMENT_VIEW</b>, you need to check the <b>Popup Dimension</b> checkbox."/>}}

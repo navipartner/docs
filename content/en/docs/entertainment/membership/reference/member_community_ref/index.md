@@ -1,5 +1,5 @@
 ---
-title: "Member community (reference guide)"
+title: "Member community"
 description: ""
 lead: ""
 date: 2023-07-12T15:55:52+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "member_community_ref-9dfa1bd6abf7cfbf87db8b94594a8ef8"
-weight: 999
+weight: 167
 toc: true
 type: docs
 ---

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "how-to-ec2cad566f4b5118816f107b03e52fff"
-weight: 999
+weight: 60
 toc: true
 type: docs
 ---

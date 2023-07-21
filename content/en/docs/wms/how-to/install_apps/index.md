@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "install_apps-df3e583beb710482a39bad54378a95f7"
-weight: 999
+weight: 191
 toc: true
 type: docs
 ---

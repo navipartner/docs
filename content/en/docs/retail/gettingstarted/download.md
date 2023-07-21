@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "download"
-weight: 15
+weight: 1
 toc: true
 type: docs
 ---
@@ -43,11 +43,11 @@ Once you've completed the initial setup, there some additional configurations th
 
 ### Install Major Tom
 
-Refer to the [how-to guide](major_tom.md) for installing our desktop POS software.
+Refer to the [how-to guide]({{< ref "major_tom.md" >}}) for installing our desktop POS software.
 
 ### Install Minor Tom
 
-Refer to the [how-to guide](minor_tom) for installing the abbreviated version of our desktop POS software. 
+Refer to the [how-to guide]({{< ref "minor_tom.md" >}}) for installing the abbreviated version of our desktop POS software. 
 
 ### Install ClickOnce
 

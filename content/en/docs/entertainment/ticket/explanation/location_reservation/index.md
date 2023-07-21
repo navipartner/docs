@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "location_reservation-6c4be90b4fe38cd1e719035db11e0df4"
-weight: 999
+weight: 173
 toc: true
 type: docs
 ---

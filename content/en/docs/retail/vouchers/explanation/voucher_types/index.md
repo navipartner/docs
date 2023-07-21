@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "voucher_types-a5569e27d8d01c54d56f7667949e08d9"
-weight: 999
+weight: 46
 toc: true
 type: docs
 ---

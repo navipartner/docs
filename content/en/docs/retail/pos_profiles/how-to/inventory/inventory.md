@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "inventory-ca6eeeaf3e7eadc7201b7f04111bb3dc"
-weight: 10
+weight: 21
 toc: true
 type: docs
 ---

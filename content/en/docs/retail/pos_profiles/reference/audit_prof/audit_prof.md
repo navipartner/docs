@@ -1,5 +1,5 @@
 ---
-title: "POS Audit Profile (reference guide)"
+title: "POS Audit Profile"
 description: "The POS audit profile is used for assigning different number series and different rules for printing to different POS units."
 lead: ""
 date: 2023-07-04T14:57:36+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "audit_prof-a7a646d42226fd06129ff1258d8aacb4"
-weight: 999
+weight: 22
 toc: true
 type: docs
 ---
