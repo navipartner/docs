@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "rfid_admin-b7d7b849c18470c040ade9c89793be23"
-weight: 999
+weight: 193
 toc: true
 type: docs
 ---

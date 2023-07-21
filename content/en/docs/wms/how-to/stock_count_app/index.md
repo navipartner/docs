@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "stock_count_app-7b593348cbda7b096d710a47ecf8728c"
-weight: 999
+weight: 191
 toc: true
 type: docs
 ---
