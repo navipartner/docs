@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-NP Retail is a solution which combines the functionalities of the POS and ERP systems based on Microsoft Dynamics 365 Business Central. This framework enables synchronizing data across different channels to offer information and insights to small and mid-sized businesses, and assisting them with improving overall customer service. Some of the improved business aspects include financial management, accounting, management of orders and products, inventory management, reports, and statistics, which are all merged into a single solution. 
+NP Retail is a solution which combines the functionalities of the POS and ERP systems based on [Microsoft Dynamics 365 Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/). This framework enables synchronizing data across different channels to offer information and insights to small and mid-sized businesses, and assisting them with improving overall customer service. Some of the improved business aspects include [financial management]({{< ref "../pos_processes/explanation/pricing.md" >}}), [accounting]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}), management of orders and products, inventory management, [reports]({{< ref "../reports/intro.md" >}}), and [statistics]({{< ref "../pos_processes/reference/pos_info_card_ref.md" >}}), which are all merged into a single solution. 
 
 ## Get started
 
@@ -26,6 +26,12 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 - Download and install the [HW Connector]({{< ref "hw_connector.md" >}}) app to bridge the local hardware to the WEB MT interface of the POS.
 
 - If you're unsure whether our solution is supported by your hardware components, refer to the [system requirements]({{< ref "system_requirements.md" >}}).
+
+## Get started with NP Retail setup wizard 
+
+NaviPartner has developed an [onboarding setup wizard for NP Retail]({{< ref "getting_started_wizard.md" >}}), which guides you through establishing base configuration of all essential modules and features. Additionally, we have integrated the setup wizard with the POS Academy video library, which provides video support throughout the entire process.
+
+As soon as you've installed Business Central, and completed the basic setup of Business Central (chart of accounts, posting setup, VAT setup, sales & receivables setup, purchase & payables setup, and inventory setup), you can use this guide to speed up the rest of the process.
 
 ### What's new
 
