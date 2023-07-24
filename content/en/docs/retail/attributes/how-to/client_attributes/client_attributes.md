@@ -1,6 +1,6 @@
 ---
 title: "Set up client attributes"
-description: ""
+description: "Client attributes are extra fields that can be added to the **Item** and **Members** tables. They can be used for analysis and definition of specific properties associated with items or members. You can define these attributes in their respective **Client Attribute Cards**."
 lead: ""
 date: 2023-07-05T15:00:54+02:00
 lastmod: 2023-07-05T15:00:54+02:00

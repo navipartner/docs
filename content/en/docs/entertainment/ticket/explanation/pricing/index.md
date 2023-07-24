@@ -1,6 +1,6 @@
 ---
 title: "Ticket pricing"
-description: ""
+description: "Tickets can be priced either via the ERP pricing model, or via time-based pricing. The methods can be combined or used individually."
 lead: ""
 date: 2023-07-13T08:22:49+02:00
 lastmod: 2023-07-13T08:22:49+02:00

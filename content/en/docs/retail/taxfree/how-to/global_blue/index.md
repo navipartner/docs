@@ -33,7 +33,7 @@ The Global Blue tax free setup is performed in several sections of Business Cent
    Set up other parameters in the **Dialog** panel if needed.
 8. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Object Output Selection** and select the related link.
    The window from which the NP Retail print setup can be controlled is displayed.       
-9.  Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Logo Setup** and select the related link.    
+9.  Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter [**Retail Logo Setup**]({{< ref "../../../pos_processes/how-to/retail_logo/index.md" >}}) and select the related link.    
    A window in which logos can be uploaded and set up is displayed.   
 10. To make sure the Global Blue logo is printed out on the thermal tax-free vouchers, upload it in the **Retail Logo Setup** page with the keyword **TAXFREE**.          
    ![Global Blue Tax Free Logo Upload Example](tax-free-logo-setup.png)        
@@ -43,5 +43,8 @@ Tax-free vouchers can be printed out either as thermal or PDF, depending on the 
 
 ### Next steps
 
-- Move on to the [NAS setup]({{< ref "../../reference/nas_setup/index.md" >}}).
+Move on to the [NAS setup]({{< ref "../../reference/nas_setup/index.md" >}}).
 
+## Troubleshooting 
+
+[Tax-free troubleshooting]({{< ref "../../../../troubleshooting/tax_free.md" >}})

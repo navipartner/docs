@@ -29,9 +29,7 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 ## Get started with NP Retail setup wizard 
 
-NaviPartner has developed an [onboarding setup wizard for NP Retail]({{< ref "getting_started_wizard.md" >}}), which guides you through establishing base configuration of all essential modules and features. Additionally, we have integrated the setup wizard with the POS Academy video library, which provides video support throughout the entire process.
-
-As soon as you've installed Business Central, and completed the basic setup of Business Central (chart of accounts, posting setup, VAT setup, sales & receivables setup, purchase & payables setup, and inventory setup), you can use this guide to speed up the rest of the process.
+NaviPartner has developed an [onboarding setup wizard for NP Retail]({{< ref "getting_started_wizard.md" >}}), which guides you through the configuration process of all essential modules and features. Additionally, the setup wizard is accompanied with the [POS Academy video library](https://www.youtube.com/@NaviPartnerKbh), which provides tips and tricks for completing the setup more efficiently.
 
 ### What's new
 

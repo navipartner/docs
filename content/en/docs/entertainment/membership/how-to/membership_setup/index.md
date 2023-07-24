@@ -1,6 +1,6 @@
 ---
 title: "Set up Membership module web services"
-description: ""
+description: "Refer to this guide to set up the ticket web services for the Entertainment solution."
 lead: ""
 date: 2023-07-12T15:54:01+02:00
 lastmod: 2023-07-12T15:54:01+02:00

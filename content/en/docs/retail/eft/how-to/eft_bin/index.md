@@ -1,6 +1,6 @@
 ---
 title: "Set up EFT BIN mapping"
-description: ""
+description: "In most Terminal Integrations (other than Pepper Integration and External Terminal) the **EFT Mapping Group List** is used for mapping various credit cards to the POS Payment Methods so that the payments can be posted correctly in the **POS Posting Setup**."
 lead: ""
 date: 2023-07-06T10:03:06+02:00
 lastmod: 2023-07-06T10:03:06+02:00

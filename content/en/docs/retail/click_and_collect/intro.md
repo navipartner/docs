@@ -1,6 +1,6 @@
 ---
 title: "C&C overview"
-description: ""
+description: "The Click & Collect module enables customers to collect online orders in stores, thus avoiding delivery charges and making the delivery time shorter. An order can also just be placed in one store, and collected in another one. The basic principle is that order placements and order-collecting are separated."
 lead: ""
 date: 2023-07-05T16:26:56+02:00
 lastmod: 2023-07-05T16:26:56+02:00

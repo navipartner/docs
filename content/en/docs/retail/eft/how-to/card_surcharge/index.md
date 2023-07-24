@@ -1,6 +1,6 @@
 ---
 title: "Set up card surcharge for terminal payments"
-description: ""
+description: "This topic describes the process of setting up terminal payments to handle EFT transactions which include a surcharge, which results in the amount received from the terminal being higher than the amount requested from the POS."
 lead: ""
 date: 2023-07-11T12:27:07+02:00
 lastmod: 2023-07-11T12:27:07+02:00

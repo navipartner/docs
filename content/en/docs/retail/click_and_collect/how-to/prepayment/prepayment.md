@@ -1,6 +1,6 @@
 ---
-title: "Set up prepayment"
-description: ""
+title: "Set up prepayment on POS"
+description: "Refer to this guide to set up the prepayment flow of 100% on ordering for the Click & Collect module. "
 lead: ""
 date: 2023-07-05T16:30:31+02:00
 lastmod: 2023-07-05T16:30:31+02:00

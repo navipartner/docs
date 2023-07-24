@@ -1,6 +1,6 @@
 ---
 title: "Import EFT reconciliation files, match and post them"
-description: ""
+description: "In the EFT module, it is possible to import teller files and match transactions from those files with transactions from **EFT Transaction Requests**, after which the reconciliation can be posted."
 lead: ""
 date: 2023-07-06T10:04:40+02:00
 lastmod: 2023-07-06T10:04:40+02:00

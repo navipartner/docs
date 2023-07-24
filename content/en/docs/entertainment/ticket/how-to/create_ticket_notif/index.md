@@ -1,6 +1,6 @@
 ---
 title: "Create a ticket notification profile"
-description: ""
+description: "Refer to this guide to create a ticket notification profile and assign the notification profile to the Ticket BOM lines."
 lead: ""
 date: 2023-07-13T08:48:03+02:00
 lastmod: 2023-07-13T08:48:03+02:00
@@ -14,6 +14,8 @@ weight: 171
 toc: true
 type: docs
 ---
+
+To create a ticket notification profile, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Ticket Notification Profile List**, and choose the related link.
 2. Click the **Ticket Notification Profile List** page and click **New**.        

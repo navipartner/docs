@@ -35,7 +35,7 @@ The NP Retail Click & Collect feature has been expanded with the Prepayment feat
 
 {{< alert icon="📝" text="This feature isn’t active by default. If you wish to enable it in your environment, there are several parameters that need to be configured first." />}}
 
-For more information and operating instructions, refer to the article on [Setting up prepayment for Click & Collect]
+For more information and operating instructions, refer to the article on [Setting up prepayment for Click & Collect]({{< ref "../click_and_collect/how-to/prepayment_bc/index.md" >}})
 
 
 ## Version 22.0 (May 28th 2023)

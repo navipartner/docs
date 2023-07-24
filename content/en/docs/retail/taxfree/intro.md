@@ -35,3 +35,7 @@ They all work by receiving receipt information from NPRetail in return for a tax
 A fee of the tax refund amount is taken in return for the service provided by the tax free service provider.
 
 {{< alert icon="📝" text="It is also possible to provide tax free services without a middle-man tax free provider, but the details of this, regarding bookkeeping, storage of documents and compliance will depend on the country legislation."/>}}
+
+## Troubleshooting 
+
+[Tax-free troubleshooting]({{< ref "../../troubleshooting/tax_free.md" >}})

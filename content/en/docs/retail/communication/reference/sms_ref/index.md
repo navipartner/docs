@@ -1,6 +1,6 @@
 ---
 title: "SMS Setup"
-description: ""
+description: "Refer to the tables with descriptions of dedicated SMS Setup fields."
 lead: ""
 date: 2023-07-10T22:39:33+02:00
 lastmod: 2023-07-10T22:39:33+02:00

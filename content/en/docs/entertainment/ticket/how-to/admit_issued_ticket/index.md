@@ -1,6 +1,6 @@
 ---
 title: "Admit an issued ticket"
-description: ""
+description: "It is possible to admit issued tickets both from the POS and Business Central. Read this guide to learn more."
 lead: ""
 date: 2023-07-13T08:28:51+02:00
 lastmod: 2023-07-13T08:28:51+02:00

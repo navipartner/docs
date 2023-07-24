@@ -1,6 +1,6 @@
 ---
 title: "Coupon types"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Coupon Type Setup fields."
 lead: ""
 date: 2023-07-05T17:11:29+02:00
 lastmod: 2023-07-05T17:11:29+02:00
@@ -71,3 +71,7 @@ In the section **Apply Discount** you can define how the discount will be applie
 | **Multi-Use Qty.** | The number of times a customer is allowed to use the coupon. |
 
 ![apply](Apply%20discount.png)
+
+## Troubleshooting 
+
+[Coupon troubleshooting]({{< ref "../../../../troubleshooting/coupon.md" >}})

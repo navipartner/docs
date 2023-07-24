@@ -1,6 +1,6 @@
 ---
 title: "Set up Flexiiterm integration (EFT)"
-description: ""
+description: "Flexiiterm is used for integrating NaviPartner with the older NETS PSAM terminals. To set up the integration, refer to this guide."
 lead: ""
 date: 2023-07-06T09:45:18+02:00
 lastmod: 2023-07-06T09:45:18+02:00

@@ -1,6 +1,6 @@
 ---
 title: "NP Entertainment product overview"
-description: ""
+description: "NP Entertainment is all-in-one ticketing and membership management system that streamlines sales and validation of tickets and memberships."
 lead: ""
 date: 2023-07-12T15:49:53+02:00
 lastmod: 2023-07-12T15:49:53+02:00
@@ -14,7 +14,6 @@ weight: 160
 toc: true
 type: docs
 ---
-
 
 NP Entertainment is all-in-one ticketing and membership management system that streamlines sales and validation of tickets and memberships.
 

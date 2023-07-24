@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The setup of the POS balancing feature is mainly done in the **POS End of Day Profile**. You can define different profiles, and attach them to an individual POS unit, giving it its own profile.
+The setup of the [POS balancing feature]({{< ref "../../explanation/end-of-day-exp.md" >}}) is mainly done in the **POS End of Day Profile**. You can define different profiles, and attach them to an individual POS unit, giving it its own profile.
 
 To configure the POS balancing feature, follow the provided steps:
 
@@ -55,3 +55,7 @@ For more information about individual fields and options on the **Counting** scr
 ### Generate end-of-day report (POS balance)
 
 Once the necessary configurations are complete, you can move on to [balancing the POS]({{< ref "generate_eod.md" >}}) at the end of the work shift.
+
+## Troubleshooting 
+
+[End-of-day troubleshooting]({{< ref "../../../../troubleshooting/eod.md" >}})

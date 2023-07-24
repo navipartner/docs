@@ -1,6 +1,6 @@
 ---
 title: "Admission schedule (reference guide)"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Admission Schedule fields."
 lead: ""
 date: 2023-07-13T09:04:02+02:00
 lastmod: 2023-07-13T09:04:02+02:00

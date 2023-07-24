@@ -1,6 +1,6 @@
 ---
 title: "Create postpaid tickets"
-description: ""
+description: "Postpaid tickets are intended for situations when the ticket reseller can't commit to all tickets in the batch. To learn more, refer to this guide."
 lead: ""
 date: 2023-07-13T08:35:44+02:00
 lastmod: 2023-07-13T08:35:44+02:00
@@ -17,7 +17,7 @@ type: docs
 
 Postpaid tickets behave in much the same way as prepaid tickets. Postpaid tickets are intended for situations when the ticket reseller can't commit to all tickets in the batch. In this case, the reseller should receive the invoice for the redeemed tickets.
 
-Postpaid tickets are created in advance. To create them, follow the provided steps:
+To create them, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Ticket BOM**, and choose the related link.   
 2. Place the cursor on the item number line you wish to create tickets for, and click the ribbon action **Create Tickets**, followed by **Create Postpaid Tickets**.

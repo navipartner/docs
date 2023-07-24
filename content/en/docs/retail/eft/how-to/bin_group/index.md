@@ -1,6 +1,6 @@
 ---
 title: "Set up a new EFT BIN group"
-description: ""
+description: "If a credit card is used, it can be found in the **EFT AID Mapping List**. It will select the corresponding EFT Mapping Group, instead of looking for Card Issuer ID and then EFT BIN Ranges individually."
 lead: ""
 date: 2023-07-06T09:31:52+02:00
 lastmod: 2023-07-06T09:31:52+02:00

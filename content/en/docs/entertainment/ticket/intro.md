@@ -1,6 +1,6 @@
 ---
 title: "Ticket Module overview"
-description: ""
+description: "The ticketing module offers an omnichannel solution for customers in the entertainment industry."
 lead: ""
 date: 2023-07-12T16:00:54+02:00
 lastmod: 2023-07-12T16:00:54+02:00

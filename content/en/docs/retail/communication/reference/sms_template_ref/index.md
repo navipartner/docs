@@ -1,6 +1,6 @@
 ---
 title: "SMS template"
-description: ""
+description: "The SMS template feature allows you to compose text templates for the SMS message which are sent out to customers in specific scenarios. For example, an SMS can be sent from the **Customer Card** as a reminder that the customer has a payment that needs to be balanced."
 lead: ""
 date: 2023-07-10T22:40:15+02:00
 lastmod: 2023-07-10T22:40:15+02:00

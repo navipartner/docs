@@ -1,6 +1,6 @@
 ---
 title: "Accessing NaviPartner Artifact Feeds"
-description: ""
+description: "Refer to this guide to learn how to access NP artifact feeds."
 lead: ""
 date: 2023-07-18T13:33:11+02:00
 lastmod: 2023-07-18T13:33:11+02:00

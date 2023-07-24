@@ -1,5 +1,5 @@
 ---
-title: "POS Self-Service Profile troubleshooting"
+title: "Self-Service Profile troubleshooting"
 description: ""
 lead: ""
 date: 2023-07-18T13:26:20+02:00

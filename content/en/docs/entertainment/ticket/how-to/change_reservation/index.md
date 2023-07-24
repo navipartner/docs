@@ -1,6 +1,6 @@
 ---
 title: "Change Ticket Reservation"
-description: ""
+description: "With this functionality, it is easy for you to modify a customer's ticket reservation in regards to time and date."
 lead: ""
 date: 2023-07-13T08:30:16+02:00
 lastmod: 2023-07-13T08:30:16+02:00

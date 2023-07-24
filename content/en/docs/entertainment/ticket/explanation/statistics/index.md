@@ -1,6 +1,6 @@
 ---
 title: "Ticket Statistics and Forecast"
-description: ""
+description: "There are several ways to generate ticket-related statistics. For this purpose, two flexible multidimensional access statistics pages are available in the **Report and Analysis** section."
 lead: ""
 date: 2023-07-13T08:24:27+02:00
 lastmod: 2023-07-13T08:24:27+02:00

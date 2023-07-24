@@ -1,6 +1,6 @@
 ---
 title: "Set up DIY printed tickets"
-description: ""
+description: "Refer to this guide to set up a DIY printed ticket."
 lead: ""
 date: 2023-07-13T08:55:07+02:00
 lastmod: 2023-07-13T08:55:07+02:00

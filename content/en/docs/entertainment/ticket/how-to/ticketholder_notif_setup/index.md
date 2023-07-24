@@ -1,6 +1,6 @@
 ---
 title: "Generate ticket-holder notifications"
-description: ""
+description: "Notifications for ticketholders can be created and sent from the ticket management module. Notifications are generated from the admission schedule entries that have reservations."
 lead: ""
 date: 2023-07-13T09:00:02+02:00
 lastmod: 2023-07-13T09:00:02+02:00

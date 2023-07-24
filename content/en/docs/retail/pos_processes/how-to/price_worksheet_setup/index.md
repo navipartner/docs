@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a **Default Price List** in the **Price Worksheet** administrative section.
+If you want to update prices for multiple items without having to change settings in each **Item Card** individually, you can create a **Default Price List** in the **Price Worksheet** administrative section.
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Price Worksheet** and open the related link.      
 2. Populate the following fields in the **General** section:

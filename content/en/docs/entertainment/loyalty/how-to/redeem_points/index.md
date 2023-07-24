@@ -1,6 +1,6 @@
 ---
 title: "Redeem points on sale"
-description: ""
+description: "When a customer already has enough points to use them and benefit from the loyalty program they need to follow the provided steps to redeem points on sale."
 lead: ""
 date: 2023-07-13T10:34:51+02:00
 lastmod: 2023-07-13T10:34:51+02:00

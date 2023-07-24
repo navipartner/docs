@@ -1,6 +1,6 @@
 ---
 title: "Edit a brand"
-description: ""
+description: "Edit a new brand in the E-commerce solution with the help of a how-to guide."
 lead: ""
 date: 2023-07-18T10:52:44+02:00
 lastmod: 2023-07-18T10:52:44+02:00

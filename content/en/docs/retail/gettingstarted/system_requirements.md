@@ -90,8 +90,8 @@ LAN and Wi-Fi need to be on the same subnet. It's recommended that all POS/MPOS 
 
 Our solution works with a wide variety of hardware. Feel free to reach out to us if you have hardware that isn't mentioned on this page. We will be happy to assess whether it can be used or not. 
 
-> [!Important]
-> While many hardware devices can run on our solutions, we only offer Support and Hotline on a [limited list](https://image.navipartner.dk/wp-content/uploads/support-service-level-agreement.pdf). 
+   {{< alert icon="❗" text="While many hardware devices can run on our solutions, we only offer Support and Hotline on a <a href=\"https://image.navipartner.dk/wp-content/uploads/support-service-level-agreement.pdf\">limited list</a>." />}}
+
 
 ### Barcode scanners
 

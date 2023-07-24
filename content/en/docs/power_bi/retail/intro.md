@@ -1,6 +1,6 @@
 ---
 title: "NP Power BI for Retail "
-description: ""
+description: "The Power BI Retail Report is an exceptionally useful tool for analyzing sales through multidimensional views and gaining a detailed insight into business performance at the right point in time."
 lead: ""
 date: 2023-07-18T11:43:30+02:00
 lastmod: 2023-07-18T11:43:30+02:00

@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The POS balance report, or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing.
+The [POS balance report]({{< ref "../../explanation/end-of-day-exp.md" >}}), or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing.
 
 To generate the POS balance report and count the contents of the payment bin, make sure the prerequisite is met and follow the provided steps:
 
@@ -53,3 +53,7 @@ To generate the POS balance report and count the contents of the payment bin, ma
    When you open the POS for the next shift, you will be prompted to state whether the recorded payment bin contents are correct. If the contents are incorrect, you can perform balancing again to correct the mistake.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osYCSzngg-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Troubleshooting
+
+[End-of-day troubleshooting]({{< ref "../../../../troubleshooting/eod.md" >}})
