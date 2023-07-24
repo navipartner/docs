@@ -29,7 +29,7 @@ After you’ve been acquainted with the setup, you can proceed to download and i
 
 For more information and operating instructions refer to the article on the [Getting Started Wizard]({{< ref "getting_started_wizard.md" >}})
 
-### Click and Collect prepayment 
+### Click and Collect prepayment  
 
 The NP Retail Click & Collect feature has been expanded with the Prepayment feature. When creating a Click & Collect order, it is now possible to choose whether the prepayment will be allowed for the purchase amount or percentage. 
 
