@@ -1,0 +1,7 @@
+
+@include media-breakpoint-up(lg) {
+  #suggestions {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+}
