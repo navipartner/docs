@@ -129,7 +129,7 @@ Source:
   search.addEventListener('input', show_results, true);
 
   function show_results(){
-    const maxResult = 5;
+    const maxResult = 1000;
     var searchQuery = this.value;
     var results = index.search(searchQuery, {limit: maxResult, enrich: true});
 
