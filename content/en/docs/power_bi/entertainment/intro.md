@@ -1,6 +1,6 @@
 ---
 title: "NP Power BI for Entertainment"
-description: ""
+description: "The Power BI Entertainment Report is created as a tool for analyzing business operations related to the provided services, for instance, for organizing cultural events, exhibitions, performances, and amusement activities."
 lead: ""
 date: 2023-07-18T11:40:46+02:00
 lastmod: 2023-07-18T11:40:46+02:00

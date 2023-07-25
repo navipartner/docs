@@ -1,6 +1,6 @@
 ---
 title: "Create prepaid tickets"
-description: ""
+description: "Prepaid tickets are created, distributed, and paid in advance. To create and issue them, refer to this guide."
 lead: ""
 date: 2023-07-13T08:37:35+02:00
 lastmod: 2023-07-13T08:37:35+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up Pepper installation button"
-description: ""
+description: "Before you can use Pepper on your POS, you need to set up the button on the POS and install Pepper locally on your computer through the POS."
 lead: ""
 date: 2023-07-06T10:06:08+02:00
 lastmod: 2023-07-06T10:06:08+02:00

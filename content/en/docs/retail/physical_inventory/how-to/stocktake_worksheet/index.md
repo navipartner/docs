@@ -1,6 +1,6 @@
 ---
 title: "Create a stock-take worksheet and worksheet lines"
-description: ""
+description: "Refer to this article to learn how to create a stock-take worksheet and the accompanying worksheet lines."
 lead: ""
 date: 2023-07-06T15:28:57+02:00
 lastmod: 2023-07-06T15:28:57+02:00

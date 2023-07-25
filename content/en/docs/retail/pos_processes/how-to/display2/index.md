@@ -1,6 +1,6 @@
 ---
 title: "Return items with the second POS screen"
-description: ""
+description: "The second POS screen can be used by customers to provide any sort of required input during a transaction in a store. For example, if a customer wishes to return an item, they may need to provide their signature, and phone number."
 lead: ""
 date: 2023-07-11T15:34:30+02:00
 lastmod: 2023-07-11T15:34:30+02:00

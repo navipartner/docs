@@ -1,6 +1,6 @@
 ---
 title: "Voucher types"
-description: ""
+description: "Retail vouchers can be used as a payment type in their own right, so the owner of the voucher can use them to purchase various goods and services."
 lead: ""
 date: 2023-07-11T09:53:13+02:00
 lastmod: 2023-07-11T09:53:13+02:00

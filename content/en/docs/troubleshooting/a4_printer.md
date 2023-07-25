@@ -1,6 +1,6 @@
 ---
 title: "A4 printer troubleshooting"
-description: ""
+description: "Refer to the A4 printer troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:02:57+02:00
 lastmod: 2023-07-18T13:02:57+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-When encountering a printer-related issue, t's generally a good idea to start by turning the printer off and on again.
+When encountering a printer-related issue, it's generally a good idea to start by turning the printer off and on again.
 
 #### How can I check whether the printer issues are power-related?
 

@@ -1,6 +1,6 @@
 ---
 title: "POS View Profile"
-description: ""
+description: "Learn how to use the available fields and options to set up the POS View Profile."
 lead: ""
 date: 2023-07-05T10:33:41+02:00
 lastmod: 2023-07-05T10:33:41+02:00

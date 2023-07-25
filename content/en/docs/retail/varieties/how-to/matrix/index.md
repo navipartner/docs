@@ -1,6 +1,6 @@
 ---
 title: "Set up variety matrix facilities on Sales Orders"
-description: ""
+description: "The Variety Matrix is used for configuring detailed item lines on various orders by matching the available attributes."
 lead: ""
 date: 2023-07-10T22:46:51+02:00
 lastmod: 2023-07-10T22:46:51+02:00

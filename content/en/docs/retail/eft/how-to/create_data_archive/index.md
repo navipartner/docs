@@ -1,6 +1,6 @@
 ---
 title: "Create data archives"
-description: ""
+description: "Follow this guide to manually create a data archive."
 lead: ""
 date: 2023-07-06T09:22:54+02:00
 lastmod: 2023-07-06T09:22:54+02:00

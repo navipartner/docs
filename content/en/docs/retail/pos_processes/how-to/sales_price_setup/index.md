@@ -1,6 +1,6 @@
 ---
 title: "Set up sales price "
-description: ""
+description: "You can define prices for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function."
 lead: ""
 date: 2023-07-11T16:22:19+02:00
 lastmod: 2023-07-11T16:22:19+02:00
@@ -15,13 +15,12 @@ toc: true
 type: docs
 ---
 
-You can define prices for specific items in the **Sales Price List** in which Microsoft has combined the Price functions with the Discount function. Let’s start with an example of Price, hence in the price list, the price is different from the Unit Price.
+You can define [prices]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the **Unit Price**.
 
-To access the Sales Price List, there are a few ways to do it: 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Sales Price List**, and choose the related link. 
 2. From **Item Card** access the **Sales Price** via **Special Sales Prices & Discount** in the ribbon.      
-   On an item level, you will get a line or a list if that item is already in a Sales Price of some sort. Otherwise, you will need to create a new list by selecting the **Sales Price List**.
+   On an item level, there will be a line or a list if that item is already in a Sales Price of some sort. Otherwise, you need to create a new list by selecting the **Sales Price List**.
 3. Click **Sales Prices & Discount** in the **Item Card** to access the **Sales Price** card.      
    Populate the following fields:
 

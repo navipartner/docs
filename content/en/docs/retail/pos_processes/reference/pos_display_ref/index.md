@@ -1,6 +1,6 @@
 ---
 title: "POS Unit Display"
-description: ""
+description: "In the **POS Unit Display** you can configure device-specific information for the **POS Display Profile**."
 lead: ""
 date: 2023-07-12T14:01:00+02:00
 lastmod: 2023-07-12T14:01:00+02:00

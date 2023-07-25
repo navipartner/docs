@@ -1,6 +1,6 @@
 ---
 title: "Email setup"
-description: ""
+description: "You can connect one or more email accounts to Business Central and share information and documents, such as sales, purchase orders and invoices, via email directly from within."
 lead: ""
 date: 2023-07-07T12:46:03+02:00
 lastmod: 2023-07-07T12:46:03+02:00

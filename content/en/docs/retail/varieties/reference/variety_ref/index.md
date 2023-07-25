@@ -1,6 +1,6 @@
 ---
 title: "Variety (reference guide)"
-description: ""
+description: "The **Variety** administrative section contains the list of varieties created in the environment, along with some of their basic properties."
 lead: ""
 date: 2023-07-10T22:51:29+02:00
 lastmod: 2023-07-10T22:51:29+02:00

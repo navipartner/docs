@@ -1,6 +1,6 @@
 ---
 title: "Create a POS theme"
-description: ""
+description: "Refer to this guide if you wish to create a new custom POS theme."
 lead: ""
 date: 2023-07-11T16:17:49+02:00
 lastmod: 2023-07-11T16:17:49+02:00

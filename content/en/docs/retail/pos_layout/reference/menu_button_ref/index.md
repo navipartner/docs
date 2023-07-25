@@ -1,6 +1,6 @@
 ---
 title: "POS Menu Buttons Setup"
-description: ""
+description: "Refer to the tables with descriptions of dedicated POS Menu Buttons Setup fields."
 lead: ""
 date: 2023-07-07T13:57:35+02:00
 lastmod: 2023-07-07T13:57:35+02:00

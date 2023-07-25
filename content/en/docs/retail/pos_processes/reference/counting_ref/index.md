@@ -1,6 +1,6 @@
 ---
 title: "POS Counting screen"
-description: ""
+description: "Refer to this article to learn what the fields and options in the POS Counting Screen are used for."
 lead: ""
 date: 2023-07-07T13:03:46+02:00
 lastmod: 2023-07-07T13:03:46+02:00

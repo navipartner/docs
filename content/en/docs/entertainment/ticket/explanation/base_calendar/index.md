@@ -1,6 +1,6 @@
 ---
 title: "Base Calendar for Ticketing"
-description: ""
+description: "Ticketing module can use the base calendar and customizable exceptions to pinpoint specific dates, and mark them as non-working."
 lead: ""
 date: 2023-07-12T16:09:29+02:00
 lastmod: 2023-07-12T16:09:29+02:00

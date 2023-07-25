@@ -1,6 +1,6 @@
 ---
 title: "Stock-take by Dimension"
-description: ""
+description: "The Global Dimension Codes on the stock-take worksheet act as filters to the item table, and can narrow the scope to include only items with those Dimension codes as in-scope items."
 lead: ""
 date: 2023-07-06T15:23:47+02:00
 lastmod: 2023-07-06T15:23:47+02:00

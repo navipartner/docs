@@ -1,6 +1,6 @@
 ---
 title: "Set up CS Data Patterns"
-description: ""
+description: "A data pattern defines the way in which the data collected can be structured, indexed, and made available for searching."
 lead: ""
 date: 2023-07-13T13:43:49+02:00
 lastmod: 2023-07-13T13:43:49+02:00

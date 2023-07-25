@@ -1,6 +1,6 @@
 ---
 title: "Automatically generated setups"
-description: ""
+description: "The setups listed in this article are automatically generated when the Shopify integration is established."
 lead: ""
 date: 2023-07-11T11:10:25+02:00
 lastmod: 2023-07-11T11:10:25+02:00

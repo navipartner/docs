@@ -1,6 +1,6 @@
 ---
 title: "POS flows"
-description: ""
+description: "This article consists of POS flows specific to the tax-free module."
 lead: ""
 date: 2023-07-06T16:12:19+02:00
 lastmod: 2023-07-06T16:12:19+02:00

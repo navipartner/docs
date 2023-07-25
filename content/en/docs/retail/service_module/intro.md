@@ -1,6 +1,6 @@
 ---
 title: "Service module overview"
-description: ""
+description: "This module manages the item repair process which is initiated when a customer brings an item to the shop for repairs."
 lead: ""
 date: 2023-07-11T09:25:15+02:00
 lastmod: 2023-07-11T09:25:15+02:00

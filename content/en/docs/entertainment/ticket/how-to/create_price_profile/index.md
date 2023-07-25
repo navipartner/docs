@@ -1,6 +1,6 @@
 ---
 title: "Create a ticket price profile"
-description: ""
+description: "Refer to this guide to create a ticket price profile and assign the notification profile to admission schedule lines."
 lead: ""
 date: 2023-07-13T08:49:45+02:00
 lastmod: 2023-07-13T08:49:45+02:00

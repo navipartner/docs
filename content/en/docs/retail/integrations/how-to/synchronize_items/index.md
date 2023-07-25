@@ -1,6 +1,6 @@
 ---
 title: "Synchronize Items List"
-description: ""
+description: "With the proper setup, the system can send information about new and updated items and item variants to Shopify."
 lead: ""
 date: 2023-07-11T11:33:16+02:00
 lastmod: 2023-07-11T11:33:16+02:00

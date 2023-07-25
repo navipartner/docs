@@ -1,6 +1,6 @@
 ---
 title: "Set up tickets using the Ticket Setup Wizard"
-description: ""
+description: "This tutorial will teach you how to create the setup for a fully functional ticket."
 lead: ""
 date: 2023-07-13T09:08:40+02:00
 lastmod: 2023-07-13T09:08:40+02:00

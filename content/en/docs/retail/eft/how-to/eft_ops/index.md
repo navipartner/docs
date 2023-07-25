@@ -1,6 +1,6 @@
 ---
 title: "Set up EFT operations"
-description: ""
+description: "These actions include reconciling the terminal, downloading/checking for updates, and checking connection or voiding the previous transactions. To set them up, refer to this guide."
 lead: ""
 date: 2023-07-06T09:37:08+02:00
 lastmod: 2023-07-06T09:37:08+02:00

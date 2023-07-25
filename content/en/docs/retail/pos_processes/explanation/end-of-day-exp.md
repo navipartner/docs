@@ -1,6 +1,6 @@
 ---
 title: "End-of-day report (POS balance)"
-description: ""
+description: "The POS balance report, or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing."
 lead: ""
 date: 2023-07-07T12:58:53+02:00
 lastmod: 2023-07-07T12:58:53+02:00
@@ -15,9 +15,9 @@ toc: true
 type: docs
 ---
 
-The POS balance report, or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing.
+The POS balance report, or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing. 
 
-{{< alert icon="📝" text="You can define the payment bins like bank or safe, and then a common payment bin, where on posting the cash balance, we transfer them out of the default bin."/>}}
+{{< alert icon="📝" text="You can define the <a href=\"/docs/retail/pos_processes/how-to/payment_bins/\">payment bins</a> like a bank or a safe, and then a common payment bin, where on <a href=\"/docs/retail/pos_processes/how-to/eod/generate_eod/\">posting the cash balance</a>, we transfer them out of the default bin."/>}}
 
 ## Statistics
 

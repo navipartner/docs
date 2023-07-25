@@ -1,6 +1,6 @@
 ---
 title: "Create a voucher on a Sales Order"
-description: ""
+description: "A retail voucher is a document that entitles the owner to purchase goods or services with it. As such, it can take the form of paper, electronic vouchers, tokens, and so on. It is widely used in the Retail & Service industries."
 lead: ""
 date: 2023-07-11T10:08:33+02:00
 lastmod: 2023-07-11T10:08:33+02:00

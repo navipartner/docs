@@ -1,6 +1,6 @@
 ---
 title: "Member community"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Member Community fields."
 lead: ""
 date: 2023-07-12T15:55:52+02:00
 lastmod: 2023-07-12T15:55:52+02:00

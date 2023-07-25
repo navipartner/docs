@@ -1,6 +1,6 @@
 ---
 title: "Anonymize customer data"
-description: ""
+description: "Learn how to perform anonymization of customer data in accordance with GDPR."
 lead: ""
 date: 2023-07-06T13:46:48+02:00
 lastmod: 2023-07-06T13:46:48+02:00

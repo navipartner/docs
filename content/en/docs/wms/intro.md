@@ -1,6 +1,6 @@
 ---
 title: "NP WMS product overview"
-description: ""
+description: "The Warehouse Management Solution provides a variety of tools and processes for managing and tracking items in warehouse and inventory systems."
 lead: ""
 date: 2023-07-13T10:44:12+02:00
 lastmod: 2023-07-13T10:44:12+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Perform shop and stock count"
-description: ""
+description: "The NP RFID app is used for optimizing the inventory management across different locations. From the app, you can perform counting of the stock and shop inventory, configure and track shipping, and perform tag handling."
 lead: ""
 date: 2023-07-13T13:46:06+02:00
 lastmod: 2023-07-13T13:46:06+02:00

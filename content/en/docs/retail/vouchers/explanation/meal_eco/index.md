@@ -1,6 +1,6 @@
 ---
 title: "Meal, eco, and consumption vouchers"
-description: ""
+description: "Meal, eco, and consumption vouchers are a popular extra-legal benefit in Belgium. Learn more about them in this article."
 lead: ""
 date: 2023-07-07T12:40:56+02:00
 lastmod: 2023-07-07T12:40:56+02:00

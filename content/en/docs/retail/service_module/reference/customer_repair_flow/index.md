@@ -1,6 +1,6 @@
 ---
 title: "Customer repair flow"
-description: ""
+description: "There are various levels of setup that need to be performed in order to make the Service Module fully operational. Given the number of functions associated with the module, it's necessary to understand the process so that the module can be set up correctly."
 lead: ""
 date: 2023-07-11T09:50:40+02:00
 lastmod: 2023-07-11T09:50:40+02:00

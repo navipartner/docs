@@ -1,6 +1,6 @@
 ---
 title: "Add new customers from POS"
-description: ""
+description: "This topic goes through he process of adding new customers from the POS. "
 lead: ""
 date: 2023-07-11T12:25:14+02:00
 lastmod: 2023-07-11T12:25:14+02:00

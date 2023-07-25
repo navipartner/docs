@@ -1,6 +1,6 @@
 ---
 title: "Set up fiscalization compliance - Germany"
-description: ""
+description: "This article details how to configure NP Retail for compliance in Germany."
 lead: ""
 date: 2023-07-06T13:24:37+02:00
 lastmod: 2023-07-06T13:24:37+02:00

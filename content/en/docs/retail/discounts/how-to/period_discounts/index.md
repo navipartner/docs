@@ -1,6 +1,6 @@
 ---
 title: "Set up period discounts"
-description: ""
+description: "Period discounts can be used when there are periods of time during which some items have different (lower) prices. Period discounts allow users to set up that period and prices which items will have for its duration. After the period expires, the item price reverts to its default state."
 lead: ""
 date: 2023-07-05T17:26:43+02:00
 lastmod: 2023-07-05T17:26:43+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Brands (reference guide)"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Brand fields."
 lead: ""
 date: 2023-07-18T11:22:04+02:00
 lastmod: 2023-07-18T11:22:04+02:00

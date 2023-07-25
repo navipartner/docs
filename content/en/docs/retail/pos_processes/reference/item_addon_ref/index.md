@@ -1,6 +1,6 @@
 ---
 title: "Item add-ons"
-description: ""
+description: "In the **Item AddOns** administrative section, you can define how the associated action will behave in the POS."
 lead: ""
 date: 2023-07-11T16:03:44+02:00
 lastmod: 2023-07-11T16:03:44+02:00

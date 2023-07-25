@@ -1,6 +1,6 @@
 ---
 title: "Establish a connection between a receipt printer and an iPad/iPhone"
-description: ""
+description: "Refer to this article to learn how to establish a connection between a receipt printer and an iPad/iPhone device."
 lead: ""
 date: 2023-07-06T14:51:39+02:00
 lastmod: 2023-07-06T14:51:39+02:00

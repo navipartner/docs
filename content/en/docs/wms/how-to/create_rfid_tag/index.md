@@ -1,6 +1,6 @@
 ---
 title: "Create a CS RFID tag model"
-description: ""
+description: "Learn how to create CS RFID tag models in Business Central."
 lead: ""
 date: 2023-07-13T13:05:37+02:00
 lastmod: 2023-07-13T13:05:37+02:00

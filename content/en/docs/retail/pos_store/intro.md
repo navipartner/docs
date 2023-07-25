@@ -1,6 +1,6 @@
 ---
 title: "POS stores - overview"
-description: ""
+description: "The POS store is highest level in setup for stores. It corresponds to a physical store, and thus the POS store setup performed in NP Retail should match the specifics of the physical store."
 lead: ""
 date: 2023-07-11T12:20:20+02:00
 lastmod: 2023-07-11T12:20:20+02:00

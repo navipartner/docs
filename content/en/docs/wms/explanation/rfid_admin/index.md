@@ -1,6 +1,6 @@
 ---
 title: "RFID administrative sections in Business Central"
-description: ""
+description: "The RFID administrative sections are used to help you perform various jobs related to counting, shipping, receiving, and tagging items."
 lead: ""
 date: 2023-07-13T13:00:07+02:00
 lastmod: 2023-07-13T13:00:07+02:00

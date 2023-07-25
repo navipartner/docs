@@ -1,6 +1,6 @@
 ---
 title: "Set up ticketing (Business Central and Magento)"
-description: ""
+description: "Go through the procedure and best practices for the ticketing setup in Business Central and Magento."
 lead: ""
 date: 2023-07-18T10:55:03+02:00
 lastmod: 2023-07-18T10:55:03+02:00

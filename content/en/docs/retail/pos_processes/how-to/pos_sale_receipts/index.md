@@ -1,6 +1,6 @@
 ---
 title: "Send email receipts from the POS sale"
-description: ""
+description: "You can set up a functionality which sends the POS sale receipts to customers' emails."
 lead: ""
 date: 2023-07-12T13:27:42+02:00
 lastmod: 2023-07-12T13:27:42+02:00

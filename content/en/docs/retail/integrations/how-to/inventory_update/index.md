@@ -1,6 +1,6 @@
 ---
 title: "Set up inventory update sending (location links)"
-description: ""
+description: "Each location in Business Central for which you want to send available inventory to Shopify, must be linked to a Shopify location."
 lead: ""
 date: 2023-07-11T11:21:34+02:00
 lastmod: 2023-07-11T11:21:34+02:00
@@ -23,5 +23,5 @@ Each location in Business Central for which you want to send available inventory
                   
  {{< alert icon="📝" text="You can link as many Business Central locations to a single Shopify location as you wish, but it's impossible to link multiple Shopify locations to a single location in Business Central."/>}}
 
-1. Click the ![Ellipsis icon](elipsis_icon.png) button next to the **Shopify Location ID** field in the **Shopify** section, and specify the necessary values.      
+2. Click the ![Ellipsis icon](elipsis_icon.png) button next to the **Shopify Location ID** field in the **Shopify** section, and specify the necessary values.      
    If you've already set up the connection parameters on the **Shopify Integration Setup** page, you will see a list of available Shopify locations to choose from.   

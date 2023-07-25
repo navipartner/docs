@@ -1,6 +1,6 @@
 ---
 title: "Varieties"
-description: ""
+description: "Varieties/variants assist users in creating different characteristics associated with an item. Item varieties can be copied and shown in Shopify as product variant options. "
 lead: ""
 date: 2023-07-11T11:20:46+02:00
 lastmod: 2023-07-11T11:20:46+02:00

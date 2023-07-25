@@ -1,6 +1,6 @@
 ---
 title: "Set up Pepper payment with additional parameters"
-description: ""
+description: "When paying through a Pepper Terminal, it is possible to send additional parameters along with the amount."
 lead: ""
 date: 2023-07-06T10:08:21+02:00
 lastmod: 2023-07-06T10:08:21+02:00

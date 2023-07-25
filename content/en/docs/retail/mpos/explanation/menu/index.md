@@ -1,6 +1,6 @@
 ---
 title: "MPOS menu"
-description: ""
+description: "MPOS menus are created in the POS Menus administrative section in Business Central, along with the buttons."
 lead: ""
 date: 2023-07-06T15:17:26+02:00
 lastmod: 2023-07-06T15:17:26+02:00

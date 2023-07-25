@@ -1,6 +1,6 @@
 ---
 title: "Use the Ticket Designer"
-description: ""
+description: "This article lists the **Ticket Designer** functionalities and provides the instructions for designing, duplicating, and deleting tickets."
 lead: ""
 date: 2023-07-13T09:17:41+02:00
 lastmod: 2023-07-13T09:17:41+02:00

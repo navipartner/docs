@@ -1,6 +1,6 @@
 ---
 title: "EFT integration types"
-description: ""
+description: "Each EFT integration subscribes to the framework and implements the necessary operations along with any integration-specific auxiliary operations that are not supported by default in the framework."
 lead: ""
 date: 2023-07-06T09:00:53+02:00
 lastmod: 2023-07-06T09:00:53+02:00

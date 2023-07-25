@@ -1,6 +1,6 @@
 ---
 title: "Shopify SKU (Stock Keeping Unit)"
-description: ""
+description: "If there aren't any values for the fields in Business Central, the system will initially attempt to get the IDs from Shopify by providing the Shopify SKU number."
 lead: ""
 date: 2023-07-11T11:20:11+02:00
 lastmod: 2023-07-11T11:20:11+02:00

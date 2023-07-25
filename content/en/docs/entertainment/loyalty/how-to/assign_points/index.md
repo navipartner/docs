@@ -1,6 +1,6 @@
 ---
 title: "Assign points on sale"
-description: ""
+description: "After the members and loyalty setups are created, points can be assigned to a customer on sale. Refer to this guide to learn more."
 lead: ""
 date: 2023-07-13T10:18:10+02:00
 lastmod: 2023-07-13T10:18:10+02:00

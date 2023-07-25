@@ -1,6 +1,6 @@
 ---
 title: "Data archives"
-description: ""
+description: "The Data Archive provides means of backing up and compressing old records."
 lead: ""
 date: 2023-07-06T09:14:27+02:00
 lastmod: 2023-07-06T09:14:27+02:00

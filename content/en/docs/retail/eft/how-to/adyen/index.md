@@ -1,6 +1,6 @@
 ---
 title: "Set up Adyen Cloud integration (EFT)"
-description: ""
+description: "Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud."
 lead: ""
 date: 2023-07-06T09:26:08+02:00
 lastmod: 2023-07-06T09:26:08+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up POS Payment Bins"
-description: ""
+description: "Each POS unit can have multiple payment bins and different setup. You can set cash drawers and virtual drawers."
 lead: ""
 date: 2023-07-11T12:42:24+02:00
 lastmod: 2023-07-11T12:42:24+02:00

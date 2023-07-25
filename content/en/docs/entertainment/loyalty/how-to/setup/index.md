@@ -1,6 +1,6 @@
 ---
 title: "Set up the loyalty program"
-description: ""
+description: "As the loyalty setup is created on top of the Membership module, it must be activated for the special member community. Refer to this guide to learn more."
 lead: ""
 date: 2023-07-13T10:28:00+02:00
 lastmod: 2023-07-13T10:28:00+02:00

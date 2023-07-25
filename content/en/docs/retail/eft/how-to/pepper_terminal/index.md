@@ -1,6 +1,6 @@
 ---
 title: "Set up a Pepper terminal"
-description: ""
+description: "Pepper terminals need to be set up individually, since the integration works with many different terminal types which have different parameters."
 lead: ""
 date: 2023-07-06T09:59:09+02:00
 lastmod: 2023-07-06T09:59:09+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up auto-renewal process"
-description: ""
+description: "The auto-renewal process is used when a membership needs to be automatically extended. It is possible to perform auto-renewal both from Business Central, and from Magento."
 lead: ""
 date: 2023-07-12T15:51:25+02:00
 lastmod: 2023-07-12T15:51:25+02:00

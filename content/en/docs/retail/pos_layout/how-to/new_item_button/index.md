@@ -1,6 +1,6 @@
 ---
 title: "Create a new item button in the POS"
-description: ""
+description: "Refer to this guide if you wish to add new custom item buttons in the POS menu."
 lead: ""
 date: 2023-07-11T12:38:27+02:00
 lastmod: 2023-07-11T12:38:27+02:00

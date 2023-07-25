@@ -1,6 +1,6 @@
 ---
 title: "Set up Adyen payment integration"
-description: ""
+description: "Refer to this article if you wish to set up the Adyen payment integration in NP Retail."
 lead: ""
 date: 2023-07-11T10:43:21+02:00
 lastmod: 2023-07-11T10:43:21+02:00

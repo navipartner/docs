@@ -1,6 +1,6 @@
 ---
 title: "Ticketholder notification"
-description: ""
+description: "Notifications can be sent to the ticket-holder prior to the visit and for follow-up purposes, for example, after the visit or if the ticket is revoked. Notifications are generated from the admission schedule entries that have reservations."
 lead: ""
 date: 2023-07-13T08:19:36+02:00
 lastmod: 2023-07-13T08:19:36+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up NETS BAXI integration (EFT)"
-description: ""
+description: "When using NETS BAXI/Viking integrations, there are two different ways of communicating with the terminal, either through the NETS Cloud, or directly between the terminal and the POS."
 lead: ""
 date: 2023-07-06T09:55:53+02:00
 lastmod: 2023-07-06T09:55:53+02:00

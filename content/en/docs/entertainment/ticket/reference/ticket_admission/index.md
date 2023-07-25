@@ -1,6 +1,6 @@
 ---
 title: "Ticket Admission"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Ticket Admission fields."
 lead: ""
 date: 2023-07-12T16:04:56+02:00
 lastmod: 2023-07-12T16:04:56+02:00

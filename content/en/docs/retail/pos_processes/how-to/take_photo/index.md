@@ -1,7 +1,6 @@
 ---
-title: "Take a photo on the POS
-"
-description: ""
+title: "Take a photo on the POS"
+description: "The **Take Photo** feature can be enabled on POS units, and give an option to cashiers to take photos of products that customers have returned to stores."
 lead: ""
 date: 2023-07-12T13:35:26+02:00
 lastmod: 2023-07-12T13:35:26+02:00

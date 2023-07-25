@@ -1,6 +1,6 @@
 ---
 title: "Set up CS UIs"
-description: ""
+description: "CS UIs are used for defining the look and feel of the NP WMS mobile interface. NaviPartner provides standard UIs which can be implemented and modified as per requirements of the users, but you can create completely new UIs as well."
 lead: ""
 date: 2023-07-13T13:19:27+02:00
 lastmod: 2023-07-13T13:19:27+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Create a new coupon"
-description: ""
+description: "Coupons can provide the discount to the sum of item prices on checkout if certain conditions are met. Coupons can be issued with a reference number, which is unique, or have a number defined to be used several times. They can be accessed and set up in the **Coupon Types** administrative section."
 lead: ""
 date: 2023-07-05T17:10:21+02:00
 lastmod: 2023-07-05T17:10:21+02:00
@@ -33,3 +33,7 @@ Coupons can provide the discount to the sum of item prices on checkout if certai
 6. Add items to the shopping cart, and click **Scan Discount Coupon**.
 7. Provide the **Coupon Reference No.** in the window that pops up.     
    The discount coupon is now applied. 
+
+## Troubleshooting 
+
+[Coupon troubleshooting]({{< ref "../../../../troubleshooting/coupon.md" >}})
