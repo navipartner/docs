@@ -1,6 +1,6 @@
 ---
 title: "Cash out a voucher"
-description: ""
+description: "After the voucher is purchased, a customer can return it to the salesperson, and receive the cash back. They will be compensated in full as the result or reduced by the commission fee amount."
 lead: ""
 date: 2023-07-11T09:57:36+02:00
 lastmod: 2023-07-11T09:57:36+02:00

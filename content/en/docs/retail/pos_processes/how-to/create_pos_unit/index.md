@@ -1,6 +1,6 @@
 ---
 title: "Create a new POS unit (by using an existing one as reference)"
-description: ""
+description: "As soon as you have at least one POS unit in the system, you can use configurations and data within as a source of information for creating a new one with ease."
 lead: ""
 date: 2023-07-11T14:24:09+02:00
 lastmod: 2023-07-11T14:24:09+02:00

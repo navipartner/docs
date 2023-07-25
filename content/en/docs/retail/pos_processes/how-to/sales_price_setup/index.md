@@ -1,6 +1,6 @@
 ---
 title: "Set up sales price "
-description: ""
+description: "You can define prices for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function."
 lead: ""
 date: 2023-07-11T16:22:19+02:00
 lastmod: 2023-07-11T16:22:19+02:00

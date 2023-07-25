@@ -1,6 +1,6 @@
 ---
 title: "Set up retail logo"
-description: ""
+description: "This article describes how to use the Retail Logo module, removing the need to upload logos on each receipt printer with a driver utility, and making the process much faster."
 lead: ""
 date: 2023-07-12T13:33:45+02:00
 lastmod: 2023-07-12T13:33:45+02:00

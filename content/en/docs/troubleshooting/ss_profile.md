@@ -1,6 +1,6 @@
 ---
 title: "Self-Service Profile troubleshooting"
-description: ""
+description: "Refer to the self-service profile troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:26:20+02:00
 lastmod: 2023-07-18T13:26:20+02:00

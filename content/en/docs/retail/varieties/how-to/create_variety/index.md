@@ -1,6 +1,6 @@
 ---
 title: "Create varieties in Business Central"
-description: ""
+description: "Variety is a tool that assists users in creating and associating different characteristics with items."
 lead: ""
 date: 2023-07-10T22:45:45+02:00
 lastmod: 2023-07-10T22:45:45+02:00

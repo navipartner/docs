@@ -1,6 +1,6 @@
 ---
 title: "Sending inventory to Shopify"
-description: ""
+description: "The administrative section **Shopify Inventory Levels** stores the pre-calculated available inventory levels before sending them to Shopify."
 lead: ""
 date: 2023-07-11T11:19:11+02:00
 lastmod: 2023-07-11T11:19:11+02:00
@@ -19,9 +19,10 @@ The administrative section **Shopify Inventory Levels** stores the pre-calculate
 
 The Shopify inventory levels are updated on each item-related transaction posting (when an item ledger entry is created), and each time a sales order line is created, updated, or deleted.
 
+## How the Shopify inventory is calculated
+
 The inventory levels are calculated per a Shopify location ID. That means that, if the same Shopify location ID is assigned to multiple Business Central locations, the system sums up the data from all of those Business Central locations to calculate the inventory level tied to the specific Shopify location ID.
 
-How is Shopify inventory calculated?
 
 |                     |                         |                       |
 |---------------------|-------------------------|-----------------------|

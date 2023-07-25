@@ -1,6 +1,6 @@
 ---
 title: "Country-specific fiscalization requirements"
-description: ""
+description: "Learn how to achieve compliance with fiscalization requirements imposed by fiscal laws of specific countries."
 lead: ""
 date: 2023-07-06T13:29:34+02:00
 lastmod: 2023-07-06T13:29:34+02:00

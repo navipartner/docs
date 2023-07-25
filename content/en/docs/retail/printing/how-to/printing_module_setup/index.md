@@ -1,6 +1,6 @@
 ---
 title: "Set up the printing module (Hardware Connector)"
-description: ""
+description: "There are three available printer extensions you can choose from when setting up the default printers for report printing."
 lead: ""
 date: 2023-07-12T14:10:32+02:00
 lastmod: 2023-07-12T14:10:32+02:00

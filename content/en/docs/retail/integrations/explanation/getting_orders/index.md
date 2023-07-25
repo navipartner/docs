@@ -1,6 +1,6 @@
 ---
 title: "Getting orders from Shopify"
-description: ""
+description: "New orders and order updates are downloaded from Shopify automatically. Learn more about the associated processes in this article."
 lead: ""
 date: 2023-07-11T11:12:44+02:00
 lastmod: 2023-07-11T11:12:44+02:00

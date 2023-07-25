@@ -1,6 +1,6 @@
 ---
 title: "Initial float troubleshooting"
-description: ""
+description: "Refer to the Initial float troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-24T11:51:41+02:00
 lastmod: 2023-07-24T11:51:41+02:00

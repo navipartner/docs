@@ -1,6 +1,6 @@
 ---
 title: "Change Responsibility Center from the POS sale"
-description: ""
+description: "Responsibility centers provide the means of managing and handling administrative centers (cost centers, profit centers, investment centers and other company-defined administrative centers)."
 lead: ""
 date: 2023-07-11T12:31:42+02:00
 lastmod: 2023-07-11T12:31:42+02:00

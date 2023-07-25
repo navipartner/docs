@@ -1,6 +1,6 @@
 ---
 title: "Fetch preset setup data"
-description: ""
+description: "It's possible to fetch preset configurations on your environment, to make the overall environment setup easier."
 lead: ""
 date: 2023-07-13T13:07:48+02:00
 lastmod: 2023-07-13T13:07:48+02:00

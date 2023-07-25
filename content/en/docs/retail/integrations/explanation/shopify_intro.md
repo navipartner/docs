@@ -1,6 +1,6 @@
 ---
 title: "Shopify integration overview"
-description: ""
+description: "Shopify is an ecommerce platform that can be used for building online and offline stores. It offers online retailers services that include payments, marketing, shipping, and customer engagement tools."
 lead: ""
 date: 2023-07-11T11:09:35+02:00
 lastmod: 2023-07-11T11:09:35+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Pricing"
-description: ""
+description: "Pricing is a process of adjusting the value that the shop receives in exchange for goods. There are several price types."
 lead: ""
 date: 2023-07-07T13:06:41+02:00
 lastmod: 2023-07-07T13:06:41+02:00

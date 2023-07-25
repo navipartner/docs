@@ -1,6 +1,6 @@
 ---
 title: "General Data Protection Regulation"
-description: ""
+description: "GDPR is a legal framework that sets guidelines for the collection and processing of personal information from individuals who live in the European Union."
 lead: ""
 date: 2023-07-06T13:46:26+02:00
 lastmod: 2023-07-06T13:46:26+02:00

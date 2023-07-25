@@ -1,6 +1,6 @@
 ---
 title: "Configure a receipt printout for a POS unit"
-description: ""
+description: "You can customize the sales report content that is printed out, depending on the scenario in place."
 lead: ""
 date: 2023-07-11T16:19:41+02:00
 lastmod: 2023-07-11T16:19:41+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Inventory adjustments"
-description: ""
+description: "Inventory adjustments refer to all modifications of the stock level, which occur for various reasons. These can be results of sales, purchases, or positive and negative adjustments."
 lead: ""
 date: 2023-07-13T12:52:05+02:00
 lastmod: 2023-07-13T12:52:05+02:00

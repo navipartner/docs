@@ -1,6 +1,6 @@
 ---
 title: "Variety values (reference guide)"
-description: ""
+description: "Learn what the Variety Values fields and options are used for."
 lead: ""
 date: 2023-07-10T22:54:04+02:00
 lastmod: 2023-07-10T22:54:04+02:00

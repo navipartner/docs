@@ -1,6 +1,6 @@
 ---
 title: "Create POS menu filters"
-description: ""
+description: "Filters are used when you need to create a list that can be viewed by pressing a button on the POS."
 lead: ""
 date: 2023-07-07T14:07:39+02:00
 lastmod: 2023-07-07T14:07:39+02:00

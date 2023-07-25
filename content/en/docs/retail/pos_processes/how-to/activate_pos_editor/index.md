@@ -1,6 +1,6 @@
 ---
 title: "Activate POS editor"
-description: ""
+description: "The POS editor gives users the option to set up POS actions and buttons directly from within the POS UI, without having to work in Business Central in parallel."
 lead: ""
 date: 2023-07-11T16:09:15+02:00
 lastmod: 2023-07-11T16:09:15+02:00

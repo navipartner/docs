@@ -1,6 +1,6 @@
 ---
 title: "Change a bin from the POS sale"
-description: ""
+description: "Bins represent physical shelves and rows in which the shop's inventory is stored. If there are multiple bins in a single store location, you can choose which bin the item is taken from during the POS sale."
 lead: ""
 date: 2023-07-11T12:30:04+02:00
 lastmod: 2023-07-11T12:30:04+02:00

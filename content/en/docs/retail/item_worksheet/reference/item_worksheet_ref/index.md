@@ -1,6 +1,6 @@
 ---
 title: "Item worksheet (reference table)"
-description: ""
+description: "An item worksheet template can have one or more item worksheet records. The item worksheet specifies more options on the import and processing of item worksheet lines."
 lead: ""
 date: 2023-07-06T14:20:44+02:00
 lastmod: 2023-07-06T14:20:44+02:00

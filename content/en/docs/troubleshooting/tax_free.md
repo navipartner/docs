@@ -1,6 +1,6 @@
 ---
 title: "Tax-free troubleshooting"
-description: ""
+description: "Refer to the tax-free troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:27:05+02:00
 lastmod: 2023-07-18T13:27:05+02:00

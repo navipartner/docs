@@ -1,6 +1,6 @@
 ---
 title: "Replication overview"
-description: ""
+description: "You can use the Replication Module to import data from one company to another (companies can be in the same database or in different Business Central databases)."
 lead: ""
 date: 2023-07-05T16:37:49+02:00
 lastmod: 2023-07-05T16:37:49+02:00

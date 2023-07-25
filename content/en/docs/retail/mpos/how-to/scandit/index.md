@@ -1,6 +1,6 @@
 ---
 title: "MPOS action setup for Scandit"
-description: ""
+description: "Learn more about the MPOS actions for Scandit integration."
 lead: ""
 date: 2023-07-06T15:15:01+02:00
 lastmod: 2023-07-06T15:15:01+02:00
@@ -21,7 +21,7 @@ The following MPOS actions are used for configuring the Scandit integration with
 
 - **M_SCANDITSCAN** – it gives user the ability to use the camera on their mobile devices to scan an item barcode and then use their mobile devices to find the same barcode on a shelf or some other place. 
 
-## Scan barcode and use camera to find it
+## Find item barcode with camera
 
 ### Prerequisite
 

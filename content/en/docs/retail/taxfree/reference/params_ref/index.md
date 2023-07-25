@@ -1,6 +1,6 @@
 ---
 title: "Tax-free profile parameters"
-description: ""
+description: "Learn what the tax-free profile parameter fields and options are used for."
 lead: ""
 date: 2023-07-07T12:07:52+02:00
 lastmod: 2023-07-07T12:07:52+02:00

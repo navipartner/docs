@@ -1,6 +1,6 @@
 ---
 title: "POS screen contents"
-description: ""
+description: "The POS screen consists of POS views, POS menu, and POS submenus. Learn more in this article."
 lead: ""
 date: 2023-07-07T13:41:42+02:00
 lastmod: 2023-07-07T13:41:42+02:00

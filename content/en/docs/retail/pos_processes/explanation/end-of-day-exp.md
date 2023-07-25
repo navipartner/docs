@@ -1,6 +1,6 @@
 ---
 title: "End-of-day report (POS balance)"
-description: ""
+description: "The POS balance report, or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing."
 lead: ""
 date: 2023-07-07T12:58:53+02:00
 lastmod: 2023-07-07T12:58:53+02:00

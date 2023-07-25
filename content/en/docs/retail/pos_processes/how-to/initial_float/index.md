@@ -1,6 +1,6 @@
 ---
 title: "Insert the initial float for a POS unit"
-description: ""
+description: "A float is an amount of cash that needs to be available in the cash register at the beginning of each workday."
 lead: ""
 date: 2023-07-11T15:43:16+02:00
 lastmod: 2023-07-11T15:43:16+02:00

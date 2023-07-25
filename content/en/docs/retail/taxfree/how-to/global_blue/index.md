@@ -1,6 +1,6 @@
 ---
 title: "Set up Global Blue tax-free solution"
-description: ""
+description: "The Global Blue tax free setup is performed in several sections of Business Central that are described in this article."
 lead: ""
 date: 2023-07-06T16:18:43+02:00
 lastmod: 2023-07-06T16:18:43+02:00

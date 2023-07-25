@@ -1,6 +1,6 @@
 ---
 title: "Credit memo troubleshooting"
-description: ""
+description: "Refer to the Credit memo troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:22:23+02:00
 lastmod: 2023-07-18T13:22:23+02:00

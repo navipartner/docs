@@ -1,6 +1,6 @@
 ---
 title: "Create a POS payment method"
-description: ""
+description: "POS payment methods are methods used in the POS for creating payment lines (like cash and credit cards). Every POS payment method that is created can be set up in buttons and used for conducting payments during a sale."
 lead: ""
 date: 2023-07-11T16:14:58+02:00
 lastmod: 2023-07-11T16:14:58+02:00

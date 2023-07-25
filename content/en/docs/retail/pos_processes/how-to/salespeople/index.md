@@ -1,6 +1,6 @@
 ---
 title: "Set up salespeople/purchasers"
-description: ""
+description: "By default, a seller code is required to log into the register. This help ensure that unauthorized parties can't gain access to the POS unit, and brings up the collection of statistics that cater to each employee."
 lead: ""
 date: 2023-07-12T13:25:48+02:00
 lastmod: 2023-07-12T13:25:48+02:00

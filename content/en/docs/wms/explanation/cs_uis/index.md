@@ -1,6 +1,6 @@
 ---
 title: "Capture service UIs"
-description: ""
+description: "The Capture Service user interfaces (CS UI) are used for defining the look and feel of WMS mobile device app."
 lead: ""
 date: 2023-07-13T11:46:10+02:00
 lastmod: 2023-07-13T11:46:10+02:00

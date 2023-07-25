@@ -1,6 +1,6 @@
 ---
 title: "Create a new voucher"
-description: ""
+description: "After the voucher type is created, the voucher needs to be purchased. Learn more about the creation process."
 lead: ""
 date: 2023-07-11T10:02:01+02:00
 lastmod: 2023-07-11T10:02:01+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-After the voucher type is created, the voucher needs to be sold.
+After the voucher type is created, the voucher needs to be purchased.
 
 1. The buttons for issuing vouchers should be created in the POS, so that the voucher can be sold. The button must have **Action – ISSUE_VOUCHER** set.   
    The parameters set on this button determine which voucher will be created with which amount, and how much the customer will pay for it.

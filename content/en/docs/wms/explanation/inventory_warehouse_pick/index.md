@@ -1,6 +1,6 @@
 ---
 title: "Inventory and warehouse picks"
-description: ""
+description: "Inventory and warehouse picks are the processes of picking items before they are shipped."
 lead: ""
 date: 2023-07-13T12:56:11+02:00
 lastmod: 2023-07-13T12:56:11+02:00

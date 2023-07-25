@@ -1,6 +1,6 @@
 ---
 title: "Archives de données"
-description: ""
+description: "Cet article fournit les informations nécessaires pour comprendre comment sont crées  les archives.xml par NP retail, comment ces archives .xml sont sécurisées et comment vous pouvez assurer qu'elles n'ont pas été falsifiées."
 lead: ""
 date: 2023-07-06T13:19:49+02:00
 lastmod: 2023-07-06T13:19:49+02:00

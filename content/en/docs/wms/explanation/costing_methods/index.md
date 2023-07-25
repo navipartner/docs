@@ -1,6 +1,6 @@
 ---
 title: "Inventory costing methods"
-description: ""
+description: "Different costing methods can cater to different business use cases in which you will be required to assign the unit cost differently."
 lead: ""
 date: 2023-07-13T11:57:06+02:00
 lastmod: 2023-07-13T11:57:06+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Create new buttons in the MPOS menu"
-description: ""
+description: "Refer to this article to learn how to create new buttons in the MPOS menu."
 lead: ""
 date: 2023-07-06T14:47:56+02:00
 lastmod: 2023-07-06T14:47:56+02:00

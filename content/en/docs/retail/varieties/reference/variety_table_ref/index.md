@@ -1,6 +1,6 @@
 ---
 title: "Variety table (reference guide)"
-description: ""
+description: "After a new variety is created, it's necessary to also create a variety table. There can be many different types of varieties - for example, there can be multiple different types of the Variety Size, depending on the item which is created."
 lead: ""
 date: 2023-07-10T22:50:37+02:00
 lastmod: 2023-07-10T22:50:37+02:00

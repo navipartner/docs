@@ -1,6 +1,6 @@
 ---
 title: "POS info card"
-description: ""
+description: "POS info is used for capturing additional information on sales, items or customers on the POS. This information on sales can be used for statistics or further analysis on sales."
 lead: ""
 date: 2023-07-12T13:54:54+02:00
 lastmod: 2023-07-12T13:54:54+02:00

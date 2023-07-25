@@ -1,6 +1,6 @@
 ---
 title: "Set up Replication Module"
-description: ""
+description: "As soon as you set up the Replication Module, the provided data will be synchronized, or replicated, automatically between the source company and the target company."
 lead: ""
 date: 2023-07-05T16:39:19+02:00
 lastmod: 2023-07-05T16:39:19+02:00

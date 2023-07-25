@@ -1,6 +1,6 @@
 ---
 title: "POS Display Profile"
-description: ""
+description: "Each POS unit can have a different display view."
 lead: ""
 date: 2023-07-04T15:01:55+02:00
 lastmod: 2023-07-04T15:01:55+02:00

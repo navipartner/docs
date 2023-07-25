@@ -1,6 +1,6 @@
 ---
 title: "CS UI structure"
-description: ""
+description: "The **CS UI Structure** administrative section contains the current app layout and hierarchy of CS UIs organized in a single table. All changes you make here will be reflected in the menu of the mobile device."
 lead: ""
 date: 2023-07-13T11:02:17+02:00
 lastmod: 2023-07-13T11:02:17+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Tax-free module overview"
-description: ""
+description: "The POS Tax Free Profile is used for setting up the tax-free integration when POS sales are performed. When established, it ensures that certain types of goods aren't taxed."
 lead: ""
 date: 2023-07-06T16:09:08+02:00
 lastmod: 2023-07-06T16:09:08+02:00

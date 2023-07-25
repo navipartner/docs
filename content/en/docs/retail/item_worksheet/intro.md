@@ -1,6 +1,6 @@
 ---
 title: "Item worksheet overview"
-description: ""
+description: "The item worksheet is a feature which helps maintain item-related data easily and efficiently with minimal entry time."
 lead: ""
 date: 2023-07-06T13:53:52+02:00
 lastmod: 2023-07-06T13:53:52+02:00

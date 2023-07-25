@@ -1,6 +1,6 @@
 ---
 title: "Block a variant"
-description: ""
+description: "Refer to this article to learn how to block a variant and disable its usage."
 lead: ""
 date: 2023-07-10T22:44:28+02:00
 lastmod: 2023-07-10T22:44:28+02:00

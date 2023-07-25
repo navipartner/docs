@@ -1,6 +1,6 @@
 ---
 title: "Create new POS store"
-description: ""
+description: "Learn how to create a new POS store in this article."
 lead: ""
 date: 2023-07-11T12:39:42+02:00
 lastmod: 2023-07-11T12:39:42+02:00

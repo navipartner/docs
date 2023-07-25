@@ -1,6 +1,6 @@
 ---
 title: "Set up price worksheet"
-description: ""
+description: "If you want to update prices for multiple items without having to change settings in each **Item Card** individually, you can create a **Default Price List** in the **Price Worksheet** administrative section."
 lead: ""
 date: 2023-07-11T16:18:41+02:00
 lastmod: 2023-07-11T16:18:41+02:00

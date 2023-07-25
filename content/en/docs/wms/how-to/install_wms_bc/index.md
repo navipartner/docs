@@ -1,6 +1,6 @@
 ---
 title: "Download and install NP WMS extension for Business Central"
-description: ""
+description: "Refer to this guide to learn how you can download and install NP WMS."
 lead: ""
 date: 2023-07-13T13:13:04+02:00
 lastmod: 2023-07-13T13:13:04+02:00

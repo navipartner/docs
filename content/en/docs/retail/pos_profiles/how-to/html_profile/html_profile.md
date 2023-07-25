@@ -1,6 +1,6 @@
 ---
 title: "Set up the POS HTML Display Profile"
-description: ""
+description: "While this profile shares the same purpose as the POS Display Profile, such as displaying media content and the receipt view, it can also return input from the customer display if the touch screen is in use, and the HTML file is equipped to handle the customer's input."
 lead: ""
 date: 2023-07-04T15:06:05+02:00
 lastmod: 2023-07-04T15:06:05+02:00
