@@ -1,6 +1,6 @@
 ---
 title: "CS Logs"
-description: ""
+description: "There are several types of logs that are maintained in the NP WMS. Learn more in this article."
 lead: ""
 date: 2023-07-13T10:46:33+02:00
 lastmod: 2023-07-13T10:46:33+02:00

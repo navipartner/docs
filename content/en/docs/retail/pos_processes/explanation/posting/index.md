@@ -1,6 +1,6 @@
 ---
 title: "POS Posting Setup"
-description: ""
+description: "**POS Posting Setup** allows users to set up accounts on which payments from sales transactions will be posted."
 lead: ""
 date: 2023-07-07T13:08:07+02:00
 lastmod: 2023-07-07T13:08:07+02:00

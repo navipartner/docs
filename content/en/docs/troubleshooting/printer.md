@@ -1,6 +1,6 @@
 ---
 title: "Printer troubleshooting"
-description: ""
+description: "Refer to the printer troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:23:56+02:00
 lastmod: 2023-07-18T13:23:56+02:00

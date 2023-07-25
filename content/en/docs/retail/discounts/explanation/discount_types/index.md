@@ -1,6 +1,6 @@
 ---
 title: "Mix discount types"
-description: ""
+description: "There are five discount types that can be chosen on the **Mixed Discount** card. Learn more about them in this article."
 lead: ""
 date: 2023-07-05T17:18:43+02:00
 lastmod: 2023-07-05T17:18:43+02:00

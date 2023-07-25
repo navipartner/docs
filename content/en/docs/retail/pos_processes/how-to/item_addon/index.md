@@ -1,6 +1,6 @@
 ---
 title: "Set up item add-ons"
-description: ""
+description: "The article consists of main steps that constitute the process of item add-on setup, followed by several common use cases, examples, and best practices."
 lead: ""
 date: 2023-07-11T15:46:07+02:00
 lastmod: 2023-07-11T15:46:07+02:00

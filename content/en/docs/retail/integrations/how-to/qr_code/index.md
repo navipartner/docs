@@ -1,6 +1,6 @@
 ---
 title: "Use MobilePay QR code on customer screen "
-description: ""
+description: "Refer to this article if you wish to use the MobilePay QR code feature on the POS unit."
 lead: ""
 date: 2023-07-11T16:07:41+02:00
 lastmod: 2023-07-11T16:07:41+02:00

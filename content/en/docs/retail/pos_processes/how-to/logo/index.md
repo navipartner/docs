@@ -1,6 +1,6 @@
 ---
 title: "Add a logo to the POS screen"
-description: ""
+description: "Follow the provided steps to add a logo to the POS screen."
 lead: ""
 date: 2023-07-11T15:40:25+02:00
 lastmod: 2023-07-11T15:40:25+02:00

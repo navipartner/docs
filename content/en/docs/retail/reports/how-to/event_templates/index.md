@@ -1,6 +1,6 @@
 ---
 title: "Set up event templates"
-description: ""
+description: "Any event can be turned into an event template just like standard jobs can be used as job templates."
 lead: ""
 date: 2023-07-10T13:37:06+02:00
 lastmod: 2023-07-10T13:37:06+02:00

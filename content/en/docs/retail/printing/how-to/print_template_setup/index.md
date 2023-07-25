@@ -1,6 +1,6 @@
 ---
 title: "Create a print template"
-description: ""
+description: "There are multiple system print templates you can choose from, but if you need a template that is completely different from the available choices, or one that needs to be slightly modified, you can either create a new template or copy an existing one, change it, and save it in the environment for future use."
 lead: ""
 date: 2023-07-12T14:08:30+02:00
 lastmod: 2023-07-12T14:08:30+02:00
@@ -43,3 +43,6 @@ There are multiple system print templates you can choose from, but if you need a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Troubleshooting 
+
+[Printer troubleshooting]({{< ref "../../../../troubleshooting/printer.md" >}})

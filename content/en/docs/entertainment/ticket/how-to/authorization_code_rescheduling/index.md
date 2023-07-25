@@ -1,6 +1,6 @@
 ---
 title: "Authorization Code for Ticket Rescheduling"
-description: ""
+description: "Ticket rescheduling is made convenient for online users (self-service). It is done via web setup and creation of a new authorization code (pin code) printed on the ticket."
 lead: ""
 date: 2023-07-12T16:06:18+02:00
 lastmod: 2023-07-12T16:06:18+02:00

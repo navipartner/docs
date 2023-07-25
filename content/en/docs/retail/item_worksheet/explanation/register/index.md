@@ -1,6 +1,6 @@
 ---
 title: "Worksheet line registration"
-description: ""
+description: "The Item Worksheet will not make any changes to the item master data and the related information until the Item Worksheet lines are registered."
 lead: ""
 date: 2023-07-06T13:58:43+02:00
 lastmod: 2023-07-06T13:58:43+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up event templates"
-description: ""
+description: "Any event can be turned into an event template just like standard jobs can be used as job templates. Once defined, they can be copied and reused as many times as needed."
 lead: ""
 date: 2023-07-06T13:18:34+02:00
 lastmod: 2023-07-06T13:18:34+02:00

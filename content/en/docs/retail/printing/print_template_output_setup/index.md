@@ -1,6 +1,6 @@
 ---
 title: "Print Template Output Setup"
-description: ""
+description: "Print templates provide a structured way of mapping data to the output, either through lines or coordinates. In the **Print Template Output Setup** administrative section, you can map different types of templates to printers."
 lead: ""
 date: 2023-07-12T14:07:19+02:00
 lastmod: 2023-07-12T14:07:19+02:00
@@ -30,3 +30,7 @@ The Matrix printer type requires the specific X and Y coordinates to generate th
 The matrix template is used for ZEBRA, BOCA, BLASTER, and CITIZEN printers. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Troubleshooting 
+
+[Printer troubleshooting]({{< ref "../../../troubleshooting/printer.md" >}})

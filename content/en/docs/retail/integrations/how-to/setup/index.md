@@ -1,6 +1,6 @@
 ---
 title: "Set up Shopify integration in NaviPartner"
-description: ""
+description: "Refer to this article if you wish to set up the Shopify integration in NP Retail."
 lead: ""
 date: 2023-07-11T11:27:34+02:00
 lastmod: 2023-07-11T11:27:34+02:00

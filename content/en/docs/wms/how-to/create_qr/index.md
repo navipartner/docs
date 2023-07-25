@@ -1,6 +1,6 @@
 ---
 title: "Create QR codes"
-description: ""
+description: "A QR code is a machine-readable optical label that can contain information about the entity it's attached to. Each of the existing users has their own unique QR code."
 lead: ""
 date: 2023-07-13T13:06:25+02:00
 lastmod: 2023-07-13T13:06:25+02:00

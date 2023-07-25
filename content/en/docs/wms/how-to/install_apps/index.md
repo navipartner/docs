@@ -1,6 +1,6 @@
 ---
 title: "Install WMS and RFID apps on mobile devices"
-description: ""
+description: "There are two available apps - NP WMS and NP RFID. NP WMS contains warehouse management features, and is also used for barcode scanning, while NP RFID is useful when RFID tags are attached to items."
 lead: ""
 date: 2023-07-13T13:09:23+02:00
 lastmod: 2023-07-13T13:09:23+02:00

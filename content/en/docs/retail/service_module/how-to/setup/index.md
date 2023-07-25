@@ -1,6 +1,6 @@
 ---
 title: "Set up service module for repairs"
-description: ""
+description: "The service module setup is complex, and can be divided into multiple stages described in this article."
 lead: ""
 date: 2023-07-11T09:26:09+02:00
 lastmod: 2023-07-11T09:26:09+02:00

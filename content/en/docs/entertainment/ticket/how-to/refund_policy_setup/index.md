@@ -1,6 +1,6 @@
 ---
 title: "Set up refund policy"
-description: ""
+description: "Ticket refund policy is set up in the **Ticket BOM** page. By default, only the unused admissions are refunded. Learn more in this guide."
 lead: ""
 date: 2023-07-13T08:59:12+02:00
 lastmod: 2023-07-13T08:59:12+02:00

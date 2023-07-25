@@ -1,6 +1,6 @@
 ---
 title: "Configure stock-take"
-description: ""
+description: "After a template is created, a stock-take configuration may be created using the selected template."
 lead: ""
 date: 2023-07-06T15:24:54+02:00
 lastmod: 2023-07-06T15:24:54+02:00

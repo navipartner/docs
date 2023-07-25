@@ -1,6 +1,6 @@
 ---
 title: "Set up mix discounts"
-description: ""
+description: "The mix discount type implies that customers need to buy several different items if they wish to be eligible for a discount. The discount is triggered when a certain combination of items is selected in a POS transaction. Learn how to create them in this guide."
 lead: ""
 date: 2023-07-05T17:24:00+02:00
 lastmod: 2023-07-05T17:24:00+02:00

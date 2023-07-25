@@ -1,6 +1,6 @@
 ---
 title: "Membership web services"
-description: ""
+description: "Refer to the tables with descriptions of dedicated fields for configuring Membership web services. They are used for creating, editing, blocking, and performing other actions via API in regards to memberships."
 lead: ""
 date: 2023-07-12T15:56:42+02:00
 lastmod: 2023-07-12T15:56:42+02:00

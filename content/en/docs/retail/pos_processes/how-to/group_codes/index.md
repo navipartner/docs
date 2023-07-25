@@ -1,6 +1,6 @@
 ---
 title: "Group code setup"
-description: ""
+description: "Group codes can be predefined in Business Central, and attached to the POS sales."
 lead: ""
 date: 2023-07-11T15:36:37+02:00
 lastmod: 2023-07-11T15:36:37+02:00

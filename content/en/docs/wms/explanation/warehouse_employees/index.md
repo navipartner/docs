@@ -1,6 +1,6 @@
 ---
 title: "Warehouse employees"
-description: ""
+description: "Each user who performs warehouse activities needs to be set up as a warehouse employee assigned to one default location and potentially more non-default locations."
 lead: ""
 date: 2023-07-13T13:04:20+02:00
 lastmod: 2023-07-13T13:04:20+02:00

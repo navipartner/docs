@@ -1,6 +1,6 @@
 ---
 title: "Create item journal templates"
-description: ""
+description: "In Business Central, the item journal is used for posting adjustments, which is why it's necessary to create the item journal template and the batch for the adjustment on the item first."
 lead: ""
 date: 2023-07-06T15:28:00+02:00
 lastmod: 2023-07-06T15:28:00+02:00

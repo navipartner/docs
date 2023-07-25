@@ -1,6 +1,6 @@
 ---
 title: "Perform stock count (Physical Inventory Journal and mobile apps)"
-description: ""
+description: "Stock counting is performed by comparing the physical inventory from warehouses and the calculated inventory in Business Central, and settling the differences between the two using Inventory Journals."
 lead: ""
 date: 2023-07-13T13:14:57+02:00
 lastmod: 2023-07-13T13:14:57+02:00

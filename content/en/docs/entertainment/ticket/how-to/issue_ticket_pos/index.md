@@ -1,6 +1,6 @@
 ---
 title: "Issue tickets from the POS"
-description: ""
+description: "The process of issuing a ticket from the POS follows the same flow as when standard items are sold on the POS. Refer to this guide for more information."
 lead: ""
 date: 2023-07-13T08:52:36+02:00
 lastmod: 2023-07-13T08:52:36+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Create a new POS unit (by using an existing one as reference)"
-description: ""
+description: "As soon as you have at least one POS unit in the system, you can use configurations and data within as a source of information for creating a new one with ease."
 lead: ""
 date: 2023-07-11T14:24:09+02:00
 lastmod: 2023-07-11T14:24:09+02:00
@@ -17,7 +17,7 @@ type: docs
 
 As soon as you have at least one POS unit in the system, you can use configurations and data within as a source of information for creating a new one with ease. 
 
-Each [POS store](../explanation/POS_store.md)({{< ref "../../../pos_store/intro.md" >}}) can contain multiple POS units. Most of the time, these units have an almost identical setup, the difference being their number, (since they have to be unique) and [payment bin]({{< ref "../payment_bins/index.md" >}}) (virtual representation of a cash register, or a safe). To create a new POS unit, follow the provided steps:
+Each [POS store]({{< ref "../../../pos_store/intro.md" >}}) can contain multiple POS units. Most of the time, these units have an almost identical setup, the difference being their number, (since they have to be unique) and [payment bin]({{< ref "../payment_bins/index.md" >}}) (virtual representation of a cash register, or a safe). To create a new POS unit, follow the provided steps:
 
 ## Prerequisites
 
@@ -40,6 +40,8 @@ Each [POS store](../explanation/POS_store.md)({{< ref "../../../pos_store/intro.
 6. Click **New** or **Edit List**, and add an entry for the new payment bin.    
    Make sure it has the same **POS Store Code** as the other payment bins used with that POS unit.  
 7. (Optional) Refer to the [relevant articles]({{< ref "../../../pos_profiles/intro.md" >}}) for configuring **Profiles**, if you wish them to be different than the ones defined in the former POS unit.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLJWAW0QFOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Next steps:
 

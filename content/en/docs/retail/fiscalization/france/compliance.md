@@ -1,6 +1,6 @@
 ---
 title: "NF 525 compliance"
-description: ""
+description: "This article provides a technical overview of NP Retail and the NF 525 compliance for France."
 lead: ""
 date: 2023-07-06T13:20:53+02:00
 lastmod: 2023-07-06T13:20:53+02:00

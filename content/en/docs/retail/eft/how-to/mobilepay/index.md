@@ -1,6 +1,6 @@
 ---
 title: "Set up integration with MobilePay in NP Retail (EFT)"
-description: ""
+description: "MobilePay is a digital-wallet software used in Finland and Denmark. It is best-suited for online purchases, as it enables online purchase with just one swipe. To set it up, refer to this guide. "
 lead: ""
 date: 2023-07-06T09:52:06+02:00
 lastmod: 2023-07-06T09:52:06+02:00

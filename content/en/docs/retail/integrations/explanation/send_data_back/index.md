@@ -1,6 +1,6 @@
 ---
 title: "Sending data back to Shopify"
-description: ""
+description: "Learn more about two events which prompt data to be sent to Shopify."
 lead: ""
 date: 2023-07-11T11:18:20+02:00
 lastmod: 2023-07-11T11:18:20+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Manually post POS entries and check if they are posted"
-description: ""
+description: "After a sale is finalized on the POS, an entry is automatically created in the **POS Entry List** administrative section. In the **Post Item Entry Status** and **Post Entry Status** fields, you can see whether the entry has been posted or not."
 lead: ""
 date: 2023-07-11T16:05:09+02:00
 lastmod: 2023-07-11T16:05:09+02:00

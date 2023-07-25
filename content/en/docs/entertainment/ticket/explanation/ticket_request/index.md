@@ -1,6 +1,6 @@
 ---
 title: "Ticket request"
-description: ""
+description: "Ticket requests resemble orders. Whenever the ticket creation is initiated from the POS or from a web store, a request will be sent to the **Ticket Request** administrative section, that can be accessed from the Role Center."
 lead: ""
 date: 2023-07-12T16:12:39+02:00
 lastmod: 2023-07-12T16:12:39+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Create item worksheet line"
-description: ""
+description: "Refer to this article to learn how item worksheet lines are created."
 lead: ""
 date: 2023-07-06T13:55:37+02:00
 lastmod: 2023-07-06T13:55:37+02:00

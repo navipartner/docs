@@ -1,6 +1,6 @@
 ---
 title: "Create a new item button in the MPOS"
-description: ""
+description: "Refer to this article to learn how to create a new item button in the MPOS."
 lead: ""
 date: 2023-07-06T14:50:45+02:00
 lastmod: 2023-07-06T14:50:45+02:00

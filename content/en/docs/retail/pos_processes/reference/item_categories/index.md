@@ -1,6 +1,6 @@
 ---
 title: "Item categories"
-description: ""
+description: "Item categories are defined in the **Item Category Card** by defining the fields and options listed in this article."
 lead: ""
 date: 2023-07-12T13:49:53+02:00
 lastmod: 2023-07-12T13:49:53+02:00

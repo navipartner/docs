@@ -1,6 +1,6 @@
 ---
 title: "Data Archives"
-description: ""
+description: "This article provides information needed to understand how NP Retail exports to .xml archives, how these .xml archives are secured, and how you can validate that they have not been tampered with."
 lead: ""
 date: 2023-07-06T13:17:31+02:00
 lastmod: 2023-07-06T13:17:31+02:00

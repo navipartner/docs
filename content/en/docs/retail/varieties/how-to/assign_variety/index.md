@@ -1,6 +1,6 @@
 ---
 title: "Assign a variety to an item"
-description: ""
+description: "After you've set up varieties, you can assign them to items."
 lead: ""
 date: 2023-07-10T22:42:49+02:00
 lastmod: 2023-07-10T22:42:49+02:00

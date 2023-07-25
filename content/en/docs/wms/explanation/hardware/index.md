@@ -1,6 +1,6 @@
 ---
 title: "Recommended WMS hardware"
-description: ""
+description: "Although a wide range of hardware is applicable in WMS scenarios, there are a couple of recommendations which should be taken into account."
 lead: ""
 date: 2023-07-13T14:16:09+02:00
 lastmod: 2023-07-13T14:16:09+02:00

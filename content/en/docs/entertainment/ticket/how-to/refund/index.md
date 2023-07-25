@@ -1,6 +1,6 @@
 ---
 title: "Refund tickets"
-description: ""
+description: "You can refund tickets (web orders) directly from BC or from the POS."
 lead: ""
 date: 2023-07-13T08:53:19+02:00
 lastmod: 2023-07-13T08:53:19+02:00
@@ -31,7 +31,7 @@ In the POS system you can revoke and refund tickets:
 
 ## Refund tickets in BC17
 
-You can refund tickets (web orders) directly from BC without accessing the POS (e.g. quickpay):
+You can refund tickets (web orders) directly from BC without accessing the POS (e.g. Quickpay):
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Posted Sales Invoices** and choose the related link.   
    The list of currently posted sales invoices is displayed.

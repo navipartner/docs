@@ -1,6 +1,6 @@
 ---
 title: "Pricing"
-description: ""
+description: "Pricing is a process of adjusting the value that the shop receives in exchange for goods. There are several price types."
 lead: ""
 date: 2023-07-07T13:06:41+02:00
 lastmod: 2023-07-07T13:06:41+02:00
@@ -31,6 +31,6 @@ Unit Price Excl. VAT is the Unit Price without VAT. If the Unit Price is stated 
 
 ## Sales price list
 
-You can create a selling price for a specific group of customers. Microsoft has combined different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers. These configurations can be performed in the **Sales Price List** page.
+You can create a [selling price]({{< ref "../../how-to/sales_price_setup/index.md" >}}) for a specific group of customers. Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers. These configurations can be performed in the **Sales Price List** page.
 
 {{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the Item card. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}

@@ -1,6 +1,6 @@
 ---
 title: "Sales price maintenance"
-description: ""
+description: "Sales price can be maintained for all customers, a specific customer, campaign or a group of specified customers. For instance, prices for staff are often based on the **Last Direct Cost** to which a factor is added."
 lead: ""
 date: 2023-07-12T14:01:43+02:00
 lastmod: 2023-07-12T14:01:43+02:00

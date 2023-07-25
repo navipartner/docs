@@ -1,6 +1,6 @@
 ---
 title: "Ticket BOM (reference guide)"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Ticket BOM fields. This is where the ticket admission schedule lines are connected to the Item entities."
 lead: ""
 date: 2023-07-13T09:06:46+02:00
 lastmod: 2023-07-13T09:06:46+02:00

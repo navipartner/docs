@@ -1,5 +1,5 @@
 ---
-title: "Location vs. reservation/event"
+title: "Admission objects define what tickets are valid for. Admission objects can be either of either the location or an event type, and are defined in **Ticket Admission**."
 description: ""
 lead: ""
 date: 2023-07-12T16:11:58+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up fiscalization compliance - France"
-description: ""
+description: "This article details how to configure NP Retail for compliance in France in relation to the NF 525 legislation."
 lead: ""
 date: 2023-07-06T13:21:43+02:00
 lastmod: 2023-07-06T13:21:43+02:00

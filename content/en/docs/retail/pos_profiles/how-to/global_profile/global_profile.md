@@ -1,6 +1,6 @@
 ---
 title: "Set up POS Global Sales Profile"
-description: ""
+description: "If there are multiple companies, and each one has POS units, there is a way to create one master company in which all POS transactions will be documented"
 lead: ""
 date: 2023-06-29T15:24:46+02:00
 lastmod: 2023-06-29T15:24:46+02:00

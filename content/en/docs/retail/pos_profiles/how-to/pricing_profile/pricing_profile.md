@@ -1,6 +1,6 @@
 ---
 title: "Set up POS Pricing Profile"
-description: ""
+description: "Each POS can have different customer price lists, customer discount list, and price matching."
 lead: ""
 date: 2023-07-04T14:50:35+02:00
 lastmod: 2023-07-04T14:50:35+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Configure an opening mechanism for a POS unit cash drawer"
-description: ""
+description: "This topic walks you through the processes of setting up the cash drawer to automatically open after each sale using the **POS Scenarios Profile** on the POS unit."
 lead: ""
 date: 2023-07-11T12:34:46+02:00
 lastmod: 2023-07-11T12:34:46+02:00

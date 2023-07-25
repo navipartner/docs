@@ -1,6 +1,6 @@
 ---
 title: "Transfer and post stock-take worksheet"
-description: ""
+description: "Once the worksheet has been completed and corrected, you need to transfer it to the **Item Journal**, and post it."
 lead: ""
 date: 2023-07-06T15:33:57+02:00
 lastmod: 2023-07-06T15:33:57+02:00

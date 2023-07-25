@@ -1,6 +1,6 @@
 ---
 title: "Set up Quickpay payment integration"
-description: ""
+description: "Refer to this article if you wish to set up the Quickpay payment integration in NP Retail."
 lead: ""
 date: 2023-07-11T10:51:29+02:00
 lastmod: 2023-07-11T10:51:29+02:00

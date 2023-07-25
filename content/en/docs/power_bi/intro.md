@@ -1,6 +1,6 @@
 ---
 title: "Business Intelligence (BI)"
-description: ""
+description: "Business Intelligence is a set of technologies and tools that help companies to perform in-depth analyses of the most important business segments and consequently to bring the right decision."
 lead: ""
 date: 2023-07-18T11:28:21+02:00
 lastmod: 2023-07-18T11:28:21+02:00

@@ -1,6 +1,6 @@
 ---
 title: "POS processes - learn & apply"
-description: ""
+description: "Refer to our guides, references, and educational articles for all essential POS processes."
 lead: ""
 date: 2023-07-19T10:57:19+02:00
 lastmod: 2023-07-19T10:57:19+02:00

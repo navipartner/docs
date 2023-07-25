@@ -1,6 +1,6 @@
 ---
 title: "POS Payment View Event Setup"
-description: ""
+description: "**POS Payment View Event Setup** can be used for entering a certain dimension in a POS transaction."
 lead: ""
 date: 2023-07-12T13:56:27+02:00
 lastmod: 2023-07-12T13:56:27+02:00

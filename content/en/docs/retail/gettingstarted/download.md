@@ -20,7 +20,9 @@ The trial version of the NP Retail solution is readily available on the [NaviPar
 
 1. Navigate to the [NaviPartner portal](https://www.navipartner.com/get-trial/).
 2. Provide all the necessary information, such as a name, company name, email and phone number.     
-   Note that you should select the version of the trial according to the region you are in. 
+
+   {{< alert icon="💡" text="You should select the version of the trial according to the region you are in." />}}
+
 3. Select the design theme for the trial web shop that you want to use.     
    The demo environment is created, and opened in your browser. There are four demo segments you can choose from.     
    You will also receive a confirmation email containing your credentials and a login token.

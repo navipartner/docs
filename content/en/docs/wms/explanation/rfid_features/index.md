@@ -1,6 +1,6 @@
 ---
 title: "NP RFID app features"
-description: ""
+description: "Learn more about the NP RFID app features in this article."
 lead: ""
 date: 2023-07-13T12:58:55+02:00
 lastmod: 2023-07-13T12:58:55+02:00

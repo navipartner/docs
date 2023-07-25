@@ -1,6 +1,6 @@
 ---
 title: "Configure master/slave POS units"
-description: ""
+description: "To configure relations between POS units for balancing it is necessary to set up master POS unit and assign it to all slave POS units."
 lead: ""
 date: 2023-07-11T12:33:34+02:00
 lastmod: 2023-07-11T12:33:34+02:00

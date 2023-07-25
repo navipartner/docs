@@ -1,6 +1,6 @@
 ---
 title: "Set up mobile POS view"
-description: ""
+description: "Mobile view setup is defined exactly in the same way as in the non-mobile scenarios. There are default views for the login, sale, and payment functions."
 lead: ""
 date: 2023-07-06T14:56:41+02:00
 lastmod: 2023-07-06T14:56:41+02:00

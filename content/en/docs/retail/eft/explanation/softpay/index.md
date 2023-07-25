@@ -1,6 +1,6 @@
 ---
 title: "Softpay integration"
-description: ""
+description: "Softpay is an app-based terminal solution that can be integrated into POS systems. This solution is integrated into NaviPartner's Retail app-based solution."
 lead: ""
 date: 2023-07-06T09:18:32+02:00
 lastmod: 2023-07-06T09:18:32+02:00

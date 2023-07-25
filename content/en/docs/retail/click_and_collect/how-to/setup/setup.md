@@ -1,6 +1,6 @@
 ---
 title: "Set up Click & Collect in NP Retail"
-description: ""
+description: "Refer to this guide to set up the Click & Collect module in NP Retail."
 lead: ""
 date: 2023-07-05T15:45:13+02:00
 lastmod: 2023-07-05T15:45:13+02:00

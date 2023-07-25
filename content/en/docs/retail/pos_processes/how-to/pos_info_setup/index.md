@@ -1,6 +1,6 @@
 ---
 title: "POS info setup"
-description: ""
+description: "This article contains an overview and instructions for various configurations of POS info elements both in Business Central and on the POS units."
 lead: ""
 date: 2023-07-11T16:10:19+02:00
 lastmod: 2023-07-11T16:10:19+02:00

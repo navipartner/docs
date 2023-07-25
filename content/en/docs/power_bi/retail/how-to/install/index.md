@@ -1,6 +1,6 @@
 ---
 title: "Install NP Power BI for Retail"
-description: ""
+description: "Take control over your operations by using the Power BI app for retail business."
 lead: ""
 date: 2023-07-18T11:30:02+02:00
 lastmod: 2023-07-18T11:30:02+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Set up the printing module (Hardware Connector)"
-description: ""
+description: "There are three available printer extensions you can choose from when setting up the default printers for report printing."
 lead: ""
 date: 2023-07-12T14:10:32+02:00
 lastmod: 2023-07-12T14:10:32+02:00
@@ -61,3 +61,6 @@ To set up the printing module, follow the provided steps:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Troubleshooting 
+
+[Printer troubleshooting]({{< ref "../../../../troubleshooting/printer.md" >}})

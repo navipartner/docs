@@ -1,6 +1,6 @@
 ---
 title: "POS actions"
-description: ""
+description: "POS actions are sets of workflows that trigger specific actions on the POS. These workflows are developed, and the setup and parameters are parts of the objects."
 lead: ""
 date: 2023-07-12T13:53:21+02:00
 lastmod: 2023-07-12T13:53:21+02:00

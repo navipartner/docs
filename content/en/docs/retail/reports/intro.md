@@ -1,6 +1,6 @@
 ---
 title: "Reports overview"
-description: ""
+description: "Reports are collections of data that help evaluate performance of various departments, activities, and services over the course of a certain period."
 lead: ""
 date: 2023-07-10T13:27:18+02:00
 lastmod: 2023-07-10T13:27:18+02:00

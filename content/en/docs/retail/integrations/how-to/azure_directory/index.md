@@ -1,6 +1,6 @@
 ---
 title: "Create Azure Active Directory Application"
-description: ""
+description: "To interact with the web services (APIs) of Business Central, the external party needs to use the OAuth 2 protocol to gain an access token. When working with two services interacting with each other, the client needs to use the client credentials flow."
 lead: ""
 date: 2023-07-11T10:15:31+02:00
 lastmod: 2023-07-11T10:15:31+02:00

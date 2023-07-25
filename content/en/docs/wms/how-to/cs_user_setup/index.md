@@ -1,6 +1,6 @@
 ---
 title: "Create a capture service user"
-description: ""
+description: "All users who will should have access to the mobile apps should be created in the **CS Users** setup section. Each CS user should also be an active BC user."
 lead: ""
 date: 2023-07-13T13:35:05+02:00
 lastmod: 2023-07-13T13:35:05+02:00

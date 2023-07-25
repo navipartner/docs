@@ -1,6 +1,6 @@
 ---
 title: "Set up a new terminal type"
-description: ""
+description: "Although the Pepper package already contains a short list of terminals, you may need to add your own terminal types as well."
 lead: ""
 date: 2023-07-06T09:57:45+02:00
 lastmod: 2023-07-06T09:57:45+02:00

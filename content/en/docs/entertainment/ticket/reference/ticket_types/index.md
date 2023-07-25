@@ -1,6 +1,6 @@
 ---
 title: "Ticket types (reference guide)"
-description: ""
+description: "Refer to the tables with descriptions of dedicated Ticket Types fields."
 lead: ""
 date: 2023-07-13T09:07:34+02:00
 lastmod: 2023-07-13T09:07:34+02:00

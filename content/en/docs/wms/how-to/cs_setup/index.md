@@ -1,6 +1,6 @@
 ---
 title: "Set up Capture Service (CS)"
-description: ""
+description: "In order to effectively use NP WMS, the module should be first set up with the required parameters."
 lead: ""
 date: 2023-07-13T13:37:36+02:00
 lastmod: 2023-07-13T13:37:36+02:00

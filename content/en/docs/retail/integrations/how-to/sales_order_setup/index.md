@@ -1,6 +1,6 @@
 ---
 title: "Sales Order integration area setup"
-description: ""
+description: "Refer to this article if you wish to set up e-commerce stores, shipment method mapping, and more."
 lead: ""
 date: 2023-07-11T11:23:41+02:00
 lastmod: 2023-07-11T11:23:41+02:00

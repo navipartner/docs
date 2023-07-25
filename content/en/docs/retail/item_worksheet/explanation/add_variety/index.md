@@ -1,6 +1,6 @@
 ---
 title: "Adding variety values to the worksheet"
-description: ""
+description: "Inserting a value that is not currently in the table for a variety will add that Variety Value for that worksheet line."
 lead: ""
 date: 2023-07-06T14:17:22+02:00
 lastmod: 2023-07-06T14:17:22+02:00

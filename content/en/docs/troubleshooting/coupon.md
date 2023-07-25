@@ -1,6 +1,6 @@
 ---
 title: "Coupon troubleshooting"
-description: ""
+description: "Refer to the Coupon troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:17:43+02:00
 lastmod: 2023-07-18T13:17:43+02:00

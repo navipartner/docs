@@ -1,6 +1,6 @@
 ---
 title: "Loyalty overview"
-description: ""
+description: "The loyalty program is a popular marketing tool used to reward loyal customers. The principle is that a customer is awarded points based on certain purchase actions, and these points are then consumed by being converted into discounts."
 lead: ""
 date: 2023-07-13T10:11:11+02:00
 lastmod: 2023-07-13T10:11:11+02:00

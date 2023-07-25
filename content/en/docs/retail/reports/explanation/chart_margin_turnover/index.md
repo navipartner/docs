@@ -1,6 +1,6 @@
 ---
 title: "Chart margin/turnover by shop"
-description: ""
+description: "The **NP Retail Manager** Role Center has a chart with which you can create an overview of the sales per each shop."
 lead: ""
 date: 2023-07-10T13:30:38+02:00
 lastmod: 2023-07-10T13:30:38+02:00

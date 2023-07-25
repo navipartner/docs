@@ -1,6 +1,6 @@
 ---
 title: "Set up Global Dimensions"
-description: ""
+description: "You can use Global Dimensions to set the analysis codes representing the shops."
 lead: ""
 date: 2023-07-10T22:28:48+02:00
 lastmod: 2023-07-10T22:28:48+02:00

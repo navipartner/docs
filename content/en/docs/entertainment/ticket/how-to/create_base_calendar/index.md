@@ -1,6 +1,6 @@
 ---
 title: "Create and customize Base Calendar for Admission"
-description: ""
+description: "Assigning and customizing a base calendar is a simple approach to making exceptions in regards to a time when a time-slot should be closed rather than open."
 lead: ""
 date: 2023-07-13T08:38:59+02:00
 lastmod: 2023-07-13T08:38:59+02:00

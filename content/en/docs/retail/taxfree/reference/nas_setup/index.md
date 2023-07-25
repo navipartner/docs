@@ -1,6 +1,6 @@
 ---
 title: "NAS setup"
-description: ""
+description: "All companies that run Global Blue tax free services need three scheduled objects listed in this article to run at regular intervals."
 lead: ""
 date: 2023-07-06T16:18:07+02:00
 lastmod: 2023-07-06T16:18:07+02:00

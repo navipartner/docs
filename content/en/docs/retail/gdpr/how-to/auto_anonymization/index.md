@@ -1,6 +1,6 @@
 ---
 title: "Anonymize customers automatically after a certain period"
-description: ""
+description: "Learn how to schedule automatic anonymization of customer data in accordance with GDPR."
 lead: ""
 date: 2023-07-06T13:49:04+02:00
 lastmod: 2023-07-06T13:49:04+02:00

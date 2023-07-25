@@ -1,6 +1,6 @@
 ---
 title: "Configure the SMS Setup"
-description: ""
+description: "This topic describes the process of configuring the SMS Setup. As soon as the necessary setup is completed, the SMS functionality can be used."
 lead: ""
 date: 2023-07-10T22:37:42+02:00
 lastmod: 2023-07-10T22:37:42+02:00
@@ -25,7 +25,7 @@ This topic describes the process of configuring the SMS Setup. As soon as the ne
 3. Specify the time until the message gets discarded in the **Discard Msg. Older Than \[Hrs]** field.
 4. In **Job Queue Category Code** select the **Job Queue** that will be used for processing queued SMS messages.     
 
-  {{< alert icon="📝" text="Job queue enables users to schedule and run specific reports or codeunits. In this specific case, there's a codeunit which runs a task for sending SMS in a batch in regular, predefined intervals. The task is recurring, so any new SMS is sent automatically via the job queue. The job queue is set in the **Job Queue Entries** administrative section using the *6014469 - NPR Send SMS Job Handler* codeunit."/>}}
+  {{< alert icon="📝" text="Job queue enables users to schedule and run specific reports or codeunits. In this specific case, there's a codeunit which runs a task for sending SMS in a batch in regular, predefined intervals. The task is recurring, so any new SMS is sent automatically via the job queue. The job queue is set in the <b>Job Queue Entries</b> administrative section using the <i>6014469 - NPR Send SMS Job Handle</i> codeunit."/>}}
 
 5. In **Auto Send Attempts** specify the number of attempts before message gets discarded.
 6. Set up the provider.

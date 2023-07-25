@@ -1,6 +1,6 @@
 ---
 title: "Handling codeunits (reference guide)"
-description: ""
+description: "Refer to this list of available WMS codeunits."
 lead: ""
 date: 2023-07-13T14:15:36+02:00
 lastmod: 2023-07-13T14:15:36+02:00
