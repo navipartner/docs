@@ -19,7 +19,7 @@ You can use the Replication Module to import data from one company to another (c
 
 Depending on how you set up the Replication Module, you can:
 
-- import data in Store companies from a Master (HQ) company.
+- import data in Store companies from a Master (HQ) company. 
 - import data in a new Business Central database from an existing Business Central database.
 - synchronize your application with a database used by another application.     
 
