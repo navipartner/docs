@@ -1,5 +1,5 @@
 ---
-title: "Gdpr"
+title: "GDPR"
 description: ""
 lead: ""
 date: 2023-07-06T13:46:10+02:00
