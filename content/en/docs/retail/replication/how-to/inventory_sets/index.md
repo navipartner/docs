@@ -1,6 +1,6 @@
 ---
 title: "Set up retail inventory sets"
-description: ""
+description: "If there's shortage of an item in one of the companies, you can check the inventory status in other companies which belong to the same database without having to switch the company first."
 lead: ""
 date: 2023-07-28T14:11:35+02:00
 lastmod: 2023-07-28T14:11:35+02:00
