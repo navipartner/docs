@@ -1,6 +1,6 @@
 ---
 title: "Payment gateways"
-description: ""
+description: "Payment Gateways play an integral role in the integration with webshops, when you're performing order handling in Business Central."
 lead: ""
 date: 2023-07-28T13:13:58+02:00
 lastmod: 2023-07-28T13:13:58+02:00
@@ -14,7 +14,6 @@ weight: 123
 toc: true
 type: docs
 ---
-
 
 
 Payment Gateways play an integral role in the integration with webshops, when you're performing order handling in Business Central.

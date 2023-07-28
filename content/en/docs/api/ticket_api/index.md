@@ -1,6 +1,6 @@
 ---
 title: "Ticket booking process"
-description: ""
+description: "Check out the ticket booking pipeline."
 lead: ""
 date: 2023-07-27T10:23:25+02:00
 lastmod: 2023-07-27T10:23:25+02:00
