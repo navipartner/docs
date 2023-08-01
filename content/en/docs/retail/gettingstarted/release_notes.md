@@ -25,6 +25,10 @@ Total discounts have been introduced in NP Retail. They give you an option of pr
 
 For more information, examples, and operating instructions refer to the article on [Setting up total discounts]({{< ref "../discounts/how-to/total_discount/index.md" >}})
 
+### POS grid editor
+
+A new feature which allows users to change the number of rows and columns in the POS screen grids via the POS Editor has been introduced. It gives users the option of fully customizing the number of buttons that will be displayed on the screen, as well as their height. 
+
 ## Version 23.0 (June 14th 2023)
 
 ### Getting Started Wizard 
