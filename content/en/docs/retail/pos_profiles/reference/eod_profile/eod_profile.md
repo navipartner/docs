@@ -51,4 +51,4 @@ The End of Day profile can be used to summarize all data such as transactions, a
 
 ![endofday](End%20of%20day%20profile.PNG)
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/58c97f91-5ce8-4cd9-ae4b-50d45d9f1a36" loading="lazy" title="Synthesia video player - POS Academy: End of Day Profile " allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ox4sPv9T62Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

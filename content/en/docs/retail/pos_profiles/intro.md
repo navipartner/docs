@@ -39,4 +39,4 @@ Each one is dedicated to setting up different aspects of POS units.
 | [**POS Customer Display Profile**]({{< ref "how-to/customer_display/customer_display.md" >}}) | You can set up the content of the POS display that the customer can interact with. |
 
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/7fa36668-e98e-44e2-93a8-0238a8f414ad" loading="lazy" title="Synthesia video player - POS Academy: POS Profiles Overview" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tbnKC-_cBGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

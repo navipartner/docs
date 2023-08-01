@@ -1,7 +1,6 @@
 ---
 title: "EFT lookup"
-description: "In NP Retail, the EFT module supports looking up past transaction results, if the EFT integration in use supports it.
-This lookup transaction request can browse through results as far back in time as the integration supports. Most of them can retrieve at least the most recently finished transaction."
+description: "In NP Retail, the EFT module supports looking up past transaction results, if the EFT integration in use supports it."
 lead: ""
 date: 2023-07-06T09:16:47+02:00
 lastmod: 2023-07-06T09:16:47+02:00

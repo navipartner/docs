@@ -1,6 +1,6 @@
 ---
 title: "Create a retention policy"
-description: "If you wish to fully implement the data archive feature, you need to set the retention policy, and assign a retention period to that retention policy. During that period, the selected records will be stored in the system, but as soon as it expires, the records will be automatically archived. The archived records can be downloaded in the XSL or the CSV format, and stored for later use."
+description: "If you wish to fully implement the data archive feature, you need to set the retention policy, and assign a retention period to that retention policy."
 lead: ""
 date: 2023-07-06T09:29:28+02:00
 lastmod: 2023-07-06T09:29:28+02:00

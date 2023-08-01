@@ -1,6 +1,6 @@
 ---
 title: "Create a new coupon"
-description: "Coupons can provide the discount to the sum of item prices on checkout if certain conditions are met. Coupons can be issued with a reference number, which is unique, or have a number defined to be used several times. They can be accessed and set up in the **Coupon Types** administrative section."
+description: "Coupons can provide the discount to the sum of item prices on checkout if certain conditions are met. Coupons can be issued with a reference number, which is unique, or have a number defined to be used several times. They can be accessed and set up in the Coupon Types administrative section."
 lead: ""
 date: 2023-07-05T17:10:21+02:00
 lastmod: 2023-07-05T17:10:21+02:00

@@ -57,3 +57,5 @@ Take control over your operations by using the Power BI app for retail business.
 11. Click **Sign in and connect** to synchronize your Power BI app with the data from Business Central.     
     This step may take some time, and after it's completed you will be able to see your own data in the report.    
     The data will be automatically refreshed once per day by default, but this can be changed in the dataset settings, based on your preferences. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/loqGQLCNYGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

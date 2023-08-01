@@ -1,6 +1,6 @@
 ---
 title: "Print Template Output Setup"
-description: "Print templates provide a structured way of mapping data to the output, either through lines or coordinates. In the **Print Template Output Setup** administrative section, you can map different types of templates to printers."
+description: "Print templates provide a structured way of mapping data to the output, either through lines or coordinates. In the Print Template Output Setup administrative section, you can map different types of templates to printers."
 lead: ""
 date: 2023-07-12T14:07:19+02:00
 lastmod: 2023-07-12T14:07:19+02:00

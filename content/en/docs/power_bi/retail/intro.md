@@ -35,3 +35,5 @@ Furthermore, you can get an overview of:
 - Transactions on the POS.
 
   {{< alert icon="📝" text="If you need any assistance with NP Power BI for Retail, contact our support team at support-bi@navipartner.com."/>}}
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SMSBVaWlmO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

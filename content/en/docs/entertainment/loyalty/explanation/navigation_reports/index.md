@@ -1,6 +1,6 @@
 ---
 title: "Navigation and reports"
-description: "All points for customers can be followed from the **Membership Card**. In the **Points** tab of the **Membership Card** you can see the awarded points (sale and refund), redeemed points, expired points, and remaining points."
+description: "All points for customers can be followed from the Membership Card. Learn more in this article."
 lead: ""
 date: 2023-07-13T10:14:17+02:00
 lastmod: 2023-07-13T10:14:17+02:00

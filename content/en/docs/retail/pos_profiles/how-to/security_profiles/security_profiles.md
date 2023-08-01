@@ -1,6 +1,6 @@
 ---
 title: "Set up POS Security Profile"
-description: "In **POS Security Profile** it is possible to set up the administrator password, and the password for unlocking a POS unit after the unit has been locked due to non-activity."
+description: "In POS Security Profile it is possible to set up the administrator password, and the password for unlocking a POS unit after the unit has been locked due to non-activity."
 lead: ""
 date: 2023-07-04T13:56:31+02:00
 lastmod: 2023-07-04T13:56:31+02:00

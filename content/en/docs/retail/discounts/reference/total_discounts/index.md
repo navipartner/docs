@@ -1,6 +1,6 @@
 ---
 title: "Total discount list"
-description: ""
+description: "Total discounts can be accessed and configured in the Total Discounts List administrative in Business Central."
 lead: ""
 date: 2023-07-31T15:00:05+02:00
 lastmod: 2023-07-31T15:00:05+02:00

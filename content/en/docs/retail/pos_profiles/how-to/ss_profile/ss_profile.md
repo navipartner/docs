@@ -1,6 +1,6 @@
 ---
 title: "Set up POS Self-Service Profile"
-description: "The **POS Self-Service Profile** is used for configuring the behavior of self-service kiosks, which allow customers to do their own checkout."
+description: "The POS Self-Service Profile is used for configuring the behavior of self-service kiosks, which allow customers to do their own checkout."
 lead: ""
 date: 2023-07-04T14:15:21+02:00
 lastmod: 2023-07-04T14:15:21+02:00

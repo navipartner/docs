@@ -69,3 +69,5 @@ Refer to our guides, references, and educational articles for all essential POS 
 - [Sales price maintenance]({{< ref "reference/sales_price_maintenance/index.md" >}})
 - [POS Menu Buttons Setup]({{< ref "../pos_layout/reference/menu_button_ref/index.md" >}})
 - [SQL statements for Lookup POS action]({{< ref "../pos_layout/reference/sql_pos_action/index.md" >}})
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oQFDJ1WTdyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

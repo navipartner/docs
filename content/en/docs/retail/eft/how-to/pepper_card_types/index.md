@@ -1,6 +1,6 @@
 ---
 title: "Set up additional Pepper Card types"
-description: "When paying through the terminal that uses Pepper, it’s recommended to use a single POS Payment Method for triggering the Terminal Payment. However, if you want to be able to see that your POS Entry List is using specific cards and post the payments in different G/L accounts, you can set up the **Pepper Card Types** for specific cards and map them to the specific POS Payment Methods."
+description: "When paying through the terminal that uses Pepper, it’s recommended to use a single POS Payment Method for triggering the Terminal Payment. However, if you want to be able to see that your POS Entry List is using specific cards and post the payments in different G/L accounts, you can set up the Pepper Card Types for specific cards and map them to the specific POS Payment Methods."
 lead: ""
 date: 2023-07-06T10:09:23+02:00
 lastmod: 2023-07-06T10:09:23+02:00

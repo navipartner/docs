@@ -1,6 +1,6 @@
 ---
 title: "Set up job queue to post POS entries"
-description: "After the sale is finalized, the POS entry is created. This entry has **Post item entry status** and **Post Entry Status - UNPOSTED**. The entry can be posted manually, but it is more common to create jobs in **Job Queue Entry**, which will post the entry."
+description: "After the sale is finalized, the POS entry is created. The entry can be posted manually, but it is more common to create jobs in Job Queue Entry to do this instead."
 lead: ""
 date: 2023-07-12T13:30:54+02:00
 lastmod: 2023-07-12T13:30:54+02:00

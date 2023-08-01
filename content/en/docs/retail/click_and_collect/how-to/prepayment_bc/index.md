@@ -33,3 +33,5 @@ To add the Click & Collect prepayment option on the POS, follow the provided ste
    A pop-up window for entering the prepayment amount/percentage is displayed.
 9. Enter the amount/percentage of the deposited prepayment and press **OK**.    
     The Click & Collect order has been processed.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XvXVOwxP2xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
