@@ -17,6 +17,14 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
+## Version 24.0 (July 28th 2023)
+
+### Total discounts
+
+Total discounts have been introduced in NP Retail. They give you an option of providing a discount benefit to a customer based on the total sales amount of a POS sale, or on the total sales amount of a group of items in a POS sale.
+
+For more information, examples, and operating instructions refer to the article on [Setting up total discounts]({{< ref "../discounts/how-to/total_discount/index.md" >}})
+
 ## Version 23.0 (June 14th 2023)
 
 ### Getting Started Wizard 
