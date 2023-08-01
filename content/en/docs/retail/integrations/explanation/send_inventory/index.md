@@ -1,6 +1,6 @@
 ---
 title: "Sending inventory to Shopify"
-description: "The administrative section **Shopify Inventory Levels** stores the pre-calculated available inventory levels before sending them to Shopify."
+description: "The administrative section Shopify Inventory Levels stores the pre-calculated available inventory levels before sending them to Shopify."
 lead: ""
 date: 2023-07-11T11:19:11+02:00
 lastmod: 2023-07-11T11:19:11+02:00

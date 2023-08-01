@@ -1,6 +1,6 @@
 ---
 title: "Set up external terminal integration"
-description: "You can use the External Terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information. It can also be used if another EFT Transaction is lost between the EFT Terminal and the POS where you can see that the terminal has accepted the transaction, but there are no other ways to transfer from the EFT Terminal to the POS."
+description: "You can use the External Terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information."
 lead: ""
 date: 2023-07-06T09:44:23+02:00
 lastmod: 2023-07-06T09:44:23+02:00

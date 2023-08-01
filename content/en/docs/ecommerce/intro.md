@@ -1,6 +1,6 @@
 ---
 title: "NP E-commerce product overview"
-description: ""
+description: "E-commerce is a business model that allows companies to buy and sell goods and services online. The NP E-commerce solution helps our customers build a foundation for a successful omnichannel online business."
 lead: ""
 date: 2023-07-18T10:47:26+02:00
 lastmod: 2023-07-18T10:47:26+02:00

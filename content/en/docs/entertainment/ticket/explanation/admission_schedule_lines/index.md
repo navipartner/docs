@@ -1,6 +1,6 @@
 ---
 title: "Admission schedule lines"
-description: "After you've created admissions and schedules, you can use the table in the **Admission Schedule Lines** administrative section, to specify which admissions will adhere to which schedules."
+description: "After you've created admissions and schedules, you can use the table in the Admission Schedule Lines administrative section, to specify which admissions will adhere to which schedules."
 lead: ""
 date: 2023-07-12T16:02:09+02:00
 lastmod: 2023-07-12T16:02:09+02:00

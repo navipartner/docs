@@ -1,6 +1,6 @@
 ---
 title: "Variety setup (reference guide)"
-description: "Before varieties are used, you need to apply certain configurations in the **Variety Setup** administrative section."
+description: "Before varieties are used, you need to apply certain configurations in the Variety Setup administrative section."
 lead: ""
 date: 2023-07-10T22:49:49+02:00
 lastmod: 2023-07-10T22:49:49+02:00

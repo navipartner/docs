@@ -1,6 +1,6 @@
 ---
 title: "Webservice API "
-description: ""
+description: "Both SOAP and REST API can used for managing our solutions. Refer to the relevant guides to learn more."
 lead: ""
 date: 2023-07-18T13:42:14+02:00
 lastmod: 2023-07-18T13:42:14+02:00

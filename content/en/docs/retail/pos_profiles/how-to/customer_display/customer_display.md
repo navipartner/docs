@@ -1,6 +1,6 @@
 ---
 title: "Set up Customer Display Profile"
-description: "You can set up the content of customer display in **Display Setup**."
+description: "You can set up the content of customer display in Display Setup."
 lead: ""
 date: 2023-07-05T10:42:08+02:00
 lastmod: 2023-07-05T10:42:08+02:00
