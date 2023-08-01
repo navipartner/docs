@@ -37,4 +37,4 @@ The following options can be set up in the **General** section:
 | **Allow Printing Receipt Copy** | Set up whether a copy is printed or not. Available options are: **Always**, **Once**, **Never**. |
 | **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. |
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/e27ed957-4ed0-4ed9-a879-3a14edc2560c" loading="lazy" title="Synthesia video player - POS Academy: Audit profile" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JaqGl38lV-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

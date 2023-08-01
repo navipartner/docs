@@ -78,3 +78,7 @@ In the **Mix Discount Lines** for this type of mix discount, you can configure t
 | **Min Qty.**  |  The **Min. Qty.** from the **Combination Part** card which will trigger the discount. |
 | **Min expected amount** | This is calculated as the minimum amount which will be expected as discount based on the minimum quantity configured on the **Combination Part** card. |
 | **Max. Expected Amount** | This is calculated as the maximum amount which will be expected as discount based on the maximum quantity configured on the **Combination Part** card. |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pn2N0bcTDJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SC2BrmPshh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
