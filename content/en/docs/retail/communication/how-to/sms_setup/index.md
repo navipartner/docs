@@ -15,8 +15,14 @@ toc: true
 type: docs
 ---
 
-This topic describes the process of configuring the SMS Setup. As soon as the necessary setup is completed, the SMS functionality can be used.
+This topic describes the process of configuring the [SMS Setup](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email) in Business Central. As soon as the necessary setup is completed, the SMS functionality can be used.
 
+## Prerequisites
+
+- Be a fully licensed Business Central user.    
+  The delegated administrators and users can't use the tenant's email account.
+
+## Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **SMS Setup** and open the related link.      
    You can use the [reference guide]({{< ref "../../reference/sms_ref/index.md" >}}) to learn what the purpose of each field in the **SMS Setup Card** is. 
