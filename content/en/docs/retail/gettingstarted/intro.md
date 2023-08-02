@@ -21,7 +21,7 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 - To start with, we recommend [downloading the demo]({{< ref "download.md" >}}), and experiencing first-hand what our solution can do.
 
-- Once you're ready for more advanced features, see our guides for setting up desktop software products [Major Tom]({{< ref "major_tom.md" >}}) and [Minor Tom]({{< ref "minor_tom.md" >}}).
+- Once you're ready for more advanced features, see our guide for setting up desktop software product [Minor Tom]({{< ref "minor_tom.md" >}}).
  
 - Download and install the [HW Connector]({{< ref "hw_connector.md" >}}) app to bridge the local hardware to the WEB MT interface of the POS.
 

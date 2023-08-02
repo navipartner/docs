@@ -36,10 +36,6 @@ It's recommended to have a failover solution in case the Internet is down. It sh
 - A router with integrated 4G fallback, which switches the cabled Internet connection to 4G when it goes down, and/or
 - A backup Internet connection which you can automatically switch over to when the primary Internet connection goes down. 
 
-### Web client
-
-The web client isn't latency-sensitive. However, keeping latency under 100ms between the web client and the BC/NAV Web server is best (the lower the better).
-
 ## Firewall setup
 
 ### Software
