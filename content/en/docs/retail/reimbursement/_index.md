@@ -1,5 +1,5 @@
 ---
-title: "Reimbursement module"
+title: "Reimbursement"
 description: ""
 lead: ""
 date: 2023-08-01T15:00:21+02:00
