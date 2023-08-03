@@ -105,7 +105,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 7. Press **OK**.   
    The sale is concluded. 
 
-## Paying with Multiple Payment Types 
+## Pay with Multiple Payment Types 
 
 #### Prerequisites 
 

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_info_card_ref-7555ef365c0e9b89861480909617cf9e"
-weight: 18
+weight: 30
 toc: true
 type: docs
 ---

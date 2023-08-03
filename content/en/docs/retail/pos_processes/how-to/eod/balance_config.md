@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "balance_config-05e567b88acc529bea9d365a0a95d09a"
-weight: 17
+weight: 27
 toc: true
 type: docs
 ---

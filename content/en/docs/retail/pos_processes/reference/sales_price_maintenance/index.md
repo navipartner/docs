@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sales_price_maintenance-eeae5a64ceb45d152021afc6e72357de"
-weight: 18
+weight: 30
 toc: true
 type: docs
 ---

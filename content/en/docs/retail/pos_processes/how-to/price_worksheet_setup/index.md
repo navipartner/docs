@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "price_worksheet_setup-a3c5d94b9f899b27ab79452ef2fec605"
-weight: 14
+weight: 28
 toc: true
 type: docs
 ---
