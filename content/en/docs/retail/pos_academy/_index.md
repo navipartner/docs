@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_academy-228197266406f67b035a6dcac9bbfc37"
-weight: 5
+weight: 3
 toc: true
 type: docs
 ---
