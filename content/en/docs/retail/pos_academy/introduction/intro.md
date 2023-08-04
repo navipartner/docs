@@ -51,3 +51,10 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | Article Name      | Description |
 | ----------- | ----------- |
 | [End-of-day profile]({{< ref "../close_pos/eod_profile.md" >}}) | Close the POS as a part of the end-of-day process. |
+
+## Fictional company configuration
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [POS store]({{< ref "../configuration/pos_store/index.md" >}}) | The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup you perform in NP Retail needs to match the specifics of the physical store. |
+| [Posting setup]({{< ref "../configuration/posting_profile/index.md" >}}) | Each POS unit can have a different set of posting rules which need to be configured to make the POS system fully operational. |
