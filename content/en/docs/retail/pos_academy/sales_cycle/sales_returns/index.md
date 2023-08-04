@@ -1,5 +1,5 @@
 ---
-title: "Sales cycle"
+title: "Sales and returns"
 description: "This tutorial portion describes the main sales processes on the POS. "
 lead: ""
 date: 2023-08-03T10:07:58+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sales_cycle-7a5d685cce44449007aa8de31020ae79"
-weight: 7
+weight: 8
 toc: true
 type: docs
 ---

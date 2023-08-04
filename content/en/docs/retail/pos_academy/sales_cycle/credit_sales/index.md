@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "credit_sales-4ea4ba8af8e933bcbae77c8dacda3d75"
-weight: 12
+weight: 13
 toc: true
 type: docs
 ---

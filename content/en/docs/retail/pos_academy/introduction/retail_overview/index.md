@@ -1,5 +1,5 @@
 ---
-title: "Retail solution"
+title: "NP Retail overview"
 description: "NP Retail is a solution that combines the functionalities of the POS and ERP systems built on the base of Business Central. "
 lead: ""
 date: 2023-08-03T09:07:24+02:00
