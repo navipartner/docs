@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "discounts-d2922107c15a84e8e4f2ffa74e26556f"
-weight: 8
+weight: 9
 toc: true
 type: docs
 ---

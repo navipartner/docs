@@ -23,3 +23,6 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 #### MORE COMING SOON 📝
 add table of contents
+
+pos processes
+Learn how to handle the initial POS processes like starting the day in POS, inserting the initial float, printing the balance for each POS, and find out more about the opening balance and other related components.

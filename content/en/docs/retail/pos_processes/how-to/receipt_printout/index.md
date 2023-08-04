@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "receipt_printout-18200a24a86a956a6acf323a87dba325"
-weight: 14
+weight: 28
 toc: true
 type: docs
 ---

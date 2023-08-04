@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_methods-af7ff7fc8568cf49da80e985849aa16c"
-weight: 10
+weight: 11
 toc: true
 type: docs
 ---
@@ -105,7 +105,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 7. Press **OK**.   
    The sale is concluded. 
 
-## Paying with Multiple Payment Types 
+## Pay with Multiple Payment Types 
 
 #### Prerequisites 
 
