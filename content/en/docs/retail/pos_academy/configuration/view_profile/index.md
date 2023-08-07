@@ -14,7 +14,7 @@ weight: 19
 toc: true
 type: docs
 ---
-In the POS View Profile determines what the POS Unit display looks like and how the contents are formatted.  
+The POS View Profile determines what the POS Unit display looks like and how the contents are formatted.  
 
 In the **General** section you can set up the following options for the fictional example company *Bring It to You Retail Store Ltd.*: 
 
