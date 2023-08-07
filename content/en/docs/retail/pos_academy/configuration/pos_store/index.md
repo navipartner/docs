@@ -1,5 +1,5 @@
 ---
-title: "POS stores"
+title: "Set up POS stores"
 description: "The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup performed in NP Retail needs to match the specifics of the physical store. "
 lead: ""
 date: 2023-08-04T12:42:54+02:00
@@ -21,7 +21,7 @@ The POS Store Card provides an option to create different setups for differe
 
 After the POS store and POS units are created, the correlation between them needs to be established. Every POS unit must be attached to a POS store. A single POS store can have multiple POS units, but a POS unit can be attached to only one POS store. 
 
-To create the Bring It to You Retail Store Ltd for the branch in Denmark, refer to the following guides:  
+To create the *Bring It to You Retail Store Ltd* for the branch in Denmark, refer to the following guides:  
 
 ## Create a new POS store
 

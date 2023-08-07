@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Each POS unit can have a different set of posting rules which are set up in the **POS Posting Profile** administrative section. 
+Each POS unit can have a different set of posting rules which are set up in the **POS Posting Profile** administrative section. Set up the following options for the fictional example company *Bring It to You Retail Store Ltd.*:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Posting Profile**, and choose the related link. 
 2. Create **New**. 

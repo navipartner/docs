@@ -58,3 +58,6 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | ----------- | ----------- |
 | [POS store]({{< ref "../configuration/pos_store/index.md" >}}) | The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup you perform in NP Retail needs to match the specifics of the physical store. |
 | [Posting setup]({{< ref "../configuration/posting_profile/index.md" >}}) | Each POS unit can have a different set of posting rules which need to be configured to make the POS system fully operational. |
+|  [POS units]({{< ref "../configuration/pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. As the next step of the POS Academy course, two POS units in the Denmark branch store need to be created and set up. |
+| [POS Audit Profile]({{< ref "../configuration/audit_profile/index.md" >}}) | Setting up this profile for assigning different number series and rules for printing is mandatory for creating a fully operational POS store. |
+| [POS View Profile]({{< ref "../configuration/view_profile/index.md" >}}) | The POS View Profile determines what the POS Unit display looks like and how the contents are formatted. |
