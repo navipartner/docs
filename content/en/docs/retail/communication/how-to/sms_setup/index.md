@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sms_setup-33f2efcb9612c81d764eb58194a1da73"
-weight: 65
+weight: 161
 toc: true
 type: docs
 ---

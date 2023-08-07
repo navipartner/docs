@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sms_template_ref-c4928e93c33780b781bba73a0ce2de1f"
-weight: 66
+weight: 163
 toc: true
 type: docs
 ---
