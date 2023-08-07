@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "tax_free_ref-dbd945a4bf1cd9422b700787ad07517d"
-weight: 22
+weight: 122
 toc: true
 type: docs
 ---

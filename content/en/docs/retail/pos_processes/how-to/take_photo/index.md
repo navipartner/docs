@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "take_photo-70e894c282a71e4c700e5a97690ce107"
-weight: 28
+weight: 127
 toc: true
 type: docs
 ---

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "activate_pos_editor-592a2bb74e78ff5f88c8230aff81df0d"
-weight: 26
+weight: 121
 toc: true
 type: docs
 ---

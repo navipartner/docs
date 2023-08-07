@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "click_and_collect"
     identifier: "prepayment-599cb16ba4416cf74615583f7fffbc8a"
-weight: 51
+weight: 146
 toc: true
 type: docs
 ---

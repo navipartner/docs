@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "add_customer_POS-8fd71c1ed4a1c482cb687cb8a5b8c557"
-weight: 60
+weight: 156
 toc: true
 type: docs
 ---
