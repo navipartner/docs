@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "membership_setup-3826e28ed013760661613133416b40c6"
-weight: 166
+weight: 267
 toc: true
 type: docs
 ---

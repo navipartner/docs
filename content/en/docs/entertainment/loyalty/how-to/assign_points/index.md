@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "assign_points-f12857f6e01accf4b7401cc3d864cca4"
-weight: 162
+weight: 271
 toc: true
 type: docs
 ---
