@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "physical_inventory-31d0d3870d737a43298c84e85f35ca9f"
-weight: 100
+weight: 195
 toc: true
 type: docs
 ---

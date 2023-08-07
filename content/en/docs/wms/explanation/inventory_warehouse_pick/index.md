@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "inventory_warehouse_pick-b9b19b1a663c7b30a3520baaaa127728"
-weight: 193
+weight: 360
 toc: true
 type: docs
 ---

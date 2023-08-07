@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "new_terminal_type-dabaac59b4cbff79b494abb3fef9e712"
-weight: 148
+weight: 216
 toc: true
 type: docs
 ---

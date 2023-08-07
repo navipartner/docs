@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ecommerce-f1669a652b725aec69643fb6d72d9c0d"
-weight: 180
+weight: 300
 toc: true
 type: docs
 ---

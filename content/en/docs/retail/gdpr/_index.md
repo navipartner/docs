@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "gdpr-594fb15fbcae254cca57d61eca98f82f"
-weight: 140
+weight: 245
 toc: true
 type: docs
 ---

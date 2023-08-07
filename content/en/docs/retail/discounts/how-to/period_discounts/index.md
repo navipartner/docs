@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "period_discounts-87f592416abc7b6fd2e1ba824b14c3ce"
-weight: 40
+weight: 135
 toc: true
 type: docs
 ---

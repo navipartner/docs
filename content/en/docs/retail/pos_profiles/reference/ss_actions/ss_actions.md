@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "pos_profiles"
     identifier: "ss_actions-1a5180f24a81418b6b811160b9ae8888"
-weight: 22
+weight: 122
 toc: true
 type: docs
 ---

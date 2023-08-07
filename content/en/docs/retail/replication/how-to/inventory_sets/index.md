@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "inventory_sets-970efd086c54d541ef05c952a01f54b1"
-weight: 91
+weight: 186
 toc: true
 type: docs
 ---

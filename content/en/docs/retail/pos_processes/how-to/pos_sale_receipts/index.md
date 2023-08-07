@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_sale_receipts-780d3a921fe68e364e91310f3d9e7ff0"
-weight: 28
+weight: 113
 toc: true
 type: docs
 ---

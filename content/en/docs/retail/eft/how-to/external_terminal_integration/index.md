@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "external_terminal_integration-536fc2482463d0de3ea19ef416144f46"
-weight: 148
+weight: 216
 toc: true
 type: docs
 ---

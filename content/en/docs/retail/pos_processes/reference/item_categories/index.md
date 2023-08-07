@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "item_categories-87266ed9134ca63ea6de3bd5d4920d8a"
-weight: 30
+weight: 115
 toc: true
 type: docs
 ---
