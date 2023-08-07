@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "retail_logo-f3172096570fe92fa8095fc845e9bfe2"
-weight: 127
+weight: 113
 toc: true
 type: docs
 ---

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "cash_drawer_open-b00e2bd9bafb8ba427c0a23f6ecdaf33"
-weight: 125
+weight: 111
 toc: true
 type: docs
 ---
