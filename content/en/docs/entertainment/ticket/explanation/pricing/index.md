@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pricing-2b845aa4bf5484d18bd9979dc9955eaa"
-weight: 173
+weight: 264
 toc: true
 type: docs
 ---

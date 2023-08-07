@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ticket_types-e219377d6b4b2f05a9b8f10ff2df00a5"
-weight: 172
+weight: 265
 toc: true
 type: docs
 ---

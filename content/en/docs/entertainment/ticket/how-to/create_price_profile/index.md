@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_price_profile-c2be3c768604897feec3f44501c9d84b"
-weight: 171
+weight: 262
 toc: true
 type: docs
 ---
