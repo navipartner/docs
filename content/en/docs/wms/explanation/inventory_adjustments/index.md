@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "inventory_adjustments-7ce730244a9a28144328e05ac0460080"
-weight: 193
+weight: 360
 toc: true
 type: docs
 ---
