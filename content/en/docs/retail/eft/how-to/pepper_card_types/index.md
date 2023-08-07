@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pepper_card_types-c9165d2570f985a8ffa3c3a2e6ce9c38"
-weight: 148
+weight: 216
 toc: true
 type: docs
 ---
