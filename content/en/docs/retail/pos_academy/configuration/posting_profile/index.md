@@ -1,6 +1,6 @@
 ---
-title: "Set up POS Posting Profile "
-description: "Each POS unit can have a different set of posting rules which are set up in the POS Posting Profile administrative section."
+title: "Configure POS Posting Setup"
+description: "The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system. "
 lead: ""
 date: 2023-08-04T13:01:05+02:00
 lastmod: 2023-08-04T13:01:05+02:00
@@ -10,45 +10,87 @@ menu:
   docs:
     parent: ""
     identifier: "posting_profile-7b5ccf63acb952b3ae4ad6f58fd9fa50"
-weight: 16
+weight: 20
 toc: true
 type: docs
 ---
 
-Each POS unit can have a different set of posting rules which are set up in the **POS Posting Profile** administrative section. Set up the following options for the fictional example company *Bring It to You Retail Store Ltd.*:
+The **POS Posting Setup** defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Posting Profile**, and choose the related link. 
-2. Create **New**. 
-3. Add **the Code in** the indicated field.       
-   In this specific case, the code should be set as **DEFAULT**. 
-4. Add **a Description** such as **Default POS Posting Profile**. 
-5. Choose between the **Store** and the **Customer** in the **Default POS Posting Setup** field.      
-   This setup determines whether the posting setup of customer or of POS store will be used on sales where you have a customer attached to it.  
-6. Set the value of the **Source Code** field to **RETAIL**. 
-7. Set the posting group **NATIONAL** in the **General Business Posting Group** field. 
-8. Set the VAT posting group **NATIONAL** in the **VAT Business Posting Group** field. 
+![posting1](posting1.PNG)
 
-{{< alert icon="📝" text="The <b>Tax Area Code</b> and <b>Tax Liable</b> fields are only used in the US localization."/>}}
+| Article Name      | Description |
+| ----------- | ----------- |
+| **POS Store Code** | The POS store code should be provided if you wish to set a specific posting logic for the store. | 
+| **POS Payment Method Code** | The posting logic of a POS Payment Method. |
+| **POS Payment Bin Code** | The posting logic of a specific **POS Payment Bin Code**. |
+| **Account Type** | The type of account which is going to be affected when the receipt is posted. Apart from the General Ledger, you can also use a Customer Ledger or a Bank Ledger at this level. In brief, posting will be done at sub-ledger level if you choose to do so.  | 
+| **Account No.** | Determines which account number from the Chart of Account, customer number from the **Customer Card** or bank number from the Bank is being debited when a particular POS Payment Method is received. |
+| **Difference Account Type** | Determines what type of account is going to be affected on posting any difference between a theoretical POS Unit amount and physical cash amount when doing receipt balancing. Apart from the General Ledger, you can also set a Customer Ledger or a Bank Ledger at this level. In brief, posting will be done at sub-ledger level if you choose to do so. |
+| **Close to POS Bin No.** | This field is not used for the example store. |
+| **Difference Acc. No.** | Determines which account is going to be affected with a negative cash difference. | 
+| **Difference Acc. No. (Neg)** | Determines which account is going to be affected with a positive cash difference. |
 
-{{< alert icon="📝" text="The <b>POS Period Register No. Series</b> is defined only if the posting to the <b>General Ledger</b> is done by posting the period compression."/>}}
+{{< alert icon="📝" text="Most companies use the same account for positive & negative differences."/>}}
 
-{{< alert icon="📝" text="The <b>VAT Customer No.</b> is used if a customer is assigned to the POS store."/>}}
+## Different combinations in the POS Posting Setup 
 
-9. Define how the POS entries will be posted in **Posting Compression**.     
-   In this example, the compression is performed **Per POS Entry**, but the following options are available: 
-   - **Uncompressed** – Every POS entry line is posted as-is in the General Ledger.  
-   - **Per POS Entry** – The lines are compressed per an account code within that entry.      
-      Example: If there are 3 lines for a sale with the same revenue account, the entry is compressed into one line in the General Ledger entry for that transaction.  
-   - **Per POS Period** – All transactions within that POS period are compressed by the same General Ledger account.  
-      Example: 100 sales lines are compressed as 1 line in the General Ledger.
+The **POS Posting Setup** is used for posting the payment from the POS on a specific General Ledger account or a bank account. Different components of the POS Posting Setup have different priority levels determined by the Posting Priority Rule.  
 
-  {{< alert icon="📝" text="As the record is kept in Business Central for the Bring It to You Retail Store Ltd, you should not set the interface to an external ERP system in the <b>Auto Process External POS Sales</b> option. "/>}}
+![posting2](posting2.PNG)
 
-10. Use the **Max POS Posting Differences** field to define the maximum allowed difference caused by the difference between currencies.      
-    It is set as a buffer of 0.50.  
-11. Define the General Ledger account **8410** on which these differences are posted in the Difference Account. 
-12. Define the General Ledger account **9140** in which all sales rounding amounts are posted in the **POS Sales Rounding Account** field. 
-13. Add **0.50** in the **POS Sales Amount Rounding** field to determine the decimal space on which the rounding is performed. 
-14. Set the **Rounding Type** to **Nearest**.
+The sales account is configured by combining the specified **Gen. Bus. Posting Group** and the **Gen. Prod. Posting Group** in the **POS Posting Setup** administrative section of Business Central. For that reason, you’ve configured the posting group **NATIONAL** in the **POS Posting Profile** and the **Gen. Prod. Posting Group** in the **Item Card** of each item.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Regardless of how it is set up, it’s necessary to consider the following elements: 
+
+- **POS Store Code**
+- **POS Payment Method Code** 
+- **POS Payment Bin Code** 
+
+The posting setup selection is based on a posting priority rule. There are 3 possible combinations: 
+
+- If all POS Stores use the same G/L account for posting, you only need to set the **POS Payment Method Code**.  
+
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+|  | CASH | | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+
+- If each store has a different account for the **POS Payment Method**, then you need to set a combination of the **POS Store Code** and the **POS Payment Method Code**. 
+
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| **STORE1**  | CASH  | | G/L Account | 230430 | G/L Account | 720700 | 720700 |
+| **STORE2**   | CASH | | G/L Account | 230440 | G/L Account | 720700 | 720700 |
+| **STORE3**   | CASH | | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+
+- If you’re using a different account for each store and POS Unit, you need to do a Full Match with the **POS Store Code**, the **POS Payment Method Code**, and the **POS Payment Bin Code**.
+
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| **STORE1**  | CASH  | REG1 | G/L Account | 230430 | G/L Account | 720700 | 720700 |
+| **STORE2**   | CASH | REG2 | G/L Account | 230440 | G/L Account | 720700 | 720700 |
+| **STORE3**   | CASH | REG3 | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+
+When posting, the system will prioritize: 
+
+1. Full Match – POS Store Code, POS Payment Method Code, POS Payment Bin Code
+2. 2 constraints – POS Store Code, POS Payment Method Code
+3. 1 constraint – POS Payment Method Code
+
+## Common combinations in POS Posting Setup (Cash) 
+
+This example showcases what occurs when closing the register and how the system generates proper journal entries based on the POS Posting Setup. 
+
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+|  | CASH  | | G/L Account | 230430 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | BANK | G/L Account | 230440 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | SAFE | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+
+When you receive a payment in **CASH**, the G/L account **230430** is debited with that amount.  
+
+When balancing is done, if there is a difference between the physical cash count and the register amount, the difference is recorded in the account **720700**. 
+
+After the cash balancing is done, and you decide you wish to transfer some money into a **BANK** (or a **BANK Intermediary Account**), the account **230440** will be debited and the account **230430** will be credited with the transferred amount. 
+
+After the cash balancing is done, and you decide to transfer some money into a **SAFE**, the account **230450** will be debited and the account **230430** is credited with the transferred amount. 

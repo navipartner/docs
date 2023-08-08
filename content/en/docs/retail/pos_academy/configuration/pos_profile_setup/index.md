@@ -17,6 +17,46 @@ type: docs
 
 [POS profiles]({{< ref "../../../pos_profiles/intro.md" >}}) are the main features used for configuring POS units. They can be found in the **POS Unit Card** administrative section of all POS units defined in Business Central. This portion of the POS Academy contains instructions for setting up the necessary profiles for the *Bring It to You Retail Store Ltd* fictional example company.
 
+## Posting profile setup
+
+Each POS unit can have a different set of posting rules which are set up in the **POS Posting Profile** administrative section. Set up the following options for the fictional example company *Bring It to You Retail Store Ltd.*:
+
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Posting Profile**, and choose the related link. 
+2. Create **New**. 
+3. Add **the Code in** the indicated field.       
+   In this specific case, the code should be set as **DEFAULT**. 
+4. Add **a Description** such as **Default POS Posting Profile**. 
+5. Choose between the **Store** and the **Customer** in the **Default POS Posting Setup** field.      
+   This setup determines whether the posting setup of customer or of POS store will be used on sales where you have a customer attached to it.  
+6. Set the value of the **Source Code** field to **RETAIL**. 
+7. Set the posting group **NATIONAL** in the **General Business Posting Group** field. 
+8. Set the VAT posting group **NATIONAL** in the **VAT Business Posting Group** field. 
+
+{{< alert icon="📝" text="The <b>Tax Area Code</b> and <b>Tax Liable</b> fields are only used in the US localization."/>}}
+
+{{< alert icon="📝" text="The <b>POS Period Register No. Series</b> is defined only if the posting to the <b>General Ledger</b> is done by posting the period compression."/>}}
+
+{{< alert icon="📝" text="The <b>VAT Customer No.</b> is used if a customer is assigned to the POS store."/>}}
+
+9. Define how the POS entries will be posted in **Posting Compression**.     
+   In this example, the compression is performed **Per POS Entry**, but the following options are available: 
+   - **Uncompressed** – Every POS entry line is posted as-is in the General Ledger.  
+   - **Per POS Entry** – The lines are compressed per an account code within that entry.      
+      Example: If there are 3 lines for a sale with the same revenue account, the entry is compressed into one line in the General Ledger entry for that transaction.  
+   - **Per POS Period** – All transactions within that POS period are compressed by the same General Ledger account.  
+      Example: 100 sales lines are compressed as 1 line in the General Ledger.
+
+  {{< alert icon="📝" text="As the record is kept in Business Central for the Bring It to You Retail Store Ltd, you should not set the interface to an external ERP system in the <b>Auto Process External POS Sales</b> option. "/>}}
+
+10. Use the **Max POS Posting Differences** field to define the maximum allowed difference caused by the difference between currencies.      
+    It is set as a buffer of 0.50.  
+11. Define the General Ledger account **8410** on which these differences are posted in the Difference Account. 
+12. Define the General Ledger account **9140** in which all sales rounding amounts are posted in the **POS Sales Rounding Account** field. 
+13. Add **0.50** in the **POS Sales Amount Rounding** field to determine the decimal space on which the rounding is performed. 
+14. Set the **Rounding Type** to **Nearest**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Audit profile setup
 
 The POS audit profile is used for assigning different number series and different rules for printing to different POS units. Setting up this profile is mandatory for creating a fully operational POS store.
@@ -95,13 +135,13 @@ The following fields need to be set up:
 | **Disable Difference Field** | If active, the salespeople are prompted to provide the counted amount. Otherwise, if an amount is entered in the **Difference** field, the **Counting** field is automatically updated with the difference between the expected ledger balance amount, and the **Difference** field.  | **Activated** |
 | **Require Denominations** | You can set an **Assist** button for denomination count on the following fields: **Counted Amount**, **Bank Deposit Amount**, and **Move to Bin Amount**. | All 3 options **Activated** |
 
-## Input box profile
+## Input box profile setup
 
 The [POS Input Box Profile]({{< ref "../../../pos_profiles/reference/input_box_profile/input_box_profile.md" >}}) is used for setting up which data will be recognized in the POS unit’s input box. 
 
 By default, there is one default POS input box profile with the **Code SALE** and **Description Default EAN box Sales Setup** in the system that you can select when setting up a POS unit. If there is a need to create a different profile, you can create a new one with the unique **Code** and **Description**. 
 
-## Receipt text profile
+## Receipt text profile setup
 
 The POS Unit Receipt Text Profile can be used for assigning additional text to the receipt footer area. Every POS unit can contain distinct text in the footer if they have different POS unit Receipt Text Profiles with different text in them. The POS Unit Receipt Text Profile consists of two sections: **General** and **POS Sales Ticket Receipt Text**. Although not required for setting up POS stores, you can still create it for additional personalization.
 
@@ -113,7 +153,7 @@ The following fields can be defined:
 | **Description** | The short description of a profile. | **Bring It to You Retail Store Ltd receipt text** |
 | **Sales Ticket Receipt Text** | The text which will be displayed in the footer. | **Thank you for your visit! Please check out our website for new promotions and offers!** |
 
-## Named action profile
+## Named action profile setup
 
 Follow the provided steps to set all the required actions and establish a fully operational POS unit. To create a new POS Named Action Profile: 
 
