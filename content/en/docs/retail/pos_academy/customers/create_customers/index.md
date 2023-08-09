@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_customers-14d4e3147d798113b2ee40cbd44c8190"
-weight: 23
+weight: 24
 toc: true
 type: docs
 ---
@@ -41,6 +41,9 @@ This topic goes through the process of creating new customers from the POS.
 4. Press **Close**.     
    The customer is created and added to sale. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nyrOQE1To_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Create customers and customer templates in Business Central 
 
 To create customers in Business Central and apply customer templates, refer to the procedure on the [official Microsoft learning portal](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-register-new-customers).  
+

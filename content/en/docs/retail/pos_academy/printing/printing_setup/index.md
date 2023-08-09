@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "printing_setup-0cba2ac2d0dfdafdd227deabcf3aeff2"
-weight: 22
+weight: 23
 toc: true
 type: docs
 ---
@@ -74,3 +74,5 @@ This tutorial describes the process of setting up printers for printing reports 
 6. Select **EPSON_CASH_DRAWER**. 
 
 ![printers](printers.PNG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

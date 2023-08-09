@@ -52,3 +52,5 @@ The **POS Payment Method Card** is where you will define what payment method is 
 | **Reverse Unrealized VAT** | This field appears when the processing type is a **Voucher**. On redeeming a voucher, the initial VAT calculated on issuing the voucher can be reversed. For this to work, the General Ledger account associated with voucher needs to have a VAT setup in place.  | |
 
 {{< alert icon="📝" text="The Denominations must be set for the currencies on the <b>POS Payment Card</b>."/>}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/czGJ2OqvsNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
