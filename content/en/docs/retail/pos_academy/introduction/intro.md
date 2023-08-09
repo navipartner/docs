@@ -62,6 +62,7 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [POS payment bin setup]({{< ref "../configuration/payment_bin/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
 | [Posting setup]({{< ref "../configuration/posting_profile/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
 | [Payment methods]({{< ref "../configuration/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
+| [Variety setup]({{< ref "../configuration/varieties/index.md" >}}) | In this portion of the POS Academy, you will be walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 
 
 ## Printers
 

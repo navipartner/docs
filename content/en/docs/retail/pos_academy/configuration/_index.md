@@ -1,5 +1,5 @@
 ---
-title: "POS Configuration"
+title: "Configuration"
 description: ""
 lead: ""
 date: 2023-08-04T12:42:31+02:00

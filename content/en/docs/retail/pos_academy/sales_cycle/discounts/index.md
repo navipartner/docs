@@ -255,6 +255,8 @@ To add multiple unit price discount in sale:
 5.	Set the quantity to **5**.     
     The quantity is changed on the sales line and the price set up for five pieces is applied.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TK8aiGYn810" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Create a Customer Discount
 
 #### Prerequisite
@@ -309,6 +311,13 @@ To add a mix discount in a sale:
 2.	Provide **73009** in the **Item no.** box in the top right corner.   
     A new sales line is added. Both items are assigned the same discount percentage, and the total amount of the sale is now **1000**. The discount amounts and the **Amounts Including VAT** are calculated.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GdFKN5v223g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pn2N0bcTDJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SC2BrmPshh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## Create a Period Discount
 
 #### Prerequisites
@@ -323,6 +332,5 @@ To add a period price in a sale:
 1.	Provide **70003** in the **Item no.** box in the top right corner.       
     A new sales line is added with the price from the **Period Discount Page – 1200**. The discount percentage and the discount amount are calculated.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pn2N0bcTDJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SC2BrmPshh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NynY_ZB-jxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe

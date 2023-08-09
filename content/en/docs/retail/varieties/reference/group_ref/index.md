@@ -28,4 +28,4 @@ Variety groups are combinations of varieties assembled according to a certain lo
 | **Create Copy of Variety 1 Table** | If ticket, a copy of the table selected in the **Variety 1 Table** field will be created. All values in the table will be copied 1:1. |
 | **Copy Naming Variety 1-1** | The following options are available: **Blank** - this selection results in an error if **Create Copy of Variety 1 Table** is ticked; **Table Code + No. Series** - the code of the **Variety 1 Table** + the next number from the number series will be used; **Table Code + Item No** - the code of the **Variety 1 Table** + the **Item Number** will be used.
 
-{{< alert icon="📝" text="There are also fields for **Variety 2**, **Variety 3**, and **Variety 4** that are configured in the same way as **Variety 1**."/>}}
+{{< alert icon="📝" text="There are also fields for <b>Variety 2</b>, <b>Variety 3</b>, and <b>Variety 4</b> that are configured in the same way as <b>Variety 1</b>."/>}}
