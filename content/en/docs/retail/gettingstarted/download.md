@@ -39,21 +39,9 @@ The trial version of the NP Retail solution is readily available on the [NaviPar
 8. Enter your salesperson code in the indicated field, and click **OK**.      
    The trial environment is now open.
 
-## Next steps (Advanced setup)
+## Next steps - Install Minor Tom
 
 Once you've completed the initial setup, there some additional configurations that you might be interested in.
 
-### Install Minor Tom
+Refer to the [how-to guide]({{< ref "minor_tom.md" >}}) for installing our desktop POS software. 
 
-Refer to the [how-to guide]({{< ref "minor_tom.md" >}}) for installing the abbreviated version of our desktop POS software. 
-
-### Install ClickOnce
-
-ClickOnce is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. 
-
-1. Click the **ClickOnce Client Installation** link from the email you received from NaviPartner when you requested a trial version of NP Retail.    
-   The page containing the installation links is displayed.
-2. Click **Install now**.
-3. During the installation, you will need to provide credentials to log into Business Central.     
-   It takes a few minutes to run for the first time, as all necessary .dll files need to be properly installed on your PC.
-   After the installation is complete, you will be able to access Microsoft Dynamics NAV via ClickOnce.
