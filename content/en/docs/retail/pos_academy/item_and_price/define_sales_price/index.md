@@ -1,6 +1,6 @@
 ---
 title: "Sales Price List setup"
-description: ""
+description: "Add a new entry in the Price List Lines administrative section."
 lead: ""
 date: 2023-08-14T13:52:09+02:00
 lastmod: 2023-08-14T13:52:09+02:00
