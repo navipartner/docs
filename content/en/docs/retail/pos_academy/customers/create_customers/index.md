@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_customers-14d4e3147d798113b2ee40cbd44c8190"
-weight: 24
+weight: 26
 toc: true
 type: docs
 ---

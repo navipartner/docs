@@ -1,6 +1,6 @@
 ---
-title: "Admission objects define what tickets are valid for. Admission objects can be either of either the location or an event type, and are defined in Ticket Admission."
-description: ""
+title: "Locations and events"
+description: "Admission objects define what tickets are valid for. Admission objects can be either of either the location or an event type, and are defined in Ticket Admission."
 lead: ""
 date: 2023-07-12T16:11:58+02:00
 lastmod: 2023-07-12T16:11:58+02:00
