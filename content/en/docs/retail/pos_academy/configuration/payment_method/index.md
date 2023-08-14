@@ -18,7 +18,7 @@ The **POS Payment Method Card** is where you will define what payment method is 
 
 ![payment1](payment1.PNG)
 
-| Article Name      | Description | Example  |
+| Field Name      | Description | Example  |
 | ----------- | ----------- | ----------- |
 | **Code** | The code given to the POS Payment Method (e.g., **CASH**, **AMEK**, **DINERS**, **GV - Gift Voucher**). | |
 | **Description** | The short description of the payment method.  |  |
@@ -46,7 +46,7 @@ The **POS Payment Method Card** is where you will define what payment method is 
 
 {{< alert icon="📝" text="It’s recommended to format MIN and MAX values like -200.000 and 200.000, since it is very unusual to make sales exceeding those amounts. Salespeople may accidentally scan a barcode into the amount box, and finish the sale, with a large amount. This affects revenue reporting etc. Of course, the sales can be reversed afterwards, but the large figures may not reflect positively on the ledgers and reports.  Having set a min/max amount blocks the sales from being finalized and makes sure that such mistakes are avoided."/>}}
 
-| Article Name      | Description | Example  |
+| Field Name      | Description | Example  |
 | ----------- | ----------- | ----------- |
 | **Allow Refund** | For certain POS Payment Methods, you can set that it’s possible to do refund with the payment method used for the payment. | Activated. | 
 | **Reverse Unrealized VAT** | This field appears when the processing type is a **Voucher**. On redeeming a voucher, the initial VAT calculated on issuing the voucher can be reversed. For this to work, the General Ledger account associated with voucher needs to have a VAT setup in place.  | |
