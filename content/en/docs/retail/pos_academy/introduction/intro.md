@@ -70,8 +70,26 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | ----------- | ----------- |
 | [Printing setup]({{< ref "../printing/printing_setup/index.md" >}}) | This tutorial describes the process of setting up printers for printing reports and templates and using this printer for wildcard reports. |
 
+## Users
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [Users and salespeople setup]({{< ref "../user_setup/setup/index.md" >}}) | This topic describes the process of setting up additional information relating to users and salespeople in the system.| 
+| [Locations setup]({{< ref "../user_setup/location_setup/index.md" >}}) | If you’re tracking stock in different stores in NP Retail, you need to assign the location to the **POS Store** on the **POS Store Card**. On that location, you can carry out the processes of sale and replenishment.  | 
+
 ## Customers
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [Customer setup]({{< ref "../customers/create_customers/index.md" >}})   | This topic goes through the process of creating new customers from the POS.  |
+| [Customers setup]({{< ref "../customers/create_customers/index.md" >}})   | This topic goes through the process of creating new customers from the POS.  |
+
+## Items and prices
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [Items]({{< ref "../item_and_price/intro.md" >}}) | Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers. |
+| [Create new items]({{< ref "../item_and_price/create_item/index.md" >}}) | This topic goes through the process of creating new items in NP Retail. | 
+| [Item category setup]({{< ref "../item_and_price/item_categories/index.md" >}}) | Item categories are used in Business Central to group items that share certain characteristics. They make sorting, searching and report filtering much easier. |
+| [Multiple unit prices on an item]({{< ref "../item_and_price/multiple_unit_prices_item/index.md" >}}) | Refer to the guide for setting up multiple unit prices on a single items, and the comparisons between the procedure in NP Retail and in core Business Central. | 
+| [Multiple prices on a group of items]({{< ref "../item_and_price/multiple_prices_item_group/index.md" >}}) | If you wish to set different price ranges within a single item group, you need to use the Mix Discount, with the Multiple Discount Levels discount type. | 
+| [Sales Price List setup]({{< ref "../item_and_price/define_sales_price/index.md" >}}) | Follow the guide for setting up an example item in the **Price List Lines** administrative section.
