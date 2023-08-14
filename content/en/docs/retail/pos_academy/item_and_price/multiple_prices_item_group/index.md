@@ -1,6 +1,6 @@
 ---
 title: "Multiple prices on a group of items"
-description: ""
+description: "If you wish to set different price ranges within a single item group, you need to use the Mix Discount, with the Multiple Discount Levels discount type."
 lead: ""
 date: 2023-08-14T13:20:31+02:00
 lastmod: 2023-08-14T13:20:31+02:00
