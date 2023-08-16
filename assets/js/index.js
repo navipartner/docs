@@ -157,12 +157,14 @@ Source:
         const entry = document.createElement('div');
         suggestions.appendChild(entry);
 
+        const titleText = doc.title.includes('/') ? doc.title.replace('/', '/ ') : doc.title;
+      
         const a = document.createElement('a');
         a.href = href;
         entry.appendChild(a);
 
         const title = document.createElement('span');
-        title.textContent = doc.title;
+        title.textContent = titleText;
         title.classList.add("suggestion__title");
         a.appendChild(title);
 
