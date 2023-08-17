@@ -97,4 +97,24 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [Mix discount setup]({{< ref "../item_and_price/mix_discount/index.md" >}}) | Set up mix discount for the *Bring It to You Retail Store Ltd* fictional example company. | 
 | [Period discount setup]({{< ref "../item_and_price/period_discount/index.md" >}}) | Set up period discount for the *Bring It to You Retail Store Ltd* fictional example company. | 
 | [Customer discount group setup]({{< ref "../item_and_price/period_discount/index.md" >}}) | Set up customer discount groups for the *Bring It to You Retail Store Ltd* fictional example company. |
-| [Discount priority setup]({{< ref "../item_and_price/discount_priority/index.md" >}}) | Discount priority can be used when certain discount types need to be prioritized over the others. You can use this feature in the context of the *Bring It to You Retail Store Ltd* fictional example company setup. 
+| [Discount priority setup]({{< ref "../item_and_price/discount_priority/index.md" >}}) | Discount priority can be used when certain discount types need to be prioritized over the others. You can use this feature in the context of the *Bring It to You Retail Store Ltd* fictional example company setup. | 
+| [Sales price setup]({{< ref "../item_and_price/sales_price_setup/index.md" >}}) | You can create a sales price for a specific group of customers. These configurations can be performed in the **Sales Price List** page. | 
+
+## POS entry setup
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [POS Entry List - posting setup]({{< ref "../pos_entry/pos_entry_list_posting_setup/index.md" >}}) | You can define the accounts that will be debited when receiving payment with various payment methods, and when you transfer funds from your float amount during the process of balancing into a Bank or a Safe. |
+| [POS Entry List - Accounting Entries]({{< ref "../pos_entry/accounting_entries/index.md" >}}) | See how different currencies behave in the accounting entries. | 
+
+## Vouchers
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [Retail voucher overview]({{< ref "../vouchers/intro.md" >}}) | A Retail Voucher is a document that entitles the owner to purchase goods or services with it. Learn more in this article. |
+| [POS actions for Retail Vouchers]({{< ref "../vouchers/pos_actions_vouchers/index.md" >}}) | Learn which actions can be used in relation with the retail vouchers, and what their purpose is. | 
+| [Create vouchers issued and redeemed by the same store]({{< ref "../vouchers/vouchers_issued_by_same_store/index.md" >}}) | Refer to the processing instructions for creating vouchers issued and redeemed by the same store. | 
+| [Issuing different types of vouchers]({{< ref "../vouchers/issuing_vouchers/index.md" >}}) | Take a look at this reference article which demonstrates different types of vouchers. |
+| [External voucher setup]({{< ref "../vouchers/external_vouchers/index.md" >}}) | This portion of the POS Academy uses GS1 Gratis as an example for the external retail voucher setup. |
+| [Vouchers issued in web stores]({{< ref "../vouchers/web_stores/index.md" >}}) | Learn how to set up gift vouchers that are issued in web stores. | 
+| [Set up Voucher E-mail template]({{< ref "../vouchers/email_templates/index.md" >}}) | This portion of the POS Academy instructrs on how to set e-mail body that recipients of the voucher will receive. | 
