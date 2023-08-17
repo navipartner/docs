@@ -1,6 +1,6 @@
 ---
-title: "Set up sales price"
-description: "You can define prices for specific items in the Sales Price List in which the Price functions are combined with the Discount function."
+title: "Set up sales price "
+description: "You can define prices for specific items in the Sales Price List in which the **Price** functions are combined with the Discount function."
 lead: ""
 date: 2023-07-11T16:22:19+02:00
 lastmod: 2023-07-11T16:22:19+02:00
@@ -22,7 +22,7 @@ You can define [prices]({{< ref "../../explanation/pricing/index.md" >}}) for sp
 2. From **Item Card** access the **Sales Price** via **Special Sales Prices & Discount** in the ribbon.      
    On an item level, there will be a line or a list if that item is already in a Sales Price of some sort. Otherwise, you need to create a new list by selecting the **Sales Price List**.
 3. Click **Sales Prices & Discount** in the **Item Card** to access the **Sales Price** card.      
-4. Populate the following fields:
+   Populate the following fields:
 
 | Field Name      | Description |
 | ----------- | ----------- |
@@ -38,7 +38,7 @@ You can define [prices]({{< ref "../../explanation/pricing/index.md" >}}) for sp
 | **Starting/Ending Dates** | Specifies the period during which the price list is active. |
 | **Line Defaults** | If flagged, all of the following actions are allowed in the detail lines. **Allow Updating Defaults** - Specifies whether users can change the values in the fields on the price list lines that contain default values from the header. This does not affect the ability to allow line or invoice discounts; **Allow Invoice Disc.** - Specifies whether invoice discount is allowed. You can change this value on the lines; **Allow Line Disc.** - Specifies whether line discounts are allowed. You can change this value on the lines. |
 
-5. Define the details of the scheme in the **Lines** section.       
+4. Define the details of the scheme in the **Lines** section.       
 
 ### Example
 
