@@ -52,3 +52,25 @@ Vouchers can be generated through a sales order. To do so, follow the provided s
 
 10.   Click **OK**.       
    The sales order is now posted, and a sales invoice created. 
+
+## Next steps
+
+### Redeem vouchers on a sales order
+
+Follow the provided steps to redeem a voucher for sale from a Sales Order:
+
+1.	Create a **Sales Order** with items to purchase and use the voucher to pay for it.
+2.	From a **Sales Order**, click the **Retail Voucher** action, followed by **Redeem Voucher**.      
+    A pop-up window prompting you to insert a voucher reference number is displayed.
+3.	Provide the voucher **Reference No**.    
+    A message confirming that the voucher has been allocated to this Sales Order is displayed. 
+  
+  ![vouchers9](vouchers9.PNG)
+
+  On posting the sales order, a posted sales invoice will be created in the system. When you navigate to the invoice, you will see in the G/L entries that the invoice has been paid for with the voucher.
+
+    ![vouchers10](vouchers10.png)
+  
+  In the **Voucher List** you will be able to see that the voucher has been used and archived. 
+
+    ![vouchers11](vouchers11.png)
