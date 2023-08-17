@@ -65,7 +65,7 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
 3.	Provide the voucher **Reference No**.    
     A message confirming that the voucher has been allocated to this Sales Order is displayed. 
   
-  ![vouchers9](vouchers9.png)
+  ![vouchers9](vouchers9.PNG)
 
   On posting the sales order, a posted sales invoice will be created in the system. When you navigate to the invoice, you will see in the G/L entries that the invoice has been paid for with the voucher.
 
