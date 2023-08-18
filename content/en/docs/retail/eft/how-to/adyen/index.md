@@ -17,7 +17,7 @@ type: docs
 
 Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud. 
 
-To set up POS Unit 03 to use Adyen Cloud integration, follow the provided steps:
+To set up **POS Unit 03** to use Adyen Cloud integration, follow the provided steps:
 
 ## Prerequisites
 

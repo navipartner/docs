@@ -126,3 +126,9 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [Item AddOn overview]({{< ref "../item_addons/intro.md" >}}) | The item add-on menu allows users to attach an item or a set of items while going through the sale process of a main item on the POS. Learn more in this article. |
 | [Create item add-ons]({{< ref "../item_addons/setup/index.md" >}}) | This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the further parts of this guide. | 
 | [Custom configurations for item add-ons]({{< ref "../item_addons/custom_configurations/index.md" >}}) | Refer to the practical examples of custom configurations for item add-ons. |
+
+## EFT
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [EFT setup]({{< ref "../eft/eft_setup/index.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |

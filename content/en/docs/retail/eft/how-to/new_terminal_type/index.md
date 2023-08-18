@@ -15,7 +15,6 @@ toc: true
 type: docs
 ---
 
-
 Although the Pepper package already contains a short list of terminals, you may need to add your own terminal types as well. The information for the Pepper Terminal Type can be found on [Treibauf](https://www.treibauf.ch/en/terminal-type-search/).
 
 
