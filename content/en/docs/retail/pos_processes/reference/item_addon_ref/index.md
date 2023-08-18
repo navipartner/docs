@@ -22,8 +22,8 @@ The following options and fields are available:
 | Field Name      | Description |
 | ----------- | ----------- |
 | **No.** | Specifies the reference number for the item add-on. |
-| **Enabled** | If enabled, the Item AddOns feature is activated in the POS. |
-| **Description** | Specifies additional information about the item add-ons. This information can be in a form of a menu or an accessory attached to the main item. |
+| **Enabled** | If enabled, the Item AddOns feature is activated in the POS. This field will be activated as the last step when you finish the creation of features of the item add-on in the **Lines** section.  |
+| **Description** | Specifies a brief description as additional information about the item add-ons. This information can be in a form of a menu or an accessory attached to the main item. |
 | **Comment POS Info Code** | This field is optional. If the business needs to add a comment when using the item add-ons, you can add a pop-up window in which users can add a comment. This comment will be added to **POS Info POS Entry** section which can be navigated to from the **Related** dropdown of the relevant **POS Entry Card**. |
 | **Lines** | Lines are used for defining the items that will be added to the **POS Sales Line**. |
 | **Type** | You can choose between **Quantity** (the selected item will be treated like a straight line item) and **Select** (you can define a list of options that a salesperson can choose from) |
