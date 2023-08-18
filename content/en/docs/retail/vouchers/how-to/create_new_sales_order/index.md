@@ -69,8 +69,8 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
 
   On posting the sales order, a posted sales invoice will be created in the system. When you navigate to the invoice, you will see in the G/L entries that the invoice has been paid for with the voucher.
 
-    ![vouchers10](vouchers10.png)
+  ![vouchers10](vouchers10.png)
   
   In the **Voucher List** you will be able to see that the voucher has been used and archived. 
 
-    ![vouchers11](vouchers11.png)
+  ![vouchers11](vouchers11.png)
