@@ -99,3 +99,16 @@ You can support both an item accessory and item add-ons on the main item. When y
 For example, when selling electrical equipment, and if you want to show an extra levy on it, you can attach a service item with the main item. By selling the main item, the system will automatically insert another line for the levy. It can be a fixed amount or percentage of the main item price. These different ways can be defined in the **Item AddOn Card**. 
 
 ![item_addon_15](item_addon_15.png)
+
+### Item add-ons as a standalone menu
+
+There is a POS action (**RUN_ITEM_ADDONS**) that can be used to create a button for opening the item add-on menu on the POS. The action has a parameter that needs to contain the item add-on code.
+
+  ![item_addon7](item_addon7.png)
+
+{{< alert icon="💡" text="An item needs to be inserted in the sales line before you can use the button to access the menu on POS."/>}}
+
+  ![item_addon8](item_addon8.png)
+
+
+You can get more examples, use cases, and best practices in the [POS Academy]({{< ref "../../../pos_academy/item_addons/intro.md" >}}).

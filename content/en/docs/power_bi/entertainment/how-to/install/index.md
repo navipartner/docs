@@ -61,4 +61,4 @@ Prior to initiating the installation process, it is imperative to ensure that yo
 13. Once authenticated, proceed by clicking the **Sign in and connect** button to initiate the synchronization of your Power BI app with the data sourced from Business Central.     
     Note that this step may require a considerable amount of time. Upon completion, you will gain access to your personalized data within the report. 
 
-    {{< alert icon="📝" text="Prior to initiating the installation process, it is imperative to ensure that you have an active Power BI account associated with the same business email address used for logins in Business Central. This alignment of email addresses will facilitate a seamless integration and ensure a smooth installation experience."/>}} 
+    {{< alert icon="📝" text="By default, the automatic refreshing is scheduled once per day, adhering to the predefined settings. However, you have the flexibility to modify this frequency according to your own preferences. Simply navigate to the dataset settings to customize the automatic refreshing interval to suit your needs."/>}} 
