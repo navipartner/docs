@@ -60,3 +60,5 @@ To set up Multi Unit Price Discount follow the provided steps:
   | **10** | **210** (normal unit price) | From 10 onwards, the normal unit price of 210 is used. |
 
   If you don’t wish the multiple unit discount price to be lowered infinitely, you need to add a line to make go back to normal price. For example, if the quantity is 10, the price goes back to its default value. 
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/TK8aiGYn810" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

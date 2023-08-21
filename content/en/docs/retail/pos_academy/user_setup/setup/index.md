@@ -56,3 +56,5 @@ To create a new line in **User Setup**, follow the provided steps:
 ## Set up salespeople
 
 Refer to the processing instructions and additional information on [setting up Salespeople/Purchasers in NP Retail]({{< ref "../../../pos_processes/how-to/salespeople/index.md" >}}).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kJ6cjtj56VE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe

@@ -132,3 +132,11 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | Article Name      | Description |
 | ----------- | ----------- |
 | [EFT setup]({{< ref "../eft/eft_setup/index.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
+
+## Job queue
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [Job Queue Entries setup]({{< ref "../job_queue/setup/index.md" >}}) | Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs. Refer to this guide for more information.|
+| [Send notifications for failed job queue entries and retry]({{< ref "../job_queue/failed_job_notif/index.md" >}}) | Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed. To configure this behavior, feel free to use this guide. | 
+
