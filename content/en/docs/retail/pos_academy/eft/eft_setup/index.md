@@ -67,7 +67,7 @@ Flexiiterm is used for integrating NaviPartner with the older NETS PSAM terminal
 
 [Set up Flexiiterm integration]({{< ref "../../../eft/how-to/flexiiterm/index.md" >}})
 
-## EFT BIN MAPPING
+## EFT Bin mapping
 
 In most Terminal Integrations (other than Pepper Integration and External Terminal) the EFT Mapping Group List is used for mapping various credit cards to the POS Payment Methods so that the payments can be posted correctly in the POS Posting Setup. 
 

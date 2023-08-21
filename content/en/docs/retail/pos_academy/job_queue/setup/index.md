@@ -1,5 +1,5 @@
 ---
-title: "Job Queue Entries setup "
+title: "Job Queue Entries setup"
 description: "Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs."
 lead: ""
 date: 2023-08-18T14:55:48+02:00
@@ -53,3 +53,6 @@ You can set up a job that automatically posts only those sales orders which meet
 16.	In the **Home** tab click **Set Status to Ready**.       
     The job will now be automatically run each night at 22h.
 
+### Reference
+
+- [Recommended NP Retail Job Queue Entries]({{< ref "../../../pos_processes/reference/job_queue_codeunits/index.md" >}})

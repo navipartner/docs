@@ -88,3 +88,6 @@ To set up mix discounts, follow the provided steps:
 | **Transfer All Items** | Used for transferring all items into the **Mix Discount**. |
 | **Compress to Item Disc. Group** | Used for compressing all items from the **Mixed Discount Lines**, into an **Item Disc. Group**. |
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GCjFBjm8jtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xDJF8fIzZW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,6 +1,6 @@
 ---
 title: "Send notifications for failed job queue entries and retry"
-description: ""
+description: "Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed."
 lead: ""
 date: 2023-08-18T15:02:44+02:00
 lastmod: 2023-08-18T15:02:44+02:00
@@ -40,7 +40,7 @@ Preselected recipients can be notified via SMS or email whenever there is an err
 8.	With the **SALESORDERERROR** selected, click **OK** to use this newly created profile and return to the **Job Queue Entry** card.
 9.	On the card, check off the **Auto-Reschedule after Error** checkbox to enable the **Auto-Schedule Delay (sec.)** field where you can fill in **86400** to have it attempt to reschedule the job to occur 24 hours after the previous error has occurred.  
 
-  {{< alert icon="📝" text="It is recommended to also have the <b>Notification Profile on Error</b> since it may otherwise appear as if the job is running successfully, even if it’s not. Furthermore, the <b>Auto-Reschedule Delay (sec.)</b> is recommended to be set to a higher value, to provide enough time to fix the error before the next email is sent. For example, if you set <b>Maximum No. of Attempts to Run</b> to <b>5</b>, <b>Rerun Delay (sec.)</b> to <b>300</b> and <b>Auto-Reschedule Delay (sec.)<b> to <b>300</b>, an email will be sent every 1800 seconds."/>}}
+  {{< alert icon="📝" text="It is recommended to also have the <b>Notification Profile on Error</b> since it may otherwise appear as if the job is running successfully, even if it’s not. Furthermore, the <b>Auto-Reschedule Delay (sec.)</b> is recommended to be set to a higher value, to provide enough time to fix the error before the next email is sent. For example, if you set <b>Maximum No. of Attempts to Run</b> to <b>5</b>, <b>Rerun Delay (sec.)</b> to <b>300</b> and <b>Auto-Reschedule Delay (sec.)</b> to <b>300</b>, an email will be sent every 1800 seconds."/>}}
 
 The **Job Queue Entry** is now set up to send an email after it has attempted to run the **Maximum No. of Attempts to Run** and then reschedule itself to run again the following day.
 

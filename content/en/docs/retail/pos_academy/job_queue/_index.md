@@ -1,5 +1,5 @@
 ---
-title: "Job queue setup"
+title: "Job queue"
 description: ""
 lead: ""
 date: 2023-08-18T14:54:56+02:00
