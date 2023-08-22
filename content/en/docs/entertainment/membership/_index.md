@@ -1,5 +1,5 @@
 ---
-title: "Membership module"
+title: "Membership"
 description: ""
 lead: ""
 date: 2023-07-12T15:57:39+02:00
