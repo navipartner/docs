@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 The **Restaurant Setup** page is where we configure the general setup for the Restaurant Module. It covers the **No. series**, **Seating Statuses**, **POS Actions** that are used in different processes, **Kitchen integration** with **KDS** or **Printer** and **Print Templates** for the **Kitchen** printers.  
-
+ 
 The following fields and options are available in the **General** section:
 
 - **Waiter Pad No. Series** - Specifies the series of numbers used for the waiter pad identification.      

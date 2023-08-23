@@ -1,5 +1,5 @@
 ---
-title: "Restaurant Transactions Flow"
+title: "Restaurant transactions flow"
 description: "This article contains the typical flow of various steps involved in the Restaurant module."
 lead: ""
 date: 2023-08-23T11:14:27+02:00
