@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "seating_layout-4fbd03dd7af68fd36a04a3790e725981"
-weight: 999
+weight: 277
 toc: true
 type: docs
 ---

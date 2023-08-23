@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "seating_list-76f0746fa1331ddc41a86f537d6254cf"
-weight: 999
+weight: 284
 toc: true
 type: docs
 ---

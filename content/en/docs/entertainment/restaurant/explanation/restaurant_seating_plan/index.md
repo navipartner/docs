@@ -1,5 +1,5 @@
 ---
-title: "Restaurant seating plan"
+title: "Restaurant seating plan (POS)"
 description: "When you open the Seating Plan View on the POS, you can modify, rearrange, and even add new seats. "
 lead: ""
 date: 2023-08-22T13:46:17+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "restaurant_seating_plan-96b1defd68304a5aed4ada45a37a018b"
-weight: 999
+weight: 283
 toc: true
 type: docs
 ---

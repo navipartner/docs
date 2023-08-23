@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "listings-0a5e338b42e64ab5610a24a5d0c72d99"
-weight: 999
+weight: 281
 toc: true
 type: docs
 ---
@@ -48,3 +48,5 @@ These requests can be traced up to the waiter pad if needed. This is kept in a l
 The **Kitchen Request (Expedite)** is the main screen where the head-waiter or restaurant manager monitors what is happening with the waiters' orders. The head-waiter can ask the waiter to request for serving from their waiter pad or from a POS unit when they see that the planned dish wasn't started on yet. 
 
 If the **Production Status** is **Finished**, the head-waiter can set it to **Served**, and request from the waiter to serve their guests. 
+
+![restaurant16](restaurant16.PNG)
