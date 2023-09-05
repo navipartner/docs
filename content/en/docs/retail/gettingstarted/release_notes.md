@@ -17,7 +17,7 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
-## Version 24.0 (July 28th 2023)
+## Version 24.0 (August 28th 2023)
 
 ### Total discounts
 
@@ -28,6 +28,10 @@ For more information, examples, and operating instructions refer to the article 
 ### POS grid editor
 
 A new feature which allows users to change the number of rows and columns in the POS screen grids via the POS Editor has been introduced. It gives users the option of fully customizing the number of buttons that will be displayed on the screen, as well as their height. 
+
+### Fiscalization compliance with Serbian fiscal laws - in progress
+
+We are currently working on making our POS solution compliant with Serbian fiscal laws.
 
 ## Version 23.0 (June 14th 2023)
 
