@@ -1,6 +1,6 @@
 ---
 title: "Create a print template"
-description: "There are multiple system print templates you can choose from, but if you need a template that is completely different from the available choices, or one that needs to be slightly modified, you can either create a new template or copy an existing one, change it, and save it in the environment for future use."
+description: "You can either create a new template or copy an existing one, change it, and save it in the environment for future use."
 lead: ""
 date: 2023-07-12T14:08:30+02:00
 lastmod: 2023-07-12T14:08:30+02:00
