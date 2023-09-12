@@ -1,6 +1,6 @@
 ---
 title: "Items overview"
-description: ""
+description: "Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers."
 lead: ""
 date: 2023-08-14T11:05:08+02:00
 lastmod: 2023-08-14T11:05:08+02:00

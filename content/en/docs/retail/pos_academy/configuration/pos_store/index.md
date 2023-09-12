@@ -1,6 +1,6 @@
 ---
 title: "Set up POS stores"
-description: "The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup performed in NP Retail needs to match the specifics of the physical store. "
+description: "Follow the guide covered in the article to set up a POS store as a part of your POS academy training. "
 lead: ""
 date: 2023-08-04T12:42:54+02:00
 lastmod: 2023-08-04T12:42:54+02:00

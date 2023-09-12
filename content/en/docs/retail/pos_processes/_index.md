@@ -1,6 +1,6 @@
 ---
 title: "POS processes"
-description: ""
+description: "This section contains setup guides for the most essential POS processes in our retail solution."
 lead: ""
 date: 2023-07-07T12:57:41+02:00
 lastmod: 2023-07-07T12:57:41+02:00

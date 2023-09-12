@@ -1,6 +1,6 @@
 ---
 title: "POS entry setup"
-description: ""
+description: "Learn more about the posting process of POS entries in this portion of the POS Academy."
 lead: ""
 date: 2023-08-16T12:12:10+02:00
 lastmod: 2023-08-16T12:12:10+02:00

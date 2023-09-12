@@ -1,6 +1,6 @@
 ---
 title: "SQL statements for Lookup POS action"
-description: "When menu buttons are added for the **LOOKUP** POS action, you can set filters on the item table using an SQL statement."
+description: "When menu buttons are added for the LOOKUP POS action, you can set filters on the item table using an SQL statement."
 lead: ""
 date: 2023-07-07T14:10:42+02:00
 lastmod: 2023-07-07T14:10:42+02:00

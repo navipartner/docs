@@ -1,6 +1,6 @@
 ---
 title: "Credit sales from POS"
-description: ""
+description: "You can create different sales documents (Invoice or Sales Order), post them automatically or manually, print them, check the customer limit, copy relevant information from the POS, and a lot more."
 lead: ""
 date: 2023-08-03T14:41:16+02:00
 lastmod: 2023-08-03T14:41:16+02:00

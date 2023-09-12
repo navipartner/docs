@@ -1,6 +1,6 @@
 ---
 title: "Configure the POS balancing feature"
-description: "The setup of the POS balancing feature is mainly done in the POS End of Day Profile. You can define different profiles, and attach them to an individual POS unit, giving it its own profile."
+description: "The setup of the POS balancing feature is mainly done in the POS End-of-Day Profile."
 lead: ""
 date: 2023-07-07T13:11:56+02:00
 lastmod: 2023-07-07T13:11:56+02:00

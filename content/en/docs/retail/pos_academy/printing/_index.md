@@ -1,6 +1,6 @@
 ---
 title: "Printing setup"
-description: ""
+description: "Learn how to set up printers in this portion of the POS academy."
 lead: ""
 date: 2023-08-09T10:04:57+02:00
 lastmod: 2023-08-09T10:04:57+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Get started with NP Retail setup wizard"
-description: "The wizard helps users set up essential components of NP Retail like POS Stores, POS Units, POS Profiles, POS Payment Methods, and the POS Posting Setup."
+description: "Set up essential components of NP Retail like stores, POS Units, profiles, payment methods."
 lead: ""
 date: 2023-07-21T12:01:30+02:00
 lastmod: 2023-07-21T12:01:30+02:00

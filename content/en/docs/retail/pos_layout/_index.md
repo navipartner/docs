@@ -1,6 +1,6 @@
 ---
 title: "POS layout"
-description: ""
+description: "Set up the layout of POS screens in your store with the help of these guides."
 lead: ""
 date: 2023-07-07T13:35:27+02:00
 lastmod: 2023-07-07T13:35:27+02:00

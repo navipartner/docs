@@ -1,6 +1,6 @@
 ---
 title: "EFT setup"
-description: "This is the Electronic Funds Transfer POS Academy guide on setup components."
+description: "It's important to distinguish between multiple different types of terminals/EFT methods. Learn what the difference is, and learn how to set them up as a part of the POS academy training."
 lead: ""
 date: 2023-08-18T14:05:03+02:00
 lastmod: 2023-08-18T14:05:03+02:00

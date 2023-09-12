@@ -1,6 +1,6 @@
 ---
 title: "Set up POS units"
-description: "A POS unit is a central part of the Retail solution. It consists of hardware and software components that enable services and item sale transactions at retail locations."
+description: "Follow this guide to set up the necessary POS unit components as a part of your POS academy training."
 lead: ""
 date: 2023-08-07T10:18:47+02:00
 lastmod: 2023-08-07T10:18:47+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Send notifications for failed job queue entries and retry"
-description: "Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed."
+description: "Recipients can be notified via SMS/email whenever there is an error in an automated task that requires user input to be resolved."
 lead: ""
 date: 2023-08-18T15:02:44+02:00
 lastmod: 2023-08-18T15:02:44+02:00

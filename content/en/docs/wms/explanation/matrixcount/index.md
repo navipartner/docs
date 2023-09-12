@@ -1,6 +1,6 @@
 ---
 title: "MatrixScan inventory counting"
-description: "The current NP WMS and NP Retail POS apps for Android are expanded with the MatrixScan functionality developed by Scandit. This functionality provides the out-of-box solution for scanning and counting, which improves the speed and accuracy of all inventory-related work."
+description: "The current NP WMS and NP Retail POS apps for Android are expanded with the MatrixScan functionality developed by Scandit."
 lead: ""
 date: 2023-07-13T12:58:18+02:00
 lastmod: 2023-07-13T12:58:18+02:00

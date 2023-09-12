@@ -1,6 +1,6 @@
 ---
 title: "Install Minor Tom"
-description: "Install the abbreviated version of Major Tom, which offers only the essential POS features."
+description: "Install the essential POS features necessary for working in retail."
 lead: ""
 date: 2023-04-24T11:52:06+02:00
 lastmod: 2023-04-24T11:52:06+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Minor Tom is an abbreviated version of Major Tom, which offers only the essential POS features. Due to its limited functionality, it is faster and intended for wider usage. Follow these steps to set up Minor Tom:
+Minor Tom offers only the essential POS features necessary for working in retail. Due to its limited functionality, it is faster and intended for wider usage. Follow these steps to set up Minor Tom:
 
 1. Download Minor Tom either from the NP Retail Role Center dashboard, or from the [direct link](https://npminortom.blob.core.windows.net/prod/Setup.exe), and install it.     
    The desktop shortcut is automatically created as soon as installation is finished.

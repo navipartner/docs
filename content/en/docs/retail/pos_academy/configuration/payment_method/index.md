@@ -1,6 +1,6 @@
 ---
 title: "Set up payment methods "
-description: "The POS Payment Method Card is where you will define what payment method is going to be accepted on the POS.  "
+description: "The POS Payment Method Card is where you will define what payment method is going to be accepted on the POS."
 lead: ""
 date: 2023-08-08T15:48:03+02:00
 lastmod: 2023-08-08T15:48:03+02:00
@@ -14,7 +14,7 @@ weight: 21
 toc: true
 type: docs
 ---
-The **POS Payment Method Card** is where you will define what payment method is going to be accepted on the POS.  
+The **POS Payment Method Card** is where you define what payment method is going to be accepted on the POS.  
 
 ![payment1](payment1.PNG)
 

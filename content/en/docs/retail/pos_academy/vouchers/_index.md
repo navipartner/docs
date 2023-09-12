@@ -1,6 +1,6 @@
 ---
 title: "Vouchers"
-description: ""
+description: "As different types of Retail Vouchers are widely used in the world, NP Retail has provided the Retail Vouchers Module."
 lead: ""
 date: 2023-08-16T13:53:02+02:00
 lastmod: 2023-08-16T13:53:02+02:00

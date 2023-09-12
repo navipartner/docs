@@ -1,6 +1,6 @@
 ---
 title: "Customer setup"
-description: "This topic goes through the process of creating new customers from the POS."
+description: "This topic goes through the process of creating new customers as a part of your POS academy training."
 lead: ""
 date: 2023-08-09T10:22:50+02:00
 lastmod: 2023-08-09T10:22:50+02:00

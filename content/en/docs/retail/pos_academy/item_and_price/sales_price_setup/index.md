@@ -1,6 +1,6 @@
 ---
 title: "Sales price setup"
-description: "You can create a for a specific group of customers. Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers."
+description: "Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers."
 lead: ""
 date: 2023-08-16T10:53:59+02:00
 lastmod: 2023-08-16T10:53:59+02:00

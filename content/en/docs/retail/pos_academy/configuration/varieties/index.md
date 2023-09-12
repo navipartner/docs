@@ -1,6 +1,6 @@
 ---
 title: "Set up Varieties"
-description: ""
+description: "Learn how to set up varieties as a part of your POS academy training."
 lead: ""
 date: 2023-08-09T11:46:07+02:00
 lastmod: 2023-08-09T11:46:07+02:00

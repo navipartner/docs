@@ -1,6 +1,6 @@
 ---
 title: "POS Entry List - Accounting Entries"
-description: "When items are sold on the POS, the transaction is recorded in the corresponding POS Entries. When you post the POS Entry, both the accounting entries and the inventory entries are updated."
+description: "When you post the POS Entry, both the accounting entries and the inventory entries are updated."
 lead: ""
 date: 2023-08-16T12:29:36+02:00
 lastmod: 2023-08-16T12:29:36+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-description: ""
+description: "Get ready to open your store by going through the necessary configurations first."
 lead: ""
 date: 2023-08-04T12:42:31+02:00
 lastmod: 2023-08-04T12:42:31+02:00
