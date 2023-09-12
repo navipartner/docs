@@ -1,6 +1,6 @@
 ---
 title: "Retail voucher overview"
-description: ""
+description: "A Retail Voucher is a document that entitles the owner to purchase goods or services with it."
 lead: ""
 date: 2023-08-16T13:53:23+02:00
 lastmod: 2023-08-16T13:53:23+02:00

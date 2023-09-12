@@ -1,5 +1,5 @@
 ---
-title: "Print_template_output"
+title: "Set up print template output"
 description: "The Print Template Output Setup is where you define the printer on which you are to print these Print Templates when using them in NP Retail."
 lead: ""
 date: 2023-09-11T09:48:22+02:00

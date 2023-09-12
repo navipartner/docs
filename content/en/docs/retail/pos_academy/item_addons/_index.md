@@ -1,6 +1,6 @@
 ---
 title: "Item add-ons"
-description: ""
+description: "The item add-on menu allows users to attach an item or a set of items while going through the sale process of a main item on the POS."
 lead: ""
 date: 2023-08-18T10:40:39+02:00
 lastmod: 2023-08-18T10:40:39+02:00

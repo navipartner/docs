@@ -1,6 +1,6 @@
 ---
 title: "EFT"
-description: "This is the Electronic Funds Transfer POS Academy guide."
+description: "This is a portion of the POS Academy that covers Electronic Funds Transfer guides."
 lead: ""
 date: 2023-08-18T14:02:25+02:00
 lastmod: 2023-08-18T14:02:25+02:00

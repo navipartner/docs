@@ -1,6 +1,6 @@
 ---
 title: "Issuing different types of vouchers"
-description: "Refer to this article to "
+description: "Refer to this article to learn how vouchers are issued as a part of the POS Academy training."
 lead: ""
 date: 2023-08-17T08:36:58+02:00
 lastmod: 2023-08-17T08:36:58+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Items and prices"
-description: ""
+description: "Items are products that can be purchased for a specific price in retail stores. This section contains more information on the item and price setup."
 lead: ""
 date: 2023-08-14T11:04:23+02:00
 lastmod: 2023-08-14T11:04:23+02:00

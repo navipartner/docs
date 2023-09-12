@@ -1,6 +1,6 @@
 ---
 title: "Output Reimbursement Entries"
-description: "There are 3 types of Reimbursement Entries explained more in this article."
+description: "There are three types of Reimbursement Entries explained more in this article."
 lead: ""
 date: 2023-09-08T09:16:48+02:00
 lastmod: 2023-09-08T09:16:48+02:00

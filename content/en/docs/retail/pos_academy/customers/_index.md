@@ -1,6 +1,6 @@
 ---
 title: "Customers"
-description: ""
+description: "Each customer you perform business with needs to have their own customer card."
 lead: ""
 date: 2023-08-09T10:22:24+02:00
 lastmod: 2023-08-09T10:22:24+02:00

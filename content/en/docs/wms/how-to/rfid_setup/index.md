@@ -1,6 +1,6 @@
 ---
 title: "Set up RFID functionalities in Business Central"
-description: "RFID tags are unique scannable identifiers of items. They consist of printable chips that are generated on the basis of numerical data provided in the **RFID Setup** page."
+description: "RFID tags are unique scannable identifiers of items. They consist of printable chips that are generated on the basis of numerical data provided in the RFID Setup page."
 lead: ""
 date: 2023-07-13T13:17:10+02:00
 lastmod: 2023-07-13T13:17:10+02:00

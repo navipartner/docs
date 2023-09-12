@@ -1,6 +1,6 @@
 ---
 title: "POS Academy"
-description: ""
+description: "Get started with a beginner-friendly guide which covers a wide range of features in NP Retail."
 lead: ""
 date: 2023-08-01T13:09:44+02:00
 lastmod: 2023-08-01T13:09:44+02:00

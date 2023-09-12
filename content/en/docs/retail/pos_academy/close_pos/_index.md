@@ -1,6 +1,6 @@
 ---
 title: "End of day"
-description: ""
+description: "After all sales are finalized and the store is closed, you also need to go through the process of closing the POS."
 lead: ""
 date: 2023-08-04T10:23:01+02:00
 lastmod: 2023-08-04T10:23:01+02:00

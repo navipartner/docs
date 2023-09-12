@@ -1,6 +1,6 @@
 ---
 title: "Sales cycle"
-description: ""
+description: "Sales cycle refers to the operations that take place on the POS during a working day in the retail industry."
 lead: ""
 date: 2023-08-04T09:54:01+02:00
 lastmod: 2023-08-04T09:54:01+02:00

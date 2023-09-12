@@ -1,6 +1,6 @@
 ---
 title: "Warehouse and inventory putaways"
-description: "Inventory and warehouse putaways represent inbound stock-related processes used when the stock is increased, and needs to be allocated accordingly. All items received in the warehouse are either subjected to the inventory or warehouse putaway."
+description: "Inventory and warehouse putaways represent inbound stock-related processes used when the stock is increased, and needs to be allocated accordingly."
 lead: ""
 date: 2023-07-13T13:03:30+02:00
 lastmod: 2023-07-13T13:03:30+02:00

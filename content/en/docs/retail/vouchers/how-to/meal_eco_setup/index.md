@@ -1,6 +1,6 @@
 ---
 title: "Limit payment types to specific items"
-description: "When creating a new payment method, you have the option of singling out specific items or item groups that can be purchased with that method. This option is especially useful when you wish to establish vouchers as viable types of payment for specific items only."
+description: "When creating a new payment method, you have the option of singling out specific items or item groups that can be purchased with that method."
 lead: ""
 date: 2023-07-07T12:42:47+02:00
 lastmod: 2023-07-07T12:42:47+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Close the POS unit at the end of the day"
-description: "This POS academy tutorial describing the process of closing the POS as a part of the end-of-day process. "
+description: "This POS academy tutorial describing the process of closing the POS as a part of the end-of-day process."
 lead: ""
 date: 2023-08-03T15:11:38+02:00
 lastmod: 2023-08-03T15:11:38+02:00

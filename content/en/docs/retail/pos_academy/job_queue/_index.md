@@ -1,6 +1,6 @@
 ---
 title: "Job queue"
-description: ""
+description: "Job queue is an order in which specific jobs are to be performed in Business Central."
 lead: ""
 date: 2023-08-18T14:54:56+02:00
 lastmod: 2023-08-18T14:54:56+02:00

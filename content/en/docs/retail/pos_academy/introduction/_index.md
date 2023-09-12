@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: ""
+description: "Get started with a series of training guides and videos that enable users to become more competent users of NaviPartner’s cloud-based POS solution, such as NP Retail."
 lead: ""
 date: 2023-08-04T09:50:19+02:00
 lastmod: 2023-08-04T09:50:19+02:00

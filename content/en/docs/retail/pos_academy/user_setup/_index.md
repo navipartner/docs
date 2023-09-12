@@ -1,6 +1,6 @@
 ---
 title: "Users/salespeople"
-description: ""
+description: "You can create and configure users/salespeople in Business Central that correspond to identities of store workers."
 lead: ""
 date: 2023-08-14T09:39:28+02:00
 lastmod: 2023-08-14T09:39:28+02:00

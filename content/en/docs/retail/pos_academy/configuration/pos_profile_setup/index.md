@@ -1,6 +1,6 @@
 ---
 title: "Set up POS profiles"
-description: "This portion of the POS Academy contains instructions for setting up the necessary profiles for the Bring It to You Retail Store Ltd fictional example company."
+description: "This portion of the POS Academy contains instructions for setting up the necessary profiles for the fictional example company."
 lead: ""
 date: 2023-08-07T16:23:27+02:00
 lastmod: 2023-08-07T16:23:27+02:00

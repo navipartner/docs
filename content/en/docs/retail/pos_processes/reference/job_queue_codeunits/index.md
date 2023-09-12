@@ -1,6 +1,6 @@
 ---
 title: "NP Retail Job Queue Entries"
-description: ""
+description: "You can use the previously stated guidelines for setting up job queue entries to set up similar jobs with the help of this list of recommended codeunits."
 lead: ""
 date: 2023-08-18T15:55:49+02:00
 lastmod: 2023-08-18T15:55:49+02:00

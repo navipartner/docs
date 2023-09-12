@@ -1,6 +1,6 @@
 ---
 title: "End-of-day process"
-description: ""
+description: "The end-of-day process refers to the steps that need to be taken when closing the POS unit for the day."
 lead: ""
 date: 2023-07-07T13:12:25+02:00
 lastmod: 2023-07-07T13:12:25+02:00
