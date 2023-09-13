@@ -1,22 +1,50 @@
 # Technical guide for contributors
 
+Hugo Doks is a new tool that we're using for contributing to our [documentation portal](https://docs.navipartner.com/).
+
+## Prerequisites
+
 To start working with the documentation repository, make sure that you've installed the following software:
 
-1. Node.js
-2. [Git](https://git-scm.com/)
-3. Visual Studio Code (if you plan on using it as a code editor)
+- [Node.js](https://nodejs.org/en)
+   Follow [this guide](https://phoenixnap.com/kb/install-node-js-npm-on-windows) if you need additional help in its installation.
+- [Git](https://git-scm.com/)
+- Visual Studio Code (if you plan on using it as a code editor); otherwise, you just need a link to [our browser editor](https://github.dev/navipartner/docs)
+- Request a contributor role for the repo from me, Gustav or Mikkel Mansa.
+
+
+## Full edit procedure
 
 
 
 
-
-# Creating a PR - Web browser
+## Edit docs in the browser editor
 
 1. Go to https://github.dev/navipartner/docs.
 2. Pull, or otherwise make sure the state of the main branch is up-to-date.
 3. Find the file you wish to edit (content/docs).
 4. Commit and push.
 5. Open https://github.com/navipartner/docs in your browser, and click Compare and Pull Request.
+
+## Create new files in the browser editor
+
+### Prerequisites
+
+- Make sure Node.js is installed, along with its NPM commands.
+
+### Procedure
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Useful information
 
