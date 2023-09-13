@@ -1,5 +1,13 @@
-# docs
-Public documentation portal
+# Technical guide for contributors
+
+To start working with the documentation repository, make sure that you've installed the following software:
+
+1. Node.js
+2. [Git](https://git-scm.com/)
+3. Visual Studio Code (if you plan on using it as a code editor)
+
+
+
 
 
 # Creating a PR - Web browser
