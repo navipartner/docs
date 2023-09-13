@@ -2,23 +2,32 @@
 
 Hugo Doks is a new tool that we're using for contributing to our [documentation portal](https://docs.navipartner.com/).
 
-## Prerequisites
+## Contributing in desktop editors
 
-To start working with the documentation repository, make sure that you've installed the following software:
+### Prerequisites
 
-- [Node.js](https://nodejs.org/en)
+To start working with the documentation repository, make sure the following prerequisites are met:
+
+- Install [Node.js](https://nodejs.org/en)
    Follow [this guide](https://phoenixnap.com/kb/install-node-js-npm-on-windows) if you need additional help in its installation.
-- [Git](https://git-scm.com/)
-- Visual Studio Code (if you plan on using it as a code editor); otherwise, you just need a link to [our browser editor](https://github.dev/navipartner/docs)
+- Install [Git](https://git-scm.com/)
+- Install Visual Studio Code/GitHub Editor (if you plan on using it as a code editor); otherwise, you just need a link to [our browser editor](https://github.dev/navipartner/docs)
 - Request a contributor role for the repo from me, Gustav or Mikkel Mansa.
 
+### Procedure
 
-## Full edit procedure
+1. Clone the docs repo in your Visual Studio Code/GitHub editor.
+2. Run _npm install_ in your **Terminal**.
+3. Use the _npm run create_ + _filepath_ command to create new files, e.g. _npm run create docs/retail/reimbursement/how-to/setup/index.md_ .
+   Refer to the difference between the _index.md and index.md files specified below in the Useful information section.
+5. Make sure the **Weight** parameter in the metadata section corresponds to the area of the table of contents that you wish to place the doc in.
+6. Make sure you add a description in the corresponding parameter.
+7. Make sure you've added a **Title**.
+8. Once you're done editing, commit and push.
 
 
 
-
-## Edit docs in the browser editor
+## Contributing in the browser editor
 
 1. Go to https://github.dev/navipartner/docs.
 2. Pull, or otherwise make sure the state of the main branch is up-to-date.
@@ -34,17 +43,13 @@ To start working with the documentation repository, make sure that you've instal
 
 ### Procedure
 
-
-
-
-
-
-
-
-
-
-
-
+1. Run _npm install_ in your **Terminal**.
+2. Use the _npm run create_ + _filepath_ command to create new files, e.g. _npm run create docs/retail/reimbursement/how-to/setup/index.md_ .
+   Refer to the difference between the _index.md and index.md files specified below in the Useful information section.
+3. Make sure the **Weight** parameter in the metadata section corresponds to the area of the table of contents that you wish to place the doc in.
+4. Make sure you add a description in the corresponding parameter.
+5. Make sure you've added a **Title**.
+6. Once you're done editing, commit and push.
 
 # Useful information
 
