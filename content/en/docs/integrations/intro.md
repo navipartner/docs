@@ -33,6 +33,7 @@ NP Retail is integrated with the following solutions:
 
 ## MobilePay
 
+- [Set up integration with MobilePay in NP Retail (EFT)]({{< ref "../retail/eft/how-to/mobilepay/index.md" >}})
 - [Use MobilePay QR code on customer screen]({{< ref "mobilepay/how-to/qr_code/index.md" >}})
 
 ## Payment gateways
@@ -50,4 +51,24 @@ NP Retail is integrated with the following solutions:
 ## HeyLoyalty
 
 - [Create Azure Active Directory application for HeyLoyalty]({{< ref "heyloyalty/how-to/aad_app/index.md" >}})
+
+## Softpay
+
+- [Set up integration with Softpay in NP Retail]({{< ref "../retail/eft/how-to/softpay/index.md" >}})
+
+## NETS BAXI
+
+- [Set up NETS BAXI integration (EFT)]({{< ref "../retail/eft/how-to/nets_baxi/index.md" >}})
+
+## Flexiiterm
+
+- [Set up Flexiiterm integration (EFT)]({{< ref "../retail/eft/how-to/flexiiterm/index.md" >}})
+
+## External terminal
+
+- [Set up external terminal integration]({{< ref "../retail/eft/how-to/external_terminal_integration/index.md" >}})
+
+## Adyen Cloud
+
+- [Set up Adyen Cloud integration (EFT)]({{< ref "../retail/eft/how-to/adyen/index.md" >}})
 
