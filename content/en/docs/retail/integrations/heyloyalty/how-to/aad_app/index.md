@@ -31,7 +31,7 @@ To create one along with the set of credentials, follow the steps provided below
 <summary>
 Cannot find the page?
 </summary>
-HeyLoyalty integration is not enabled by default. To enable it, navigate to <b>NaviPartner Feature Management</b> page, and make sure there is a checkmark in field <b>Enabled</b> on the <b>HeyLoyalty Integration</b> line. Do not forget to relogin to the system after enabling the integration.
+HeyLoyalty integration feature is not enabled by default. To enable it, navigate to <b>NaviPartner Feature Management</b> page, and make sure there is a checkmark in field <b>Enabled</b> on the <b>HeyLoyalty Integration</b> line. Do not forget to relogin to the system after enabling the integration.
 </details>
 
 2. In the menu ribbon of the page select **Actions** > **Initial Setup** > **Azure Active Directory OAuth**, and click **Create Azure AD App**.
