@@ -14,7 +14,7 @@ weight: 250
 toc: true
 type: docs
 ---
-The NP Reimbursement module is used for configuring the system through which the expense users are going to receive their reimbursements. It consists of different entities as follows:
+The NP Reimbursement module is used for configuring the system through which the users are going to receive their reimbursements. The following administrative sections need to be configured to successfully use the Reimbursement module:
 
 ### Configurations
 
@@ -27,6 +27,6 @@ The NP Reimbursement module is used for configuring the system through which the
 
 - [Reimbursements]({{< ref "how-to/process/index.md" >}})
 
-### Outputs:
+### Outputs
 
 - [Reimbursement Entries]({{< ref "explanation/output_entries/index.md" >}})

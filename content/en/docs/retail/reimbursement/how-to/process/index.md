@@ -1,6 +1,6 @@
 ---
 title: "Process Reimbursements"
-description: "Having done the background setups for the process, it is in this Reimbursements screen where all the actions happen."
+description: "Refer to this guide to learn how to process the reimbursement."
 lead: ""
 date: 2023-09-08T09:05:06+02:00
 lastmod: 2023-09-08T09:05:06+02:00
@@ -15,7 +15,13 @@ toc: true
 type: docs
 ---
 
-Having done the background setups for the process, it is in this Reimbursements screen where all the actions happen.
+Having completed the necessary configurations for the process, you now need to run the reimbursement.
+
+## Prerequisites
+
+- Set up **Reimbursement Modules**, [**Reimbursement Templates**]({{< ref "../template_setup/index.md" >}}), [**Reimbursement Party Types**]({{< ref "../party_types/index.md" >}}), and [**Reimbursement Parties**]({{< ref "../parties/index.md" >}}).
+
+## Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Reimbursement**, and choose the related link.        
 2. Click **New** and populate the necessary fields.     
