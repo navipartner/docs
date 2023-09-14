@@ -46,3 +46,8 @@ NP Retail is integrated with the following solutions:
 ## Magento
 
 - [Create Azure Active Directory Application]({{< ref "magento/how-to/azure_directory/index.md" >}})
+
+## HeyLoyalty
+
+- [Create Azure Active Directory application for HeyLoyalty]({{< ref "heyloyalty/how-to/aad_app/index.md" >}})
+
