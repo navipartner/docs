@@ -16,9 +16,9 @@ type: docs
 ---
 There are 3 types of Reimbursement Entries:
 
-1.	**Data Collection** is created when the **Run Data Collection** action is triggered, and it contains certain data from Business Central. The **Show Source** action tabs display the data this entry is based on.
-2.	**Manual Application** is used for removing single **Data Collection Entries** from an upcoming reimbursement. The manual applications can also be cancelled with the action **Cancel Manual Application**.
-3.	The **Reimbursement** is created when the Run Reimbursement action is triggered, and it represents the **Final Result**. 
+-	**Data Collection** is created when the **Run Data Collection** action is triggered, and it contains certain data from Business Central. The **Show Source** action tab displays the data this entry is based on.
+-	**Manual Application** is used for removing single **Data Collection Entries** from an upcoming reimbursement. The manual applications can also be cancelled with the action **Cancel Manual Application**.
+-	The **Reimbursement** is created when the Run Reimbursement action is triggered, and it represents the **Final Result**. 
 
 In the provided screenshot a provision has been made, meaning the **Final Result** is a posting to G/L.
 
