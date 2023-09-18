@@ -17,6 +17,14 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
+## Version 25.0 (September 28th 2023)
+
+### Job Queue refresh
+
+A backend process which automatically refreshes Job Queue entries provided that it is **Enabled** in the **Job Queue Refresh Setup** administrative section has been introduced.
+
+By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
+
 ## Version 24.0 (August 28th 2023)
 
 ### Total discounts
