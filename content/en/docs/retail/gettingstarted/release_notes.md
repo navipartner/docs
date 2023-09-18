@@ -119,7 +119,7 @@ For more information and operating instructions, refer to the [GS 1 coupon setup
 
 Customers can now use the MobilePay app to scan QR codes from the customer screen and purchase goods from a store with their electronic wallet.
 
-For more information, refer to the article on [MobilePay feature usage]({{< ref "../integrations/how-to/qr_code.md" >}}).
+For more information, refer to the article on [MobilePay feature usage]({{< ref "../../integrations/mobilepay/how-to/qr_code.md" >}}).
 
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/37f8bf55-6084-4825-b287-23f5a4d1bee4" loading="lazy" title="Synthesia video player - New Feature: MobilePlay QR Code payment" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
