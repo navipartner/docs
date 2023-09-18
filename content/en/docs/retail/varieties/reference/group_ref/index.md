@@ -1,5 +1,5 @@
 ---
-title: "Variety group (reference guide)"
+title: "Variety group"
 description: "Variety groups are combinations of varieties assembled according to a certain logic, which can be assigned to the items."
 lead: ""
 date: 2023-07-10T22:48:45+02:00

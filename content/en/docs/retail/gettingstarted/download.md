@@ -41,7 +41,6 @@ The trial version of the NP Retail solution is readily available on the [NaviPar
 
 ## Next steps - Install Minor Tom
 
-Once you've completed the initial setup, there some additional configurations that you might be interested in.
+Once you've completed the initial setup, you may be interested in [installing our desktop POS software]({{< ref "minor_tom.md" >}}).
 
-Refer to the [how-to guide]({{< ref "minor_tom.md" >}}) for installing our desktop POS software. 
 

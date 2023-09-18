@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-In some cases, multiple companies are set up in a single database. Such companies often trade in the same fields, and commonly have similar items available in their item lists. With this module, if there's shortage of an item in one of the companies, you can check the inventory status in other companies which belong to the same database without having to switch the company first. If a requested item is available elsewhere, a salesperson can direct the customer to the other shop.
+Multiple companies can be a part of a single database. Such companies often trade in the same fields, and commonly have similar items available in their item lists. With this module, if there's shortage of an item in one of the companies, you can check the inventory status in other companies which belong to the same database without having to switch the company first. If a requested item is available elsewhere, a salesperson can direct the customer to the other shop.
 
 To set up retail inventory sets and start using them, follow the provided steps:
 

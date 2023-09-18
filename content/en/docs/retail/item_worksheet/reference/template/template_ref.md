@@ -1,5 +1,5 @@
 ---
-title: "Item Worksheet Template (reference guide)"
+title: "Item Worksheet Template"
 description: "Refer to this table of available fields and options in the Item Worksheet Template administrative section."
 lead: ""
 date: 2023-07-06T14:19:51+02:00
