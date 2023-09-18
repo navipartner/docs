@@ -60,6 +60,3 @@ HeyLoyalty integration feature is not enabled by default. To enable it, navigate
 10. Find the newly created application (it’ll have "HeyLoyalty" in its name), and open the card by clicking **Client ID**.
 
 11. On the **Azure Active Directory Application Card**, click **Grant Consent** to allow the newly created application access to the Business Central API.
-
-
-{{< alert icon="❗" text="To interact with the web services (APIs) of Business Central, the external party (HeyLoyalty) needs to use the OAuth 2 protocol to gain an access token. When working with two services interacting with one another, the client needs to use the client credentials flow. The credentials for the client credentials flow are obtained through an Azure Active Directory application.</a>" />}}
