@@ -1,5 +1,5 @@
 ---
-title: "Stock-Take Templates (reference guide)"
+title: "Stock-Take Templates"
 description: "Learn what the fields and options in the Stock-Take templates administrative section are used for."
 lead: ""
 date: 2023-07-06T15:53:37+02:00

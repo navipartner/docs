@@ -1,5 +1,5 @@
 ---
-title: "Variety setup (reference guide)"
+title: "Variety setup"
 description: "Before varieties are used, you need to apply certain configurations in the Variety Setup administrative section."
 lead: ""
 date: 2023-07-10T22:49:49+02:00

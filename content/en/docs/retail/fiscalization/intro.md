@@ -19,3 +19,4 @@ To learn how to achieve compliance with fiscalization requirements imposed by fi
 
 - [Fiscalization compliance - France]({{< ref "france/compliance_setup.md" >}})
 - [Fiscalization compliance - Germany]({{< ref "germany/setup.md" >}})
+- [Fiscalization compliance - Sweden]({{< ref "sweden/setup.md" >}})

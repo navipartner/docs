@@ -1,5 +1,5 @@
 ---
-title: "Client attributes (reference guide)"
+title: "Client attributes"
 description: "Refer to the tables with descriptions of dedicated Client Attributes fields."
 lead: ""
 date: 2023-07-05T15:01:35+02:00
