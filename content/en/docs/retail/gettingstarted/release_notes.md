@@ -73,7 +73,7 @@ A new administrative section **Group Codes** has been added to Business Central 
 
 For more information and operating instructions, refer to the [Group code setup]({{< ref "../pos_processes/how-to/group_codes/index.md" >}}) article.
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/a78117b9-9ac9-480d-84d7-c1961842326a" loading="lazy" title="Synthesia video player - New Feature: Export/Import Group codes" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wpfHkwfprNA?si=ZS4iF8xG4RwXNKC6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### MPOS actions for improved barcode scanning
 
@@ -85,7 +85,7 @@ Two new MPOS actions for improved barcode scanning have been introduced:
 
 For more information and operating instructions, refer to the article on [MPOS action setup for Scandit]({{< ref "../mpos/how-to/scandit/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/af673f15-f1a2-4feb-a335-a9ac2fd45c6c" loading="lazy" title="Synthesia video player - New Feature: MPOS Improved barcode scanning" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m8_tJSHWH1g?si=yqehGNhlrOuIRill" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### MPOS redesign
 
@@ -93,7 +93,7 @@ Our MPOS has undergone a complete UI overhaul, making the previous scaled-down v
 
 For operating instructions, refer to the article on [MPOS setup]({{< ref "../mpos/how-to/mpos_view/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/de9a7cbc-268b-49bb-9df1-56537ed433ec" loading="lazy" title="Synthesia video player - New Feature: New MPOS Layout" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ayTm-uh3sQs?si=PtrK5r-RYfDVE8hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### New POS editor
 
@@ -101,7 +101,7 @@ With the new POS editor, POS buttons and actions can now be configured solely fr
 
 For operating instructions, refer to the article on [POS editor activation]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}})
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/d9ec4a31-da28-47c1-a964-208d2a29af7f" loading="lazy" title="Synthesia video player - New Feature: New POS Editor" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/adHwN8IQwI0?si=u-vQ8ojtqzGvLuin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Version 21.0 (April 28th 2023)
 
@@ -117,7 +117,7 @@ You can now create a G/L account that is used for posting GS1 flat rate discount
 
 For more information and operating instructions, refer to the [GS 1 coupon setup]({{< ref "../coupons/how-to/gs1/gs1_setup.md" >}}) article.
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/37d76d0e-edaa-4067-9bb4-c9dbbe2a7e3b" loading="lazy" title="Synthesia video player - New Feature: GS1 Coupons" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N77fT6kmIwM?si=Sr5lGAV7mLHjaxXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### MobilePay QR code on customer screen 
 
@@ -125,7 +125,7 @@ Customers can now use the MobilePay app to scan QR codes from the customer scree
 
 For more information, refer to the article on [MobilePay feature usage]({{< ref "../../integrations/mobilepay/how-to/qr_code.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/37f8bf55-6084-4825-b287-23f5a4d1bee4" loading="lazy" title="Synthesia video player - New Feature: MobilePlay QR Code payment" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1XR6E__XJCs?si=2EvlnsDMbGcP3e-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Version 19.0 (March 7th 2023)
 
@@ -138,7 +138,7 @@ For more information and operating instructions, refer to the following articles
 - [Meal, eco, and consumption vouchers]({{< ref "../vouchers/explanation/meal_eco/index.md" >}})
 - [Limit payment types to specific items]({{< ref "../vouchers/how-to/meal_eco_setup/index.md" >}})
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/1bfaa867-e9d0-41b8-b660-9af1b51026c0" loading="lazy" title="Synthesia video player - New Feature: Limiting payment types for specific items (Belgian vouchers)" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yazYweS68-E?si=kNrcMzWEZGoUkpBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Bin change from the POS
 
@@ -146,7 +146,7 @@ With the new release, if there are multiple bins in a single store location, you
 
 For more information and operating instructions, refer to the article on [Changing the bin from a POS sale]({{< ref "../pos_processes/how-to/change_bin/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/20e98ccd-0283-4092-b0ca-627b84fcdbc2" loading="lazy" title="Synthesia video player - New Feature: Change bin" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IilNBACUfco?si=EPgVja0rX4lrMUHH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Responsibility center change from the POS
 
@@ -154,7 +154,7 @@ You can now change the selected [responsibility center](https://learn.microsoft.
 
 For more information and operating instructions, refer to the article on [Changing the Responsibility Center from a POS sale]({{< ref "../pos_processes/how-to/responsibility_center/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/5b7d04a9-c202-49fe-90bf-c2dc8da3ecf7" loading="lazy" title="Synthesia video player - New Feature: Change Responsibility Center from POS" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/En8d-cAsWng?si=qbsrkG62ShbMlADS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Sending email receipts from the POS
 
@@ -162,7 +162,7 @@ You can now send emails with purchase receipts to customers from the POS. This c
 
 For more information and operating instructions, refer to the article on [Sending receipt to customers on purchase]({{< ref "../pos_processes/how-to/pos_sale_receipts/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/7e37de5d-ab4e-4217-9e46-dafee10ccabb" loading="lazy" title="Synthesia video player - New Feature: Send Receipt" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1SdL5NZTKKc?si=ou1DZojpEPHVnWbL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Second display control
 
@@ -170,7 +170,7 @@ You can now get the customer's signature on the second display upon returning of
 
 For more information and operating instruction refer to the article on [returning items with the help of the second POS screen]({{< ref "../pos_processes/how-to/display2/index.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/bcb78cc7-925f-4182-bfdb-79fa15061b2e" loading="lazy" title="Synthesia video player - New Feature: Display 2 Control" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y5zKIo-nT-0?si=-_naNYmuhcSK_D_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Version 18.0 (January 28th 2023)
 
@@ -180,7 +180,7 @@ You can now take photos of products and other items (like documents) directly fr
 
 For more information and operating instructions, refer to the article on the [Take Photo]({{< ref "../pos_processes/how-to/take_photo/index.md" >}}) feature.
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/d67f2a75-b897-46d8-80e1-50a83e9603b1" loading="lazy" title="Synthesia video player - New Feature: Take Photo" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XmVeUrNa42U?si=7Q7_zay7MZU0f5vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### GS1 coupons
 
@@ -188,21 +188,19 @@ The GS 1 flat rate discount coupon has been introduced to NP Retail. [GS1](https
 
 For more information and operating instructions, refer to the article on the [Coupons]({{< ref "../coupons/how-to/gs1/gs1_setup" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/37d76d0e-edaa-4067-9bb4-c9dbbe2a7e3b" loading="lazy" title="Synthesia video player - New Feature: GS1 Coupons" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
-
 ### HTML display profile - enhanced customer interaction and sales experience
 
 A new POS profile has been introduced for desktop POS units with multiple displays. Its purpose is to enhance customer interaction and sales experience by allowing you to display media content on the POS screen. This content can be in the form of images, videos or even an entire website.
 
 For more information and operating instructions, refer to the article on the [POS HTML display profile]({{< ref "../pos_profiles/how-to/html_profile/html_profile.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/48a111db-645a-4ab4-85b6-4551b787b45f" loading="lazy" title="Synthesia video player - New Feature: Customer Display" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jbnVawpaA44?si=hUqQx0OnTq9KZBQO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### V4 POS balancing feature - end-of-day process
 
 A new version of the balancing feature has been released. For more information and setup instructions, refer to the article on the [POS balancing feature V4]({{< ref "../pos_processes/how-to/eod/generate_eod.md" >}}).
 
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/ec8e0a32-7578-4569-a608-664743059921" loading="lazy" title="Synthesia video player - New Feature: POS Balancing v4" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BtP2yRqvloQ?si=OTjhFtVCF4rhrlRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### NP Power BI for Retail
 
