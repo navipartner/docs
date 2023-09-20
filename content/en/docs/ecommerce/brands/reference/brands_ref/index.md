@@ -1,5 +1,5 @@
 ---
-title: "Brands (reference guide)"
+title: "Brands"
 description: "Refer to the tables with descriptions of dedicated Brand fields."
 lead: ""
 date: 2023-07-18T11:22:04+02:00

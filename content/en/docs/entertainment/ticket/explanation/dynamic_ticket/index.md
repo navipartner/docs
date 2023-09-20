@@ -1,6 +1,6 @@
 ---
-title: "Dynamic ticket"
-description: "A Dynamic Ticket is a ticket which has flexible admission setup. It can have more than one admission in Ticket BOM."
+title: "Dynamic tickets"
+description: "A dynamic ticket has a flexible admission setup. It can have more than one admission in Ticket BOM."
 lead: ""
 date: 2023-07-12T16:10:46+02:00
 lastmod: 2023-07-12T16:10:46+02:00
