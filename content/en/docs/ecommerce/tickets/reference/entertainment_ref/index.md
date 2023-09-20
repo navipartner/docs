@@ -1,5 +1,5 @@
 ---
-title: "Entertainment Settings (reference guide)"
+title: "Entertainment Settings"
 description: "Refer to the tables with descriptions of dedicated Entertainment Settings fields."
 lead: ""
 date: 2023-07-18T11:24:25+02:00

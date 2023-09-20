@@ -1,5 +1,5 @@
 ---
-title: "CS setup (reference guide)"
+title: "CS setup"
 description: "Before you start using NP WMS, you need to configure the rules which define how it will work. This is done in the CS Setup administrative section."
 lead: ""
 date: 2023-07-13T14:11:58+02:00

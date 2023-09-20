@@ -1,5 +1,5 @@
 ---
-title: "Admission schedule (reference guide)"
+title: "Admission schedule"
 description: "Refer to the tables with descriptions of dedicated Admission Schedule fields."
 lead: ""
 date: 2023-07-13T09:04:02+02:00

@@ -1,5 +1,5 @@
 ---
-title: "Create Dynamic Ticket"
+title: "Create a dynamic ticket"
 description: "Dynamic tickets have a flexible admission setup. Refer to this guide to create a dynamic ticket."
 lead: ""
 date: 2023-07-13T08:45:14+02:00

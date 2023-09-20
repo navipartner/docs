@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Period discounts can be used when there are periods of time during which some items have different (lower) prices. Period discounts allow users to set up that period and prices which items will have for its duration. After the period expires, the item price reverts to its default state.
+Period discounts (otherwise known as campaign discounts) can be used when there are periods of time during which some items have different (lower) prices. Period discounts allow users to set up that period and prices which items will have for its duration. After the period expires, the item price reverts to its default state.
 
 To set up period discounts, follow the provided steps:
 

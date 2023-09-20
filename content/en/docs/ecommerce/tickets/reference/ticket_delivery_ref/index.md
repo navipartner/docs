@@ -1,5 +1,5 @@
 ---
-title: "Ticket Delivery (reference guide)"
+title: "Ticket Delivery"
 description: "Refer to the tables with descriptions of dedicated Ticket Delivery fields."
 lead: ""
 date: 2023-07-18T11:24:55+02:00
