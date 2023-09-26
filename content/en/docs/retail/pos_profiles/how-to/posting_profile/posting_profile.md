@@ -45,8 +45,9 @@ Each POS unit can have a different set of posting rules. The first thing is to s
 17. Define on which decimal spaces the rounding will be performed in the **POS Sales Amount Rounding** field.
 18. Define how the rounding will be performed in **Rounding Type**.    
     The possible settings are **Nearest**, **Up** or **Down**.
+19. Use the **Post POS Sale Documents with Job Queue** to allow Salesperson to continue with the work while the Sale Document posting runs as background   task.
 
-![POS_posting](POS_posting.png)
+![POS_posting](POSPostingProfileCard.png)
 
 ## Next steps
 
