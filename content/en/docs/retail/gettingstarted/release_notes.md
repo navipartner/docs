@@ -26,7 +26,8 @@ A backend process which automatically refreshes Job Queue entries provided that 
 By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
 
 ### POS Sale Document Background posting
-Posting of POS Sales Documents in the background provided that is it enabled in the **POS Posting Profile**.
+
+Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
 ## Version 24.0 (August 28th 2023)
 
