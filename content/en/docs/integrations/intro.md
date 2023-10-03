@@ -52,6 +52,10 @@ NP Retail is integrated with the following solutions:
 
 - [Create Azure Active Directory application for HeyLoyalty]({{< ref "heyloyalty/how-to/aad_app/index.md" >}})
 
+## OIO UBL
+
+- [Set up OIO UBL]({{< ref "oio/how-to/setup/index.md" >}})
+
 ## Softpay
 
 - [Set up integration with Softpay in NP Retail]({{< ref "../retail/eft/how-to/softpay/index.md" >}})
