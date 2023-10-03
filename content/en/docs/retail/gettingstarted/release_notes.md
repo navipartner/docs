@@ -17,6 +17,12 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
+## Version 26.0 (October 28th 2023)
+
+### POS Sale Document Background posting
+
+Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
+
 ## Version 25.0 (September 28th 2023)
 
 ### Job Queue refresh
@@ -24,10 +30,6 @@ Learn which new features and improvements have been introduced in the newest ver
 A backend process which automatically refreshes Job Queue entries provided that it is **Enabled** in the **Job Queue Refresh Setup** administrative section has been introduced.
 
 By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
-
-### POS Sale Document Background posting
-
-Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
 ## Version 24.0 (August 28th 2023)
 
