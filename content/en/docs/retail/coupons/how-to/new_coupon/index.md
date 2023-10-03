@@ -1,6 +1,6 @@
 ---
 title: "Create a new coupon"
-description: "Coupons can provide the discount to the sum of item prices on checkout if certain conditions are met. Coupons can be issued with a reference number, which is unique, or have a number defined to be used several times. They can be accessed and set up in the Coupon Types administrative section."
+description: "Coupons can provide the discount to the sum of item prices on checkout if certain conditions are met. "
 lead: ""
 date: 2023-07-05T17:10:21+02:00
 lastmod: 2023-07-05T17:10:21+02:00
@@ -26,7 +26,7 @@ Coupons can provide the discount to the sum of item prices on checkout if certai
     - **Discount Amount/Discount %**
     - **Issue Coupon Module (Default)**
     - **Reference No. Pattern**
-    - **Apply Discount Module** - Select **DEFAULT** unless you have restrictions for some of the items in place. If there are some restrictions, select **ITEM_LIST**, and then apply the discount settings for the items of your choice in the **Setup Apply Discount** window (**Setup** > **Setup Apply Discount**).
+    - [**Apply Discount Module**]({{< ref "../../reference/coupon_modules/index.md" >}}) - Select **DEFAULT** unless you have restrictions for some of the items in place. If there are some restrictions, select **ITEM_LIST**, and then apply the discount settings for the items of your choice in the **Setup Apply Discount** window (**Setup** > **Setup Apply Discount**).
 4. Click **Issue Coupons** and select the quantity of coupons that should be issued.     
    The issued coupons will now be visible in the **Coupons** administrative section. You can copy the **Coupon Reference No.** of the coupon you wish to apply, since you will need to apply it to the POS.    
 5. Navigate to the **POS** to scan coupons.
