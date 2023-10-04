@@ -24,7 +24,6 @@ If you wish to create a list of items to be used as a base for applying discount
 4. Click **Setup** in the ribbon, followed by **Setup Apply Discount**.    
    The **Coupon List Items** is displayed.
 5. Click **Add Items** and use the available filters to find and add the items you wish to be discounted.      
-   After you've added the items, the **Request Priority** pop-up window is displayed.
 6. Set the priorities on the items in the list by clicking **Set Priorities** in the ribbon.       
    **1** signifies the highest priority.       
 
