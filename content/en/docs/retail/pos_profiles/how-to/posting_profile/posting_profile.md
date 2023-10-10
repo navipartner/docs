@@ -31,21 +31,20 @@ Each POS unit can have a different set of posting rules. The first thing is to s
 11. (Optional) If a customer is assigned to a specific POS store, populate the **VAT Customer No.** field.
 12. Define how the POS entries will be posted in **Posting Compression**.     
 
-   - **Uncompressed** – Every POS entry line is posted as-is in the General Ledger. 
-   - **Per POS Entry** – The lines are compressed per an account code within that entry.        
-      *Example:* If there are 3 lines for sale with the same revenue account, the entry is compressed into one line in the General Ledger entry for that transaction. 
-   - **Per POS Period** – All transactions within that POS period are compressed per the same General Ledger account.       
-      *Example:* 100 sales lines are compressed as 1 line in the General Ledger.      
-      
+      | Field Name      | Description |
+      | ----------- | ----------- |
+      | **Uncompressed** | Every POS entry line is posted as-is in the General Ledger (one posted line per a transaction line). |
+      | **Per POS Entry** | The lines are compressed per an account code within that entry. </br> *Example:* If you have 2 lines that use the same sales account and same dimensions, they will be compressed into 1 entry in the **General Ledger Entries** for that POS entry. |
+      | **Per POS Period** | All transactions within that POS period are compressed per the same General Ledger account. </br> *Example:* If you have 50 lines using the same sales account and same dimensions, they will be compressed into 1 entry in the **General Ledger Entries** for that **POS Period** of that POS unit.     |
 
-13. Specify the value of the **Journal Template Name**, which will be assigned to **General Journal Lines** in the POS Posting activity.
-14. Use the **Max POS Posting Differences** field to define the maximum allowed difference caused by the difference between currencies.
-15. Define the G/L account on which these differences will be posted in **Difference Account**.
-16. Use the **POS Sales Rounding Account** field to define the G/L account in which all sales rounding amounts will be posted.
-17. Define on which decimal spaces the rounding will be performed in the **POS Sales Amount Rounding** field.
-18. Define how the rounding will be performed in **Rounding Type**.    
+1.  Specify the value of the **Journal Template Name**, which will be assigned to **General Journal Lines** in the POS Posting activity.
+2.  Use the **Max POS Posting Differences** field to define the maximum allowed difference caused by the difference between currencies.
+3.  Define the G/L account on which these differences will be posted in **Difference Account**.
+4.  Use the **POS Sales Rounding Account** field to define the G/L account in which all sales rounding amounts will be posted.
+5.  Define on which decimal spaces the rounding will be performed in the **POS Sales Amount Rounding** field.
+6.  Define how the rounding will be performed in **Rounding Type**.    
     The possible settings are **Nearest**, **Up** or **Down**.
-19. Use the **Post POS Sale Documents with Job Queue** to allow the salesperson to continue with the work while the sale document posting is running in the background.
+7.  Use the **Post POS Sale Documents with Job Queue** to allow the salesperson to continue with the work while the sale document posting is running in the background.
 
 ![POS_posting](POSPostingProfileCard.png)
 
@@ -60,5 +59,4 @@ Each POS unit can have a different set of posting rules. The first thing is to s
 
 ![pos pos](POS_POS_1.png)
 
-
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/9a8b21c0-ab2a-4ca8-838d-720a38ff766c" loading="lazy" title="Synthesia video player - POS Academy: Configure POS Posting Setup" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

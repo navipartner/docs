@@ -24,18 +24,18 @@ The **POS Posting Setup** defines how the receipts for cash and other payment me
 | **POS Store Code** | The POS store code should be provided if you wish to set a specific posting logic for the store. | 
 | **POS Payment Method Code** | The posting logic of a POS Payment Method. |
 | **POS Payment Bin Code** | The posting logic of a specific **POS Payment Bin Code**. |
-| **Account Type** | The type of account which is going to be affected when the receipt is posted. Apart from the General Ledger, you can also use a Customer Ledger or a Bank Ledger at this level. In brief, posting will be done at sub-ledger level if you choose to do so.  | 
-| **Account No.** | Determines which account number from the Chart of Account, customer number from the **Customer Card** or bank number from the Bank is being debited when a particular POS Payment Method is received. |
-| **Difference Account Type** | Determines what type of account is going to be affected on posting any difference between a theoretical POS Unit amount and physical cash amount when doing receipt balancing. Apart from the General Ledger, you can also set a Customer Ledger or a Bank Ledger at this level. In brief, posting will be done at sub-ledger level if you choose to do so. |
+| **Account Type** | The type of account which is going to be affected when the receipt is posted. Apart from the General Ledger, you can also use a **Customer Ledger** or a **Bank Ledger** at this level. In brief, posting will be done at sub-ledger level if you choose to do so.  | 
+| **Account No.** | Determines which account number from the Chart of Account, customer number from the **Customer Card** or bank number from the Bank is being debited when a particular **POS Payment Method** is received. |
+| **Difference Account Type** | Determines what type of account is going to be affected on posting any difference between a theoretical POS Unit amount and physical cash amount when doing receipt balancing. Apart from the General Ledger, you can also set a **Customer Ledger** or a **Bank Ledger** at this level. In brief, posting will be done at sub-ledger level if you choose to do so. |
 | **Close to POS Bin No.** | This field is not used for the example store. |
 | **Difference Acc. No.** | Determines which account is going to be affected with a negative cash difference. | 
 | **Difference Acc. No. (Neg)** | Determines which account is going to be affected with a positive cash difference. |
 
 {{< alert icon="📝" text="Most companies use the same account for positive & negative differences."/>}}
 
-## Different combinations in the POS Posting Setup 
+## Different combinations and priority rules 
 
-The **POS Posting Setup** is used for posting the payment from the POS on a specific General Ledger account or a bank account. Different components of the POS Posting Setup have different priority levels determined by the Posting Priority Rule.  
+The **POS Posting Setup** is used for posting the payment from the POS on a specific General Ledger account or a bank account. Different components of the **POS Posting Setup** have different priority levels determined by the [posting priority rules]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}}).  
 
 ![posting2](posting2.PNG)
 
@@ -47,35 +47,41 @@ Regardless of how it is set up, it’s necessary to consider the following eleme
 - **POS Payment Method Code** 
 - **POS Payment Bin Code** 
 
-The posting setup selection is based on a posting priority rule. There are 3 possible combinations: 
-
-- If all POS Stores use the same G/L account for posting, you only need to set the **POS Payment Method Code**.  
+If there's one POS store, three POS units, and only one G/L account for the **CASH** (**K**) payment method, you can use the following combination in the setup: 
 
 | Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 |  | CASH | | G/L Account | 230450 | G/L Account | 720700 | 720700 |
 
-- If each store has a different account for the **POS Payment Method**, then you need to set a combination of the **POS Store Code** and the **POS Payment Method Code**. 
+If there are three POS stores, three POS units, and each of the stores is linked to a different G/L account for the **CASH** (**K**) payment method, it is recommended to perform the following setup, and achieve a [full match]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}}):
 
 | Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **STORE1**  | CASH  | | G/L Account | 230430 | G/L Account | 720700 | 720700 |
-| **STORE2**   | CASH | | G/L Account | 230440 | G/L Account | 720700 | 720700 |
-| **STORE3**   | CASH | | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+| **STORE1**  | CASH  | REG1 | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+| **STORE2**   | CASH | REG2 | G/L Account | 230451 | G/L Account | 720700 | 720700 |
+| **STORE3**   | CASH | REG3 | G/L Account | 230452 | G/L Account | 720700 | 720700 |
 
-- If you’re using a different account for each store and POS Unit, you need to do a Full Match with the **POS Store Code**, the **POS Payment Method Code**, and the **POS Payment Bin Code**.
+If there's a single POS store, three POS units, and one G/L account for the **CASH** (**K**) payment method, it's recommended to set up the [full match with the **POS Store Code**, the **POS Payment Method Code**, and the **POS Payment Bin Code**]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}}):
 
 | Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | **STORE1**  | CASH  | REG1 | G/L Account | 230430 | G/L Account | 720700 | 720700 |
-| **STORE2**   | CASH | REG2 | G/L Account | 230440 | G/L Account | 720700 | 720700 |
-| **STORE3**   | CASH | REG3 | G/L Account | 230450 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | REG2 | G/L Account | 230440 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | REG3 | G/L Account | 230450 | G/L Account | 720700 | 720700 |
 
-When posting, the system will prioritize: 
+If there's one POS store, three POS units, and one G/L account for the **CASH** (**K**) payment method, and each of the stores is linked to a different G/L account for the **CASH** (**K**) payment method, you can either go for a [full match, or set one constraint for the **POS Payment Method Code**]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}}): 
 
-1. Full Match – POS Store Code, POS Payment Method Code, POS Payment Bin Code
-2. 2 constraints – POS Store Code, POS Payment Method Code
-3. 1 constraint – POS Payment Method Code
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| **STORE1**  | CASH | REG1 | G/L Account | 230490 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | REG2 | G/L Account | 230490 | G/L Account | 720700 | 720700 |
+| **STORE1**   | CASH | REG3 | G/L Account | 230490 | G/L Account | 720700 | 720700 |
+
+| Store Code    | Payment Method Code  | Payment Bin Code   |  Account Type  | Account No. | Difference Account Type | Difference Acc. No. | Difference Acc. No. (Neg)  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+|  | **CASH** | | G/L Account | 230490 | G/L Account | 720700 | 720700 |
+
+The posting setup is flexible, and it's up to you to define the best fit for your clients' requirements.
 
 ## Common combinations in POS Posting Setup (Cash) 
 
@@ -94,3 +100,10 @@ When balancing is done, if there is a difference between the physical cash count
 After the cash balancing is done, and you decide you wish to transfer some money into a **BANK** (or a **BANK Intermediary Account**), the account **230440** will be debited and the account **230430** will be credited with the transferred amount. 
 
 After the cash balancing is done, and you decide to transfer some money into a **SAFE**, the account **230450** will be debited and the account **230430** is credited with the transferred amount. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Related links
+
+- [POS posting setup]({{< ref "../../../posting_setup/explanation/pos_posting_setup/index.md" >}})
+- [Posting priority rules]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}})
