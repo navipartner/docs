@@ -21,7 +21,6 @@ Refer to our guides, references, and educational articles for all essential POS 
 
 - [Profiles (security, self-service, receipt, input box...)]({{< ref "../pos_profiles/intro.md" >}})
 - [Pricing]({{< ref "explanation/pricing/index.md" >}})
-- [Posting Setup]({{< ref "explanation/posting/index.md" >}})
 - [Layout]({{< ref "../pos_layout/explanation/sections/index.md" >}})
 - [End-of-day report (POS balance)]({{< ref "explanation/end-of-day-exp.md" >}})
 
