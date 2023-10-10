@@ -29,6 +29,12 @@ Users can now set up a POS layout, and add all the necessary buttons more quickl
 
 For more information, examples, and operating instructions refer to the article on [Using the POS Layout Setup Wizard]({{< ref "../pos_layout/how-to/layout_wizard/index.md" >}}).
 
+### MPOS Editor
+
+The [POS Editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
+
+For more information, examples, and operating instructions refer to the article on [Using the POS Layout Setup Wizard]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
+
 ## Version 25.0 (September 28th 2023)
 
 ### Job Queue refresh
