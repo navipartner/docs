@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-It is possible to perform certain configurations so that virtual counting can be performed automatically during the end-of-day process (balancing). Virtual-Count transfers the detailed transaction lines from the source account into the target account in a compressed format with the use of the **AUTO-BIN** payment bin code. 
+It is possible to perform certain configurations so that virtual counting can be performed automatically during the end-of-day process (balancing). Virtual-Count transfers the detailed transaction lines from the source account into the target account in a compressed format with the use of the **AUTO-BIN** payment bin code.  
 
 {{< alert icon="📝" text="If the target account isn't defined, the compressed entries are generated on the source account."/>}}
 
