@@ -23,6 +23,12 @@ Learn which new features and improvements have been introduced in the newest ver
 
 Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
+### POS Layout Setup Wizard
+
+Users can now set up a POS layout, and add all the necessary buttons more quickly with the new POS Layout Setup Wizard. The wizard offers a set of predefined layouts that you can choose from based on your industry and language requirements. Once selected, the layouts can be previewed before being put to use. 
+
+For more information, examples, and operating instructions refer to the article on [Using the POS Layout Setup Wizard]({{< ref "../pos_layout/how-to/layout_wizard/index.md" >}}).
+
 ## Version 25.0 (September 28th 2023)
 
 ### Job Queue refresh
