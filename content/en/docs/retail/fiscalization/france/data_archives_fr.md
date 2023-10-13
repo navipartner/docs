@@ -21,7 +21,7 @@ Cet article fournit les informations nécessaires pour comprendre comment NP Ret
 Vous devez surveiller périodiquement les périodes mensuelles fermées sur la page **Workshift Summary** et les exporter vers un fichier d'archive stocké sur un support sécurisé, c'est-à-dire des clés USB dans un coffre-fort.
 Vous créez des archives à l'aide du bouton Archiver dans la liste **Workshift Summary**.
 Notez que Business Central SaaS dispose déjà de plusieurs niveaux de sauvegarde de base de données sur les données, car elles sont toutes stockées dans la plate-forme ERP gérée par Microsoft. Cela inclut les sauvegardes géo-redondantes. Consultez leurs documents pour en savoir plus: 
-https://learn.microsoft.com/en-us/dynamics366/business-central/dev-itpro/service-overview#database-and-backups
+https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/service-overview#database-and-backups
 
 
 ## Validation des archives
@@ -33,19 +33,19 @@ Si vous contactez NaviPartner, nous pouvons vous fournir un fichier de certifica
 NaviPartner fournit également un script PowerShell qui peut être téléchargé et exécuté pour valider à la fois le schéma du fichier XML et la validité de la signature :
 [Script de validation d'archive](nf525_validate_archive.ps1).
 
-Le script dépend du noyau PowerShell qui peut être téléchargé et installé à partir du lien suivant:
+Le script dépend du noyau PowerShell qui peut être téléchargé et installé à partir du lien suivant: 
 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 
 
 Le script doit être placé dans un dossier avec les 3 fichiers nécessaires à la vérification :
--archive.xml
-- schéma.xsd
-- certificat.cer
+- archive.xml
+- schema.xsd
+- certificate.cer
 
 Le fichier de schéma auquel adhèrent les archives peut être téléchargé à l'adresse
 [Schéma d'archive](schema.xsd)
 
 Les 3 fichiers doivent être nommés exactement comme ci-dessus. Voir l'image par exemple.
-[Exécution de script](script_execution.png)
+![Exécution de script](script_execution.png)
 
 ## Structure des archives
 

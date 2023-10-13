@@ -20,8 +20,8 @@ This article provides information needed to understand how NP Retail exports to 
 ## Period Archives
 You must periodically monitor closed monthly periods on the **Workshift Summary** page and export these to an archive file stored on a secure media i.e. usb keys in a safe.
 You create archives by using the archive button on **Workshift Summary** list.
-Note that Business Central SaaS already has multiple levels of database backup on the data as it's all stored inside the ERP platform maintained by Microsoft. This includes geo-redundant backups. See their docs for more: 
-https://learn.microsoft.com/en-us/dynamics366/business-central/dev-itpro/service-overview#database-and-backups
+Note that Business Central SaaS already has multiple levels of database backup on the data as it's all stored inside the ERP platform maintained by Microsoft. This includes geo-redundant backups. For more information, see [Their docs](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/service-overview#database-and-backups)
+
 
 
 ## Archive Validation
@@ -33,8 +33,8 @@ If you reach out to NaviPartner we can supply you with a .cer certificate file t
 NaviPartner also provides a powershell script that can be downloaded from and executed to validate both the schema of the XML file and the signature validity: 
 [Archive Validation Script](nf525_validate_archive.ps1).
 
-The script depends on powershell core which can be downloaded and installed from the following link: 
-https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 
+The script depends on powershell core which can be downloaded and installed from the 
+[following link](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)
  
 The script must be placed inside a folder together with the 3 files needed for verification:
 - archive.xml
