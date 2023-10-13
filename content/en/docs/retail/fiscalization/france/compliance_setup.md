@@ -25,7 +25,7 @@ This article details how to configure NP Retail for compliance in France in rela
     This will automatically block opening of the POS on that POS Unit if any other setup is non-compliant. 
 4. Reach out to NaviPartner for a self-signed certificate that is specific to your customer with the proper algorithm. 
 5. On the **FR Compliance Setup** page, upload a password-protected export of the certificate with the correct password inserted in the **Signing Certificate Password** field.
-6. On the **FR Compliance Setup** page you can set up the POS-unit-specific number series under the **Unit No. Series Setup** action. 
+6. On the **FR Compliance Setup** page you can set up the POS-unit-specific number series under the **Unit No. Series Setup** action. Beware that no prefix must be used, neither numbers or letters. Start from 1.  
 7. Make sure that the **Company Information** in Business Central contains the core company information, such as the intra-comm, VAT ID and APE.  
 8. Make sure that the **POS Store** administrative section in NPRetail contains other all the retail-specific base information such as store name, address, city, and Siret number. 
 9. Initialize the JET for a new POS unit in the **FR Compliance Setup** page by clicking **Initialize JET**.
@@ -44,4 +44,23 @@ This article details how to configure NP Retail for compliance in France in rela
     - EPSON_RECEIPT_2_FR, as the sales receipt print.
     - EPSON_END_OF_DAY_Z_FR, as the end-of-day/balancing print.
 
-Once all of the listed setup steps are completed, the footer in all active sales and payment screens on the POS will display the software name, version and certification number.  
+Once all of the listed setup steps are completed, the footer in all active sales and payment screens on the POS will display the software name, fiscal version and certification number.  
+
+The following setup will be enforced by the solution as it is required for french compliance. If any of this is misconfigured the POS will refuse to open: 
+- "Sale Fiscal No. Series" in **POS Audit Profile** must have a number series configured without prefix.
+- "Credit Sale Fiscal No. Series" in **POS Audit Profile** must have a number series configured without prefix.
+- "Balancing Fiscal No. Series" in **POS Audit Profile** must have a number series configured without prefix.
+- "Fill Sale Fiscal No. On" in **POS Audit Profile** must be set to be filled only for successful sales.
+- "Print Receipt On Sale Cancel" in **POS Audit Profile** must be disabled.
+- "Do Not Print Receipt On Sale" in **POS Audit Profile** must be disabled.
+- "Allow Zero Amount Sales" in **POS Audit Profile** must be disabled.
+- "Require Item Return Reason" in **POS Audit Profile** must be enabled.
+- "End of Day Type" in **POS End of Day Profile** must be set to "Individual".
+- "End of Day Frequency" in **POS End of Day Profile** must be set to "Daily".
+- "Registration Number" on the **POS Store** must be filled (Siret number in france).
+- "Name" on the **POS Store** must be filled.
+- "Country/Region Code" on the **POS Store** must be filled.
+- "Address" on the **POS Store** must be filled.
+- "VAT Registration Number" in **Company Information** must be filled.
+- "APE Code" in **Company Information** must be filled.
+- Print templates in **Report Selection Retail** for "Balancing" and "Sales Receipt" must be setup to french templates.
