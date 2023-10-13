@@ -31,7 +31,7 @@ To ensure integrity of exported archives, all .xml archives are signed with the 
 The XMLDSIG canonicalization method is XML-C14N 1.0, and the signing is done via RSA & SHA256 as all the other POS event signings.
 If you reach out to NaviPartner we can supply you with a .cer certificate file that includes the public key of the cert used by a specific customer.
 NaviPartner also provides a powershell script that can be downloaded from and executed to validate both the schema of the XML file and the signature validity: 
-[Archive Validation Script](nf525_validate_archive.ps1).
+[Archive Validation Script](https://docs.navipartner.com/nf525_validate_archive.ps1).
 
 The script depends on powershell core which can be downloaded and installed from the 
 [following link](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)
@@ -42,7 +42,7 @@ The script must be placed inside a folder together with the 3 files needed for v
 - certificate.cer
 
 The schema file that archives adhere to can be downloaded at 
-[Archive Schema](schema.xsd).
+[Archive Schema](https://docs.navipartner.com/schema.xsd).
 
 The 3 files must be named exactly like above. See image for example.
 
@@ -177,7 +177,7 @@ List of archive tags, with french name and description
 ## Legacy
 
 Prior to the fiscal version 11 of NPRetail, the archive files were not signed and they followed a different schema. The old schema can be downloaded from 
-[Old Archive Schema](nf525_schema_old_pre11.xsd).
+[Old Archive Schema](https://docs.navipartner.com/nf525_schema_old_pre11.xsd).
 
 Prior to the fiscal version 21.6 of NPRetail, the archive files followed a different schema that can be downloaded here:
-[Old Archive Schema](nf525_schema_old_pre216.xsd).
+[Old Archive Schema](https://docs.navipartner.com/nf525_schema_old_pre216.xsd).
