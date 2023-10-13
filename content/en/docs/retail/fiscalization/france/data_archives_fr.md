@@ -15,31 +15,37 @@ toc: true
 type: docs
 ---
 
-Cet article fournit les informations nécessaires pour comprendre comment sont crées  les archives.xml par NP retail, comment ces archives .xml sont sécurisées et comment vous pouvez assurer qu'elles n'ont pas été falsifiées.
+Cet article fournit les informations nécessaires pour comprendre comment NP Retail exporte vers des archives .xml, comment ces archives .xml doivent être sécurisées et comment vous pouvez vérifier qu'elles n'ont pas été falsifiées.
 
 ## Archives périodique
+Vous devez surveiller périodiquement les périodes mensuelles fermées sur la page **Workshift Summary** et les exporter vers un fichier d'archive stocké sur un support sécurisé, c'est-à-dire des clés USB dans un coffre-fort.
+Vous créez des archives à l'aide du bouton Archiver dans la liste **Workshift Summary**.
+Notez que Business Central SaaS dispose déjà de plusieurs niveaux de sauvegarde de base de données sur les données, car elles sont toutes stockées dans la plate-forme ERP gérée par Microsoft. Cela inclut les sauvegardes géo-redondantes. Consultez leurs documents pour en savoir plus: 
+https://learn.microsoft.com/en-us/dynamics366/business-central/dev-itpro/service-overview#database-and-backups
 
-L’archivage périodique automatique s'effectue via le module de ‘File d'attente des travaux’ de Business Central. Les archives exportées sont stockées dans un Azure Blob Storage, à l'intérieur d'un conteneur spécifique au client, sur lequel NaviPartner conserve un contrôle total. Cela signifie que l'accès à une archive exportée d'un client sera fourni en contactant NaviPartner via les canaux de communication habituels, c'est-à-dire le ‘Case system’ ou le support de NaviPartner par e-mail.
-
-Le fichier de schéma auquel les archives adhèrent peut être téléchargé sur: [Schéma d'archive](nf525_schema.xsd)
-
-Vous pouvez toujours exporter manuellement une période mensuelle également en accédant à la page **Résumé de sanguine** et en utilisant l'action **Archiver**.
 
 ## Validation des archives
 
-Pour garantir l'intégrité des archives exportées, toutes les archives .xml sont signées digitalement avec le même certificat qui est utilisé pour  les signatures d'événements POS.
+Pour garantir l'intégrité des archives exportées, toutes les archives .xml sont signées avec le même certificat que toutes les signatures d'événements POS.
 
-La méthode de canonisation XMLDSIG est XML-C14N 1.0 et la signature est effectuée via RSA & SHA256 comme toutes les autres signatures d'événements POS. Si vous contactez NaviPartner, nous pouvons vous fournir un fichier de certificat .cer qui inclut la clé publique du certificat utilisé pour un client spécifique. NaviPartner fournit également un script powershell qui peut être téléchargé et exécuté pour valider à la fois le schéma du fichier XML et la validité de la signature: [Schéma de validation des archives](nf525_validate_archive.ps1).
+La méthode de canonisation XMLDSIG est XML-C14N 1.0 et la signature se fait via RSA et SHA256 comme toutes les autres signatures d'événements POS.
+Si vous contactez NaviPartner, nous pouvons vous fournir un fichier de certificat .cer qui inclut la clé publique du certificat utilisé par un client spécifique.
+NaviPartner fournit également un script PowerShell qui peut être téléchargé et exécuté pour valider à la fois le schéma du fichier XML et la validité de la signature :
+[Script de validation d'archive](nf525_validate_archive.ps1).
 
-Il prend 3 paramètres:
+Le script dépend du noyau PowerShell qui peut être téléchargé et installé à partir du lien suivant:
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 
 
-- archivePath: L'archive à valider
-- schemaPath: Le fichier de schéma XML pour le valider par rapport
-- certificatePath: le fichier de certificat .cer
+Le script doit être placé dans un dossier avec les 3 fichiers nécessaires à la vérification :
+-archive.xml
+- schéma.xsd
+- certificat.cer
 
-Le moyen le plus simple d'exécuter le script est de placer les 4 fichiers, c'est-à-dire l'archive, le schéma, le certificat et le script dans le même dossier - après quoi vous pouvez exécuter le script comme ceci: 
+Le fichier de schéma auquel adhèrent les archives peut être téléchargé à l'adresse
+[Schéma d'archive](schema.xsd)
 
-![Exécution du script](script_execution.png)
+Les 3 fichiers doivent être nommés exactement comme ci-dessus. Voir l'image par exemple.
+[Exécution de script](script_execution.png)
 
 ## Structure des archives
 
@@ -74,7 +80,102 @@ Au début il y a  une section d'en-tête pour la grande période mensuelle archi
 
 Voir le fichier de schéma lié ci-dessus pour un aperçu détaillé de tous les éléments XML dans chacune des 4 sections de type d'événement (tickets, doublons, grands totaux, jet).
 
+## XML Tags
+
+| Tag                            | Français                                     |
+|--------------------------------|----------------------------------------------|
+| Archive                        | Archive                                      |
+| GrandPeriod                    | Période majeure                              |
+| ArchiveSignature               | Signature d'archive                          |
+| SystemEntryNo                  | Numéro d'entrée système                      |
+| SequentialID                   | ID séquentiel                                |
+| FromDate                       | De la date                                   |
+| ToDate                         | À la date                                    |
+| GrandTotal                     | Total général                                |
+| PerpetualAbsoluteGrandTotal    | Total absolu perpétuel                       |
+| PerpetualGrandTotal            | Total perpétuel                              |
+| PeriodGrandTotalSignature      | Signature du total de la période             |
+| Tickets                        | Billets                                      |
+| Ticket                         | Billet                                       |
+| DocumentType                   | Type de document                             |
+| TicketSignature                | Signature du billet                          |
+| SalesLine                      | Ligne de vente                               |
+| TaxLine                        | Ligne de taxe                                |
+| PaymentLine                    | Ligne de paiement                            |
+| Type                           | Type                                         |
+| ExchangeRate                   | Taux de change                               |
+| IssuedGenericVoucher           | Bons génériques émis                         |
+| AppliedGenericVoucher          | Bons génériques appliqués                    |
+| IssuedCoupon                   | Coupons émis                                 |
+| AppliedCoupon                  | Coupons appliqués                            |
+| RelatedInfo                    | Informations connexes                        |
+| Duplicates                     | Duplicatas                                   |
+| Duplicate                      | Duplicata                                    |
+| ID                             | ID                                           |
+| FiscalDocumentNumber           | Numéro de document fiscal                    |
+| ReprintNumber                  | Numéro de réimpression                       |
+| DuplicateSignature             | Signature du duplicata                       |
+| RelatedInfo                    | Informations connexes                        |
+| GrandTotals                    | Totals généraux                              |
+| GrandTotal                     | Total général                                |
+| PerpetualAbsoluteGrandTotal    | Total absolu perpétuel                       |
+| PerpetualGrandTotal            | Total perpétuel                              |
+| GrandTotalSignature            | Signature du total général                   |
+| JET                            | JET                                          |
+| JETEntry                       | Entrée JET                                   |
+| JETSignature                   | Signature JET                                |
+| SystemEntryKey                 | Clé d'entrée système                         |
+| DocumentNumber                 | Numéro de document                           |
+| NoOfPrints                     | Nombre d'impressions                         |
+| SalespersonCode                | Code du vendeur                             |
+| POSCode                        | Code POS                                     |
+| Date                           | Date                                         |
+| Time                           | Heure                                        |
+| OperationType                  | Type d'opération                             |
+| NoOfSalesLines                 | Nombre de lignes de vente                   |
+| TotalInclTax                   | Total TTC                                   |
+| TotalExclTax                   | Total HT                                    |
+| LineNo                         | Numéro de ligne                              |
+| ProductCode                    | Code de produit                             |
+| ProductLabel                   | Libellé du produit                          |
+| Quantity                       | Quantité                                     |
+| TaxIdentifier                  | Identifiant de taxe                         |
+| TaxRate                        | Taux de taxe                                |
+| UnitPriceInclTax               | Prix unitaire TTC                            |
+| DiscountCode                   | Code de réduction                           |
+| DiscountPercentage             | Pourcentage de réduction                    |
+| DiscountAmount                 | Montant de réduction                        |
+| TotalExclTax                   | Total HT                                    |
+| TotalInclTax                   | Total TTC                                   |
+| BaseQuantity                   | Quantité de base                            |
+| UnitOfMeasureCode              | Code de l'unité de mesure                   |
+| Created                        | Créé                                         |
+| Description                    | Description                                 |
+| Amount                         | Montant                                      |
+| Currency                       | Devise                                       |
+| CurrencyAmount                 | Montant en devise                            |
+| ExchangeRate                   | Taux de change                               |
+| CreatedAt                      | Créé à                                       |
+| SoftwareVersion                | Version du logiciel                         |
+| StoreName                      | Nom du magasin                              |
+| StoreName2                     | Nom du magasin 2                            |
+| StoreAddress                   | Adresse du magasin                          |
+| StoreAddress2                  | Adresse du magasin 2                        |
+| StorePostCode                  | Code postal du magasin                      |
+| StoreCity                      | Ville du magasin                            |
+| StoreCountry                   | Pays du magasin                             |
+| IntraCommVATIdentifier         | Identifiant de TVA intracommunautaire        |
+| SalespersonName                | Nom du vendeur                             |
+| UserCode                       | Code d'utilisateur                           |
+| GrandTotalType                 | Type de total général                       |
+| SequenceNumber                 | Numéro de séquence                           |
+| AdditionalInfo                 | Informations supplémentaires                |
+
 ## Héritage
 
-Avant la version 11 de NPRetail, les fichiers d'archive n'étaient pas signés et suivaient un schéma différent. L'ancien schéma peut être téléchargé à partir de: [Ancien schéma d'archivage](nf525_schema_old.xsd).
+Avant la version fiscale 11 de NPRetail, les fichiers d'archives n'étaient pas signés et suivaient un schéma différent. L'ancien schéma peut être téléchargé depuis 
+[Ancien schéma d'archive](nf525_schema_old_pre11.xsd)
+
+Avant la version fiscale 21.6 de NPRetail, les fichiers d'archives suivaient un schéma différent téléchargeable ici: 
+[Ancien schéma d'archive](nf525_schema_old_pre216.xsd)
 
