@@ -31,7 +31,7 @@ Pour garantir l'intégrité des archives exportées, toutes les archives .xml so
 La méthode de canonisation XMLDSIG est XML-C14N 1.0 et la signature se fait via RSA et SHA256 comme toutes les autres signatures d'événements POS.
 Si vous contactez NaviPartner, nous pouvons vous fournir un fichier de certificat .cer qui inclut la clé publique du certificat utilisé par un client spécifique.
 NaviPartner fournit également un script PowerShell qui peut être téléchargé et exécuté pour valider à la fois le schéma du fichier XML et la validité de la signature :
-[Script de validation d'archive](nf525_validate_archive.ps1).
+[Script de validation d'archive](https://docs.navipartner.com/nf525_validate_archive.ps1).
 
 Le script dépend du noyau PowerShell qui peut être téléchargé et installé à partir du lien suivant: 
 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3 
@@ -42,7 +42,7 @@ Le script doit être placé dans un dossier avec les 3 fichiers nécessaires à 
 - certificate.cer
 
 Le fichier de schéma auquel adhèrent les archives peut être téléchargé à l'adresse
-[Schéma d'archive](schema.xsd)
+[Schéma d'archive](https://docs.navipartner.com/schema.xsd)
 
 Les 3 fichiers doivent être nommés exactement comme ci-dessus. Voir l'image par exemple.
 ![Exécution de script](script_execution.png)
@@ -174,8 +174,8 @@ Voir le fichier de schéma lié ci-dessus pour un aperçu détaillé de tous les
 ## Héritage
 
 Avant la version fiscale 11 de NPRetail, les fichiers d'archives n'étaient pas signés et suivaient un schéma différent. L'ancien schéma peut être téléchargé depuis 
-[Ancien schéma d'archive](nf525_schema_old_pre11.xsd)
+[Ancien schéma d'archive](https://docs.navipartner.com/nf525_schema_old_pre11.xsd)
 
 Avant la version fiscale 21.6 de NPRetail, les fichiers d'archives suivaient un schéma différent téléchargeable ici: 
-[Ancien schéma d'archive](nf525_schema_old_pre216.xsd)
+[Ancien schéma d'archive](https://docs.navipartner.com/nf525_schema_old_pre216.xsd)
 
