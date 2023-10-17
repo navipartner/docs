@@ -23,11 +23,15 @@ Learn which new features and improvements have been introduced in the newest ver
 
 Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/b188bad5-52f6-4b10-b7fb-63f499e3e7dd" loading="lazy" title="Synthesia video player - New Feature: POS Sale Document Background posting" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
 ### POS Layout Setup Wizard
 
 Users can now set up a POS layout, and add all the necessary buttons more quickly with the new POS Layout Setup Wizard. The wizard offers a set of predefined layouts that you can choose from based on your industry and language requirements. Once selected, the layouts can be previewed before being put to use. 
 
 For more information, examples, and operating instructions refer to the article on [Using the POS Layout Setup Wizard]({{< ref "../pos_layout/how-to/layout_wizard/index.md" >}}).
+
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/f20dce3f-7c39-4d9e-b201-6d9887575dc1" loading="lazy" title="Synthesia video player - New Feature: POS Wizard" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
 ### MPOS Editor
 
@@ -42,6 +46,8 @@ For more information, examples, and operating instructions refer to the article 
 A backend process which automatically refreshes Job Queue entries provided that it is **Enabled** in the **Job Queue Refresh Setup** administrative section has been introduced.
 
 By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
+
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/3b3c8207-94ee-4a7a-a7d9-fd8ccfb041c9" loading="lazy" title="Synthesia video player - New Feature: Job Que Restart" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
 ## Version 24.0 (August 28th 2023)
 
