@@ -26,7 +26,7 @@ Member community is the top level in the setup of members and memberships. It re
 | **Member Unique Identity** | Specifies the member value that needs to be used to uniquely identify a member. The following options are available: **E-Mail**, **Phone No.**, **Social Security No.**, **E-Mail and Phone No.**, and **E-Mail or Phone No.** |
 | **Create Member UI Violation** | You can select how the system will react when a unique member identity is somehow violated. The following options are available: **Error** - an error is displayed; **Confirm** - a confirmation question is issued to challenge the provided value; and **Reuse** - an old member is blocked, and the new one is created instead.  |
 | **Member Logon Credentials** | Specifies which term is used for logon credentials when a third-party member management software is used. The following options are available: **Not Applicable**, **Member Unique Identity**, **External Member ID**, and **Member Selected**.  |
-| **Membership to Cust. Rel.** | This field is useful when memberships are linked with customers, and are mandatory if  | 
+| **Membership to Cust. Rel.** | If checked, when you create a new membership, a customer who is associated with it is also created automatically. Afterwards, various discounts can be provided to that customer via the membership.  | 
 | **Create Renewal Notification** | If enabled, a notification will be created when membership requires renewal.  |
 | **Member Default Country Code** | Specifies the country code associated with the member.  |
 | **Activate Loyalty Program** | If enabled, the loyalty program will be activated. |
