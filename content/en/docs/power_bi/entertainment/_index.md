@@ -1,5 +1,5 @@
 ---
-title: "Entertainment"
+title: "Attraction"
 description: ""
 lead: ""
 date: 2023-07-18T11:29:22+02:00

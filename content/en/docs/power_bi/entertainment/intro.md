@@ -1,6 +1,6 @@
 ---
-title: "NP Power BI for Entertainment"
-description: "The Power BI Entertainment Report is created as a tool for analyzing business operations related to the provided services, for instance, for organizing cultural events, exhibitions, performances, and amusement activities."
+title: "NP Power BI for Attraction"
+description: "The Power BI Attraction Report is created as a tool for analyzing business operations related to the provided services, for instance, for organizing cultural events, exhibitions, performances, and amusement activities."
 lead: ""
 date: 2023-07-18T11:40:46+02:00
 lastmod: 2023-07-18T11:40:46+02:00
@@ -14,7 +14,7 @@ weight: 603
 toc: true
 type: docs
 ---
-The Power BI Entertainment Report is created as a tool for analyzing business operations related to the provided services, for instance, for organizing cultural events, exhibitions, performances, and amusement activities. Therefore, this strictly specialized report is ideal for museums, theaters, cinemas, amusement parks, and other institutions whose operating income is generated from selling tickets and memberships.
+The Power BI Attraction Report is created as a tool for analyzing business operations related to the provided services, for instance, for organizing cultural events, exhibitions, performances, and amusement activities. Therefore, this strictly specialized report is ideal for museums, theaters, cinemas, amusement parks, and other institutions whose operating income is generated from selling tickets and memberships.
 
 Some of the topics covered by this report are:
 
