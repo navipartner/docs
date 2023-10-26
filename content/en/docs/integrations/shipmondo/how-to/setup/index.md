@@ -21,7 +21,7 @@ To set up integration with Shipmondo, follow the provided steps on the Shipmondo
 
 1. Navigate to the [Shipmondo website](https://shipmondo.com/), and create a new account.     
 2. Once the account is created and you're logged in, click on your company username in the top right corner of the page.     
-   A dropdown list is displayed with all available account options.
+   A dropdown list is displayed with all available account options. 
 3. Click **Add Funds**, and provide the amount you wish to add in the pop-up window that is displayed.
 4. Follow the on-screen instructions to complete the payment.
 5. Open the **Settings** dropdown in the ribbon, and select **Own agreements**. If you have any agreements, add them here.      
