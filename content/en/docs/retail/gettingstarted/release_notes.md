@@ -23,17 +23,22 @@ Learn which new features and improvements have been introduced in the newest ver
 
 Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/b188bad5-52f6-4b10-b7fb-63f499e3e7dd" loading="lazy" title="Synthesia video player - New Feature: POS Sale Document Background posting" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
 ### POS Layout Setup Wizard
 
 Users can now set up a POS layout, and add all the necessary buttons more quickly with the new POS Layout Setup Wizard. The wizard offers a set of predefined layouts that you can choose from based on your industry and language requirements. Once selected, the layouts can be previewed before being put to use. 
 
 For more information, examples, and operating instructions refer to the article on [Using the POS Layout Setup Wizard]({{< ref "../pos_layout/how-to/layout_wizard/index.md" >}}).
 
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/f20dce3f-7c39-4d9e-b201-6d9887575dc1" loading="lazy" title="Synthesia video player - New Feature: POS Wizard" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
 ### MPOS Editor
 
 The [POS Editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
 
 For more information, examples, and operating instructions refer to the article on [Using the MPOS editor]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
+
 
 ### Fiscalization compliance with Norwegian fiscal laws
 
@@ -47,6 +52,25 @@ Our POS solution is now fully compliant with Croatian fiscal laws.
 
 For more information, examples, and operating instructions refer to the articles on [Croatian fiscalization compliance]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
+## Prepayment invoice posting improvements - Serbia
+
+In accordance with Serbian accounting regulations, it is required to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
+
+With this new feature, you can only enable the **Prepayment** toggle switch when posting bank statements from the payment journal, prepayment invoices or credit memos (in their respective administrative sections in Business Central). 
+
+## Sales prepayment posting improvements - Serbia
+
+With the new release, it is possible to post and issue prepayment invoices, as well as credit memos with the final invoices to customers for businesses in Serbia. This improvement has been developed due to the Serbian accounting regulation which requires that the prepayment isn't directly posted to the customer account until the final invoice is issued.
+
+## VAT report feature - Serbia
+
+In accordance with the Serbian VAT regulations, it is necessary to store the data on turnover, carry out necessary calculations, and report to Tax authorities how much VAT the company is required to pay for.
+
+This new feature gives you the option of easily forwarding such information to the TA (Tax Authority). Each time the invoices are posted, all the accompanying information is recorded in the POPDV report as is legally required. 
+
+The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
+
+
 ## Version 25.0 (September 28th 2023)
 
 ### Job Queue refresh
@@ -54,6 +78,8 @@ For more information, examples, and operating instructions refer to the articles
 A backend process which automatically refreshes Job Queue entries provided that it is **Enabled** in the **Job Queue Refresh Setup** administrative section has been introduced.
 
 By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
+
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/3b3c8207-94ee-4a7a-a7d9-fd8ccfb041c9" loading="lazy" title="Synthesia video player - New Feature: Job Que Restart" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
 ## Version 24.0 (August 28th 2023)
 

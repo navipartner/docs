@@ -27,6 +27,8 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 - If you're unsure whether our solution is supported by your hardware components, refer to the [system requirements]({{< ref "system_requirements.md" >}}).
 
+- Make sure to read the [documentation regarding automatic postings]({{< ref "../../partner/inventory_setup/index.md" >}}) before starting to use your POS. There are certain options that need to be configured in a particular way to make sure everything works properly.
+
 ## Get started with NP Retail setup wizard 
 
 NaviPartner has developed an [onboarding setup wizard for NP Retail]({{< ref "getting_started_wizard.md" >}}), which guides you through the configuration process of all essential modules and features. Additionally, the setup wizard is accompanied with the [POS Academy video library](https://www.youtube.com/@NaviPartnerKbh), which provides tips and tricks for completing the setup more efficiently.

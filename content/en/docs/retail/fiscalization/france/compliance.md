@@ -27,7 +27,7 @@ NP Retail is audited by InfoCert and our certification details are:
 ## Platform
 
 The platform that NP Retail is running inside of is the ERP system known as Microsoft Dynamics 365 Business Central.  
-Microsoft manages the French ERP compliance, as well as the [relevant documentation](https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/france/france-local-functionality).
+Microsoft manages the French ERP NF 203 compliance. See their [documentation](https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/france/france-local-functionality) for more info.
 
 The NP Retail compliance is specifically focused on the point of sale (POS) requirements, known as NF 525.  
 
@@ -36,14 +36,10 @@ The NP Retail compliance is specifically focused on the point of sale (POS) requ
 
 ## Versioning Logic
 
-The NP Retail application has four version numbers, two of which have a functional meaning:
-
-BCMinimumVersion.NPRMajorVersion.NPRMinorVersion.BuildRevision
-
-- The NPRMajorVersion is increased every time we release all features/fixes prepared since the last major, usually on a monthly basis. 
-- The NPRMinorVersion is increased ad-hoc, as a hotfix, in between major versions.
-
-The NF 525 compliance is tied to the NPRMajorVersion number.
+For NF 525 compliance we maintain a fiscal version number that only changes when the product receives changes that impacts NF 525 compliance.
+The version consists of two digits: Major.Minor 
+The major increases only when there are new major requirements in the NF 525 requirements. 
+The minor increases when there are bugfixes or small adjustments in the NF 525 requirements.
 
 ## Software Deployment
 
@@ -102,21 +98,21 @@ In NPRetail the following events are signed:
 
 The list of supported JET events in NP Retail:
 
-| Code | Event | Data in "Additional Info" |
+| Code | Description | Data in "Additional Info" |
 |-----|-----|-----|
-| 20 | Monthly Archive Attempt | Sequence number of the balancing POS Entry |
-| 30 | Yearly Archive Attempt | Sequence number of the balancing POS Entry |
-| 40 | Log out | Salesperson code |
-| 50 | Daily/Monthly closing | Sequence number of the balancing POS Entry |
-| 60 | Year closing | Sequence number of the balancing POS Entry |
-| 80 | Log in | Salesperson code | Salesperson code | 
-| 90 | Signature Chain Verification Failure | Blank |
-| 170 | Drawer Count | Sequence number of the balancing POS Entry |
+| 20 | Intermediate Fiscal archiving | Sequence number of the balancing POS Entry |
+| 30 | Fiscal Period archiving | Sequence number of the balancing POS Entry |
+| 40 | POS Log off | Salesperson code |
+| 50 | Daily/Monthly period closing | Sequence number of the balancing POS Entry |
+| 60 | Yearly period closing | Sequence number of the balancing POS Entry |
+| 80 | POS Log in | Salesperson code |
+| 90 | Signature Chain Integrity Verification Failure | Blank |
+| 170 | POS Closure and balancing | Sequence number of the balancing POS Entry |
 | 190 | Item RMA (Note: One event per line in refund sale) | Blank |
-| 240 | Partner Modification | A description of the modification made |
-| 260 | JET Initialization | Blank |
-| 320 | Cancel Sale | Salesperson code |
-| 910 | Non item amount | Ticket Fiscal Number, a pipe separator and the non-item amount decimal |
+| 240 | Maintenance Intervention description | A description of the modification made |
+| 260 | JET Data Initialization | Blank |
+| 320 | Abandonment of POS Sale | Salesperson code |
+| 910 | Non item amount in POS sale | Ticket Fiscal Number, a pipe separator and the non-item amount decimal |
 
 
 The list of data included in a signed JET event, in order, separated by comma:
@@ -213,10 +209,15 @@ The list of data included in a signed ARCHIVE event, in order of separation:
 - A true false (Y/N) value indicating if this event is the first in the entire sequence for this register and event type.
 - The previous signature for this register and event type. (Blank if first)
 
-### Algorithms used to sign
+### Certificates
 
 The NF 525 data is signed via the RSA algorithm with 2048 bits and hashed via the SHA256 algorithm. 
-The certificates used are self-signed and issued per customer by NaviPartner.
+The certificates used are self-signed and issued per customer by NaviPartner.  
+Both the certificate and the private key for the certificate are stored in the business central database in masked fields that are encrypted at rest in Business Central SaaS.
+This data cannot be accessed by users with limited permissions.
+
+The certificate and private key is backed up by microsoft in a geo-redunant manner. See their docs for more info: 
+https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/service-overview#database-and-backups
 
 ### Overview of all events
 

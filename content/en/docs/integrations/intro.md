@@ -76,3 +76,7 @@ NP Retail is integrated with the following solutions:
 
 - [Set up Adyen Cloud integration (EFT)]({{< ref "../retail/eft/how-to/adyen/index.md" >}})
 
+## Shipmondo
+
+- [Set up Shipmondo integration]({{< ref "shipmondo/how-to/setup/index.md" >}})
+- [Test Shipmondo integration]({{< ref "shipmondo/how-to/test_shipmondo/index.md" >}})
