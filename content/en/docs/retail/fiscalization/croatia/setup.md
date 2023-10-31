@@ -22,24 +22,13 @@ Croatian Fiscal Law does not define fiscal receipt preview. According to the law
 This article details how to configure NP Retail for compliance with Croatian fiscal laws.
 
 1. Go to **POS Audit Profiles** page, enable the audit log, and set the **Audit Handler** to **CRO_FINA**.      
-
-   ![croatian_fiscalization](croatian_fiscalization.PNG)
-
 2. Open the **CRO Tax Fiscalization Setup**, and enable the fiscalization compliance with Croatia by activating the **Enable CRO Fiscalisation** toggle switch.
 3. Move on to the **Digital Certificate Information** panel, and provide the password provided by FINA in the **Signing Certificate Password** field.
 4. Click **Upload Certificate**, and provide a certificate that was provided by FINA.       
-
-   ![croatian_fiscalization2](croatian_fiscalization2.PNG)
-         
    **Certificate Subject OIB** field is populated with the certificate upload.
 5. Move on to the **Fiscalization Environment Setup** panel, and provide the **Environment URL**     
-
-   ![croatian_fiscalization3](croatian_fiscalization3.PNG)
-
 6. Move on to the **No. Series Setup** panel, and add the number series by which fiscal bills should be numbered in the **Bill No. Series** field. 
 7. Provide the number series that the accompanying documents will have in the **Accompanying Document No. Series** field.
-
-    ![croatian_fiscalization4](croatian_fiscalization4.PNG)
 
 Croatian Fiscal Law defines that:
 

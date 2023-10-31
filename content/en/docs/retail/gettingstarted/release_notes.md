@@ -35,6 +35,14 @@ The [POS Editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" 
 
 For more information, examples, and operating instructions refer to the article on [Using the MPOS editor]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
 
+### Fiscalization compliance with Norwegian fiscal laws
+
+Our POS solution is now compliant with Norwegian fiscal laws, with the exception of the Z report, which will be covered in the coming releases.
+
+### Fiscalization compliance with Croatian fiscal laws
+
+Our POS solution is now fully compliant with Croatian fiscal laws.
+
 ## Version 25.0 (September 28th 2023)
 
 ### Job Queue refresh

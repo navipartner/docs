@@ -18,9 +18,6 @@ type: docs
 This article details how to configure NP Retail for compliance with Norwegian fiscal laws.
 
 1. Go to **POS Audit Profiles** page, enable the audit log, and set the **Audit Handler** to **NO_LOVDATA**.      
-
-  ![norway1](norway1.PNG)
-
   **Audit Log** is used for recording all POS unit activities - drawer opening, salesperson sign-in, sale transactions, initial receipt prints etc.      
 
 2. Make sure this audit profile is set for all POS units from the **POS Unit List**.
@@ -32,9 +29,7 @@ This article details how to configure NP Retail for compliance with Norwegian fi
 	- **Not Applicable VAT Code** – choose the VAT code that is used for VAT business and product combinations that don’t have the assigned VAT codes when exporting the transaction data with those posting group combinations.
 7. Click **VAT Posting Setup Mapping**, and on the **VAT Post Group Mapper List** page, create an entry for each combination of the VAT product and VAT business posting groups.          
    Codes are set in order to fulfill law regulations when posting sales and purchase documents. All codes are listed on the **VAT Codes** table.       
-   The VAT codes that are defined by Norwegian fiscal laws are linked to VAT Business and Product combinations. 
-
-   ![norway2](norway2.PNG)
+   The VAT codes that are defined by Norwegian fiscal laws are linked to VAT Business and Product combinations.
 
    Once the fiscalization compliance with Norwegian laws is set up, you can find the information on all issued receipts from all POS stores and POS units in the **NO POS Audit Log Aux. Info**.
 
@@ -75,7 +70,7 @@ Subsequent signing is required for transactions that aren't yet signed.
    When the **Parallel Processing** is off, a pop-up window is displayed to check whether you wish to initiate the process.
 4. Click **Yes** to begin the export.       
    When exporting is finished, the information about the exported content is displayed in the **Lines** tab.     
-   All transactions are recorded in the **POS Entry List**, and all cash register activities in the **POS Audit Log** page.
+   All transactions are recorded in the **POS Entry List**, and all cash register activities in the **POS Audit Log** table.
 5. Click the last entry in the **SAF-T Cash Register Export Zips** list, and then **Download ZIP File**.      
    The ZIP file with the latest data is downloaded to your computer.        
    The file contains two master data files - one that contains **Transactions & Events**, and the one that doesn't.

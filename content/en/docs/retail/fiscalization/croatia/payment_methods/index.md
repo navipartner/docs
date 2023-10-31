@@ -17,11 +17,7 @@ type: docs
 
 You can choose which payment methods will be accepted in the **Payment Method Card** where the setup for the given payment method is done. In the following example, cash is selected as the payment method in use.
 
-  ![cro_payment](Images/cro_payment.PNG)
-
 The created payment method needs to be sent to TA in an XML message according to the Croatian Fiscal Law. Therefore, all **Payment Method Codes** need to be mapped to the adequate **CRO Payment Methods** in the **CRO POS Payment Method Mapping** page.
-
-  ![cro_payment2](Images/cro_payment2.png)
 
 Whenever these payment methods are used, the accompanying XML message should contain a payment method label that is defined by the law.
 
