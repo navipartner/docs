@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_methods-488fcf5a8a0896fdea794c6f59ca871f"
-weight: 999
+weight: 175
 toc: true
 type: docs
 ---

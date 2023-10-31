@@ -39,9 +39,13 @@ For more information, examples, and operating instructions refer to the article 
 
 Our POS solution is now compliant with Norwegian fiscal laws, with the exception of the Z report, which will be covered in the coming releases.
 
+For more information, examples, and operating instructions refer to the article on [Norwegian fiscalization compliance]({{< ref "../fiscalization/norway/setup.md" >}}).
+
 ### Fiscalization compliance with Croatian fiscal laws
 
 Our POS solution is now fully compliant with Croatian fiscal laws.
+
+For more information, examples, and operating instructions refer to the articles on [Croatian fiscalization compliance]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
 ## Version 25.0 (September 28th 2023)
 
