@@ -39,6 +39,19 @@ The [POS Editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" 
 
 For more information, examples, and operating instructions refer to the article on [Using the MPOS editor]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
 
+
+### Fiscalization compliance with Norwegian fiscal laws
+
+Our POS solution is now compliant with Norwegian fiscal laws, with the exception of the Z report, which will be covered in the coming releases.
+
+For more information, examples, and operating instructions refer to the article on [Norwegian fiscalization compliance]({{< ref "../fiscalization/norway/setup.md" >}}).
+
+### Fiscalization compliance with Croatian fiscal laws
+
+Our POS solution is now fully compliant with Croatian fiscal laws.
+
+For more information, examples, and operating instructions refer to the articles on [Croatian fiscalization compliance]({{< ref "../fiscalization/croatia/setup.md" >}}).
+
 ## Prepayment invoice posting improvements - Serbia
 
 In accordance with Serbian accounting regulations, it is required to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
@@ -56,6 +69,7 @@ In accordance with the Serbian VAT regulations, it is necessary to store the dat
 This new feature gives you the option of easily forwarding such information to the TA (Tax Authority). Each time the invoices are posted, all the accompanying information is recorded in the POPDV report as is legally required. 
 
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
+
 
 ## Version 25.0 (September 28th 2023)
 
