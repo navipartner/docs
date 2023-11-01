@@ -39,19 +39,6 @@ The [POS Editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" 
 
 For more information, examples, and operating instructions refer to the article on [Using the MPOS editor]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
 
-
-### Fiscalization compliance with Norwegian fiscal laws
-
-Our POS solution is now compliant with Norwegian fiscal laws, with the exception of the Z report, which will be covered in the coming releases.
-
-For more information, examples, and operating instructions refer to the article on [Norwegian fiscalization compliance]({{< ref "../fiscalization/norway/setup.md" >}}).
-
-### Fiscalization compliance with Croatian fiscal laws
-
-Our POS solution is now fully compliant with Croatian fiscal laws.
-
-For more information, examples, and operating instructions refer to the articles on [Croatian fiscalization compliance]({{< ref "../fiscalization/croatia/setup.md" >}}).
-
 ## Prepayment invoice posting improvements - Serbia
 
 In accordance with Serbian accounting regulations, it is required to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
@@ -80,6 +67,13 @@ A backend process which automatically refreshes Job Queue entries provided that 
 By default the Job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
 
 <div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/3b3c8207-94ee-4a7a-a7d9-fd8ccfb041c9" loading="lazy" title="Synthesia video player - New Feature: Job Que Restart" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+### Membership registration improvements
+
+This feature enables users to register as members and acquire a membership card more efficiently than when registering at the counter. As soon as a customer provides their name and phone number to the teller, an SMS is sent their way, and through it, they can access and submit a membership registration form. The membership is also dispatched to the customers via SMS. 
+
+In addition to the first SMS, the store has the option of sending an SMS with a temporary membership card, granting access for a specified period. This gives customers the comfort of completing the form wherever and whenever they want. 
+ 
 
 ## Version 24.0 (August 28th 2023)
 
