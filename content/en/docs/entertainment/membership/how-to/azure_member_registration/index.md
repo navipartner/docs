@@ -41,4 +41,4 @@ To make this flow possible, it's necessary to perform the following setup steps 
 11. Make sure that **Enable Dequeing** toggle switch is activated (in the **Queue Processing** panel).
 12. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Membership Sales Setup**, and choose the related link.    
     Here, you can select which items will be available to the specified memberships. 
-13. Click **Create Membership**.
+13. Click **Create Membership**, and provide the customer's **First Name** and their **Phone No.**; then click **OK**.
