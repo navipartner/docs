@@ -68,7 +68,7 @@ By default the Job queue refresh is triggered automatically once a day as soon a
 
 <div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/3b3c8207-94ee-4a7a-a7d9-fd8ccfb041c9" loading="lazy" title="Synthesia video player - New Feature: Job Que Restart" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
-### Membership registration improvements
+### Azure member registration
 
 This feature enables users to register as members and acquire a membership card more efficiently than when registering at the counter. As soon as a customer provides their name and phone number to the teller, an SMS is sent their way, and through it, they can access and submit a membership registration form. The membership is also dispatched to the customers via SMS. 
 
