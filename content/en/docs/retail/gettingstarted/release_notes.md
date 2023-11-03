@@ -68,11 +68,13 @@ By default the Job queue refresh is triggered automatically once a day as soon a
 
 <div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/3b3c8207-94ee-4a7a-a7d9-fd8ccfb041c9" loading="lazy" title="Synthesia video player - New Feature: Job Que Restart" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
-### Membership registration improvements
+### Azure member registration
 
 This feature enables users to register as members and acquire a membership card more efficiently than when registering at the counter. As soon as a customer provides their name and phone number to the teller, an SMS is sent their way, and through it, they can access and submit a membership registration form. The membership is also dispatched to the customers via SMS. 
 
 In addition to the first SMS, the store has the option of sending an SMS with a temporary membership card, granting access for a specified period. This gives customers the comfort of completing the form wherever and whenever they want. 
+
+For more information and operating instructions refer to the article on [Azure member registration setup]({{< ref "../../entertainment/membership/how-to/azure_member_registration/index.md" >}}).
  
 
 ## Version 24.0 (August 28th 2023)
@@ -81,7 +83,7 @@ In addition to the first SMS, the store has the option of sending an SMS with a 
 
 Total discounts have been introduced in NP Retail. They give you an option of providing a discount benefit to a customer based on the total sales amount of a POS sale, or on the total sales amount of a group of items in a POS sale.
 
-For more information, examples, and operating instructions refer to the article on [Setting up total discounts]({{< ref "../discounts/how-to/total_discount/index.md" >}}) 
+For more information, examples, and operating instructions refer to the article on [Setting up total discounts]({{< ref "../discounts/how-to/total_discount/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YDXMMCEQJNs?si=MKpu6NWNyhSFyVrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -105,7 +107,7 @@ The Getting Started wizard consists of a basic configuration checklist accompani
 
 After you’ve been acquainted with the setup, you can proceed to download and import print templates and the NP Retail setup packages and create the basic NP Retail components. 
 
-For more information and operating instructions refer to the article on the [Getting Started Wizard]({{< ref "getting_started_wizard.md" >}})
+For more information and operating instructions refer to the article on the [Getting Started Wizard]({{< ref "getting_started_wizard.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zSJ3ieGtdXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -115,7 +117,7 @@ The NP Retail Click & Collect feature has been expanded with the Prepayment feat
 
 {{< alert icon="📝" text="This feature isn’t active by default. If you wish to enable it in your environment, there are several parameters that need to be configured first." />}}
 
-For more information and operating instructions, refer to the article on [Setting up prepayment for Click & Collect]({{< ref "../click_and_collect/how-to/prepayment_bc/index.md" >}})
+For more information and operating instructions, refer to the article on [Setting up prepayment for Click & Collect]({{< ref "../click_and_collect/how-to/prepayment_bc/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XvXVOwxP2xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
