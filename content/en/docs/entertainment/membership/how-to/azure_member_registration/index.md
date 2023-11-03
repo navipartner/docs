@@ -42,3 +42,6 @@ To make this flow possible, it's necessary to perform the following setup steps 
 12. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Membership Sales Setup**, and choose the related link.    
     Here, you can select which items will be available to the specified memberships. 
 13. Click **Create Membership**, and provide the customer's **First Name** and their **Phone No.**; then click **OK**.
+14. Assign the new Azure setup profile to the membership sales setup.        
+15. Open the **Membership Notification** from the **Membership Card**, and send the SMS to the provided customer's phone number.     
+    The customer should then open the SMS, and click the link inside to complete their membership registration.
