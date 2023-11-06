@@ -17,6 +17,21 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
 
+## Version 27.0 (November 28th 2023)
+
+### Fiscalization compliance with Serbian fiscal laws
+
+As of the version 27, NP Retail will be compliant with Serbian fiscal laws.
+
+For more information and operating instructions refer to the article on [Fiscalization compliance setup - Serbia]({{< ref "../fiscalization/serbia/setup.md" >}}).
+
+### Fiscalization compliance with Croatian fiscal laws
+
+As of the version 27, NP Retail will be compliant with Croatian fiscal laws.
+
+For more information and operating instructions refer to the article on [Fiscalization compliance setup - Croatia]({{< ref "../fiscalization/croatia/setup.md" >}}).
+
+
 ## Version 26.0 (October 28th 2023)
 
 ### POS Sale Document Background posting
