@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup-c800f680c39acc466ac72845f30fe8d4"
-weight: 999
+weight: 177
 toc: true
 type: docs
 ---
@@ -22,4 +22,14 @@ This article details how to configure NP Retail for compliance with Serbian fisc
 3. Navigate to **RS Tax Fiscalisation Setup**, and enable **RS Fiscalisation**.
 4. Provide the **Configuration URL**, and click **Fill SUF Configuration** to add the official date for the API.
 5. Navigate to **POS Unit Mapping**, and create a separate record for each POS unit you have.       
-   For each POS unit you’ll need to specify the **Sandbox Token**, **Sandbox JID** and **Sandbox PIN** (This information’s you will get with registration to Tax Authority).
+   For each POS unit you need to specify the **Sandbox Token**, **Sandbox JID** and **Sandbox PIN** (this information is received once the registration with the TA is complete).
+6. Set up the payment method mappings in **POS Payment Method Mapping**, and create an entry for each payment method.       
+   The supported payment methods are:
+   - Cash
+   - Mobile Money
+   - Card
+   - Voucher
+   - Wire transfer
+   - And several thers
+
+7. Open **VAT Posting Setup Mapping**, and create an entry for each combination of the VAT product and VAT business posting groups.
