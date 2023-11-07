@@ -1,5 +1,5 @@
 ---
-title: "Fiscalization compliance - Serbia"
+title: "Set up fiscalization compliance - Serbia"
 description: "This article contains information about the Serbian fiscal laws and the necessary compliance aspects for NP Retail."
 lead: ""
 date: 2023-11-03T14:47:35+01:00
@@ -25,11 +25,12 @@ This article details how to configure NP Retail for compliance with Serbian fisc
    For each POS unit you need to specify the **Sandbox Token**, **Sandbox JID** and **Sandbox PIN** (this information is received once the registration with the TA is complete).
 6. Set up the payment method mappings in **POS Payment Method Mapping**, and create an entry for each payment method.       
    The supported payment methods are:
+
    - Cash
    - Mobile Money
    - Card
    - Voucher
    - Wire transfer
-   - And several thers
+   - And several others
 
 7. Open **VAT Posting Setup Mapping**, and create an entry for each combination of the VAT product and VAT business posting groups.
