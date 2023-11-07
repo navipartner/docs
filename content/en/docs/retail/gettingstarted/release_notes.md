@@ -31,6 +31,16 @@ As of the version 27, NP Retail will be compliant with Croatian fiscal laws.
 
 For more information and operating instructions refer to the article on [Fiscalization compliance setup - Croatia]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
+### POS editor visual improvements
+
+- A new layout **Classic 6** has been added to the [POS editor]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
+
+    ![classic6](classic6.PNG)
+
+- You can now also use the color picker to change the color of any button in the POS layout instead of having to manually paste the color hex value of your choice.
+
+   ![color_picker](color_picker.PNG)
+
 
 ## Version 26.0 (October 28th 2023)
 
