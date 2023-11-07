@@ -56,22 +56,16 @@ For more information, examples, and operating instructions refer to the article 
 
 ## Prepayment invoice posting improvements - Serbia
 
-In accordance with Serbian accounting regulations, it is required to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
+The prepayment feature has been adapted to support the requirement of the Serbian fiscal law to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
 
-With this new feature, you can only enable the **Prepayment** toggle switch when posting bank statements from the payment journal, prepayment invoices or credit memos (in their respective administrative sections in Business Central). 
-
-## Sales prepayment posting improvements - Serbia
-
-With the new release, it is possible to post and issue prepayment invoices, as well as credit memos with the final invoices to customers for businesses in Serbia. This improvement has been developed due to the Serbian accounting regulation which requires that the prepayment isn't directly posted to the customer account until the final invoice is issued.
 
 ## VAT report feature - Serbia
 
-In accordance with the Serbian VAT regulations, it is necessary to store the data on turnover, carry out necessary calculations, and report to Tax authorities how much VAT the company is required to pay for.
+In accordance with the Serbian VAT regulations, it is necessary to store the data on turnover, carry out necessary calculations, and report how much VAT the company is required to pay for to Tax Authorities.
 
 This new feature gives you the option of easily forwarding such information to the TA (Tax Authority). Each time the invoices are posted, all the accompanying information is recorded in the POPDV report as is legally required. 
 
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
-
 
 ## Version 25.0 (September 28th 2023)
 
