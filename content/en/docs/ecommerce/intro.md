@@ -18,3 +18,9 @@ type: docs
 E-commerce is a business model that allows companies to buy and sell goods and services online. The NP E-commerce solution helps our customers build a foundation for a successful omnichannel online business.
 
 Customers can also activate loyalty programs which give them rights for accumulating points both online, and in stores. 
+
+
+| Feature      | Description |
+| ----------- | ----------- |
+| [**Brands**]({{< ref "brands/how-to/create_brand/index.md" >}}) |  Brands are created and managed from the Magento Admin Panel. To create, edit or delete a new brand, refer to this documentation section.  |
+| [**Tickets**]({{< ref "tickets/how-to/ticketing_setup/index.md" >}}) | This section contains the procedure and best practices for the ticketing setup in Business Central.  |
