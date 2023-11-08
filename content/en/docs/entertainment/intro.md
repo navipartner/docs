@@ -1,6 +1,6 @@
 ---
-title: "NP Attraction product overview"
-description: "NP Attraction is all-in-one ticketing and membership management system that streamlines sales and validation of tickets and memberships."
+title: "NP Attractions product overview"
+description: "NP Attractions is all-in-one ticketing and membership management system that streamlines sales and validation of tickets and memberships."
 lead: ""
 date: 2023-07-12T15:49:53+02:00
 lastmod: 2023-07-12T15:49:53+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-NP Attraction is all-in-one ticketing and membership management system that streamlines sales and validation of [tickets]({{< ref "ticket/intro.md" >}}) and [memberships]({{< ref "membership/how-to/membership_setup/index.md" >}}).
+NP Attractions is all-in-one ticketing and membership management system that streamlines sales and validation of [tickets]({{< ref "ticket/intro.md" >}}) and [memberships]({{< ref "membership/how-to/membership_setup/index.md" >}}).
 
 You can create ticket types for all kinds of events and venues, and manage ticket sales in the Business Central database. 
 

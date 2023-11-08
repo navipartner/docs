@@ -29,31 +29,37 @@
 #   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Solutions"
+  name = "SOLUTIONS"
   weight = 1
   identifier = "solutions"
 
 [[main]]
-  name = "API docs"
+  name = "API"
   weight = 2
   identifier = "api-docs"
   url = "/docs/api/intro"
 
 [[main]]
-  name = "More"
+  name = "PARTNERS"
   weight = 3
-  identifier = "more"
+  identifier = "partner-docs"
+  url = "/docs/partner/intro"
   
+  [[main]]
+  name = "TROUBLESHOOTING"
+  weight = 3
+  identifier = "troubleshooting "
+  url = "/docs/troubleshooting/intro"
 
 [[main]]
-  name = "Retail"
+  name = "RETAIL"
   weight = 10
   identifier = "retail"
   url = "/docs/retail/gettingstarted/intro" 
   parent = "solutions"
 
 [[main]]
-  name = "Attraction "
+  name = "ATTRACTIONS"
   weight = 20
   identifier = "entertainment"
   url = "/docs/entertainment/intro"
@@ -67,46 +73,25 @@
   parent = "solutions"
 
 [[main]]
-  name = "E-commerce "
+  name = "E-COMMERCE"
   weight = 40
   identifier = "ecommerce"
   url = "/docs/ecommerce/intro"
   parent = "solutions"
 
 [[main]]
-  name = "Power BI"
+  name = "POWER BI"
   weight = 50
   identifier = "power-bi"
   url = "/docs/power_bi/intro"
   parent = "solutions"
 
 [[main]]
-  name = "Integrations"
+  name = "INTEGRATIONS"
   weight = 60
   identifier = "integrations"
   url = "/docs/integrations/intro"
   parent = "solutions"
-
-[[main]]
-  name = "Partner docs "
-  weight = 10
-  identifier = "partner-docs"
-  url = "/docs/partner/intro"
-  parent = "more"
-
-[[main]]
-  name = "Troubleshooting "
-  weight = 20
-  identifier = "troubleshooting "
-  url = "/docs/troubleshooting/intro"
-  parent = "more"
-
-[[main]]
-  name = "Old docs"
-  weight = 30
-  url = "https://support.navipartner.com/"
-  parent = "more"
-
 
 [[social]]
   name = "Linkedin"
