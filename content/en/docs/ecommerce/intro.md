@@ -24,3 +24,7 @@ Customers can also activate loyalty programs which give them rights for accumula
 | ----------- | ----------- |
 | [**Brands**]({{< ref "brands/how-to/create_brand/index.md" >}}) |  Brands are created and managed from the Magento Admin Panel. To create, edit or delete a new brand, refer to this documentation section.  |
 | [**Tickets**]({{< ref "tickets/how-to/ticketing_setup/index.md" >}}) | This section contains the procedure and best practices for the ticketing setup in Business Central.  |
+
+
+Overview of the latest web features
+

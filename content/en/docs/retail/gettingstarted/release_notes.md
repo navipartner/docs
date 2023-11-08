@@ -1,5 +1,5 @@
 ---
-title: "What's new in NP Retail"
+title: "What's new in NaviPartner"
 description: "Find out about the features published in the latest releases of the NP Retail solution."
 lead: ""
 date: 2023-04-24T11:52:06+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Learn which new features and improvements have been introduced in the newest versions of the NP Retail solution:
+Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
 ## Version 27.0 (November 28th 2023)
 
@@ -78,6 +78,13 @@ This new feature gives you the option of easily forwarding such information to t
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
 
 ## Version 25.0 (September 28th 2023)
+
+### Restaurant module improvements
+
+- Now we can set up auxiliary serving steps, which won't be treated by the system as part of general serving flow, and which can be run by a salesperson on demand. Can  for instance be used for sending drink requests to kitchen station.
+- In addition to seating code, we can now display seating no. and waiter code in the **Kitchen Requests** page.
+- You can also view kitchen requests associated with specific waiters directly on their waiter cards, improving coordination and communication within your restaurant.
+- Furthermore, there's a new POS action that allows you to display open kitchen requests directly from the POS.
 
 ### Job Queue refresh
 
