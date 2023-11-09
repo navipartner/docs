@@ -1,6 +1,6 @@
 ---
 title: "Purchase vouchers in the web store"
-description: ""
+description: "Once you've created a brand-new voucher, you can purchase it in the web store."
 lead: ""
 date: 2023-11-08T15:08:41+01:00
 lastmod: 2023-11-08T15:08:41+01:00
@@ -38,7 +38,7 @@ Once you've created a brand-new voucher, you can purchase it in the web store. T
 6. Scroll down, and click **Place Order**.    
    It may take some time for the payment to be processed and completed.
 7. Once the order has been placed, note your order number, and copy it.       
-   A confirmation email is also sent your way.
+   A confirmation email is also sent to the email address you've provided in the previous steps.
 
 
 ## Next steps

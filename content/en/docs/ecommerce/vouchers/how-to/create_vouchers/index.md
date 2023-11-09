@@ -24,7 +24,7 @@ This topic describes the process of creating a new voucher by using a Magento 2 
 - Make sure the **Gift Voucher Enabled** option in **Magento Setup** is disabled for Magento 2 projects.
 - Make sure *the external_voucher_services* exists in the **Web Services** administrative section. If not, it should be created.
 - (Optional) Test the webservice:       
-  1.	Login to your Business Central account
+  1.	Log into your Business Central account
   2.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Web Services**, and choose the related link.
   3.	Search for ”external_voucher_services”
   4.	Click the link in the **SOAP URL** tab.       
