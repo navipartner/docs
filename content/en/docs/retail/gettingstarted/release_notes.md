@@ -48,7 +48,6 @@ For more information and operating instructions refer to the article on [Fiscali
 
 Posting of POS Sales Documents is now performed in the background provided that is it enabled in the [**POS Posting Profile**]({{< ref "../pos_profiles/how-to/posting_profile/posting_profile.md" >}}).
 
-<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/b188bad5-52f6-4b10-b7fb-63f499e3e7dd" loading="lazy" title="Synthesia video player - New Feature: POS Sale Document Background posting" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
 ### POS Layout Setup Wizard
 
@@ -94,6 +93,7 @@ A backend process which automatically refreshes job queue entries provided that 
 
 By default the job queue refresh is triggered automatically once a day as soon as the first licensed user with the rights to manage the job queue logs in for the day.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-A2Iio6dEOM?si=nFgBUuyXJbXl9DaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Azure member registration
 
