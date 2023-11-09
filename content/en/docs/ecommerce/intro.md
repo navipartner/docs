@@ -29,4 +29,4 @@ The following modules are used in our E-commerce solutions:
 | ----------- | ----------- |
 | [**Brands**]({{< ref "brands/how-to/create_brand/index.md" >}}) |  Brands are created and managed from the Magento Admin Panel. To create, edit or delete a new brand, refer to this documentation section.  |
 | [**Tickets**]({{< ref "tickets/how-to/ticketing_setup/index.md" >}}) | This section contains the procedure and best practices for the ticketing setup in Business Central.  |
-| [**Vouchers**] |   |
+| [**Vouchers**]({{< ref "vouchers/how-to/create_vouchers/index.md" >}}) | Follow the provided steps to create vouchers in Business Central and Magento.  |
