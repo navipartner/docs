@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "use_voucher-14a988ecb8ad95011c3612f8e6dae7d6"
-weight: 304
+weight: 306
 toc: true
 type: docs
 ---
@@ -57,3 +57,7 @@ Once you've created a brand-new voucher, you can purchase it in the web store. T
 
 4. Click **Select** in the **NaviConnect** tab, and then **View XML**.       
    You are presented with an XML document that represents the voucher. You can see the external order number in the *<sales_order_lines>* element
+
+### Apply the voucher on your web order
+
+Once you've received a voucher, you can [apply the discount it provides]({{< ref "../apply_voucher/index.md" >}}) on your next purchase from the web store, or even get an item for free if it costs less than the amount the voucher provides.
