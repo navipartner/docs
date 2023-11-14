@@ -65,31 +65,8 @@ If you wish, you can set up the age constraint for the members in the **Membersh
 
    ![age_constraint](Images/age_constraint.PNG)
 
---------------------------------------------------
+### Membership template setup
 
-   Move to a new article v
+The templates that are applied to the customer memberships (e.g. **BRONZE**, **GOLD**, etc.) can be configured in **Membership Setup**, through the **Customer Config. Template Code** column. You can see the list of all available templates, in the **Configuration Templates** administrative section.
 
-### Membership template code setup
-
-The templates that are applied to the customer memberships (e.g. **BRONZE**, **GOLD**, etc.) can be configured in **Membership Setup**, in the **Customer Config. Template Code** column. For the list of all available templates, you can open the **Configuration Templates** administrative section.
-
-You can add new fields like **Magento Shipping Group**, **Magento Store Code**, and **Magento Display Group**. All of these options need to be created in Magento Webadmin first, and then linked to each corresponding template on this member. 
-
-Customer pricing group example
-
-If you wish to create segmentation based on the customer pricing group, you need to perform the following setup in Magento Webadmin and Business Central:
-
-1. Log into **Magento Webadmin**.
-2. Click **NaviParnter** > **User Flag Rules**.     
-   The **User Flag Rules** page is displayed.
-3. Click **Add Rule**.     
-4. Provide the **Name**, activate it, and provide **BRONZE** in the **BC Account Membership: Membership Code**.
-5. Add flags to this membership in the **Flags** section below.      
-   In this example, the flag should be **bc_pricing**, so that Business Central pricing is set for the customers who belong to the membership.
-6. Save the rule.
-7. Click **Navipartner** > **Pricing**.
-8. In the **Logged In** panel, choose **Only accounts with flag set** in the **BC Pricing Active for** field.
-9. Save this configuration.     
-    All customers with **BRONZE** membership can now see the price set in Business Central.
-
-    {{< alert icon="📝" text="Business Central pricing affects prices in POS, so if the customer sets a special price for a certain item in Business Central, this special price will be displayed on the POS."/>}}
+It's also possible to add new custom fields like **Magento Shipping Group**, **Magento Store Code**, and **Magento Display Group**. However, they need to be created in Magento Webadmin first, and then linked to each corresponding template on a member. 
