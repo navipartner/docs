@@ -25,6 +25,8 @@ Additionally, you can create, monitor, and keep track of group events, book guid
 
 All data from the ticket sales, stores, and cafés is collected and managed in Business Central. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcQqvpAnlOQ?si=7ndxFLKWf2oLWI-K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
 ## Highlighted articles
 
 - [Ticket module overview]({{< ref "ticket/intro.md" >}})
