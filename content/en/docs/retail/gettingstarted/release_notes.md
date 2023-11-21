@@ -82,7 +82,7 @@ The VAT report feature also provides an option of exporting the POPDV report tha
 
 ### Restaurant module improvements
 
-- Now we can set up auxiliary serving steps, which won't be treated by the system as part of general serving flow, and which can be run by a salesperson on demand. Can  for instance be used for sending drink requests to kitchen station.
+- Now we can set up auxiliary serving steps, which won't be treated by the system as part of general serving flow, and which can be run by a salesperson on demand. They can for instance be used for sending drink requests to kitchen station.
 - In addition to seating code, we can now display seating no. and waiter code in the **Kitchen Requests** page.
 - You can also view kitchen requests associated with specific waiters directly on their waiter cards, improving coordination and communication within your restaurant.
 - Furthermore, there's a new POS action that allows you to display open kitchen requests directly from the POS.
@@ -102,6 +102,8 @@ This feature enables users to register as members and acquire a membership card 
 In addition to the first SMS, the store has the option of sending an SMS with a temporary membership card, granting access for a specified period. This gives customers the comfort of completing the form wherever and whenever they want. 
 
 For more information and operating instructions refer to the article on [Azure member registration setup]({{< ref "../../entertainment/membership/how-to/azure_member_registration/index.md" >}}).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K3E4beZycI0?si=L9cRlryy4cbs3ajh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
 
 ## Version 24.0 (August 28th 2023)
