@@ -1,6 +1,6 @@
 ---
 title: "Set up Azure member registration"
-description: ""
+description: "This feature enables users to register as members and acquire a membership card more efficiently than when registering at the counter."
 lead: ""
 date: 2023-11-01T13:14:52+01:00
 lastmod: 2023-11-01T13:14:52+01:00

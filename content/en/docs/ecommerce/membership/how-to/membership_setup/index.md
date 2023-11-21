@@ -56,6 +56,6 @@ This article guides admins through the process of setting up memberships in e-co
 
 You can customize some of the fields that end-users can see in their **My Account** page in the web store. These fields can be adjusted in Magento Webadmin, in **NaviPartner** > **Membership** > **Account Dashboard**. 
 
-Additonally, you can configure the available information on the **My Membership**  page in the web store in **NaviPartner** > **Membership** > **My Membership view**.
+Additionally, you can configure the available information on the **My Membership**  page in the web store in **NaviPartner** > **Membership** > **My Membership view**.
 
 ![membership_information_setup](Images/membership_information_setup.PNG)
