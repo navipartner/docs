@@ -25,7 +25,7 @@ This article guides admins through the process of setting up memberships in e-co
 3. Open **Membership Settings**.    
 4. Set **Use NaviConnect Credentials** to **Yes**.
 5. Select **Yes** in **Enable Module**, found in the **General** section.     
-   With this selection, the membership itself, and the option for the end-user to sign up for the Loyalty program will be enabled. 
+   With this selection, the membership itself, and the option for the end-user to sign up for the loyalty program will be enabled. 
 6. Populate the following fields according to your business needs: 
 
 | Option Name      | Description |
@@ -49,3 +49,13 @@ This article guides admins through the process of setting up memberships in e-co
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Membership Sales Setup**, and choose the related link.
 2. In the **Magento M2 Membership Sign-up** column, select the option that represents the level of membership that the customer gets when they first sign up for the loyalty program.       
    If this option isn't checked, signing up for the loyalty program on in the web store will not be possible.
+
+## Next steps
+
+### Membership information setup
+
+You can customize some of the fields that end-users can see in their **My Account** page in the web store. These fields can be adjusted in Magento Webadmin, in **NaviPartner** > **Membership** > **Account Dashboard**. 
+
+Additonally, you can configure the available information on the **My Membership**  page in the web store in **NaviPartner** > **Membership** > **My Membership view**.
+
+![membership_information_setup](Images/membership_information_setup.PNG)
