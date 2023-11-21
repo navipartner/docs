@@ -44,3 +44,10 @@ For shops that use a device for counting the number of visitors, it is possible 
 
 Possibilities are countless, which gives us the freedom to create solutions that meet customers’ needs.
 
+## Report variant pricing
+
+The following table contains the pricing options for all available report variants: 
+
+![power_bi_variant_pricing](power_bi_variant_pricing.PNG)
+
+You can also download a more detailed pricing overview from [Prices and Packaging](prices_and_packaging.pdf).
