@@ -50,4 +50,4 @@ The following table contains the pricing options for all available report varian
 
 ![power_bi_variant_pricing](power_bi_variant_pricing.PNG)
 
-You can also download a more detailed pricing overview from [**Prices and Packaging**](prices_and_packaging.pdf).
+You can also [**download**](prices_and_packaging.pdf) a more detailed Pricing and Packaging overview.
