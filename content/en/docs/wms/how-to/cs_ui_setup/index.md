@@ -30,7 +30,7 @@ To set up CS UIs, follow the provided steps:
 | ----------- | ----------- |
 | **Code**     | Specifies the unique ID for the UI. |
 | **Description**   | Specifies the description of the UI.  |
-| [**Form Type**]({{< ref "../../explanation/cs_uis/index.md" >}})  | Specifies which UI template is used for the CS UI you're setting up. |
+| [<ins>**Form Type**<ins>]({{< ref "../../explanation/cs_uis/index.md" >}})  | Specifies which UI template is used for the CS UI you're setting up. |
 | **Handling codeunit** | Specifies the selected object which controls the actions of the UI from the back-end.  |
 | **Next UI** | Specifies the ID of the UI that will be opened after the current one. Note that the **Selection List** form type doesn't have the **Next UI** link as it gives users the option of navigating to multiple pages in no specific order. To specify which UIs users can navigate to from the selection list, you can provide the corresponding UI IDs in the **Call UI** column of the **CS UI Subform**.|
 | **Data Pattern Code** | Specifies the pattern code that this UIs will use. The data pattern code defines what will be displayed as lines and which data users need to input. This is used only with the form type **Data List Input**. |

@@ -101,6 +101,6 @@ To create new child item category, follow the same steps as above:
 
 ### References
 
-- [Microsoft documentation - How to category items in the inventory](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-categorize-items)
-- [Microsoft documentation - How to work with item attributes](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-work-item-attributes)
-- [Microsoft documentation - How to categorize items](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-categorize-items)
+- [<ins>Microsoft documentation - How to category items in the inventory<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-categorize-items)
+- [<ins>Microsoft documentation - How to work with item attributes<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-work-item-attributes)
+- [<ins>Microsoft documentation - How to categorize items<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-categorize-items)

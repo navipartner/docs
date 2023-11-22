@@ -117,7 +117,7 @@ This section contains the settings related to printing. If you wish to be able t
 | **Azure Print Container**     | Specifies the container used for printing the shipping document. |
 | **Azure Print Tested**   | Specifies whether the container has been tested.  |
 
-From the **CS Setup** you can also set up [CS users]({{< ref "../../how-to/cs_user_setup/index.md" >}}), devices, and [mobile app UI]({{< ref "../../how-to/cs_ui_setup/index.md" >}}).
+From the **CS Setup** you can also set up [<ins>CS users<ins>]({{< ref "../../how-to/cs_user_setup/index.md" >}}), devices, and [<ins>mobile app UI<ins>]({{< ref "../../how-to/cs_ui_setup/index.md" >}}).
 
   {{< alert icon="📝" text="You can also access one of the logs in <b>CS Setup</b> if you encounter unforeseen issues in the environment."/>}}
 

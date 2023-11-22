@@ -41,4 +41,4 @@ The overall implementation process consists of four major steps:
 
 ### Related links
 
-- [Manually create Data archive](../howto/create_data_archive.md)
+- [<ins>Manually create Data archive<ins>](../howto/create_data_archive.md)

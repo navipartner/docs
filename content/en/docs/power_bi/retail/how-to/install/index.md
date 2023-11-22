@@ -24,7 +24,7 @@ Take control over your operations by using the Power BI app for retail business.
 ## Procedure
 
 1. Log into your Power BI account. 
-2. Go to the [Microsoft app store](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Retail**. Click **Free trial** to run the installation wizard.    
+2. Go to the [<ins>Microsoft app store<ins>](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Retail**. Click **Free trial** to run the installation wizard.    
    
   ![power_bi_retail](power_bi_retail.png)
    

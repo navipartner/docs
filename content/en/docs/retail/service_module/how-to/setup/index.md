@@ -39,7 +39,7 @@ The service module setup is complex, and can be divided into multiple stages. Fo
 | **REPAIR_OFFER** | Email Repair Offer | 6014501 | 6014504 | Awaits approval |
 | **REPAIR_GUARANTEE** | Email Repair Guarantee | 6014503 | 6014504 | Claimed |
 
-4. To set up the SMS module, follow the [SMS setup how-to guide]({{< ref "../../../communication/how-to/sms_setup/index.md" >}}).
+4. To set up the SMS module, follow the [<ins>SMS setup how-to guide<ins>]({{< ref "../../../communication/how-to/sms_setup/index.md" >}}).
    The mails are activated based on the status on the **Customer Repair Card**. 
 
 | Code      | Description | Table No. | Filters on Table| Status Filter | Sample Message |

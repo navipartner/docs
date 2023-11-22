@@ -56,7 +56,7 @@ For instance, if you wish to display an item in the store-front, you can additio
 
 ### Auto-renewal
 
-Set up the [auto-renewal process]({{< ref "../../../../entertainment/membership/how-to/autorenewal/index.md" >}}).    
+Set up the [<ins>auto-renewal process<ins>]({{< ref "../../../../entertainment/membership/how-to/autorenewal/index.md" >}}).    
    This can be done in the **Membership Sales Setup** by adding the code of the item to which the membership will be automatically renewed in the **Auto-renew to** column.
 
 ### Age-constraint setup

@@ -21,8 +21,8 @@ To set up a new Pepper terminal which uses Lane/3000 terminals through network o
 
 ## Prerequisites
 
-- Have the [basic Pepper terminal setup package downloaded]({{< ref "../pepper_package_import/index.md" >}}).
-- Have the [Pepper terminal type 96 created]({{< ref "../new_terminal_type/index.md" >}}).
+- Have the [<ins>basic Pepper terminal setup package downloaded<ins>]({{< ref "../pepper_package_import/index.md" >}}).
+- Have the [<ins>Pepper terminal type 96 created<ins>]({{< ref "../new_terminal_type/index.md" >}}).
 
 ## Procedure
 

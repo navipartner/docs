@@ -45,7 +45,7 @@ The following fields aren't synced from Business Central. They need to be update
 - **Allow Setting Unlimited Guest Count**
 - **Company Membership**
 
-Refer to the article for [setting up memberships in Magento Webadmin and Business Central]({{< ref "how-to/membership_setup/index.md" >}}) for more information and processing instructions.
+Refer to the article for [<ins>setting up memberships in Magento Webadmin and Business Central<ins>]({{< ref "how-to/membership_setup/index.md" >}}) for more information and processing instructions.
 
 ## Membership options in Business Central
 
@@ -53,4 +53,4 @@ You can view and edit various options concerning memberships in the **Membership
 
    ![member_points](member_points.PNG)
 
-Refer to the article for [managing membership items in Business Central]({{< ref "how-to/manage_membership_items/index.md" >}}) for more information.
+Refer to the article for [<ins>managing membership items in Business Central<ins>]({{< ref "how-to/manage_membership_items/index.md" >}}) for more information.

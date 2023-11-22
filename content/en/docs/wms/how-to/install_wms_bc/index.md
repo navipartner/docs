@@ -17,7 +17,7 @@ type: docs
 
 To download and install NP WMS, follow the provided steps:
 
-1. Download the NP WMS free trial from [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipartner%7CAID.np-wms%7CPAPPID.051deebc-1c74-4d44-8e6c-e910c3855c25).       
+1. Download the NP WMS free trial from [<ins>Microsoft AppSource<ins>](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipartner%7CAID.np-wms%7CPAPPID.051deebc-1c74-4d44-8e6c-e910c3855c25).       
    To do this, it's necessary to register a Microsoft account, or log into an existing one.
 2. Select whether you wish to download a production or sandbox environment of NP WMS.
 
@@ -27,5 +27,5 @@ Once NP WMS is installed, you can proceed with other necessary setups.
 
 ## Next steps
 
-- You can [fetch preset configurations]({{< ref "../fetch_setup_data/index.md" >}}) on your environment, and in that way avoid custom setup. 
+- You can [<ins>fetch preset configurations<ins>]({{< ref "../fetch_setup_data/index.md" >}}) on your environment, and in that way avoid custom setup. 
 

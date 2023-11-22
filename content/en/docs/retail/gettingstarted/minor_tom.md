@@ -17,7 +17,7 @@ type: docs
 
 Minor Tom offers only the essential POS features necessary for working in retail. Due to its limited functionality, it is faster and intended for wider usage. Follow these steps to set up Minor Tom:
 
-1. Download Minor Tom either from the NP Retail Role Center dashboard, or from the [direct link](https://npminortom.blob.core.windows.net/prod/Setup.exe), and install it.     
+1. Download Minor Tom either from the NP Retail Role Center dashboard, or from the [<ins>direct link<ins>](https://npminortom.blob.core.windows.net/prod/Setup.exe), and install it.     
    The desktop shortcut is automatically created as soon as installation is finished.
 2. Open Minor Tom.    
    When you enter the app for the first time, you will be presented with the setup page. 

@@ -16,9 +16,9 @@ type: docs
 ---
 
 
-The trial version of the NP Retail solution is readily available on the [NaviPartner portal](https://www.navipartner.com/get-trial/), and can be tested as many times as you need. To request the free trial of the solution, follow the provided steps:
+The trial version of the NP Retail solution is readily available on the [<ins>NaviPartner portal<ins>](https://www.navipartner.com/get-trial/), and can be tested as many times as you need. To request the free trial of the solution, follow the provided steps:
 
-1. Navigate to the [NaviPartner portal](https://www.navipartner.com/get-trial/).
+1. Navigate to the [<ins>NaviPartner portal<ins>](https://www.navipartner.com/get-trial/).
 2. Provide all the necessary information, such as a name, company name, email and phone number.     
 
    {{< alert icon="💡" text="You should select the version of the trial according to the region you are in." />}}
@@ -41,6 +41,6 @@ The trial version of the NP Retail solution is readily available on the [NaviPar
 
 ## Next steps - Install Minor Tom
 
-Once you've completed the initial setup, you may be interested in [installing our desktop POS software]({{< ref "minor_tom.md" >}}).
+Once you've completed the initial setup, you may be interested in [<ins>installing our desktop POS software<ins>]({{< ref "minor_tom.md" >}}).
 
 

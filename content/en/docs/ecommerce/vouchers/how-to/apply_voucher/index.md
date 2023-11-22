@@ -18,8 +18,8 @@ Once you've received a voucher, you can use the discount it provides in the web 
 
 #### Prerequisites
 
-- Make sure you've [created a voucher]({{< ref "../create_vouchers/index.md" >}}) in Magento Webadmin, and added it to the main menu of the web store.
-- The voucher should be [purchased or gifted]({{< ref "../use_voucher/index.md" >}}) to a customer, so they can apply the discount they provide on sales.
+- Make sure you've [<ins>created a voucher<ins>]({{< ref "../create_vouchers/index.md" >}}) in Magento Webadmin, and added it to the main menu of the web store.
+- The voucher should be [<ins>purchased or gifted<ins>]({{< ref "../use_voucher/index.md" >}}) to a customer, so they can apply the discount they provide on sales.
 
 #### Procedure in the web store
 

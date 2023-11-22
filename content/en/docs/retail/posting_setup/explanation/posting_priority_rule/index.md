@@ -53,4 +53,4 @@ The following combinations are not supported by our solution:
 
 ## Examples
 
-Refer to our [POS Academy articles]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}}) on the topic for examples and common use cases.
+Refer to our [<ins>POS Academy articles<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}}) on the topic for examples and common use cases.

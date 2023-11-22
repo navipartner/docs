@@ -68,7 +68,7 @@ It is possible to:
 - change the order in which tables are imported.
 - update the **Replication Counter** field manually.
 - update the **Replication Counter** field automatically via the **Get Last Replication Counter** action. When you use this, the system makes a web request to retrieve the Last **Replication Counter** from the source database table. This should be used if the starting point of the replication needs to be changed.
-- add a **Fixed Filter** which will be added to the URL when sending the request. You can use this option if only some of the records need to be replicated and not the whole table. Example: *number gt '10003' and number lt '10008'*. [See more](https://docs.microsoft.com/en-us/dynamics-nav/using-filter-expressions-in-odata-uris).
+- add a **Fixed Filter** which will be added to the URL when sending the request. You can use this option if only some of the records need to be replicated and not the whole table. Example: *number gt '10003' and number lt '10008'*. [<ins>See more<ins>](https://docs.microsoft.com/en-us/dynamics-nav/using-filter-expressions-in-odata-uris).
 - add new endpoint configuration.
 
 ### Configure Special Field Mappings

@@ -25,7 +25,7 @@ Prior to initiating the installation process, it is imperative to ensure that yo
 ## Procedure
 
 1. Log into your Power BI account. 
-2. Go to the [Microsoft app store](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Attraction**. Click **Get it now** to get the installation pop-up window.    
+2. Go to the [<ins>Microsoft app store<ins>](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Attraction**. Click **Get it now** to get the installation pop-up window.    
 
 3.  Click **Install** and wait until the application is installed.      
     When the application is installed, it will be added to your list in the **Apps** section.      

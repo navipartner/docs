@@ -83,4 +83,4 @@ Once you’ve created a new voucher, you may want to place it in a main menu via
 
 ### Purchase the voucher
 
-To add the voucher to the cart from the web store, and perform the checkout, follow [this guide]({{< ref "../use_voucher/index.md" >}}).
+To add the voucher to the cart from the web store, and perform the checkout, follow [<ins>this guide<ins>]({{< ref "../use_voucher/index.md" >}}).

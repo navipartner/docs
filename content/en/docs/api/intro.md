@@ -26,18 +26,18 @@ The base application in the ERP system comes with a sizeable set of APIs, and NP
 
 Read the Microsoft documentation for an introduction to Business Central APIs, authorization options and tips & tricks:
 
-- [Getting started developing connect apps for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)
-- [Tips for working with the APIs](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-- [Using filters with API calls](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering)
+- [<ins>Getting started developing connect apps for Dynamics 365 Business Central<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)
+- [<ins>Tips for working with the APIs<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+- [<ins>Using filters with API calls<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering)
  
 ### Microsoft API
 
-Refer to the [technical reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/) of the base ERP APIs developed by Microsoft.  
+Refer to the [<ins>technical reference<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/) of the base ERP APIs developed by Microsoft.  
 
 
 ### NPRetail API
 
-NaviPartner APIs are grouped into various domains/modules. An OpenAPI API sandbox is maintained for each, and you can either explore them directly from your browser or import them into your favorite software that supports [OpenAPI 3](https://openapi.tools/).
+NaviPartner APIs are grouped into various domains/modules. An OpenAPI API sandbox is maintained for each, and you can either explore them directly from your browser or import them into your favorite software that supports [<ins>OpenAPI 3<ins>](https://openapi.tools/).
 
 ## SOAP API
 

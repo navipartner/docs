@@ -19,7 +19,7 @@ The MPOS editor gives users the option to set up POS actions and buttons directl
 
 #### Prerequisites
 
-- Enable the [POS Editor]({{< ref "../activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
+- Enable the [<ins>POS Editor<ins>]({{< ref "../activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
 
 #### Procedure
 

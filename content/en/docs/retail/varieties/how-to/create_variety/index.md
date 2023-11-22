@@ -21,11 +21,11 @@ NP Retail has a tool that can be used for defining the variants associated with 
 
 The variety creation is performed in several administrative sections in a specific order. To create varieties, follow the provided steps.
 
-1. Populate the fields in the **Variety Setup** administrative section by using the relevant [table]({{< ref "../../reference/variety_setup_ref.md" >}}) as reference.
+1. Populate the fields in the **Variety Setup** administrative section by using the relevant [<ins>table<ins>]({{< ref "../../reference/variety_setup_ref.md" >}}) as reference.
 2. Set up varieties for items. This is done in three layers, starting from **Variety**:
 
-   - [Variety]({{< ref "../../reference/variety_ref/index.md" >}})
-   - [Variety Table]({{< ref "../../reference/variety_table_ref/index.md" >}})
-   - [Variety Value]({{< ref "../../reference/variety_values_ref/index.md" >}})
-3. Create a [combination of varieties]({{< ref "../../reference/group_ref/index.md" >}}) that will later be assigned to items.
-4. [Assign the created variety to an item]({{< ref "../assign_variety/index.md" >}}) of your choice.
+   - [<ins>Variety<ins>]({{< ref "../../reference/variety_ref/index.md" >}})
+   - [<ins>Variety Table<ins>]({{< ref "../../reference/variety_table_ref/index.md" >}})
+   - [<ins>Variety Value<ins>]({{< ref "../../reference/variety_values_ref/index.md" >}})
+3. Create a [<ins>combination of varieties<ins>]({{< ref "../../reference/group_ref/index.md" >}}) that will later be assigned to items.
+4. [<ins>Assign the created variety to an item<ins>]({{< ref "../assign_variety/index.md" >}}) of your choice.

@@ -32,7 +32,7 @@ The transfer from one POS unit into another one is done using the **POS Payment 
   - To transfer from for example POS Store 01 to POS Payment BIN 02, you will need to set the debit account as 2915 as per the 2nd line. And to transfer from POS Store 2 to POS Payment BIN 01, you will need to set the debit account to 2910 as per the 4th line. The same type of setup will be done for transfers involving the POS Store 02 as it is using a different account.
   - However, if two POS Stores are using the same account, like POS store 01 & POS store 03, you don't need to perform any specific setup, as it will use the setup from the 1st line. It will debit & credit the same G/L account. 
 
-2. Navigate to the **POS Menus** administrative section, and create a [new POS menu button]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
+2. Navigate to the **POS Menus** administrative section, and create a [<ins>new POS menu button<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
    The **POS Action** attached to this button should be **BIN_TRANSFER**.
 4. Open the **Parameters** for the **BIN_TRANSFER** action, and select **Transfer In** in the **Transfer Direction** entry.     
    By doing so, you will be able to access the **POS Payment Bin Transfer Journal** when it is created in the back office. 

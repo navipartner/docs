@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Refer to the following table to see what each [POS menu button]({{< ref "../../how-to/new_button/index.md" >}}) setting can be used for:
+Refer to the following table to see what each [<ins>POS menu button<ins>]({{< ref "../../how-to/new_button/index.md" >}}) setting can be used for:
 
 | Field Name      | Description |
 | ----------- | ----------- |
@@ -26,7 +26,7 @@ Refer to the following table to see what each [POS menu button]({{< ref "../../h
 | **Data Source Code** | The data source field is filled automatically in certain circumstances. If a POS action acts upon a POS sales line, the code unit sets the **BUILTIN_SALELINE** automatically, and the same goes for **BUILTIN_SALE**, **BUILTIN_PAYMENTLINE**, and **BUILTIN_PAYMENT**. |
 | **Block** | This field needs to be enabled or disabled. |
 | **Background Color** | You can set the background color of the button in the POS unit. |
-| **Icon Class** | You can place small [icons](https://fontawesome.com/v6/search?o=r&m=free) on the button instead of the captions. |
+| **Icon Class** | You can place small [<ins>icons<ins>](https://fontawesome.com/v6/search?o=r&m=free) on the button instead of the captions. |
 | **Background Image URL** | You can set a picture to be displayed on the button using a URL to the picture's location. |
 | **Caption Position** | The position of the caption on the button (options – **Top**, **Center**, **Bottom**). |
 | **Custom Class Attribute** | You can customize the attribute to the button. For example, we can use multiline, so that if the caption is too long, it will be displayed in three lines instead of being truncated. |

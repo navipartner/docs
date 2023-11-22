@@ -44,11 +44,11 @@ The Operation Types are available for all integrations, although they may not be
 
 ## Set up button for ADYEN_CLOUD to verify setup and check connection in SALE-LEFT
 
-The [Adyen Cloud integration]({{< ref "../adyen/index.md" >}}) contains a function for testing the connection to the different endpoints through the POS integration. This can sometimes be used to determine the origin of potential connection issues between POS, Adyen Cloud and the Terminal.
+The [<ins>Adyen Cloud integration<ins>]({{< ref "../adyen/index.md" >}}) contains a function for testing the connection to the different endpoints through the POS integration. This can sometimes be used to determine the origin of potential connection issues between POS, Adyen Cloud and the Terminal.
 
 ### Prerequisites
 
-- Have an **EFT Setup** with the **T** payment type which uses the [**ADYEN_CLOUD EFT**]({{< ref "../adyen/index.md" >}}) integration type. 
+- Have an **EFT Setup** with the **T** payment type which uses the [<ins>**ADYEN_CLOUD EFT**<ins>]({{< ref "../adyen/index.md" >}}) integration type. 
 
 ### Procedure
 

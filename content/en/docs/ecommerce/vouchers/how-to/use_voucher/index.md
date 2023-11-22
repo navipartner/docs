@@ -19,7 +19,7 @@ Once you've created a brand-new voucher, you can purchase it in the web store. T
 
 #### Prerequisites
 
-- [Create a new voucher]({{< ref "../create_vouchers/index.md" >}}), and place it in the main menu of the web store.
+- [<ins>Create a new voucher<ins>]({{< ref "../create_vouchers/index.md" >}}), and place it in the main menu of the web store.
 
 #### Procedure in the web store
 
@@ -60,4 +60,4 @@ Once you've created a brand-new voucher, you can purchase it in the web store. T
 
 ### Apply the voucher on your web order
 
-Once you've received a voucher, you can [apply the discount it provides]({{< ref "../apply_voucher/index.md" >}}) on your next purchase from the web store, or even get an item for free if it costs less than the amount the voucher provides.
+Once you've received a voucher, you can [<ins>apply the discount it provides<ins>]({{< ref "../apply_voucher/index.md" >}}) on your next purchase from the web store, or even get an item for free if it costs less than the amount the voucher provides.

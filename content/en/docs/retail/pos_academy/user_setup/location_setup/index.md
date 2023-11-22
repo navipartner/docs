@@ -19,4 +19,4 @@ Locations are places such as warehouses where you can buy, store, or sell items.
 
 If you’re tracking stock in different stores in NP Retail, you need to assign the location to the **POS Store** on the **POS Store Card**. On that location, you can carry out the processes of sale and replenishment.  
 
-Refer to the [Learning Material of Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-setup-locations) to learn how to set locations. 
+Refer to the [<ins>Learning Material of Business Central<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-setup-locations) to learn how to set locations. 

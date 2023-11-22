@@ -30,7 +30,7 @@ The **Antenna** section is used for setting up the process of importing RFID doc
 
 ## Joined Tags
 
-The **Joined Tags** administrative section is used for storing the RFID tags joined in the [NP RFID]({{< ref "../rfid_features/index.md" >}}) app. 
+The **Joined Tags** administrative section is used for storing the RFID tags joined in the [<ins>NP RFID<ins>]({{< ref "../rfid_features/index.md" >}}) app. 
 
 ## EPC Data List
 

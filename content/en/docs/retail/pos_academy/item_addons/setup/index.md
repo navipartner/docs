@@ -15,13 +15,13 @@ toc: true
 type: docs
 ---
 
-This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the [further parts of this guide]({{< ref "../custom_configurations/index.md" >}}). Follow the provided instructions to create item add-ons:
+This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the [<ins>further parts of this guide<ins>]({{< ref "../custom_configurations/index.md" >}}). Follow the provided instructions to create item add-ons:
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Item AddOns**, and choose the related link.    
     A list of all existing item add-ons is displayed.
 2.	Click **New** to create a new add-on.    
     The **Item AddOn Card** is displayed.
-3.	Populate the necessary fields in the **General** and **Lines** sections, described in this [reference article]({{< ref "../../../pos_processes/reference/item_addon_ref/index.md" >}}) in more detail.
+3.	Populate the necessary fields in the **General** and **Lines** sections, described in this [<ins>reference article<ins>]({{< ref "../../../pos_processes/reference/item_addon_ref/index.md" >}}) in more detail.
     Now you can either attach the item add-on to the main item, or create the POS button for the standalone item add-on menu to be used on the POS.
 
 ## Attach item add-ons to the main item

@@ -54,5 +54,5 @@ If you want to set up an order confirmation PDF that is automatically created an
 3. Provide the report ID 6060150 if the order confirmation is sent to a customer, or report ID 6060151  if it is sent to an internal team.      
 4. Select the **Word Layout** and give it a fitting description.     
    You can now export it, set it up in Word, and import it again.
-5. Navigate back to the event template, and set [Report Layouts]({{< ref "word_layout/index.md" >}}) to use the report you've just created.     
+5. Navigate back to the event template, and set [<ins>Report Layouts<ins>]({{< ref "word_layout/index.md" >}}) to use the report you've just created.     
    Multiple event templates can use the same report layout.

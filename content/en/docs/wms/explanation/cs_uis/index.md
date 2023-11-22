@@ -15,9 +15,9 @@ toc: true
 type: docs
 ---
 
-The Capture Service user interfaces (CS UI) are used for defining the look and feel of WMS mobile device app. You can see the list of all available CS UIs in the **CS UIs** administrative section. You can view and edit the existing CS UIs or [create new ones](../howto/set-up-cs-uis.md). 
+The Capture Service user interfaces (CS UI) are used for defining the look and feel of WMS mobile device app. You can see the list of all available CS UIs in the **CS UIs** administrative section. You can view and edit the existing CS UIs or [<ins>create new ones<ins>](../howto/set-up-cs-uis.md). 
 
-To see the current UI layout and hierarchy of UIs in the mobile app, navigate to the [**CS UI Structure**]({{< ref "../cs_ui_structure/index.md" >}}) administrative section. You can add or remove some segments from the current app layout if needed. 
+To see the current UI layout and hierarchy of UIs in the mobile app, navigate to the [<ins>**CS UI Structure**<ins>]({{< ref "../cs_ui_structure/index.md" >}}) administrative section. You can add or remove some segments from the current app layout if needed. 
 
 {{< alert icon="📝" text="For the mobile app to work correctly, it's necessary to define the <b>Start UI</b>, which is the first screen that the user sees when opening the mobile app. By default, this is the login screen. You can pick the start UI either from the <b>CS UI Structure</b>, or an individual <b>CS UI</b> card."/>}}
 

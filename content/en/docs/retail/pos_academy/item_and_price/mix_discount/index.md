@@ -40,7 +40,7 @@ To set up mix discounts, follow the provided steps:
 | **Min. Quantity** | Minimum quantity of items that the customer needs purchase for the discount to be applied. | **3** |
 | **Max Quantity** | The maximum quantity of items that the customer can purchase with the discount applied. | **6** | 
 | **Status** | After all the necessary data for the mix discount is inserted, the status of the mix discount needs to be changed to **Active**. If it is necessary to disable the mix discount, the status must be changed to **Closed**.  | **Active** |
-| **Discount Type** | There are [five discount types]({{< ref "../../../discounts/explanation/discount_types/index.md" >}}) that can be chosen on the **Mixed Discount Card**. | **Total Amount per Min. Qty.** (The discount is reached every time the minimum quantity is reached) |
+| **Discount Type** | There are [<ins>five discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}}) that can be chosen on the **Mixed Discount Card**. | **Total Amount per Min. Qty.** (The discount is reached every time the minimum quantity is reached) |
 | **Min. Discount Amount** | The minimum discount amount which will be calculated and given to the customer upon buying the minimum quantity allowed. | **0.00** |
 | **Max. Discount Amount** | The maximum discount amount which will be calculated and given to the customer upon buying the maximum quantity allowed. | **50.00** |
 | **Block Custom Discount** | If enabled, the custom discounts will be blocked for items from the **Mix Discount Lines**.  | **Enabled** (The salesperson can’t input manual discounts) |

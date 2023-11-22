@@ -45,5 +45,5 @@ This topic goes through the process of creating new customers from the POS.
 
 ## Create customers and customer templates in Business Central 
 
-To create customers in Business Central and apply customer templates, refer to the procedure on the [official Microsoft learning portal](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-register-new-customers).  
+To create customers in Business Central and apply customer templates, refer to the procedure on the [<ins>official Microsoft learning portal<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-register-new-customers).  
 

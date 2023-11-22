@@ -38,4 +38,4 @@ A fee of the tax refund amount is taken in return for the service provided by th
 
 ## Troubleshooting 
 
-[Tax-free troubleshooting]({{< ref "../../troubleshooting/tax_free.md" >}})
+[<ins>Tax-free troubleshooting<ins>]({{< ref "../../troubleshooting/tax_free.md" >}})

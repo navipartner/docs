@@ -30,7 +30,7 @@ This article guides admins through the process of setting up memberships in e-co
 
 | Option Name      | Description |
 | ----------- | ----------- | 
-| **Enable explicit quick opt-in** | - **Yes** - end-users can opt-in on the loyalty program during the registration, as demonstrated in the [membership creation]({{< ref "../new_member/index.md" >}}) article. </br> - **No** - the membership is automatically quick-created in Business Central. |
+| **Enable explicit quick opt-in** | - **Yes** - end-users can opt-in on the loyalty program during the registration, as demonstrated in the [<ins>membership creation<ins>]({{< ref "../new_member/index.md" >}}) article. </br> - **No** - the membership is automatically quick-created in Business Central. |
 | **Opt-in Membership Item No** | Specifies the item number set in Business Central to "purchase" the membership associated with the quick opt-in – e.g when the customer checks loyalty program on store-front, this membership will be the one provided to them. |
 | **Opt-in Membership Code** | Specifies the code that declares what kind of membership the end-user is opting in for. |  
 | **Show "View Terms" link** | if set to **Yes**, the **View Terms** link will be displayed next to the opt-in option on account creation/checkout. |

@@ -17,7 +17,7 @@ type: docs
 
 Assigning and customizing a base calendar is a simple approach to making exceptions in regards to a time when a time-slot should be closed rather than open.
 
-These exceptions can be applied to [various ticketing entities]({{< ref "../../explanation/base_calendar/index.md" >}}).
+These exceptions can be applied to [<ins>various ticketing entities<ins>]({{< ref "../../explanation/base_calendar/index.md" >}}).
 
 To create and customize the base calendar for an admission, follow the provided steps:
 

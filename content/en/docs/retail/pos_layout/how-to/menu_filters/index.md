@@ -40,4 +40,4 @@ To create POS menu filters, follow the provided steps:
 11. Set your caption for the button. Make sure that the selected **Action Type** is **Action** and that the POS action to run is set to **RUNOBJECT**. 
 12. In the **MenuFilterCode** field on the POS parameter, you need to set the **POS Menus Filter** you've created. 
 
-If you're having difficulty writing down a filter on any table in the SQL statement, you can always use the **POS Menu Filters** function to generate it, and then paste it on the POS action you're using, such as [LOOKUP]({{< ref "../../reference/sql_pos_action/index.md" >}})
+If you're having difficulty writing down a filter on any table in the SQL statement, you can always use the **POS Menu Filters** function to generate it, and then paste it on the POS action you're using, such as [<ins>LOOKUP<ins>]({{< ref "../../reference/sql_pos_action/index.md" >}})

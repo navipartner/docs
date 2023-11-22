@@ -17,7 +17,7 @@ type: docs
 
 As soon as you have at least one POS unit in the system, you can use configurations and data within as a source of information for creating a new one with ease. 
 
-Each [POS store]({{< ref "../../../pos_store/intro.md" >}}) can contain multiple POS units. Most of the time, these units have an almost identical setup, the difference being their number, (since they have to be unique) and [payment bin]({{< ref "../payment_bins/index.md" >}}) (virtual representation of a cash register, or a safe). To create a new POS unit, follow the provided steps:
+Each [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) can contain multiple POS units. Most of the time, these units have an almost identical setup, the difference being their number, (since they have to be unique) and [<ins>payment bin<ins>]({{< ref "../payment_bins/index.md" >}}) (virtual representation of a cash register, or a safe). To create a new POS unit, follow the provided steps:
 
 ## Prerequisites
 
@@ -36,10 +36,10 @@ Each [POS store]({{< ref "../../../pos_store/intro.md" >}}) can contain multiple
     {{< alert icon="💡" text="Make sure that the value in the <b>No.</b> field is different than the one used for the first POS unit."/>}}
 
 5. Open the **Default POS Payment Bin** dropdown list, and then **Select from full list**.       
-   If there are no payment bins available, [create a new one]({{< ref "../payment_bins/index.md" >}})
+   If there are no payment bins available, [<ins>create a new one<ins>]({{< ref "../payment_bins/index.md" >}})
 6. Click **New** or **Edit List**, and add an entry for the new payment bin.    
    Make sure it has the same **POS Store Code** as the other payment bins used with that POS unit.  
-7. (Optional) Refer to the [relevant articles]({{< ref "../../../pos_profiles/intro.md" >}}) for configuring **Profiles**, if you wish them to be different than the ones defined in the former POS unit.
+7. (Optional) Refer to the [<ins>relevant articles<ins>]({{< ref "../../../pos_profiles/intro.md" >}}) for configuring **Profiles**, if you wish them to be different than the ones defined in the former POS unit.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LLJWAW0QFOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -54,5 +54,5 @@ After you create a POS unit, you need to link it to the POS user's ID before it 
 2. In the **User Setup** screen, fill out all necessary fields.  
    Make sure you've added the number of the newly-created POS unit in the **POS Unit No.** field.
 
-The new POS unit is created, attached to the [POS store]({{< ref "../../../pos_store/how-to/new/index.md" >}}), and ready to be used.
+The new POS unit is created, attached to the [<ins>POS store<ins>]({{< ref "../../../pos_store/how-to/new/index.md" >}}), and ready to be used.
 

@@ -14,7 +14,7 @@ weight: 264
 toc: true
 type: docs
 ---
-A **Dynamic Ticket** is a ticket which has flexible admission setup. It can have more than one admission in [**Ticket BOM**]({{< ref "../../reference/ticket_bom_ref/index.md" >}}).
+A **Dynamic Ticket** is a ticket which has flexible admission setup. It can have more than one admission in [<ins>**Ticket BOM**<ins>]({{< ref "../../reference/ticket_bom_ref/index.md" >}}).
 
 **Admission Inclusion** determines whether the admission is required or optional. When selling the ticket, optional admissions can be included. Those admissions can have their own price and sales line, depending on the **Additional Experience Item No.** on the **Ticket Admission**.
 

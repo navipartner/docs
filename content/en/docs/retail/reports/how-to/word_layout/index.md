@@ -26,7 +26,7 @@ To set up report layouts in Business Central, follow the provided steps:
    The list of all custom layouts that are created for this report is displayed.     
 4. Select the layout you want to modify, click **Layout** in the ribbon, followed by **Export Layout**.    
    As a result, a Word file is downloaded to your PC.
-5. Open the downloaded file, and [enable the **Developer** tab](https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792) in Word.
+5. Open the downloaded file, and [<ins>enable the **Developer** tab<ins>](https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792) in Word.
 6. Navigate to the **Developer** tab, and select the **XML Mapping Pane** option.      
    XML Mapping is displayed on the right side of the Word window as a result. 
 7. In the **Custom XML Part**, select the report you want to customize.     

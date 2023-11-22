@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-You can create a [sales price]({{< ref "../../../pos_processes/explanation/pricing/index.md" >}}) for a specific group of customers. Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers. These configurations can be performed in the **Sales Price List** page.
+You can create a [<ins>sales price<ins>]({{< ref "../../../pos_processes/explanation/pricing/index.md" >}}) for a specific group of customers. Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers. These configurations can be performed in the **Sales Price List** page.
 
 {{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the Item card. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}
 
@@ -67,4 +67,4 @@ Both pricing and discount setup can be performed in one page instead of having t
 
 ### Set up price worksheet
 
-If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a Default Price List in the [Price Worksheet]({{< ref "../../../pos_processes/how-to/price_worksheet_setup/index.md" >}}) administrative section. 
+If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a Default Price List in the [<ins>Price Worksheet<ins>]({{< ref "../../../pos_processes/how-to/price_worksheet_setup/index.md" >}}) administrative section. 

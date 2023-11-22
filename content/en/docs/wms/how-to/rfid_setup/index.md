@@ -37,7 +37,7 @@ To set up the RFID functionalities, follow the provided steps:
 
     After the following numbers are specified, they are used to build a visual representation of the RFID which can then be printed. 
 
-2. Next up, you need to [set up **CS RFID Tag Models**]({{< ref "../create_rfid_tag/index.md" >}}).    
+2. Next up, you need to [<ins>set up **CS RFID Tag Models**<ins>]({{< ref "../create_rfid_tag/index.md" >}}).    
    In this section you can specify the alphanumerical values used for distinguishing between items belonging to different stocks. All items that don't belong to product families and models specified in this section can still be scanned with the RFID scanner, but will not be recognized as parts of the relevant stock.
 
   {{< alert icon="📝" text="RFID is used in stores. Stores are divided into the shop floor and a small storage space at the back. The counting is performed in the display area first (shop floor), and then in the back. The sum of the two is considered to be the full stock, which is compared to what is recorded in Business Central. When comparison is finished, changes can be applied in Business Central. This concludes the daily RFID counting process."/>}}
@@ -51,4 +51,4 @@ To set up the RFID functionalities, follow the provided steps:
 
 ## Next steps
 
-- [Perform shop and stock count in NP RFID](stock_count_rfid.md)
+- [<ins>Perform shop and stock count in NP RFID<ins>](stock_count_rfid.md)

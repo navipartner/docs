@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-NP Attractions is all-in-one ticketing and membership management system that streamlines sales and validation of [tickets]({{< ref "ticket/intro.md" >}}) and [memberships]({{< ref "membership/how-to/membership_setup/index.md" >}}).
+NP Attractions is all-in-one ticketing and membership management system that streamlines sales and validation of [<ins>tickets<ins>]({{< ref "ticket/intro.md" >}}) and [<ins>memberships<ins>]({{< ref "membership/how-to/membership_setup/index.md" >}}).
 
 You can create ticket types for all kinds of events and venues, and manage ticket sales in the Business Central database. 
 
@@ -29,11 +29,11 @@ All data from the ticket sales, stores, and cafés is collected and managed in B
 
 ## Highlighted articles
 
-- [Ticket module overview]({{< ref "ticket/intro.md" >}})
-- [Create prepaid tickets]({{< ref "ticket/how-to/create_prepaid/index.md" >}})
-- [Create postpaid tickets]({{< ref "ticket/how-to/create_postpaid/index.md" >}})
-- [Create a dynamic ticket]({{< ref "ticket/how-to/create_dynamic_ticket/index.md" >}})
-- [Set up the auto-renewal process]({{< ref "membership/how-to/autorenewal/index.md" >}})
-- [Loyalty overview]({{< ref "loyalty/intro.md" >}})
-- [Set up the loyalty program]({{< ref "loyalty/how-to/setup/index.md" >}})
-- [Restaurant overview]({{< ref "restaurant/intro.md" >}})
+- [<ins>Ticket module overview<ins>]({{< ref "ticket/intro.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "ticket/how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "ticket/how-to/create_postpaid/index.md" >}})
+- [<ins>Create a dynamic ticket<ins>]({{< ref "ticket/how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up the auto-renewal process<ins>]({{< ref "membership/how-to/autorenewal/index.md" >}})
+- [<ins>Loyalty overview<ins>]({{< ref "loyalty/intro.md" >}})
+- [<ins>Set up the loyalty program<ins>]({{< ref "loyalty/how-to/setup/index.md" >}})
+- [<ins>Restaurant overview<ins>]({{< ref "restaurant/intro.md" >}})
