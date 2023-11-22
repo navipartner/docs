@@ -24,9 +24,9 @@ The NP RFID app is used for optimizing the inventory management across different
 
 ## Prerequisites for using the NP RFID features
 
-- Download and install the [WMS extension for Business Central]({{< ref "../install_wms_bc/index.md" >}}).
-- Download and install the [NP RFID app]({{< ref "../install_apps/index.md" >}}) on a mobile device, and perform the necessary authentication with [the QR code scan]({{< ref "../create_qr/index.md" >}}).
-- Perform the [initial setup for the RFID functionalities]({{< ref "../rfid_setup/index.md" >}}). 
+- Download and install the [<ins>WMS extension for Business Central<ins>]({{< ref "../install_wms_bc/index.md" >}}).
+- Download and install the [<ins>NP RFID app<ins>]({{< ref "../install_apps/index.md" >}}) on a mobile device, and perform the necessary authentication with [<ins>the QR code scan<ins>]({{< ref "../create_qr/index.md" >}}).
+- Perform the [<ins>initial setup for the RFID functionalities<ins>]({{< ref "../rfid_setup/index.md" >}}). 
 
 ## Counting - common steps
 
@@ -97,7 +97,7 @@ Whenever shop or stock count is performed, certain actions need to be taken in B
    ![stock_takes_list_card](stock_takes_list_card.PNG)
 
 - In the **Refill** section you can specify which items you're going to move from the stockroom to the sales floor.
-- Any changes in the stock that have been located while counting need to be posted in the [**Physical Inventory Journal**](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-count-adjust-reclassify). Once the stock count is finished, it will be closed, and the **Journal Posted** checkbox will be ticked.
+- Any changes in the stock that have been located while counting need to be posted in the [<ins>**Physical Inventory Journal**<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-count-adjust-reclassify). Once the stock count is finished, it will be closed, and the **Journal Posted** checkbox will be ticked.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jLBRKOKg0Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -23,6 +23,6 @@ Before performing these transfers, you need to set up the rules that will govern
 
 After you're done with the initial set up, you can perform one of the available transfer types:
 
-- [Transfer cash from a safe to a POS unit]({{< ref "../../how-to/transfer_cash_from_safe/index.md" >}})
-- [Transfer cash from a POS unit to a safe]({{< ref "../../how-to/transfer_cash_from_pos/index.md" >}})
-- [Transfer cash from one POS unit to another]({{< ref "../../how-to/transfer_cash_between_pos_units/index.md" >}})
+- [<ins>Transfer cash from a safe to a POS unit<ins>]({{< ref "../../how-to/transfer_cash_from_safe/index.md" >}})
+- [<ins>Transfer cash from a POS unit to a safe<ins>]({{< ref "../../how-to/transfer_cash_from_pos/index.md" >}})
+- [<ins>Transfer cash from one POS unit to another<ins>]({{< ref "../../how-to/transfer_cash_between_pos_units/index.md" >}})

@@ -23,6 +23,6 @@ After the POS store and POS units are created, the correlation between them need
 
 ![pos_store_pos_unit](POS%20store%20vs%20pos%20unit.png)
 
-POS stores can also have different accounts for postings of payments which can be regulated in the [POS posting setup]({{< ref "../posting_setup/explanation/pos_posting_setup/index.md" >}})
+POS stores can also have different accounts for postings of payments which can be regulated in the [<ins>POS posting setup<ins>]({{< ref "../posting_setup/explanation/pos_posting_setup/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AktQ3262OJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -21,7 +21,7 @@ To set up the Adyen payment integration in NP Retail, make sure the prerequisite
 
 - Create an API key for Adyen.     
      To allow Business Central to interact with Adyen's API it requires a set of access credentials. The integration uses basic authentication
-    and therefore requires a **username** and a **password**. Please follow Adyen's documentation on how to [generate a basic authentication password](https://docs.adyen.com/development-resources/api-credentials#basic-authentication).
+    and therefore requires a **username** and a **password**. Please follow Adyen's documentation on how to [<ins>generate a basic authentication password<ins>](https://docs.adyen.com/development-resources/api-credentials#basic-authentication).
 
     {{< alert icon="❗" text="Ensure that the webservice user is enabled and has the both the <b>Merchant PAL webservice</b> role and the <b>Checkout webservice</b> role enabled."/>}}
 
@@ -42,6 +42,6 @@ To set up the Adyen payment integration in NP Retail, make sure the prerequisite
     - **Merchant Name** - The name of your merchant with Adyen.
     - **Environment** - You can choose either  the **Test** or the **Production** environment.   
     - **API URL Prefix** - The URL prefix for your live Adyen account.     
-        Follow [the guide on finding the endpoint URL for the live account](https://help.adyen.com/knowledge/ecommerce-integrations/integrations-basics/how-can-i-find-the-endpoint-url-for-my-live-account) to find this value. This configuration is only required if **Environment** is set to **Production**.
+        Follow [<ins>the guide on finding the endpoint URL for the live account<ins>](https://help.adyen.com/knowledge/ecommerce-integrations/integrations-basics/how-can-i-find-the-endpoint-url-for-my-live-account) to find this value. This configuration is only required if **Environment** is set to **Production**.
     - **API Username** - The **username** obtained during the API credential generation.
     - **API Password** - The **password** obtained during the API credential generation.

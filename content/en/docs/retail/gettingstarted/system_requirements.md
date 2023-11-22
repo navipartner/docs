@@ -99,7 +99,7 @@ All payment terminals can be used as stand-alone solutions. For integrated solut
 
 **Adyen**
 
-- All terminals that support the [Adyen Cloud Integration](https://www.adyen.com/pos-payments/terminals) (Android 4.4 or newer, iOS 11 or newer, and Windows 10).
+- All terminals that support the [<ins>Adyen Cloud Integration<ins>](https://www.adyen.com/pos-payments/terminals) (Android 4.4 or newer, iOS 11 or newer, and Windows 10).
 
 **Nets**
 

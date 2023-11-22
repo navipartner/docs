@@ -20,12 +20,12 @@ Payment Gateways play an integral role in the integration with webshops, when yo
 
 NP Retail comes with a module to handle the payments done on web orders. The out-of-the-box NP Retail has integrations with the following Payment Service Providers:
 
-- [Adyen](https://www.adyen.com/our-solution/online-payments)
-- [Bambora](https://www.bambora.com/online/)
+- [<ins>Adyen<ins>](https://www.adyen.com/our-solution/online-payments)
+- [<ins>Bambora<ins>](https://www.bambora.com/online/)
 - Dibs
 - Netaxept
-- [Nets Easy](https://www.nets.eu/payments/online)
-- [QuickPay](https://quickpay.net)
+- [<ins>Nets Easy<ins>](https://www.nets.eu/payments/online)
+- [<ins>QuickPay<ins>](https://quickpay.net)
 
 The module enables you to use a combination of Payment Service Providers for capturing, refunding, and cancelling transactions based on operations performed in Business Central.
 
@@ -37,9 +37,9 @@ The module enables you to use a combination of Payment Service Providers for cap
 
 ## Payment Gateway setup in NP Retail
 
-- [Set up Bambora payment integration]({{< ref "../../how-to/bambora/index.md" >}}) 
-- [Set up Quickpay integration]({{< ref "../../how-to/quickpay/index.md" >}}) 
-- [Set up Nets Easy integration]({{< ref "../../how-to/netseasy/index.md" >}}) 
-- [Set up Adyen integration]({{< ref "../../how-to/adyen/index.md" >}}) 
+- [<ins>Set up Bambora payment integration<ins>]({{< ref "../../how-to/bambora/index.md" >}}) 
+- [<ins>Set up Quickpay integration<ins>]({{< ref "../../how-to/quickpay/index.md" >}}) 
+- [<ins>Set up Nets Easy integration<ins>]({{< ref "../../how-to/netseasy/index.md" >}}) 
+- [<ins>Set up Adyen integration<ins>]({{< ref "../../how-to/adyen/index.md" >}}) 
 
 

@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The Pepper terminal integration can be used for a wide variety of terminals. There are different ways to connect the terminals, so most setups are a variation of the one provided in further text. For more information on the terminals supported in the integration, refer to the [Treibauf Pepper Library](https://www.treibauf.ch/en/terminal-type-search/) check list.
+The Pepper terminal integration can be used for a wide variety of terminals. There are different ways to connect the terminals, so most setups are a variation of the one provided in further text. For more information on the terminals supported in the integration, refer to the [<ins>Treibauf Pepper Library<ins>](https://www.treibauf.ch/en/terminal-type-search/) check list.
 
 The setup process for Pepper requires configuring many parameters which are almost always identical, which means you can download a standard package that includes a basic setup that is nearly ready to test a Pepper terminal.
 

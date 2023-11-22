@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-After the sale is finalized, the POS entry is created. This entry has **Post item entry status** and **Post Entry Status - UNPOSTED**. The entry can be [posted manually]({{< ref "../manually_post_pos_entries/index.md" >}}), but it is more common to create jobs in **Job Queue Entry**, which will post the entry. To set up this flow, follow the provided steps:
+After the sale is finalized, the POS entry is created. This entry has **Post item entry status** and **Post Entry Status - UNPOSTED**. The entry can be [<ins>posted manually<ins>]({{< ref "../manually_post_pos_entries/index.md" >}}), but it is more common to create jobs in **Job Queue Entry**, which will post the entry. To set up this flow, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Job Queue Entries**, and choose the related link.     
 

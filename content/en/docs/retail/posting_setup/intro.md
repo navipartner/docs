@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Posting groups are a [core Business Central feature](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
+Posting groups are a [<ins>core Business Central feature<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
 
 General posting groups specify who you sell to and buy from, as well as what you sell and buy. It is also possible to combine groups to get more specific reports of transactions. The following general posting groups are available: 
 
@@ -37,7 +37,7 @@ There are also specific posting groups, that are distinguished by the types of d
 
 ## POS Posting Setup - NP Retail
 
-In addition to the above, NP Retail uses [**POS Posting Setup**]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to their related General Ledger Account. 
+In addition to the above, NP Retail uses [<ins>**POS Posting Setup**<ins>]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to their related General Ledger Account. 
 
 In a typical sale performed on a POS unit, the following posting setups are employed:
 

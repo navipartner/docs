@@ -20,13 +20,13 @@ To set up the Bambora payment integration in NP Retail, make sure the prerequisi
 
 - Get a Bambora merchant.     
     Before you can get the required information to integrate Business Central and Bambora,
-    you need to have a [merchant account created with Bambora](https://developer.bambora.com/europe/checkout/getting-started/create-account).
+    you need to have a [<ins>merchant account created with Bambora<ins>](https://developer.bambora.com/europe/checkout/getting-started/create-account).
 
 - Acquire the API key information.     
-    Business Central uses the [Bambora Transaction API](https://developer.bambora.com/europe/checkout/api-reference/transaction)
+    Business Central uses the [<ins>Bambora Transaction API<ins>](https://developer.bambora.com/europe/checkout/api-reference/transaction)
     to interact with Bambora. Access to the API is required to capture, refund, or cancel a transaction from Business Central.
 
-    Follow [Bambora's guide](https://developer.bambora.com/europe/checkout/getting-started/access-api#get-access-to-the-api) to get the access credentials.
+    Follow [<ins>Bambora's guide<ins>](https://developer.bambora.com/europe/checkout/getting-started/access-api#get-access-to-the-api) to get the access credentials.
     Business Central needs the following information: **Access token**, **Merchant ID**, and **Secret token**.
 
     {{< alert icon="📝" text="NaviPartner advises that you give the key an appropriate name, for example 'Business Central'. In that way, you can differentiate the keys more easily afterwards."/>}}

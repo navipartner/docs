@@ -32,9 +32,9 @@ You need to do the following if you wish to use the emails setup features succes
 
 Refer to Business Central documentation on Email setup for more information:
 
-- [Set up Email](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email)
-- [Send Documents and Emails](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-send-documents-email)
-- [Define Document Layouts for Customers and Vendors](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-customer-vendor-document-layouts)
-- [Report and Document Layouts Overview](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts)
-- [Working with RDLC Layouts](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-rdlc-report-layouts)
-- [(Legacy) Create and Modify Custom Report Layouts](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-create-custom-report-layout)
+- [<ins>Set up Email<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email)
+- [<ins>Send Documents and Emails<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-send-documents-email)
+- [<ins>Define Document Layouts for Customers and Vendors<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-customer-vendor-document-layouts)
+- [<ins>Report and Document Layouts Overview<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts)
+- [<ins>Working with RDLC Layouts<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-rdlc-report-layouts)
+- [<ins>(Legacy) Create and Modify Custom Report Layouts<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-create-custom-report-layout)

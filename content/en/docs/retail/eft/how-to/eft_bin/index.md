@@ -34,4 +34,4 @@ To find the relevant information for the EFT Mapping Group in a previous Sales T
 
 ## Next steps
 
-As soon as you've completed the EFT BIN mapping, you can move on to [setting up a new EFT BIN group]({{< ref "../bin_group/index.md" >}}).
+As soon as you've completed the EFT BIN mapping, you can move on to [<ins>setting up a new EFT BIN group<ins>]({{< ref "../bin_group/index.md" >}}).

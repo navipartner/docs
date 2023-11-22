@@ -54,7 +54,7 @@ To create an **External Retail Voucher** follow the provided steps:
 | **No. Series** | This no series is required by system, but it isn’t used for this voucher type. | **NPR-EXTERN** |
 | **Arch. Coupon Qty** | This number series is required by system when archiving the voucher. | **NPR-EXTARC** |
 
-    The other fielsds in this section are left blank as they are not used in this voucher type.
+  The other fields in this section are left blank as they are not used in this voucher type.
 
 5.	Skip the **Setup Voucher** section as the fields in it aren’t related to the GS1.
 

@@ -19,7 +19,7 @@ Having completed the necessary configurations for the process, you now need to r
 
 ## Prerequisites
 
-- Set up **Reimbursement Modules**, [**Reimbursement Templates**]({{< ref "../template_setup/index.md" >}}), [**Reimbursement Party Types**]({{< ref "../party_types/index.md" >}}), and [**Reimbursement Parties**]({{< ref "../parties/index.md" >}}).
+- Set up **Reimbursement Modules**, [<ins>**Reimbursement Templates**<ins>]({{< ref "../template_setup/index.md" >}}), [<ins>**Reimbursement Party Types**<ins>]({{< ref "../party_types/index.md" >}}), and [<ins>**Reimbursement Parties**<ins>]({{< ref "../parties/index.md" >}}).
 
 ## Procedure
 

@@ -29,8 +29,8 @@ The **SHIP** section is used for recording the shipping and receiving operations
 
 A prerequisite for recording these processes is to create the accompanying documents in Business Central:
 
-- [sales orders](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-sell-products)
-- [transfer orders](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-transfer-between-locations)
+- [<ins>sales orders<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-sell-products)
+- [<ins>transfer orders<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-transfer-between-locations)
 - direct transfer orders (reclassification journals)
 
 After the necessary documents have been created, you can initiate the shipping/receiving process, count the items that are to be shipped, and finalize the process. 

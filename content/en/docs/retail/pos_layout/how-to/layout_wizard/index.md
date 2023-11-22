@@ -19,7 +19,7 @@ The main benefit of the wizard is the ability to set up a fully populated POS un
 
 ## Prerequisites
 
-- Enable the [POS Editor]({{< ref "../../../pos_processes/how-to/activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
+- Enable the [<ins>POS Editor<ins>]({{< ref "../../../pos_processes/how-to/activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
 
 ## Procedure
 

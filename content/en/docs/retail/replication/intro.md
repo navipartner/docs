@@ -25,6 +25,6 @@ Depending on how you set up the Replication Module, you can:
 
 There is a predefined configuration created automatically when the **Replication Setup List** page is first opened, but you can also configure mapping of each table and column.
 
-Newly created or modified records are identified with the field **Replication Counter** which is populated based on the [Business Central timestamp field](https://docs.microsoft.com/en-us/dynamics-nav/how-to--use-a-timestamp-field).
+Newly created or modified records are identified with the field **Replication Counter** which is populated based on the [<ins>Business Central timestamp field<ins>](https://docs.microsoft.com/en-us/dynamics-nav/how-to--use-a-timestamp-field).
 
-Import of new or modified records is handled by making API requests to the From Company (source company). API requests are based on the [Business Central Custom API pages](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Import of new or modified records is handled by making API requests to the From Company (source company). API requests are based on the [<ins>Business Central Custom API pages<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).

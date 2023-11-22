@@ -27,7 +27,7 @@ The ERP price model is based on item, date, quantity, and customers. It is capab
 - Customer discount groups;
 - Campaigns.
 
- The learn more about the ERP price model, see the following article on [managing sales prices in Dynamics 365 Business Central](https://docs.microsoft.com/en-us/learn/modules/manage-sales-prices-dynamics-365-business-central/).
+ The learn more about the ERP price model, see the following article on [<ins>managing sales prices in Dynamics 365 Business Central<ins>](https://docs.microsoft.com/en-us/learn/modules/manage-sales-prices-dynamics-365-business-central/).
 
 ## Time-based pricing
 

@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-[MobilePay](https://www.mobilepay.dk/) is a digital-wallet software used in Finland and Denmark. It is best-suited for online purchases, as it enables online purchase with just one swipe. 
+[<ins>MobilePay<ins>](https://www.mobilepay.dk/) is a digital-wallet software used in Finland and Denmark. It is best-suited for online purchases, as it enables online purchase with just one swipe. 
 
 From the customer’s side, the payment flow when purchasing from an online store is as follows: 
 

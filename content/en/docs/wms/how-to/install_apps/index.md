@@ -33,7 +33,7 @@ There are two available apps - NP WMS and NP RFID. NP WMS contains warehouse man
 
 5. In the **PROFILE** window, press **SETUP ACCOUNT**.
 
-6. In NP WMS, press the camera icon in the upper right corner to scan the [QR Code]({{< ref "../create_qr/index.md" >}}) that was previously created in Business Central.              
+6. In NP WMS, press the camera icon in the upper right corner to scan the [<ins>QR Code<ins>]({{< ref "../create_qr/index.md" >}}) that was previously created in Business Central.              
    Following the successful QR scan, the required parameters will be saved in the **Setup**.
 
 7. In the NP RFID app, press **CONNECT A SCANNER** to select how the scanning will be performed.    

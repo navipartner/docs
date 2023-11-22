@@ -47,5 +47,5 @@ Follow the provided steps:
 
 For more information about customer anonymization in Business Central, refer to the following articles:
 
-- [Anonymize customer data]({{< ref "../../../../retail/gdpr/how-to/anonymization/index.md" >}})
-- [Anonymize customers automatically after a certain period]({{< ref "../../../../retail/gdpr/how-to/auto_anonymization/index.md" >}})
+- [<ins>Anonymize customer data<ins>]({{< ref "../../../../retail/gdpr/how-to/anonymization/index.md" >}})
+- [<ins>Anonymize customers automatically after a certain period<ins>]({{< ref "../../../../retail/gdpr/how-to/auto_anonymization/index.md" >}})

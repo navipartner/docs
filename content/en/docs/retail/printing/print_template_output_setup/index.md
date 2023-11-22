@@ -33,4 +33,4 @@ The matrix template is used for ZEBRA, BOCA, BLASTER, and CITIZEN printers.
 
 ## Troubleshooting 
 
-[Printer troubleshooting]({{< ref "../../../troubleshooting/printer.md" >}})
+[<ins>Printer troubleshooting<ins>]({{< ref "../../../troubleshooting/printer.md" >}})

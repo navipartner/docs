@@ -50,4 +50,4 @@ The **Service Flow Profile** is used for setting up how the system behaves throu
 
 ![restaurant4](restaurant4.PNG)
 
-For more information about the fields and options, refer to the [Service Flow Profiles reference guide]({{< ref "../../reference/service_flow/index.md" >}}).
+For more information about the fields and options, refer to the [<ins>Service Flow Profiles reference guide<ins>]({{< ref "../../reference/service_flow/index.md" >}}).

@@ -19,4 +19,4 @@ You can define the POS Views on each POS unit that needs to have predefined butt
 
 ![restaurant12](restaurant12.png)
 
-Take a look at the [reference guide]({{< ref "../../reference/pos_actions/index.md" >}}) which contains the POS actions relevant to the Restaurant Module.
+Take a look at the [<ins>reference guide<ins>]({{< ref "../../reference/pos_actions/index.md" >}}) which contains the POS actions relevant to the Restaurant Module.

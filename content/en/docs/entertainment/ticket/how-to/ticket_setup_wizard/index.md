@@ -53,7 +53,7 @@ This tutorial will teach you how to create the setup for a fully functional tick
 
 ## Next Steps
 
-- [Create prepaid tickets]({{< ref "../create_prepaid/index.md" >}})
-- [Create postpaid tickets]({{< ref "../create_postpaid/index.md" >}})
-- [Issue tickets from POS]({{< ref "../issue_ticket_pos/index.md" >}})
-- [Create dynamic tickets]({{< ref "../create_dynamic_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})
+- [<ins>Issue tickets from POS<ins>]({{< ref "../issue_ticket_pos/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../create_dynamic_ticket/index.md" >}})

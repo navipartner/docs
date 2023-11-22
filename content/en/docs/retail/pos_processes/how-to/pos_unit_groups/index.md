@@ -19,8 +19,8 @@ If you wish the salesperson to have access only to a specified group of POS unit
 
 ## Prerequisites
 
-- Set up all [POS units]({{< ref "../create_pos_unit/index.md" >}}) you wish to group, as well as their [POS store]({{< ref "../../../pos_store/how-to/new/index.md" >}}).
-- Create [salespeople]({{< ref "../salespeople/index.md" >}}) who will be charged with the specified POS unit groups. 
+- Set up all [<ins>POS units<ins>]({{< ref "../create_pos_unit/index.md" >}}) you wish to group, as well as their [<ins>POS store<ins>]({{< ref "../../../pos_store/how-to/new/index.md" >}}).
+- Create [<ins>salespeople<ins>]({{< ref "../salespeople/index.md" >}}) who will be charged with the specified POS unit groups. 
 
 ## Procedure
 

@@ -35,4 +35,4 @@ On redeeming, both Gift Vouchers and Credit Vouchers use the POS Action **SCAN_V
 
 ## Create, issue, and redeem vouchers from a sales order
 
-Refer to the processing instructions for [creating, issuing and redeeming vouchers from a sales order]({{< ref "../../../vouchers/how-to/create_new_sales_order/index.md" >}}) for more information.
+Refer to the processing instructions for [<ins>creating, issuing and redeeming vouchers from a sales order<ins>]({{< ref "../../../vouchers/how-to/create_new_sales_order/index.md" >}}) for more information.

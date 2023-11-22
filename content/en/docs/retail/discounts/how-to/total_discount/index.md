@@ -24,7 +24,7 @@ To set up a total discount, follow the provided steps:
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Total Discount**, and choose the related link.      
    The **Total Discount List** is displayed.
 2. Click **New**.
-3. Populate the required fields, and use the [reference table]({{< ref "../../reference/total_discounts/index.md" >}}) to learn what the fields and options are used for. 
+3. Populate the required fields, and use the [<ins>reference table<ins>]({{< ref "../../reference/total_discounts/index.md" >}}) to learn what the fields and options are used for. 
 4. Once all the necessary fields are populated, select **Active** in the **Status** dropdown list located in the **General** section.
 
 ## Example - 10 % discount on all items for total sale amount of 5000

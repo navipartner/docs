@@ -17,8 +17,8 @@ type: docs
 
 To learn how to achieve compliance with fiscalization requirements imposed by fiscal laws of specific countries refer to one of the following articles:
 
-- [Fiscalization compliance - France]({{< ref "france/compliance_setup.md" >}})
-- [Fiscalization compliance - Germany]({{< ref "germany/setup.md" >}})
-- [Fiscalization compliance - Sweden]({{< ref "sweden/setup.md" >}})
-- [Fiscalization compliance - Norway]({{< ref "norway/setup.md" >}})
-- [Fiscalization compliance - Croatia]({{< ref "croatia/setup.md" >}})
+- [<ins>Fiscalization compliance - France<ins>]({{< ref "france/compliance_setup.md" >}})
+- [<ins>Fiscalization compliance - Germany<ins>]({{< ref "germany/setup.md" >}})
+- [<ins>Fiscalization compliance - Sweden<ins>]({{< ref "sweden/setup.md" >}})
+- [<ins>Fiscalization compliance - Norway<ins>]({{< ref "norway/setup.md" >}})
+- [<ins>Fiscalization compliance - Croatia<ins>]({{< ref "croatia/setup.md" >}})

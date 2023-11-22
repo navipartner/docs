@@ -74,4 +74,4 @@ In the section **Apply Discount** you can define how the discount will be applie
 
 ## Troubleshooting 
 
-[Coupon troubleshooting]({{< ref "../../../../troubleshooting/coupon.md" >}})
+[<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})

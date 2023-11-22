@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Once you've completed the necessary setup for the [integration with Shipmondo]({{< ref "../setup/index.md" >}}), it's recommended to test it, to make sure everything works properly.
+Once you've completed the necessary setup for the [<ins>integration with Shipmondo<ins>]({{< ref "../setup/index.md" >}}), it's recommended to test it, to make sure everything works properly.
 
 #### Prerequisite
 
@@ -26,7 +26,7 @@ Once you've completed the necessary setup for the [integration with Shipmondo]({
 
 #### Procedure
 
-1. Open the [Shipmondo API specification page](https://app.shipmondo.com/api/public/v3/specification#/).    
+1. Open the [<ins>Shipmondo API specification page<ins>](https://app.shipmondo.com/api/public/v3/specification#/).    
    Use the **User** and **Key** you've retrieved from the Shipmondo website to get full access to this page and its contents.
 2. Select **Account** > **Retrieve balance** from the list of **ENDPOINTS** in the left sidebar.     
    The information about the requested endpoint is displayed.
@@ -34,7 +34,7 @@ Once you've completed the necessary setup for the [integration with Shipmondo]({
 4. Click **Send API Request**.
 5. Navigate to the **Shipping Provider Setup** page, and select **Shipmondo** as the **Shipping Provider**.
 6. Provide the **API User** and **API Key** you've copied from the Shipmondo website in the indicated fields.
-7. Open the [Shipmondo API specification page](https://app.shipmondo.com/api/public/v3/specification#/) again, and select **Shipments** > **Create a shipment** endpoint from the left sidebar.
+7. Open the [<ins>Shipmondo API specification page<ins>](https://app.shipmondo.com/api/public/v3/specification#/) again, and select **Shipments** > **Create a shipment** endpoint from the left sidebar.
 8. Provide your API **User** and **Key** in the **Auth** box, and change the **product_code** parameter in the **Body** section to **"GLSDK_BP"**
 9. Click **Send API Request** to test the setup.       
 

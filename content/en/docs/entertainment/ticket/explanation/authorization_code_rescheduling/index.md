@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Ticket rescheduling is made convenient for online users (self-service). It is done via [web setup](../howto/ChangeTicketReservation.md), and creation of a new authorization code (pin code) printed on the ticket.
+Ticket rescheduling is made convenient for online users (self-service). It is done via [<ins>web setup<ins>](../howto/ChangeTicketReservation.md), and creation of a new authorization code (pin code) printed on the ticket.
 
 The maximum length for the produced **Authorization Code** is 10 characters. The template can be specified on the **Ticket Setup** page, and is characterized by the following:  
 

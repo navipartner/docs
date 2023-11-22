@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-[Softpay](https://www.softpay.io/) is an app-based terminal which can be intregrated into Point Of Sales (POS) systems.
+[<ins>Softpay<ins>](https://www.softpay.io/) is an app-based terminal which can be intregrated into Point Of Sales (POS) systems.
 
 From the customer’s side, the payment flow when purchasing from a local store is as follows:
 
