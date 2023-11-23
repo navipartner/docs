@@ -19,12 +19,12 @@ Take control over your operations by using the Power BI app for retail business.
 
 ## Prerequisite
 
-- Prior to initiating the installation process, it is imperative to ensure that you have an active Power BI account associated with the same business email address used for logging into Business Central. This alignment of email addresses will facilitate a seamless integration and ensure a smooth installation experience.
+- Prior to initiating the installation process, it is imperative to ensure that you have an active Power BI account associated with the same business email address used for logging into Business Central. This alignment of email addresses will facilitate a seamless integration and ensure a smooth installation experience. 
 
 ## Procedure
 
 1. Log into your Power BI account. 
-2. Go to the [<ins>Microsoft app store<ins>](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Retail**. Click **Free trial** to run the installation wizard.    
+2. Go to the [<ins>Microsoft AppSource<ins>](https://appsource.microsoft.com/en-us/product/power-bi/navipartner.np-power-bi-for-retail?tab=Overview) and find our product **NP Power BI for Retail**. Click **Get it now** to run the installation wizard.    
    
   ![power_bi_retail](power_bi_retail.png)
    
@@ -55,7 +55,7 @@ Take control over your operations by using the Power BI app for retail business.
 9. Click **Next**.
 10. Choose the **OAuth2** authentication method, and the **Organizational** privacy level settings.
 11. Click **Sign in and connect** to synchronize your Power BI app with the data from Business Central.     
-    This step may take some time, and after it's completed you will be able to see your own data in the report.    
+    This step may take some time, and after it's completed you will be able to see your personalized data within the report.    
     The data will be automatically refreshed once per day by default, but this can be changed in the dataset settings, based on your preferences. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/loqGQLCNYGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

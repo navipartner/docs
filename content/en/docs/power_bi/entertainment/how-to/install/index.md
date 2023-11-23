@@ -25,7 +25,9 @@ Prior to initiating the installation process, it is imperative to ensure that yo
 ## Procedure
 
 1. Log into your Power BI account. 
-2. Go to the [<ins>Microsoft app store<ins>](https://apps.microsoft.com/store/apps) and find our product **NP Power BI for Attraction**. Click **Get it now** to get the installation pop-up window.    
+2. Go to the [<ins>Microsoft AppSource<ins>](https://appsource.microsoft.com/en-us/product/power-bi/navipartner.np-power-bi-for-entertainment?exp=kyyw&tab=Overview) and find our product **NP Power BI for Attraction**. Click **Get it now** to get the installation pop-up window.    
+
+     ![power_bi_attraction_icon](Images/power_bi_attraction_icon.PNG)
 
 3.  Click **Install** and wait until the application is installed.      
     When the application is installed, it will be added to your list in the **Apps** section.      
