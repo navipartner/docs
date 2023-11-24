@@ -32,7 +32,7 @@ Generally a BC webservice URL for HeyLoyalty has the following structure:
 ```URL
 https://api.businesscentral.dynamics.com/v2.0/<Your BC tenant ID>/<Your BC environment name>/ODataV4/Company('<Your BC company name>')/heyloyalty_services
 ```
-As you may see there are character pairs **'(** and **)'** surrounding your BC company name. HeyLoyalty doesn’t support that. Therefore you’ll have to replace `'(` with `%28%27` and `)'` with `%27%29`. For example:
+As you can see, there are character pairs `('` and `')` around your BC company name. HeyLoyalty doesn't support this. So you'll need to replace the character pair `('` with their URL encoded representation `%28%27`, and replace `')` with `%27%29`. For example:
   - Original URL:
 ```
 https://api.businesscentral.dynamics.com/v2.0/1f807cd6-d8bf-4bb0-b2e4-922d41e37d37/Production/ODataV4/Company('CRONUS%20Danmark%20A%2FS')/heyloyalty_services
@@ -43,24 +43,25 @@ https://api.businesscentral.dynamics.com/v2.0/1f807cd6-d8bf-4bb0-b2e4-922d41e37d
 ```
 
 3. In your HeyLoyalty environment:
-   - Select *Lister*, then choose *Rediger lister* for the list you want to set the webhook for.
+   - On the top menu ribbon select *Lists*, then choose *Edit list* for the list you want to set the webhook for.
    - Select *Webhooks* subsection
 !["Webhooks" subsection of a HeyLoyalty list](Images/HLWebhooks.png)
 <br><br>
-   - Click *Opret et webhook* to create a new webhook. Fill in the following fields for the new webhook:
+   - Click *Create a webhook* to create a new webhook. Fill in the following fields for the new webhook:
 | Field name | Recommended value |
 |------------|---------------------------|
 | URL | The adjusted web service URL from BC you have prepared earlier |
-| Send som rå json-object | `Yes` |
-| Forsimplet format | `Yes` |
+| Contact email | Specify an email address to which webhook errors should be sent |
+| Send as raw json object | `Yes` |
+| Simplified format | `Yes` |
 | Authentication type | `OAuth 2.0` |
-| Brugernavn | The **Application (Client) ID** from the Azure AD application details page that was shown to you at the end of the ["Create Azure Active Directory application for HeyLoyalty"]({{< ref "aad_app/index.md" >}}) process |
-| Vis kodeord | The **Client Secret** value from the Azure AD application details page |
-| base url | `https://login.microsoftonline.com/<Your BC tenant ID>/oauth2/v2.0` |
+| Username | The **Application (Client) ID** from the Azure AD application details page that was shown to you at the end of the ["Create Azure Active Directory application for HeyLoyalty"]({{< ref "aad_app/index.md" >}}) process |
+| Password | The **Client Secret** value from the Azure AD application details page |
+| base URL | `https://login.microsoftonline.com/<Your BC tenant ID>/oauth2/v2.0` |
 | scopes (optional) | `https://api.businesscentral.dynamics.com/.default` |
-| Tilmeld medlem (e-mail, mobil) | `Yes` |
-| Tilmeld medlem (Heypush) | `Yes` |
-| Opdater medlem | `Yes` |
-| Frameld medlem | `Yes` |
-| Spamklage | `Yes` |
+| New subscriber (email, phone) | `Yes` |
+| New subscriber (heypush) | `Yes` |
+| Update subscriber | `Yes` |
+| Unsubscribe subscriber | `Yes` |
+| Spam complaint | `Yes` |
 | Hard bounces | `Yes` |

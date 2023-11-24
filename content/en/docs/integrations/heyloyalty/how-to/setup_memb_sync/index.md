@@ -31,7 +31,7 @@ HeyLoyalty integration feature is not enabled by default. To enable it, navigate
 </details>
 <br>
 
-2. Fill in the following fields on the page (see [_Module Setup Overview_]({{< ref "../../reference/module_setup_overview/index.md#heyloyalty-integration-setup" >}}), if you need more details on the fields):
+2. Fill in the following fields on the page (see [_Module Setup Overview: HeyLoyalty Integration Setup_]({{< ref "../../reference/module_setup_overview/index.md#heyloyalty-integration-setup" >}}), if you need more details on the fields):
 | Field name | Recommended value |
 |------------|-------------------|
 | <td>**General** FastTab</td> |
@@ -49,10 +49,10 @@ HeyLoyalty integration feature is not enabled by default. To enable it, navigate
 | HeyLoyalty Api Key | The Api key you acquired from your HeyLoyalty partner |
 | HeyLoyalty Api Secret | The Api secret you acquired from your HeyLoyalty partner |
 
-3. Set up multiple choice field mapping. See [_Module Setup Overview_]({{< ref "../../reference/module_setup_overview/index.md#heyloyalty-multiple-choice-fields" >}}) if you need more information on what HeyLoyalty multiple choice fields are, and how to set them up.
+3. Set up multiple choice field mapping. See [_Module Setup Overview: HeyLoyalty Multiple Choice Fields_]({{< ref "../../reference/module_setup_overview/index.md#heyloyalty-multiple-choice-fields" >}}), if you need more information on what HeyLoyalty multiple choice fields are, and how to set them up.
 
-4. Set up BC member attribute mapping with HeyLoyalty single choice and text fields. See [_Module Setup Overview_]({{< ref "../../reference/module_setup_overview/index.md#member-attributes" >}}) if you need more information on how to set up member attributes.
+4. Set up BC member attribute mapping with HeyLoyalty single choice and text fields. See [_Module Setup Overview: Member Attributes_]({{< ref "../../reference/module_setup_overview/index.md#member-attributes" >}}), if you need more information on how to set up member attributes in BC.
 
-5. Set up BC collect store mapping with HeyLoyalty Butikker (list of stores existing in HeyLoyalty).
+5. Set up BC collect store mapping with HeyLoyalty stores (list of stores existing in HeyLoyalty). See [_Module Setup Overview: Stores_]({{< ref "../../reference/module_setup_overview/index.md#stores" >}}), if you need more information on how to set up collect stores in BC.
 
 6. Set up BC country/region mapping with HeyLoyalty countries.

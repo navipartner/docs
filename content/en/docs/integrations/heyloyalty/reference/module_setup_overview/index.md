@@ -36,7 +36,7 @@ There are the following fields on the page:
 | <td>**Member List Integration Area** subsection</td> |
 | Member Integration | Specifies whether the Member List integration area is enabled. This will enable member information to be sent to HeyLoyalty. |
 | HeyLoyalty Member List ID | Specifies the HeyLoyalty member list ID integration is coupled with. |
-| Membership HL Field ID | Specifies the HeyLoyalty field ID (the value from column _Flettefelt_ in HeyLoyalty field definition page) for storing information about membership code (is not required, if you don't plan to have member membership IDs at HeyLoyalty). |
+| Membership HL Field ID | Specifies the HeyLoyalty field ID (the value from column _Merge field_ in HeyLoyalty field definition page) for storing information about membership code (is not required, if you don't plan to have member membership IDs at HeyLoyalty). |
 | Required Contact Info | Specifies required contact methods (email and/or phone) that must be specified in the member card before BC will submit the member data to HeyLoyalty. |
 | Require GDPR Approval | Specifies whether the member must agree to GDPR before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
 | Require Newsletter Subscription | Specifies whether the member must subscribe to the e-mail newsletter (**E-Mail News Letter** field on the member card) before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
@@ -64,7 +64,7 @@ On the **HL MultiChoice Field** page create a separate entry for each of the mul
 | Code | Specifies a code to identify this HeyLoyalty multiple choice field. |
 | Description | Specifies an explanation of the HeyLoyalty multiple choice field. |
 | Magento Field Name | Specifies the id used for the field at Magento (only required if you wish to sync the field to Magento as well). |
-| HeyLoyalty Field Name | Specifies the id used for the field at HeyLoyalty (the value from column _Flettefelt_ in HeyLoyalty field definition page). |
+| HeyLoyalty Field Name | Specifies the id used for the field at HeyLoyalty (the value from column _Merge field_ in HeyLoyalty field definition page). |
 
 Next you'll need to specify the list of possible option values for each of the multiple choice fields. To do that, put your cursor on the line with the field definition in the **HL MultiChoice Field** page, and in page's menu ribbon click **Options**.
 ![Page HL MultiChoice Field Options](images/HLMultiChoiceFieldOptionsPage.png)
@@ -74,7 +74,7 @@ On the **HL MultiChoice Field Options** page you'll need to specify the followin
 | Sort Order | Specifies the sort order of the option value. The lower the number, the higher in the list the option value will appear. Is assigned automatically, but you can change it if necessary. |
 | Description | Specifies an explanation of the HeyLoyalty multiple choice field option value. |
 | Magento Description | Specifies the id used for the field option value at Magento (only required if you wish to sync the field to Magento as well). |
-| HeyLoyalty Field Name | Specifies the id used for the field option value at HeyLoyalty. Usually consists of 6 digits. You may have to contact your HeyLoyalty provider to get the option value ids for the field. |
+| HeyLoyalty Field Name | Specifies the id used for the field option value in HeyLoyalty. Usually consists of 6 digits. You may need to contact your HeyLoyalty provider to get the option value ids for the field. |
 
 {{< alert icon="📝" text="Please note that you may need to extend the HeyLoyalty integration functionality, if you want to be able to modify selected multiple choice field values for members in BC, as this is not supported out of the box."/>}}
 
@@ -83,11 +83,19 @@ You can map any HeyLoyalty single choice or text field to a member attribute in 
 Please refer to [_this documenation section_]({{< ref "../../../../retail/attributes/how-to/client_attributes/client_attributes.md" >}}), if you need more information on how to setup member attributes.
 {{< alert icon="📝" text="Please note that you must set the <b>Value Datatype</b> field to <i>Text</i>, <b>On Validate</b> field to <i>Lookup</i> and disable <b>LookUp Table</b> on the <b>Client Attribute Card</b> page to be able to synchronize the attribute between BC and HeyLoyalty."/>}}
 
-Additionally, to map a member attribute and its option values with a HeyLoyalty field, you'll need to do the following:
-- Specify **HeyLoyalty Field ID** (the value from column _Flettefelt_ in HeyLoyalty field definition page) for each member attribute on the **Client Attribute Card** page. The field **Default HeyLoyalty Value** on the **Client Attribute Card** page specifies the default attribute value to be sent to HeyLoyalty in cases, when the attribute has no value assigned for the member in BC.
-- Specify **HeyLoyalty Name** for each attribute value on the **Client Attribute Value Lookup** page.
+In addition, to map a member attribute and its option values to a HeyLoyalty field, you'll need to do the following:
+- on the **Client Attribute Card** page:
+  - Specify **HeyLoyalty Field ID** (the value from column _Merge field_ in HeyLoyalty field definition page) for each member attribute.
+  - Specify **Default HeyLoyalty Value**, if you need a default attribute value to be sent to HeyLoyalty in cases, when the attribute has no value assigned for the member in BC.
+  - Enable **Auto Create New Values** boolean field, if you wish a new attribute value automatically created in BC, when a non-existing attribute value is received from HeyLoyalty.
+- on the **Client Attribute Value Lookup** page:
+  - Specify **HeyLoyalty Name** for each attribute value.
 
 ## Stores
+Each member can have a preferred store selected on their card in BC. This is essencially a Collect Store from NP Retail [Click & Collect]({{< ref "../../../../retail/click_and_collect/intro.md" >}}) module.
+For each shop you have in HeyLoyalty, you'll need to create a [Collect Store]({{< ref "../../../../retail/click_and_collect/how-to/setup/setup.md#create-a-new-collect-store" >}}) in BC and map the entities to each other to be able to synchronize the store code selected on each member card between BC and HeyLoyalty.
+In order to associate a BC Collect store with a HeyLoyalty store, you'll need to specify in BC the id used for the store at HeyLoyalty. The id must be entered on the **Collect Store Card** page in the **HeyLoyalty Name** field.
+A HeyLoyalty store id usually consists of 5 digits. You may need to contact your HeyLoyalty provider to get the store IDs.
 
 ## Data Log Subscribers
 
