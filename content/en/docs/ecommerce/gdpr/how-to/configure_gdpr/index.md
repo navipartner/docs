@@ -38,12 +38,7 @@ Follow the provided steps:
 | **Allowed CMS pages when consent being forced** | You can choose to which elements users will have access to, even if they didn’t agree to the GDPR terms. |
 | **Account Close Mode** | Specifies what happens when customers request to close their accounts. The following options are available: </br> - **Delete** – completely removes customer line; </br> - **Anonymize** – if customers decide to close their accounts, they will still remain recorded in the customer list, but all of their data will be anonymized. If they had previously created sales orders, the sales orders will remain recorded without user information. |
 | **Allow Guest Requests** | Since GDPR doesn’t apply only to registered users, by enabling this option, guests can also view any stored information on them.  | 
-
-   {{< alert icon="📝" text="Guest users can see the stored information about them by appending <i>/customer/privacy/guest</i> to the store URL. The page contains privacy-related information, and it allows guest users to enter their email and phone number with an accompanying comment. From there, they can choose whether to delete (Forget me) the stored info or retrieve it. Administrators will be notified of their choice (<b>Navipartner</b> > <b>GDPR</b> > <b>Guest Data Retrieval Requests</b>) in Magento Webadmin."/>}}
-
-   {{< alert icon="📝" text="Registered users can also view their information and request retrieval/removal in the <b>My Privacy</b> section of their <b>My Account</b> page. If they choose the <b>Forget Me</b> option, they will be redirected to a new page and logged out of the web store. They can cancel their request by signing in again. Administrators will be notified of their choice (<b>Navipartner</b> > <b>GDPR</b> > <b>Close Requests</b>) in Magento Webadmin."/>}}
-
-   {{< alert icon="❗" text="When closing the registered user account in Magento Webadmin, make sure you also delete this user in Business Central (<b>Magento Customers</b> > <b>Customers</b> > <b>Customers GDPR</b>)."/>}}
+| **Guest Actions** | You can specify which actions will be available to guest users. The available options are **Forget Me** and **Retrieve My Info**. | 
 
 For more information about customer anonymization in Business Central, refer to the following articles:
 
