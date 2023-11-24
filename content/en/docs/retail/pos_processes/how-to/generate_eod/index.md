@@ -15,18 +15,18 @@ toc: true
 type: docs
 ---
 
-The [POS balance report]({{< ref "../../explanation/end-of-day-exp.md" >}}), or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing.
+The [<ins>POS balance report<ins>]({{< ref "../../explanation/end-of-day-exp.md" >}}), or the end-of-day report, contains the payments received throughout the day on the selected POS unit, and is used for cash count and balancing.
 
 To generate the POS balance report and count the contents of the payment bin, make sure the prerequisite is met and follow the provided steps:
 
 ## Prerequisite
 
-- Make sure the balancing processes are [properly configured]({{< ref "balance_config.md" >}}) in Business Central.
+- Make sure the balancing processes are [<ins>properly configured<ins>]({{< ref "balance_config.md" >}}) in Business Central.
 
 ## Procedure
 
 1. From the **POS**, click **Other Functions (menu)**, followed by **End of Day Balancing**.     
-   The **POS Workshift Checkpoint** is displayed, along with the [Z-Report overview]({{< ref "../../explanation/end-of-day-exp.md" >}}). To see all work shift statistics, open the **Show All** tab.
+   The **POS Workshift Checkpoint** is displayed, along with the [<ins>Z-Report overview<ins>]({{< ref "../../explanation/end-of-day-exp.md" >}}). To see all work shift statistics, open the **Show All** tab.
 
    ![balance_the_pos_v4_all](balance_pos_v4_balancing_screen_%20all.png)
 
@@ -56,4 +56,4 @@ To generate the POS balance report and count the contents of the payment bin, ma
 
 ## Troubleshooting
 
-[End-of-day troubleshooting]({{< ref "../../../../troubleshooting/eod.md" >}})
+[<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})

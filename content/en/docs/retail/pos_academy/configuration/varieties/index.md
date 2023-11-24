@@ -27,7 +27,7 @@ To configure the **Variety Setup**, follow the provided steps:
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Variety Setup**, and choose the related link.     
    The Variety Setup page is displayed.
 2. Populate all necessary fields.     
-   You can refer to the screenshot below and the [Variety Setup reference table]({{< ref "../../../varieties/reference/variety_setup_ref.md" >}}) for any additional information.
+   You can refer to the screenshot below and the [<ins>Variety Setup reference table<ins>]({{< ref "../../../varieties/reference/variety_setup_ref.md" >}}) for any additional information.
    ![varieties1](varieties1.PNG)
 3. (Optional) Hide the inactive values via the designated option in the **View** section if you don't want to show combinations in the matrix form that aren’t used on a specific item. 
 
@@ -92,7 +92,7 @@ Hence, when you select the second primary **Item Reference** in **Show Field**, 
 
 ## Variety (administrative section)
 
-The **Variety** administrative section contains the list of varieties created in the environment, along with some of their basic properties. Refer to the [Variety reference table]({{< ref "../../../varieties/reference/variety_ref.md" >}}) for more information.
+The **Variety** administrative section contains the list of varieties created in the environment, along with some of their basic properties. Refer to the [<ins>Variety reference table<ins>]({{< ref "../../../varieties/reference/variety_ref.md" >}}) for more information.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DWCgtBz6-2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -102,7 +102,7 @@ After a new variety is created, it's necessary to also create a variety table. T
 
 ![varieties7](varieties7.PNG)
 
-On the **Variety** page, there is an **Action Tab: Variety Table**. You will configure the Variety Table from that action. Refer to the [Variety reference table]({{< ref "../../../varieties/reference/variety_table_ref.md" >}}) for more information.
+On the **Variety** page, there is an **Action Tab: Variety Table**. You will configure the Variety Table from that action. Refer to the [<ins>Variety reference table<ins>]({{< ref "../../../varieties/reference/variety_table_ref.md" >}}) for more information.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhXcEmrrknk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -112,7 +112,7 @@ The following options are available when assigning values to varieties in the 
 
 ![varieties8](varieties8.PNG)
 
-On the **Variety Table** page, there is an **Action Tab: Values**. Refer to the [Variety Values reference table]({{< ref "../../../varieties/reference/variety_values_ref.md" >}}) for more information.
+On the **Variety Table** page, there is an **Action Tab: Values**. Refer to the [<ins>Variety Values reference table<ins>]({{< ref "../../../varieties/reference/variety_values_ref.md" >}}) for more information.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ksacX2zt9Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -127,7 +127,7 @@ To configure a Variety Group, follow the provided steps:
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Variety Group**, and choose the related link.       
    The **Variety Group List** is opened.
 2. Click **New**.      
-   A new line will be available for you to fill in the details. Refer to the relevant [Variety Group reference guide]({{< ref "../../../varieties/reference/group_ref.md" >}}) for more information.
+   A new line will be available for you to fill in the details. Refer to the relevant [<ins>Variety Group reference guide<ins>]({{< ref "../../../varieties/reference/group_ref.md" >}}) for more information.
 3. Make sure that the **No. Series** field is left blank in this example.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7BQ8XESFc0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -187,7 +187,7 @@ If you click **Related** in the ribbon of the **Item Card**, followed by **Item*
 
 ## Block a variant
 
-If you wish to block a certain variant, refer to the relevant [Variant blocking guide]({{< ref "../../../varieties/how-to/block_variant.md" >}}) for more information.
+If you wish to block a certain variant, refer to the relevant [<ins>Variant blocking guide<ins>]({{< ref "../../../varieties/how-to/block_variant.md" >}}) for more information.
 
 ## Set up pop-up variety on Documents
 

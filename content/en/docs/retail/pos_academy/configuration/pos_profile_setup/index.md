@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-[POS profiles]({{< ref "../../../pos_profiles/intro.md" >}}) are the main features used for configuring POS units. They can be found in the **POS Unit Card** administrative section of all POS units defined in Business Central. This portion of the POS Academy contains instructions for setting up the necessary profiles for the *Bring It to You Retail Store Ltd* fictional example company.
+[<ins>POS profiles<ins>]({{< ref "../../../pos_profiles/intro.md" >}}) are the main features used for configuring POS units. They can be found in the **POS Unit Card** administrative section of all POS units defined in Business Central. This portion of the POS Academy contains instructions for setting up the necessary profiles for the *Bring It to You Retail Store Ltd* fictional example company.
 
 ## Posting profile setup
 
@@ -137,7 +137,7 @@ The following fields need to be set up:
 
 ## Input box profile setup
 
-The [POS Input Box Profile]({{< ref "../../../pos_profiles/reference/input_box_profile/input_box_profile.md" >}}) is used for setting up which data will be recognized in the POS unit’s input box. 
+The [<ins>POS Input Box Profile<ins>]({{< ref "../../../pos_profiles/reference/input_box_profile/input_box_profile.md" >}}) is used for setting up which data will be recognized in the POS unit’s input box. 
 
 By default, there is one default POS input box profile with the **Code SALE** and **Description Default EAN box Sales Setup** in the system that you can select when setting up a POS unit. If there is a need to create a different profile, you can create a new one with the unique **Code** and **Description**. 
 
@@ -158,7 +158,7 @@ The following fields can be defined:
 Follow the provided steps to set all the required actions and establish a fully operational POS unit. To create a new POS Named Action Profile: 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit List**, and choose the related link. 
-2. Open the **POS Unit Card** of the POS unit you’ve [created]({{< ref "../pos_unit/index.md" >}}), and then open the **POS Named Actions Profile Card** from the **POS Named Actions Profile** dropdown. 
+2. Open the **POS Unit Card** of the POS unit you’ve [<ins>created<ins>]({{< ref "../pos_unit/index.md" >}}), and then open the **POS Named Actions Profile Card** from the **POS Named Actions Profile** dropdown. 
 3. **Create New**.      
    The **POS Named Actions Profile** window is displayed. 
 4. Provide the **Code** in the **General** section. 
@@ -182,11 +182,11 @@ Follow the provided steps to set all the required actions and establish a fully 
 
 The following profiles also exist in our Retail solution, but they do not need to be set up for the *Bring It to You Retail Store Ltd* fictional example company for the reasons listed below:
 
-- [**POS Global Sales Profile**]({{< ref "../../../pos_profiles/how-to/global_profile/global_profile.md" >}}) - In the specific scenario for the *Bring It to You Retail Store Ltd*, there is only one company in Business Central for the 3 operations, defined as locations, so Global POS Sales Setup should be left blank. 
-- [**POS Pricing Profile**]({{< ref "../../../pos_profiles/how-to/pricing_profile/pricing_profile.md" >}}) - For *Bring It to You Retail Store Ltd*, this profile is kept blank, as all POS units use the same pricing policies.  
-- [**POS Self-Service Profile**]({{< ref "../../../pos_profiles/how-to/ss_profile/ss_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank, as these POS Unit don't support self-service. 
-- [**POS Display Profile**]({{< ref "../../../pos_profiles/reference/display_profile/display_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, you will leave this field blank as you are not using a 2nd display.
-- [**POS HTML Display Profile**]({{< ref "../../../pos_profiles/how-to/html_profile/html_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, you will leave this field BLANK as you are not using a 2nd display.
-- [**POS Tax Free Profile**]({{< ref "../../../pos_profiles/reference/tax_free_ref/tax_free_ref.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank, as the tax-free profile isn't required.
-- [**POS Security Profile**]({{< ref "../../../pos_profiles/how-to/security_profiles/security_profiles.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank as you are not setting an admin password to unlock the POS Unit. 
-- [**POS Inventory Profile**]({{< ref "../../../pos_profiles/how-to/inventory/inventory.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank as the inventory profile isn't required.
+- [<ins>**POS Global Sales Profile**<ins>]({{< ref "../../../pos_profiles/how-to/global_profile/global_profile.md" >}}) - In the specific scenario for the *Bring It to You Retail Store Ltd*, there is only one company in Business Central for the 3 operations, defined as locations, so Global POS Sales Setup should be left blank. 
+- [<ins>**POS Pricing Profile**<ins>]({{< ref "../../../pos_profiles/how-to/pricing_profile/pricing_profile.md" >}}) - For *Bring It to You Retail Store Ltd*, this profile is kept blank, as all POS units use the same pricing policies.  
+- [<ins>**POS Self-Service Profile**<ins>]({{< ref "../../../pos_profiles/how-to/ss_profile/ss_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank, as these POS Unit don't support self-service. 
+- [<ins>**POS Display Profile**<ins>]({{< ref "../../../pos_profiles/reference/display_profile/display_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, you will leave this field blank as you are not using a 2nd display.
+- [<ins>**POS HTML Display Profile**<ins>]({{< ref "../../../pos_profiles/how-to/html_profile/html_profile.md" >}}) - In the *Bring It to You Retail Store Ltd*, you will leave this field BLANK as you are not using a 2nd display.
+- [<ins>**POS Tax Free Profile**<ins>]({{< ref "../../../pos_profiles/reference/tax_free_ref/tax_free_ref.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank, as the tax-free profile isn't required.
+- [<ins>**POS Security Profile**<ins>]({{< ref "../../../pos_profiles/how-to/security_profiles/security_profiles.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank as you are not setting an admin password to unlock the POS Unit. 
+- [<ins>**POS Inventory Profile**<ins>]({{< ref "../../../pos_profiles/how-to/inventory/inventory.md" >}}) - In the *Bring It to You Retail Store Ltd*, leave this field blank as the inventory profile isn't required.

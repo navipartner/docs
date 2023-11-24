@@ -45,4 +45,4 @@ There are multiple system print templates you can choose from, but if you need a
 
 ## Troubleshooting 
 
-[Printer troubleshooting]({{< ref "../../../../troubleshooting/printer.md" >}})
+[<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})

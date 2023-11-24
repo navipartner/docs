@@ -39,4 +39,4 @@ To assign the notification profile to one or more lines in **Ticket BOM**:
 
 ### Issue tickets from Business Central
 
-After completing these procedures, you can create [prepaid]({{< ref "../create_prepaid/index.md" >}}) and [postpaid]({{< ref "../create_postpaid/index.md" >}}) tickets in Business Central.
+After completing these procedures, you can create [<ins>prepaid<ins>]({{< ref "../create_prepaid/index.md" >}}) and [<ins>postpaid<ins>]({{< ref "../create_postpaid/index.md" >}}) tickets in Business Central.

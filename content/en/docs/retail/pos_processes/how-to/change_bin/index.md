@@ -19,7 +19,7 @@ Bins represent physical shelves and rows in which the shop's inventory is stored
 
 ## Prerequisites
 
-- Add the **Change Bin** [button to the POS menu]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
+- Add the **Change Bin** [<ins>button to the POS menu<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
   The action you need to attach to the button is **CHANGE_BIN**.
 
 ## Procedure

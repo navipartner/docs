@@ -21,7 +21,7 @@ You can create multiple discount coupon types that correspond to different use c
 
 If you wish to add a fixed discount amount of 200 Danish krone to the total price, regardless of which items are purchased, make sure to do the following:
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the **Code**, i.e. the unique identifier of the discount, then also provide an appropriate **Description**.
 3. Set the **Discount Type** to **Discount Amount**, and provide the fixed amount of **200**.
 
@@ -35,7 +35,7 @@ If you wish to add a fixed discount amount of 200 Danish krone to the total pric
 A coupon is issued by the shop to its customers, so that they can benefit from a discount upon presenting the coupon to the salesperson when purchasing certain items. The coupon is printed and distributed by the shop. 
 To create a fixed percentage discount coupon on all items follow the provided steps: 
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **10%OFF**. 
 3. Provide the discount coupon name, e.g. **10% Off - Max 70.00**. 
 4. Set the **Discount Type** to **Discount %**, and provide the percentage of **10** in the designated field. 
@@ -57,7 +57,7 @@ To create a fixed percentage discount coupon on all items follow the provided st
 
 A coupon is issued by the shop to the customer when specific items are purchased. It can be used during the customer's next purchase.
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **20%OFF**. 
 3. Provide the discount coupon name, e.g. **20% off coupon on all items**. 
 4. Set the **Discount Type** to **Discount %**, and provide the percentage of **20** in the designated field. 
@@ -89,7 +89,7 @@ As stated in the previous instructions, setting the coupon issuing method to **D
 
 To create a discount coupon that gives customers a free item, follow the provided steps:
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **FREEAR**. 
 3. Provide the discount coupon name, e.g. **Free Earrings Coupon**. 
 4. Set the **Discount Type** to **Discount %**, and provide the percentage of **100** in the designated field. 
@@ -128,7 +128,7 @@ The validation process is carried out depending on the item list. You can set th
 
 To create a discount coupon that gives you the benefit of receiving a specified free item on condition that certain two items are purchased beforehand, follow the provided steps: 
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **B2G1**. 
 3. Provide the discount coupon name, e.g. **Buy 2 items Apply1 Free Coupon**. 
 4. Set the **Discount Type** to **Discount %**, and provide the percentage of **100** in the designated field. 
@@ -163,7 +163,7 @@ To create a discount coupon that gives you the benefit of receiving a specified 
 
 To create a discount coupon the customers can use within a fixed timeframe, follow the provided steps:
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **TIME**. 
 3. Provide the discount coupon name, e.g. **Happy Hour on NECKLACE**. 
 4. Set the **Discount Type** to **Discount Amount**, and provide the amount of **30** in the designated field. 
@@ -195,7 +195,7 @@ Loyalty points can be converted into a discount amount in NP Retail. This is don
 
 To create a discount coupon for loyalty, follow the provided steps:
 
-1. Create a new [**Coupon Type**]({{< ref "../../reference/coupon_types/index.md" >}}).
+1. Create a new [<ins>**Coupon Type**<ins>]({{< ref "../../reference/coupon_types/index.md" >}}).
 2. Add the appropriate **Code** to the coupon type, e.g. **LOYALTY**. 
 3. Provide the discount coupon name, e.g. **Loyalty**. 
 4. Set the **Discount Type** to **Discount Amount**, and provide the amount of **1** in the designated field. 

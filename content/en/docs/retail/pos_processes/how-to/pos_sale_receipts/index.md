@@ -22,7 +22,7 @@ You can set up a functionality which sends the POS sale receipts to customers' e
 - Create the necessary email accounts.
 - Create an e-mail template that will be sent to users.    
   The relevant **Report ID** needs to be specified within the e-mail template.
-- Add the **Send Email Receipt** [button to the POS menu]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
+- Add the **Send Email Receipt** [<ins>button to the POS menu<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
   The action you need to attach to the button is **SEND_RECEIPT**.
 - Configure the **POS Parameter Values** for the button you've added to the POS menu - provide the name of the e-mail template you've created for receipts, and specify whether the e-mail is automatically sent for the last created receipt, of if you can choose the specific receipt to be sent.
 

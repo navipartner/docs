@@ -111,4 +111,4 @@ If you want to use the Warehousing functionalities, the parameters in this secti
 
 ### References
 
-[Microsoft documentation - How to register a new item](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-register-new-item)
+[<ins>Microsoft documentation - How to register a new item<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-register-new-item)

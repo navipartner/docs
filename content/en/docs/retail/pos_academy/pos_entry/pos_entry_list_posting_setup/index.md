@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-As previously stated in the [NP Retail Configuration]({{< ref "../../configuration/posting_profile/index.md" >}}) portion of the POS Academy, the **POS Posting Setup** defines how the receipts for cash and other payment methods are posted in the General Ledger or subledgers in the system. 
+As previously stated in the [<ins>NP Retail Configuration<ins>]({{< ref "../../configuration/posting_profile/index.md" >}}) portion of the POS Academy, the **POS Posting Setup** defines how the receipts for cash and other payment methods are posted in the General Ledger or subledgers in the system. 
 
 ![posting1](posting1.PNG)
 

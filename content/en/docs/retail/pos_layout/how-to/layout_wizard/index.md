@@ -19,7 +19,7 @@ The main benefit of the wizard is the ability to set up a fully populated POS un
 
 ## Prerequisites
 
-- Enable the [POS Editor]({{< ref "../../../pos_processes/how-to/activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
+- Enable the [<ins>POS Editor<ins>]({{< ref "../../../pos_processes/how-to/activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
 
 ## Procedure
 
@@ -33,3 +33,5 @@ The main benefit of the wizard is the ability to set up a fully populated POS un
 6. Select one of the available presets (e.g. Wine Shop), and press **Continue**.
 7. Finalize the layout setup by confirming your selections in the final step.     
    The layout is now ready to be used.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gMNjQMtJJhw?si=HobHN2vYeK8eV5xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

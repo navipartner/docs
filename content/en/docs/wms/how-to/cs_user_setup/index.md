@@ -15,13 +15,13 @@ toc: true
 type: docs
 ---
 
-All users who will should have access to the [mobile apps]({{< ref "../install_apps/index.md" >}}) should be created in the **CS Users** setup section. Each CS user should also be an active BC user.  
+All users who will should have access to the [<ins>mobile apps<ins>]({{< ref "../install_apps/index.md" >}}) should be created in the **CS Users** setup section. Each CS user should also be an active BC user.  
 
   {{< alert icon="📝" text="Each device which uses NP WMS will be assigned a BC user. This user should be active and have their <b>License Type</b> set to be <b>Device Only User</b> (ISV)."/>}}
 
 ## Prerequisites
 
-- Create [warehouse employees](https://docs.microsoft.com/en-us/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees) to be able to start creating CS users.
+- Create [<ins>warehouse employees<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees) to be able to start creating CS users.
 
 ## Procedure
 

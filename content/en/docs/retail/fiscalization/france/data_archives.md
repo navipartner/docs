@@ -20,7 +20,7 @@ This article provides information needed to understand how NP Retail exports to 
 ## Period Archives
 You must periodically monitor closed monthly periods on the **Workshift Summary** page and export these to an archive file stored on a secure media i.e. usb keys in a safe.
 You create archives by using the archive button on **Workshift Summary** list.
-Note that Business Central SaaS already has multiple levels of database backup on the data as it's all stored inside the ERP platform maintained by Microsoft. This includes geo-redundant backups. For more information, see [Their docs](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/service-overview#database-and-backups)
+Note that Business Central SaaS already has multiple levels of database backup on the data as it's all stored inside the ERP platform maintained by Microsoft. This includes geo-redundant backups. For more information, see [<ins>their docs<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/service-overview#database-and-backups)
 
 
 
@@ -31,10 +31,10 @@ To ensure integrity of exported archives, all .xml archives are signed with the 
 The XMLDSIG canonicalization method is XML-C14N 1.0, and the signing is done via RSA & SHA256 as all the other POS event signings.
 If you reach out to NaviPartner we can supply you with a .cer certificate file that includes the public key of the cert used by a specific customer.
 NaviPartner also provides a powershell script that can be downloaded from and executed to validate both the schema of the XML file and the signature validity: 
-[Archive Validation Script](https://docs.navipartner.com/nf525_validate_archive.ps1).
+[<ins>Archive Validation Script<ins>](https://docs.navipartner.com/nf525_validate_archive.ps1).
 
 The script depends on powershell core which can be downloaded and installed from the 
-[following link](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)
+[<ins>following link<ins>](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)
  
 The script must be placed inside a folder together with the 3 files needed for verification:
 - archive.xml
@@ -42,7 +42,7 @@ The script must be placed inside a folder together with the 3 files needed for v
 - certificate.cer
 
 The schema file that archives adhere to can be downloaded at 
-[Archive Schema](https://docs.navipartner.com/schema.xsd).
+[<ins>Archive Schema<ins>](https://docs.navipartner.com/schema.xsd).
 
 The 3 files must be named exactly like above. See image for example.
 
@@ -177,7 +177,7 @@ List of archive tags, with french name and description
 ## Legacy
 
 Prior to the fiscal version 11 of NPRetail, the archive files were not signed and they followed a different schema. The old schema can be downloaded from 
-[Old Archive Schema](https://docs.navipartner.com/nf525_schema_old_pre11.xsd).
+[<ins>Old Archive Schema<ins>](https://docs.navipartner.com/nf525_schema_old_pre11.xsd).
 
 Prior to the fiscal version 21.6 of NPRetail, the archive files followed a different schema that can be downloaded here:
-[Old Archive Schema](https://docs.navipartner.com/nf525_schema_old_pre216.xsd).
+[<ins>Old Archive Schema<ins>](https://docs.navipartner.com/nf525_schema_old_pre216.xsd).

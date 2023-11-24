@@ -19,9 +19,9 @@ Once the worksheet has been completed and corrected, you need to transfer it to 
 
 ## Prerequisites
 
-- [Configure the stock-take]({{< ref "../stocktake_config/index.md" >}})
-- [Create an item journal template]({{< ref "../item_journal_template/index.md" >}})
-- [Create a stock-take worksheet]({{< ref "../stocktake_worksheet/index.md" >}})
+- [<ins>Configure the stock-take<ins>]({{< ref "../stocktake_config/index.md" >}})
+- [<ins>Create an item journal template<ins>]({{< ref "../item_journal_template/index.md" >}})
+- [<ins>Create a stock-take worksheet<ins>]({{< ref "../stocktake_worksheet/index.md" >}})
 
 1. To initiate this process, set the stock-take worksheet's status to **Ready to Transfer** in the relevant **Stock-Take Worksheet** card.
 2. Mark all lines, and click **Line** in the ribbon, followed by **Set Transfer Option to Ready**.   

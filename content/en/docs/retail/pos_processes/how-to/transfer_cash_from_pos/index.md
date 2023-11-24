@@ -21,7 +21,7 @@ To transfer cash from a POS unit to a safe, follow the provided steps:
 
 ## Prerequisite in Business Central
 
-- Create a [new POS menu button]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
+- Create a [<ins>new POS menu button<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
   The **POS Action** attached to this button should be **RUNPAGE**, with the page **6151240** selected in the **Page ID** entry of the action's **Parameter Values**.
 
    ![transfer_from_pos_parameters](Images/transfer_from_pos_parameters.png)

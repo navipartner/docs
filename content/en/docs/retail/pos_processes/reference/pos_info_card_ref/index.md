@@ -31,4 +31,4 @@ The following fields are available in the **POS Info Card**:
 | **Input Mandatory** | If active, the salesperson will be required to provide a **POS Info Code** if they press the POS menu button. | 
 | **Input Type** | Select which type of input a salesperson needs to provide. You can choose between text, subcode (a list created in **POS Info SubCodes**) or table (a set of values provided in Business Central). |
 
-There are multiple ways in which POS info can be useful. Refer to the article on [POS info setup]({{< ref "../../how-to/pos_info_setup/index.md" >}}) for more information and configuration instructions.
+There are multiple ways in which POS info can be useful. Refer to the article on [<ins>POS info setup<ins>]({{< ref "../../how-to/pos_info_setup/index.md" >}}) for more information and configuration instructions.

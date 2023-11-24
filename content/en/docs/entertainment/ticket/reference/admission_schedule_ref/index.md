@@ -21,7 +21,7 @@ Admission schedules define when a location will be open or when an event will be
 | Field Name      | Description |
 | ----------- | ----------- |
 | **Schedule Code** | Specifies the code of the schedule. | 
-| **Schedule Type** | Specifies whether the scheduled object is a [**location** or **event**]({{< ref "../../explanation/location_reservation/index.md" >}}). **Event** needs to be selected for ticket reservation. You can set **Location** for a basic entrance ticket. | 
+| **Schedule Type** | Specifies whether the scheduled object is a [<ins>**location** or **event**<ins>]({{< ref "../../explanation/location_reservation/index.md" >}}). **Event** needs to be selected for ticket reservation. You can set **Location** for a basic entrance ticket. | 
 | **Admission Is** | Specifies whether the schedule generates **Open** or **Closed** time slots. This option is most commonly used in relation to multiple schedules, to ensure the admission is closed on certain holidays. |
 | **Description** | Specifies additional information about the schedule. |
 | **Start From** | Specifies the start date/base date of the schedule. |

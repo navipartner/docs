@@ -19,14 +19,14 @@ The NP Reimbursement module is used for configuring the system through which the
 ### Configurations
 
 - Reimbursement Modules
-- [Reimbursement Templates]({{< ref "how-to/template_setup/index.md" >}})
-- [Reimbursement Party Types]({{< ref "how-to/party_types/index.md" >}})
-- [Reimbursement Parties]({{< ref "how-to/parties/index.md" >}})
+- [<ins>Reimbursement Templates<ins>]({{< ref "how-to/template_setup/index.md" >}})
+- [<ins>Reimbursement Party Types<ins>]({{< ref "how-to/party_types/index.md" >}})
+- [<ins>Reimbursement Parties<ins>]({{< ref "how-to/parties/index.md" >}})
 
 ### Process
 
-- [Reimbursements]({{< ref "how-to/process/index.md" >}})
+- [<ins>Reimbursements<ins>]({{< ref "how-to/process/index.md" >}})
 
 ### Outputs
 
-- [Reimbursement Entries]({{< ref "explanation/output_entries/index.md" >}})
+- [<ins>Reimbursement Entries<ins>]({{< ref "explanation/output_entries/index.md" >}})

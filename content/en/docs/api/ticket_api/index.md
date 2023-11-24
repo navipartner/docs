@@ -17,4 +17,4 @@ type: docs
 
 The ticket booking pipeline is graphically represented in the following PDF:
 
-[NPR Ticket Booking Process](acquire_ticket_workflow.pdf)
+[<ins>NPR Ticket Booking Process<ins>](acquire_ticket_workflow.pdf)

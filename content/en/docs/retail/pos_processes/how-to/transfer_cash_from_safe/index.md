@@ -24,7 +24,7 @@ The process of transferring cash from a safe to a POS unit is initiated from Bus
 
   ![pos_posting_transfer](Images/pos_posting_transfer.png)
 
-3. Navigate to the **POS Menus** administrative section, and create a [new POS menu button]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
+3. Navigate to the **POS Menus** administrative section, and create a [<ins>new POS menu button<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).      
    The **POS Action** attached to this button should be **BIN_TRANSFER**.
 4. Open the **Parameters** for the **BIN_TRANSFER** action, and select **Transfer In** in the **Transfer Direction** entry.     
    By doing so, you will be able to access the **POS Payment Bin Transfer Journal** when it is created in the back office. 

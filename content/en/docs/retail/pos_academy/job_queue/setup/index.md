@@ -55,4 +55,4 @@ You can set up a job that automatically posts only those sales orders which meet
 
 ### Reference
 
-- [Recommended NP Retail Job Queue Entries]({{< ref "../../../pos_processes/reference/job_queue_codeunits/index.md" >}})
+- [<ins>Recommended NP Retail Job Queue Entries<ins>]({{< ref "../../../pos_processes/reference/job_queue_codeunits/index.md" >}})

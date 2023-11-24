@@ -18,18 +18,18 @@ This section contains questions and answers pertaining to some of the common iss
 
 ## Printers
 
-- [Printer troubleshooting]({{< ref "printer.md" >}})
-- [A4 printer troubleshooting]({{< ref "a4_printer.md" >}})
-- [Receipt printer troubleshooting]({{< ref "receipt_printer.md" >}})
-- [Label printer troubleshooting]({{< ref "label_printer.md" >}})
+- [<ins>Printer troubleshooting<ins>]({{< ref "printer.md" >}})
+- [<ins>A4 printer troubleshooting<ins>]({{< ref "a4_printer.md" >}})
+- [<ins>Receipt printer troubleshooting<ins>]({{< ref "receipt_printer.md" >}})
+- [<ins>Label printer troubleshooting<ins>]({{< ref "label_printer.md" >}})
 
 ## Retail
 
-- [Coupon troubleshooting]({{< ref "coupon.md" >}})
-- [Initial float troubleshooting]({{< ref "initial_float.md" >}})
-- [Self-Service Profile troubleshooting]({{< ref "ss_profile.md" >}})
-- [Tax-free troubleshooting]({{< ref "tax_free.md" >}})
-- [End-of-day report troubleshooting]({{< ref "eod.md" >}})
-- [Credit memo troubleshooting]({{< ref "credit_memo.md" >}})
-- [Initial float troubleshooting]({{< ref "initial_float.md" >}})
+- [<ins>Coupon troubleshooting<ins>]({{< ref "coupon.md" >}})
+- [<ins>Initial float troubleshooting<ins>]({{< ref "initial_float.md" >}})
+- [<ins>Self-Service Profile troubleshooting<ins>]({{< ref "ss_profile.md" >}})
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "tax_free.md" >}})
+- [<ins>End-of-day report troubleshooting<ins>]({{< ref "eod.md" >}})
+- [<ins>Credit memo troubleshooting<ins>]({{< ref "credit_memo.md" >}})
+- [<ins>Initial float troubleshooting<ins>]({{< ref "initial_float.md" >}})
 

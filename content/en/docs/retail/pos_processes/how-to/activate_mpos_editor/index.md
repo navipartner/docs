@@ -19,7 +19,7 @@ The MPOS editor gives users the option to set up POS actions and buttons directl
 
 #### Prerequisites
 
-- Enable the [POS Editor]({{< ref "../activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
+- Enable the [<ins>POS Editor<ins>]({{< ref "../activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
 
 #### Procedure
 
@@ -35,3 +35,5 @@ The MPOS editor gives users the option to set up POS actions and buttons directl
    - Give the POS Layout Code you've assigned in step 4 to the POS unit. 
 6. Reload the MPOS.     
    The changes performed on the desktop are applied on the MPOS upon reload. The design on the editor is now the same as the one on the MPOS.      
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

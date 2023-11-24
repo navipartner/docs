@@ -21,5 +21,5 @@ To create new buttons in the POS menu, follow the provided steps:
 2. Select one of the menus from the list, and click **Buttons** in the ribbon.    
    The button will be located in that menu when the POS is opened.
 3. Click **New**.
-4. Insert the [necessary data]({{< ref "../../reference/menu_button_ref/index.md" >}}) for a button.       
+4. Insert the [<ins>necessary data<ins>]({{< ref "../../reference/menu_button_ref/index.md" >}}) for a button.       
   All data you provide is automatically saved. 

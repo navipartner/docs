@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Although the Pepper package already contains a short list of terminals, you may need to add your own terminal types as well. The information for the Pepper Terminal Type can be found on [Treibauf](https://www.treibauf.ch/en/terminal-type-search/).
+Although the Pepper package already contains a short list of terminals, you may need to add your own terminal types as well. The information for the Pepper Terminal Type can be found on [<ins>Treibauf<ins>](https://www.treibauf.ch/en/terminal-type-search/).
 
 
 To set up a new **Pepper Terminal Type** for a **Lane/3000** terminal, which is **Pepper Terminal Type 96**, follow the provided steps:
@@ -33,4 +33,4 @@ To set up a new **Pepper Terminal Type** for a **Lane/3000** terminal, which is 
 
 ## Next steps 
 
-- [Set up Pepper terminals individually with the created Pepper terminal type]({{< ref "../pepper_terminal/index.md" >}})
+- [<ins>Set up Pepper terminals individually with the created Pepper terminal type<ins>]({{< ref "../pepper_terminal/index.md" >}})

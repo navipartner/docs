@@ -20,10 +20,10 @@ To set up the Nets Easy payment integration in NP Retail, make sure the prerequi
 ## Prerequisite
 
 - Create a Nets Easy account.        
-    Follow the [Nets Easy setup](https://developers.nets.eu/nets-easy/en-EU/docs/create-nets-easy-portal-account/) guide to create a Nets Easy account.
+    Follow the [<ins>Nets Easy setup<ins>](https://developers.nets.eu/nets-easy/en-EU/docs/create-nets-easy-portal-account/) guide to create a Nets Easy account.
 
 - Acquire the API key information.    
-    The API keys are necessary for testing and using Nets Easy, and making the integration secure. Two sets of integration keys are generated - one for the test environment and one for the production environment. Refer to the [integration key setup guide](https://developers.nets.eu/nets-easy/en-EU/docs/access-your-integration-keys/) to obtain your keys. Note that Business Central requires the **Secret Key**.
+    The API keys are necessary for testing and using Nets Easy, and making the integration secure. Two sets of integration keys are generated - one for the test environment and one for the production environment. Refer to the [<ins>integration key setup guide<ins>](https://developers.nets.eu/nets-easy/en-EU/docs/access-your-integration-keys/) to obtain your keys. Note that Business Central requires the **Secret Key**.
 
 ## Procedure
 

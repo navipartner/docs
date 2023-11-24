@@ -19,7 +19,7 @@ To set up integration with Shipmondo, follow the provided steps on the Shipmondo
 
 ## Procedure on Shipmondo website
 
-1. Navigate to the [Shipmondo website](https://shipmondo.com/), and create a new account.     
+1. Navigate to the [<ins>Shipmondo website<ins>](https://shipmondo.com/), and create a new account.     
 2. Once the account is created and you're logged in, click on your company username in the top right corner of the page.     
    A dropdown list is displayed with all available account options.
 3. Click **Add Funds**, and provide the amount you wish to add in the pop-up window that is displayed.
@@ -69,4 +69,4 @@ To set up integration with Shipmondo, follow the provided steps on the Shipmondo
 
 ## Next steps - Test connection
 
-If you need assistance in testing the connection between Shipmondo and your Business Central environment, refer to the guide for [Testing connection with Shipmondo]({{< ref "../test_shipmondo/index.md" >}}).
+If you need assistance in testing the connection between Shipmondo and your Business Central environment, refer to the guide for [<ins>Testing connection with Shipmondo<ins>]({{< ref "../test_shipmondo/index.md" >}}).

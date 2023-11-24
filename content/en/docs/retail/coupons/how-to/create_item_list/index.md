@@ -20,7 +20,7 @@ If you wish to create a list of items to be used as a base for applying discount
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Coupon Type** and choose the related link.         
    A list of all existing coupon types is displayed.
 2. Click **New** to open a **Coupon Type Card**.
-3. Populate the fields and options, and use one of the [recommended discount coupon setups]({{< ref "../discount_coupon_usecases/index.md" >}}) as reference. 
+3. Populate the fields and options, and use one of the [<ins>recommended discount coupon setups<ins>]({{< ref "../discount_coupon_usecases/index.md" >}}) as reference. 
 4. Click **Setup** in the ribbon, followed by **Setup Apply Discount**.    
    The **Coupon List Items** is displayed.
 5. Click **Add Items** and use the available filters to find and add the items you wish to be discounted.      

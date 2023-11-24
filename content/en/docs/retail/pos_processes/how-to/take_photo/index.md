@@ -19,7 +19,7 @@ The **Take Photo** feature can be enabled on POS units, and give an option to ca
 
 ## Prerequisites
 
-- Add the **Take Photo** [button to the POS menu]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
+- Add the **Take Photo** [<ins>button to the POS menu<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
   The action you need to attach to the button is **TAKE_PHOTO**.
 
 ## Procedure

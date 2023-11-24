@@ -27,7 +27,7 @@ NP Retail is audited by InfoCert and our certification details are:
 ## Platform
 
 The platform that NP Retail is running inside of is the ERP system known as Microsoft Dynamics 365 Business Central.  
-Microsoft manages the French ERP NF 203 compliance. See their [documentation](https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/france/france-local-functionality) for more info.
+Microsoft manages the French ERP NF 203 compliance. See their [<ins>documentation<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/france/france-local-functionality) for more info.
 
 The NP Retail compliance is specifically focused on the point of sale (POS) requirements, known as NF 525.  
 
@@ -43,11 +43,11 @@ The minor increases when there are bugfixes or small adjustments in the NF 525 r
 
 ## Software Deployment
 
-The NP Retail releases are deployed via Microsoft AppSource. The process is described in more detail on their [documentation website](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps). 
+The NP Retail releases are deployed via Microsoft AppSource. The process is described in more detail on their [<ins>documentation website<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps). 
 
 When a customer or a partner installs NP Retail via Microsoft AppSource, Microsoft is performing both the notarization and validation of NaviPartner's submitted releases, guaranteeing that customers are only able to install our releases, and not counterfeits.
 
-All of our release binaries submitted to Microsoft are also code-signed first with a certificate purchased from https://trustzone.com/, as per the steps detailed in [this article](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-sign-extension). 
+All of our release binaries submitted to Microsoft are also code-signed first with a certificate purchased from https://trustzone.com/, as per the steps detailed in [<ins>this article<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-sign-extension). 
  
 ## Automated Testing
 
@@ -236,5 +236,5 @@ If broken, it will point to the specific entry where the chain has been broken.
 NPRetail comes with pre-defined print templates that must be configured for NF 525 compliance. 
 Requirements for the print-out include version numbers, reprint number, specific sequential numbers, specific VAT breakdown in columns and more.
 
-See the [Set up NP Retail fiscalization compliance - France]({{< ref "compliance_setup.md" >}}) article for more details on configuring the correct templates.
+See the [<ins>Set up NP Retail fiscalization compliance - France<ins>]({{< ref "compliance_setup.md" >}}) article for more details on configuring the correct templates.
 

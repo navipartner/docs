@@ -46,7 +46,7 @@ To set up the POS unit for self-service, you need to take the following steps:
 
 ### POS view setup
 
-The [POS view](../reference/POS_view_profile.md) is configured according to what you require to see on the screen, but for the self-service environment, there are additional features that need to be considered:
+The [<ins>POS view<ins>](../reference/POS_view_profile.md) is configured according to what you require to see on the screen, but for the self-service environment, there are additional features that need to be considered:
 
 #### Timeout
 
@@ -248,12 +248,12 @@ This hardware is usually self-contained and free-standing, unlike the usual POS 
 
 #### FLEXI Outdoor Kiosk
 
-The [FLEXI Outdoor Wall (Newline)](https://www.conceptkiosk.com/product/flexi-outdoor-wall-newline/) is a wall-mounted interactive kiosk based on the FLEXI Outdoor unit. This unit is customizable with many of the same components as the FLEXI Outdoor, and the Access Gate editions, despite the smaller size. 
+The [<ins>FLEXI Outdoor Wall (Newline)<ins>](https://www.conceptkiosk.com/product/flexi-outdoor-wall-newline/) is a wall-mounted interactive kiosk based on the FLEXI Outdoor unit. This unit is customizable with many of the same components as the FLEXI Outdoor, and the Access Gate editions, despite the smaller size. 
 
 #### Adyen payment terminal
 
-For always-on or afterhours self-service, the [Adyen](https://www.adyen.com/pos-payments/terminals/verifone-ux-series) UX series is ready to accept payments at any time. It's built with the outdoors and anti-tamper measures in mind to protect information from the elements. 
+For always-on or afterhours self-service, the [<ins>Adyen<ins>](https://www.adyen.com/pos-payments/terminals/verifone-ux-series) UX series is ready to accept payments at any time. It's built with the outdoors and anti-tamper measures in mind to protect information from the elements. 
 
 #### Boca printer
 
-The [Lemur-X](https://tls-bocasystems.com/en/788/lemur-x/) is one of our smallest desktop ticket and label printers. Boca systems offer the Lemur-X as a standard with an adjustable 2''-3.25'' 200 dpi print width, cutter unit, and serial & USB interfaces. The LEDs provide feedback in error conditions. The printer allows you to print on ticket stock with a maximum thickness up to .010''.
+The [<ins>Lemur-X<ins>](https://tls-bocasystems.com/en/788/lemur-x/) is one of our smallest desktop ticket and label printers. Boca systems offer the Lemur-X as a standard with an adjustable 2''-3.25'' 200 dpi print width, cutter unit, and serial & USB interfaces. The LEDs provide feedback in error conditions. The printer allows you to print on ticket stock with a maximum thickness up to .010''.

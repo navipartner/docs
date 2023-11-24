@@ -24,7 +24,7 @@ To create client attributes, follow the provided steps:
 2. Define in which table this client attribute is going to be used, and associate the client attribute to a table in the **Lookup Table ID** field.     
    It will then appear on the card that is associated with that table.       
    For example, if we select the table **17 - Items**, the **Client Attributes** will be displayed in the **Extra Fields** section of the **Item Card**.
-3. Populate all the necessary [fields]({{< ref "../../reference/client_attributes_ref.md" >}}).
+3. Populate all the necessary [<ins>fields<ins>]({{< ref "../../reference/client_attributes_ref.md" >}}).
 4. Open the **Client Attribute IDs** section by clicking **Attribute ID** in the **Related** dropdown in the ribbon to define on which tables the attribute will be attached.
 5. If you're not using the existing table values, you can define your own set of values to be used in a client attribute. 
 6. Define the associated values in **Client Attribute Value Lookup** (reached via the **Related** dropdown in the ribbon) where needed.    

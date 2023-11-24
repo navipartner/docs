@@ -40,7 +40,7 @@ This codeunit is used for updating the records by posting transactions from the 
 ## Codeunit 6059770; NPR POS Post Item Entries JQ
 
 This codeunit is used for updating inventory by posting Item entries from the **POS Entry List** to the **Item Ledger Entry** and **Value Entry Tables** in Business Central. Since it’s necessary to keep the stock up to date, it’s recommended to set this sequence to occur at least every minute.
-For more details on the above Job Queues, refer to the [Job queue how-to guide]({{< ref "../../how-to/job_queue/index.md" >}}).
+For more details on the above Job Queues, refer to the [<ins>Job queue how-to guide<ins>]({{< ref "../../how-to/job_queue/index.md" >}}).
 
 ## Codeunit 6014688; NPR TM Retention Ticket Data
 

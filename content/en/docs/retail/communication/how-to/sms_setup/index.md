@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-This topic describes the process of configuring the [SMS Setup](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email) in Business Central. As soon as the necessary setup is completed, the SMS functionality can be used.
+This topic describes the process of configuring the [<ins>SMS Setup<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email) in Business Central. As soon as the necessary setup is completed, the SMS functionality can be used.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ This topic describes the process of configuring the [SMS Setup](https://learn.mi
 ## Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **SMS Setup** and open the related link.      
-   You can use the [reference guide]({{< ref "../../reference/sms_ref/index.md" >}}) to learn what the purpose of each field in the **SMS Setup Card** is. 
+   You can use the [<ins>reference guide<ins>]({{< ref "../../reference/sms_ref/index.md" >}}) to learn what the purpose of each field in the **SMS Setup Card** is. 
 2. In the **General** section make a selection of the **SMS Provider** in the adequate field.       
    The content of the following tab will be different depending on your selection in the **SMS Provider** field.
 3. Specify the time until the message gets discarded in the **Discard Msg. Older Than \[Hrs]** field.

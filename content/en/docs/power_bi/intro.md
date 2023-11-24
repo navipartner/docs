@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-[Business Intelligence](https://powerbi.microsoft.com/en-us/what-is-business-intelligence/) is a set of technologies and tools that help companies to perform in-depth analyses of the most important business segments and consequently to bring the right decision. Six key areas that can benefit from using BI reports are:
+[<ins>Business Intelligence<ins>](https://powerbi.microsoft.com/en-us/what-is-business-intelligence/) is a set of technologies and tools that help companies to perform in-depth analyses of the most important business segments and consequently to bring the right decision. Six key areas that can benefit from using BI reports are:
 
 - Customer experience
 - Sales and marketing
@@ -44,3 +44,10 @@ For shops that use a device for counting the number of visitors, it is possible 
 
 Possibilities are countless, which gives us the freedom to create solutions that meet customers’ needs.
 
+## Report variant pricing
+
+The following table contains the pricing options for all available report variants: 
+
+![power_bi_variant_pricing](power_bi_variant_pricing.PNG)
+
+You can also [<ins>**download**<ins>](prices_and_packaging.pdf) a more detailed Pricing and Packaging overview.

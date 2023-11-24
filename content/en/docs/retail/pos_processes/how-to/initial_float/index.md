@@ -18,8 +18,8 @@ type: docs
 A float is an amount of cash that needs to be available in the cash register at the beginning of each workday. To set up the initial float for POS units, follow the provided steps: 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Payment Bin**, and choose the related link.     
-2. Select the [**POS Payment Bin**]({{< ref "../payment_bins/index.md" >}}) that you want to assign Initial float and click **Insert Initial Float** in the ribbon.      
-    A window with all available [POS payment methods]({{< ref "../create_payment_method/index.md" >}}) is displayed.
+2. Select the [<ins>**POS Payment Bin**<ins>]({{< ref "../payment_bins/index.md" >}}) that you want to assign Initial float and click **Insert Initial Float** in the ribbon.      
+    A window with all available [<ins>POS payment methods<ins>]({{< ref "../create_payment_method/index.md" >}}) is displayed.
 
 {{< alert icon="📝" text="You can set a filter on the payment methods that you want to count in the balancing screen, so that you reduce the amount of records in the list."/>}}
 
@@ -29,4 +29,4 @@ A float is an amount of cash that needs to be available in the cash register at 
 
 ## Troubleshooting
 
-[Initial float troubleshooting]({{< ref "../../../../troubleshooting/initial_float.md" >}})
+[<ins>Initial float troubleshooting<ins>]({{< ref "../../../../troubleshooting/initial_float.md" >}})

@@ -27,7 +27,7 @@ There's two methods for setting up an opening mechanism for a cash drawer:
 ### Prerequisites
 
 - Have at least one existing POS unit in the system.
-- Have a [POS payment bin]({{< ref "../payment_bins/index.md" >}}) linked to the POS unit.
+- Have a [<ins>POS payment bin<ins>]({{< ref "../payment_bins/index.md" >}}) linked to the POS unit.
 - Have the cash drawer connected to the receipt printer.  
 
   {{< alert icon="💡" text="The cable between the cash drawer and receipt printer needs to be installed correctly. The end with the label <b>Printer</b> has to go into the receipt printer."/>}}
@@ -57,7 +57,7 @@ This topic section walks you through the process of setting up the POS Payment B
 - Have at least one POS unit.
 - Have a POS payment bin attached to the POS unit.
 - Have the cash drawer driver installed for the specific cash drawer. 
-- Have the OPOS CCO installed ([the 1.14.001 CCO installer](http://monroecs.com/oposccos_current.htm)).
+- Have the OPOS CCO installed ([<ins>the 1.14.001 CCO installer<ins>](http://monroecs.com/oposccos_current.htm)).
 
 {{< alert icon="💡" text="Since different drivers are used for opening and handling cash drawers, there are different ways in which you can locate the name of the cash drawer locally on the POS. You can either set the <b>Logical Device Name</b> in the <b>Cash Drawer Driver</b> or in the <b>Registry Editor</b>."/>}}
 

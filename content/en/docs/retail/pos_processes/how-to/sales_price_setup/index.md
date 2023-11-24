@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-You can define [prices]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the **Unit Price**.
+You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the **Unit Price**.
 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Sales Price List**, and choose the related link. 

@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The [GS1 system](https://www.gs1us.org/upcs-barcodes-prefixes/additional-ways-to-identify-products/coupons) is widely used in the retail industry and the trade sector. It provides keys which ensure unambiguous identification of goods, services, assets, locations etc. worldwide. These keys are represented by data carriers like barcodes placed on coupons which in turn allow customers to gain certain discounts for purchasing goods.
+The [<ins>GS1 system<ins>](https://www.gs1us.org/upcs-barcodes-prefixes/additional-ways-to-identify-products/coupons) is widely used in the retail industry and the trade sector. It provides keys which ensure unambiguous identification of goods, services, assets, locations etc. worldwide. These keys are represented by data carriers like barcodes placed on coupons which in turn allow customers to gain certain discounts for purchasing goods.
 
 {{< alert icon="📝" text="The GS1 system ensures that each coupon number is unique when used within the monetary area of the appropriate GS1 monetary organization."/>}}
 

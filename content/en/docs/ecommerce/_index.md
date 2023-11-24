@@ -1,5 +1,5 @@
 ---
-title: "Ecommerce"
+title: "E-commerce"
 description: ""
 lead: ""
 date: 2023-07-18T10:47:13+02:00
