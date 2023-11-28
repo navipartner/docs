@@ -22,3 +22,4 @@ To learn how to achieve compliance with fiscalization requirements imposed by fi
 - [<ins>Fiscalization compliance - Sweden<ins>]({{< ref "sweden/setup.md" >}})
 - [<ins>Fiscalization compliance - Norway<ins>]({{< ref "norway/setup.md" >}})
 - [<ins>Fiscalization compliance - Croatia<ins>]({{< ref "croatia/setup.md" >}})
+- [<ins>Fiscalization compliance - Serbia<ins>]({{< ref "serbia/setup.md" >}})

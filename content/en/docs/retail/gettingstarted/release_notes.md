@@ -17,17 +17,17 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
-## Version 27.0 (November 28th 2023)
+## Version 28.0 (November 28th 2023)
 
 ### Fiscalization compliance with Serbian fiscal laws
 
-As of the version 27, NP Retail will be compliant with Serbian fiscal laws.
+As of the version 28, NP Retail will be compliant with Serbian fiscal laws.
 
 For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Serbia<ins>]({{< ref "../fiscalization/serbia/setup.md" >}}).
 
 ### Fiscalization compliance with Croatian fiscal laws
 
-As of the version 27, NP Retail will be compliant with Croatian fiscal laws.
+As of the version 28, NP Retail will be compliant with Croatian fiscal laws.
 
 For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Croatia<ins>]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
@@ -42,7 +42,7 @@ For more information and operating instructions refer to the article on [<ins>Fi
    ![color_picker](color_picker.PNG)
 
 
-## Version 26.0 (October 28th 2023)
+## Version 27.0 (October 28th 2023)
 
 ### POS Sale Document Background posting
 
@@ -78,7 +78,7 @@ This new feature gives you the option of easily forwarding such information to t
 
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
 
-## Version 25.0 (September 28th 2023)
+## Version 26.0 (September 28th 2023)
 
 ### Restaurant module improvements
 
@@ -106,7 +106,7 @@ For more information and operating instructions refer to the article on [<ins>Az
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K3E4beZycI0?si=L9cRlryy4cbs3ajh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
 
-## Version 24.0 (August 28th 2023)
+## Version 25.0 (August 28th 2023)
 
 ### Total discounts
 
@@ -126,7 +126,7 @@ A new feature which allows users to change the number of rows and columns in the
 
 We are currently working on making our POS solution compliant with Serbian fiscal laws.
 
-## Version 23.0 (June 14th 2023)
+## Version 24.0 (June 14th 2023)
 
 ### Getting Started Wizard 
 
