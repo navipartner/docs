@@ -31,6 +31,12 @@ As of the version 28, NP Retail will be compliant with Croatian fiscal laws.
 
 For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Croatia<ins>]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
+### Fiscalization compliance with Croatian fiscal laws
+
+As of the version 28, NP Retail will be compliant with Slovenian fiscal laws.
+
+For more information refer to the article on [<ins>Fiscalization overview - Slovenia<ins>]({{< ref "../fiscalization/slovenia/intro.md" >}}).
+
 ### POS editor visual improvements
 
 - A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
