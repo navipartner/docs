@@ -31,7 +31,7 @@ As of the version 28, NP Retail will be compliant with Croatian fiscal laws.
 
 For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Croatia<ins>]({{< ref "../fiscalization/croatia/setup.md" >}}).
 
-### Fiscalization compliance with Croatian fiscal laws
+### Fiscalization compliance with Slovenian fiscal laws
 
 As of the version 28, NP Retail will be compliant with Slovenian fiscal laws.
 
