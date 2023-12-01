@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup-40843c64f0f9f80aae276c880653cdcc"
-weight: 999
+weight: 179
 toc: true
 type: docs
 ---
@@ -44,4 +44,4 @@ This article details how to configure NP Retail for compliance with Slovenian fi
 7. Make sure the **Salesperson/Purchaser Card** contains a cashier **Name** that is displayed on the fiscal receipt.
 8. Provide the **Salesperson Tax Number** that consists of at least 8 characters.      
    The salesperson tax number is a mandatory segment of the XML message.
-9. Make sure the **Salespersons ID** (Cashier ID) is transparent on the fiscal receipt, and sent as such to the TA in the XML message.  
+9. Make sure the **Salesperson ID** (Cashier ID) is transparent on the fiscal receipt, and sent as such to the TA in the XML message.  
