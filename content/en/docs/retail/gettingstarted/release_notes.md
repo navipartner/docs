@@ -37,6 +37,12 @@ As of the version 28, NP Retail will be compliant with Slovenian fiscal laws.
 
 For more information refer to the article on [<ins>Fiscalization overview - Slovenia<ins>]({{< ref "../fiscalization/slovenia/intro.md" >}}).
 
+### Fiscalization compliance with Bulgarian fiscal laws
+
+As of the version 28, NP Retail will be compliant with Bulgarian fiscal laws.
+
+For more information refer to the article on [<ins>Fiscalization compliance setup - Bulgaria<ins>]({{< ref "../fiscalization/bulgaria/setup/index.md" >}}).
+
 ### POS editor visual improvements
 
 - A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
@@ -75,6 +81,8 @@ For more information, examples, and operating instructions refer to the article 
 
 The prepayment feature has been adapted to support the requirement of the Serbian fiscal law to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTMgz5-8tCQ?si=Z7AWxCCwWTJT4Z15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## VAT report feature - Serbia
 
@@ -83,6 +91,8 @@ In accordance with the Serbian VAT regulations, it is necessary to store the dat
 This new feature gives you the option of easily forwarding such information to the TA (Tax Authority). Each time the invoices are posted, all the accompanying information is recorded in the POPDV report as is legally required. 
 
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_FMOfDBBYVc?si=K432wKmnsMw7_djZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Version 26.0 (September 28th 2023)
 
