@@ -39,3 +39,34 @@ This article details how to configure NP Retail for compliance with Bulgarian fi
 11. On the **POS Payment Method Card** for the cash sales, set the maximum amount to **9.999,99**, as is required by the Bulgarian fiscal law.
 12. Navigate to the **POS Audit Profile**, and enable the **Require Item Return Reason** toggle switch, so that every time a return sale is created, it's necessary to provide a return reason.
 13. Navigate to the **BG SIS Return Reason Mapping** page to select the possible reasons for returning an item from the **BG SIS Return Reason** dropdown list. You also need to provide the accompanying **Return Reason Code**.
+
+## Next steps - Before logging into POS
+
+### Refresh fiscal printer info
+
+1. Navigate to the **POS Menu** administrative section in Business Central.
+2. Find **SYSTEM_MENU_LEFT** in the list, and click **Buttons** in the ribbon.
+3. Name the action (Refresh Fiscal Printer Info), set the action type to **Action**, and provide the **Action Code** - **BG_FISCALPRINTER_MGT**.      
+   The changes are automatically saved.
+
+  ![bg_fisc4](Images/bg_fisc4.PNG)   
+
+4. Open the POS.
+5. Before logging in, click **System Setup**, and run the **Refresh Fiscal Printer Info** action. 
+  
+  ![bg_fisc2](Images/bg_fisc2.PNG)   
+
+  Additional information on the fiscal printer (**Fiscal Printer Device No.** and **Fiscal Printer Memory No.**) will be automatically populated when the IP address of the printer is entered.
+
+  ![bg_fisc3](Images/bg_fisc3.PNG)   
+
+### Set the cashier
+
+1. Navigate to the **POS Menu** administrative section in Business Central.
+2. Find **SYSTEM_MENU_LEFT** in the list, and click **Buttons** in the ribbon.
+3. Name the action (Refresh Fiscal Printer Info), set the action type to **Action**, and provide the **Action Code** - **BG_FP_CASHIER_MGT**.      
+4. Set the parameter value for this action to **setCashier**. 
+   The changes are automatically saved.
+5. Open the POS.
+6. Click **System Setup**, and select the cashier that will have access to the given POS unit from the list of salespeople that is displayed.     
+   This process needs to be done only once per a salesperson.
