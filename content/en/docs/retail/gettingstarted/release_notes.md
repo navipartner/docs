@@ -19,6 +19,14 @@ Learn which new features and improvements have been introduced in the newest ver
 
 ## Version 28.0 (November 28th 2023)
 
+### Belgian eID reader for POS
+
+The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers discounts or vouchers. The POS operator can now read Belgian electronic identity cards to retrieve customers' data. The retrieved information is stored in Business Central, and can be processed to link the customer to their purchases. Loyalty cards like MyFreedelity.be serve as a real-life example of such feature. 
+
+{{< alert icon="📝" text="Additional setup is required for establishing proper implementation on how the customer's data should be processed. There is no default behavior, as every retailer might require different data and/or a different way of processing it."/>}}
+
+For more information and operating instructions refer to the article on [<ins>Adding Belgian eID feature to POS<ins>]({{< ref "../vouchers/how-to/belgian_eid.md" >}}).
+
 ### Fiscalization compliance with Serbian fiscal laws
 
 As of the version 28, NP Retail will be compliant with Serbian fiscal laws.
