@@ -21,9 +21,9 @@ Learn which new features and improvements have been introduced in the newest ver
 
 ### Belgian eID reader for POS
 
-The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers discounts or vouchers. The POS operator can now read Belgian electronic identity cards to retrieve customers' data. The retrieved information is stored in Business Central, and can be processed to link the customer to their purchases. Loyalty cards like MyFreedelity.be serve as a real-life example of such feature. 
+The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers discounts or vouchers. The POS operator can now read Belgian electronic identity cards to retrieve customers' data. The retrieved data is stored in Business Central, and can be processed to link the customer to their purchases.
 
-{{< alert icon="📝" text="Additional setup is required for establishing proper implementation on how the customer's data should be processed. There is no default behavior, as every retailer might require different data and/or a different way of processing it."/>}}
+{{< alert icon="📝" text="Additional setup is required for establishing proper implementation on how the customer's data should be processed. There is no default behavior, as each retailer may require different data and/or a different way of processing it."/>}}
 
 For more information and operating instructions refer to the article on [<ins>Adding Belgian eID feature to POS<ins>]({{< ref "../vouchers/how-to/belgian_eid.md" >}}).
 
