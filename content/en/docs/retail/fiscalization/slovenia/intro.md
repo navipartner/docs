@@ -24,11 +24,11 @@ Every transaction can be carried out with the payment methods that are defined b
 The following processes and entities are supported:
 
 - Sale
--	Voucher handling
--	Discount applying
+-	Vouchers
+-	Discounts 
 -	Returns
 -	Cancellation
 -	Multiple payment methods for a single transaction
 -	Sale and return in a single transaction
--	Receipt copy
--	POS out of order handling
+-	Receipt copies
+-	POS out-of-order handling

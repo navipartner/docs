@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup-ccfcc520380e9ad6a67348f684c08f04"
-weight: 181
+weight: 182
 toc: true
 type: docs
 ---
@@ -40,13 +40,13 @@ This article details how to configure NP Retail for compliance with Bulgarian fi
 12. Navigate to the **POS Audit Profile**, and enable the **Require Item Return Reason** toggle switch, so that every time a return sale is created, it's necessary to provide a return reason.
 13. Navigate to the **BG SIS Return Reason Mapping** page to select the possible reasons for returning an item from the **BG SIS Return Reason** dropdown list. You also need to provide the accompanying **Return Reason Code**.
 
-## Next steps - Before logging into POS
+## Next steps - Create POS actions
 
 ### Refresh fiscal printer info
 
 1. Navigate to the **POS Menu** administrative section in Business Central.
 2. Find **SYSTEM_MENU_LEFT** in the list, and click **Buttons** in the ribbon.
-3. Name the action (Refresh Fiscal Printer Info), set the action type to **Action**, and provide the **Action Code** - **BG_FISCALPRINTER_MGT**.      
+3. Name the action (*Refresh Fiscal Printer Info*), set the action type to **Action**, and provide the **Action Code** - **BG_FISCALPRINTER_MGT**.      
    The changes are automatically saved.
 
   ![bg_fisc4](Images/bg_fisc4.PNG)   
@@ -64,9 +64,22 @@ This article details how to configure NP Retail for compliance with Bulgarian fi
 
 1. Navigate to the **POS Menu** administrative section in Business Central.
 2. Find **SYSTEM_MENU_LEFT** in the list, and click **Buttons** in the ribbon.
-3. Name the action (Refresh Fiscal Printer Info), set the action type to **Action**, and provide the **Action Code** - **BG_FP_CASHIER_MGT**.      
+3. Name the action (*Set Cashier*), set the action type to **Action**, and provide the **Action Code** - **BG_FP_CASHIER_MGT**.      
 4. Set the parameter value for this action to **setCashier**. 
    The changes are automatically saved.
 5. Open the POS.
-6. Click **System Setup**, and select the cashier that will have access to the given POS unit from the list of salespeople that is displayed.     
+6. Press **System Setup**, and select the cashier that will have access to the given POS unit from the list of salespeople that is displayed.     
    This process needs to be done only once per a salesperson.
+
+### Delete the cashier
+
+The cashier can be deleted, and their access to the POS unit can be revoked. They can be deleted only if they haven't completed any sales during the day. If they have, they can be deleted after the POS balancing is performed. 
+
+1. Navigate to the **POS Menu** administrative section in Business Central.
+2. Find **SYSTEM_MENU_LEFT** in the list, and click **Buttons** in the ribbon.
+3. Name the action (*Delete Cashier*), set the action type to **Action**, and provide the **Action Code** - **BG_FP_CASHIER_MGT**.      
+4. Set the parameter value for this action to **deleteCashier**. 
+5. Open the POS.
+6. Press **System Setup**, followed by **Delete Cashier**.     
+   The list of salespeople is displayed.
+7. Select which salesperson needs to be deleted.
