@@ -46,7 +46,8 @@ NP Retail is integrated with the following solutions:
 
 ## Magento
 
-- [<ins>Create Azure Active Directory Application<ins>]({{< ref "magento/how-to/azure_directory/index.md" >}})
+- [<ins>Integrate Magento and Business Central SaaS<ins>]({{< ref "magento/how-to/azure_directory/index.md" >}})
+- [<ins>Create Azure Active Directory Application<ins>]({{< ref "magento/how-to/magento-bc/index.md" >}})
 
 ## HeyLoyalty
 
