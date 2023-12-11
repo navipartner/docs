@@ -27,6 +27,14 @@ The Belgian eID feature enables retailers to integrate with different loyalty se
 
 For more information and operating instructions refer to the article on [<ins>Adding Belgian eID feature to POS<ins>]({{< ref "../vouchers/how-to/belgian_eid.md" >}}).
 
+## POS Payment View Event Setup updates
+
+The following improvements have been added to the **POS Payment View Event Setup** administrative section:
+
+  - A new **Show Only for Selected POS Units** toggle switch has been added. If enabled, the **POS Unit Filter** panel is displayed, and you can use it to specify which POS units will bring up the Dimension pop-up when the payment is supposed to be processed.
+  - The **POS Unit Filter** panel has replaced the **POS Scenarios Profile**, so you're no longer required to perform individual setup for payments on each POS unit separately.
+  - When you press the payment button, the payment pop-up is displayed, whereas in the previous releases, you would move from the **Sales** view to the **Payment** view to achieve the same result by default.
+
 ### Fiscalization compliance with Serbian fiscal laws
 
 As of the version 28, NP Retail will be compliant with Serbian fiscal laws.
