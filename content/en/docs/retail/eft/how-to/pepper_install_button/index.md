@@ -19,12 +19,11 @@ Before you can use Pepper on your POS, you need to set up the button on the POS 
 
 To set up a **Pepper** button in the **SALE-LEFT** part of the POS, follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Menus**, and choose the related link.         	
-2. Select **SALE-LEFT** and press **Buttons**.
-3. Go to a new line and provide **Pepper install** in the **Caption**.
-4. In the **Action Type** dropdown select the **Action** type.
-5. In the **Action Code** click ![Elipsis icon](elipsis_icon.png) to open the available **POS Actions**. 
-6. Search for Pepper and select the **EFT_PEPPER_INSTALL POS** action.       
-    Searching for Pepper retrieves a few other actions that can be used with Pepper terminals, such as **Open** and **Close**.
-
-    Since the **POS Action** doesn’t have any further parameters, the button is now set up. You can now install Pepper locally through the POS.
+1. Open the POS unit on which you wish to add the button.
+2. Open the POS editor by pressing the <image src="Images/cog.PNG" width="30" height="30"> icon.    
+   The edit mode is enabled.
+3. Press the cell in the **SALE-LEFT** part of the POS screen in which you wish to place the button, followed by **Edit** in the dropdown.
+4. Add the **Caption**, and open the **Action** dropdown list.
+5. Search for Pepper and select the **EFT_PEPPER_INSTALL** action.       
+6. Press **Save**, and exit the edit mode.
+   Since the **POS Action** doesn’t have any further parameters, the button is now set up. You can now install Pepper locally through the POS.
