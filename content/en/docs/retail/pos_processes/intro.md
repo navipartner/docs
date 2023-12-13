@@ -35,8 +35,6 @@ Refer to our guides, references, and educational articles for all essential POS 
 - [<ins>Set up salespeople/purchasers<ins>]({{< ref "how-to/salespeople/index.md" >}})
 - [<ins>Create POS menu filters<ins>]({{< ref "../pos_layout/how-to/menu_filters/index.md" >}})
 - [<ins>Create new buttons in the POS menu<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}})
-- [<ins>Create a new item button in the POS<ins>]({{< ref "../pos_layout/how-to/new_item_button/index.md" >}})
-- [<ins>Create a POS theme<ins>]({{< ref "../pos_layout/how-to/pos_theme/index.md" >}})
 - [<ins>Add a logo to the POS screen<ins>]({{< ref "how-to/logo/index.md" >}})
 - [<ins>Create a POS payment method<ins>]({{< ref "how-to/create_payment_method/index.md" >}})
 - [<ins>Set up item add-ons<ins>]({{< ref "how-to/item_addon/index.md" >}})
@@ -45,7 +43,6 @@ Refer to our guides, references, and educational articles for all essential POS 
 - [<ins>Configure an opening mechanism for a POS unit cash drawer<ins>]({{< ref "how-to/cash_drawer_open/index.md" >}})
 - [<ins>Set up price worksheet<ins>]({{< ref "how-to/price_worksheet_setup/index.md" >}})
 - [<ins>Configure a receipt printout for a POS unit<ins>]({{< ref "how-to/receipt_printout/index.md" >}})
-- [<ins>Activate POS editor<ins>]({{< ref "how-to/activate_pos_editor/index.md" >}})
 - [<ins>Change a bin from the POS sale<ins>]({{< ref "how-to/change_bin/index.md" >}})
 - [<ins>Return items with the second POS screen<ins>]({{< ref "how-to/display2/index.md" >}})
 - [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "how-to/generate_eod/index.md" >}})
@@ -66,7 +63,6 @@ Refer to our guides, references, and educational articles for all essential POS 
 - [<ins>POS Unit Display<ins>]({{< ref "reference/pos_display_ref/index.md" >}})
 - [<ins>POS info card<ins>]({{< ref "reference/pos_info_card_ref/index.md" >}})
 - [<ins>Sales price maintenance<ins>]({{< ref "reference/sales_price_maintenance/index.md" >}})
-- [<ins>POS Menu Buttons Setup<ins>]({{< ref "../pos_layout/reference/menu_button_ref/index.md" >}})
 - [<ins>SQL statements for Lookup POS action<ins>]({{< ref "../pos_layout/reference/sql_pos_action/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oQFDJ1WTdyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

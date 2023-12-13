@@ -36,8 +36,9 @@ To create POS menu filters, follow the provided steps:
 9. In the **POS Menu Filter** page, click **Display Filter** in the **Actions** dropdown to get the SQL format for the filter.     
     SORTING(No.) WHERE(Voucher Type=FILTER(CREDITVOUCHER),Open=FILTER(Yes))
 10. Click **Test & Activate** in the ribbon to check if everything is in order, and activate the selected behavior of the button.     
-    The results will be displayed in a page format. If you're satisfied with the filter, you can now go to the **Menu Buttons Setup** to configure the button.
-11. Set your caption for the button. Make sure that the selected **Action Type** is **Action** and that the POS action to run is set to **RUNOBJECT**. 
-12. In the **MenuFilterCode** field on the POS parameter, you need to set the **POS Menus Filter** you've created. 
+    The results will be displayed in a page format. 
+11. If you're satisfied with the filter, you can open the POS to configure the button in the POS Editor.
+12. Set your caption for the button. Make sure that the selected **Action Type** is **Action** and that the POS action to run is set to **RUNOBJECT**. 
+13. In the **MenuFilterCode** field on the POS parameter, you need to set the **POS Menus Filter** you've created. 
 
 If you're having difficulty writing down a filter on any table in the SQL statement, you can always use the **POS Menu Filters** function to generate it, and then paste it on the POS action you're using, such as [<ins>LOOKUP<ins>]({{< ref "../../reference/sql_pos_action/index.md" >}})

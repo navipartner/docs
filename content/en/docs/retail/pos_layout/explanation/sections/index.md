@@ -78,10 +78,3 @@ It's possible to create a POS menu, and use it as a submenu in a POS button. In 
 
 ![pos_menu_sale_top](pos_menu_sale_top.png)
 
-## POS menus with different levels
-
-Inside a POS menu, you can set different levels for the buttons. The first level will be the main one, and all others will be placed lower than it in hierarchy. 
-
-![pos_buttons_setup_levels](pos_buttons_setup_levels.png)
-
-In this example, you will initially only see the button for **Statistics**, but once you click it, the next level is displayed.

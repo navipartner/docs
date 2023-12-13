@@ -61,7 +61,7 @@ For more information refer to the article on [<ins>Fiscalization compliance setu
 
 ### POS editor visual improvements
 
-- A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
+- A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
 
     ![classic6](classic6.PNG)
 
@@ -87,9 +87,9 @@ For more information, examples, and operating instructions refer to the article 
 
 ### MPOS Editor
 
-The [<ins>POS Editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
+The [<ins>POS Editor<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
 
-For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
+For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../pos_layout/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -220,7 +220,7 @@ For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< r
 
 With the new POS editor, POS buttons and actions can now be configured solely from within the POS UI no longer requiring accompanying setup in Business Central. This means that it's not necessary to leave the POS to change a button or a workflow parameter. Users will be able to see their changes being reflected instantly without jumping back and forth multiple windows. Consequently, the POS configuration is simplified and load time reduced.
 
-For operating instructions, refer to the article on [<ins>POS editor activation<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}})
+For operating instructions, refer to the article on [<ins>POS editor activation<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/adHwN8IQwI0?si=u-vQ8ojtqzGvLuin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

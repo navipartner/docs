@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "activate_mpos_editor-ac4607c92574e6a195635fd18c2b7ff9"
-weight: 111
+weight: 125
 toc: true
 type: docs
 ---
@@ -19,7 +19,7 @@ The MPOS editor gives users the option to set up POS actions and buttons directl
 
 #### Prerequisites
 
-- Enable the [<ins>POS Editor<ins>]({{< ref "../activate_pos_editor/" >}}) to be able to use the POS Layout Setup Wizard.
+- Enable the [<ins>POS Editor<ins>]({{< ref "../activate_pos_editor/index.md" >}}) to be able to use the POS Layout Setup Wizard.
 
 #### Procedure
 
