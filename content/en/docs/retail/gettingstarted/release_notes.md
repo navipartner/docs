@@ -17,6 +17,12 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
+## Version 29.0 (December 28th 2023)
+
+### Bin Transfer UI improvements
+
+The process of transferring cash in and out of bins from the POS has been optimized, and the dialog in which these actions are performed has been redesigned. 
+
 ## Version 28.0 (November 28th 2023)
 
 ### Belgian eID reader for POS
@@ -68,6 +74,8 @@ For more information refer to the article on [<ins>Fiscalization compliance setu
 - You can now also use the color picker to change the color of any button in the POS layout instead of having to manually paste the color hex value of your choice.
 
    ![color_picker](color_picker.PNG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ov6Reqshq70?si=6Qo3VrGeTiLT1-Wj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Version 27.0 (October 28th 2023)
