@@ -20,5 +20,5 @@ The POS editor gives users the option to set up POS actions and buttons directly
 2. Create a **New** layout with a **Code**, **Name**, and an adequate **Template** - e.g. **Classic1**.
 3. Navigate to the **POS Unit List**.
 4. Open a POS unit, and select the newly created layout from the **POS Layout Code** dropdown list.
-5. Open the POS, and [<ins>select the layout<ins>]({{< ref "../layout_wizard.md" >}}) that best suits your business needs.
+5. Open the POS, and [<ins>select the layout<ins>]({{< ref "../layout_wizard.md" >}}) that best suits your business needs.     
    A blank/empty layout without any buttons is displayed. If you wish to predefine buttons, follow the instructions in the **Next steps** section below.
