@@ -23,6 +23,8 @@ Learn which new features and improvements have been introduced in the newest ver
 
 The process of transferring cash in and out of bins from the POS has been optimized, and the dialog in which these actions are performed has been redesigned. 
 
+![transfer_bin_29](transfer_bin_29.png)
+
 ## Version 28.0 (November 28th 2023)
 
 ### Belgian eID reader for POS
