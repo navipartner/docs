@@ -15,25 +15,29 @@ toc: true
 type: docs
 ---
 
-To create new buttons in the MPOS menu, follow the provided steps:
+To create new buttons in the NP Retail POS mobile app, make sure the prerequisite is met, and follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Menus** and open the related link. 
-2. To add buttons to a menu, select the row in which the menu is and click **Buttons** in the ribbon.
-3. Click **New** and insert the necessary data for a button:
+#### Prerequisite
 
- Field Name      | Description |
-| ----------- | ----------- |
-| **Caption** | The caption that will appear on the button in the POS. |
-| **Tooltip** | The text that will be displayed if the cursor is placed on the button.
-| **Action type** | The type of action that will be triggered when someone clicks the button. There are five different types: popup menu, action, item, customer, and payment type. |
-| **Action code** | The code of the action that will be triggered by clicking the button. |
-| **Block** | This field needs to be checked if the action should be blocked. |
-| **Background Color** | The color of button in the POS unit. |
-| **Caption Position** | The position of the caption on the button (options – **Top**, **Center**, **Bottom**). |
-| **Position X** | The number of the position in the x axis of the menu where this button will be positioned. | 
-| **Position Y** | The number of the position in the y axis of the menu where this button will be positioned. |
-| **Enabled** | You can determine whether the field is enabled in the POS. If some of the necessary actions have been performed, the button will be enabled. For example, if the sales line is entered, the button **Delete Line** will be enabled. |
-| **POS unit No.** | If the button needs to be visible only in one POS unit, that POS unit's number needs to be stated here. | 
-| **Salesperson Code** | If the button needs to be seen only by one salesperson, the salesperson's code needs to be stated here. |
+- Activate the [<ins>MPOS editor<ins>]({{< ref "../activate_mpos_editor/index.md" >}}).
 
-All data is automatically saved. 
+#### Procedure
+
+1. Open the POS with the MPOS layout in which you want to create buttons from your desktop/browser version of Business Central.
+   
+   {{< alert icon="📝" text="Although you can't edit buttons and actions on your mobile device directly, all changes performed on the desktop are applied in the NP Retail POS mobile app upon reload."/>}}
+
+2. Open the [<ins>MPOS Editor<ins>]({{< ref "../../../pos_layout/explanation/pos_editor/index.md" >}}) by clicking <image src="Images/cog.PNG" width="30" height="30">.
+3. Click on an empty cell in the MPOS screen area you wish to add the button to, followed by **Edit** in the dropdown list that is displayed. You can also edit an existing button, as presented in the screenshot below.     
+   The **Edit Button** window is displayed. It contains various customizable elements for buttons.     
+
+   ![edit_mpos_button](Images/edit_mpos_button.PNG)
+
+4. Provide the **Caption**, and make sure you've attached the desired POS **Action** to it.     
+   If the POS action you need doesn't exist yet, you can [<ins>create it<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}).
+5. (Optional) You can also provide an image for the button background, change its color, and even add a password that will be required before the button’s action is triggered.
+6. Once you’re satisfied with your changes, click **Save**.     
+   The button is now displayed in the selected MPOS screen area.
+7. Open the NP Retail POS mobile app to view the changes on your mobile device.      
+   
+   {{< alert icon="📝" text="You may need to refresh the app for the changes to take effect."/>}}

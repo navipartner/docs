@@ -17,7 +17,9 @@ type: docs
 
 The POS Editor is a collection of options for customizing the POS screen, located in the ribbon up-top. It contains labels that correspond to customizable areas on the POS screen, such as Sale Lines and Totals.
 
-The following screen areas can be customized:
+{{< alert icon="📝" text="The POS Editor is also used for customizing the NP Retail POS mobile app layout."/>}}
+
+The following screen areas can be customized: 
 
 ### Grids
 
