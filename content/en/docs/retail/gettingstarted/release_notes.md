@@ -212,7 +212,7 @@ For more information and operating instructions, refer to the article on [<ins>M
 
 Our MPOS has undergone a complete UI overhaul, making the previous scaled-down version of the regular MPOS more modern and streamlined. 
 
-For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/mpos_view/index.md" >}}).
+For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ayTm-uh3sQs?si=PtrK5r-RYfDVE8hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

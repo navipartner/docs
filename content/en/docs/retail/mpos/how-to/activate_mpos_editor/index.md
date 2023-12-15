@@ -39,13 +39,23 @@ The MPOS editor gives users the option to set POS actions and buttons directly f
 
 11. Save the layout, and log in.      
     Once you're logged into the MPOS in the browser, you can use the POS Editor to edit buttons, upload a logo, and choose which options will be available to MPOS users.
-12. Assign a mobile device to a POS unit.     
-    You can do this by generating a QR code in the **MPOS QR Code List** administrative section, and scan the code with your phone's camera.
 
-    The changes performed on the desktop are applied on the MPOS upon reload. The design on the editor is now the same as the one on the MPOS.      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Next steps
 
-## Next steps - create/edit buttons
+### Assign a mobile device to a POS unit
+
+1. To assign a mobile device to a POS unit, navigate to the **MPOS QR Code List** administrative section.
+2. Click **Set Defaults**, and then **Create QR Code**.    
+   The necessary QR code is now generated.
+3. If you haven't, download the **NP Retail POS** application from the app store and install it.
+4. Open the **NP Retail POS** app.
+5. Press **D365 BUSINESS CENTRAL - ONPREM** and scan the QR code generated in the **MPOS QR Code List**.     
+   This step is only necessary if the app is opened for the first time. 
+6. Navigate to the homepage and press **POS**.
+   The changes performed on the desktop are applied on the MPOS upon reload. The design on the editor is now the same as the one on the MPOS.      
+
+### Create/edit buttons in MPOS menus
 
 To create new or edit the existing buttons in the MPOS layout you've just created, follow the steps in the procedure for [<ins>Creating new buttons in the MPOS menu<ins>]({{< ref "../add_buttons.md" >}})
