@@ -99,7 +99,7 @@ For more information, examples, and operating instructions refer to the article 
 
 The [<ins>POS Editor<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
 
-For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../pos_layout/how-to/activate_mpos_editor/index.md" >}}).
+For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../mpos/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -222,7 +222,7 @@ For more information and operating instructions, refer to the article on [<ins>M
 
 Our MPOS has undergone a complete UI overhaul, making the previous scaled-down version of the regular MPOS more modern and streamlined. 
 
-For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/mpos_view/index.md" >}}).
+For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ayTm-uh3sQs?si=PtrK5r-RYfDVE8hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
