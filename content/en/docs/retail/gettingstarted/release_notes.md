@@ -25,6 +25,16 @@ The process of transferring cash in and out of bins from the POS has been optimi
 
 ![transfer_bin_29](transfer_bin_29.png)
 
+### External website content on the customer screen
+
+Salespeople can now make the customer display (second display) point to an external website with merchant-specific content they wish to display to the customers, after which they may switch back to the **Receipt** view. This website can, for example, contain a sign-up form, terms and conditions or some similar content that may be relevant for the current transaction. 
+
+You can also enable the **Virtual Keyboard** plugin - an on-screen keyboard which the customer can use to input data on the external website, which is useful for populating various registration forms. 
+
+### Integration with the Planet Payment EFT
+
+Planet Payment is now a valid payment option for customers who wish to use the cloud terminal integration. This integration requires only a couple of installation steps to become operational, and no hardware components. 
+
 ## Version 28.0 (November 28th 2023)
 
 ### Belgian eID reader for POS
