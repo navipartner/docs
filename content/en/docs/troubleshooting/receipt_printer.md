@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-When encountering a printer-related issue, t's generally a good idea to start by turning the printer off and on again.
+When encountering a printer-related issue, it's generally a good idea to start by turning the printer off and on again.
 
 #### There's no text on the receipt. How can I fix this?
 

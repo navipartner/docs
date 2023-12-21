@@ -264,7 +264,7 @@ For more information and operating instructions, refer to the [<ins>GS 1 coupon 
 
 Customers can now use the MobilePay app to scan QR codes from the customer screen and purchase goods from a store with their electronic wallet.
 
-For more information, refer to the article on [<ins>MobilePay feature usage<ins>]({{< ref "../../integrations/mobilepay/how-to/qr_code.md" >}}).
+For more information, refer to the article on [<ins>MobilePay feature usage<ins>]({{< ref "../../providers/mobilepay/how-to/qr_code.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1XR6E__XJCs?si=2EvlnsDMbGcP3e-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -353,4 +353,4 @@ For more information and operating instructions, refer to the articles on the [<
 
 NP Retail is now integrated with Softpay, which also includes the Tap on Phone feature, which essentially turns your smartphone into a contactless POS terminal capable of accepting payments from customers' cards or mobile wallets. 
 
-For more information and operating instructions, refer to the articles on the [<ins>Softpay integration<ins>]({{< ref "../eft/explanation/softpay/index.md" >}})
+For more information and operating instructions, refer to the articles on the [<ins>Softpay integration<ins>]({{< ref "../../providers/softpay/explanation/softpay/index.md" >}})
