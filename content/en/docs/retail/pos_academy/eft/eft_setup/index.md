@@ -24,36 +24,36 @@ The Pepper terminal integration can be used for a wide variety of terminals. The
 
 To set up the Pepper terminal integration, take the following actions in the indicated order:
 
-1. [<ins>Import the Pepper Terminal Package<ins>]({{< ref "../../../eft/how-to/pepper_package_import/index.md" >}})
-2. [<ins>Set up a new Terminal Type<ins>]({{< ref "../../../eft/how-to/new_terminal_type/index.md" >}})
-3. [<ins>Set up a Pepper terminal<ins>]({{< ref "../../../eft/how-to/pepper_terminal/index.md" >}})
-4. [<ins>Set up button to install Pepper<ins>]({{< ref "../../../eft/how-to/pepper_install_button/index.md" >}})
-5. [<ins>Set up additional Pepper Card Types<ins>]({{< ref "../../../eft/how-to/pepper_card_types/index.md" >}})
-6. [<ins>Set up Pepper payment with additional parameters<ins>]({{< ref "../../../eft/how-to/pepper_params/index.md" >}})
+1. [<ins>Import the Pepper Terminal Package<ins>]({{< ref "../../../../providers/pepper/how-to/pepper_package_import/index.md" >}})
+2. [<ins>Set up a new Terminal Type<ins>]({{< ref "../../../../providers/pepper/how-to/new_terminal_type/index.md" >}})
+3. [<ins>Set up a Pepper terminal<ins>]({{< ref "../../../../providers/pepper/how-to/pepper_terminal/index.md" >}})
+4. [<ins>Set up button to install Pepper<ins>]({{< ref "../../../../providers/pepper/how-to/pepper_install_button/index.md" >}})
+5. [<ins>Set up additional Pepper Card Types<ins>]({{< ref "../../../../providers/pepper/how-to/pepper_card_types/index.md" >}})
+6. [<ins>Set up Pepper payment with additional parameters<ins>]({{< ref "../../../../providers/pepper/how-to/pepper_params/index.md" >}})
 
 ## NETS BAXI setup
 
 When using NETS BAXI/Viking integrations, there are two different ways of communicating with the terminal, either through the NETS Cloud, or directly between the POS and the terminal. 
 
-[<ins>Set up NETS Cloud integration<ins>]({{< ref "../../../eft/how-to/nets_baxi/index.md" >}})
+[<ins>Set up NETS Cloud integration<ins>]({{< ref "../../../../providers/nets_baxi/how-to/setup/index.md" >}})
 
 ## Adyen Cloud setup
 
 Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud.  
 
-[<ins>Set up Adyen Cloud integration<ins>]({{< ref "../../../eft/how-to/adyen/index.md" >}})
+[<ins>Set up Adyen Cloud integration<ins>]({{< ref "../../../../providers/adyen/how-to/setup/index.md" >}})
 
 ## MobilePay
 
 MobilePay is a Danish app used for making payments/transfers through the phone. By integrating MobilePay with the POS, you will significantly simplify the payment process. Customers will be able to scan a QR code, and the POS will register the payment automatically, which ensures its successful processing. 
 
-[<ins>Set up MobilePay integration<ins>]({{< ref "../../../eft/how-to/mobilepay/index.md" >}})
+[<ins>Set up MobilePay integration<ins>]({{< ref "../../../../providers/mobilepay/how-to/setup/index.md" >}})
 
 ## Softpay
 
 With Softpay integration, you can use an Android device as a Payment Terminal, if the device has NFC.  
 
-[<ins>Set up Softpay integration<ins>]({{< ref "../../../eft/how-to/softpay/index.md" >}})
+[<ins>Set up Softpay integration<ins>]({{< ref "../../../../providers/softpay/how-to/setup/index.md" >}})
 
 ## External Terminal
 
@@ -65,7 +65,7 @@ You can use the External Terminal integration, either as an additional security 
 
 Flexiiterm is used for integrating NaviPartner with the older NETS PSAM terminals, e.g., Ingenico IPP350 terminals.  
 
-[<ins>Set up Flexiiterm integration<ins>]({{< ref "../../../eft/how-to/flexiiterm/index.md" >}})
+[<ins>Set up Flexiiterm integration<ins>]({{< ref "../../../../providers/flexiiterm/how-to/setup/index.md" >}})
 
 ## EFT Bin mapping
 
@@ -78,4 +78,5 @@ In most Terminal Integrations (other than Pepper Integration and External Termin
 
 In the POS Menu there is a POS action EFT_OPERATION_2, which can be used to perform different functions on different terminals. These actions include reconciling the terminal, downloading/checking for updates, and checking connection or voiding the previous transactions. 
 
-[<ins>Set up EFT operation<ins>]({{< ref "../../../eft/how-to/eft_ops/index.md" >}})
+- [<ins>Set up ADYEN_CLOUD to verify setup and check connection in SALE-LEFT<ins>]({{< ref "../../../../providers/adyen/how-to/verify_setup/index.md" >}})
+- [<ins>Set up NETS_BAXI_NET to reconcile the terminal in SALE-LEFT<ins>]({{< ref "../../../../providers/nets_baxi/how-to/terminal_reconciliation/index.md" >}})

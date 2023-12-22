@@ -23,7 +23,7 @@ If you accept payments through your terminal, there may be a surcharge included 
 
 ## Prerequisites
 
-- Have an [<ins>EFT Setup<ins>]({{< ref "../../intro.md" >}}) with a POS Payment Method which has Processing Type as EFT.
+- Have an EFT Setup with a POS Payment Method which has Processing Type as EFT.
 - Have a G/L Account you want to use for Surcharges.
 
 ## Procedure
