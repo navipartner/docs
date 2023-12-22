@@ -35,6 +35,8 @@ You can also enable the **Virtual Keyboard** plugin - an on-screen keyboard whic
 
 Planet Payment is now a valid payment option for customers who wish to use the cloud terminal integration. This integration requires only a couple of installation steps to become operational, and no hardware components. 
 
+For more information and operating instructions refer to the article on [<ins>Setting up Planet Payment integration<ins>]({{< ref "../../providers/planetpay/how-to/setup/index.md" >}}).
+
 ## Version 28.0 (November 28th 2023)
 
 ### Belgian eID reader for POS
