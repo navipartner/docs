@@ -39,7 +39,7 @@ Planet Payment is now a valid payment option for customers who wish to use the c
 
 As of January 1. 2024, NP Retail will be fully compliant with all current requirements of Danish fiscal laws. 
 
-As regulation requires, you can now initiate data export compliant with the Standard Audit File for Tax (SAF-T). In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard and serves as the designated file format for reporting. The exported file is in XML format, and is downloaded to the user's computer the minute the export is finalized.
+As regulation requires, users can now initiate data export compliant with the Standard Audit File for Tax (SAF-T). In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard, and serves as the designated file format for reporting. The exported file is in XML format, and is downloaded to the user's computer the minute the export is finalized.
 
 ## Version 28.0 (November 28th 2023)
 
