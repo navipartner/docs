@@ -43,6 +43,8 @@ As of January 1. 2024, NP Retail will be fully compliant with all current requir
 
 As the regulation requires, users will be able to initiate data export compliant with the Standard Audit File for Tax (SAF-T). In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard, and serves as the designated file format for reporting. The exported file will be in XML format, and downloaded to the user's computer as soon as the export is finalized.
 
+For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Denmark<ins>]({{< ref "../fiscalization/denmark/setup.md" >}}).
+
 ## Version 28.0 (November 28th 2023)
 
 ### Belgian eID reader for POS
