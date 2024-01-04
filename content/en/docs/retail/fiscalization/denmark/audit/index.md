@@ -35,4 +35,6 @@ The last two digits of both values in the provided screenshot are decimals, so t
 
 ## Subsequent signing transactions
 
-Subsequent signing is required for transactions that aren't signed. This process requires the **NPR DK Re-gen. Audit Signature** codeunit to be run from the **Object List**.
+Subsequent signing is required for transactions that aren't signed. This process requires the **NPR DK Re-gen. Audit Signature** codeunit to be run from the **Object List**. When executed, all transactions for signing from the **POS Entry List** will be transferred (or recreated if they were already available in the Audit Log), and signed in the **POS Audit Log**. 
+
+If some of the POS entries were previously signed, they will be recreated and resigned as well, and the previous signatures will be deleted. 
