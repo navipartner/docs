@@ -17,7 +17,7 @@ type: docs
 
 Croatia has online and software fiscalization. Transactions need to be sent in real time to the Tax Authority (at the moment of printing the fiscal bill). Retailers are obligated to issue the bills and customers are obligated to take the bill before leaving the store.
 
-The Croatian Fiscal Law does not define fiscal receipt preview. According to the law, the mandatory data is defined, but not its position on the fiscal receipt.
+The Croatian Fiscal Law does not define fiscal receipt preview. According to the law, the mandatory data is defined, but not its position on the fiscal receipt. 
 
 This article details how to configure NP Retail for compliance with Croatian fiscal laws.
 
