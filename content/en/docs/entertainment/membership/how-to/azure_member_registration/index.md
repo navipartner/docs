@@ -27,7 +27,7 @@ To make this flow possible, it's necessary to perform the following setup steps 
    The storage name is contained in the endpoint which is targeted by the API to complete the membership creation request.
 5. Provided the Azure storage queue in the **Queue Name**.     
    The queue name is also contained in the full endpoint.
-6. Click **Process Azure Queue** in the ribbon, followed by **Actions** > **Setup** < **Create Azure Queue**.     
+6. Click **Process Azure Queue** in the ribbon, followed by **Actions** > **Setup** > **Create Azure Queue**.     
    A confirmation message is displayed, stating that the queue has been created in the specified Azure storage account.
 7. Enable the **Azure Member Registration** via the toggle switch in the **General** panel.
 8. Provide the full endpoint URL in the **Membership Registration Url** field.    
