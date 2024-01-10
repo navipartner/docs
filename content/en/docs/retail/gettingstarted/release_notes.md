@@ -17,7 +17,7 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
-## Version 30.0 (January 28th 2023)
+## Version 30.0 (January 28th 2024)
 
 TBA
 
@@ -25,4 +25,4 @@ TBA
 
 ### NaviPartner release notes - 2023
 
-[<ins>What's new in NP Retail - 2023<ins>](Whats_new_2023.pdf)
+[<ins>What's new in NP Retail - 2023<ins>](/WN2023/Whats_new_2023.pdf)
