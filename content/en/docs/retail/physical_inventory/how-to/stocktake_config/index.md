@@ -10,11 +10,17 @@ menu:
   docs:
     parent: ""
     identifier: "stocktake_config-9124a04d031617f12c0a81e05145ac45"
-weight: 196
+weight: 197
 toc: true
 type: docs
 ---
-Each stock take requires a specific configuration to describe a particular stock take. All the settings from the template are available. After a template is created, a stock-take configuration may be created using the selected template: 
+Each stock take requires a specific configuration, depending on the location, calculation date, and other factors. After a [<ins>template<ins>]({{< ref "../stocktake_template/index.md" >}}) is created, a stock-take configuration can be created using the selected template. A single stock-take configuration can be used to create multiple [<ins>stock-take worksheets<ins>]({{< ref "../stocktake_worksheet/index.md" >}}).
+
+#### Prerequisite
+
+- Create a [<ins>stock-take template<ins>]({{< ref "../stocktake_template/index.md" >}}).
+
+#### Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Stock-Take Configurations**, and choose the related link.
 2. Click **New**. 
