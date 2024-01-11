@@ -29,8 +29,8 @@ The POS Inventory Profile is used for configuring stockout warnings on the POS. 
 
 You can modify the default behavior of the stockout warning functionality in the **Sales & Receivables Setup** administrative section. If the **Stockout Warning** toggle switch is enabled, the warning is displayed whenever the stock level of any item in the system has been depleted.
 
-It is also possible to change the behavior of stockout warnings on specific items only, in their respective **Item Cards**. By default, this behavior is governed by the option in **Sales & Receivables Setup** administrative section.
+It is also possible to change the behavior of stockout warnings on specific items only, in their respective **Item Cards**.
 
 ![stockout_warning](Images/stockout_warning.PNG)
 
-Additionally, each user can turn off warnings for low item availability on the **My Notifications** page in Business Central. This does not disable the **Availability Check Details** confirmation message that is displayed on an attempt to accept the purchase if the quantity of items included in the sale is lower than required.
+Additionally, each user can turn off warnings for low item availability on the **My Notifications** page in Business Central. This does not disable the **Availability Check Details** confirmation message that is displayed on an attempt to accept the purchase if the required quantity of items included in the sale is insufficient.
