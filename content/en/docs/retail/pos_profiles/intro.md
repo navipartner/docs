@@ -35,7 +35,7 @@ Each one is dedicated to setting up different aspects of POS units.
 | [<ins>**POS Unit Receipt Profile**<ins>]({{< ref "reference/unit_receipt_profile_ref/unit_receipt_profile_ref.md" >}}) | Provide additional custom text in the receipt footer area depending on your business needs. |
 | [<ins>**POS View Profile**<ins>]({{< ref "reference/view_profile/view_profile_ref.md" >}}) | Add a custom POS theme, and configure various visual components that will be displayed on the POS unit screen. |
 | [<ins>**POS Tax Free Profile**<ins>]({{< ref "reference/tax_free_ref/tax_free_ref.md" >}}) | Set up the POS tax-free profile for transactions in all tax-exempt regions. |
-| [<ins>**POS Inventory Profile**<ins>]({{< ref "how-to/inventory/inventory.md" >}}) | The POS Inventory Profile is used for configuring stockout warnings on the POS. |
+| [<ins>**POS Inventory Profile**<ins>]({{< ref "how-to/inventory/index.md" >}}) | The POS Inventory Profile is used for configuring stockout warnings on the POS. |
 | [<ins>**POS Customer Display Profile**<ins>]({{< ref "how-to/customer_display/customer_display.md" >}}) | You can set up the content of the POS display that the customer can interact with. |
 
 
