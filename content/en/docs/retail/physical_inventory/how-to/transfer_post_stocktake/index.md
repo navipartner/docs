@@ -10,21 +10,26 @@ menu:
   docs:
     parent: ""
     identifier: "transfer_post_stocktake-ebd79c5933fb427aa3389e85b7f7668c"
-weight: 196
+weight: 197
 toc: true
 type: docs
 ---
 
-Once the worksheet has been completed and corrected, you need to transfer it to the **Item Journal**, and post it. 
+Once the setup has been completed, you can complete the stock-take transfer. The main focus and goal of the stock-take functionality is for the **Counted** (physical, on-hand inventory) quantity and the **Calculated** (system) quantity to be transferred to the **Physical Inventory Journal** to check whether there are some discrepancies between the two. The counted quantity is established with the stock-take worksheet, while the calculated quantity originates from the **Item Ledger Entries**.
 
-## Prerequisites
+#### Prerequisites
 
-- [<ins>Configure the stock-take<ins>]({{< ref "../stocktake_config/index.md" >}})
 - [<ins>Create an item journal template<ins>]({{< ref "../item_journal_template/index.md" >}})
+- [<ins>Configure the stock-take<ins>]({{< ref "../stocktake_config/index.md" >}})
 - [<ins>Create a stock-take worksheet<ins>]({{< ref "../stocktake_worksheet/index.md" >}})
 
+#### Procedure
+
 1. To initiate this process, set the stock-take worksheet's status to **Ready to Transfer** in the relevant **Stock-Take Worksheet** card.
-2. Mark all lines, and click **Line** in the ribbon, followed by **Set Transfer Option to Ready**.   
+2. Mark all lines, and click **Line** in the ribbon of the **Stock-Take Worksheet Line** panel, followed by **Set Transfer Option to Ready**.   
+
+    {{< alert icon="📝" text="It's recommended to match the Posting Date with the Inventory Calculation Date."/>}}
+
 3. Click **Calc. Inventory and Transfer** in the **Actions** dropdown.      
    When completed, a confirmation message is displayed. 
 

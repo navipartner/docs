@@ -23,5 +23,3 @@ In Business Central, the item journal is used for posting adjustments, which is 
 4. Create a new batch, and name it **DEFAULT** (if one isn't already created in your environment).        
    This batch will be used for the purpose of counting inventory content. 
 5. In the **No. Series** field, select the number series that is associated with the physical journal inventory (e.g **IJNL-PHYS**).
-6. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Stock-Take Templates**, and choose the related link.
-7. Click **New**, followed by the **Crate Default Template** action in the dropdown that is displayed.
