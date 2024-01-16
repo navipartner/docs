@@ -35,6 +35,6 @@ The following options can be set up in the **General** section:
 | **Allow Zero Amount Sale** | Allow the sale to be finalized with the amount zero. |
 | **Print Receipt On Cancel Sale** | Allow receipts to be printed even when the sale is canceled. |
 | **Allow Printing Receipt Copy** | Set up whether a copy is printed or not. Available options are: **Always**, **Once**, **Never**. |
-| **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. |
+| **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. You can make a list of possible reasons for return in the **Return Reasons** administrative section.  | 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JaqGl38lV-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
