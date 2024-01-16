@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-This article contains the best practices and requirements for designing retail voucher layouts.
+This article contains the best practices and requirements for designing retail voucher layouts in the Business Central version 18 and newer. 
 
 ## Fonts
 
