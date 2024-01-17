@@ -19,7 +19,12 @@ Learn which new features and improvements have been introduced in the newest ver
 
 ## Version 30.0 (January 28th 2024)
 
-TBA
+### Bin transfer improvements
+
+A new line will automatically be added to the **POS Payment Bin Transfer Journal** when the **Transfer Out** action is performed from one POS unit towards another. When the transaction is complete, and the **Transfer In** action is triggered on the target POS unit, the transfer journal line will only need to be validated without populating any additional fields.
+
+An intermediary bin through which both inbound and outbound transfer transactions are posted will be used in this process. The bin needs to be specified in the new **In-Transfer Bin Code** field that has been placed in the **POS End of Day/Bin Tr. Profile Card** administrative section in Business Central.
+
 
 ## Version 29.0 (December 28th 2023)
 
