@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-You can initiate data export compliant with the Standard Audit File for Tax (SAF-T) format. In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard, and serves as the designated file format for reporting. The exported file will be in XML format, and downloaded to the user's computer as soon as the export is finalized.
+You can initiate data export compliant with the Standard Audit File for Tax (SAF-T) format for cash registers. In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard, and serves as the designated file format for reporting. The exported file will be in XML format, and downloaded to the user's computer as soon as the export is finalized.
 
 To export the SAF-T XML file, follow the provided steps:
 
