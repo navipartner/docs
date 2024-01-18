@@ -21,9 +21,17 @@ Learn which new features and improvements have been introduced in the newest ver
 
 ### Bin transfer improvements
 
-A new line will automatically be added to the **POS Payment Bin Transfer Journal** when the **Transfer Out** action is performed from one POS unit towards another. When the transaction is complete, and the **Transfer In** action is triggered on the target POS unit, the transfer journal line will only need to be validated without populating any additional fields.
+A new line will automatically be added to the **POS Payment Bin Transfer Journal** when the **Transfer Out** action is performed from one POS unit towards another. When the transaction is complete, and the **Transfer In** action is triggered on the target POS unit, the transfer journal line only needs to be validated without the need to populate any additional fields.
 
-An intermediary bin through which both inbound and outbound transfer transactions are posted will be used in this process. The bin needs to be specified in the new **In-Transfer Bin Code** field that has been placed in the **POS End of Day/Bin Tr. Profile Card** administrative section in Business Central.
+An intermediary bin through which both inbound and outbound transfer transactions are posted is used in this process. The bin needs to be specified in the new **In-Transfer Bin Code** field that has been placed in the **POS End of Day/Bin Tr. Profile Card** administrative section in Business Central.
+
+### Digital receipts - Fiskaly
+
+As we continue to integrate NaviPartner's solutions with [Fiskaly](https://www.fiskaly.com/), it will be possible to generate a QR code that will serve as a digital receipt for every POS sale. To support the development of this feature, the following changes have been introduced:
+
+- A new **POS Receipt Profiles** administrative section has been added to Business Central. This POS profile is used for storing all configurations related to digital receipts.
+- New API has been introduced to support retrieval of digital receipts from Fiskaly.
+- All successfully generated digital receipts are stored in the new **POS Sale Digital Receipt Entry** administrative section. 
 
 
 ## Version 29.0 (December 28th 2023)
