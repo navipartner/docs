@@ -27,10 +27,11 @@ An intermediary bin through which both inbound and outbound transfer transaction
 
 ### Digital receipts - Fiskaly
 
-As we continue to integrate NaviPartner's solutions with [Fiskaly](https://www.fiskaly.com/), it will be possible to generate a QR code that will serve as a digital receipt for every POS sale. To support the development of this feature, the following changes have been introduced:
+The [Fiskaly](https://www.fiskaly.com/) API can now be used for generating QR codes that can be used as digital receipts on POS after the sale has been concluded. 
+
+To support the development of this feature, the following changes have been introduced:
 
 - A new **POS Receipt Profiles** administrative section has been added to Business Central. This POS profile is used for storing all configurations related to digital receipts.
-- New API has been introduced to support retrieval of digital receipts from Fiskaly.
 - All successfully generated digital receipts are stored in the new **POS Sale Digital Receipt Entry** administrative section. 
 
 
