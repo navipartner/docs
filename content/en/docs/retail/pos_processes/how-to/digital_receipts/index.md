@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Digital receipts are a virtual replacement for printed receipts, which shorten the payment path, speed up the process of issuing receipts, and provide a more convenient assurance for warranty or return purposes. 
+Digital receipts are a virtual replacement for printed receipts, which reduce the length of the payment path, speed up the process of issuing receipts, and provide a more convenient assurance for warranty or return purposes. 
 
 You can use Fiskaly API to generate digital receipts after POS sales have been concluded. 
 
