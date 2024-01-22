@@ -27,12 +27,15 @@ An intermediary bin through which both inbound and outbound transfer transaction
 
 ### Digital receipts - Fiskaly
 
-The [Fiskaly](https://www.fiskaly.com/) API can now be used to generate QR codes that can be used as digital receipts on POS after the sale has been concluded. 
+You can now generate QR codes that are used as digital receipts on the POS after the sale has been concluded. 
 
 To support the development of this feature, the following changes have been introduced:
 
 - A new **POS Receipt Profiles** administrative section has been added to Business Central. This POS profile is used for storing all configurations related to digital receipts.
-- All successfully generated digital receipts are stored in the new **POS Sale Digital Receipt Entry** administrative section. 
+- All successfully generated digital receipts are stored in the new **POS Sales Digital Receipts** line of the factbox located in the relevant **POS Entry Card**. 
+- NP Retail now supports Fiskaly API for digital receipt generation.
+
+For more information and processing instructions, refer to the articles on  [<ins>Setting up digital receipts<ins>]({{< ref "../pos_processes/how-to/digital_receipts/index.md" >}}) and [<ins>POS receipt profile (reference guide)<ins>]({{< ref "../pos_profiles/reference/receipt_profile/index.md" >}}).
 
 
 ## Version 29.0 (December 28th 2023)
