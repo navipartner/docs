@@ -86,3 +86,7 @@ Place images in the 'static' folder (NOT static/images), and then act as if they
 ## Editing article body width
 
 Edit the "width" param in the assets/scss/common/_global.scss file. Currently, it is set to 800px, and 900px would mess up with the table of contents.
+
+## Image resizing and formatting
+
+https://hugomods.com/docs/images/
