@@ -27,7 +27,7 @@ An intermediary bin through which both inbound and outbound transfer transaction
 
 ### Digital receipts - Fiskaly
 
-The [Fiskaly](https://www.fiskaly.com/) API can now be used for generating QR codes that can be used as digital receipts on POS after the sale has been concluded. 
+The [Fiskaly](https://www.fiskaly.com/) API can now be used to generate QR codes that can be used as digital receipts on POS after the sale has been concluded. 
 
 To support the development of this feature, the following changes have been introduced:
 
