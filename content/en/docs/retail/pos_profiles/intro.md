@@ -37,6 +37,7 @@ Each one is dedicated to setting up different aspects of POS units.
 | [<ins>**POS Tax Free Profile**<ins>]({{< ref "reference/tax_free_ref/tax_free_ref.md" >}}) | Set up the POS tax-free profile for transactions in all tax-exempt regions. |
 | [<ins>**POS Inventory Profile**<ins>]({{< ref "how-to/inventory/index.md" >}}) | The POS Inventory Profile is used for configuring stockout warnings on the POS. |
 | [<ins>**POS Customer Display Profile**<ins>]({{< ref "how-to/customer_display/customer_display.md" >}}) | You can set up the content of the POS display that the customer can interact with. |
+| [<ins>**POS Receipt Profile**<ins>]({{< ref "reference/receipt_profile/index.md" >}}) | The POS Receipt profile is used for storing all configurations related to digital receipts. |
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tbnKC-_cBGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
