@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The POS Receipt profile is used for storing all configurations related to digital receipts. There are also several options which can be used for generating and displaying QR codes at the end of each transaction, as well as information pertaining to discounts.
+The POS Receipt profile is used for storing all configurations related to [<ins>digital receipts<ins>]({{< ref "../../../pos_processes/how-to/digital_receipts/index.md" >}}). There are also several options which can be used for generating and displaying QR codes at the end of each transaction, as well as information pertaining to discounts.
 
 The following fields and options are available:
 
