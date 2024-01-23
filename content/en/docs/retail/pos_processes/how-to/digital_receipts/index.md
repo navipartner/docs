@@ -16,9 +16,10 @@ type: docs
 ---
 
 Digital receipts are a virtual replacement for printed receipts, which reduce the length of the payment path, speed up the process of issuing receipts, and provide a more convenient assurance for warranty or return purposes. 
+ 
+{{< alert icon="📝" text="Fiskaly API works in the background to support generating of digital receipts after POS sales have been concluded."/>}}
 
-You can use Fiskaly API to generate digital receipts after POS sales have been concluded. 
-
+To set up digital receipts, make sure the prerequisites are met, and follow the provided steps:
 
 ## Prerequisites in Fiskaly Dashboard
 
@@ -27,19 +28,19 @@ You can use Fiskaly API to generate digital receipts after POS sales have been c
 
 ## Procedure in Business Central
 
-3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Digital Receipt Setup**, and choose the related link.      
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Digital Receipt Setup**, and choose the related link.      
    The administrative section for setting up digital receipts is displayed.
-4. Provide the **API Key** and **API Secret** in the indicated fields.       
+2. Provide the **API Key** and **API Secret** in the indicated fields.       
    - API key is a unique identifier used for establishing connection with the Fiskaly API.
    - API secret denotes the confidential authentication code paired with your API key. 
-5. Click **Test API Credentials** in the ribbon.     
+3. Click **Test API Credentials** in the ribbon.     
    This action is used for validating the provided API key and secret, and ensuring the effectiveness of your Fiskaly API credentials. You will not be able to turn on the digital receipt functionality unless the credentials are successfully tested.     
    The outcome is reflected in the state of the **Credentials Test Success** toggle switch, and the date/time of the last test is recorded in the **Last Credentials Test Time** field.
-6. If the credentials are tested and approved, click **POS Receipt Profiles** action in the ribbon.     
+4. If the credentials are tested and approved, click **POS Receipt Profiles** action in the ribbon.     
    Alternatively, you can find the **POS Receipt Profiles** with the Business Central's *Tell Me* feature.
-7. Click **New**, and populate the [<ins>available fields and options<ins>]({{< ref "../../../pos_profiles/reference/receipt_profile/index.md" >}}).
-8. Open the **POS Unit List** administrative section, and find the POS unit you wish to set up. 
-9. Open its **POS Unit Card**, and set the **POS Receipt Profile** to the one you've created in the previous steps.    
+5. Click **New**, and populate the [<ins>available fields and options<ins>]({{< ref "../../../pos_profiles/reference/receipt_profile/index.md" >}}).
+6. Open the **POS Unit List** administrative section, and find the POS unit you wish to set up. 
+7. Open its **POS Unit Card**, and set the **POS Receipt Profile** to the one you've created in the previous steps.    
    This POS unit now supports the digital receipt functionality.
 
 ## Next steps
