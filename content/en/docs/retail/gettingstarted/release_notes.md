@@ -25,6 +25,11 @@ A new line will automatically be added to the **POS Payment Bin Transfer Journal
 
 An intermediary bin through which both inbound and outbound transfer transactions are posted is used in this process. The bin needs to be specified in the new **In-Transfer Bin Code** field that has been placed in the **POS End of Day/Bin Tr. Profile Card** administrative section in Business Central.
 
+The documentation has been updated accordingly. For more information, refer to the following articles:
+
+- [<ins>Transfer cash with POS Payment Bin Transfer Journal<ins>]({{< ref "../pos_processes/how-to/transfer_cash_bc/index.md" >}})
+- [<ins>Transfer cash between POS payment bins<ins>]({{< ref "../pos_processes/how-to/bin_transfer_action/index.md" >}})
+
 ### Digital receipts - Fiskaly
 
 You can now generate QR codes that are used as digital receipts on the POS after the sale has been concluded. 
@@ -37,6 +42,7 @@ To support the development of this feature, the following changes have been intr
 
 For more information and processing instructions, refer to the articles on  [<ins>Setting up digital receipts<ins>]({{< ref "../pos_processes/how-to/digital_receipts/index.md" >}}) and [<ins>POS receipt profile (reference guide)<ins>]({{< ref "../pos_profiles/reference/receipt_profile/index.md" >}}).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z4e4GaR_82U?si=P4JQ4i0dJ1xydrBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Version 29.0 (December 28th 2023)
 
