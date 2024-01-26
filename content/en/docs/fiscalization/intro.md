@@ -22,6 +22,7 @@ To learn how to achieve compliance with fiscalization requirements imposed by fi
 - [<ins>Fiscalization compliance - Denmark<ins>]({{< ref "denmark/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - France<ins>]({{< ref "france/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Germany<ins>]({{< ref "germany/how-to/setup/index.md" >}})
+- [<ins>E-invoices - Hungary<ins>]({{< ref "hungary/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Norway<ins>]({{< ref "norway/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Serbia<ins>]({{< ref "serbia/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Slovenia<ins>]({{< ref "slovenia/how-to/setup/index.md" >}})

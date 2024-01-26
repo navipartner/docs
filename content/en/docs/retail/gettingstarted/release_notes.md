@@ -44,6 +44,14 @@ For more information and processing instructions, refer to the articles on  [<in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4e4GaR_82U?si=P4JQ4i0dJ1xydrBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### E-invoices
+
+E-invoices, provided by [<ins>Multisoft<ins>](https://www.multisoft.hu/en/homepage/), facilitate real-time communication with the relevant tax authorities. Now, a sales order can be created from a POS, and issued to a customer in a form of an invoice. 
+
+  {{< alert icon="📝" text="E-invoices are a part of the initiative to make NP Retail fully compliant with the Hungarian market laws." />}}
+
+For more information and processing instructions, refer to the article on [<ins>Enabling e-invoices<ins>]({{< ref "../../fiscalization/hungary/how-to/setup/index.md" >}}).
+
 ## Version 29.0 (December 28th 2023)
 
 ### Bin Transfer UI improvements
