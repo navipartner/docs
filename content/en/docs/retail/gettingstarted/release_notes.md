@@ -39,6 +39,9 @@ To support the development of this feature, the following changes have been intr
 - A new **POS Receipt Profiles** administrative section has been added to Business Central. This POS profile is used for storing all configurations related to digital receipts.
 - All successfully generated digital receipts are stored in the new **POS Sales Digital Receipts** line of the factbox located in the relevant **POS Entry Card**. 
 - NP Retail now supports Fiskaly API for digital receipt generation.
+- The POS action **PRINT_RECEIPT** has been updated with two new parameters for reprinting the receipt of the previous POS sale and displaying the POS Sale QR code, respectively:
+  - **Print Physical Receipts** - When set to true, the associated action will be used for printing physical receipts. This parameter is set to true by default.
+  - **Issue Digital Receipts** - When set to true, the associated action will be used for displaying the QR code of the selected POS sale. This parameter is set to false by default.
 
 For more information and processing instructions, refer to the articles on  [<ins>Setting up digital receipts<ins>]({{< ref "../pos_processes/how-to/digital_receipts/index.md" >}}) and [<ins>POS receipt profile (reference guide)<ins>]({{< ref "../pos_profiles/reference/receipt_profile/index.md" >}}).
 

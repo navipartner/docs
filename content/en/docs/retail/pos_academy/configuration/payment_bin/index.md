@@ -28,4 +28,13 @@ To set up the payment bin for the *Bring It to You Retail Store Ltd* fictional e
 | **Eject Method** | There are different methods for ejecting cash drawers you can choose from.  | **TEMPLATE**; there’s a print template set for the eject method parameter, and printing is performed on opening the drawer with the **OPEN_CASH_DRAWER POS** action button. The most common printer used is Epson, so you can set up the eject method parameter using the print template **EPSON_CASH_DRAWER**.  | 
 |**BIN Type** | Bins can be physical Cash Drawers or Virtual (automatically balanced). A BANK or SAFE should also be defined as the target for money transfer. | |
 
+In practice, the following POS payment bins will be available:
+
+| POS Payment Bin      | Purpose | 
+| ----------- | ----------- | 
+| **Cash Register POS Payment Bins.** | These bins are used for storing the cash for each respective POS unit. You can visualize it as a physical drawer attached to a POS unit. |
+| **BANK POS Payment Bin** | The bin is used for storing the cash that is transferred into the bank. |
+| **SAFE POS Payment Bin** | The bin is used for storing the cash that is transferred into the safe. |
+| **IN-TRANSIT POS Payment Bins** | This bin is used as an intermediary storage for cash when it is transferred from one POS unit into another. |  
+
 When counting cash, the calculated amount for that bin should be balanced with the physical amount found in the cash drawer. Therefore, it is important to insert the starting float for the bin the first time it is created with the [<ins>Insert Initial Float<ins>]({{< ref "../../pos_processes/initial_float/index.md" >}}) functionality. 
