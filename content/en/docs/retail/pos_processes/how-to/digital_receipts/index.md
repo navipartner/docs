@@ -45,10 +45,35 @@ To set up digital receipts, make sure the prerequisites are met, and follow the 
 
 ## Next steps
 
+### (Optional) Add logo to the digital receipt header
+
+Fiskaly provides an option of adding a logo of your choice to the digital receipt header. You can do this from the Fiskaly Dashboard.
+
+1. Click **Fiskaly Receipt** in the sidebar of the Fiskaly Dashboard.    
+   A new page is displayed.
+2. Choose **Merchant Dashboard** from the available options.     
+   From here, you can configure various settings for your receipts.
+3. Access the **Global Styles** section, and click **Receipt Logo**.
+4. Select the picture/logo for your digital receipt, and click **Apply**.    
+
+   ![fiskaly_logo](Images/fiskaly_logo.PNG)
+
+### (Optional) Configure the PRINT_RECEIPT POS action
+
+The [<ins>POS action<ins>]({{< ref "../../reference/pos_actions_ref/index.md" >}}) **PRINT_RECEIPT** has two parameters that you can configure, depending on how you wish to use the feature. 
+
+  - **Print Physical Receipts** - When set to true, the associated action will be used for reprinting physical receipts. This parameter is set to true by default.
+  - **Issue Digital Receipts** - When set to true, the associated action will be used for displaying the QR code of the selected POS sale again if it's been closed on accident. This parameter is set to false by default.
+
+If you need help with configuring this POS action and its parameter, refer to the article on [<ins>Creating buttons in POS menus<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).
+
 ### Issue digital receipts on the POS
 
 1. Perform a [<ins>POS sale<ins>]({{< ref "../../../pos_academy/sales_cycle/sales_returns/index.md" >}}).       
    After a regular POS sale has been completed, and the payment accepted, a pop-up window that contains a QR code is displayed.
    ![scan_qr_sale](Images/scan_qr_sale.PNG)
+
+   {{< alert icon="📝" text="For the QR code to be successfully displayed, you need to make sure the <b>Issue Digital Receipts</b> parameter of the <b>PRINT_RECEIPT</b> action is set to true."/>}}
+
 2. Scan the QR code to open a PDF link with a visualized digital receipt.     
    You can also find the QR code if you open the **POS Entry Card**, and locate the factbox section, where the **POS Sales Digital Receipts** line is located. If you click the number on the **POS Sales Digital Receipts** line, the corresponding digital receipts linked to that POS entry are displayed.
