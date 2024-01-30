@@ -49,12 +49,12 @@ To set up digital receipts, make sure the prerequisites are met, and follow the 
 
 Fiskaly provides an option of adding a logo of your choice to the digital receipt header. You can do this from the Fiskaly Dashboard.
 
-1. Click **Fiskaly Receipt** in the sidebar of the Fiskaly Dashboard.    
+1. Click **Fiskaly Receipt** in the sidebar of the Fiskaly Dashboard.     
    A new page is displayed.
 2. Choose **Merchant Dashboard** from the available options.     
    From here, you can configure various settings for your receipts.
 3. Access the **Global Styles** section, and click **Receipt Logo**.
-4. Select the picture/logo for your digital receipt, and click **Apply**.    
+4. Select the picture/logo for your digital receipt, and click **Apply**.     
 
    ![fiskaly_logo](Images/fiskaly_logo.PNG)
 
