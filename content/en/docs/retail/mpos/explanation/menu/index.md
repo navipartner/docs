@@ -1,6 +1,6 @@
 ---
-title: "MPOS menu"
-description: "MPOS menus are created in the POS Menus administrative section in Business Central, along with the buttons."
+title: "MPOS menus"
+description: "MPOS menus can be customized in the MPOS Editor."
 lead: ""
 date: 2023-07-06T15:17:26+02:00
 lastmod: 2023-07-06T15:17:26+02:00
@@ -15,32 +15,27 @@ toc: true
 type: docs
 ---
 
-All menus are created in the **POS Menus** page in Business Central. You can also define buttons used in the MPOS here.
-All menus can be divided into main menus and supporting menus.
+All NP Retail POS menus and buttons can be created and edited in the [<ins>MPOS Editor<ins>]({{< ref "../../../pos_layout/explanation/pos_editor/index.md" >}}).
 
-![POS Menu Setup](mpos2.png)
-
-Main menus are used in the POS view, and those are:
-
-- LOGIN
+## LOGIN
 
 This menu is displayed in the login view. It usually consists of buttons created for printing, settings, and general information.
 
 ![LOGIN](mpos_login.png) 
 
-- ITEMS
+## ITEMS
 
 Item menus allow users to browse through the list of products, and select them for sales.
 
 ![ITEMS](mpos_items.png) 
 
-- SALE
+## SALE
 
 Sale menus are used to view, modify, and delete the selected sales items.
 
 ![SALES](mpos_sales.png) 
 
-- PAYMENT
+## PAYMENT
 
 Payment menus are used for creating, modifying, and deleting payments.
 

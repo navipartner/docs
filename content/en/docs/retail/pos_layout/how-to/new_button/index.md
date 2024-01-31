@@ -1,6 +1,6 @@
 ---
-title: "Create new buttons in the POS menu"
-description: "Refer to this guide if you wish to add new custom buttons in the POS menu."
+title: "Create buttons in POS menus"
+description: "The POS Editor is a collection of options for customizing the POS screen, located in the ribbon up-top. You can also use it to create new buttons in the POS"
 lead: ""
 date: 2023-07-07T13:55:38+02:00
 lastmod: 2023-07-07T13:55:38+02:00
@@ -15,11 +15,26 @@ toc: true
 type: docs
 ---
 
-To create new buttons in the POS menu, follow the provided steps:
+To create new buttons in the POS menu, make sure the prerequisite is met, and follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Menus** and open the related link. 
-2. Select one of the menus from the list, and click **Buttons** in the ribbon.    
-   The button will be located in that menu when the POS is opened.
-3. Click **New**.
-4. Insert the [<ins>necessary data<ins>]({{< ref "../../reference/menu_button_ref/index.md" >}}) for a button.       
-  All data you provide is automatically saved. 
+#### Prerequisites
+
+- Enable the [<ins>POS Editor<ins>]({{< ref "../activate_pos_editor/index.md" >}}).
+
+#### Procedure
+
+1. Open the POS.      
+   The [<ins>POS Layout Setup Wizard<ins>]({{< ref "../layout_wizard/index.md" >}}) is displayed.
+2. Select the layout category from the available options, or close the Wizard to create all buttons and options manually.
+3. (Optional) If there's no space left, click **Grids** in the POS Editor, and edit the number of rows or columns for the selected screen area to make room for new buttons.
+4. Click on an empty cell in the POS screen area you wish to add the button to, followed by **Edit** in the dropdown list that is displayed.     
+   The **Edit Button** window is displayed. It contains various customizable elements for buttons.     
+
+   ![new_button](Images/new_button.PNG)
+
+5. Provide the **Caption**, and make sure you've attached the desired POS **Action** to it.     
+   If the POS action you need doesn't exist yet, you can [<ins>create it<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}).
+6. (Optional) You can also provide an image for the button background, change its color, and even add a password that will be required before the button's action is triggered.
+7. Once you're satisfied with your changes, click **Save**.    
+   The button is now displayed in the selected POS screen area.
+

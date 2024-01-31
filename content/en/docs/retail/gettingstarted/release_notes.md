@@ -17,23 +17,117 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
-## Version 27.0 (November 28th 2023)
+## Version 30.0 (January 28th 2024)
+
+### Bin transfer improvements
+
+A new line will automatically be added to the **POS Payment Bin Transfer Journal** when the **Transfer Out** action is performed from one POS unit towards another. When the transaction is complete, and the **Transfer In** action is triggered on the target POS unit, the transfer journal line only needs to be validated without the need to populate any additional fields.
+
+An intermediary bin through which both inbound and outbound transfer transactions are posted is used in this process. The bin needs to be specified in the new **In-Transfer Bin Code** field that has been placed in the **POS End of Day/Bin Tr. Profile Card** administrative section in Business Central.
+
+The documentation has been updated accordingly. For more information, refer to the following articles:
+
+- [<ins>Transfer cash with POS Payment Bin Transfer Journal<ins>]({{< ref "../pos_processes/how-to/transfer_cash_bc/index.md" >}})
+- [<ins>Transfer cash between POS payment bins<ins>]({{< ref "../pos_processes/how-to/bin_transfer_action/index.md" >}})
+
+### Digital receipts - Fiskaly
+
+You can now generate QR codes that are used as digital receipts on the POS after the sale has been concluded. 
+
+To support the development of this feature, the following changes have been introduced:
+
+- A new **POS Receipt Profiles** administrative section has been added to Business Central. This POS profile is used for storing all configurations related to digital receipts.
+- All successfully generated digital receipts are stored in the new **POS Sales Digital Receipts** line of the factbox located in the relevant **POS Entry Card**. 
+- NP Retail now supports Fiskaly API for digital receipt generation.
+- The POS action **PRINT_RECEIPT** has been updated with two new parameters for reprinting the receipt of the previous POS sale and displaying the POS Sale QR code, respectively:
+  - **Print Physical Receipts** - When set to true, the associated action will be used for printing physical receipts. This parameter is set to true by default.
+  - **Issue Digital Receipts** - When set to true, the associated action will be used for displaying the QR code of the selected POS sale. This parameter is set to false by default.
+
+For more information and processing instructions, refer to the articles on  [<ins>Setting up digital receipts<ins>]({{< ref "../pos_processes/how-to/digital_receipts/index.md" >}}) and [<ins>POS receipt profile (reference guide)<ins>]({{< ref "../pos_profiles/reference/receipt_profile/index.md" >}}).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z4e4GaR_82U?si=P4JQ4i0dJ1xydrBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### E-invoices
+
+E-invoices, provided by [<ins>Multisoft<ins>](https://www.multisoft.hu/en/homepage/), facilitate real-time communication with the relevant tax authorities. Now, a sales order can be created from a POS, and issued to a customer in a form of an invoice. 
+
+  {{< alert icon="📝" text="E-invoices are a part of the initiative to make NP Retail fully compliant with the Hungarian market laws." />}}
+
+For more information and processing instructions, refer to the article on [<ins>Enabling e-invoices<ins>]({{< ref "../../fiscalization/hungary/how-to/setup/index.md" >}}).
+
+## Version 29.0 (December 28th 2023)
+
+### Bin Transfer UI improvements
+
+The process of transferring cash in and out of bins from the POS has been optimized, and the dialog in which these actions are performed has been redesigned. 
+
+![transfer_bin_29](transfer_bin_29.png)
+
+### External website content on the customer screen
+
+Salespeople can now make the customer display (second display) point to an external website with merchant-specific content they wish to display to the customers, after which they may switch back to the **Receipt** view. This website can, for example, contain a sign-up form, terms and conditions or some similar content that may be relevant for the current transaction. 
+
+You can also enable the **Virtual Keyboard** plugin - an on-screen keyboard which the customer can use to input data on the external website, which is useful for populating various registration forms. 
+
+For more information and operating instructions refer to the article on [<ins>Displaying external website content on the customer screen<ins>]({{< ref "../pos_layout/how-to/website_customer_screen.md" >}}).
+
+### Integration with the Planet Payment EFT
+
+Planet Payment is now a valid payment option for customers who wish to use the cloud terminal integration. This integration requires only a couple of installation steps to become operational, and no hardware components. 
+
+### Fiscalization compliance with Danish fiscal laws
+
+As of January 1. 2024, NP Retail will be fully compliant with all current requirements of Danish fiscal laws. 
+
+As the regulation requires, users will be able to initiate data export compliant with the Standard Audit File for Tax (SAF-T) format for cash registers. In Denmark, the SAF-T format adheres to the Organization for Economic Co-operation and Development (OECD) standard, and serves as the designated file format for reporting. The exported file will be in XML format, and downloaded to the user's computer as soon as the export is finalized.
+
+For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Denmark<ins>]({{< ref "../../fiscalization/denmark/how-to/setup/index.md" >}}).
+
+## Version 28.0 (November 28th 2023)
+
+### Belgian eID reader for POS
+
+The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers discounts or vouchers. When set up, the POS operator can now read Belgian electronic identity cards to retrieve customers' data. The retrieved data is stored in Business Central, and can be processed to link the customer to their purchases.
+
+{{< alert icon="📝" text="Additional setup is required for establishing proper implementation on how the customer's data should be processed. There is no default behavior, as each retailer may require different data and/or a different way of processing it."/>}}
+
+For more information and operating instructions refer to the article on [<ins>Adding Belgian eID feature to POS<ins>]({{< ref "../vouchers/how-to/belgian_eid.md" >}}).
+
+## POS Payment View Event Setup updates
+
+The following improvements have been added to the **POS Payment View Event Setup** administrative section:
+
+  - A new **Show Only for Selected POS Units** toggle switch has been added. If enabled, the **POS Unit Filter** panel is displayed, and you can use it to specify which POS units will bring up the Dimension pop-up when the payment is supposed to be processed.
+  - The **POS Unit Filter** panel has replaced the **POS Scenarios Profile**, so you're no longer required to perform individual setup for payments on each POS unit separately.
+  - When you press the payment button, the payment pop-up is displayed, whereas in the previous releases, you would move from the **Sales** view to the **Payment** view to achieve the same result by default.
 
 ### Fiscalization compliance with Serbian fiscal laws
 
-As of the version 27, NP Retail will be compliant with Serbian fiscal laws.
+As of the version 28, NP Retail will be compliant with Serbian fiscal laws.
 
-For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Serbia<ins>]({{< ref "../fiscalization/serbia/setup.md" >}}).
+For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Serbia<ins>]({{< ref "../../fiscalization/serbia/how-to/setup/index.md" >}}).
 
 ### Fiscalization compliance with Croatian fiscal laws
 
-As of the version 27, NP Retail will be compliant with Croatian fiscal laws.
+As of the version 28, NP Retail will be compliant with Croatian fiscal laws.
 
-For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Croatia<ins>]({{< ref "../fiscalization/croatia/setup.md" >}}).
+For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Croatia<ins>]({{< ref "../../fiscalization/croatia/how-to/setup.md" >}}).
+
+### Fiscalization compliance with Slovenian fiscal laws
+
+As of the version 28, NP Retail will be compliant with Slovenian fiscal laws.
+
+For more information refer to the article on [<ins>Fiscalization overview - Slovenia<ins>]({{< ref "../../fiscalization/slovenia/intro.md" >}}).
+
+### Fiscalization compliance with Bulgarian fiscal laws
+
+As of the version 28, NP Retail will be compliant with Bulgarian fiscal laws.
+
+For more information refer to the article on [<ins>Fiscalization compliance setup - Bulgaria<ins>]({{< ref "../../fiscalization/bulgaria/how-to/setup/index.md" >}}).
 
 ### POS editor visual improvements
 
-- A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
+- A new layout **Classic 6** has been added to the [<ins>POS editor<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}}). It provides a new layout/structure of buttons and grids that you can use on the POS.
 
     ![classic6](classic6.PNG)
 
@@ -41,8 +135,10 @@ For more information and operating instructions refer to the article on [<ins>Fi
 
    ![color_picker](color_picker.PNG)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ov6Reqshq70?si=6Qo3VrGeTiLT1-Wj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Version 26.0 (October 28th 2023)
+
+## Version 27.0 (October 28th 2023)
 
 ### POS Sale Document Background posting
 
@@ -59,15 +155,17 @@ For more information, examples, and operating instructions refer to the article 
 
 ### MPOS Editor
 
-The [<ins>POS Editor<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
+The [<ins>POS Editor<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}}), introduced in the NP Retail 22 version, now supports MPOS layouts. This new feature has the same benefits as the previous editor – users will no longer need to jump between different systems to edit the MPOS UI.
 
-For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../pos_processes/how-to/activate_mpos_editor/index.md" >}}).
+For more information, examples, and operating instructions refer to the article on [<ins>Using the MPOS editor<ins>]({{< ref "../mpos/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o2FdbYVLXUo?si=TcyeiSn5fGS7NbAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Prepayment invoice posting improvements - Serbia
 
 The prepayment feature has been adapted to support the requirement of the Serbian fiscal law to post the received prepayment invoices to transitional accounts, and not directly in the vendor accounts. It is only when the final invoice is received that the values from the transitional accounts are posted to the vendor accounts.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTMgz5-8tCQ?si=Z7AWxCCwWTJT4Z15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## VAT report feature - Serbia
@@ -78,7 +176,9 @@ This new feature gives you the option of easily forwarding such information to t
 
 The VAT report feature also provides an option of exporting the POPDV report that should be sent to the TA in XML format. 
 
-## Version 25.0 (September 28th 2023)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_FMOfDBBYVc?si=K432wKmnsMw7_djZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Version 26.0 (September 28th 2023)
 
 ### Restaurant module improvements
 
@@ -104,9 +204,9 @@ In addition to the first SMS, the store has the option of sending an SMS with a 
 For more information and operating instructions refer to the article on [<ins>Azure member registration setu<ins>]({{< ref "../../entertainment/membership/how-to/azure_member_registration/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K3E4beZycI0?si=L9cRlryy4cbs3ajh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- 
 
-## Version 24.0 (August 28th 2023)
+
+## Version 25.0 (August 28th 2023)
 
 ### Total discounts
 
@@ -126,7 +226,7 @@ A new feature which allows users to change the number of rows and columns in the
 
 We are currently working on making our POS solution compliant with Serbian fiscal laws.
 
-## Version 23.0 (June 14th 2023)
+## Version 24.0 (June 14th 2023)
 
 ### Getting Started Wizard 
 
@@ -180,7 +280,7 @@ For more information and operating instructions, refer to the article on [<ins>M
 
 Our MPOS has undergone a complete UI overhaul, making the previous scaled-down version of the regular MPOS more modern and streamlined. 
 
-For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/mpos_view/index.md" >}}).
+For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< ref "../mpos/how-to/activate_mpos_editor/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ayTm-uh3sQs?si=PtrK5r-RYfDVE8hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -188,7 +288,7 @@ For operating instructions, refer to the article on [<ins>MPOS setup<ins>]({{< r
 
 With the new POS editor, POS buttons and actions can now be configured solely from within the POS UI no longer requiring accompanying setup in Business Central. This means that it's not necessary to leave the POS to change a button or a workflow parameter. Users will be able to see their changes being reflected instantly without jumping back and forth multiple windows. Consequently, the POS configuration is simplified and load time reduced.
 
-For operating instructions, refer to the article on [<ins>POS editor activation<ins>]({{< ref "../pos_processes/how-to/activate_pos_editor/index.md" >}})
+For operating instructions, refer to the article on [<ins>POS editor activation<ins>]({{< ref "../pos_layout/how-to/activate_pos_editor/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/adHwN8IQwI0?si=u-vQ8ojtqzGvLuin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

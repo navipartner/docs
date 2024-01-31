@@ -21,13 +21,14 @@ To make this flow possible, it's necessary to perform the following setup steps 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Azure Member Registration**, and choose the related link.    
 2. Click **New**.       
-   The **Azure Member Registration Setup** page is displayed.
+   The **Azure Member Registration Setup** page is displayed.      
+   For detailed explanations of fields and options, see the [<ins>reference guide<ins>]({{< ref "../../reference/azure_membership/index.md" >}}).
 3. Provide the **Code** which will be used to identify the membership (e.g. *AZURE_GOLD*), and then provide a more descriptive name for it in **Description** (e.g. *Member Registration GOLD*).
 4. Provide the **Azure Storage Account Name** in the designated field.     
    The storage name is contained in the endpoint which is targeted by the API to complete the membership creation request.
 5. Provided the Azure storage queue in the **Queue Name**.     
    The queue name is also contained in the full endpoint.
-6. Click **Process Azure Queue** in the ribbon, followed by **Actions** > **Setup** < **Create Azure Queue**.     
+6. Click **Process Azure Queue** in the ribbon, followed by **Actions** > **Setup** > **Create Azure Queue**.     
    A confirmation message is displayed, stating that the queue has been created in the specified Azure storage account.
 7. Enable the **Azure Member Registration** via the toggle switch in the **General** panel.
 8. Provide the full endpoint URL in the **Membership Registration Url** field.    

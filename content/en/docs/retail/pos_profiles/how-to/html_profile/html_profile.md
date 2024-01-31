@@ -54,7 +54,7 @@ This HTML file can:
 10. Start or restart the POS unit.   
    The customer display should now display the specified screen.
 
-{{< alert icon="📝" text="If the customer display is displayed on the wrong screen, go to POS Unit Display, and update the information. The numbers displayed on the screens in Windows settings under <b>System > Display</b> don't correlate to the number specified in <b>POS Unit Display</b>"/>}}
+{{< alert icon="📝" text="If the customer display is displayed on the wrong screen, go to POS Unit Display, and update the information. The numbers displayed on the screens in Windows settings under <b>System > Display</b> don't correlate to the number specified in <b>POS Unit Display</b>."/>}}
 
 
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/48a111db-645a-4ab4-85b6-4551b787b45f" loading="lazy" title="Synthesia video player - New Feature: Customer Display" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>

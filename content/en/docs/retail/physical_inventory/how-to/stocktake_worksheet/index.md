@@ -10,17 +10,22 @@ menu:
   docs:
     parent: ""
     identifier: "stocktake_worksheet-297b4292680e3efd3eacbb4cd3634698"
-weight: 196
+weight: 197
 toc: true
 type: docs
 ---
 
-To create a stock-take worksheet, and the accompanying worksheet lines, follow the provided steps:
+Worksheets represent logical blocks of work during stock-takes. To create a stock-take worksheet, and the accompanying worksheet lines, follow the provided steps:
+
+#### Prerequisites
+
+- [<ins>Create an item journal template<ins>]({{< ref "../item_journal_template/index.md" >}})
+- [<ins>Configure the stock-take<ins>]({{< ref "../stocktake_config/index.md" >}})
+
+#### Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Stock-Take Configurations**, and choose the related link.
-2. Select the configuration from the list, and click **Worksheets** in the **Related** dropdown list.       
-   Worksheets represent logical blocks of work during stock takes. 
-
+2. Select a stock-take configuration line from the list, and click **Worksheets** in the **Related** dropdown list.       
 3. Populate the necessary fields.
 
     {{< alert icon="📝" text="When working with worksheets, it's important to understand how they will interact with one another, and how the counted numbers will be applied. Vital information is displayed in the fields such as <b>Location Code</b>, <b>Stock Take Method</b>, and <b>Adjustment Method</b>. The configuration associated with this stock-take will contain more information about specific properties of the values provided in these fields."/>}}
