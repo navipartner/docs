@@ -27,9 +27,11 @@ General posting groups specify who you sell to and buy from, as well as what you
 
 ## Specific posting groups
 
-There are also specific posting groups, that are distinguished by the types of data they contain:
+There are also specific posting groups, that are distinguished by the types of data they contain. Those are customer posting groups, vendor posting groups, inventory posting groups, bank account posting groups, and fixed assets posting groups.
 
-- **Inventory Posting Groups** - you can specify inventory groups that you will assign to the relevant item accounts on the **Inventory Posting Setup** page in Business Central. They also make inventory organization easier, as you can classify items when generating reports.       
+### Inventory Posting Groups
+
+You can specify inventory groups that you will assign to the relevant item accounts on the **Inventory Posting Setup** page in Business Central. They also make inventory organization easier, as you can classify items when generating reports.       
 
   If you're using locations (specified in the **Location Code** field), you need to define multiple inventor accounts in the **Inventory Posting Setup** for each inventory posting group and location.
 
