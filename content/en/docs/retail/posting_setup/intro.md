@@ -55,3 +55,4 @@ It's necessary to consider the posting routine you wish to apply to each individ
 
 - [<ins>Posting priority rule<ins>]({{< ref "explanation/posting_priority_rule/index.md" >}})
 - [<ins>Posting compression (EOD)<ins>]({{< ref "explanation/compression/index.md" >}})
+- [<ins>Set up posting compression<ins>]({{< ref "how-to/posting_compression/index.md" >}})
