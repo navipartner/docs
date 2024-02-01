@@ -15,13 +15,17 @@ toc: true
 type: docs
 ---
 
-Posting groups are a [<ins>core Business Central feature<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
+Posting groups are a [<ins>core Business Central feature<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail POS Posting setup solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
+
+## General posting groups
 
 General posting groups specify who you sell to and buy from, as well as what you sell and buy. It is also possible to combine groups to get more specific reports of transactions. The following general posting groups are available: 
 
 - **General Business Posting Group** - used for specifying the vendor's or the customer's trade type to link transactions made for this business partner with the appropriate general ledger account. 
 - **General Product Posting Group** - specifies the product type to link transactions made from this item with the appropriate general ledger account. 
 - **General Posting Setup** - you can combine business and product posting groups, and choose the accounts to post to. It's possible to post the sale of one item to multiple general ledger accounts if customers are assigned to different business posting groups.
+
+## Specific posting groups
 
 There are also specific posting groups, that are distinguished by the types of data they contain:
 
@@ -37,10 +41,17 @@ There are also specific posting groups, that are distinguished by the types of d
 
 ## POS Posting Setup - NP Retail
 
-In addition to the above, NP Retail uses [<ins>**POS Posting Setup**<ins>]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to their related General Ledger Account. 
+On top of the posting solutions provided by Business Central, NP Retail uses the [<ins>**POS Posting Setup**<ins>]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to the relevant General Ledger Account. 
 
 In a typical sale performed on a POS unit, the following posting setups are employed:
 
 - **General Posting Setup for Sales a/c**
 - **VAT Posting Setup for the VAT a/c**
 - **POS Posting Setup for the Payment a/c**
+
+It's necessary to consider the posting routine you wish to apply to each individual payment method to optimize your posting setup. Refer to the other articles for more information.
+
+### See also
+
+- [<ins>Posting priority rule<ins>]({{< ref "explanation/posting_priority_rule/index.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "explanation/compression/index.md" >}})
