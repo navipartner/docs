@@ -10,17 +10,19 @@ menu:
   docs:
     parent: ""
     identifier: "print_template_setup-756822345a91f75f61fde8cb4a911d3d"
-weight: 259
+weight: 260
 toc: true
 type: docs
 ---
 
-There are multiple system print templates you can choose from, but if you need a template that is completely different from the available choices, or one that needs to be slightly modified, you can either create a new template or copy an existing one, change it, and save it in the environment for future use. 
+NaviPartner provides a large selection of predefined templates for most typical processes, optimized for various printers and print media. 
+
+However, if none of them suit your needs, you can either create a new template or copy an existing one, change it, and save it in the environment for future use. 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Print Template List**, and open the related link.    
    On fresh installation, an empty template list is displayed.
 2. To fetch preconfigured print templates from our Azure server, click **Actions** in the ribbon, followed by **Download Template Data**.     
-   The list of available templates is displayed. You can choose to add, skip or replace any of these templates.
+   The **Import Worksheet** page with available templates is displayed. You can choose to add, skip or replace any of these templates.
 3. There are several available options from this point forward:   
    - If you have a prepared template saved locally, you can click **Actions** in the ribbon, followed by **Import Package File** to upload it.
    - If you need to edit one of the existing templates, click **Edit**.
@@ -29,7 +31,7 @@ There are multiple system print templates you can choose from, but if you need a
 
 4. Provide the template **Code**.       
    The code is a descriptive identifier of the template. It should ideally help distinguish this template from the others. For example, **ZT230_COUPON** lets you know what the printer's model and purpose is just from reading the code.
-5. Select the **Printer Type**. You can choose between [Matrix and Line printers]({{< ref "../../print_template_output_setup/index.md" >}}).      
+5. Select the **Printer Type**. You can choose between [Matrix and Line printers]({{< ref "../../explanation/print_properties/index.md" >}}).      
    Depending on your selection in the previous step, the next panel will either contain the options related to **Matrix Settings** or **Line Settings**.
 6. Configure the settings in the panel below.     
    - The **Line Settings** panel consists of a dropdown list of available line printing devices, and the options for distribution of the item's content in columns. 

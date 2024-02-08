@@ -1,6 +1,6 @@
 ---
-title: "Set up the printing module (Hardware Connector)"
-description: "There are three available printer extensions you can choose from when setting up the default printers for report printing."
+title: "Set up the HW Connector report printing module"
+description: "You can use the Hardware Connector Report Printer Setup page to inject the printers into the standard Business Central Printer Selections administrative section."
 lead: ""
 date: 2023-07-12T14:10:32+02:00
 lastmod: 2023-07-12T14:10:32+02:00
@@ -10,20 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "printing_module_setup-f66ded47843ca46d58145759ed8f0158"
-weight: 259
+weight: 261
 toc: true
 type: docs
 ---
 
-There are three available printer extensions you can choose from when setting up the default printers for report printing:
-
-- Hardware Connector
-- MPOS
-- PrintNode
-
-This how-to guide focuses on the recommended option that is the Hardware Connector, while the MPOS and PrintNode output setups will be explained in separate articles. 
-
-To set up the printing module, follow the provided steps:
+You can use the **Hardware Connector Report Printer Setup** page to inject the printers into the standard Business Central **Printer Selections** administrative section. After this is done, you can use **Printer Selections** to choose which printer is going to be used for printing reports.
 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Hardware Connector Report Printer Setup**, and open the related link.    
