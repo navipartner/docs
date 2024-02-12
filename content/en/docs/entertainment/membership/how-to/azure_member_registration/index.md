@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "azure_member_registration-73d180965ec05d5babc0274e6ad2c393"
-weight: 267
+weight: 291
 toc: true
 type: docs
 ---
