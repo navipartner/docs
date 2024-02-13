@@ -36,7 +36,7 @@ For example, if you combine the print code **BLAST-PRICE** for the layout and th
 
 Examples of the most frequent outputs generated with print templates are:
 
-- Sales receipts
+- [<ins>Sales receipts<ins>]({{< ref "how-to/receipt_print_template/index.md" >}})
 - [<ins>Price labels<ins>]({{< ref "how-to/create_print_template_label/index.md" >}})
 - Coupons
 - [<ins>Exchange labels<ins>]({{< ref "how-to/exchange_label/index.md" >}})

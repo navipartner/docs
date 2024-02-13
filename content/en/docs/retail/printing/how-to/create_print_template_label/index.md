@@ -36,7 +36,7 @@ Price labels can be printed in various shapes, sizes and materials to suit the t
 
 1. Click **Edit Data Items**.     
    The **Data Items** page provides an overview of all available data items, their relations, and constraints.      
-
+   
    When printing price labels, item data is transferred to a common table called **NPR Retail Journal Line** which serves as the initial data source. Any additional data sources need to be referenced as subsets of this one. **NP Retail Journal Line** contains fields like **Item No.**, **Description**, **Variant Code**, **Base Unit of Measure**, **Unit Price**, and **Barcode**.
 
    In this example, the label should contain a **Description**, **Variant Description**, **Unit Price**, and **Barcode**, so the **NPR Retail Journal Line** contains all of the necessary information except for the **Variant Description**.
@@ -57,7 +57,7 @@ Price labels can be printed in various shapes, sizes and materials to suit the t
 | **Distinct Values** | This option is typically used only for the **Line Print**, when it's necessary to print all unique/distinct values. |
 | **Field Value** | Used when the number of iterations is determined by a field value (integer). |
 
-4.  To link two data sources, and make **Item Variant** a subset of the **NPR Retail Journal Line**, select the row with the **Item Variant**, and trigger the **Indent** action at the top of the page.     
+4.  To link two data sources, and make **Item Variant** a subset of the **NPR Retail Journal Line**, select the row with the **Item Variant**, and use the **Indent** action at the top of the page.     
    
    {{< alert icon="📝" text="It's possible to have multiple levels of indentation, i.e. multiple data sources can be subsets of others."/>}}
 

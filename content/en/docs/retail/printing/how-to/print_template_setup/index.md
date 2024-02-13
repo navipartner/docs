@@ -40,7 +40,7 @@ However, if none of them suit your needs, you can either create a new template o
    The preprocessing codeunit is used for splitting the items into components before they are printed, while the postprocessing codeunit restores the components back into a complete item afterwards. These codeunits are useful if multiple items with extensive lines are printed. 
 8. (Optional) For additional setup, use one of the **Actions** in the ribbon:   
    - **Edit Data Items** - State which entities will be used as data sources mapped to the printed item. 
-   - **Edit Layout** - Design the layout of the item by providing the X and Y coordinates (for Matrix templates) or the order and content of each line (for Line templates). 
+   - **Edit Layout** - Design the layout of the item by providing the X and Y coordinates (for Matrix templates) or the order and content of each line (for Line templates).  
    - **Edit Device Settings** - Configure the device-specific settings. You can override the default settings of a device, typically related to calibration, media specifications or encoding.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
