@@ -43,6 +43,8 @@ Examples of the most frequent outputs generated with print templates are:
 - Vouchers
 - Tickets
 
+You can also refer to [<ins>Print template features<ins>]({{< ref "explanation/template_tools/index.md" >}}) to learn more about the tools used for facilitating print template management 
+
 ## Fully supported printers
 
 The list of printers fully supported by our team is recorded in [<ins>System Requirements<ins>]({{< ref "../../retail/gettingstarted/system_requirements.md#printers" >}})
@@ -50,4 +52,7 @@ The list of printers fully supported by our team is recorded in [<ins>System Req
 ## See also
 
 - [<ins>Printer troubleshooting<ins>]({{< ref "../../troubleshooting/printer.md" >}})
+- [<ins>Receipt printer troubleshooting<ins>]({{< ref "../../troubleshooting/receipt_printer.md" >}})
+- [<ins>Label printer troubleshooting<ins>]({{< ref "../../troubleshooting/label_printer.md" >}})
+- [<ins>A4 printer troubleshooting<ins>]({{< ref "../../troubleshooting/a4_printer.md" >}})
 - [<ins>Printer setup - POS Academy<ins>]({{< ref "../pos_academy/printing/printing_setup/index.md" >}})
