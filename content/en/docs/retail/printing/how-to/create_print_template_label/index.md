@@ -28,24 +28,25 @@ Price labels can be printed in various shapes, sizes and materials to suit the t
    For the purposes of this example, the code is **DEMO_PRICE_LABEL**.
 4. Select **Matrix** in the **Printer Type** field.      
    The **Matrix Settings** panel is displayed below.     
-   Matrix and line printing is described in more detail in the [<ins>Printer properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}}) article.
+   Matrix and line printing are described in more detail in the [<ins>Printer properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}}) article.
 5. Make sure that **Zebra** is selected as the **Matrix Device** in the **Matrix Settings** panel.    
    You've now created the most basic price label print template. However, it's recommended to also define which tables will be data sources for the template. 
 
 ## Add and link data sources
 
-1. Click **Edit Data Items**.     
+1. Click **Edit Data Items** in the **Template Card**.     
    The **Data Items** page provides an overview of all available data items, their relations, and constraints.      
-   
-   When printing price labels, item data is transferred to a common table called **NPR Retail Journal Line** which serves as the initial data source. Any additional data sources need to be referenced as subsets of this one. **NP Retail Journal Line** contains fields like **Item No.**, **Description**, **Variant Code**, **Base Unit of Measure**, **Unit Price**, and **Barcode**.
+2. Add the **NPR Retail Journal Line** table as the main data source.      
 
-   In this example, the label should contain a **Description**, **Variant Description**, **Unit Price**, and **Barcode**, so the **NPR Retail Journal Line** contains all of the necessary information except for the **Variant Description**.
+   When printing price labels, item data is transferred to a common table **NPR Retail Journal Line** which serves as the initial data source. Any additional data sources need to be referenced as subsets of it. **NP Retail Journal Line** contains fields like **Item No.**, **Description**, **Variant Code**, **Base Unit of Measure**, **Unit Price**, and **Barcode**.
 
-2. Add a line below **NPR Retail Journal Line**, and select the **Item Variant** data source.
+   In this example, the label should contain a **Description**, **Variant Description**, **Unit Price**, and **Barcode**, so the **NPR Retail Journal Line** contains all of the necessary information except for the **Variant Description**. The missing data will be extracted from another table called **Item Variant**.
+
+3. Add a line below **NPR Retail Journal Line**, and select the **Item Variant** data source.
 
    ![data_source_variant](Images/data_source_variant.PNG)
 
-3. Set the **Iteration Type** for the **Item Variant** to **First**.       
+4. Set the **Iteration Type** for the **Item Variant** to **First**.       
    As a reference, you can choose between the following iteration types:    
 
 | Option Name      | Description |
@@ -85,22 +86,22 @@ Price labels can be printed in various shapes, sizes and materials to suit the t
 
   ![print_template_layout](Images/print_template_layout.PNG)     
 
-   Therefore, the first line in the layout design needs to be placed in the top left corner. The X and Y coordinates are relative to the previously defined **LABEL_HOME**, so if the first line is placed at 0,0, the final position will be 10,10 due to this setting. 
+   The first line in the layout design needs to be placed in the top left corner. The X and Y coordinates are relative to the previously defined **LABEL_HOME**, so if the first line is placed at 0,0, the final position will be 10,10 due to this setting. 
 
-2. For **Type Option** select **Font U**.
+1. For **Type Option** select **Font U**.
 
     {{< alert icon="📝" text="You can use either <b>Fonts</b> or <b>Scale Fonts</b> for the text output. <b>Font A</b> is a small font, whereas <b>Font V</b> is a big font. For the <b>Scale Fonts</b>, it is possible to define other values than the predefined ones, so it could be Scale Font 30,10 if it was to be desired."/>}}
 
-3. Open the lookup in the **Table Name**, and select **RetailJournalLine**.    
+2. Open the lookup in the **Table Name**, and select **RetailJournalLine**.    
     The available options will be the data sources defined earlier in the setup.
-4. Open the lookup dialog box for the **Field Name**, and select **Description**.     
+3. Open the lookup dialog box for the **Field Name**, and select **Description**.     
     This is everything you need to do in order to display the first line of our example. However, other lines can also be set up to match the configuration displayed in the following screenshot: 
 
     ![template_matrix](Images/template_matrix.PNG)
 
 ## Configure Device Settings
 
-After you're finished with specifying the layout, click **Edit Device Settings**.   
+After you've finished configuring the layout, click **Edit Device Settings**.   
 
 As with the layout, the selections under the **Printer Type** and **Matrix Device** determine the available options.     
 Typically, **LABEL_HOME**, **PRINT_WIDTH**, **MEDIA_DARKNESS**, and **PRINT_RATE** are set up to ensure correct calibration and good performance. 

@@ -16,6 +16,8 @@ type: docs
 ---
 Through this example, you will learn how to create a simple print template for a receipt.
 
+  {{< alert icon="📝" text="NaviPartner provides a large selection of predefined templates for most typical processes, optimized for various printers and print media. You can retrieve these predefined templates with the <b>Download Template Data</b> action in the <b>Print Template List</b> administrative section. Some of these templates are created specifically for printing receipts - EPSON_RECEIPT_2 / EPSON_RECEIPT_LOYAL."/>}}
+
 ## Create a basic receipt print template
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Print Template List**, and open the related link.    
@@ -25,25 +27,28 @@ Through this example, you will learn how to create a simple print template for a
    For the purposes of this example, the code is **DEMO_RECEIPT**.
 4. Select **Line** in the **Printer Type** field.      
    The **Line Settings** panel is displayed below. It is used to determine which printer interface will be targeted.      
-5. Make sure **Epson** is selected as the **Line Device**. 
+   Matrix and line printing are described in more detail in the [<ins>Printer properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}}) article.
+5. Make sure **Epson** is selected as the **Line Device**.      
+   You've now created the most basic receipt print template. However, it's recommended to also define which tables will be data sources for the template. 
 
 ## Add and link data sources
 
-1. Once all general settings are set, click **Edit Data Items**.    
-   The **Data Items** page provides an overview of all available data items, their relations, and constraints. 
-  
+1. Once all general settings are set, click **Edit Data Items** in the **Template Card**.    
+   The **Data Items** page provides an overview of all available data items, their relations, and constraints.   
+2. Add the **NPR POS Entry** table as the main data source.    
+
    {{< alert icon="📝" text="When printing POS receipts in NP Retail, the data originates from the <b>NPR POS Entry</b>, so it is the initial data source, and any additional data sources should be referenced as subsets of it. You can achieve this behavior through indentation and <b>Data Item Links</b>."/>}}
 
-2. Add two new lines below **NPR POS Entry**. The first one should be the **NPR POS Entry Sales Line**, and the second one **NPR POS Entry Payment Line**.        
-   They are linked with the **NPR POS Entry** through the common **POS Entry No.**, so that only the relevant entries are selected.
+3. Add two new lines below **NPR POS Entry**. The first one should be the **NPR POS Entry Sales Line**, and the second one **NPR POS Entry Payment Line**.        
 
       ![data_items_receipt](Images/data_items_receipt.PNG)
 
-3. Select the two newly created lines, and use the **Indent** action at the top of the page, to make them subsets of the **NPR POS Entry**. 
-4. Establish the data link between the **NPR POS Entry** and the **NPR POS Entry Sales Line**, and then with the **NPR POS Entry Payment Line**, respectively.        
-   If the data link isn't set, the data from other POS entries will be included in the data set.      
+4. Select the two newly created lines, and use the **Indent** action at the top of the page, to make them subsets of the **NPR POS Entry**. 
+5. Establish the data link between the **NPR POS Entry** and the **NPR POS Entry Sales Line**, and then with the **NPR POS Entry Payment Line**, respectively.          
 
-   For the **NPR POS Entry Sales Line**, the generic **TableLink** will be **Entry No.** in the **NPR POS Entry** and the **POS Entry No.** in the **NPR POS Entry Sales Line**. An example of a **Fixed Filter** can be placed be on the field **Type** from the **NPR POS Entry Sales Line**.      
+   They need to be linked with the **NPR POS Entry** through the common **POS Entry No.**, so that only the relevant entries are selected. If the data link isn't set, the data from other POS entries will be included in the data set.      
+
+   For the **NPR POS Entry Sales Line**, the generic **TableLink** will be **Entry No.** in the **NPR POS Entry**, and the **POS Entry No.** in the **NPR POS Entry Sales Line**. An example of a **Fixed Filter** can be placed on the field **Type** from the **NPR POS Entry Sales Line**.      
 
   {{< alert icon="📝" text="This makes it possible to filter certain types of <b>NPR POS Entry Sales Lines</b>, e.g., items or vouchers, in other scenarios that require this behavior."/>}}
 

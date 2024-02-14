@@ -17,6 +17,6 @@ type: docs
 
 There are three available printer extensions you can choose from when setting up the default printers for report printing:
 
-- Hardware Connector - a tool that helps you transfer data from the browser to a local printer.
-- MPOS
-- PrintNode
+- Hardware Connector - helps you transfer data from the browser to a local printer.
+- MPOS - gives you an option of printing content from MPOS devices.
+- PrintNode - allows you to expand your app with remote printing functionalities.
