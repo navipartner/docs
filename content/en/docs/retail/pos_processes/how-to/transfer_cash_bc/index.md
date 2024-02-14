@@ -65,7 +65,7 @@ To accept a POS payment bin transfer journal entries on POS, make sure the prere
 3. (Optional) If you're going to print a receipt, also configure the following [<ins>parameters<ins>]({{< ref "../../reference/pos_actions_ref/index.md" >}}) on the action:
 
    - Set the **Print Transfer** parameter to **true**. 
-   - Define a [<ins>print template<ins>]({{< ref "../../../printing/print_template_output_setup/index.md" >}}) for it. 
+   - Define a [<ins>print template<ins>]({{< ref "../../../printing/how-to/print_template_setup/index.md" >}}) for it. 
    - Configure the print template in the **Report Selection - Retail** administrative section in Business Central.
 
 4. Configure the [<ins>**POS Posting Setup**<ins>]({{< ref "../../../posting_setup/explanation/pos_posting_setup/index.md" >}}), so that the proper accounting entries are recorded while the cash is transferred. 

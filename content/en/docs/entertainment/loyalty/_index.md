@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "loyalty-c2a7ff73eade3e1a27f3a02850a7d05a"
-weight: 270
+weight: 294
 toc: true
 type: docs
 ---

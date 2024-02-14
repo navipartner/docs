@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Business Central has a possibility to utilize Microsoft Word for report layouts. In this way, it can be quite easy to design sales invoices, credit memos, or any other reports with specific layouts. 
+Business Central has a possibility to utilize Microsoft Word for [<ins>report layouts<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts). In this way, it can be quite easy to design sales invoices, credit memos, or any other reports with specific layouts. 
 
 To set up report layouts in Business Central, follow the provided steps:
 

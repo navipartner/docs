@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "refund_policy_setup-e4db1eea8f2dbd7bad16926767e0718c"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---

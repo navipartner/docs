@@ -10,10 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "exchange_label-7e9ed683b3ccdfec3902838ddacf275e"
-weight: 259
+weight: 263
 toc: true
 type: docs
 ---
+
+Exchange labels are issued by retailers to customers if they want to exchange a purchased item for the same item with a different quality (color, size) or a completely different item, rather than return the purchased item and receiving a refund.
 
 This topic describes the process of setting up exchange labels, which can later be scanned on the POS to automatically create a negative sales line for return of items.
 

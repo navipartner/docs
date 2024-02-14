@@ -10,14 +10,14 @@ menu:
   docs:
     parent: ""
     identifier: "print_template_output-6e5aadeab5f57587b01f445d811ac579"
-weight: 259
+weight: 262
 toc: true
 type: docs
 ---
 
 You can define print templates for printing non-A4 content like sales receipts, balancing tickets, price labels, exchange labels and so on.
 
-The Print Template Output Setup, formerly referred as Object Output Selection, is where you define the printer on which you are to print these Print Templates when using them in NP Retail.
+The **Print Template Output Setup**, formerly referred as **Object Output Selection**, is where you define the printer on which you are to print these print templates in NP Retail.
 
 To configure print template output, follow the provided steps:
 
@@ -28,7 +28,7 @@ To configure print template output, follow the provided steps:
 | Field Name      | Description |
 | ----------- | ----------- |
 | **User ID** | You can specify the ID of the only user who will be able to print the template on a printer. If left blank, all users will be able to use that printer when printing the template defined on the line. |
-| **Codeunit ID** | Provide the ID of the scodeunit responsible for printing on different printer types (6014547 - NPR RP Matrix Print Mgt.; 6014549 - NPR RP Line Print Mgt.). |
+| **Codeunit ID** | Provide the ID of the codeunit responsible for printing on different printer types (6014547 - NPR RP Matrix Print Mgt.; 6014549 - NPR RP Line Print Mgt.). |
 | **Codeunit Name** | Specifies the description of the codeunit responsible for printing on different printer types. |
 
 4. Specify what kind of output is expected in the **Output Type** field. The following options are available: 

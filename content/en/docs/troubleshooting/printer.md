@@ -15,6 +15,10 @@ toc: true
 type: docs
 ---
 
+#### For which printers does NaviPartner offer full support and hotline?
+
+Although our solutions may work on additional devices, the list of printers fully supported by our team is recorded in [<ins>System Requirements<ins>]({{< ref "../retail/gettingstarted/system_requirements.md#printers" >}}).
+
 #### The print job hasn't been sent to the printer. What can be done to fix this?
 
 - One of the following solutions should be applicable in this scenario:

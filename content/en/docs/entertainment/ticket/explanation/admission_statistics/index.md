@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "admission_statistics-604d2aad5a7e10cc38ba103c0e52b7d8"
-weight: 264
+weight: 289
 toc: true
 type: docs
 ---

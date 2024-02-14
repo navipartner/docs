@@ -107,6 +107,7 @@ All payment terminals can be used as stand-alone solutions. For integrated solut
 - Ingenico iPP350 BAXI terminal 
 - Ingenico Move3500 BAXI terminal 
 - Ingenico Lane3000 BAXI terminal 
+- Ingenico Link2500 BAXI terminal 
 - Ingenico iSMP4 BAXI terminal
 
 **Verifone**
