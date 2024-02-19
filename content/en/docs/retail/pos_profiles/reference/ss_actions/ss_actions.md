@@ -118,3 +118,7 @@ In this situation, the same POS action is set in the POS Named Action Profile fo
 
 
 {{< alert icon="📝" text="It is a similar function to SS-START-POS, with the difference being that it has a prompt to scan or insert a customer number prior to initiating the sale."/>}}
+
+#### See also
+
+- [<ins>Self-Service Profile troubleshooting<ins>]({{< ref "../../../../troubleshooting/ss_profile.md" >}})

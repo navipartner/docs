@@ -17,14 +17,14 @@ type: docs
 
 You can set up the content of customer display in **Display Setup**. Here, it is possible to:
 
-- set the parameters for the customer display per each cash register. 
+- set the [<ins>parameters<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}) for the customer display per each cash register. 
 - change the look and feel of the customer display.
 - change the place in which the receipt is located.
 - set up whether any media is downloaded.
 
 ## Prerequisites
 
- - Have at least one POS unit set up for sales in the system.
+ - Have at least one [<ins>POS unit<ins>]({{< ref "../../../pos_processes/how-to/create_pos_unit/index.md" >}}) set up for sales in the system.
  - Have a dedicated customer display hardware attached to POS units that will inherit this configuration.
 
 ## Procedure 
@@ -42,9 +42,11 @@ You can set up the content of customer display in **Display Setup**. Here, it is
    Add more lines for a slideshow of images.
 8. Go back to the **POS Display Profile**, and enable **Activate** to allow the customer display of POS Units to use this **POS Display Profile**.
 
-{{< alert icon="📝" text="The fields in the <b>Receipt</b> panel are used for customizing the display of sales lines."/>}}
-
 {{< alert icon="📝" text="If the customer display is blank, try pressing <b>Alt + Tab</b> to check if the window is displayed in the background. If the customer display is displayed on the wrong screen or if the new media content is not displayed, go to POS Unit Display and update the information."/>}}
 
 {{< alert icon="⚠️" text="Remember to restart the POS when updating either the <b>POS Display Profile</b> or <b>POS Unit Display</b>."/>}}
 
+#### See also
+
+- [<ins>Set up the POS HTML Display Profile<ins>]({{< ref "../html_profile/html_profile/index.md" >}})
+- [<ins>POS Display Profile<ins>]({{< ref "../../reference/display_profile/display_profile/index.md" >}})

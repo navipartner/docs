@@ -30,3 +30,8 @@ The following tax-free parameters are linked to each POS unit, and can be config
 | **Check POS Terminal IIN** | Enables IIN matching for all EFT payment transactions. You can use this option to suggest the tax-free voucher when the source of the IIN is a region eligible for the tax-free solution. |
 | **Request Timeout (ms)** | Specifies how long you need to wait before cancelling the tax-free action. This option is relevant if temporary connection issues occur in the tax-free solution environment. The suggested value is 10000 (10 seconds). |
 | **Store Voucher Prints** | Specifies whether to store tax-free prints on the voucher records. If the Global Blue tax-free solution is used, this option should be disabled. |
+
+#### See also
+
+- [<ins>Tax-free module overview<ins>]({{< ref "../../../taxfree/intro.md" >}})
+- [<ins>Tax-free profile parameters<ins>]({{< ref "../../../taxfree/reference/params_ref/index.md" >}})
