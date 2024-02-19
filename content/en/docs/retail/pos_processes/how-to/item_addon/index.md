@@ -111,4 +111,7 @@ There is a POS action (**RUN_ITEM_ADDONS**) that can be used to create a button 
   ![item_addon8](item_addon8.png)
 
 
-You can get more examples, use cases, and best practices in the [<ins>POS Academy<ins>]({{< ref "../../../pos_academy/item_addons/intro.md" >}}).
+#### See also
+
+- [<ins>Item AddOn overview<ins>]({{< ref "../../../pos_academy/item_addons/intro.md" >}})
+- [<ins>Item AddOn (reference guide)<ins>]({{< ref "../../reference/item_addon_ref/index.md" >}})

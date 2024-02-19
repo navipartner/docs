@@ -56,6 +56,7 @@ For more information about individual fields and options on the **Counting** scr
 
 Once the necessary configurations are complete, you can move on to [<ins>balancing the POS<ins>]({{< ref "generate_eod.md" >}}) at the end of the work shift.
 
-## Troubleshooting 
+#### See also 
 
-[<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})
+- [<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})
+- [<ins>End-of-day report (POS balance)<ins>]({{< ref "../../explanation/end-of-day-exp/index.md" >}})

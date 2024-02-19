@@ -64,3 +64,8 @@ This codeunit can be used for various operations in the **NP Retail Task List**.
 You can use this codeunit to process the **Import List** automatically and create entries automatically with the **Parameter String = process_import_list**.
 
 Since the **Import List** is usually used for importing entries that need to be available immediately, it is recommended to have this run as a recurring job every few minutes.
+
+#### See also
+
+- [<ins>Job Queue Entries setup<ins>]({{< ref "../../../pos_academy/job_queue/setup/index.md" >}})
+- [<ins>Set up job queue to post POS entries<ins>]({{< ref "../../how-to/job_queue/index.md" >}})

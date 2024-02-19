@@ -65,3 +65,9 @@ Each cash drawer or virtual drawer can be posted on a different G/L account.
 4. Add an **Account**.
 
 ![POS_GL](general.png)
+
+#### See also
+
+- [<ins>Posting setup breakdown<ins>]({{< ref "../../../posting_setup/intro.md" >}})
+- [<ins>Create a POS payment method<ins>]({{< ref "../create_payment_method/index.md" >}})
+- [<ins>Payment operations<ins>]({{< ref "../../../pos_academy/sales_cycle/payment_operations/index.md" >}})

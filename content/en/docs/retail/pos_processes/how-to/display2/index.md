@@ -49,3 +49,7 @@ The second POS screen can be used by customers to provide any sort of required i
 
 ![pos_signature](pos_signature.PNG)
 
+#### See also
+
+- [<ins>Sales and returns<ins>]({{< ref "../../../pos_academy/sales_cycle/sales_returns/index.md" >}})
+- [<ins>Cash out a voucher<ins>]({{< ref "../../../vouchers/how-to/cashout/index.md" >}})

@@ -33,6 +33,6 @@ NP Retail is a solution which combines the functionalities of the POS and ERP sy
 
 NaviPartner has developed an [<ins>onboarding setup wizard for NP Retail<ins>]({{< ref "getting_started_wizard.md" >}}), which guides you through the configuration process of all essential modules and features. Additionally, the setup wizard is accompanied with the [<ins>POS Academy video library<ins>](https://www.youtube.com/@NaviPartnerKbh), which provides tips and tricks for completing the setup more efficiently.
 
-### What's new
+## Learn what's new
 
-Learn which [<ins>**new features and improvements**<ins>]({{< ref "release_notes.md" >}}) have been introduced in the newest versions of the NP Retail solution.
+Get an overview of [<ins>**new features and improvements**<ins>]({{< ref "release_notes.md" >}}) introduced in the newest versions of the NP Retail solution.

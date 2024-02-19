@@ -85,3 +85,8 @@ To accept a POS payment bin transfer journal entries on POS, make sure the prere
    A POS entry line is created and posted. The corresponding G/L entries are also created.
 
    ![transfer_results](Images/transfer_results.PNG)
+
+#### See also
+
+- [<ins>Transfer and post stock-take worksheet<ins>]({{< ref "../../../physical_inventory/how-to/transfer_post_stocktake/index.md" >}})
+- [<ins>Transfer cash between POS units<ins>]({{< ref "../bin_transfer_action/index.md" >}})

@@ -27,6 +27,7 @@ A float is an amount of cash that needs to be available in the cash register at 
 
     Once the initial float is inserted and confirmed by clicking **OK**, you can no longer correct it on the same page. If you try to correct (change) the initial float, an error message stating that the initial float already exists will be displayed.
 
-## Troubleshooting
+#### See also
 
-[<ins>Initial float troubleshooting<ins>]({{< ref "../../../../troubleshooting/initial_float.md" >}})
+- [<ins>Initial float troubleshooting<ins>]({{< ref "../../../../troubleshooting/initial_float.md" >}})
+- [<ins>Set up POS payment bins<ins>]({{< ref "../payment_bins/index.md" >}})

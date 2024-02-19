@@ -19,7 +19,7 @@ You can set up a functionality which sends the POS sale receipts to customers' e
 
 ## Prerequisites
 
-- Create the necessary email accounts.
+- Create the necessary [<ins>email accounts<ins>]({{< ref "../../../communication/explanation/email_setup/index.md" >}}).
 - Create an e-mail template that will be sent to users.    
   The relevant **Report ID** needs to be specified within the e-mail template.
 - Add the **Send Email Receipt** [<ins>button to the POS menu<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) you want it to be displayed in.       
@@ -35,3 +35,7 @@ You can set up a functionality which sends the POS sale receipts to customers' e
 2. Enter the **Salesperson Code** in the provided field to log in.
 3. Click the **SEND_RECEIPT** button.     
    Either the last created receipt is sent to the customer or a list of the available receipts is displayed. Once you select a receipt, it is sent to the customer's e-mail.
+
+#### See also
+
+- [<ins>Set up digital receipts<ins>]({{< ref "../digital_receipts/index.md" >}})

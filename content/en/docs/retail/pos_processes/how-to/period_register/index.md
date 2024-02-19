@@ -40,4 +40,7 @@ A POS period is initiated as soon as the POS is opened, and finalized at the end
 | **POS Entries** | Display all posted transactions within that specific period. |
 | **Find Entries** | If you've selected **Posting Compression per POS Period**, you can find the G/L entries for all transactions that are [<ins>compressed<ins>]({{< ref "../../../posting_setup/how-to/posting_compression/index.md" >}}). | 
 
+#### See more
 
+- [<ins>POS profile overview<ins>]({{< ref "../../../pos_academy/configuration/pos_profile_setup/index.md" >}})
+- [<ins>End-of-day profile<ins>]({{< ref "../../../pos_profiles/reference/eod_profile/eod_profile/index.md" >}})

@@ -26,7 +26,7 @@ There's two methods for setting up an opening mechanism for a cash drawer:
 
 ### Prerequisites
 
-- Have at least one existing POS unit in the system.
+- Have at least one existing [<ins>POS unit<ins>]({{< ref "../create_pos_unit/index.md" >}}) in the system.
 - Have a [<ins>POS payment bin<ins>]({{< ref "../payment_bins/index.md" >}}) linked to the POS unit.
 - Have the cash drawer connected to the receipt printer.  
 
@@ -54,8 +54,8 @@ This topic section walks you through the process of setting up the POS Payment B
 
 ### Prerequisites
 
-- Have at least one POS unit.
-- Have a POS payment bin attached to the POS unit.
+- Have at least one [<ins>POS unit<ins>]({{< ref "../create_pos_unit/index.md" >}}).
+- Have a [<ins>POS payment bin<ins>]({{< ref "../payment_bins/index.md" >}}) attached to the POS unit.
 - Have the cash drawer driver installed for the specific cash drawer. 
 - Have the OPOS CCO installed ([<ins>the 1.14.001 CCO installer<ins>](http://monroecs.com/oposccos_current.htm)).
 
@@ -75,3 +75,7 @@ This topic section walks you through the process of setting up the POS Payment B
 7. In the pop up in the field **Value** input the **Logical Device Name** of the OPOS printer on the POS.      
    The POS Unit with this POS payment bin is now using OPOS to open whenever opening the drawer in POS.
 
+#### See also
+
+- [<ins>Create a new POS unit<ins>]({{< ref "../create_pos_unit/index.md" >}})
+- [<ins>Set up POS payment bins<ins>]({{< ref "../payment_bins/index.md" >}})

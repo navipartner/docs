@@ -27,3 +27,8 @@ Item categories are defined in the **Item Category Card** by defining the follow
 | **Blocked** | You can block the category so that it can't be assigned to an item. Typically, you can block the first level, which results in the parent category being used as a header. This also happens if the category is no longer being used.  |
 | **Main Category** | Here, you can define the logic of the first level, i.e. use the main category as sort of a header. |
 | **Attributes** | You can preset different attributes (e.g. color, size or another specific property like **Item Type**) to the category. When an item assigned to that category is created, it will inherit the attributes automatically. | 
+
+#### See also
+
+- [<ins>Item category setup<ins>]({{< ref "../../../pos_academy/item_and_price/item_categories/index.md" >}})
+- [<ins>Create new items<ins>]({{< ref "../../../pos_academy/item_and_price/create_item/index.md" >}})

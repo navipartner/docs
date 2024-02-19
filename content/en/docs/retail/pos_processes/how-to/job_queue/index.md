@@ -37,3 +37,9 @@ After the sale is finalized, the POS entry is created. This entry has **Post ite
      ![6014683](6014683.PNG)
 
 All data is automatically saved.
+
+#### See also
+
+- [<ins>Job Queue Entries setup<ins>]({{< ref "../../../pos_academy/job_queue/setup/index.md" >}})
+- [<ins>Send notifications for failed job queue entries and retry<ins>]({{< ref "../../../pos_academy/job_queue/failed_job_notif/index.md" >}})
+- [<ins>NP Retail Job Queue Entries<ins>]({{< ref "../../../pos_processes/reference/job_queue_codeunits/index.md" >}})

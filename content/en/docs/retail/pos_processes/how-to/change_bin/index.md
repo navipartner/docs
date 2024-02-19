@@ -31,3 +31,8 @@ Bins represent physical shelves and rows in which the shop's inventory is stored
 3. Select the item you wish to purchase, then select its variant, and click **OK**.
 4. Click the **CHANGE_BIN** button, then select the bin you wish to take it from, and click **OK**.   
 5. Finalize the sale. 
+
+#### See also
+
+- [<ins>Set up POS payment bins<ins>]({{< ref "../payment_bins/index.md" >}})
+- [<ins>Transfer cash with the POS Payment Bin Transfer Journal<ins>]({{< ref "../transfer_cash_bc/index.md" >}})

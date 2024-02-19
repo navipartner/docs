@@ -261,3 +261,8 @@ Once the POS info is configured, you can navigate to the **Customer Card** to se
 4. Open Business Central, and navigate to the **POS Entry List**.
 5. Hover over the transaction line, and select **POS Info POS Entry** from the **Related** tab in the ribbon.    
    A page containing the details of the POS info is displayed.
+
+#### See also
+
+- [<ins>POS Info card<ins>]({{< ref "../../reference/pos_info_card_ref/index.md" >}})
+- [<ins>Customer setup<ins>]({{< ref "../../../pos_academy/customers/create_customers/index.md" >}})
