@@ -27,3 +27,9 @@ After you've set up varieties, you can assign them to items. To assign a variety
    In the provided example, the item `10025 - dress` has the following combinations of size and color: `XXS Black`, `XXS Blush`, `S Black`, `S Blue`, and `XS Blue`.   
 
    ![assign_variety_to_item](assign_variety_to_item.png)
+
+#### See also
+
+- [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../matrix.md" >}})
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../create_variety.md" >}})
+- [<ins>Block a variant<ins>]({{< ref "../block_variant.md" >}})
