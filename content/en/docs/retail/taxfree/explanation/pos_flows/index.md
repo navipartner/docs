@@ -90,6 +90,9 @@ You can consolidate multiple sales receipts into one tax-free voucher. This is d
 
 Whenever you add a new receipt, the Audit Roll opens up, allowing you to find a specific sales receipt and add it. 
 
+#### See also
 
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "../../../../troubleshooting/tax_free.md" >}})
+- [<ins>Tax-free profile parameters<ins>]({{< ref "../../reference/params_ref/index.md" >}})
 
 

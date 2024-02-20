@@ -26,3 +26,7 @@ In order to establish a functional SMS module, certain actions need to be set up
 | **Customer No.** | Specifies the phone number of the customer. |
 | **Default Sender No.** | Specifies the sender phone number. |
 | **Domestic Phone Prefix** | Specifies the local country calling code of the sender. |
+
+#### See also
+
+- [<ins>SMS templates<ins>]({{< ref "../../reference/sms_template_ref/index.md" >}})
