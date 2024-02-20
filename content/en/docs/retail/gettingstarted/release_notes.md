@@ -17,6 +17,14 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
+## Version 31.0 (February 28th 2024)
+
+### Fiscalization compliance with Italian fiscal laws
+
+As of the version 31, NP Retail will be compliant with Italian fiscal laws.
+
+For more information and operating instructions refer to the article on [<ins>Fiscalization compliance setup - Italy<ins>]({{< ref "../../fiscalization/italy/how-to/setup.md" >}}).
+
 ## Version 30.0 (January 28th 2024)
 
 ### Bin transfer improvements
