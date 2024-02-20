@@ -82,3 +82,11 @@ In the **Mix Discount Lines** for this type of mix discount, you can configure t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GdFKN5v223g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NynY_ZB-jxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Set up mix discounts<ins>]({{< ref "../../how-to/create_mix_discount/index.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../../coupons/how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Set up period discounts<ins>]({{< ref "../../how-to/period_discounts/index.md" >}})
+- [<ins>Create a total discount<ins>]({{< ref "../../how-to/total_discount/index.md" >}})
