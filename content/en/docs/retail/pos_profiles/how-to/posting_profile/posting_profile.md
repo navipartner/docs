@@ -60,3 +60,10 @@ Each POS unit can have a different set of posting rules. The first thing is to s
 ![pos pos](POS_POS_1.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Posting setup breakdown<ins>]({{< ref "../../../posting_setup/intro.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "../../../posting_setup/explanation/compression/index.md" >}})
+- [<ins>Posting priority rules<ins>]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}})
+- [<ins>Posting setup<ins>]({{< ref "../../../posting_setup/explanation/pos_posting_setup/index.md" >}})

@@ -48,7 +48,7 @@ You can use the **Hardware Connector Report Printer Setup** page to inject the p
 
 {{< alert icon="📝" text="If neither <b>User ID</b> nor <b>Report ID</b> are specified the printer selection is applicable for all users and reports that aren't defined."/>}}
 
-9.  Open the [<ins>Hardware Connector Software<ins>](../../../gettingstarted/hw_connector.md) before you start printing.     
+9.  Open the [<ins>Hardware Connector Software<ins>]({{< ref "../../../gettingstarted/hw_connector.md" >}}) before you start printing.     
    It needs to be running in the background. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

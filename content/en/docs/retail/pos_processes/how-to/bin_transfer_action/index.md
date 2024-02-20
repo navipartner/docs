@@ -71,3 +71,7 @@ To complete the transfer, make sure the prerequisites are met, and follow the pr
 
   ![posted_bin_transfer](Images/posted_bin_transfer.PNG)
 
+#### See also
+
+- [<ins>Transfer cash with the POS Payment Bin Transfer Journal<ins>]({{< ref "../transfer_cash_bc/index.md" >}})
+- [<ins>Transfer and post stock-take worksheet<ins>]({{< ref "../../../physical_inventory/how-to/transfer_post_stocktake/index.md" >}})

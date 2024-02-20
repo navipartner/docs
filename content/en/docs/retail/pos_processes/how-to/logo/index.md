@@ -28,3 +28,7 @@ To add a logo to the POS login screen, follow the provided steps:
 
 6. Click **Choose** in the window that pops up, so you can select the picture from your files for import.           
    After you select a picture, the picture will be added to the **POS Unit** page, and you will see it on POS units in the login screen.
+
+#### See also
+
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../../../pos_layout/how-to/layout_wizard/index.md" >}})

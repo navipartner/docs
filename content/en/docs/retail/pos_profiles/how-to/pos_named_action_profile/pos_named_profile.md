@@ -49,3 +49,7 @@ After setting up the POS Named Actions Profile, you need to add it to the POS Un
 
 2. Open the **POS Unit Card**.
 3. Provide the prepared POS profile in the **POS Named Action Profile** field. 
+
+#### See also
+
+- [<ins>POS actions<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}})

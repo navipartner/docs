@@ -28,3 +28,8 @@ To set up this connection, follow the provided steps:
 4. Insert the same **POS End of Day Profile** in all POS units which will be slave units of the master unit assigned in the profile you created.
 
 5. Insert the same **POS End of Day Profile** in the POS unit which you assigned as master.
+
+#### See also
+
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../create_pos_unit/index.md" >}})
+- [<ins>POS profile overview<ins>]({{< ref "../../../pos_profiles/intro.md" >}})

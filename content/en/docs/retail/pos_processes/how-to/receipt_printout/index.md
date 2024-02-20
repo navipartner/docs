@@ -43,3 +43,7 @@ Receipt footers are useful when you wish to include the company's name, phone, a
 1. Open the **POS Unit Card**. 
 2. Scroll down to the **Profiles**, and open the [<ins>**POS Unit Receipt Text Profile**<ins>]({{< ref "../../../pos_profiles/how-to/unit_receipt_profile/unit_receipt_profile.md" >}}) dropdown box.
 3. Open the existing profile to edit or [<ins>create a new one<ins>]({{< ref "../../../pos_profiles/how-to/unit_receipt_profile/unit_receipt_profile.md" >}}), and input the text relevant for this profile.
+
+#### See also
+
+- [<ins>Printing module overview<ins>]({{< ref "../../../printing/intro.md" >}})

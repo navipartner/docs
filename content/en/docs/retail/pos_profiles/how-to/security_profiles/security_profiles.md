@@ -32,3 +32,8 @@ To set up the security profile, follow the provided steps:
 
 4. Provide the **Unlock Password**.      
    This password will be used for unlocking the POS unit.
+
+#### See also
+
+- [<ins>Set up external terminal integration<ins>]({{< ref "../../../eft/how-to/external_terminal_integration/index.md" >}})
+- [<ins>POS processes - learn & apply<ins>]({{< ref "../../../pos_processes/intro.md" >}})

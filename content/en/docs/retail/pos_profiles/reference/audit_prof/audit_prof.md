@@ -38,3 +38,8 @@ The following options can be set up in the **General** section:
 | **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. You can make a list of possible reasons for return in the **Return Reasons** administrative section.  | 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JaqGl38lV-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Country-specific fiscalization requirements<ins>]({{< ref "../../../../fiscalization/intro.md" >}})

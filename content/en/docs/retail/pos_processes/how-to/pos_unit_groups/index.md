@@ -35,3 +35,8 @@ If you wish the salesperson to have access only to a specified group of POS unit
 6. Open the card of the salesperson you wish to assign to the POS unit group you've previously created. 
 7. Navigate to the **Security** section, and add the code of the POS unit group in the **POS Unit Group** field.     
    If the salesperson attempts to access a POS unit that isn't a part of the defined POS unit group, they will be notified that their access to the POS unit is denied.
+
+#### See also
+
+- [<ins>POS profiles<ins>]({{< ref "../../../pos_profiles/intro.md" >}})
+- [<ins>Sales price maintenance<ins>]({{< ref "../../reference/sales_price_maintenance/index.md" >}})

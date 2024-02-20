@@ -56,3 +56,10 @@ After you create a POS unit, you need to link it to the POS user's ID before it 
 
 The new POS unit is created, attached to the [<ins>POS store<ins>]({{< ref "../../../pos_store/how-to/new/index.md" >}}), and ready to be used.
 
+#### See also
+
+- [<ins>POS profiles<ins>]({{< ref "../../../pos_profiles/intro.md" >}})
+- [<ins>POS screen contents<ins>]({{< ref "../../../pos_layout/explanation/sections/index.md" >}})
+- [<ins>Configure master/slave POS units<ins>]({{< ref "../../how-to/master_slave_pos/index.md" >}})
+- [<ins>Configure an opening mechanism for a POS unit cash drawer<ins>]({{< ref "../../how-to/cash_drawer_open/index.md" >}})
+- [<ins>Transfer cash between POS units<ins>]({{< ref "../../how-to/bin_transfer_action/index.md" >}})

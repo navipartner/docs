@@ -73,3 +73,7 @@ The cashier has three option here:
 - Hit the green button to verify and accept the provided input.
 - Hit the Cancel/Close button in the top to cancel the input collection, which implies that no data will be stored, and input will not be reattempted. 
 
+#### See also
+
+- [<ins>POS Display Profile<ins>]({{< ref "../../reference/display_profile/display_profile/index.md" >}})
+- [<ins>Set up POS Display Profile<ins>]({{< ref "../../how-to/customer_display/customer_display.md" >}})

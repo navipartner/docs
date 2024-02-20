@@ -32,3 +32,10 @@ The following fields and options are available:
 | **Allow Line Disc.** | Specifies if the line discount is set on the sales price for this group. | 
 | **Internal Unit Price** | Specifies the price on which the calculation is based. |
 | **Factor** | Specifies the factor for the unit price. | 
+
+#### See also
+
+- [<ins>Pricing<ins>]({{< ref "../../explanation/pricing/index.md" >}})
+- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../../pos_academy/item_and_price/multiple_prices_item_group/index.md" >}})
+- [<ins>Sales Price List setup<ins>]({{< ref "../../../pos_academy/item_and_price/define_sales_price/index.md" >}})
+- [<ins>Sales Price setup<ins>]({{< ref "../../../pos_academy/item_and_price/sales_price_setup/index.md" >}})

@@ -52,3 +52,9 @@ The End of Day profile can be used to summarize all data such as transactions, a
 ![endofday](End%20of%20day%20profile.PNG)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ox4sPv9T62Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Configure the POS balancing feature<ins>]({{< ref "../../../pos_processes/how-to/balance_config/index.md" >}})
+- [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../../../pos_processes/how-to/generate_eod/index.md" >}})

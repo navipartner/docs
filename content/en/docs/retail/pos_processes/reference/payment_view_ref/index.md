@@ -43,3 +43,8 @@ In **Popup Dimension Filter** section you can set up an **Item** or an **Item Ca
 Finally, if you've enabled **Show Only for Selected POS Units**, the **POS Unit Filter** panel will be displayed. You can use it to select on which POS units the pop-up window will be displayed when you perform payment for a sale.
 
 {{< alert icon="📝" text="The <b>POS Unit Filter</b> section has replaced the <b>POS Scenarios Profile</b> on the POS unit, so you are no longer required to do any setup on the <b>POS Scenarios Profile Setup</b> on each POS unit individually anymore."/>}}
+
+#### See also
+
+- [<ins>Payment methods<ins>]({{< ref "../../../pos_academy/sales_cycle/payment_methods/index.md" >}})
+- [<ins>Payment operations<ins>]({{< ref "../../../pos_academy/sales_cycle/payment_operations/index.md" >}})

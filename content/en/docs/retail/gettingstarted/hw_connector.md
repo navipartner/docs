@@ -22,3 +22,7 @@ Hardware connector is an essential bridge between local hardware and the WEB MT 
    The **NP Hardware Connector** will automatically be opened once the installation is complete.
 
 {{< alert icon="💡" text="The program will not run automatically on Windows startup, so you will need to run it manually every time you wish to use it." />}}
+
+#### See also
+
+- [<ins>Set up the HW Connector report printing module<ins>]({{< ref "../printing/how-to/printing_module_setup.md" >}})

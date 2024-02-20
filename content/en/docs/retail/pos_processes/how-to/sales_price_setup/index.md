@@ -62,3 +62,8 @@ In this example, you can see that different sales price, item discounts or even 
 Both pricing and discount setup can be performed in one page instead of having to navigate to each Item card to set up pricing and apply discounts individually. 
 
 ![sales_price_3](sales_price_3.PNG)
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Multiple unit prices on an item<ins>]({{< ref "../../../pos_academy/item_and_price/multiple_unit_prices_item/index.md" >}})

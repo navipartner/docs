@@ -28,3 +28,7 @@ The following fields and options are available:
 | **QR Code Timeout Interval Enabled** | If enabled, the QR code displayed at the end of the transaction will automatically be closed after the specified time interval. | 
 | **QR Code Timeout Interval(sec.)** | Specifies the number of seconds after which the QR code at the end of the transaction will be closed. |
 
+#### See also
+
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Digital receipts<ins>]({{< ref "../../../pos_processes/how-to/digital_receipts/index.md" >}})

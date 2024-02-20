@@ -34,3 +34,7 @@ It is also possible to change the behavior of stockout warnings on specific item
 ![stockout_warning](Images/stockout_warning.PNG)
 
 Additionally, each user can turn off warnings for low item availability on the **My Notifications** page in Business Central. This does not disable the **Availability Check Details** confirmation message that is displayed on an attempt to accept the purchase if the required quantity of items included in the sale is insufficient.
+
+#### See also
+
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})

@@ -44,3 +44,10 @@ You can set up price list lines manually or can, for example, use the **Suggest 
 In the example provided above, an adjustment factor was applied to the unit price of a single item. The adjustment factor states that instead of paying 4,000.00 customers will instead pay 3,200.00 if they buy two units of this item.  
 
 It’s also recommended to run the **Verify Lines** action that checks if there are duplicate lines in the details of the **Sales Price List**. If there are issues, you will receive suggestions for fixing them, and if everything is correct, the scheme will be set to **Active**.
+
+#### See also
+
+- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../../pos_academy/item_and_price/multiple_prices_item_group/index.md" >}})
+- [<ins>Sales price list setup<ins>]({{< ref "../../../pos_academy/item_and_price/define_sales_price/index.md" >}})
+- [<ins>Sales price setup<ins>]({{< ref "../../../pos_academy/item_and_price/sales_price_setup/index.md" >}})
+- [<ins>Sales price maintenance<ins>]({{< ref "../../reference/sales_price_maintenance/index.md" >}})

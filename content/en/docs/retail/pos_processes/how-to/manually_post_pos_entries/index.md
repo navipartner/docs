@@ -26,4 +26,7 @@ To post an entry manually, follow the provided steps:
 
 {{< alert icon="💡" text="If you wish to simultaneously post multiple entries, instead of <b>Post Entry</b>, use the <b>Post Range</b> option."/>}}
 
+#### See also
 
+- [<ins>Posting setup overview<ins>]({{< ref "../../../posting_setup/intro.md" >}})
+- [<ins>Configure POS posting setup<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}})
