@@ -40,3 +40,8 @@ The voucher cash-out is performed with the POS action **CASHOUT_VOUCHER**.
    The suggested amount will be the difference between the value of the voucher and the commission.
 
    After the sale is finalized, the voucher will be archived.
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
+- [<ins>Create a voucher on a sales order<ins>]({{< ref "../create_new_sales_order/index.md" >}})

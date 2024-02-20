@@ -29,3 +29,10 @@ In the **POS Parameter Values section**, you can pre-set the order amount percen
 
 - **Process Click N Collect Order** with the **PROCESS_COLLECT_ORD** action code is mainly used for displaying a list of collect orders that need processing (orders that have neither been confirmed or rejected).
 - **Pickup Click N Collect Order** with the **DELIVER_COLLECT_ORD** action code is mainly used for delivering the processed collect orders via the POS in the collecting store. 
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "how-to/setup/setup/index.md" >}})
+- [<ins>Crate a new Collect Workflow<ins>]({{< ref "how-to/workflow/index.md" >}})
+- [<ins>Create a new Collect Store<ins>]({{< ref "how-to/stores/index.md" >}})
+- [<ins>Accept web-store collect order in Business Central<ins>]({{< ref "how-to/accept_web_orders/index.md" >}})

@@ -35,3 +35,10 @@ To add the Click & Collect prepayment option on the POS, follow the provided ste
     The Click & Collect order has been processed.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XvXVOwxP2xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
+- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})
+- [<ins>Set up prepayment on POS<ins>]({{< ref "../prepayment/prepayment.md" >}})

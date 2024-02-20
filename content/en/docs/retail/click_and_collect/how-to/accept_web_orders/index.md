@@ -28,3 +28,9 @@ To accept web store collect orders in Business Central, follow the provided step
 2. Select an order from the list, then click **Actions** > **Send Order** > **Send Order to Store**.     
    The order is sent to the specified store as a result. 
 3. Once the orders are sent to stores, you can either **Confirm Order** or **Reject Order** via the actions in the ribbon.
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
+- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})

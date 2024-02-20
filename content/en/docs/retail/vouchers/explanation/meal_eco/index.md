@@ -32,3 +32,9 @@ Eco vouchers can only be used for purchasing items that support the green econom
 The consumption voucher has been introduced by the Belgian government to stimulate the economy, and boost employee's purchasing power. It supports the recovery of sectors that have been hit the hardest by the COVID-19 pandemic. The consumption vouchers were loaded onto the employee's electronic card one time. 
 
 {{< alert icon="📝" text="These voucher types can be applied when performing transactions with any available payment method processing type (e.g. cash, EFT, and others)."/>}}
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../voucher_types/index.md" >}})
+- [<ins>Add Belgian eID feature to POS<ins>]({{< ref "../../how-to/belgian_eid/index.md" >}})
+- [<ins>Limit payment types to specific items<ins>]({{< ref "../../how-to/meal_eco_setup/index.md" >}})

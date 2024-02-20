@@ -29,3 +29,8 @@ To configure store groups, follow the provided steps:
 | **Blank Location** | Specifies whether a store with a blank location is allowed in the group or not. |
 
 3. Once the store groups are defined, you can assign them to individual POS stores under the **Reporting** section.
+
+#### See also
+
+- [<ins>Create a new POS store<ins>]({{< ref "../new/index.md" >}})
+- [<ins>Create a new POS unit<ins>]({{< ref "../../../pos_processes/how-to/create_pos_unit/index.md" >}})
