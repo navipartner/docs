@@ -55,3 +55,7 @@ If you don't use the values from the existing tables, you can build our own look
 
 
 {{< alert icon="📝" text="To display the list of values for lookup in the <b>Item Card</b>, you need to place your cursor on the field, then press the <b>?</b> key on your keyboard, followed by <b>Enter</b>. This keyboard action brings up the list of the defined/available values for this <b>Attribute</b> field. After that, it will be possible to select the desired value. "/>}}
+
+#### See also
+
+- [<ins>Client attributes (reference guide)<ins>]({{< ref "../../reference/client_attributes_ref.md" >}})
