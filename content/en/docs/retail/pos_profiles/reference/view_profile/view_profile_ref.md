@@ -48,3 +48,4 @@ The following options are available in the **Name and Date Formatting** section:
 #### See also
 
 - [<ins>POS screen contents<ins>]({{< ref "../../../pos_layout/explanation/sections/index.md" >}})
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})

@@ -37,3 +37,8 @@ Different types of event codes are:
 | **TICKET_ARRIVAL** | This is a built-in function to scan a ticket on arrival. |
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b93ucAw0W5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS processes<ins>]({{< ref "../../../pos_processes/intro.md" >}})
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})

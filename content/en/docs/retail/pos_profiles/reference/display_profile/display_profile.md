@@ -41,3 +41,9 @@ Each POS unit can have a different display view. The following fields can be set
 Once the POS Display Profile is defined, you can set it on the POS unit of your choice by adding the predefined POS Display Profile in the **POS Display Profile** field.
 
 ![POS_unit_dis](POS_display1.png)
+
+#### See also
+
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Set up POS Display Profile<ins>]({{< ref "../../how-to/customer_display/customer_display.md" >}})
+- [<ins>Set up the POS HTML Display Profile<ins>]({{< ref "../../how-to/html_profile/html_profile/index.md" >}})

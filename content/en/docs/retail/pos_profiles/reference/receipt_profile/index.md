@@ -31,3 +31,4 @@ The following fields and options are available:
 #### See also
 
 - [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Digital receipts<ins>]({{< ref "../../../pos_processes/how-to/digital_receipts/index.md" >}})
