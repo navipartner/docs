@@ -63,3 +63,10 @@ The **Template** dropdown contains the list of available templates. Changing a t
 - Alternatively, you can **Clear Changes**, and start anew.
 - The <image src="Images/cog.PNG" width="30" height="30"> icon brings up **Global Settings** which are intended for advanced users.
 - The <image src="Images/weird_icon.PNG" width="30" height="30"> icon opens the [<ins>POS Layout Setup Wizard<ins>]({{< ref "../../how-to/layout_wizard/index.md" >}}).
+
+#### See also
+
+- [<ins>POS editor<ins>]({{< ref "../pos_editor/index.md" >}})
+- [<ins>Create buttons in POS menus<ins>]({{< ref "../../how-to/new_button/index.md" >}})
+- [<ins>Create POS menu filters<ins>]({{< ref "../../how-to/menu_filters/index.md" >}})
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../../how-to/layout_wizard/index.md" >}})

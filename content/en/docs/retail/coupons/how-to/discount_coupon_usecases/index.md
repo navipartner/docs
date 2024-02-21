@@ -211,3 +211,10 @@ To create a discount coupon for loyalty, follow the provided steps:
     ![convert_lcy](Images/convert_lcy.png)
 
     {{< alert icon="📝" text="If the <b>Consume Available Points</b> field was flagged, using the POS action would have consumed all points, even though the number of points to be assigned exceed the limit of 100.00 LCY."/>}}
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../new_coupon/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../activity_coupons/index.md" >}})

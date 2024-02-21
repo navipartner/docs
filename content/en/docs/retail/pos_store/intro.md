@@ -26,3 +26,8 @@ After the POS store and POS units are created, the correlation between them need
 POS stores can also have different accounts for postings of payments which can be regulated in the [<ins>POS posting setup<ins>]({{< ref "../posting_setup/explanation/pos_posting_setup/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AktQ3262OJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS profiles<ins>]({{< ref "../pos_profiles/intro.md" >}})
+- [<ins>Create a new POS unit<ins>]({{< ref "../pos_processes/how-to/create_pos_unit/index.md" >}})

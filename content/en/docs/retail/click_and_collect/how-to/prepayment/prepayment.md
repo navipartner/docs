@@ -47,3 +47,10 @@ To set up the prepayment flow of 100% on ordering for the Click & Collect module
 
 
    {{< alert icon="📝" text="If initially a part of the payment was done as prepayment, then the difference to be paid will be displayed on the POS, and the customer needs to settle the payment. The order is then converted into a posted invoice for that customer."/>}}
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
+- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})
+- [<ins>Set up prepayment in Business Central<ins>]({{< ref "../prepayment_bc.md" >}})

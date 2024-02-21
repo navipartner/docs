@@ -42,3 +42,8 @@ In the **Setup Voucher** section you can define voucher amount  (if amount is en
   - **Partial** - It implies that the voucher amount will be used partially, and that the leftover amount can be used another time.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPpyT5wZDhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Create a new voucher<ins>]({{< ref "../../how-to/create_new/index.md" >}})

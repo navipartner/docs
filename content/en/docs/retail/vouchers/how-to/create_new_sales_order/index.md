@@ -74,3 +74,8 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
   In the **Voucher List** you will be able to see that the voucher has been used and archived. 
 
   ![vouchers11](vouchers11.png)
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
+- [<ins>Create a new voucher<ins>]({{< ref "../create_new/index.md" >}})

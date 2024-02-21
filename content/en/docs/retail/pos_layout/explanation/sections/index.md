@@ -78,3 +78,9 @@ It's possible to create a POS menu, and use it as a submenu in a POS button. In 
 
 ![pos_menu_sale_top](pos_menu_sale_top.png)
 
+#### See also
+
+- [<ins>POS editor<ins>]({{< ref "../pos_editor/index.md" >}})
+- [<ins>Create buttons in POS menus<ins>]({{< ref "../../how-to/new_button/index.md" >}})
+- [<ins>Create POS menu filters<ins>]({{< ref "../../how-to/menu_filters/index.md" >}})
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../../how-to/layout_wizard/index.md" >}})

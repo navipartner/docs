@@ -36,3 +36,9 @@ The following actions can be taken after completing the initial procedure. All o
 | **Show Address** | Open Google Maps based on the contact address, from where the geolocation can manually be copied from the URL. | 
 | **Show Geolocation** | Open Google Maps based on the geolocation latitude and longitude. |
 | **Stores by Distance** | Display a list of other stores with distance to the current store. | 
+
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
+- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})

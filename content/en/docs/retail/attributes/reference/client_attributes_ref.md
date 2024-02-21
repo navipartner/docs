@@ -46,3 +46,7 @@ The following fields and options are available:
 | **Attribute Code** | Specifies the code used for referencing the specific client attribute. |
 | **Shortcut Attribute ID** | There can be a maximum of 20 attribute IDs that can be predefined. You can choose between **Not Assigned** and **Number from 1 to 20**. For example, in the **Extra Fields** section in the **Item Card**, there is available space for 20 fields, and these fields are referred to as shortcut attributes. By providing them with respective numbers, you establishing their display order on the page. |
 | **Entity Attribute ID** | Leave the value of this field set to **Not Assigned**, as it will have no impact on the overall configuration. |
+
+#### See also
+
+- [<ins>Set up client attributes<ins>]({{< ref "../how-to/client_attributes/client_attributes.md" >}})

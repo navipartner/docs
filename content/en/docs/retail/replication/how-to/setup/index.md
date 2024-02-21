@@ -89,3 +89,8 @@ However, there are special cases when the field names are different. You can use
 You can check if there are table fields that are not handled by the Data Replication module by running the **Check Missing Fields** report.
 
 This report employs web requests to compare the metadata of the Business Central APIs with the fields from the actual tables. Then, it maps out the fields that aren't handled via the API, and are thus skipped in the data replication process.
+
+
+#### See also
+
+- [<ins>Replication overview<ins>]({{< ref "../../intro.md" >}})

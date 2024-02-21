@@ -36,3 +36,7 @@ Messages like this one are defined in the **SMS Template Card** administrative s
 | **Recipient** | Specifies the ID used to single out the specific recipient out of all options in the table, and reference them in the template (e.g. {1}). |
 | **Content** | Compose the message that will be sent to SMS recipients. On the right side of the screen, there's a list of fields that are available in the specified table. E.g. {8} - the contact name on the **Customer Card**; {67} balance due (LCY) amount retrieved from the **Customer Card** | 
 | **Filters on Table** | Set the filters on the table as criteria or conditions for sending SMS. |
+
+#### See also
+
+- [<ins>SMS setup<ins>]({{< ref "../../reference/sms_ref/index.md" >}})

@@ -34,3 +34,10 @@ After the voucher type is created, the voucher needs to be purchased.
 2. After the button has been created, click on it, and the line with a voucher will be added to the sales lines.
 3. Navigate to the payment, and click **OK** to end the sale.      
    After the sale is finalized, you will see a new voucher created in the **Retail vouchers** list.
+
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../../vouchers/explanation/voucher_types/index.md" >}})
+- [<ins>Create a voucher on a sales order<ins>]({{< ref "../create_new_sales_order/index.md" >}})
+- [<ins>Cash out a voucher<ins>]({{< ref "../cashout/index.md" >}})

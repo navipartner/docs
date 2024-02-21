@@ -25,3 +25,10 @@ The most common discount coupon types are:
 - Buy-one-get-one coupons - these coupons provide an additional free item for a purchase of an item in the same category.
 - New customer coupons - these coupons provide a welcome discount to new customers of a brand.
 - Loyalty coupons - these coupons are exclusive to customers who have joined a brand's loyalty program.
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../../how-to/new_coupon/index.md" >}})

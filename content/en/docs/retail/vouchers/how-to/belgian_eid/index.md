@@ -15,20 +15,20 @@ toc: true
 type: docs
 ---
 
-The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers discounts or vouchers. When set up, the POS operator can read Belgian electronic identity cards to retrieve customers' data. The retrieved information is then stored in Business Central, and can be processed to link the customer to their purchases. 
+The Belgian eID feature enables retailers to integrate with different loyalty services to give Belgian customers [<ins>discounts<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}}) or [<ins>vouchers<ins>]({{< ref "../../../vouchers/explanation/voucher_types/index.md" >}}). When set up, the POS operator can read Belgian electronic identity cards to retrieve customers' data. The retrieved information is then stored in Business Central, and can be processed to link the customer to their purchases. 
 
 To add the feature to the POS screen, make sure that the requirements for its usage are met, and follow the provided steps:
 
 ## Prerequisites
 
 - Have the NP Retail version 28.0 or newer.
-- Download and install the [Hardware Connector]({{< ref "../../../gettingstarted/hw_connector.md" >}}) feature.
+- Download and install the [<ins>Hardware Connector<ins>]({{< ref "../../../gettingstarted/hw_connector.md" >}}) feature.
 - Make sure you have a compatible card reader and a Belgian eID card.
 
 ## Procedure
 
 1. Open the POS and log in with your **Salesperson Code**.
-2. Open the POS editor.     
+2. Open the [<ins>POS editor<ins>]({{< ref "../../../pos_layout/how-to/activate_pos_editor/index.md" >}}).     
    The POS editor options are displayed in the ribbon.
 3. Click on the button slot of your choice, and then click **Edit**.     
    The **Edit Button** window is displayed.
@@ -47,3 +47,10 @@ To add the feature to the POS screen, make sure that the requirements for its us
    You are notified that the eID card is being read.      
    As soon as the process is finished, a pop-up window with the customer information is displayed, e.g. their first name.
 3. Press **OK** to complete the process. 
+
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Voucher types<ins>]({{< ref "../../../vouchers/explanation/voucher_types/index.md" >}})
+- [<ins>Limit payment types to specific items<ins>]({{< ref "../meal_eco_setup/index.md" >}})

@@ -41,3 +41,9 @@ The **Barcode (Item Ref.)** section can be used both with and without varieties.
 |  **Item Ref. Description (Variant)**   | When the item cross reference is created with a variant, it's possible to select how the description field on the item cross reference is filled in. It's possible to select either **Description** or **Description 2** from the **Item Card**, or **Description 1** or **Description 2** from the variant.  |
 
 In the **View** section, it's possible to hide the inactive values via the designated field if you don't want to show combinations in the matrix form that isn't used on a specific item.
+
+#### See also
+
+- [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../../how-to/matrix.md" >}})
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../../how-to/create_variety.md" >}})
+- [<ins>Block a variant<ins>]({{< ref "../../how-to/block_variant.md" >}})

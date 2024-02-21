@@ -35,3 +35,9 @@ To create discount coupons for activities, follow the provided steps:
 10. Once you've completed the setup, enable the coupon type, and then click **Issue Coupon**.     
     The **Request Coupon Qty.** popup window is displayed. 
 11. Select the quantity of coupons to be issued, and click **OK**.
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../new_coupon/index.md" >}})

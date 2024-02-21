@@ -25,3 +25,9 @@ The following options are available when assigning values to varieties in the **
 
 
 ![variety_values](variety_values.png)
+
+#### See also
+
+- [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../../how-to/matrix.md" >}})
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../../how-to/create_variety.md" >}})
+- [<ins>Block a variant<ins>]({{< ref "../../how-to/block_variant.md" >}})

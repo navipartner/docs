@@ -34,3 +34,8 @@ This topic goes through he process of adding new customers from the POS.
 
 1. Press the ![three_dots](three_dots.PNG) in the upper right corner followed by **Apply Template** to apply an existing customer template. 
 2. Choose the template and press **OK**.
+
+#### See also
+
+- [<ins>Customer setup<ins>]({{< ref "../../../pos_academy/customers/create_customers/index.md" >}})
+- [<ins>POS actions<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}})

@@ -135,5 +135,7 @@ There are various voucher reports for BC SaaS that you can select depending on t
 
 The font used for barcodes is **IDAutomation2D**. 
 
+#### See also
 
-
+- [<ins>Voucher types<ins>]({{< ref "../voucher_types/index.md" >}})
+- [<ins>Create a new voucher<ins>]({{< ref "../../how-to/create_new/index.md" >}})

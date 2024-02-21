@@ -33,7 +33,7 @@ This topic describes the process of configuring the [<ins>SMS Setup<ins>](https:
 
   {{< alert icon="📝" text="Job queue enables users to schedule and run specific reports or codeunits. In this specific case, there's a codeunit which runs a task for sending SMS in a batch in regular, predefined intervals. The task is recurring, so any new SMS is sent automatically via the job queue. The job queue is set in the <b>Job Queue Entries</b> administrative section using the <i>6014469 - NPR Send SMS Job Handle</i> codeunit."/>}}
 
-5. In **Auto Send Attempts** specify the number of attempts before message gets discarded.
+5. In **Auto Send Attempts** specify the number of attempts before the message gets discarded.
 6. Set up the provider.
 
 ### SMS Provider Setup
@@ -51,3 +51,7 @@ If you choose **Endpoint** as **SMS Provider**, complete the following steps:
    3. In **Local E-Mail Address**, provide the email that will be added to the **Sender** field.
    4. Specify the name of the created task in the **Local SMTP 'Pickup' Library** field.
    
+#### See also
+
+- [<ins>SMS templates<ins>]({{< ref "../../reference/sms_template_ref/index.md" >}})
+- [<ins>Email setup<ins>]({{< ref "../../explanation/email_setup/index.md" >}})

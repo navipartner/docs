@@ -69,3 +69,11 @@ To set up mix discounts, follow the provided steps:
 | **Unit Price** | If an item is inserted, the unit price will be taken from the relevant **Item Card**. |
 | **Priority** | The priority which you wish to assign to a mixed discount line. For example, if we have two lines with priorities 1 and 2, minimum and maximum quantities are 2, and we bought 4 items (two from the first, and two from second line), only the item with the priority 1 will get the discount. |
 | **Quantity** | When **Lot** is active, this field will be displayed, and automatically enabled. Provide the quantity of the item the customer is required to buy to generate a lot. |
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../../coupons/how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Set up period discounts<ins>]({{< ref "../period_discounts/index.md" >}})
+- [<ins>Create a total discount<ins>]({{< ref "../total_discount/index.md" >}})
+- [<ins>Mix discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})

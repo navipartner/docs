@@ -65,3 +65,9 @@ In the **Total Discount Benefit List** section you can specify the benefits that
 | **No Input Needed** | If set to **TRUE** for lines of the **Item** or the **Item List** type, the items will be directly added to the sale, without requiring the user to take any action. | 
 
 The **Item Benefit Lists** can be used to predefine a set of items with a specific price and quantity. These lists can be added to the **Total Discount Benefits** section to be awarded as a benefit to the customer.
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../../coupons/how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Create a total discount<ins>]({{< ref "../../how-to/total_discount/index.md" >}})

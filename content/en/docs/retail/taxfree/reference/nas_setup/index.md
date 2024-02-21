@@ -23,3 +23,9 @@ All companies that run Global Blue tax free services need three scheduled object
 
 
 This is a requirement for the solution, so NAS services must be purchased if not already available for the customer that needs Global Blue integration.
+
+
+#### See also
+
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "../../../../troubleshooting/tax_free.md" >}})
+- [<ins>Set up Global Blue tax-free solution<ins>]({{< ref "../../how-to/global_blue/index.md" >}})

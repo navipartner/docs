@@ -27,4 +27,8 @@ Some items have serial numbers. If this is the case, the coupon will be applied 
 
 Two different activity coupons may be applied to the same item in certain cases. These coupons may offer different discount amounts/percentages. If the item A is on the list for the EUR30 & EUR50 coupon discount, you can apply EUR30 on the first line, and EUR50 on the second line.
 
-To create and set up activity coupons, refer to the [<ins>instructions<ins>]({{< ref "../../how-to/activity_coupons/index.md" >}}).
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../../how-to/new_coupon/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../../how-to/activity_coupons/index.md" >}})
