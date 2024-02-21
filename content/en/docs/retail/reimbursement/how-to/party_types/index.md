@@ -26,3 +26,9 @@ To set up the reimbursement party types, follow the provided steps:
 5. Specify which table the party type represents.
 6. Define the interval between each reimbursement in the **Reimburse every** field. 
 7. Calculate the next posting date based on the current posting date after each reimbursement in the **Next Posting Date Calculation** field.
+
+#### See also
+
+- [<ins>Process reimbursements<ins>]({{< ref "../process/index.md" >}})
+- [<ins>Set up reimbursement templates<ins>]({{< ref "../template_setup/index.md" >}})
+- [<ins>Output reimbursement entries<ins>]({{< ref "../../explanation/output_entries/index.md" >}})

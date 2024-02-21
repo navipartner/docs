@@ -33,3 +33,7 @@ To do anonymize customer data, follow the provided steps.
 6. Click **Yes** in the popup window that is displayed.     
    A confirmation message is displayed and the customer's data is now anonymized, and their data removed.     
    When the customer is anonymized, all their data is removed. 
+
+#### See also
+
+- [<ins>Anonymize customers automatically after a certain period<ins>]({{< ref "../auto_anonymization/index.md" >}})

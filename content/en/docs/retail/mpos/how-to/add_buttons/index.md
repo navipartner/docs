@@ -41,3 +41,10 @@ To create new buttons in the NP Retail POS mobile app, make sure the prerequisit
 7. Open the NP Retail POS mobile app to view the changes on your mobile device.      
    
    {{< alert icon="📝" text="You may need to refresh the app for the changes to take effect."/>}}
+
+
+#### See also
+
+- [<ins>MPOS action setup for Scandit<ins>]({{< ref "../scandit/index.md" >}})
+- [<ins>Establish a connection between a receipt printer and an iPad/iPhone<ins>]({{< ref "../bluetooth/index.md" >}})
+- [<ins>MPOS menus<ins>]({{< ref "../../explanation/menu/index.md" >}})

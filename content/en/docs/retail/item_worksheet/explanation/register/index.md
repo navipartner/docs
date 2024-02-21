@@ -62,3 +62,9 @@ The Item Worksheet attempts to match the input, both from the user and from a fi
       1. In the **Item Vendor** table
       2. In the SKU - **Vendor Item No.**
       3. In the Item - **Vendor Item No.**
+
+#### See also
+
+- [<ins>Item Worksheet overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Item Worksheet Template<ins>]({{< ref "../../reference/template/template_ref.md" >}})
+- [<ins>Adding variety values to the worksheet<ins>]({{< ref "../add_variety/index.md" >}})

@@ -37,3 +37,10 @@ To set up report layouts in Business Central, follow the provided steps:
 9. Save the file, and go back to Business Central to select the layout you want to import.
 10. Click **Layout** in the ribbon, followed by **Import Layout**.
 11. After the import is completed, go back to the **Report Layout Selection**, and select the layout you've just uploaded.
+
+#### See also
+
+- [<ins>Printing overview<ins>]({{< ref "../../../printing/intro.md" >}})
+- [<ins>Set up Global Dimensions<ins>]({{< ref "../dimensions/index.md" >}})
+- [<ins>Set up event templates<ins>]({{< ref "../event_templates/index.md" >}})
+- [<ins>Chart margin/turnover by shop<ins>]({{< ref "../../explanation/chart_margin_turnover/index.md" >}})

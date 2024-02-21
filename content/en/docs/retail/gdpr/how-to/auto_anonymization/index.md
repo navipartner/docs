@@ -27,3 +27,7 @@ You can anonymize multiple customers simultaneously after a certain period. To d
    When enabled, two job queues are created and activated with different parameters. 
 
     {{< alert icon="📝" text="The code unit to set up the task for running automatic customer anonymization is 6151060, and can be set up using the parameters <b>CHECK_PERIOD = No</b> and <b>CHECK_PERIOD = Yes and No_of_Customers</b> individually."/>}}
+
+#### See also
+
+- [<ins>Anonymize customer data<ins>]({{< ref "../anonymization/index.md" >}})

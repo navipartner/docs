@@ -74,3 +74,8 @@ The provided table describes the system behavior in different scenarios of the e
 
 ![worksheet_behavior](worksheet_behavior_table.PNG)
 
+#### See also
+
+- [<ins>Item Worksheet overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Item Worksheet Template<ins>]({{< ref "../../reference/template/template_ref.md" >}})
+- [<ins>Adding variety values to the worksheet<ins>]({{< ref "../../explanation/add_variety/index.md" >}})
