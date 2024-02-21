@@ -41,3 +41,9 @@ To set up the reimbursement templates, follow the provided steps:
 8. Under the **Action Tab: Reimbursement Provision Setup**, set the parameters for data reimbursement.    
    The parameters depend on your selection of the data collection module.    
    The description of the reimbursement parameters are automatically displayed in the **Reimbursement Summary** field.
+
+#### See also
+
+- [<ins>Process reimbursements<ins>]({{< ref "../process/index.md" >}})
+- [<ins>Set up reimbursement party types<ins>]({{< ref "../party_types/index.md" >}})
+- [<ins>Output reimbursement entries<ins>]({{< ref "../../explanation/output_entries/index.md" >}})

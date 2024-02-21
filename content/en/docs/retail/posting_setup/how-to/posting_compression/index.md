@@ -26,3 +26,8 @@ To set up the posting compression in NP Retail, follow the provided steps:
      - **Uncompressed** - posting is performed on individual transactions without any compression involved.
      - **Per POS Entry** - each individual posted entry is compressed; if there's more than one line with the reference to the same G/L account, all entries will be compressed as one line.
      - **Per POS Period** - posting is compressed for the entire POS period. If you choose to compress the transactions posting by POS period, it is mandatory to set the POS period register number series.
+
+#### See also
+
+- [<ins>Posting priority rule<ins>]({{< ref "../../explanation/posting_priority_rule/index.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "../../explanation/compression/index.md" >}})

@@ -56,3 +56,10 @@ If you want to set up an order confirmation PDF that is automatically created an
    You can now export it, set it up in Word, and import it again.
 5. Navigate back to the event template, and set [<ins>Report Layouts<ins>]({{< ref "word_layout/index.md" >}}) to use the report you've just created.     
    Multiple event templates can use the same report layout.
+
+#### See also
+
+- [<ins>Customize report layout in Microsoft Word<ins>]({{< ref "../word_layout/index.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../../printing/intro.md" >}})
+- [<ins>Set up Global Dimensions<ins>]({{< ref "../dimensions/index.md" >}})
+- [<ins>Chart margin/turnover by shop<ins>]({{< ref "../../explanation/chart_margin_turnover/index.md" >}})

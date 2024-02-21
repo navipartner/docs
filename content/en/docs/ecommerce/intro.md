@@ -19,6 +19,8 @@ E-commerce is a business model that allows companies to buy and sell goods and s
 
 NP E-commerce is based on the open-source e-commerce platform Magento 2. With NP E-commerce, you can lay the groundwork for a structured and optimized course of business. You can focus on developing your business instead of constantly maintaining data.
 
+   {{< alert icon="📝" text="For more information on NP e-commerce release cycle and support duration, refer to the <a href=\"/docs/ecommerce/lifecycle/\"> E-commerce platform lifecycle</a> article." />}}
+
 With the web store solution, NP E-commerce, retailers work in Dynamics 365 Business Central in regards to financial management, accounting, order handling, web store, inventory management, and statistics, while the design changes are carried out in Magento. 
 
 Omnichannel retailers can choose to expand their web store with a POS system. NP E-commerce is integrated to Business Central with the result that the retailer only has to work in one system and can provide customers with a seamless shopping experience. Customers can also activate loyalty programs which give them rights for accumulating points both online, and in stores. 

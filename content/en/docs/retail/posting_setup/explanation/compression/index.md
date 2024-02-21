@@ -25,3 +25,8 @@ In the provided example, the target account **2345** has been set for the **AMEX
 
 However, for **MAESTRO DK** the target account hasn't been defined, so the transactions are moved into the details on the account **2345**, and during balancing, the account **2345** is credited and debited, with a single compressed entry that is the sum of all transactions.
 
+#### See also
+
+- [<ins>Posting priority rule<ins>]({{< ref "../posting_priority_rule/index.md" >}})
+- [<ins>Posting setup<ins>]({{< ref "../pos_posting_setup/index.md" >}})
+- [<ins>Set up posting compression<ins>]({{< ref "../../how-to/posting_compression/index.md" >}})

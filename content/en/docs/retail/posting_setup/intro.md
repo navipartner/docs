@@ -53,7 +53,7 @@ In a typical sale performed on a POS unit, the following posting setups are empl
 
 It's necessary to consider the posting routine you wish to apply to each individual payment method to optimize your posting setup. Refer to the other articles for more information.
 
-### See also
+#### See also
 
 - [<ins>Posting priority rule<ins>]({{< ref "explanation/posting_priority_rule/index.md" >}})
 - [<ins>Posting compression (EOD)<ins>]({{< ref "explanation/compression/index.md" >}})

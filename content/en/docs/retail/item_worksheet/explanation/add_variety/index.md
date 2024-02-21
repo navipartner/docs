@@ -48,3 +48,9 @@ The following checks are performed during validation:
 - Check if there are multiple lines with the same combination of varieties, or the the same barcode.
 - Check if all variety codes have values; for example: if SIZE is set up with a variety table on the worksheet line, all varieties must have a SIZE value.
 - Check if the **Existing item**/**Existing Variant** is filled and if it exists exists (if the **Update** action is used).
+
+#### See also
+
+- [<ins>Item Worksheet overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Item Worksheet Template<ins>]({{< ref "../../reference/template/template_ref.md" >}})
+- [<ins>Create an Item Worksheet line<ins>]({{< ref "../../how-to/create/index.md" >}})

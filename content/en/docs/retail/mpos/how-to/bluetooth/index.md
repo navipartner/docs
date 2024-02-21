@@ -28,3 +28,10 @@ To establish a connection between a receipt printer and an iPad/iPhone, follow t
 ![Picture4](Picture5.png)
 
 The connection between a receipt printer and an iPad/iPhone is now established.
+
+
+#### See also
+
+- [<ins>MPOS action setup for Scandit<ins>]({{< ref "../scandit/index.md" >}})
+- [<ins>Create new buttons in the MPOS menu<ins>]({{< ref "../add_buttons/index.md" >}})
+- [<ins>MPOS menus<ins>]({{< ref "../../explanation/menu/index.md" >}})

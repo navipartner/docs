@@ -61,3 +61,10 @@ The following MPOS actions are used for configuring the Scandit integration with
    ![scandit_3](scandit_3.PNG)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m8_tJSHWH1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+#### See also
+
+- [<ins>Establish a connection between a receipt printer and an iPad/iPhone<ins>]({{< ref "../bluetooth/index.md" >}})
+- [<ins>Create new buttons in the MPOS menu<ins>]({{< ref "../add_buttons/index.md" >}})
+- [<ins>MPOS menus<ins>]({{< ref "../../explanation/menu/index.md" >}})

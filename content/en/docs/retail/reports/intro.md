@@ -43,3 +43,11 @@ Reports are collections of data that help evaluate performance of various depart
 | Item group overview report | The report provides details about the specified item group. |
 | Vendor trn. by item group report | The report provides the sales/purchases of item group by vendor. All sales/purchase figures are taken from the Value entry. |
 | Item group top report | The report prints the top item group sales by Global Dimension 1. The report can be sorted by quantity, sale, contribution margin or contribution ratio. |
+
+#### See also
+
+- [<ins>Customize report layout in Microsoft Word<ins>]({{< ref "how-to/word_layout/index.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../printing/intro.md" >}})
+- [<ins>Set up Global Dimensions<ins>]({{< ref "how-to/dimensions/index.md" >}})
+- [<ins>Set up event templates<ins>]({{< ref "how-to/event_templates/index.md" >}})
+- [<ins>Chart margin/turnover by shop<ins>]({{< ref "explanation/chart_margin_turnover/index.md" >}})

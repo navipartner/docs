@@ -51,7 +51,7 @@ The following combinations are not supported by our solution:
 - Two constraints with the **POS Payment Method Code** and the **POS Payment Bin Code**
 - Two constraints with the **POS Store Code** and the **POS Payment Bin Code**
 
-## See also
+#### See also
 
 - [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}})
 - [<ins>Posting compression (EOD)<ins>]({{< ref "../../explanation/compression/index.md" >}})
