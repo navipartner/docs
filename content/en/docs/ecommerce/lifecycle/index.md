@@ -61,4 +61,4 @@ Source: [PHP supported versions](https://www.php.net/supported-versions.php)
 
 {{< alert icon="📝" text="NaviPartner only handles critical issues that are not related to the platform being outdated. "/>}}
 
-[^1]: End of software support includes both end of quality fixes and end of security fixes. 
+[^1]: End of software support includes both the end of quality fixes and the end of security fixes. 
