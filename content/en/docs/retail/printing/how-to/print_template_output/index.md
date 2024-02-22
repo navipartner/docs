@@ -38,3 +38,10 @@ To configure print template output, follow the provided steps:
    - **PrintNode** - PrintNode is a hosted printing service that can help you quickly, easily and securely add remote printing to your application.
 
 5. Specify the **Output Path** to the printer used for printing. 
+
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})

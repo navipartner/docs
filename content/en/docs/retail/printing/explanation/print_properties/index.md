@@ -31,6 +31,8 @@ The matrix template is used for ZEBRA, BOCA, BLASTER, and CITIZEN printers.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Troubleshooting 
+#### See also 
 
-[<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Printer extensions<ins>]({{< ref "../printer_extensions.md" >}})

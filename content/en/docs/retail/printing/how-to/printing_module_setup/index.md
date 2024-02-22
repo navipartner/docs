@@ -56,3 +56,9 @@ You can use the **Hardware Connector Report Printer Setup** page to inject the p
 ## Troubleshooting 
 
 [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})

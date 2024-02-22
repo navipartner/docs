@@ -42,3 +42,9 @@ Archiving is performed by clicking the **Archive** button in the top ribbon of t
 For debugging purposes, it's possible to log the raw print jobs. This is done by toggling **Log Output** in the **Template Card** of a specific print template.
 
 When activated, all subsequent print jobs are stored in the **Print Template log**, which can be accessed by clicking **Show Log** in the ribbon.
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../print_properties/index.md" >}})

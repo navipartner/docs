@@ -44,3 +44,9 @@ However, if none of them suit your needs, you can either create a new template o
    - **Edit Device Settings** - Configure the device-specific settings. You can override the default settings of a device, typically related to calibration, media specifications or encoding.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})
