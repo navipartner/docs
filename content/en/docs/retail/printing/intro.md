@@ -49,7 +49,7 @@ You can also refer to [<ins>Print template features<ins>]({{< ref "explanation/t
 
 The list of printers fully supported by our team is recorded in [<ins>System Requirements<ins>]({{< ref "../../retail/gettingstarted/system_requirements.md#printers" >}})
 
-## See also
+#### See also
 
 - [<ins>Printer troubleshooting<ins>]({{< ref "../../troubleshooting/printer.md" >}})
 - [<ins>Receipt printer troubleshooting<ins>]({{< ref "../../troubleshooting/receipt_printer.md" >}})

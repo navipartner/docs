@@ -20,3 +20,9 @@ There are three available printer extensions you can choose from when setting up
 - Hardware Connector - helps you transfer data from the browser to a local printer.
 - MPOS - gives you an option of printing content from MPOS devices.
 - PrintNode - allows you to expand your app with remote printing functionalities.
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../print_properties/index.md" >}})

@@ -94,3 +94,10 @@ After you've finished setting up the template, move on to device configuration d
    - **DPI** - the print resolution is determined with this option
 
   {{< alert icon="📝" text="If none of these options are specified, the device settings will default to 80mm, Windows-1252, and 200 DPI."/>}}
+
+
+  #### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})

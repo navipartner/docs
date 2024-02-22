@@ -88,13 +88,13 @@ Price labels can be printed in various shapes, sizes and materials to suit the t
 
    The first line in the layout design needs to be placed in the top left corner. The X and Y coordinates are relative to the previously defined **LABEL_HOME**, so if the first line is placed at 0,0, the final position will be 10,10 due to this setting. 
 
-1. For **Type Option** select **Font U**.
+2. For **Type Option** select **Font U**.
 
     {{< alert icon="📝" text="You can use either <b>Fonts</b> or <b>Scale Fonts</b> for the text output. <b>Font A</b> is a small font, whereas <b>Font V</b> is a big font. For the <b>Scale Fonts</b>, it is possible to define other values than the predefined ones, so it could be Scale Font 30,10 if it was to be desired."/>}}
 
-2. Open the lookup in the **Table Name**, and select **RetailJournalLine**.    
+3. Open the lookup in the **Table Name**, and select **RetailJournalLine**.    
     The available options will be the data sources defined earlier in the setup.
-3. Open the lookup dialog box for the **Field Name**, and select **Description**.     
+4. Open the lookup dialog box for the **Field Name**, and select **Description**.     
     This is everything you need to do in order to display the first line of our example. However, other lines can also be set up to match the configuration displayed in the following screenshot: 
 
     ![template_matrix](Images/template_matrix.PNG)
@@ -109,3 +109,9 @@ Typically, **LABEL_HOME**, **PRINT_WIDTH**, **MEDIA_DARKNESS**, and **PRINT_RATE
 ![device_settings](Images/device_settings.PNG)
 
 In this example, **LABEL_HOME** is set to **10,10** to add a small margin from the corner of the label. The other settings may require some tweaking, since they are dependent on the hardware and media specifications. **PRINT_WIDTH** in this example depends on the DPI, as the value is measured in dots. **PRINT_RATE** is set to **3**, which is the default print rate. **MEDIA_DARKNESS** in this example is set to **28**.
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})
