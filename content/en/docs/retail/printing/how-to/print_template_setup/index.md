@@ -45,6 +45,13 @@ However, if none of them suit your needs, you can either create a new template o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+#### Specific use cases
+
+- [<ins>Create a new price label/matrix template<ins>]({{< ref "../create_print_template_label/index.md" >}})
+- [<ins>Create a simple receipt/line print template<ins>]({{< ref "../receipt_print_template/index.md" >}})
+- [<ins>Set up coupon print templates<ins>]({{< ref "../create_print_template_coupon/index.md" >}})
+- [<ins>Set up exchange label print templates<ins>]({{< ref "../create_print_template_exchange/index.md" >}})
+
 #### See also 
 
 - [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
