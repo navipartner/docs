@@ -23,6 +23,19 @@ To set up voucher print templates, follow the provided steps:
    On fresh installation, an empty template list is displayed.
 2. Click **Actions** in the ribbon, followed by **Download Template data** in the dropdown list that is displayed.    
    After a few moments, you will have a full list of preset ready-to-use print templates compatible with the NP Retail solution.
-3. Search for the **MEMBER_GIFT_VOUCHER** template for [<ins>line printing<ins>]({{< ref "../receipt_print_template/index.md" >}}) in the list.    
+3. Depending on the voucher type you wish to print, search either for the **EPSON_RVOUCH_CREDIT** or the **EPSON_RVOUCH_GIFT** template for [<ins>line printing<ins>]({{< ref "../receipt_print_template/index.md" >}}) in the list.    
 4. Open the template card, and click **Edit Data Items** in the ribbon.      
-   The main data source is the **TM Ticket** table. It contains all basic information that needs to be referenced from the printed tickets.
+   The main data source is the **NpRv Voucher** table in both cases. It contains all basic information that needs to be referenced from the printed vouchers such as voucher type, description, starting and ending dates for voucher validity etc.      
+   You can add additional data sources here as subsets of the main data source, if needed.        
+   The data source subsets may contain useful information such as salespeople names, affected POS units/POS stores, and so on.
+5. Click **Edit Layout**     
+   The **Template Line Designer** window is displayed. It contains the elements that are displayed on the printed vouchers. You can edit them, if needed.
+6. Click **Edit Device Settings**.     
+   For Epson printers, you can typically configure media width, encoding and print resolution (DPI).
+
+#### See also
+
+- [<ins>Create a simple receipt/line print template<ins>]({{< ref "../receipt_print_template/index.md" >}})
+- [<ins>Set up coupon print templates<ins>]({{< ref "../create_print_template_coupon/index.md" >}})
+- [<ins>Retail voucher types<ins>]({{< ref "../../../vouchers/explanation/retail_voucher_layout/index.md" >}})
+- [<ins>Vouchers (POS Academy)<ins>]({{< ref "../../../pos_academy/sales_cycle/vouchers/index.md" >}})
