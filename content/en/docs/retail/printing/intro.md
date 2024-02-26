@@ -38,10 +38,10 @@ Examples of the most frequent outputs generated with print templates are:
 
 - [<ins>Sales receipts<ins>]({{< ref "how-to/receipt_print_template/index.md" >}})
 - [<ins>Price labels<ins>]({{< ref "how-to/create_print_template_label/index.md" >}})
-- Coupons
-- [<ins>Exchange labels<ins>]({{< ref "how-to/exchange_label/index.md" >}})
-- Vouchers
-- Tickets
+- [<ins>Coupons<ins>]({{< ref "how-to/create_print_template_coupon/index.md" >}})
+- [<ins>Exchange labels<ins>]({{< ref "how-to/create_print_template_exchange/index.md" >}})
+- [<ins>Vouchers<ins>]({{< ref "how-to/create_print_template_voucher/index.md" >}})
+- [<ins>Tickets<ins>]({{< ref "how-to/create_print_template_ticket/index.md" >}})
 
 You can also refer to [<ins>Print template features<ins>]({{< ref "explanation/template_tools/index.md" >}}) to learn more about the tools used for facilitating print template management 
 

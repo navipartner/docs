@@ -1,5 +1,5 @@
 ---
-title: "Create a new price label template"
+title: "Create a new price label/matrix template"
 description: "Price labels can be printed in various shapes, sizes and materials to suit the targeted product best. It is for this reason that you may want to create custom price label templates for your business. "
 lead: ""
 date: 2024-02-08T16:00:22+01:00
@@ -18,6 +18,8 @@ type: docs
 Price labels can be printed in various shapes, sizes and materials to suit the targeted product best. It is for this reason that you may want to create custom price label templates for your business. 
 
   {{< alert icon="📝" text="NaviPartner provides a large selection of predefined templates for most typical processes, optimized for various printers and print media. You can retrieve these predefined templates with the <b>Download Template Data</b> action in the <b>Print Template List</b> administrative section. Some of these templates are created specifically for printing price labels - Z420T_PRICE_SMALL / RFID_PRICE_SHORTWIDE."/>}}
+
+This article can also be used as a reference whenever you need to create matrix print templates. Although some options are label-specific, most of the demonstrated configurations can be applied when creating templates for printing [<ins>coupons<ins>]({{< ref "../create_print_template_coupon/index.md" >}}) and tickets.
 
 ## Create a basic price label print template
 
@@ -115,3 +117,5 @@ In this example, **LABEL_HOME** is set to **10,10** to add a small margin from t
 - [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
 - [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
 - [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})
+- [<ins>Create a simple receipt/line print template<ins>]({{< ref "../receipt_print_template/index.md" >}})
+- [<ins>Set up coupon print templates<ins>]({{< ref "../create_print_template_coupon/index.md" >}})
