@@ -36,3 +36,10 @@ If a customer has bought an item with the price of 49 EUR, and in **Loyalty Setu
 ![Membership_points_entry](Membership%20points%20entry.png)
 
 If, instead of loyalty setup for assigning points the item point setup is used, and only some items bring points to the customer, the sales consisting of other items will not provide any points.
+
+#### See also
+
+- [<ins>Set up the loyalty program<ins>]({{< ref "../setup/index.md" >}})
+- [<ins>Redeem points on sale<ins>]({{< ref "../redeem_points/index.md" >}})
+- [<ins>Assign points on sale<ins>]({{< ref "../assign_points/index.md" >}})
+- [<ins>Navigation and reports<ins>]({{< ref "../../explanation/navigation_reports/index.md" >}})

@@ -23,3 +23,10 @@ The following POS menu buttons for administrative tasks can be placed under the 
 - EOD function
 - Print functions (e.g. to reprint tickets)
 - Any administrative report you need
+
+#### See also
+
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})
+- [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../../../retail/pos_processes/how-to/generate_eod/index.md" >}})
+- [<ins>Set up ticket print templates<ins>]({{< ref "../../../retail/printing/how-to/create_print_template_ticket/index.md" >}})

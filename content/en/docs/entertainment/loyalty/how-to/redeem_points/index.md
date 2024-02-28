@@ -34,3 +34,8 @@ The coupon discount will be added in the sale and applied to the sale transactio
 
 After the sale is finalized, the withdrawal of points will be displayed in the **Member Points Entry**.
 
+#### See also
+
+- [<ins>Set up the loyalty program<ins>]({{< ref "../setup/index.md" >}})
+- [<ins>Assign points on sale<ins>]({{< ref "../assign_points/index.md" >}})
+- [<ins>Navigation and reports<ins>]({{< ref "../../explanation/navigation_reports/index.md" >}})

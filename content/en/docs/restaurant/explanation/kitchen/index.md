@@ -28,3 +28,9 @@ You can define how many kitchen stations are going to be in charge of preparing 
 In this section, you can select in which kitchen station a certain **Print Category Code** (type of menu/food) is being prepared. 
 
 ![restaurant8](restaurant8.PNG)
+
+#### See also
+
+- [<ins>Listings<ins>]({{< ref "../listings/index.md" >}})
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})

@@ -51,3 +51,9 @@ The **Service Flow Profile** is used for setting up how the system behaves throu
 ![restaurant4](restaurant4.PNG)
 
 For more information about the fields and options, refer to the [<ins>Service Flow Profiles reference guide<ins>]({{< ref "../../reference/service_flow/index.md" >}}).
+
+#### See also
+
+- [<ins>Listings<ins>]({{< ref "../listings/index.md" >}})
+- [<ins>Kitchen<ins>]({{< ref "../kitchen/index.md" >}})
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})

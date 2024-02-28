@@ -35,3 +35,9 @@ You can define the particularities that is associated with a Restaurant, such as
 | **KDS Active** | Specifies whether KDS is active or not. |
 | **Order ID Assign. Method** | Specifies the assignment method of the order ID. | 
 | **Station Req. Handl. On Serving** | Specifies how kitchen station production requests should be handled, if the product has been served prior to the production being completed. | 
+
+#### See also
+
+- [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../../explanation/restaurant_seating_plan/index.md" >}})
+- [<ins>Restaurant POS View/POS menus<ins>]({{< ref "../../explanation/pos_view/index.md" >}})

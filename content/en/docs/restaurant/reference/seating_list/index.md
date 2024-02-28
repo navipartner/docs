@@ -31,3 +31,10 @@ The following fields and options can be configured in the **Seating List** admin
 | **Status Description** | Specifies the description attached to the **Status Code**. |
 | **Current Waiter Pad** | Specifies if there is a waiter pad assigned to the seat. |
 | **Multiple Waiter Pads** | Specifies if there's more than one waiter pad assigned to the seat. |
+
+#### See also
+
+- [<ins>Seating<ins>]({{< ref "../../explanation/seating_layout/index.md" >}})
+- [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../../explanation/restaurant_seating_plan/index.md" >}})
+- [<ins>Restaurant POS View/POS menus<ins>]({{< ref "../../explanation/pos_view/index.md" >}})

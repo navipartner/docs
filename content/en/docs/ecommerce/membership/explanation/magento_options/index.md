@@ -47,3 +47,9 @@ Additionally, you can configure the available information on the **My Membership
 The templates that are applied to the customer memberships (e.g. **BRONZE**, **GOLD**, etc.) can be configured in **Membership Setup**, through the **Customer Config. Template Code** column. You can see the list of all available templates, in the **Configuration Templates** administrative section.
 
 It's also possible to add new custom fields like **Magento Shipping Group**, **Magento Store Code**, and **Magento Display Group**. However, they need to be created in Magento Webadmin first, and then linked to each corresponding template on a member. 
+
+#### See also
+
+- [<ins>Register as a member on an e-commerce website<ins>]({{< ref "../../how-to/new_member/index.md" >}})
+- [<ins>Custom pricing for members<ins>]({{< ref "../pricing/index.md" >}})
+- [<ins>Membership options - Business Central<ins>]({{< ref "../bc_options/index.md" >}})

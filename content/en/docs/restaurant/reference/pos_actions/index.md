@@ -32,3 +32,8 @@ This table contains all POS actions relevant for setting up the Restaurant Modul
 | **RUN_W/PAD_ACTION** | Run the waiter pad functions directly from the **Sales** view with the following options: **Print Pre-Receipt**, **Send Kitchen Order**, **Request Next Serving**, **Request Specific Serving**, **Merge Waiter Pad**, **Close w/out Saving**. |
 | **SHOW_WAITER_PAD** | Handle transferring between the POS and the waiter pad. When you press the POS menu button, you will receive details of that waiter pad. | 
 
+#### See also
+
+- [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../../explanation/restaurant_seating_plan/index.md" >}})
+- [<ins>Restaurant POS View/POS menus<ins>]({{< ref "../../explanation/pos_view/index.md" >}})

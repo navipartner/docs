@@ -17,3 +17,10 @@ type: docs
 When you open the **Seating Plan View** on the POS, you can modify, rearrange, and even add new seats. This is done via the **Edit** button at the top right corner which activates the **Editing Mode**. Once clicked, a side menu is displayed on the left side, and you can use its various options to update the layout.
 
 ![restaurant11](restaurant11.PNG)
+
+#### See also
+
+- [<ins>Restaurant POS view/POS menus<ins>]({{< ref "../pos_view/index.md" >}})
+- [<ins>Listings<ins>]({{< ref "../listings/index.md" >}})
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})

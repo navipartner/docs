@@ -54,3 +54,10 @@ If, during the course of the meal, a guest wishes to order an additional meal/dr
 ## Serving & completing the order
 
 At this stage, the waiter prints a pre-receipt to present it to the guests, and receive their payment. The guests can pay a single bill, or ask for it to be split. After that, the waiter finalizes the payment from the POS, and prints the actual sales ticket. The seat is freed automatically, and set to **READY** for the next arriving guest, as per the previously established **Restaurant Setup**.
+
+#### See also
+
+- [<ins>Listings<ins>]({{< ref "../listings/index.md" >}})
+- [<ins>Kitchen<ins>]({{< ref "../kitchen/index.md" >}})
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})

@@ -19,3 +19,9 @@ The GDPR module allows online stores to comply with the essential GDPR (General 
 This module comes with the **Privacy Consent** dashboard that stores all GDPR options in one place. Customers can view the Privacy Policy and Terms of Use, download account data, and delete their accounts, if needed. 
 
    ![privacy_consent](privacy_consent.PNG)
+
+  #### See also
+
+- [<ins>Configure the GDPR module (e-commerce)<ins>]({{< ref "how-to/configure_gdpr/index.md" >}})
+- [<ins>Handling requests for stored personal information<ins>]({{< ref "how-to/handle_requests/index.md" >}})
+- [<ins>Privacy consent customization<ins>]({{< ref "explanation/consent_widget/index.md" >}})

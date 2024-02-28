@@ -33,3 +33,9 @@ The **Seating List** contains the number of seats and tables available in a rest
 You can add new seating in this administrative section, or in the **Restaurant Plan View**.
 
 For more information, refer to the [<ins>Seating List reference guide<ins>]({{< ref "../../reference/seating_list/index.md" >}})
+
+#### See also
+
+- [<ins>Listings<ins>]({{< ref "../listings/index.md" >}})
+- [<ins>Kitchen<ins>]({{< ref "../kitchen/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})

@@ -75,3 +75,7 @@ If the voucher amount is higher than the item price, it's recommended to perform
    A confirmation email is also sent to the email address you've provided in the previous steps.
 
       {{< alert icon="📝" text="The voucher can alternatively be applied in the Shopping Cart via <b>Apply Voucher</b> > <b>Enter Voucher Code</b>."/>}}
+
+#### See also
+
+- [<ins>Create vouchers in Magento and Business Central<ins>]({{< ref "../create_vouchers/index.md" >}})

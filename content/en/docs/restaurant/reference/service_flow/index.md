@@ -28,3 +28,10 @@ The following fields and options are available in the **Service Flow Profile Car
 | **W/Pad Ready for Pmt. Status** | Specifies the ready-for-payment status code on the waiter pad. |
 
 ![restaurant4](restaurant4.PNG)
+
+#### See also
+
+- [<ins>Seating<ins>]({{< ref "../../explanation/seating_layout/index.md" >}})
+- [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../../explanation/restaurant_seating_plan/index.md" >}})
+- [<ins>Restaurant POS View/POS menus<ins>]({{< ref "../../explanation/pos_view/index.md" >}})

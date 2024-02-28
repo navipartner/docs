@@ -68,3 +68,8 @@ After the request for closing a registered customer account has been processed i
   When this request is processed, user data will be anonymized in the **Customers** list, as well as that user's sales order data. 
 
   ![anonymized_data](Images/anonymized_data.PNG)
+
+#### See also
+
+- [<ins>Configure the GDPR module (e-commerce)<ins>]({{< ref "../configure_gdpr/index.md" >}})
+- [<ins>Privacy consent customization<ins>]({{< ref "../../explanation/consent_widget/index.md" >}})

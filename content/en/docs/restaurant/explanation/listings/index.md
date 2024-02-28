@@ -50,3 +50,9 @@ The **Kitchen Request (Expedite)** is the main screen where the head-waiter or r
 If the **Production Status** is **Finished**, the head-waiter can set it to **Served**, and request from the waiter to serve their guests. 
 
 ![restaurant16](restaurant16.PNG)
+
+#### See also
+
+- [<ins>Kitchen<ins>]({{< ref "../kitchen/index.md" >}})
+- [<ins>Seating<ins>]({{< ref "../seating_layout/index.md" >}})
+- [<ins>Grouping<ins>]({{< ref "../seating_grouping/index.md" >}})

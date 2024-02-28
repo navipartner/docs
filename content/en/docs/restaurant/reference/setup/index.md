@@ -53,3 +53,9 @@ The **POS Actions** section contains codes for specific actions in specific circ
 The following field is available in the **Print Template** section:
 
 - **Print Type** - Here we set templates to be used by different printers in different stations, such as main restaurant, bar, kitchen etc., based on the type of printing that is required. 
+
+#### See also
+
+- [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../../explanation/restaurant_seating_plan/index.md" >}})
+- [<ins>Restaurant POS View/POS menus<ins>]({{< ref "../../explanation/pos_view/index.md" >}})

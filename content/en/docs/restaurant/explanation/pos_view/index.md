@@ -20,3 +20,9 @@ You can define the POS Views on each POS unit that needs to have predefined butt
 ![restaurant12](restaurant12.png)
 
 Take a look at the [<ins>reference guide<ins>]({{< ref "../../reference/pos_actions/index.md" >}}) which contains the POS actions relevant to the Restaurant Module.
+
+#### See also
+
+- [<ins>Create buttons in POS menus<ins>]({{< ref "../../../retail/pos_layout/how-to/new_button/index.md" >}})
+- [<ins>Create POS menu filters<ins>]({{< ref "../../../retail/pos_layout/how-to/menu_filters/index.md" >}})
+- [<ins>Restaurant seating plan (POS)<ins>]({{< ref "../restaurant_seating_plan/index.md" >}})

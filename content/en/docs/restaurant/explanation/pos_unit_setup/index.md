@@ -28,3 +28,8 @@ If you wish to be greeted with the **Seating Floor View** as soon as you've logg
 In the **POS Restaurant Profile** of a POS unit, you can select which restaurant will be using a particular POS unit. 
 
 ![restaurant10](restaurant10.PNG)
+
+#### See also
+
+- [<ins>Create a new POS unit<ins>]({{< ref "../../../retail/pos_processes/how-to/create_pos_unit/index.md" >}})
+- [<ins>POS View Profile<ins>]({{< ref "../../../retail/pos_profiles/reference/view_profile/view_profile_ref.md" >}})
