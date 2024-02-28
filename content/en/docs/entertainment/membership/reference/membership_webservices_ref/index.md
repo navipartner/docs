@@ -61,3 +61,10 @@ Members and tickets are integrated. It's possible to define guest tickets for me
 | **GetMembershipTicketList** | Returns a list of valid ticket items that the member can choose from to accommodate a self-service check-in for themselves, including guests. This is a two-step process - the second half (registering the ticket and the arrival) is provided by the ticket management web service. |
 | **MemberCardRegisterArrival** | Used for handling self-service scanning of the member card number, and allowing member entry. This process consists of a single step. |
 | **MemberRegisterArrival** | Used for handling self-service scanning of the member number, and allowing members to enter the venue. This process consists of a single step. | 
+
+#### See also
+
+- [<ins>Member community<ins>]({{< ref "../member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "../../how-to/membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "../../how-to/autorenewal/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "../azure_membership/index.md" >}})

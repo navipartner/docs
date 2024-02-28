@@ -53,3 +53,11 @@ You can anonymize customers manually by clicking **Actions**, followed by **Memb
 There's also an administrative section **Customer GDPR Setup** that contains the **Anonymize After** field in which you can specify for how many years after memberships have expired the customer data will be stored in the system. After the specified number of years expires, the customer data is anonymized. Additionally, it's necessary to activate the **Enable Job Queue** toggle switch for the automatic anonymization to become effective.
 
 ![customer_gdpr](Images/customer_gdpr.PNG)
+
+#### See also
+
+- [<ins>Member community<ins>]({{< ref "../../reference/member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "../../how-to/membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "../../how-to/autorenewal/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "../../reference/azure_membership/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "../../reference/membership_webservices_ref/index.md" >}})

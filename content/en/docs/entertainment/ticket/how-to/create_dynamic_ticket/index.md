@@ -29,3 +29,12 @@ Dynamic tickets have a flexible [<ins>admission<ins>]({{< ref "../../explanation
 5. If an optional admission requires a separate charge, create a new **Item** and assign it to an optional **Admission** in the **Additional Experience Item No.** field found in the **Ticket Admission** list.
 
 {{< alert icon="📝" text="An item created for an optional admission must <b>NOT</b> have the <b>Ticket Type</b> field populated."/>}}
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

@@ -72,3 +72,10 @@ To launch the auto-renewal process:
 9. Select the **Salesperson Code** of the responsible salesperson.
 10. Click **Start Auto-Renew** to initiate the process.
 11. Once the process is completed, you can view the details under the **Auto-Renew Lot**.
+
+#### See also
+
+- [<ins>Member community<ins>]({{< ref "../../reference/member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "../membership_setup/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "../../reference/azure_membership/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "../../reference/membership_webservices_ref/index.md" >}})

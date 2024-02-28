@@ -49,3 +49,14 @@ When creating a new ticket type, the following options are available:
 | **Ticket Layout Code** | Specifies the ticket layout code from the online **Ticket Designer**. You need to populate this field if you wish to export a ticket URL when creating a prepaid/postpaid ticket or if you want the ticket URL to be published to notifications during creations. This code can be different from the **Ticket Type Code**. |
 | **eTicket Activated** | Specifies if the eTicket should be activated on this ticket type. If activated, a **Wallet Template** file needs to be imported under the **Process** tab. |
 | **eTicket Type Code** | Specifies the value of the eTicket type code used to create the eTicket. This value should correspond to the template design on the **Pass Server**. |
+
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

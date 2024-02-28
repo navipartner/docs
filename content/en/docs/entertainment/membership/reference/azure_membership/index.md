@@ -32,3 +32,10 @@ The following fields and options are available in the in the **Azure Member Regi
 | **Enable Dequeuing** | Specifies whether the dequeuing process is initiated or not. |
 | **Dequeue Batch Size** | Specifies the size of the dequeued batch. | 
 | **Dequeue Until Empty** | Specifies whether the batch is dequeued until emptied out or not. |
+
+#### See also
+
+- [<ins>Member community<ins>]({{< ref "../member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "../../how-to/membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "../../how-to/autorenewal/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "../membership_webservices_ref/index.md" >}})

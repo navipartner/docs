@@ -42,3 +42,11 @@ Postpaid tickets are invoiced to the distributor after the ticket has been redee
 2. Click **Process** in the ribbon, and then **Create Offline Admissions**.   
    A confirmation popup is displayed.
 3. Click **Yes** to process the sales invoice.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})

@@ -36,4 +36,3 @@ All data from the ticket sales, stores, and cafés is collected and managed in B
 - [<ins>Set up the auto-renewal process<ins>]({{< ref "membership/how-to/autorenewal/index.md" >}})
 - [<ins>Loyalty overview<ins>]({{< ref "loyalty/intro.md" >}})
 - [<ins>Set up the loyalty program<ins>]({{< ref "loyalty/how-to/setup/index.md" >}})
-- [<ins>Restaurant overview<ins>]({{< ref "restaurant/intro.md" >}})

@@ -31,3 +31,10 @@ Member community is the top level in the setup of members and memberships. It re
 | **Member Default Country Code** | Specifies the country code associated with the member.  |
 | **Activate Loyalty Program** | If enabled, the loyalty program will be activated. |
 | **Foreign Membership** | If enabled, some specific conditions regarding foreign members will be applied. | 
+
+#### See also
+
+- [<ins>Set up the membership module web services<ins>]({{< ref "../../how-to/membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "../../how-to/autorenewal/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "../azure_membership/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "../membership_webservices_ref/index.md" >}})

@@ -33,3 +33,13 @@ The following fields and options are available for setup:
 | **Default Schedule** | This controls how a schedule is selected. **Today** - selects the next available schedule for the current day; **Next available** - selects the next available schedule regardless of whether this schedule is valid for the current day; **Scheduled Entry Required** - forces a prompt to select a specific schedule. |
 | **Prebook From** | Configure how far in the future the ticket is going to be created; how much in advance you can prebook the product. |
 | **Capacity Control** | This controls how the capacity is handled: **None** - offers no capacity control; **Sales** - enables the sale of tickets equal to the amount stated in **Max Capacity**; **Admitted** - enables admission of tickets equal to the amount stated in **Max Capacity**; **Admitted and Depart** - enables admission of tickets equal to the amount stated in **Max Capacity**, but also allows for departure to be registered, freeing up the capacity. |
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

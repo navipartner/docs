@@ -43,3 +43,13 @@ The authorization code is also generated back-office for the backend worker to s
    You can now see the unique authorization code in its respective column. 
 
 {{< alert icon="📝" text="The <b>Authorization Code</b> is not for back office users working in Business Central. It is intended for the customer to change their own reservation online (which requires that the feature is set up on the website). This will produce a random number such as '2842-3921' which can be put on a print ticket in the ticket designer."/>}}
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})
