@@ -66,36 +66,43 @@
   parent = "solutions"
 
 [[main]]
-  name = "WMS"
+  name = "RESTAURANT"
   weight = 30
+  identifier = "restaurant"
+  url = "/docs/restaurant/intro"
+  parent = "solutions"
+
+[[main]]
+  name = "WMS"
+  weight = 40
   identifier = "wms"
   url = "/docs/wms/intro"
   parent = "solutions"
 
 [[main]]
   name = "E-COMMERCE"
-  weight = 40
+  weight = 50
   identifier = "ecommerce"
   url = "/docs/ecommerce/intro"
   parent = "solutions"
 
 [[main]]
   name = "POWER BI"
-  weight = 50
+  weight = 60
   identifier = "power-bi"
   url = "/docs/power_bi/intro"
   parent = "solutions"
 
 [[main]]
   name = "INTEGRATIONS"
-  weight = 60
+  weight = 70
   identifier = "integrations"
   url = "/docs/integrations/intro"
   parent = "solutions"
 
 [[main]]
   name = "FISCALIZATION"
-  weight = 70
+  weight = 80
   identifier = "integrations"
   url = "/docs/fiscalization/intro"
   parent = "solutions"

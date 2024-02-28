@@ -122,3 +122,10 @@ From the **CS Setup** you can also set up [<ins>CS users<ins>]({{< ref "../../ho
   {{< alert icon="📝" text="You can also access one of the logs in <b>CS Setup</b> if you encounter unforeseen issues in the environment."/>}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6EXqbu1jeTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Set up Capture Service<ins>]({{< ref "../../how-to/cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../../how-to/cs_ui_setup/index.md" >}})
+- [<ins>Set up Capture Service users<ins>]({{< ref "../../how-to/cs_user_setup/index.md" >}})
+- [<ins>Set up CS Data Patterns<ins>]({{< ref "../../how-to/cs_data_pattern_setup/index.md" >}})

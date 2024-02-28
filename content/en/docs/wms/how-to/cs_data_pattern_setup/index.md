@@ -33,3 +33,11 @@ To set up data patterns, follow the provided steps.
 | **Code**   | Specifies a unique code for the CS data pattern.     |
 | **Description**   | Specifies the description of the CS data pattern.      |
 | **SubForm**  | Enter the fields you would like to display as lines on the mobile device in the subform area. |
+
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up CS users<ins>]({{< ref "../cs_user_setup/index.md" >}})
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../stock_count_bc_wms/index.md" >}})

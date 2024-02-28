@@ -33,3 +33,13 @@ The following fields and options are available in the Ticket Statistics Matrix a
 | **Admission Hour** | Specifies the time when the admission was recorded. |
 | **Admission Code** | Specifies the ticket admission code. |
 | **Variant Code** | Specifies the item variant code. |
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

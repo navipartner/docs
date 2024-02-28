@@ -37,3 +37,11 @@ A QR code is a machine-readable optical label that can contain information about
 
 4. Click **Create QR Code**.         
    The QR code is displayed in the **NPRW CS QR Code FactBox** section of the page.    
+
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up CS users<ins>]({{< ref "../cs_user_setup/index.md" >}})
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../stock_count_bc_wms/index.md" >}})

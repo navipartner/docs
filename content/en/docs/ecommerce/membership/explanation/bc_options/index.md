@@ -38,3 +38,9 @@ All of these alteration types, except for membership cancellation, can be access
 If you wish, you can set up the age constraint for the members in the **Membership Sales Setup**.
 
    ![age_constraint](Images/age_constraint.PNG)
+
+#### See also
+
+- [<ins>Register as a member on an e-commerce website<ins>]({{< ref "../../how-to/new_member/index.md" >}})
+- [<ins>Custom pricing for members<ins>]({{< ref "../pricing/index.md" >}})
+- [<ins>Membership options - Magento Webadmin<ins>]({{< ref "../magento_options/index.md" >}})

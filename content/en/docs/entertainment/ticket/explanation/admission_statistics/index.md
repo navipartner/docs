@@ -29,3 +29,12 @@ The **Action Code** used on the POS to set up the **Quick Statistics** button is
 ## Ticket Access Statistics Matrix
 
 This method is more precise, but since it aggregates the admissions, it doesn't instantly provide the admissions of the current day. For example, a revoked ticket is counted as a valid admission even though it has been cancelled. This is due to it still being a valid admission that has been recorded in the system. The aggregated data will not change over time as opposed to how the flow filter works, which creates a new sum every time it is executed.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

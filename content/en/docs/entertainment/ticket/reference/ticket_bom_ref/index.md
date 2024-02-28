@@ -51,3 +51,13 @@ In this administrative section, the entire sales department of Business Central 
 | **eTicket Type Code** | Specifies the ticket design options used for displaying the ticket in the eWallet. |
 | **Publish Ticket URL** | Specifies the URL to the server on which you can share the ticket with customers. |
 | **Activation Method** | When the **Ticket Configuration Source** field on the **Ticket Type** specifies the option **TICKET_BOM**, this field's value is used instead of the corresponding field in **Ticket Type**. |
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

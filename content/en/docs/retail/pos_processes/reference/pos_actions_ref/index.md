@@ -74,5 +74,5 @@ Refer to this table for additional information on what each available discount t
 
 - [<ins>POS info setup<ins>]({{< ref "../../how-to/pos_info_setup/index.md" >}})
 - [<ins>POS actions for retail vouchers<ins>]({{< ref "../../../pos_academy/vouchers/pos_actions_vouchers/index.md" >}})
-- [<ins>POS actions used in the Restaurant module<ins>]({{< ref "../../../../entertainment/restaurant/reference/pos_actions/index.md" >}})
+- [<ins>POS actions used in the Restaurant module<ins>]({{< ref "../../../../restaurant/reference/pos_actions/index.md" >}})
 - [<ins>POS self-service actions<ins>]({{< ref "../../../pos_profiles/reference/ss_actions/ss_actions/index.md" >}})

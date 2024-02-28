@@ -27,3 +27,12 @@ The hierarchy of the Membership module in NP Attractions is as follows:
 4. Member card - stores identification information about members
 
 You can make the Membership module pages by choosing the **NP Retail Entertainment** role center upon entering Business Central.
+
+#### See also
+
+- [<ins>Member card<ins>]({{< ref "explanation/member_card/index.md" >}})
+- [<ins>Member community<ins>]({{< ref "reference/member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "how-to/membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "how-to/autorenewal/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "reference/azure_membership/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "reference/membership_webservices_ref/index.md" >}})

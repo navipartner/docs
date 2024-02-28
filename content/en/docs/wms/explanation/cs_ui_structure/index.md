@@ -27,3 +27,10 @@ If you create a new CS UI, and you wish to apply it to the structure, you can do
 Likewise, if you wish to remove a certain CS UI from the structure, you can do so by deleting the value from the **Next UI** field, and then clicking **Refresh Structure** in the **CS UI Structure** ribbon to see the changes.
 
 {{< alert icon="⚠️" text="Be careful when removing parent CS UIs from the structure. Always check whether you need some of its children CS UIs first."/>}}
+
+#### See also
+
+- [<ins>Set up Capture Service<ins>]({{< ref "../../how-to/cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../../how-to/cs_ui_setup/index.md" >}})
+- [<ins>Set up Capture Service users<ins>]({{< ref "../../how-to/cs_user_setup/index.md" >}})
+- [<ins>Set up CS Data Patterns<ins>]({{< ref "../../how-to/cs_data_pattern_setup/index.md" >}})

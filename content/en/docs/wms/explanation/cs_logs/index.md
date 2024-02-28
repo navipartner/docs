@@ -42,3 +42,10 @@ During the inventory pick, you have the option to post a document. If you choose
 The documents containing this data are preserved in the **Print Buffer** log, so that they can be reprinted if needed. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Bq4jv8hAGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Set up Capture Service<ins>]({{< ref "../../how-to/cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../../how-to/cs_ui_setup/index.md" >}})
+- [<ins>Set up Capture Service users<ins>]({{< ref "../../how-to/cs_user_setup/index.md" >}})
+- [<ins>Set up CS Data Patterns<ins>]({{< ref "../../how-to/cs_data_pattern_setup/index.md" >}})

@@ -40,3 +40,12 @@ With this functionality, it is easy for you to modify a customer's ticket reserv
 4. Choose the new time and date that the customer would prefer to change to.
 5. Click **OK**.     
    Ticket reservation has been successfully changed.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

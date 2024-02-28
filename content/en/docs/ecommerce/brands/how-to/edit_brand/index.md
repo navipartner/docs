@@ -25,3 +25,8 @@ Brands are managed from the Magento Admin Panel. To edit an existing brand, foll
 4. Click **Save**.
 
   {{< alert icon="❗" text="If you're changing the <b>Brand Name</b>, remember to update the <b>URL Key</b> as well. This is very important for consistency, and for providing a good user experience."/>}}
+
+#### See also
+
+- [<ins>Create a brand<ins>]({{< ref "../create_brand/index.md" >}})
+- [<ins>Delete a brand<ins>]({{< ref "../delete_brand/index.md" >}})

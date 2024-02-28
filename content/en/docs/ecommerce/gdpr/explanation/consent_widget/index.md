@@ -62,3 +62,8 @@ The following fields and options are available in the **CRON** panel:
 | **Delete old documents via CRON** | When customers want the sales order to be automatically deleted after some time, this option should be set to **Yes**. |
 | **Delete documents older than** | You can define the number of months after which sales orders and the associated documents will be deleted. |
 | **CRON schedule** | Specify when the closure request will be processed. | 
+
+#### See also
+
+- [<ins>Configure the GDPR module (e-commerce)<ins>]({{< ref "../../how-to/configure_gdpr/index.md" >}})
+- [<ins>Handling requests for stored personal information<ins>]({{< ref "../../how-to/handle_requests/index.md" >}})

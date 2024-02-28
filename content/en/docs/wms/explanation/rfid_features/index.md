@@ -42,3 +42,10 @@ When the process is finalized, you can see the results in the **RFID Documents**
 ## Tags (TAGS)
 
 In the **TAGS** section, you can link an RFID tag from Business Central to a specific item, thus creating a unique code for it. You can also perform a scan to check how many available tags are valid, and if any need to be fixed. 
+
+#### See also
+
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../../how-to/install_apps/index.md" >}})
+- [<ins>Set up Capture Service (CS)<ins>]({{< ref "../../how-to/cs_setup/index.md" >}})
+- [<ins>Set up RFID functionalities in Business Central<ins>]({{< ref "../../how-to/rfid_setup/index.md" >}})

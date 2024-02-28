@@ -41,3 +41,9 @@ A warehouse pick is always created in relation to warehouse shipments, either di
 If the location is set up require warehouse pick processing and warehouse shipment processing, you can use the warehouse pick documents to create and process pick information before you post the warehouse shipment. 
 
   {{< alert icon="📝" text="If your company deals with multiple orders and shipments, a warehouse pick is a better option than inventory pick, since it's more stable from a technical standpoint."/>}}
+
+#### See also
+
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../../how-to/stock_count_app/index.md" >}})
+- [<ins>Inventory adjustments<ins>]({{< ref "../inventory_adjustments/index.md" >}})

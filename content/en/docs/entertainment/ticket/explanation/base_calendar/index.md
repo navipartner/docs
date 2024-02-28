@@ -48,3 +48,13 @@ The admission and schedules are required in order to generate the time-slots ava
 The automation within the base calendar is low - it supports only two rules for recurring entries - weekly and annually. **Weekly** is good for closing a specific weekday (such as Sunday), and **Annually** can take care of December 25th. Other than that, the non-working days need to be manually maintained. 
 
 One approach to managing complex schedules is to have admission/schedule setup create all the open entries, and handle all the closing entries with the base calendar and date customizations.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

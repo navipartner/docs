@@ -43,3 +43,9 @@ There are two available apps - NP WMS and NP RFID. NP WMS contains warehouse man
   {{< alert icon="📝" text="he only difference between the NP WMS and NP RFID scanner configuration is that the NP RFID app is connected to the Bluetooth scanner in the <b>SCANNER</b> portion of <b>SETUP</b>, where you can see the type of scanner in use, along with the RFID scanner ID, and multiple options for configuring the RFID scanner settings."/>}}
 
    Once the necessary steps are completed, you will be ready to log in and start using the app.
+
+#### See also
+
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up RFID functionalities in Business Central<ins>]({{< ref "../rfid_setup/index.md" >}})

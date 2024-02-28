@@ -37,3 +37,10 @@ Follow the provided steps to successfully register as a member on an e-commerce 
    The **Privacy Consent** pop-up window is displayed. It's recommended that you read through the document before proceeding.
 3. Select **Agree** in the dropdown, and click **Proceed**.     
    You are prompted to sign in again.
+
+#### See also
+
+- [<ins>Register as a member on an e-commerce website<ins>]({{< ref "../new_member/index.md" >}})
+- [<ins>Custom pricing for members<ins>]({{< ref "../../explanation/pricing/index.md" >}})
+- [<ins>Membership options - Magento Webadmin<ins>]({{< ref "../../explanation/magento_options/index.md" >}})
+- [<ins>Membership options - Business Central<ins>]({{< ref "../../explanation/bc_options/index.md" >}})

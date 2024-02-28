@@ -41,3 +41,11 @@ The **EPC** (Electronic Product Code) **Data List** administrative section is us
 A line is created in the **Countings** administrative section when you initiate the stock count.
 
 When you open the line, you can see stockroom, sales floor, what has been refilled or if it has been posted or not. 
+
+#### See also
+
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../../how-to/stock_count_app/index.md" >}})
+- [<ins>Inventory and warehouse picks<ins>]({{< ref "../inventory_warehouse_pick/index.md" >}})
+- [<ins>Inventory adjustments<ins>]({{< ref "../inventory_adjustments/index.md" >}})
+- [<ins>NP RFID features<ins>]({{< ref "../rfid_features/index.md" >}})

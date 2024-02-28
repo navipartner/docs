@@ -36,3 +36,10 @@ In order to effectively use NP WMS, the module should be first set up with the r
 | **Physical Inventory Counting** | Settings related to the physical inventory count. |
 | **Job Queue** | Settings related to job queue processing. |
 | **Azure Printing** | Settings related to the Azure universal print service.|
+
+
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up RFID functionalities in Business Central<ins>]({{< ref "../rfid_setup/index.md" >}})

@@ -37,3 +37,7 @@ Brands are created and managed from the Magento Admin Panel. To create a new bra
 5. Confirm the **External ID** field has been auto-populated.
 6. Click **Back** and confirm the new brand is present in the **Brands** list. 
 
+#### See also
+
+- [<ins>Edit a brand<ins>]({{< ref "../edit_brand/index.md" >}})
+- [<ins>Delete a brand<ins>]({{< ref "../delete_brand/index.md" >}})

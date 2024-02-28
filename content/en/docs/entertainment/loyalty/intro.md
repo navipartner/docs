@@ -26,3 +26,10 @@ The loyalty program in NP Entertainment is created as a part of the [<ins>Member
 The relation between setups is illustrated in the provided image:
 
 ![Loyalty](Loyalty%20relations.png)
+
+#### See also
+
+- [<ins>Set up the loyalty program<ins>]({{< ref "how-to/setup/index.md" >}})
+- [<ins>Redeem points on sale<ins>]({{< ref "how-to/redeem_points/index.md" >}})
+- [<ins>Assign points on sale<ins>]({{< ref "how-to/assign_points/index.md" >}})
+- [<ins>Navigation and reports<ins>]({{< ref "explanation/navigation_reports/index.md" >}})

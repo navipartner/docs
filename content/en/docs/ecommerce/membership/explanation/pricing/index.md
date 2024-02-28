@@ -34,3 +34,8 @@ Special pricing can also be found in the **Magento** section of **Customer Cards
 
   ![alternative_pricing](Images/alternative_pricing.PNG)
 
+#### See also
+
+- [<ins>Register as a member on an e-commerce website<ins>]({{< ref "../../how-to/new_member/index.md" >}})
+- [<ins>Membership options - Magento Webadmin<ins>]({{< ref "../magento_options/index.md" >}})
+- [<ins>Membership options - Business Central<ins>]({{< ref "../bc_options/index.md" >}})

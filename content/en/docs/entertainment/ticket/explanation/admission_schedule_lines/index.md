@@ -31,3 +31,13 @@ It is also possible to check beyond a single schedule and admission, and limit t
 
 
 You can state which date the schedule has been proceeded to in the **Schedule Generated Until** field, but note that this is the date the schedule will continue generating entries from. Even though this date is set, there may be no entries created due to the constraint induced by the schedule definition. Thus, creating this date if there are entries created for the admission will result in rescheduling. If the schedule definition is changed, the entries may consequently be cancelled. The rescheduled entries which occur on the same date will retain the external ID they have been initially assigned. 
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})
