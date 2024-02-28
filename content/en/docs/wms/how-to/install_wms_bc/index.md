@@ -29,3 +29,9 @@ Once NP WMS is installed, you can proceed with other necessary setups.
 
 - You can [<ins>fetch preset configurations<ins>]({{< ref "../fetch_setup_data/index.md" >}}) on your environment, and in that way avoid custom setup. 
 
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up RFID functionalities in Business Central<ins>]({{< ref "../rfid_setup/index.md" >}})
