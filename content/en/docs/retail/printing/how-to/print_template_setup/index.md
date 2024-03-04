@@ -43,6 +43,10 @@ However, if none of them suit your needs, you can either create a new template o
    - **Edit Layout** - Design the layout of the item by providing the X and Y coordinates (for Matrix templates) or the order and content of each line (for Line templates).  
    - **Edit Device Settings** - Configure the device-specific settings. You can override the default settings of a device, typically related to calibration, media specifications or encoding.
 
+## Next steps - configure Print Template Output Setup
+
+Once you're finished with setting up a print template, you can link it to an available local printer in the **Print Template Output Setup** administrative section. To do so, you need to select the print template in the **Print Template** column, and provide the correct **Output Type** and **Output Path**.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Specific use cases
