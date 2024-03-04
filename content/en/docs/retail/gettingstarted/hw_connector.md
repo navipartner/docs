@@ -26,3 +26,4 @@ Hardware connector is an essential bridge between local hardware and the WEB MT 
 #### See also
 
 - [<ins>Set up the HW Connector report printing module<ins>]({{< ref "../printing/how-to/printing_module_setup.md" >}})
+- [<ins>Printer extensions for reports<ins>]({{< ref "../printing/explanation/printer_extensions.md" >}})

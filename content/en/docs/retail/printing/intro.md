@@ -19,14 +19,14 @@ This documentation section covers the essential printer configuration entities f
 
 ## Reports
 
-Reports are a part of the standard Business Central package. They are used for gathering all information based on a requested set of criteria in one place. The gathered information is related to the context of the specific page you're requesting it from. 
+[<ins>Reports<ins>]({{< ref "../reports/intro.md" >}}) are a part of the standard Business Central package. They are used for gathering all information based on a requested set of criteria in one place. The gathered information is related to the context of the specific page you're requesting it from. 
 They are the best option if you wish to print sales documents, income statements, A5 POS receipts, cards or [<ins>RDLC files<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-rdlc-report-layouts).
 
 Report printing is carried out either with the default printer, or the printer specified in the [<ins>**Printer Selection**<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-specify-printer-selection-reports) administrative section in Business Central.
 
 ## Codeunits
 
-Codeunits reference pieces of printer-friendly code that determine what kind of content will be printed. Combining a codeunit and a specific layout results in a specific output that is recognized and supported by printers. 
+[<ins>Codeunits<ins>]({{< ref "how-to/codeunit_printing.md" >}}) are pieces of printer-friendly code that determine what kind of content will be printed. Combining a codeunit and a specific layout results in a specific output that is recognized and supported by printers. 
 
 For example, if you combine the print code **BLAST-PRICE** for the layout and the codeunit ID **6014547** for the program, the printer will be ready to print a price label.
 
