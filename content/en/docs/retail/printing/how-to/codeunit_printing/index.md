@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "codeunit_printing-35709276c8d274d95cc38af2fe697add"
-weight: 261
+weight: 262
 toc: true
 type: docs
 ---
@@ -41,7 +41,14 @@ To select a codeunit for printing purposes, follow the provided steps:
 
    {{< alert icon="💡" text="If you're selecting print output via codeunits, it's not necessary to populate the <b>Print Template</b> field." />}}
 
-5. Make sure you've selected the correct printer in the **Output Path** field.     
+5. Specify the **Output Type** by selecting one of the following options:
+
+   - **Printer Name** – Specifies the name of the printer which is connected via USB, IP Address or cable to the POS Unit. It is a direct connection and can be established via a network as well.
+   - **MPOS HTTP** - Printing is implemented via the Internet Print Protocol (IPP), which is encapsulated in the Hypertext Transfer Protocol (HTTP). With Internet printing, you can manage any shared printer on the print server from your MPOS.
+   - **MPOS Bluetooth** - Bluetooth printers operate via wireless technology that can be configured to operate across iOS, Android & Windows devices.
+   - **PrintNode** - PrintNode is a hosted printing service that can help you quickly, easily and securely add remote printing to your application.
+
+6. Make sure you've selected the correct printer in the **Output Path** field.     
    The print job will be sent to it once initiated. 
 
 #### See also

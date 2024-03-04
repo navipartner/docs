@@ -43,11 +43,11 @@ Examples of the most frequent outputs generated with print templates are:
 - [<ins>Vouchers<ins>]({{< ref "how-to/create_print_template_voucher/index.md" >}})
 - [<ins>Tickets<ins>]({{< ref "how-to/create_print_template_ticket/index.md" >}})
 
-You can also refer to [<ins>Print template features<ins>]({{< ref "explanation/template_tools/index.md" >}}) to learn more about the tools used for facilitating print template management 
+You can also refer to [<ins>Print template features<ins>]({{< ref "explanation/template_tools/index.md" >}}) to learn more about the tools used for facilitating print template management.
 
 ## Fully supported printers
 
-The list of printers fully supported by our team is recorded in [<ins>System Requirements<ins>]({{< ref "../../retail/gettingstarted/system_requirements.md#printers" >}})
+The list of printers fully supported by our team is recorded in [<ins>System Requirements<ins>]({{< ref "../../retail/gettingstarted/system_requirements.md#printers" >}}).
 
 #### See also
 
