@@ -23,11 +23,15 @@ With this property, the content is defined in a line-by-line manner. Although re
 
 It is used for BOCA (typically used in self-service context) and EPSON printers (typically used by the POS). 
 
+[**<ins>Create a simple receipt/line print template<ins>**]({{< ref "../../how-to/receipt_print_template/index.md" >}})
+
 ## Matrix print
 
 The Matrix print template property requires the specific X and Y coordinates to generate the output. This method is the most suitable one for labels, tickets, and other objects of static size. You can specify the coordinates by editing the template's layout in its **Template Card**.
 
 The matrix template is used for ZEBRA, BOCA, BLASTER, and CITIZEN printers. 
+
+[**<ins>Create a new price label/matrix template<ins>**]({{< ref "../../how-to/create_print_template_label/index.md" >}})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
