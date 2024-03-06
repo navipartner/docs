@@ -25,15 +25,14 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>NP Retail overview<ins>]({{< ref "retail_overview/index.md" >}}) | Learn more about the NP Retail solution for POS systems. |
-| [<ins>Fictional company profile<ins>]({{< ref "fictional_company/index.md" >}}) | Get acquainted with the fictional company *Bring It to You Retail Store Ltd.* which will be used throughout POS Academy for demonstrations of POS usage and configuration. |
+| [<ins>NP Retail overview<ins>]({{< ref "../../gettingstarted/intro.md" >}}) | Learn more about the NP Retail solution for POS systems. |
 
 ## POS processes
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Starting the day in POS<ins>]({{< ref "../pos_processes/opening_pos/index.md" >}}) | Open the POS for the first time and learn about the existing POS statuses. |
-| [<ins>Initial float amount setup<ins>]({{< ref "../pos_processes/initial_float/index.md" >}}) | Learn how to add the initial float amount to POS units. |
+| [<ins>Starting the day in POS<ins>]({{< ref "../../pos_processes/how-to/start_pos/index.md" >}}) | Open the POS for the first time and learn about the existing POS statuses. |
+| [<ins>Initial float amount setup<ins>]({{< ref "../../pos_processes/how-to/initial_float/index.md" >}}) | Learn how to add the initial float amount to POS units. |
 
 ## Sales cycle
 

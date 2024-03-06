@@ -37,4 +37,4 @@ In practice, the following POS payment bins will be available:
 | **SAFE POS Payment Bin** | The bin is used for storing the cash that is transferred into the safe. |
 | **IN-TRANSIT POS Payment Bins** | This bin is used as an intermediary storage for cash when it is transferred from one POS unit into another. |  
 
-When counting cash, the calculated amount for that bin should be balanced with the physical amount found in the cash drawer. Therefore, it is important to insert the starting float for the bin the first time it is created with the [<ins>Insert Initial Float<ins>]({{< ref "../../pos_processes/initial_float/index.md" >}}) functionality. 
+When counting cash, the calculated amount for that bin should be balanced with the physical amount found in the cash drawer. Therefore, it is important to insert the starting float for the bin the first time it is created with the Insert Initial Float functionality. 

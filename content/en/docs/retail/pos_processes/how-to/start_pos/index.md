@@ -1,16 +1,16 @@
 ---
-title: "Starting the day in POS"
-description: "Learn how to handle the initial POS processes like starting the day in POS, inserting the initial float, and printing the balance for each POS."
+title: "Start the day in POS"
+description: ""
 lead: ""
-date: 2023-08-03T09:22:27+02:00
-lastmod: 2023-08-03T09:22:27+02:00
+date: 2024-03-06T10:51:50+01:00
+lastmod: 2024-03-06T10:51:50+01:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "processes-83b839eb36a29f03035f26a32a9dd53b"
-weight: 6
+    identifier: "start_pos-570c28dba99efb743b1f1a74f9d5af9c"
+weight: 113
 toc: true
 type: docs
 ---
@@ -51,3 +51,9 @@ To print the balance, follow the provided steps:
 4. Click the tabs to see information regarding all transactions that took place in the POS on the current day.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oQFDJ1WTdyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Create a new POS unit<ins>]({{< ref "../create_pos_unit/index.md" >}})
+- [<ins>Configure the POS balancing feature<ins>]({{< ref "../balance_config/index.md" >}})
+- [<ins>End-of-day report (POS balance)<ins>]({{< ref "../../explanation/end-of-day-exp/index.md" >}})
