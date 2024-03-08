@@ -1,5 +1,5 @@
 ---
-title: "Create a total discount"
+title: "Set up a total discount"
 description: "You can define different levels of discount benefits based on the total sales amount."
 lead: ""
 date: 2023-08-01T09:56:39+02:00

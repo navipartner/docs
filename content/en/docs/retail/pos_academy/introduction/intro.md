@@ -38,8 +38,8 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Sales and returns<ins>]({{< ref "../sales_cycle/sales_returns/index.md" >}}) | Go through the examples of the main sales processes on the POS. |
-| [<ins>Discounts<ins>]({{< ref "../sales_cycle/discounts/index.md" >}}) | Get acquainted with an extensive list of discounts used in NP Retail, and the accompanying examples. |
+| [<ins>Sales and returns<ins>]({{< ref "../../pos_processes/how-to/sales_cycle/index.md" >}}) | Go through the examples of the main sales processes on the POS. |
+| [<ins>Discounts<ins>]({{< ref "../../discounts/intro.md" >}}) | Get acquainted with an extensive list of discounts used in NP Retail, and the accompanying examples. |
 | [<ins>Vouchers<ins>]({{< ref "../sales_cycle/vouchers/index.md" >}}) | Learn how to issue vouchers from the POS. | 
 | [<ins>Payment methods<ins>]({{< ref "../sales_cycle/payment_methods/index.md" >}}) | Go through the guides for performing payment with cash, vouchers, foreign currencies etc. |
 | [<ins>Payment operations<ins>]({{< ref "../sales_cycle/payment_operations/index.md" >}})  | Get acquainted with some of the variations to the basic POS payment process. |
