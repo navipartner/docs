@@ -38,4 +38,4 @@ To set up voucher print templates, follow the provided steps:
 - [<ins>Create a simple receipt/line print template<ins>]({{< ref "../receipt_print_template/index.md" >}})
 - [<ins>Set up coupon print templates<ins>]({{< ref "../create_print_template_coupon/index.md" >}})
 - [<ins>Retail voucher types<ins>]({{< ref "../../../vouchers/explanation/retail_voucher_layout/index.md" >}})
-- [<ins>Vouchers (POS Academy)<ins>]({{< ref "../../../pos_academy/sales_cycle/vouchers/index.md" >}})
+- [<ins>Voucher overview<ins>]({{< ref "../../../vouchers/intro.md" >}})

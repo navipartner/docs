@@ -1,5 +1,5 @@
 ---
-title: "Set up Voucher E-mail template"
+title: "Set up Voucher E-mail templates"
 description: "This portion of the POS Academy instructs on how to set e-mail body that recipients of the voucher will receive."
 lead: ""
 date: 2023-08-17T09:50:24+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "email_templates-50c72b97fb66106a02b47926d91b940c"
-weight: 46
+weight: 139
 toc: true
 type: docs
 ---

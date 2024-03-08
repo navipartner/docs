@@ -1,5 +1,5 @@
 ---
-title: "Vouchers"
+title: "Issue a gift voucher"
 description: "Retail vouchers are a payment type that the voucher owner can use to purchase various goods and services."
 lead: ""
 date: 2023-08-03T11:16:10+02:00
@@ -10,14 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "vouchers-aeeed779b59014f43fd6c9effe520721"
-weight: 10
+weight: 139
 toc: true
 type: docs
 ---
 
 Retail vouchers are a payment type that the voucher owner can use to purchase various goods and services. The most common ones are gift vouchers and credit vouchers. Gift vouchers are mostly sold to customers, while credit vouchers are issued as a refund in the return sale process or a refund for a partially spent gift voucher.
-
-## Issue gift vouchers
 
 To issue gift vouchers, follow the provided steps:
 
@@ -45,3 +43,8 @@ To issue gift vouchers, follow the provided steps:
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPpyT5wZDhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
+- [<ins>Create a voucher on a sales order<ins>]({{< ref "../create_new_sales_order/index.md" >}})

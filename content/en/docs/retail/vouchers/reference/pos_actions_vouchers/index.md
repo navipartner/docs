@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_actions_vouchers-0dd5daa8477f2bde9f6592378e45b3e3"
-weight: 42
+weight: 141
 toc: true
 type: docs
 ---

@@ -1,5 +1,5 @@
 ---
-title: "External voucher setup"
+title: "Set up external vouchers"
 description: "External vouchers are issued by a 3rd party and accepted in the shop. This portion of the POS Academy uses GS1 Gratis as an example for the external retail voucher setup."
 lead: ""
 date: 2023-08-17T09:23:59+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "external_vouchers-a4a80a70493cb45946e1e9f51ec3ce33"
-weight: 44
+weight: 139
 toc: true
 type: docs
 ---

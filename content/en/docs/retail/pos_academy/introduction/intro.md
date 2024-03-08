@@ -40,7 +40,7 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | ----------- | ----------- |
 | [<ins>Sales and returns<ins>]({{< ref "../../pos_processes/how-to/sales_cycle/index.md" >}}) | Go through the examples of the main sales processes on the POS. |
 | [<ins>Discounts<ins>]({{< ref "../../discounts/intro.md" >}}) | Get acquainted with an extensive list of discounts used in NP Retail, and the accompanying examples. |
-| [<ins>Vouchers<ins>]({{< ref "../sales_cycle/vouchers/index.md" >}}) | Learn how to issue vouchers from the POS. | 
+| [<ins>Vouchers<ins>]({{< ref "../../vouchers/intro.md" >}}) | Learn how to issue vouchers from the POS. | 
 | [<ins>Payment methods<ins>]({{< ref "../sales_cycle/payment_methods/index.md" >}}) | Go through the guides for performing payment with cash, vouchers, foreign currencies etc. |
 | [<ins>Payment operations<ins>]({{< ref "../sales_cycle/payment_operations/index.md" >}})  | Get acquainted with some of the variations to the basic POS payment process. |
 | [<ins>Credit sales<ins>]({{< ref "../sales_cycle/credit_sales/index.md" >}}) | Create different sales documents, post and print them, and a lot more. |
@@ -110,13 +110,13 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Retail voucher overview<ins>]({{< ref "../vouchers/intro.md" >}}) | A Retail Voucher is a document that entitles the owner to purchase goods or services with it. Learn more in this article. |
-| [<ins>POS actions for Retail Vouchers<ins>]({{< ref "../vouchers/pos_actions_vouchers/index.md" >}}) | Learn which actions can be used in relation with the retail vouchers, and what their purpose is. | 
-| [<ins>Create vouchers issued and redeemed by the same store<ins>]({{< ref "../vouchers/vouchers_issued_by_same_store/index.md" >}}) | Refer to the processing instructions for creating vouchers issued and redeemed by the same store. | 
-| [<ins>Issuing different types of vouchers<ins>]({{< ref "../vouchers/issuing_vouchers/index.md" >}}) | Take a look at this reference article which demonstrates different types of vouchers. |
-| [<ins>External voucher setup<ins>]({{< ref "../vouchers/external_vouchers/index.md" >}}) | This portion of the POS Academy uses GS1 Gratis as an example for the external retail voucher setup. |
-| [<ins>Vouchers issued in web stores<ins>]({{< ref "../vouchers/web_stores/index.md" >}}) | Learn how to set up gift vouchers that are issued in web stores. | 
-| [<ins>Set up Voucher E-mail template<ins>]({{< ref "../vouchers/email_templates/index.md" >}}) | This portion of the POS Academy instructs on how to set e-mail body that recipients of the voucher will receive. | 
+| [<ins>Retail voucher overview<ins>]({{< ref "../../vouchers/intro.md" >}}) | A Retail Voucher is a document that entitles the owner to purchase goods or services with it. Learn more in this article. |
+| [<ins>POS actions for Retail Vouchers<ins>]({{< ref "../../vouchers/reference/pos_actions_vouchers/index.md" >}}) | Learn which actions can be used in relation with the retail vouchers, and what their purpose is. | 
+| [<ins>Create vouchers issued and redeemed by the same store<ins>]({{< ref "../../vouchers/how-to/vouchers_issued_by_same_store/index.md" >}}) | Refer to the processing instructions for creating vouchers issued and redeemed by the same store. | 
+| [<ins>Issuing different types of vouchers<ins>]({{< ref "../../vouchers/explanation/issuing_vouchers/index.md" >}}) | Take a look at this reference article which demonstrates different types of vouchers. |
+| [<ins>External voucher setup<ins>]({{< ref "../../vouchers/how-to/external_vouchers/index.md" >}}) | This portion of the POS Academy uses GS1 Gratis as an example for the external retail voucher setup. |
+| [<ins>Vouchers issued in web stores<ins>]({{< ref "../../vouchers/how-to/web_stores/index.md" >}}) | Learn how to set up gift vouchers that are issued in web stores. | 
+| [<ins>Set up Voucher E-mail template<ins>]({{< ref "../../vouchers/how-to/email_templates/index.md" >}}) | This portion of the POS Academy instructs on how to set e-mail body that recipients of the voucher will receive. | 
 
 ## Item add-ons
 

@@ -1,5 +1,5 @@
 ---
-title: "Vouchers issued in web stores"
+title: "Set up vouchers issued in Magento Webadmin"
 description: "Refer to this guide to learn how gift vouchers are set up in Magento."
 lead: ""
 date: 2023-08-17T09:39:34+02:00
