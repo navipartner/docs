@@ -1,27 +1,27 @@
 ---
-title: "Create item add-ons"
-description: "This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the further parts of this guide."
+title: "Create item addons and attach them to main items"
+description: "This is the main procedure for creating item add-ons that is common for all custom configurations."
 lead: ""
-date: 2023-08-18T10:45:21+02:00
-lastmod: 2023-08-18T10:45:21+02:00
+date: 2024-03-11T15:50:35+01:00
+lastmod: 2024-03-11T15:50:35+01:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup-8304634eca878d6fc504c26c9f0af0c8"
-weight: 48
+    identifier: "create_and_attach_item_addon-e5969801dd11d56f2efea6c26b94aca6"
+weight: 111
 toc: true
 type: docs
 ---
 
-This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the [<ins>further parts of this guide<ins>]({{< ref "../custom_configurations/index.md" >}}). Follow the provided instructions to create item add-ons:
+This is the main procedure for creating item add-ons that is common for all custom configurations. Follow the provided instructions to create item add-ons:
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Item AddOns**, and choose the related link.    
     A list of all existing item add-ons is displayed.
 2.	Click **New** to create a new add-on.    
     The **Item AddOn Card** is displayed.
-3.	Populate the necessary fields in the **General** and **Lines** sections, described in this [<ins>reference article<ins>]({{< ref "../../../pos_processes/reference/item_addon_ref/index.md" >}}) in more detail.
+3.	Populate the necessary fields in the **General** and **Lines** sections, described in this [<ins>reference article<ins>]({{< ref "../../reference/item_addon_ref/index.md" >}}) in more detail.
     Now you can either attach the item add-on to the main item, or create the POS button for the standalone item add-on menu to be used on the POS.
 
 ## Attach item add-ons to the main item

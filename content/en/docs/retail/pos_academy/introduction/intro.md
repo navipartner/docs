@@ -122,9 +122,9 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Item AddOn overview<ins>]({{< ref "../item_addons/intro.md" >}}) | The item add-on menu allows users to attach an item or a set of items while going through the sale process of a main item on the POS. Learn more in this article. |
-| [<ins>Create item add-ons<ins>]({{< ref "../item_addons/setup/index.md" >}}) | This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the further parts of this guide. | 
-| [<ins>Custom configurations for item add-ons<ins>]({{< ref "../item_addons/custom_configurations/index.md" >}}) | Refer to the practical examples of custom configurations for item add-ons. |
+| [<ins>Item AddOn overview<ins>]({{< ref "../../pos_processes/explanation/item_addons/index.md" >}}) | The item add-on menu allows users to attach an item or a set of items while going through the sale process of a main item on the POS. Learn more in this article. |
+| [<ins>Create item add-ons<ins>]({{< ref "../../pos_processes/how-to/create_and_attach_item_addon/index.md" >}}) | This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the further parts of this guide. | 
+| [<ins>Custom configurations for item add-ons<ins>]({{< ref "../../pos_processes/how-to/custom_configurations_item_addons/index.md" >}}) | Refer to the practical examples of custom configurations for item add-ons. |
 
 ## EFT
 

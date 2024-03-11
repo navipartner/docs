@@ -1,5 +1,5 @@
 ---
-title: "Custom configurations for item add-ons"
+title: "Apply custom configurations for item add-ons"
 description: "Any custom configuration on item add-ons should be done immediately after the common creation steps. Refer to the examples for more details."
 lead: ""
 date: 2023-08-18T11:15:13+02:00
@@ -57,7 +57,7 @@ If you wish to sell a cooker as a main item but want the cooker hood to be attac
 11.	State whether the serial number will be copied in the **Copy Serial No.** field.    
     This field is relevant if tracking is performed with the item’s serial number.
 
-12.	[<ins>Attach the Item add-on to the main item<ins>]({{< ref "../setup/#attach-item-add-ons-to-the-main-item" >}}).
+12.	[<ins>Attach the Item add-on to the main item<ins>]({{< ref "../create_and_attach_item_addon/#attach-item-add-ons-to-the-main-item" >}}).
 
 ## Example: Item add-ons priced as a percentage of the main item and presented as a list
 
@@ -108,7 +108,7 @@ In the example of an electronics shop, you may need to create a list of warranty
 
   ![item_addon3](item_addon3.PNG)
 
-13. [<ins>Attach the Item add-on to the main item<ins>]({{< ref "../setup/#attach-item-add-ons-to-the-main-item" >}}).
+13. [<ins>Attach the Item add-on to the main item<ins>]({{< ref "../create_and_attach_item_addon/#attach-item-add-ons-to-the-main-item" >}}).
 
 #### Procedure on the POS
 
@@ -160,7 +160,7 @@ You can create a list of warranty schemes that can be sold with the item. In thi
 11.	Specify the **Discount**.     
     Instead of modifying the **Unit Price**, you can assign a discount percentage for the price at this level.
 
-12.	[<ins>Attach the Item add-on to the main item<ins>]({{< ref "../setup/#attach-item-add-ons-to-the-main-item" >}}).
+12.	[<ins>Attach the Item add-on to the main item<ins>]({{< ref "../create_and_attach_item_addon/#attach-item-add-ons-to-the-main-item" >}}).
 
 #### Procedure on the POS
 
