@@ -31,7 +31,7 @@ The Italian fiscalization is based on the POS system integration with the fiscal
 To configure NP Retail for compliance with Italian fiscal laws, follow the provided steps:
 
 1. Navigate to the **IT Tax Fiscalization Setup** page, and enable the fiscalization via the toggle switch.
-2. Open the **POS Audit Profiles** administrative section, enable the audit log, and set the Audit Handler to **IT_ENTRATE**.
+2. Open the **POS Audit Profiles** administrative section, enable the audit log, and set the **Audit Handler** to **IT_ENTRATE**.
 3. Make sure this audit profile is set for all POS units from the **POS Unit List** that need to be compliant with Italian fiscalization laws.
 4. Move on to the **IT POS Mapping** page, and enter the **Fiscal Printer IP** address for the POS unit connected to the printer, and set the **Fiscal Printer Rounding Type** to **Standard Rounding**.       
    The **Fiscal Printer RT Type** and **Fiscal Printer Serial No.** fields are populated after the **RT Printer Type** and **RT Serial No.** are executed from the POS.
