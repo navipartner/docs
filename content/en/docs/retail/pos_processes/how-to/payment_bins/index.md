@@ -15,7 +15,9 @@ toc: true
 type: docs
 ---
 
-Each POS unit can have multiple payment bins and different setup. You can set cash drawers and virtual drawers.
+Payment bins are used for storing paper and coin cash deposits, as well as non-currencies like lottery tickets and vouchers, in case their relocation needs to be tracked. Physically, a bin is a cash drawer for a POS system or a safe in the manager's office/bank. There are also in-transit payment bins that are used as intermediary storages for cash when it is transferred from one POS unit into another. 
+
+When counting cash, the calculated amount for that bin should be balanced with the physical amount found in the cash drawer. Therefore, it is important to insert the starting float for the bin the first time it is created with the [<ins>Insert Initial Float<ins>]({{< ref "../initial_float/index.md" >}}) functionality.
 
 ## Create cash drawers/bank/safe/in-transit bin
 

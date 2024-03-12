@@ -57,10 +57,10 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>POS store<ins>]({{< ref "../configuration/pos_store/index.md" >}}) | The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup you perform in NP Retail needs to match the specifics of the physical store. |
-| [<ins>POS units<ins>]({{< ref "../configuration/pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. As the next step of the POS Academy course, two POS units in the Denmark branch store need to be created and set up. |
-| [<ins>POS profile setup<ins>]({{< ref "../configuration/pos_profile_setup/index.md" >}}) | This portion of the POS Academy contains instructions for setting up the necessary profiles for the *Bring It to You Retail Store Ltd* fictional example company. |
-| [<ins>POS payment bin setup<ins>]({{< ref "../configuration/payment_bin/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
+| [<ins>POS store<ins>]({{< ref "../../pos_store/how-to/new/index.md" >}}) | The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup you perform in NP Retail needs to match the specifics of the physical store. |
+| [<ins>POS units<ins>]({{< ref "../../pos_processes/how-to/create_pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. A |
+| [<ins>POS profile setup<ins>]({{< ref "../../pos_profiles/intro.md" >}}) | This portion of the POS Academy contains instructions for setting up the necessary profiles for a POS store. |
+| [<ins>POS payment bin setup<ins>]({{< ref "../../pos_processes/how-to/payment_bins/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
 | [<ins>Posting setup<ins>]({{< ref "../configuration/posting_profile/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
 | [<ins>Payment methods<ins>]({{< ref "../configuration/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
 | [<ins>Variety setup<ins>]({{< ref "../configuration/varieties/index.md" >}}) | In this portion of the POS Academy, you will be walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 
