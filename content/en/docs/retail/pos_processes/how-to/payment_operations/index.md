@@ -1,5 +1,5 @@
 ---
-title: "Payment operations"
+title: "Perform different payment operations"
 description: "There are many variations to the basic POS payment process. Refer to these tutorials for more information."
 lead: ""
 date: 2023-08-03T14:18:46+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_operations-e74fa78a6d1fb7d978be2e333a2dc5da"
-weight: 12
+weight: 112
 toc: true
 type: docs
 ---

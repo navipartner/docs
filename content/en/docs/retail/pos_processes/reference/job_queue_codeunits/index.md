@@ -67,5 +67,5 @@ Since the **Import List** is usually used for importing entries that need to be 
 
 #### See also
 
-- [<ins>Job Queue Entries setup<ins>]({{< ref "../../../pos_academy/job_queue/setup/index.md" >}})
+- [<ins>Job Queue Entries setup<ins>]({{< ref "../../how-to/automatically_post_sales_orders/index.md" >}})
 - [<ins>Set up job queue to post POS entries<ins>]({{< ref "../../how-to/job_queue/index.md" >}})

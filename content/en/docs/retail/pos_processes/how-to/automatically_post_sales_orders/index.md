@@ -1,23 +1,21 @@
 ---
-title: "Job Queue Entries setup"
+title: "Automatically post Sales Orders every evening via job queue"
 description: "Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs."
 lead: ""
-date: 2023-08-18T14:55:48+02:00
-lastmod: 2023-08-18T14:55:48+02:00
+date: 2024-03-12T10:23:17+01:00
+lastmod: 2024-03-12T10:23:17+01:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup-3ca800cfc804e06f97a6834fd584cc62"
-weight: 51
+    identifier: "automatically_post_sales_orders-1ccbb0115989088281712be2710cde9d"
+weight: 113
 toc: true
 type: docs
 ---
 
-Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs.  
-
-## Automatically post Sales Orders every evening via job queue 
+Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs.
 
 You can set up a job that automatically posts only those sales orders which meet the specified criteria. For example, you can create a setup in which only posts those job queue entries that have been released and made under the specific **Salesperson Code**. To configure this behavior, make sure the prerequisites are met and follow the provided steps. 
 
@@ -55,4 +53,4 @@ You can set up a job that automatically posts only those sales orders which meet
 
 ### Reference
 
-- [<ins>Recommended NP Retail Job Queue Entries<ins>]({{< ref "../../../pos_processes/reference/job_queue_codeunits/index.md" >}})
+- [<ins>Recommended NP Retail Job Queue Entries<ins>]({{< ref "../../reference/job_queue_codeunits/index.md" >}})

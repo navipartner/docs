@@ -1,5 +1,5 @@
 ---
-title: "Credit sales from POS"
+title: "Perform credit sales from POS"
 description: "You can create different sales documents (Invoice or Sales Order), post them automatically or manually, print them, check the customer limit, copy relevant information from the POS, and a lot more."
 lead: ""
 date: 2023-08-03T14:41:16+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "credit_sales-4ea4ba8af8e933bcbae77c8dacda3d75"
-weight: 13
+weight: 112
 toc: true
 type: docs
 ---

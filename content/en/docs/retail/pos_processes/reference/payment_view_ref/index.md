@@ -46,5 +46,5 @@ Finally, if you've enabled **Show Only for Selected POS Units**, the **POS Unit 
 
 #### See also
 
-- [<ins>Payment methods<ins>]({{< ref "../../../pos_academy/sales_cycle/payment_methods/index.md" >}})
-- [<ins>Payment operations<ins>]({{< ref "../../../pos_academy/sales_cycle/payment_operations/index.md" >}})
+- [<ins>Payment methods<ins>]({{< ref "../../how-to/payment_methods/index.md" >}})
+- [<ins>Payment operations<ins>]({{< ref "../../how-to/payment_operations/index.md" >}})

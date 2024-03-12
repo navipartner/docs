@@ -1,5 +1,5 @@
 ---
-title: "Payment methods"
+title: "Pay with different payment methods"
 description: "There are multiple payment methods used for performing payment for the direct POS sales. They can be set as buttons on the POS. "
 lead: ""
 date: 2023-08-03T13:26:28+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "payment_methods-af7ff7fc8568cf49da80e985849aa16c"
-weight: 11
+weight: 112
 toc: true
 type: docs
 ---

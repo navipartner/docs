@@ -41,15 +41,17 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [<ins>Sales and returns<ins>]({{< ref "../../pos_processes/how-to/sales_cycle/index.md" >}}) | Go through the examples of the main sales processes on the POS. |
 | [<ins>Discounts<ins>]({{< ref "../../discounts/intro.md" >}}) | Get acquainted with an extensive list of discounts used in NP Retail, and the accompanying examples. |
 | [<ins>Vouchers<ins>]({{< ref "../../vouchers/intro.md" >}}) | Learn how to issue vouchers from the POS. | 
-| [<ins>Payment methods<ins>]({{< ref "../sales_cycle/payment_methods/index.md" >}}) | Go through the guides for performing payment with cash, vouchers, foreign currencies etc. |
-| [<ins>Payment operations<ins>]({{< ref "../sales_cycle/payment_operations/index.md" >}})  | Get acquainted with some of the variations to the basic POS payment process. |
-| [<ins>Credit sales<ins>]({{< ref "../sales_cycle/credit_sales/index.md" >}}) | Create different sales documents, post and print them, and a lot more. |
+| [<ins>Pay with different payment methods<ins>]({{< ref "../../pos_processes/how-to/payment_methods/index.md" >}}) | Go through the guides for performing payment with cash, vouchers, foreign currencies etc. |
+| [<ins>Payment operations<ins>]({{< ref "../../pos_processes/how-to/payment_operations/index.md" >}})  | Get acquainted with some of the variations to the basic POS payment process. |
+| [<ins>Credit sales<ins>]({{< ref "../../pos_processes/how-to/credit_sales/index.md" >}}) | Create different sales documents, post and print them, and a lot more. |
 
 ## End of day
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>End-of-day setup<ins>]({{< ref "../close_pos/eod_profile.md" >}}) | Close the POS as a part of the end-of-day process. |
+| [<ins>Configure the POS balancing feature<ins>]({{< ref "../../pos_processes/how-to/balance_config/index.md" >}}) | The setup of the POS balancing feature is mainly done as a part of the **POS End of Day Profile** setup in Business Central. |
+| [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../../pos_processes/how-to/generate_eod/index.md" >}}) |   Once the previous step has been completed, you can move on to generating EOD reports from the POS unit itself. |
+
 
 ## Fictional company configuration
 
@@ -130,12 +132,12 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>EFT setup<ins>]({{< ref "../eft/eft_setup/index.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
+| [<ins>EFT setup<ins>]({{< ref "../../eft/intro.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
 
 ## Job queue
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Job Queue Entries setup<ins>]({{< ref "../job_queue/setup/index.md" >}}) | Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs. Refer to this guide for more information.|
-| [<ins>Send notifications for failed job queue entries and retry<ins>]({{< ref "../job_queue/failed_job_notif/index.md" >}}) | Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed. To configure this behavior, feel free to use this guide. | 
+| [<ins>Job Queue Entries setup<ins>]({{< ref "../../pos_processes/how-to/automatically_post_sales_orders/index.md" >}}) | Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs. Refer to this guide for more information.|
+| [<ins>Send notifications for failed job queue entries and retry<ins>]({{< ref "../../pos_processes/how-to/failed_job_notif/index.md" >}}) | Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed. To configure this behavior, feel free to use this guide. | 
 
