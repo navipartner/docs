@@ -42,6 +42,26 @@ The **Barcode (Item Ref.)** section can be used both with and without varieties.
 
 In the **View** section, it's possible to hide the inactive values via the designated field if you don't want to show combinations in the matrix form that isn't used on a specific item.
 
+## Variety Fields Setup
+
+From the **Variety Setup** administrative section, under the **Action Tab: Process**, you can configure the variety fields. **Variety Field Setup** allows you to control which field is displayed on the **Variety Matrix** when you are on different pages.  
+
+![varieties2](varieties2.PNG)
+
+On the **Variety Fields Setup** screen, there is an **Action Tab: Insert Default Setup** which simplifies the configuration. Once clicked, the default values will be set on the default tables. If you want to customize the display, you need to manually change the settings or add new tables and fields in the Variety **Fields Setup**. The following fields and options are available:  
+
+| Field Name      | Description |
+| ----------- | ----------- |
+| **Type** | The following options are available: </br> **Field** - Allows you to specify a table and a field; </br> **Internal** - Allows you to specify a predefined function like inventory, a variant for this specific combination, and item reference barcode. |
+| **Table No. + Field No.** | The following options are available: </br> **Field Type** - Specifies the table and field number that you want available in the matrix; </br> **Internal Type** - Specifies the function that you want to show by typing a number from the list above. |
+| **Sort Order** | You can create a custom sort order that the fields are listed in. | 
+| **Description** | The content specified in this field will be shown in **Show Field** s illustrated below in the example of **Sales Line** (**Table 37**), the field **Quantity** is shown in the **Variety Matrix**. |
+| **Validate Field** | If this field is ticked, the data provided in the matrix will be validated in the database. Note that unchecking this checkbox may result in data integrity issues. |
+| **Editable Field** | Determines whether the field is editable or not. |
+| **Table Default** | When working on a sales order, you will insert items from **Table 37** to the sales lines (standard Business Central table with clothing items).  | 
+
+![varieties3](varieties3.PNG)
+
 #### See also
 
 - [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../../how-to/matrix.md" >}})

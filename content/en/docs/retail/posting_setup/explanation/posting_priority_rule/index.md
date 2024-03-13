@@ -53,5 +53,5 @@ The following combinations are not supported by our solution:
 
 #### See also
 
-- [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}})
-- [<ins>Posting compression (EOD)<ins>]({{< ref "../../explanation/compression/index.md" >}})
+- [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../different_posting_rules/index.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "../compression/index.md" >}})

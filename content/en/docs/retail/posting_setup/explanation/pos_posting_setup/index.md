@@ -38,5 +38,5 @@ In the **POS Posting Setup** section for every **Payment Method Code**, which is
 
 #### See also
 
-- [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}})
+- [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../different_posting_rules/index.md" >}})
 - [<ins>Posting compression (EOD)<ins>]({{< ref "../compression/index.md" >}})

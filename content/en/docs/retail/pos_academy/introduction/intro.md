@@ -61,8 +61,8 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [<ins>POS units<ins>]({{< ref "../../pos_processes/how-to/create_pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. A |
 | [<ins>POS profile setup<ins>]({{< ref "../../pos_profiles/intro.md" >}}) | This portion of the POS Academy contains instructions for setting up the necessary profiles for a POS store. |
 | [<ins>POS payment bin setup<ins>]({{< ref "../../pos_processes/how-to/payment_bins/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
-| [<ins>Posting setup<ins>]({{< ref "../configuration/posting_profile/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
-| [<ins>Payment methods<ins>]({{< ref "../configuration/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
+| [<ins>Posting setup<ins>]({{< ref "../../posting_setup/explanation/different_posting_rules/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
+| [<ins>Payment methods<ins>]({{< ref "../../pos_processes/reference/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
 | [<ins>Variety setup<ins>]({{< ref "../configuration/varieties/index.md" >}}) | In this portion of the POS Academy, you will be walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 
 
 ## Printers
@@ -138,6 +138,6 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Job Queue Entries setup<ins>]({{< ref "../../pos_processes/how-to/automatically_post_sales_orders/index.md" >}}) | Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs. Refer to this guide for more information.|
-| [<ins>Send notifications for failed job queue entries and retry<ins>]({{< ref "../../pos_processes/how-to/failed_job_notif/index.md" >}}) | Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed. To configure this behavior, feel free to use this guide. | 
+| [<ins>Job Queue Entries setup<ins>]({{< ref "../../posting_setup/how-to/automatically_post_sales_orders/index.md" >}}) | Job Queue Entries are a standard Microsoft feature, upgraded with several NP Retail functionalities that improve the workflow of automated jobs. Refer to this guide for more information.|
+| [<ins>Send notifications for failed job queue entries and retry<ins>]({{< ref "../../posting_setup/how-to/failed_job_notif/index.md" >}}) | Preselected recipients can be notified via SMS or email whenever there is an error in the Job Queue Entry which stops the automated task and requires user input to proceed. To configure this behavior, feel free to use this guide. | 
 

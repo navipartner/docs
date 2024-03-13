@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "posting_profile-7b5ccf63acb952b3ae4ad6f58fd9fa50"
-weight: 20
+weight: 255
 toc: true
 type: docs
 ---
@@ -85,5 +85,5 @@ After the cash balancing is done, and you decide to transfer some money into a *
 
 ### Related links
 
-- [<ins>POS posting setup<ins>]({{< ref "../../../posting_setup/explanation/pos_posting_setup/index.md" >}})
-- [<ins>Posting priority rules<ins>]({{< ref "../../../posting_setup/explanation/posting_priority_rule/index.md" >}})
+- [<ins>POS posting setup<ins>]({{< ref "../pos_posting_setup/index.md" >}})
+- [<ins>Posting priority rules<ins>]({{< ref "../posting_priority_rule/index.md" >}})

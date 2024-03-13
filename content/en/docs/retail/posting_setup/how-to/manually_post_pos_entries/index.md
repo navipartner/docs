@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "manually_post_pos_entries-e8c142fa537a38e867706bb3353ac465"
-weight: 113
+weight: 255
 toc: true
 type: docs
 ---
@@ -28,5 +28,5 @@ To post an entry manually, follow the provided steps:
 
 #### See also
 
-- [<ins>Posting setup overview<ins>]({{< ref "../../../posting_setup/intro.md" >}})
-- [<ins>Configure POS posting setup<ins>]({{< ref "../../../pos_academy/configuration/posting_profile/index.md" >}})
+- [<ins>Posting setup overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Configure POS posting setup<ins>]({{< ref "../../explanation/pos_posting_setup/index.md" >}})

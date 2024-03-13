@@ -29,3 +29,5 @@ The variety creation is performed in several administrative sections in a specif
    - [<ins>Variety Value<ins>]({{< ref "../../reference/variety_values_ref/index.md" >}})
 3. Create a [<ins>combination of varieties<ins>]({{< ref "../../reference/group_ref/index.md" >}}) that will later be assigned to items.
 4. [<ins>Assign the created variety to an item<ins>]({{< ref "../assign_variety/index.md" >}}) of your choice.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pDZ9kzk3SIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
