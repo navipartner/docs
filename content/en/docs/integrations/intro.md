@@ -44,6 +44,10 @@ NP Retail is integrated with the following solutions:
 - [<ins>Set up Bambora payment integration<ins>]({{< ref "payment_gateway/how-to/bambora/index.md" >}})
 - [<ins>Set up Adyen payment integration<ins>]({{< ref "payment_gateway/how-to/adyen/index.md" >}})
 
+## Planet
+
+- [<ins>Set up integration with Planet<ins>]({{< ref "planet/how-to/setup/index.md" >}})
+
 ## Magento
 
 - [<ins>Integrate Magento and Business Central SaaS<ins>]({{< ref "magento/how-to/azure_directory/index.md" >}})
