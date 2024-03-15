@@ -1,5 +1,5 @@
 ---
-title: "Item categories"
+title: "Item Category card"
 description: "Item categories are defined in the Item Category Card by defining the fields and options listed in this article."
 lead: ""
 date: 2023-07-12T13:49:53+02:00
@@ -31,4 +31,4 @@ Item categories are defined in the **Item Category Card** by defining the follow
 #### See also
 
 - [<ins>Item category setup<ins>]({{< ref "../../../pos_academy/item_and_price/item_categories/index.md" >}})
-- [<ins>Create new items<ins>]({{< ref "../../../pos_academy/item_and_price/create_item/index.md" >}})
+- [<ins>Item card reference guide<ins>]({{< ref "..//create_item/index.md" >}})

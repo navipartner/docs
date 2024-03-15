@@ -26,6 +26,8 @@ The **Variety** administrative section contains the list of varieties created in
 |  **Pre Tag in Variant Description**  | The description on the variant will be generated with this tag in front of the value. **Example**: *Co:RED/Le:72/Ws:37*  |
 |  **Use Description Field**  | Specifies if it's the **Code** field or the **Description** field of the **Variant Value** that is used in generating the variant description. Only works if **Use in Variant Description** is ticked.  |
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DWCgtBz6-2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 #### See also
 

@@ -1,5 +1,5 @@
 ---
-title: "Create new items"
+title: "Item card"
 description: "Learn how to create items by using the available sections in the Item Card."
 lead: ""
 date: 2023-08-14T11:25:58+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_item-5dd0e05b65ec48354e7b4c295b260a2e"
-weight: 28
+weight: 113
 toc: true
 type: docs
 ---
@@ -25,7 +25,7 @@ The following configuration illustrates the registration of an item belonging to
 | **Description** | A short description of the **Item Category**. | **Hummel Lana Leggings** |
 | **Description 2** | An optional additional description. | Leave it blank. |
 | **Blocked** | Blocks the record from being posted in transactions. E.g. an item that is placed in a quarantine. | Disactivated | 
-| **Type** | There are several possible types of items: **Inventory** - Physical objects, such as bicycles, telephones, and desks, for which you need to use all inventory processes. This can also include non-physical items, such as software licenses and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory; **Non-inventory** - Physical objects, such as bolts or pens, that a business consumes but doesn’t need to fully track in the inventory (e.g. low-cost items that are only used internally); **Service** - A labor time unit, such as a consultancy hour, for limited business support. | **Inventory** | 
+| **Type** | There are several possible types of items: </br> - **Inventory** - Physical objects, such as bicycles, telephones, and desks, for which you need to use all inventory processes. This can also include non-physical items, such as software licenses and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory; </br> - **Non-inventory** - Physical objects, such as bolts or pens, that a business consumes but doesn’t need to fully track in the inventory (e.g. low-cost items that are only used internally); </br> - **Service** - A labor time unit, such as a consultancy hour, for limited business support. | **Inventory** | 
 
 {{< alert icon="📝" text="The Service and Non-Inventory types do not support tracking inventory quantities and values."/>}}
 

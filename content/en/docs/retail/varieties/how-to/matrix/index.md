@@ -35,6 +35,8 @@ The Variety Matrix is used for configuring detailed item lines on various orders
 
 The same procedure should be followed to enable the **Variety Matrix** popup window on **Sales Return Orders**, **Purchase Orders**, and **Return Purchase Orders**.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P63eJyhAMzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### See also
 
 - [<ins>Create varieties in Business Central<ins>]({{< ref "../create_variety.md" >}})

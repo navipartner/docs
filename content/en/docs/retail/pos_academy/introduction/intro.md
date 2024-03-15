@@ -63,33 +63,33 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [<ins>POS payment bin setup<ins>]({{< ref "../../pos_processes/how-to/payment_bins/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
 | [<ins>Posting setup<ins>]({{< ref "../../posting_setup/explanation/different_posting_rules/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
 | [<ins>Payment methods<ins>]({{< ref "../../pos_processes/reference/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
-| [<ins>Variety setup<ins>]({{< ref "../configuration/varieties/index.md" >}}) | In this portion of the POS Academy, you will be walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 
+| [<ins>Variety setup<ins>]({{< ref "../../varieties/how-to/create_variety/index.md" >}}) | You are walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 
 
 ## Printers
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Printing setup<ins>]({{< ref "../printing/printing_setup/index.md" >}}) | This tutorial describes the process of setting up printers for printing reports and templates and using this printer for wildcard reports. |
+| [<ins>Printing setup<ins>]({{< ref "../../printing/intro.md" >}}) | This section contains descriptions of the processes of setting up printers, print templates, and reports. |
 
 ## Users
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Users and salespeople setup<ins>]({{< ref "../user_setup/setup/index.md" >}}) | This topic describes the process of setting up additional information relating to users and salespeople in the system.| 
-| [<ins>Locations setup<ins>]({{< ref "../user_setup/location_setup/index.md" >}}) | If you’re tracking stock in different stores in NP Retail, you need to assign the location to the **POS Store** on the **POS Store Card**. On that location, you can carry out the processes of sale and replenishment.  | 
+| [<ins>Users and salespeople setup<ins>]({{< ref "../../pos_processes/how-to/users/index.md" >}}) | This topic describes the process of setting up additional information relating to users and salespeople in the system.| 
+| [<ins>Locations setup<ins>]({{< ref "../../pos_processes/explanation/location_setup/index.md" >}}) | If you’re tracking stock in different stores in NP Retail, you need to assign the location to the **POS Store** on the **POS Store Card**. On that location, you can carry out the processes of sale and replenishment.  | 
 
 ## Customers
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Customers setup<ins>]({{< ref "../customers/create_customers/index.md" >}})   | This topic goes through the process of creating new customers from the POS.  |
+| [<ins>Customer setup<ins>]({{< ref "../../customers/how-to/create_customers/index.md" >}})   | This topic goes through the process of creating new customers from the POS.  |
 
 ## Items and prices
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Items<ins>]({{< ref "../item_and_price/intro.md" >}}) | Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers. |
-| [<ins>Create new items<ins>]({{< ref "../item_and_price/create_item/index.md" >}}) | This topic goes through the process of creating new items in NP Retail. | 
+| [<ins>Items<ins>]({{< ref "../../pos_processes/explanation/items/index.md" >}}) | Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers. |
+| [<ins>Create new items<ins>]({{< ref "../../pos_processes/reference/create_item/index.md" >}}) | This topic goes through the process of creating new items in NP Retail. | 
 | [<ins>Item category setup<ins>]({{< ref "../item_and_price/item_categories/index.md" >}}) | Item categories are used in Business Central to group items that share certain characteristics. They make sorting, searching and report filtering much easier. |
 | [<ins>Multiple unit prices on an item<ins>]({{< ref "../item_and_price/multiple_unit_prices_item/index.md" >}}) | Refer to the guide for setting up multiple unit prices on a single items, and the comparisons between the procedure in NP Retail and in core Business Central. | 
 | [<ins>Multiple prices on a group of items<ins>]({{< ref "../item_and_price/multiple_prices_item_group/index.md" >}}) | If you wish to set different price ranges within a single item group, you need to use the Mix Discount, with the Multiple Discount Levels discount type. | 

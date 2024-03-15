@@ -1,35 +1,31 @@
 ---
-title: "Set up users and salespeople"
-description: "After creating users, it is sometimes necessary to have additional settings which will provide better control over users’ or salespeople’s activities in Business Central and POS."
+title: "Set up users"
+description: "This topic describes the process of setting up additional information relating to users in the system."
 lead: ""
-date: 2023-08-14T09:54:38+02:00
-lastmod: 2023-08-14T09:54:38+02:00
+date: 2024-03-15T13:40:59+01:00
+lastmod: 2024-03-15T13:40:59+01:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup-259d0f4c4cf0e30ccf0843a68a6c8867"
-weight: 24
+    identifier: "users-4f87598f439fc78b1ea6a922c1abec77"
+weight: 113
 toc: true
 type: docs
 ---
 
-This topic describes the process of setting up additional information relating to users and salespeople in the system. After creating users, it is sometimes necessary to have additional settings which will provide better control over users’ or salespeople’s activities in Business Central and POS. 
+This topic describes the process of setting up additional information relating to users in the system. After creating a user with the accompanying permission sets, it is necessary to provide additional information regarding their role in the system – to allow/limit access to POS units or to some of the actions within them, to set allowed posting dates, and to provide personal information like e-mail and phone number.
 
-## Set up users 
+To set up users in Business Central, make sure the prerequisite is met, and follow the provided steps: 
 
-After creating a user with the accompanying permission sets, it is necessary to provide additional information regarding their role in the system – to allow/limit access to POS units or to some of the actions within them, to set allowed posting dates, and to provide personal information like e-mail and phone number. 
+#### Prerequisite
 
-#### Prerequisites
+- Users and POS Units need to be created in the system, as well as the codes that are necessary for completing this setup.
 
-- Users and POS Units need to be created in the system, as well as the codes that are necessary for completing this setup. 
+#### Procedure 
 
-#### Procedure
-
-To create a new line in **User Setup**, follow the provided steps: 
-
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) that opens the Tell Me feature button, enter **User Setup**, and choose the related link.      
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **User Setup**, and choose the related link.      
    A list of all pre-established user setup is displayed. It can be empty if none was created before. 
 2. Click **New** to create a new record. 
 3. Populate the following fields: 
@@ -52,9 +48,5 @@ To create a new line in **User Setup**, follow the provided steps:
 | **Anonymize Customers** | If enabled, users will be able to anonymize customers in the system. |
 | **Allow Membership Entry Edit** | If enabled, users will be able to change the membership entry. |
 | **Phone No.** | Specifies the user’s phone number. |
-
-## Set up salespeople
-
-Refer to the processing instructions and additional information on [<ins>setting up Salespeople/Purchasers in NP Retail<ins>]({{< ref "../../../pos_processes/how-to/salespeople/index.md" >}}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ6cjtj56VE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe
