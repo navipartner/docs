@@ -36,6 +36,6 @@ The following fields and options are available:
 #### See also
 
 - [<ins>Pricing<ins>]({{< ref "../../explanation/pricing/index.md" >}})
-- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../../pos_academy/item_and_price/multiple_prices_item_group/index.md" >}})
-- [<ins>Sales Price List setup<ins>]({{< ref "../../../pos_academy/item_and_price/define_sales_price/index.md" >}})
-- [<ins>Sales Price setup<ins>]({{< ref "../../../pos_academy/item_and_price/sales_price_setup/index.md" >}})
+- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../explanation/multiple_prices_item_group/index.md" >}})
+- [<ins>Sales Price List setup<ins>]({{< ref "../../how-to/sales_price_setup/index.md" >}})
+- [<ins>Sales Price setup<ins>]({{< ref "../../how-to/sales_price_setup/index.md" >}})

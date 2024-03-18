@@ -265,4 +265,4 @@ Once the POS info is configured, you can navigate to the **Customer Card** to se
 #### See also
 
 - [<ins>POS Info card<ins>]({{< ref "../../reference/pos_info_card_ref/index.md" >}})
-- [<ins>Customer setup<ins>]({{< ref "../../../pos_academy/customers/create_customers/index.md" >}})
+- [<ins>Customer setup<ins>]({{< ref "../../../customers/how-to/create_customers/index.md" >}})

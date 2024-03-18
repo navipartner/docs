@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "cashout-7badc6a0ae4d0cffb43689a6c5a89bc7"
-weight: 140
+weight: 139
 toc: true
 type: docs
 ---
@@ -19,7 +19,7 @@ After the voucher is purchased, a customer can return it to the salesperson, and
 
 The voucher cash-out is performed with the POS action **CASHOUT_VOUCHER**.
 
-1. Add this action to the POS Menu.      
+1. Add this [<ins>action<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}) to the POS Menu.      
    The parameters set on this button determine if the commission fee will be charged and how it'll be posted.
 
     ![parameters](Cashout_parameters.png)
@@ -32,7 +32,7 @@ The voucher cash-out is performed with the POS action **CASHOUT_VOUCHER**.
 
     {{< alert icon="📝" text="If <b>Deduct Commission</b> is enabled and the <b>Commission Account</b> or <b>Commission Percentage</b> are omitted, the run-time error will occur."/>}}
 
-2. After the button has been created, select that button and the window for the **Voucher Scanning** will pop up.      
+2. After the [<ins>button has been created<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}), select that button and the window for the **Voucher Scanning** will pop up.      
    In it, you should provide the relevant reference number.
 
 3. If the voucher is valid, it will result in creation of the POS sale line for the commission as well as the POS payment line for the voucher cash-out.

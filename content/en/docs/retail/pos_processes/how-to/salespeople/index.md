@@ -48,5 +48,5 @@ Follow the provided steps to set up salespeople/purchasers:
 
 #### See also
 
-- [<ins>Set up users<ins>]({{< ref "../../../pos_academy/user_setup/setup/index.md" >}})
+- [<ins>Set up users<ins>]({{< ref "../users/index.md" >}})
 - [<ins>POS info setup<ins>]({{< ref "../pos_info_setup/index.md" >}})

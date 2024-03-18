@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_new_sales_order-564c00625a2ab9610aea00a350513512"
-weight: 140
+weight: 139
 toc: true
 type: docs
 ---

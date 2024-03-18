@@ -19,7 +19,7 @@ After you've set up varieties, you can assign them to items. To assign a variety
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Items** and open the related link.   
 2. Open the **Item Card** of an item you wish to assign the variety to. 
 3. Select the **Variety Group** in the **Variety** section.     
-   All other fields are populated automatically with the data from the variety group you add.
+   All other fields are populated automatically with the data from the [<ins>variety group<ins>]({{< ref "../../reference/group_ref/index.md" >}}) you've added.
    The varieties are now assigned to the item, but it's also necessary to assign the values of varieties which this item has. 
 4. Click **History** in the ribbon, followed by **Variety Maintenance**.     
    The matrix with different values is opened as a result. 

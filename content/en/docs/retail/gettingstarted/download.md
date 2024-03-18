@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "download"
-weight: 1
+weight: 2
 toc: true
 type: docs
 ---

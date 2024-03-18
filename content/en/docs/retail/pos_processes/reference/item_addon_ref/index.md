@@ -45,4 +45,4 @@ The following options and fields are available:
 #### See also
 
 - [<ins>Set up item add-ons<ins>]({{< ref "../../how-to/item_addon/index.md" >}})
-- [<ins>Custom configurations for item add-ons<ins>]({{< ref "../../../pos_academy/item_addons/custom_configurations/index.md" >}})
+- [<ins>Custom configurations for item add-ons<ins>]({{< ref "../../how-to/custom_configurations_item_addons/index.md" >}})

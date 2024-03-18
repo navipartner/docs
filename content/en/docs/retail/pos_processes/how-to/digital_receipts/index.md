@@ -69,7 +69,7 @@ If you need help with configuring this POS action and its parameter, refer to th
 
 ### Issue digital receipts on the POS
 
-1. Perform a [<ins>POS sale<ins>]({{< ref "../../../pos_academy/sales_cycle/sales_returns/index.md" >}}).       
+1. Perform a [<ins>POS sale<ins>]({{< ref "../sales_cycle/index.md" >}}).       
    After a regular POS sale has been completed, and the payment accepted, a pop-up window that contains a QR code is displayed.
    ![scan_qr_sale](Images/scan_qr_sale.PNG)
 

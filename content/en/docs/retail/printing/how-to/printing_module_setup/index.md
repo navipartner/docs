@@ -53,6 +53,17 @@ You can use the **Hardware Connector Report Printer Setup** page to inject the p
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Example setup - A5 printer
+
+To set up the A5 printer in **Hardware Connector Report Printer Setup**, follow the provided steps: 
+
+1. Navigate to the **Hardware Connector Report Printer Setup** page in Business Central. 
+2. Click **Edit List** to be able to change the current entries. 
+3. Insert **A5** as **Printer ID** and **Printer Name** in a new line.      
+   A5 is the name of the printer installed locally.  
+4. Change the **Paper Size** to **A5** paper (148mm by 210mm).      
+   As a result, this printer name becomes available in the **Printer Selection** so that anyone with a locally installed printer called A5 can use it. 
+
 ## Troubleshooting 
 
 [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
