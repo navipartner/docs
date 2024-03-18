@@ -15,11 +15,11 @@ toc: true
 type: docs
 ---
 
-The mix discount type implies that customers need to buy several different items if they wish to be eligible for a discount. The discount is triggered when a certain combination of items is selected in a POS transaction. 
+The mix discount type implies that customers need to purchase several different items if they wish to be eligible for a discount. The discount is triggered when a certain combination of items is selected in a POS transaction. 
 
 To set up mix discounts, follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Mix discount**, and choose the related link.           
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Mix Discount**, and choose the related link.           
    Mix discount list will be opened.
 2. To create a new mix discount, click **New** from the ribbon.       
     The **Mix Discount** card is displayed.
@@ -29,7 +29,7 @@ To set up mix discounts, follow the provided steps:
 | ----------- | ----------- |
 | **Code**       | Specifies the unique code for a mix discount.     |
 | **Description**   | Specifies the short description of a mix discount.   |
-| **Mix Type**  |  Specifies the type of mix discount that is created. The following options are available: **Standard** - the items which are going to receive the discount are added to the **Mixed Discount Lines**; **Combination** - If selected, the part cards should be created in the **Mixed Discount Lines**. The part cards contain items which need to be set up for discount. |
+| **Mix Type**  |  Specifies the type of mix discount that is created. The following options are available: </br> - **Standard** - the items which are going to receive the discount are added to the **Mixed Discount Lines**; </br> - **Combination** - If selected, the part cards should be created in the **Mixed Discount Lines**. The part cards contain items which need to be set up for discount. |
 | **Lot** |  When the **Lot** toggle switch is disabled, the sales ticket can contain any combination of items, provided that the **Min. Quantity** is respected to benefit from the discount scheme. When the **Lot** toggle switch is enabled, the specific combination of an item and item quantity needs to be respected to benefit from the discount scheme. |
 | **Min. Quantity** | The minimum quantity of items from the mix discount lines that the customer has to purchase in order to benefit from the mix discount. |
 | **Max Quantity** | The maximum quantity of items that the customer can purchase under the specific mix discount. |
@@ -69,6 +69,22 @@ To set up mix discounts, follow the provided steps:
 | **Unit Price** | If an item is inserted, the unit price will be taken from the relevant **Item Card**. |
 | **Priority** | The priority which you wish to assign to a mixed discount line. For example, if we have two lines with priorities 1 and 2, minimum and maximum quantities are 2, and we bought 4 items (two from the first, and two from second line), only the item with the priority 1 will get the discount. |
 | **Quantity** | When **Lot** is active, this field will be displayed, and automatically enabled. Provide the quantity of the item the customer is required to buy to generate a lot. |
+
+7. (Optional) If needed, you can use one of the available actions: 
+
+|  Action Name  |   Description  |  
+| ----------- | ----------- | 
+| **Send to Retail Journal** | Used for transferring all items from the **Mixed Discount Lines** to a **Retail Journal**. It can be useful for printing price labels or shelf labels. | 
+| **Copy Mixed Discount** | The entire **Mix Discount** can be copied into another **Mix Discount**. |
+| **Transfer item** | Used for transferring one item from the **Item List** into the **Mix Discount**. |
+| **Transfer item Category** | Used for transferring an entire **Item Category** into the **Mix Discount**. |
+| **Transfer Vendor** | Used for transferring all items for a single vendor into the **Mix Discount**. | 
+| **Transfer All Items** | Used for transferring all items into the **Mix Discount**. |
+| **Compress to Item Disc. Group** | Used for compressing all items from the **Mixed Discount Lines**, into an **Item Disc. Group**. |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GCjFBjm8jtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xDJF8fIzZW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### See also
 

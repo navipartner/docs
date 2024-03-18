@@ -30,5 +30,5 @@ Item categories are defined in the **Item Category Card** by defining the follow
 
 #### See also
 
-- [<ins>Item category setup<ins>]({{< ref "../../../pos_academy/item_and_price/item_categories/index.md" >}})
-- [<ins>Item card reference guide<ins>]({{< ref "..//create_item/index.md" >}})
+- [<ins>Item category setup<ins>]({{< ref "../../explanation/item_categories/index.md" >}})
+- [<ins>Item card reference guide<ins>]({{< ref "../create_item/index.md" >}})

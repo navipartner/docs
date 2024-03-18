@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "accounting_entries-1e3ff75612816e22216e3ed0ec91782d"
-weight: 40
+weight: 255
 toc: true
 type: docs
 ---

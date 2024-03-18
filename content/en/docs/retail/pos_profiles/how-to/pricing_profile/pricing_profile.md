@@ -57,7 +57,7 @@ Sales Price List for the POS Price Profile.
 
 #### See also
 
-- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../../pos_academy/item_and_price/multiple_prices_item_group/index.md" >}})
-- [<ins>Sales price list setup<ins>]({{< ref "../../../pos_academy/item_and_price/define_sales_price/index.md" >}})
-- [<ins>Sales price setup<ins>]({{< ref "../../../pos_academy/item_and_price/sales_price_setup/index.md" >}})
+- [<ins>Multiple prices on a group of items<ins>]({{< ref "../../../pos_processes/explanation/multiple_prices_item_group/index.md" >}})
+- [<ins>Sales price list setup<ins>]({{< ref "../../../pos_processes/how-to/sales_price_setup/index.md" >}})
+- [<ins>Sales price setup<ins>]({{< ref "../../../pos_processes/how-to/sales_price_setup/index.md" >}})
 - [<ins>Sales price maintenance<ins>]({{< ref "../../../pos_processes/reference/sales_price_maintenance/index.md" >}})

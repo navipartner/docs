@@ -1,5 +1,5 @@
 ---
-title: "Multiple unit price discount setup"
+title: "Set up multiple unit price discount"
 description: "Set up multiple unit price discount for the Bring It to You Retail Store Ltd fictional example company."
 lead: ""
 date: 2023-08-15T12:13:34+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "multiple_unit_price-9e136c4ff6446d0f20802dd15b832bfb"
-weight: 33
+weight: 112
 toc: true
 type: docs
 ---
@@ -62,3 +62,28 @@ To set up Multi Unit Price Discount follow the provided steps:
   If you don’t wish the multiple unit discount price to be lowered infinitely, you need to add a line to make go back to normal price. For example, if the quantity is 10, the price goes back to its default value. 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TK8aiGYn810" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Next steps
+
+### Apply multiple unit price discount on POS
+
+To apply multiple unit price discount on POS, make sure the prerequisite is met, and follow the provided steps.
+
+#### Prerequisite
+
+-	The **Multiple Unit Price** setup for an item needs to be created in Business Central as illustrated above. In this example, this setup is established for the item **70001**. The price for two pieces is 650, and the price for 5 pieces is 450. The initial price for one piece is 789.
+
+#### Procedure
+
+To add multiple unit price discount in sale:
+
+1.	Provide **70001** in the **Item no**. box in the top right corner.     
+    A new sales line is added with the regular initial price.
+2.	Click **Change Quantity**.    
+    A pop-up window for providing the new quantity is displayed.
+3.	Set the quantity to **2**.   
+    The quantity is changed on the sales line and the price set up for two pieces is applied.
+4.	Click **Change Quantity**.     
+    A pop-up window for providing the new quantity is displayed.
+5.	Set the quantity to **5**.     
+    The quantity is changed on the sales line and the price set up for five pieces is applied.

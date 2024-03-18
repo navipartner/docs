@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "multiple_prices_item_group-b3c276280322b31e16acb65145398d3e"
-weight: 31
+weight: 114
 toc: true
 type: docs
 ---

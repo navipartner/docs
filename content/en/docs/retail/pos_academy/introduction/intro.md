@@ -90,23 +90,23 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | ----------- | ----------- |
 | [<ins>Items<ins>]({{< ref "../../pos_processes/explanation/items/index.md" >}}) | Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers. |
 | [<ins>Create new items<ins>]({{< ref "../../pos_processes/reference/create_item/index.md" >}}) | This topic goes through the process of creating new items in NP Retail. | 
-| [<ins>Item category setup<ins>]({{< ref "../item_and_price/item_categories/index.md" >}}) | Item categories are used in Business Central to group items that share certain characteristics. They make sorting, searching and report filtering much easier. |
-| [<ins>Multiple unit prices on an item<ins>]({{< ref "../item_and_price/multiple_unit_prices_item/index.md" >}}) | Refer to the guide for setting up multiple unit prices on a single items, and the comparisons between the procedure in NP Retail and in core Business Central. | 
-| [<ins>Multiple prices on a group of items<ins>]({{< ref "../item_and_price/multiple_prices_item_group/index.md" >}}) | If you wish to set different price ranges within a single item group, you need to use the Mix Discount, with the Multiple Discount Levels discount type. | 
-| [<ins>Sales Price List setup<ins>]({{< ref "../item_and_price/define_sales_price/index.md" >}}) | Follow the guide for setting up an example item in the **Price List Lines** administrative section. |
-| [<ins>Multiple unit price discount setup<ins>]({{< ref "../item_and_price/multiple_unit_price/index.md" >}}) | Set up multiple unit price discount for the *Bring It to You Retail Store Ltd* fictional example company. |
-| [<ins>Mix discount setup<ins>]({{< ref "../item_and_price/mix_discount/index.md" >}}) | Set up mix discount for the *Bring It to You Retail Store Ltd* fictional example company. | 
-| [<ins>Period discount setup<ins>]({{< ref "../item_and_price/period_discount/index.md" >}}) | Set up period discount for the *Bring It to You Retail Store Ltd* fictional example company. | 
-| [<ins>Customer discount group setup<ins>]({{< ref "../item_and_price/period_discount/index.md" >}}) | Set up customer discount groups for the *Bring It to You Retail Store Ltd* fictional example company. |
-| [<ins>Discount priority setup<ins>]({{< ref "../item_and_price/discount_priority/index.md" >}}) | Discount priority can be used when certain discount types need to be prioritized over the others. You can use this feature in the context of the *Bring It to You Retail Store Ltd* fictional example company setup. | 
-| [<ins>Sales price setup<ins>]({{< ref "../item_and_price/sales_price_setup/index.md" >}}) | You can create a sales price for a specific group of customers. These configurations can be performed in the **Sales Price List** page. | 
+| [<ins>Item category setup<ins>]({{< ref "../../pos_processes/how-to/item_category_setup/index.md" >}}) | Item categories are used in Business Central to group items that share certain characteristics. They make sorting, searching and report filtering much easier. |
+| [<ins>Multiple unit prices on an item<ins>]({{< ref "../../pos_processes/explanation/multiple_unit_prices_item/index.md" >}}) | Refer to the guide for setting up multiple unit prices on a single items, and the comparisons between the procedure in NP Retail and in core Business Central. | 
+| [<ins>Multiple prices on a group of items<ins>]({{< ref "../../pos_processes/explanation/multiple_prices_item_group/index.md" >}}) | If you wish to set different price ranges within a single item group, you need to use the Mix Discount, with the Multiple Discount Levels discount type. | 
+| [<ins>Sales Price setup<ins>]({{< ref "../../pos_processes/how-to/sales_price_setup/index.md" >}}) | Follow the guide for setting up an example item in the **Price List Lines** administrative section. |
+| [<ins>Multiple unit price discount setup<ins>]({{< ref "../../discounts/how-to/multiple_unit_price/index.md" >}}) | Set up multiple unit price discounts for your store. |
+| [<ins>Mix discount setup<ins>]({{< ref "../../discounts/how-to/create_mix_discount/index.md" >}}) | Set up mix discounts for your store. | 
+| [<ins>Period discount setup<ins>]({{< ref "../../discounts/how-to/period_discounts/index.md" >}}) | Set up period discounts for your store. | 
+| [<ins>Customer discount group setup<ins>]({{< ref "../../discounts/how-to/customer_discount_group/index.md" >}}) | Set up customer discount groups for your store. |
+| [<ins>Discount priority setup<ins>]({{< ref "../../discounts/how-to/discount_priority/index.md" >}}) | Discount priority can be used when certain discount types need to be prioritized over the others.  | 
+| [<ins>Sales price setup<ins>]({{< ref "../../pos_processes/how-to/sales_price_setup/index.md" >}}) | You can create a sales price for a specific group of customers. These configurations can be performed in the **Sales Price List** page. | 
 
 ## POS entry setup
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>POS Entry List - posting setup<ins>]({{< ref "../pos_entry/pos_entry_list_posting_setup/index.md" >}}) | You can define the accounts that will be debited when receiving payment with various payment methods, and when you transfer funds from your float amount during the process of balancing into a Bank or a Safe. |
-| [<ins>POS Entry List - Accounting Entries<ins>]({{< ref "../pos_entry/accounting_entries/index.md" >}}) | See how different currencies behave in the accounting entries. | 
+| [<ins>POS Entry List - posting setup<ins>]({{< ref "../../posting_setup/explanation/pos_entry_list_posting_setup/index.md" >}}) | You can define the accounts that will be debited when receiving payment with various payment methods, and when you transfer funds from your float amount during the process of balancing into a Bank or a Safe. |
+| [<ins>POS Entry List - Accounting Entries<ins>]({{< ref "../../posting_setup/explanation/accounting_entries/index.md" >}}) | See how different currencies behave in the accounting entries. | 
 
 ## Vouchers
 

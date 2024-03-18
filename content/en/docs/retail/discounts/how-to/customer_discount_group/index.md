@@ -1,5 +1,5 @@
 ---
-title: "Customer discount group setup"
+title: "Set up customer discount group"
 description: "Set up customer discount groups for the Bring It to You Retail Store Ltd fictional example company."
 lead: ""
 date: 2023-08-15T12:35:57+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "customer_discount_group-5fa12b7634ce33a0fccb68a36534cade"
-weight: 36
+weight: 112
 toc: true
 type: docs
 ---
@@ -42,3 +42,24 @@ Customer discount groups can be used when providing discounts that should only a
 #### With a customer attached 
 
    ![discounts7](discounts7.PNG)
+
+## Next steps
+
+### Add a Customer Price Group Discount on POS
+
+#### Prerequisite
+
+-	You need to assign a special price to a specific customer price group. In our example the customer **D000004** has the **WHOLESALE** price group. If members of that price group wish to purchase the item **70003**, the price is 1450 for 1 piece, or 1400 for item quantities of 3 and up.
+
+#### Procedure
+
+1.	Provide **70001** in the Item no. box in the top right corner.    
+    A new sales line is added with the regular initial price.
+2.	Click **Customers** in the bottom right corner, followed by **Select Customer** in the pop-up window that is displayed.     
+    The list of available customers is displayed.
+3.	Select the customer **D000004**.     
+    The customer is added to the sale, and the price is changed to **1450**.
+4.	Click **Change Quantity**.     
+    A pop-up window for providing the new quantity is displayed.
+5.	Set the quantity to **3**.
+6.	The item price is changed to **1400**.

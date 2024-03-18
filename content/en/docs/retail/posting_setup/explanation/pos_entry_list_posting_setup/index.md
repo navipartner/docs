@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "pos_entry_list_posting_setup-59faf8f481f0b4818a1c06c615cdb4e5"
-weight: 39
+weight: 255
 toc: true
 type: docs
 ---
