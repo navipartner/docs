@@ -1,6 +1,6 @@
 ---
 title: "POS actions for Retail Vouchers"
-description: "Learn how the available actions associated with retail vouchers can be used to set up vouchers in the context of the Bring It To You Store Ltd."
+description: "Learn how the available actions associated with retail vouchers can be used to set up vouchers in the context of a POS store."
 lead: ""
 date: 2023-08-16T15:00:47+02:00
 lastmod: 2023-08-16T15:00:47+02:00

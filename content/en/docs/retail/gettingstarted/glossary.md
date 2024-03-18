@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "gettingstarted"
     identifier: "glossary"
-weight: 2
+weight: 3
 toc: true
 type: docs
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Set up customer discount group"
-description: "Set up customer discount groups for the Bring It to You Retail Store Ltd fictional example company."
+description: "Customer discount groups can be used when providing discounts that should only apply to a certain group of customers."
 lead: ""
 date: 2023-08-15T12:35:57+02:00
 lastmod: 2023-08-15T12:35:57+02:00
@@ -10,14 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "customer_discount_group-5fa12b7634ce33a0fccb68a36534cade"
-weight: 112
+weight: 135
 toc: true
 type: docs
 ---
 
-Customer discount groups can be used when providing discounts that should only apply to a certain group of customers.  
-
-*Bring It to You Retail Store Ltd* has a loyal group of customers that would like to be given a discount of 20% on certain items that they frequently buy.  
+Customer discount groups can be used when providing discounts that should only apply to a certain group of customers. To set up customer discount groups, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Customer Disc. Groups**, and choose the related link.      
    The **Customer Disc. Groups List** is opened as a result. 
