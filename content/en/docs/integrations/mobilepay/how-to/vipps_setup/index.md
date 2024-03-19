@@ -37,4 +37,19 @@ To set up the Vipps MobilePay integration, make sure the prerequisites are met, 
    The recommended level is **Error**.
 5. Open the **POS Unit Parameters**.     
    The **Vipps MobilePay Unit Configuration** page is displayed.
-6. 
+6. Click the three dots in the **Merchant Serial Number** field.    
+   The **Vipps MobilePay Stores List** is displayed.
+7. Create a new Vipps store by taking the following actions:    
+   - Provide the merchant information from the Prerequisites in the **Vipps MobilePay Store** page. 
+   - Click the three dots in the **Webhook Reference** field. 
+   - Click **Create Webhook**.
+   - (Situational) If the tenant is on-prem, the **OnPrem Additional Setup** page needs to be filled in accordingly:
+     - **Config Name** - a name that is easily distinguishable should be provided here (e.g. Company-Msn, where "Msn" stands for a "merchant serial number").
+     - Username/Password for the user that can access Business Central via the SOAP webservice. If the user doesn't exist yet, it needs to be created. 
+8. Navigate back to the **Vipps MobilePay Unit Configuration** page. 
+9. Click the three dots in the **Static QR ID** field.      
+   The **Vipps MobilePay Static QRs List** is displayed.
+10. Click either **Create a new QR** for a brand-new Vipps MobilePay Static QR code (you can find this QR on the Vipps MobilePay portal and print it out after it has been created) or **Create/Update MobilePay QR** for recreating an existing MobilePay QR code (the Beacon ID) in the new Vipps MobilePay system.
+11. (Situational) If the tenant is a Cloud/SaaS environment:
+    - Navigate to the **Vipps MobilePay Unit Configuration** page.
+    - Click **Create Setup (Admin)** to allow the Vipps MobilePay webhook to send the information to Business Central. This action requires administrator-level permissions to be granted. 

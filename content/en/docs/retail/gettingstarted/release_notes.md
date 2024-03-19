@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Learn which new features and improvements have been introduced in the newest versions of our solutions:
+Learn which new features and improvements have been introduced to our solutions:
 
 ## 19.03.2024
 
