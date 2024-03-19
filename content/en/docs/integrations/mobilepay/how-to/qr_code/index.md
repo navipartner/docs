@@ -24,3 +24,7 @@ You can bill your customers via their MobilePay app directly from the POS. You c
    The payment is initialized.      
    When the sale is complete, the POS ends the sale with the **Payment Type** being **MobilePay EFT**.
 5. Open Business Central, and navigate to the **POS Entry List** to see the transaction details if needed. 
+
+#### See also
+
+- [<ins>Set up Vipps MobilePay integration<ins>]({{< ref "../vipps_setup.md" >}})
