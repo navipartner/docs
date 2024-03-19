@@ -17,6 +17,20 @@ type: docs
 
 Learn which new features and improvements have been introduced in the newest versions of our solutions:
 
+## 19.03.2024
+
+### Fiscalization compliance with Belgian fiscal laws
+
+NP Retail is now fully compliant with Belgian fiscal laws. 
+
+For more information and operating instructions, refer to the article on [<ins>Fiscalization compliance setup - Belgium<ins>]({{< ref "../../fiscalization/belgium/how-to/setup.md" >}}).
+
+### Migration to Vipps MobilePay EFT
+
+NP solutions are now integrated with [<ins>Vipps MobilePay<ins>](https://vippsmobilepay.com/about). Vipps MobilePay is the most recently developed version of the MobilePay solution that supports the same features (with the improvement of also extending to Norwegian market), but has different setup procedure. Its purpose is to make payment in stores easy, with static QR codes generated in the mobile wallet app. 
+
+For more information and operating instructions, refer to the article on [<ins>Setting up Vipps MobilePay integration<ins>]({{< ref "../../integrations/mobilepay/how-to/vipps_setup.md" >}}).
+
 ## Version 31.0 (February 28th 2024)
 
 ### Fiscalization compliance with Italian fiscal laws
