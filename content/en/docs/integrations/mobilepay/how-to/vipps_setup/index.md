@@ -45,7 +45,8 @@ To set up the Vipps MobilePay integration, make sure the prerequisites are met, 
    - Click **Create Webhook**.
    - (Situational) If the tenant is on-prem, the **OnPrem Additional Setup** page needs to be filled in accordingly:
      - **Config Name** - a name that is easily distinguishable should be provided here (e.g. Company-Msn, where "Msn" stands for a "merchant serial number").
-     - Username/Password for the user that can access Business Central via the SOAP webservice. If the user doesn't exist yet, it needs to be created. 
+     - Username/Password for the user that can access Business Central via the SOAP webservice. If the user doesn't exist yet, it needs to be created.      
+   A message is displayed with information that a NaviPartner developer needs to perform setup externally.
 8. Navigate back to the **Vipps MobilePay Unit Configuration** page. 
 9. Click the three dots in the **Static QR ID** field.      
    The **Vipps MobilePay Static QRs List** is displayed.
