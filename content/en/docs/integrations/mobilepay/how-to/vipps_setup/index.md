@@ -54,3 +54,7 @@ To set up the Vipps MobilePay integration, make sure the prerequisites are met, 
 11. (Situational) If the tenant is a Cloud/SaaS environment:
     - Navigate to the **Vipps MobilePay Unit Configuration** page.
     - Click **Create Setup (Admin)** to allow the Vipps MobilePay webhook to send the information to Business Central. This action requires administrator-level permissions to be granted. 
+
+#### See also
+
+- [<ins>Use MobilePay QR code on customer screen<ins>]({{< ref "../qr_code.md" >}})
