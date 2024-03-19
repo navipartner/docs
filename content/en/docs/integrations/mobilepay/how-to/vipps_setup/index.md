@@ -24,6 +24,7 @@ To set up the Vipps MobilePay integration, make sure the prerequisites are met, 
 - Sign into the Vipps MobilePay portal in order to collect the following data:
   - **Merchant Serial Number** (Msn)
   - **Client Id**
+  - **Client secret**
   - **Subscription key** (either one will work)
   - **OBS**: For on-prem solutions, a username/password is needed for the setup. Both existing and new users can be used for this purpose. Bear in mind that if the password is changed, the login will no longer work. 
 
@@ -40,7 +41,7 @@ To set up the Vipps MobilePay integration, make sure the prerequisites are met, 
 6. Click the three dots in the **Merchant Serial Number** field.    
    The **Vipps MobilePay Stores List** is displayed.
 7. Create a new Vipps store by taking the following actions:    
-   - Provide the merchant information from the Prerequisites in the **Vipps MobilePay Store** page. 
+   - Provide the merchant information from the *Prerequisites* in the **Vipps MobilePay Store** page. 
    - Click the three dots in the **Webhook Reference** field. 
    - Click **Create Webhook**.
    - (Situational) If the tenant is on-prem, the **OnPrem Additional Setup** page needs to be filled in accordingly:
