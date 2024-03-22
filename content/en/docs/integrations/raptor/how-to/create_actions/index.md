@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-After performing the [<ins>initial setup<ins>]({{< ref "../setup.md" >}}) for the integration with Raptor, you can create and enable additional actions in the environment.
+After performing the [<ins>initial setup<ins>]({{< ref "../setup.md" >}}) for the integration with Raptor, you can create and enable additional actions in the environment. Actions are sets of parameters that handle the Raptor Module API calls and responses. To set up Raptor actions, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Raptor Setup**, and select the related link.     
    The options for setting up the Raptor integration are displayed.
@@ -38,7 +38,13 @@ After performing the [<ins>initial setup<ins>]({{< ref "../setup.md" >}}) for th
 | **Code** | Specifies a code used internally by the system to differentiate it from other actions. This field is required. |
 | **Raptor Module Code** | Specifies the code which is used for retrieving the desired information from the [<ins>Raptor Control Panel<ins>](https://admin.raptorsmartadvisor.com/#/). | 
 | **Raptor Module API Req. String** | There may be multiple variants of the same Raptor module. If you need to call a variant via API, that isn't the same as the one specified in the **Raptor Module Code** field, you can optionally set it in *admin.raptorsmartadvisor.com/#/Modules/Index/6384?productId=1*. |
-| **Comment** |  Specifies a description of the Raptor action to help users understand the purpose of the action. | 
+| **Comment** |  Specifies a description of the Raptor action to help users understand the purpose of the action. This field is optional. | 
+| **Data Type Description** | This text will be displayed on the page with the retrieved Raptor data, and is intended to help users identify the type of the received information. This field is required. |
+| **Number of Entries to Return** | Specifies the number of entries to be returned by Raptor once this action is run. This field is required. |
+| **Show Date-Time Created** | Tick this checkbox if you wish the **Date-Time Created** column to be displayed on the page alongside the rest of the retrieved Raptor data. | 
+| **Show Priority** | Tick the checkbox if you want the **Priority** column to be displayed on the page alongside the rest of the retrieved Raptor data. | 
+
+5. To insert new default actions, click **Add Default Actions** in the ribbon.
 
 
 #### See also

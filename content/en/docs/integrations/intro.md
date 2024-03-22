@@ -85,3 +85,8 @@ NP Retail is integrated with the following solutions:
 
 - [<ins>Set up Shipmondo integration<ins>]({{< ref "shipmondo/how-to/setup/index.md" >}})
 - [<ins>Test Shipmondo integration<ins>]({{< ref "shipmondo/how-to/test_shipmondo/index.md" >}})
+
+## Raptor
+
+- [<ins>Set up Raptor integration<ins>]({{< ref "raptor/how-to/setup/index.md" >}})
+- [<ins>Set up Raptor actions<ins>]({{< ref "raptor/how-to/create_actions/index.md" >}})
