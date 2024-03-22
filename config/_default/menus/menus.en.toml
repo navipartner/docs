@@ -94,17 +94,17 @@
   parent = "solutions"
 
 [[main]]
-  name = "INTEGRATIONS"
+  name = "FISCALIZATION"
   weight = 70
   identifier = "integrations"
-  url = "/docs/integrations/intro"
+  url = "/docs/fiscalization/intro"
   parent = "solutions"
 
 [[main]]
-  name = "FISCALIZATION"
+  name = "INTEGRATIONS"
   weight = 80
   identifier = "integrations"
-  url = "/docs/fiscalization/intro"
+  url = "/docs/integrations/intro"
   parent = "solutions"
 
 [[social]]
