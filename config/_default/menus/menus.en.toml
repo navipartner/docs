@@ -96,7 +96,7 @@
 [[main]]
   name = "FISCALIZATION"
   weight = 70
-  identifier = "integrations"
+  identifier = "fiscalization"
   url = "/docs/fiscalization/intro"
   parent = "solutions"
 
