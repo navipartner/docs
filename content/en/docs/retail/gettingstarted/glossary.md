@@ -17,7 +17,7 @@ type: docs
 
 This topic contains the list of Business Central and NPRetail specific terms that should be used in your topics to ensure that our documentation is standardized.
 
-| Field Name      | Description |
+| Term      | Definition |
 | ----------- | ----------- |
 | **Role Center** | The Business Center landing page. |
 | **Role Explorer** | Opened from the **Role Center** by clicking the burger icon (three vertical lines in the top-right corner). Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in Business Central. |
