@@ -1,6 +1,6 @@
 ---
 title: "Listings"
-description: ""
+description: "Refer to the available listings for the kitchen system in the NP Restaurant solution."
 lead: ""
 date: 2023-08-22T14:27:17+02:00
 lastmod: 2023-08-22T14:27:17+02:00
