@@ -19,12 +19,12 @@ Azure Active Directory (AAD) application[^1] is needed to ensure HeyLoyalty can 
 To create one along with the set of credentials, follow the steps provided below.
 [^1]: To interact with the web services (APIs) of Business Central, the external party (HeyLoyalty) needs to use the OAuth 2 protocol to gain an access token. When working with two services interacting with one another, the client needs to use the client credentials flow. The credentials for the client credentials flow are obtained through an Azure Active Directory application.
 
-## Prerequisites
+#### Prerequisites
 
 -	Make sure the actions are performed by a user that is both an Azure Active Directory administrator and a BC administrator. These steps require you to grant the administrator access to certain parts of your Azure Active Directory. You should therefore be an administrator in your tenant or get your administrator to perform these steps.
 -	This procedure can only be used when your BC tenant is registered with Azure Active Directory as the login method. If you are using Microsoft’s SaaS this will already be the case.
 
-## Procedure
+#### Procedure
 
 1. In BC click the ![Lightbulb](Lightbulb_icon.PNG) button, search for the **HeyLoyalty Integration Setup** page and open it.
 <details>
