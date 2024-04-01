@@ -26,6 +26,7 @@ These guides and explanations are intended for partners, consultants and other p
 
 - [<ins>Profiles (security, self-service, receipt, input box...)<ins>]({{< ref "../pos_profiles/intro.md" >}})
 - [<ins>Pricing<ins>]({{< ref "explanation/pricing/index.md" >}})
+- [<ins>Item add-ons<ins>]({{< ref "explanation/item_addons/index.md" >}})
 
 #### How-to guides
 
@@ -39,6 +40,7 @@ These guides and explanations are intended for partners, consultants and other p
 - [<ins>Create POS menu filters<ins>]({{< ref "../pos_layout/how-to/menu_filters/index.md" >}})
 - [<ins>Create a POS payment method<ins>]({{< ref "how-to/create_payment_method/index.md" >}})
 - [<ins>Set up item add-ons<ins>]({{< ref "how-to/item_addon/index.md" >}})
+- [<ins>Apply custom configurations for item add-ons<ins>]({{< ref "how-to/custom_configurations_item_addons/index.md" >}})
 - [<ins>Group code setup<ins>]({{< ref "how-to/group_codes/index.md" >}})
 - [<ins>Configure the POS balancing feature<ins>]({{< ref "how-to/balance_config/index.md" >}})
 - [<ins>Configure an opening mechanism for a POS unit cash drawer<ins>]({{< ref "how-to/cash_drawer_open/index.md" >}})
@@ -76,6 +78,9 @@ The following guides and explanations are intended for end users working daily o
 - [<ins>Change Responsibility Center from the POS sale<ins>]({{< ref "how-to/responsibility_center/index.md" >}})
 - [<ins>Take a photo on the POS<ins>]({{< ref "how-to/take_photo/index.md" >}})
 - [<ins>Transfer cash between POS units<ins>]({{< ref "how-to/bin_transfer_action/index.md" >}})
+- [<ins>Perform credit sales from POS<ins>]({{< ref "how-to/credit_sales/index.md" >}})
+- [<ins>Perform different payment operations<ins>]({{< ref "how-to/payment_operations/index.md" >}})
+- [<ins>Pay with different payment methods<ins>]({{< ref "how-to/payment_methods/index.md" >}})
 
 ## Reference guides
 
