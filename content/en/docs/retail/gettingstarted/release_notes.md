@@ -15,13 +15,14 @@ toc: true
 type: docs
 ---
 
-Learn which new features and improvements have been introduced to our solutions. You can click the ▶️ button next to some of the entries to view the accompanying video guide on our YouTube channel.
+Learn which new features and improvements have been introduced to our solutions. You can click the ▶️ button next to some of the entries to view the accompanying video guides on our YouTube channel.
 
 ## 2024
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
-| 19.03. | [<ins>Compliance with Belgian fiscal laws<ins>]({{< ref "../../fiscalization/belgium/how-to/setup.md" >}}) | NP Retail is now fully compliant with Belgian fiscal laws. |
+| 04.04. | [<ins>KDS (Kitchen Display System)<ins>]({{< ref "../../restaurant/explanation/kds/index.md" >}}) | KDS has been developed on top of the NP Restaurant module. Its main purpose is to provide easy and reliable restaurant order status tracking for both restaurant employees and customers. | 
+| 19.03. | [<ins>Compliance with Belgian fiscal laws<ins>]({{< ref "../../fiscalization/belgium/how-to/setup/index.md" >}}) | NP Retail is now fully compliant with Belgian fiscal laws. |
 | 19.03. | [<ins>Vipps MobilePay integration<ins>]({{< ref "../../integrations/mobilepay/how-to/vipps_setup.md" >}}) | NP solutions are now integrated with [<ins>Vipps MobilePay<ins>](https://vippsmobilepay.com/about). Vipps MobilePay is the most recently developed version of the MobilePay solution that supports the same features (with the improvement of also extending to Norwegian market), but has different setup procedure. Its purpose is to make payment in stores easy, with static QR codes generated in the mobile wallet app. | 
 | 28.02. | [<ins>Fiscalization compliance with Italian fiscal laws<ins>]({{< ref "../../fiscalization/italy/how-to/setup.md" >}}) | NP Retail is now fully compliant with Italian fiscal laws. | 
 | 28.01. | [<ins>Bin transfer improvements<ins>]({{< ref "../pos_processes/how-to/transfer_cash_bc/index.md" >}}) | The following improvements have been added to the Bin Transfer functionality: <ul><li>A new line will automatically be added to the <b>POS Payment Bin Transfer Journal</b> when the <b>Transfer Out</b> action is performed from one POS unit towards another.</li><li>When the transaction is complete, and the <b>Transfer In</b> action is triggered on the target POS unit, the transfer journal line only needs to be validated without the need to populate any additional fields.</li><li>An intermediary bin through which both inbound and outbound transfer transactions are posted is used in this process. The bin needs to be specified in the new <b>In-Transfer Bin Code</b> field that has been placed in the <b>POS End of Day/Bin Tr. Profile Card</b> administrative section in Business Central.</li></ul> |
