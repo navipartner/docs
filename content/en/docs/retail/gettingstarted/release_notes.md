@@ -21,7 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
-| 04.04. | [<ins>KDS (Kitchen Display System)<ins>]({{< ref "../../restaurant/explanation/kds/index.md" >}}) | KDS has been developed on top of the NP Restaurant module. Its main purpose is to provide easy and reliable restaurant order status tracking for both restaurant employees and customers. | 
+| 04.04. | [<ins>KDS (Kitchen Display System)<ins>]({{< ref "../../restaurant/explanation/kds/index.md" >}}) | The Kitchen Display System (KDS) can now be brought up and interacted with from Minor Tom after the initial setup is performed in Business Central. | 
 | 19.03. | [<ins>Compliance with Belgian fiscal laws<ins>]({{< ref "../../fiscalization/belgium/how-to/setup/index.md" >}}) | NP Retail is now fully compliant with Belgian fiscal laws. |
 | 19.03. | [<ins>Vipps MobilePay integration<ins>]({{< ref "../../integrations/mobilepay/how-to/vipps_setup.md" >}}) | NP solutions are now integrated with [<ins>Vipps MobilePay<ins>](https://vippsmobilepay.com/about). Vipps MobilePay is the most recently developed version of the MobilePay solution that supports the same features (with the improvement of also extending to Norwegian market), but has different setup procedure. Its purpose is to make payment in stores easy, with static QR codes generated in the mobile wallet app. | 
 | 28.02. | [<ins>Fiscalization compliance with Italian fiscal laws<ins>]({{< ref "../../fiscalization/italy/how-to/setup.md" >}}) | NP Retail is now fully compliant with Italian fiscal laws. | 
