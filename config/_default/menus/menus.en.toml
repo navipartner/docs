@@ -101,10 +101,10 @@
   parent = "solutions"
 
 [[main]]
-  name = "INTEGRATIONS"
+  name = "EFT PROVIDERS"
   weight = 80
-  identifier = "integrations"
-  url = "/docs/integrations/intro"
+  identifier = "providers"
+  url = "/docs/providers/intro"
   parent = "solutions"
 
 [[social]]

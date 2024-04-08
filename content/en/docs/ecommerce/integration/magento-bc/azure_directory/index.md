@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "azure_directory-ddc22801345b709e4c5c08d8d4d17a56"
-weight: 680
+weight: 326
 toc: true
 type: docs
 ---
