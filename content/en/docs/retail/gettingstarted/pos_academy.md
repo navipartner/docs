@@ -128,11 +128,11 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [<ins>Create item add-ons<ins>]({{< ref "../pos_processes/how-to/create_and_attach_item_addon/index.md" >}}) | This is the main procedure for creating item add-ons that is common for all customized configurations that are described in the further parts of this guide. | 
 | [<ins>Custom configurations for item add-ons<ins>]({{< ref "../pos_processes/how-to/custom_configurations_item_addons/index.md" >}}) | Refer to the practical examples of custom configurations for item add-ons. |
 
-## EFT
+## EFT Providers
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>EFT setup<ins>]({{< ref "../eft/intro.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
+| [<ins>EFT providers<ins>]({{< ref "../../providers/intro.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
 
 ## Job queue
 
