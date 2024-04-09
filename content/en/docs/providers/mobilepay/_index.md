@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "mobilepay-15fefa4a28445dab537a9da43f1daca3"
-weight: 675
+weight: 653
 toc: true
 type: docs
 ---

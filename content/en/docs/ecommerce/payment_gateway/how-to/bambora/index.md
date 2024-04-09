@@ -10,11 +10,11 @@ menu:
   docs:
     parent: ""
     identifier: "bambora-bf8532e201ee0378d35d11c0e2e331bf"
-weight: 671
+weight: 321
 toc: true
 type: docs
 ---
-To set up the Bambora payment integration in NP Retail, make sure the prerequisites are met, and follow the provided steps:
+To set up the Bambora online payment gateway integration in Business Central, make sure the prerequisites are met, and follow the provided steps:
 
 ## Prerequisites
 

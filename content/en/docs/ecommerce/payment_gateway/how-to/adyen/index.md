@@ -10,12 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "adyen-7fe365989505bd39420d72c0bc061167"
-weight: 671
+weight: 321
 toc: true
 type: docs
 ---
 
-To set up the Adyen payment integration in NP Retail, make sure the prerequisites are met, and follow the provided steps:
+To set up the Adyen online payment gateway integration in Business Central, make sure the prerequisites are met, and follow the provided steps:
 
 ## Prerequisite
 

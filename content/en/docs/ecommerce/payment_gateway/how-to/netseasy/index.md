@@ -10,12 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "netseasy-dec787e9d51dcbfb045729985d4b879e"
-weight: 671
+weight: 321
 toc: true
 type: docs
 ---
 
-To set up the Nets Easy payment integration in NP Retail, make sure the prerequisites are met, and follow the provided steps:
+To set up the Nets Easy online payment gateway integration in Business Central, make sure the prerequisites are met, and follow the provided steps:
 
 ## Prerequisite
 

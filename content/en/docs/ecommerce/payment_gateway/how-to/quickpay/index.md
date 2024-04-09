@@ -10,12 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "quickpay-053820871995ba2faf9501540805a43f"
-weight: 671
+weight: 321
 toc: true
 type: docs
 ---
 
-To set up the Quickpay payment integration in NP Retail, make sure that prerequisites are met and follow the provided steps.
+To set up the Quickpay online payment gateway integration in Business Central, make sure that prerequisites are met and follow the provided steps.
 
 ## Prerequisites
  

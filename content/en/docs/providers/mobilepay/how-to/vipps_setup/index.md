@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "vipps_setup-7696973ea9223159ec52fc3a87faf4d3"
-weight: 675
+weight: 653
 toc: true
 type: docs
 ---
