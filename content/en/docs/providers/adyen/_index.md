@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "adyen-c56939d850700105b1c467326be29fd7"
-weight: 661
+weight: 630
 toc: true
 type: docs
 ---

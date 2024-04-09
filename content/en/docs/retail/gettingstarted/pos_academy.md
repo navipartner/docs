@@ -132,7 +132,7 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>EFT providers<ins>]({{< ref "../providers/intro.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
+| [<ins>EFT providers<ins>]({{< ref "../../providers/intro.md" >}}) | This secttion goes through the processes of setting up Electronic Funds Transfer (EFT) for various terminal types and integrations. |
 
 ## Job queue
 
