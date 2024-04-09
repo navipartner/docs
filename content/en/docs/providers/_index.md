@@ -1,5 +1,5 @@
 ---
-title: "EFT providers"
+title: "External EFT providers"
 description: ""
 lead: ""
 date: 2023-09-14T10:15:04+02:00

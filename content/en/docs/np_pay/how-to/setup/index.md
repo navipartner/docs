@@ -1,6 +1,6 @@
 ---
-title: "Set up Adyen Cloud integration (EFT)"
-description: "Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud."
+title: "Set up NP Pay"
+description: "Both the terminal and the POS are required to set up NP Pay."
 lead: ""
 date: 2023-07-06T09:26:08+02:00
 lastmod: 2023-07-06T09:26:08+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "adyen-0991cf03db560c76b5529177e684d032"
-weight: 630
+weight: 681
 toc: true
 type: docs
 ---

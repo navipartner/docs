@@ -1,5 +1,5 @@
 ---
-title: "Set up ADYEN_CLOUD to verify setup and check connection in SALE-LEFT"
+title: "Verify NP Pay setup"
 description: "There is a POS action EFT_OPERATION_2, which can be used to perform different functions on different terminals. These actions include reconciling the terminal, downloading/checking for updates, and checking connection or voiding the previous transactions."
 lead: ""
 date: 2024-04-09T10:12:51+02:00
@@ -10,17 +10,16 @@ menu:
   docs:
     parent: ""
     identifier: "verify_setup-bdcba0054ae5cdb1cc0066b4d7398186"
-weight: 631
+weight: 681
 toc: true
 type: docs
 ---
 
-
-The [<ins>Adyen Cloud integration<ins>]({{< ref "../setup/index.md" >}}) contains a function for testing the connection to the different endpoints through the POS integration. This can sometimes be used to determine the origin of potential connection issues between POS, Adyen Cloud and the Terminal.
+You can test the connection to different endpoints through the POS integration. This method is useful when you need to determine the origin of potential connection issues between NP Pay and the terminal.
 
 #### Prerequisites
 
-- Have an **EFT Setup** with the **T** payment type which uses the [<ins>**ADYEN_CLOUD EFT**<ins>]({{< ref "../setup/index.md" >}}) integration type. 
+- Have an **EFT Setup** with the **T** payment type which uses NP Pay as the service provider. 
 
 #### Procedure
 

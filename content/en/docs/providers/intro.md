@@ -1,6 +1,6 @@
 ---
-title: "EFT providers overview"
-description: "NP Retail is integrated with payment providers listed in this article."
+title: "External payment service providers - overview"
+description: "NP Retail is integrated with external payment service providers listed in this article."
 lead: ""
 date: 2023-09-14T10:19:05+02:00
 lastmod: 2023-09-14T10:19:05+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Electronic Funds Transfer (EFT) is a term that covers all of electronic payment integrations in NP solutions. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
+Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is NP Pay, but it's also possible to integrate our solutions with external PSPs like SoftPay, Nets Baxi etc. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
 
 All integrations need to be linked to payment methods used on the POS, since that's where they are triggered from. Establishing links between EFT integrations and POS payment methods is done in the **EFT Setup** administrative section in Business Central. When the setup is complete, the POS invokes a specific EFT framework depending on the selected payment method.
 
@@ -41,11 +41,6 @@ When using NETS BAXI/Viking integrations, there are two different ways of commun
 
 [<ins>Set up NETS Cloud integration<ins>]({{< ref "nets_baxi/how-to/setup/index.md" >}})
 
-## Adyen Cloud setup
-
-Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud.  
-
-[<ins>Set up Adyen Cloud integration<ins>]({{< ref "adyen/how-to/setup/index.md" >}})
 
 ## MobilePay/Vipps MobilePay
 
