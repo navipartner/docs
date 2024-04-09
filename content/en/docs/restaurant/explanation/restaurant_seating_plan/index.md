@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "restaurant_seating_plan-96b1defd68304a5aed4ada45a37a018b"
-weight: 321
+weight: 342
 toc: true
 type: docs
 ---

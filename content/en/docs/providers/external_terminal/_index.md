@@ -1,5 +1,5 @@
 ---
-title: "External_terminal"
+title: "External terminals"
 description: ""
 lead: ""
 date: 2024-04-09T13:06:47+02:00

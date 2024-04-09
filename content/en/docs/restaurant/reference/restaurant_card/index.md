@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "restaurant_card-49281eb737d3fb3c4438c95237ea52cf"
-weight: 322
+weight: 343
 toc: true
 type: docs
 ---
