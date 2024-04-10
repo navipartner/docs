@@ -1,6 +1,6 @@
 ---
-title: "EFT providers overview"
-description: "NP Retail is integrated with payment providers listed in this article."
+title: "External payment service providers - overview"
+description: "NP Retail is integrated with external payment service providers listed in this article."
 lead: ""
 date: 2023-09-14T10:19:05+02:00
 lastmod: 2023-09-14T10:19:05+02:00
@@ -10,12 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "intro-af34bb080194e8396cb17268661db35f"
-weight: 625
+weight: 640
 toc: true
 type: docs
 ---
 
-Electronic Funds Transfer (EFT) is a term that covers all of electronic payment integrations in NP solutions. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
+Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is NP Pay, but it's also possible to integrate our solutions with external PSPs like SoftPay, Nets Baxi etc. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
 
 All integrations need to be linked to payment methods used on the POS, since that's where they are triggered from. Establishing links between EFT integrations and POS payment methods is done in the **EFT Setup** administrative section in Business Central. When the setup is complete, the POS invokes a specific EFT framework depending on the selected payment method.
 
@@ -41,11 +41,6 @@ When using NETS BAXI/Viking integrations, there are two different ways of commun
 
 [<ins>Set up NETS Cloud integration<ins>]({{< ref "nets_baxi/how-to/setup/index.md" >}})
 
-## Adyen Cloud setup
-
-Adyen as the terminal provider is set up with the Adyen Cloud integration. Both the terminal and the POS are required to establish the connection to the Adyen Cloud.  
-
-[<ins>Set up Adyen Cloud integration<ins>]({{< ref "adyen/how-to/setup/index.md" >}})
 
 ## MobilePay/Vipps MobilePay
 
@@ -63,11 +58,11 @@ With Softpay integration, you can use an Android device as a Payment Terminal, i
 
 [<ins>Set up Softpay integration<ins>]({{< ref "softpay/how-to/setup/index.md" >}})
 
-## External Terminal
+## Standalone terminal
 
-You can use the External Terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information. It can also be used if another EFT Transaction is lost between the EFT Terminal and the POS where you can see that the terminal has accepted the transaction, but there are no other ways to transfer from the EFT Terminal to the POS. 
+You can use the standalone terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information. It can also be used if another EFT Transaction is lost between the EFT Terminal and the POS where you can see that the terminal has accepted the transaction, but there are no other ways to transfer from the EFT Terminal to the POS. 
 
-[<ins>Set up external terminal integration<ins>]({{< ref "external_terminal/how-to/setup/index.md" >}})
+[<ins>Set up standalone terminal integration<ins>]({{< ref "standalone_terminal/how-to/setup/index.md" >}})
 
 ## Flexiiterm
 
