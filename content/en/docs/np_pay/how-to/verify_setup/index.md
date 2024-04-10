@@ -1,5 +1,5 @@
 ---
-title: "Verify NP Pay setup"
+title: "Verify NP Pay Cloud setup"
 description: "There is a POS action EFT_OPERATION_2, which can be used to perform different functions on different terminals. These actions include reconciling the terminal, downloading/checking for updates, and checking connection or voiding the previous transactions."
 lead: ""
 date: 2024-04-09T10:12:51+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "verify_setup-bdcba0054ae5cdb1cc0066b4d7398186"
-weight: 681
+weight: 627
 toc: true
 type: docs
 ---

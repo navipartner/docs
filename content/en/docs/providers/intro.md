@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "intro-af34bb080194e8396cb17268661db35f"
-weight: 625
+weight: 640
 toc: true
 type: docs
 ---
@@ -58,11 +58,11 @@ With Softpay integration, you can use an Android device as a Payment Terminal, i
 
 [<ins>Set up Softpay integration<ins>]({{< ref "softpay/how-to/setup/index.md" >}})
 
-## External Terminal
+## Standalone terminal
 
-You can use the External Terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information. It can also be used if another EFT Transaction is lost between the EFT Terminal and the POS where you can see that the terminal has accepted the transaction, but there are no other ways to transfer from the EFT Terminal to the POS. 
+You can use the standalone terminal integration, either as an additional security measure when using terminals that are not integrated with NP Retail or as backup with additional information. It can also be used if another EFT Transaction is lost between the EFT Terminal and the POS where you can see that the terminal has accepted the transaction, but there are no other ways to transfer from the EFT Terminal to the POS. 
 
-[<ins>Set up external terminal integration<ins>]({{< ref "external_terminal/how-to/setup/index.md" >}})
+[<ins>Set up standalone terminal integration<ins>]({{< ref "standalone_terminal/how-to/setup/index.md" >}})
 
 ## Flexiiterm
 

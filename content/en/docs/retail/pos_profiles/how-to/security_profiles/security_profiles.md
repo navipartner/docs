@@ -35,5 +35,5 @@ To set up the security profile, follow the provided steps:
 
 #### See also
 
-- [<ins>Set up external terminal integration<ins>]({{< ref "../../../../providers/external_terminal/how-to/setup/index.md" >}})
+- [<ins>Set up external terminal integration<ins>]({{< ref "../../../../providers/standalone_terminal/how-to/setup/index.md" >}})
 - [<ins>POS processes - learn & apply<ins>]({{< ref "../../../pos_processes/intro.md" >}})

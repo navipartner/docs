@@ -1,5 +1,5 @@
 ---
-title: "External EFT providers"
+title: "External PSP"
 description: ""
 lead: ""
 date: 2023-09-14T10:15:04+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "integrations-0651e2cc510974b0a27584d3ff43d1b3"
-weight: 625
+weight: 640
 toc: true
 type: docs
 ---
