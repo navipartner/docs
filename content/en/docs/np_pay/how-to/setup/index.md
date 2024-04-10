@@ -25,7 +25,7 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **EFT Setup**, and choose the related link.     
 2.	In **Payment Type POS** provide **T**.       
-    The T payment type uses NP Pay as the service provider. 
+    The T payment type uses NP Pay as the payment service provider. 
 3.	Provide the number of the POS unit you wish to attach NP Pay to in **POS Unit No**. 
 4.	In **EFT Integration Type** open the pop-up by clicking ![Elipsis icon](elipsis_icon.png) and select **ADYEN_CLOUD**.
 5.	With the line selected, navigate to the **Payment Type Parameters**.
