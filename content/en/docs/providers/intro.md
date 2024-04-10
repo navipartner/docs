@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is NP Pay, but it's also possible to integrate our solutions with external PSPs like SoftPay, Nets Baxi etc. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
+Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is [<ins>NP Pay<ins>]({{< ref "../np_pay/how-to/setup/index.md" >}}), but it's also possible to integrate our solutions with external PSPs like SoftPay, Nets Baxi etc. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
 
 All integrations need to be linked to payment methods used on the POS, since that's where they are triggered from. Establishing links between EFT integrations and POS payment methods is done in the **EFT Setup** administrative section in Business Central. When the setup is complete, the POS invokes a specific EFT framework depending on the selected payment method.
 

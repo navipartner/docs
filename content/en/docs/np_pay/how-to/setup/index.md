@@ -19,7 +19,9 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 
 #### Prerequisites
 
-- Create the API credentials connected to the store and the terminal via the Adyen Web admin menu.
+- Create the API credentials connected to the store and the terminal via the Adyen Web admin menu.     
+  API credentials have roles that are assigned when a company account is created. Refer to the full list of [<ins>frequently used API roles<ins>](https://docs.adyen.com/development-resources/api-credentials/roles/) for more information.
+- Make sure the [<ins>WebSocket<ins>](https://docs.adyen.com/point-of-sale/diagnostics/check-cloud-connection/) is enabled in your **Customer Area** under **In-person payments** > **Terminal settings** > **Integrations**. Consequently, you will be able to verify whether the live connection with the terminals has been established.
 
 #### Procedure
 

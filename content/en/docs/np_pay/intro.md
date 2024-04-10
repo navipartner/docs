@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-NP Pay is NaviPartner's payment service provider. Currently, only the cloud architecture is supported, whereby the POS and the payment terminal communicate via the Internet. However, it will also be possible to establish local network communication between the POS and the terminal in the future. 
+NP Pay is NaviPartner's payment service provider. Currently, only the [<ins>cloud architecture<ins>](https://docs.adyen.com/point-of-sale/design-your-integration/choose-your-architecture/cloud/) is supported, whereby the POS and the payment terminal communicate via the Internet. However, it will also be possible to establish [<ins>local network communication<ins>](https://docs.adyen.com/point-of-sale/design-your-integration/choose-your-architecture/local/) between the POS and the terminal in the future. 
 
   {{< alert icon="📝" text="NaviPartner's solutions are also compatible with multiple external payment service providers, although we offer full support only for NP Pay."/>}}
 
