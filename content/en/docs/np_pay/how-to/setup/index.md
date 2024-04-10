@@ -19,7 +19,6 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 
 #### Prerequisites
 
-- Have a terminal from Adyen.
 - Create the API credentials connected to the store and the terminal via the Adyen Web admin menu.
 
 #### Procedure
@@ -32,5 +31,5 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 5.	With the line selected, navigate to the **Payment Type Parameters**.
 6.	Insert the value from **Adyen API Credentials** in the **API Key** field.
 7.	Close the page and navigate to **POS Unit Parameters**.
-8.	In the **POS ID** insert the ID of the terminal from Adyen.      
+8.	In the **POS ID** insert the terminal ID.      
     The ID is usually expressed in the following format: [Terminal Type] - [Serial Number] - for example P400Plus-123123123.
