@@ -1,6 +1,6 @@
 ---
 title: "Set up printing with codeunits"
-description: "Codeunits are pieces of printer-friendly code that determine what kind of content will be printed."
+description: "When printing with codeunits, it's necessary to specify a layout through methods."
 lead: ""
 date: 2024-03-01T11:24:59+01:00
 lastmod: 2024-03-01T11:24:59+01:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Codeunits are pieces of printer-friendly code that determine what kind of content will be printed. They are similar to print templates in terms of structure and content, as they are are defined through code, they are more reliable and convenient for users with advanced technical knowledge.  
+When printing with codeunits, it's necessary to specify a layout through methods. NaviPartner has two public interfaces - one for Matrix (codeunit 6060039 "NPR RP Matrix Print"), and the other for Line printing (codeunit 6150960 "NPR RP Line Print").
 
 There are multiple default ready-to-use codeunits available in the system, but it's also possible to create new ones and import them to your NP environment. Each codeunit needs to consist of a unique ID which is used to reference it when selecting which content is printed.
 
@@ -34,10 +34,6 @@ To select a codeunit for printing purposes, follow the provided steps:
 3. Open the dropdown list in the **Codeunit ID** column, followed by **Select from full list**.       
    A list of all existing codeunits is displayed. They are usually accompanied by descriptions which help you determine their purpose. 
 4. Choose the codeunit you wish to print, and bear in mind that they either fit the [<ins>line<ins>]({{< ref "../receipt_print_template/index.md" >}}) or the [<ins>matrix<ins>]({{< ref "../create_print_template_label/index.md" >}}) print scenario.      
-  
-   For example, you can choose one of the following options:      
-   - codeunit **6150960** "NPR RP Line Print"
-   - codeunit **6060039** "NPR RP Matrix Print"
 
    {{< alert icon="💡" text="If you're selecting print output via codeunits, it's not necessary to populate the <b>Print Template</b> field." />}}
 
