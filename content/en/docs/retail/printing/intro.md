@@ -20,7 +20,7 @@ This documentation section covers the essential printer configuration entities f
 ## Reports
 
 [<ins>Reports<ins>]({{< ref "../reports/intro.md" >}}) are a part of the standard Business Central package. They are used for gathering all information based on a requested set of criteria in one place. The gathered information is related to the context of the specific page you're requesting it from. 
-They are the best option if you wish to print sales documents, income statements, A5 POS receipts, cards or [<ins>RDLC files<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-rdlc-report-layouts).
+They are the best option if you wish to print sales documents, income statements, A5 POS receipts or cards.
 
 Report printing is carried out either with the default printer, or the printer specified in the [<ins>**Printer Selection**<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-specify-printer-selection-reports) administrative section in Business Central.
 

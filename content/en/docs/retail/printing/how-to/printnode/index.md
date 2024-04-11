@@ -35,7 +35,7 @@ Before you can use PrintNode to perform print jobs, you need to take the followi
 2. Bring up PrintNode by clicking its icon in the notification area of your operating system.      
    Among others, you will see options for **Printers** and the **Account**.
 
-    {{< alert icon="📝" text="The <b>Printers</b> list contains the global ID of each connected printer. These numbers need to be referenced when performing print jobs, instead of printer names."/>}}
+    {{< alert icon="📝" text="The <b>Printers</b> list contains the global ID of each connected printer. These numbers need to be referenced when performing print jobs, instead of printer names. You can dictate which printers will be available for printing via the <b>Active</b> checkbox."/>}}
 
 3. Open the [<ins>PrintNode<ins>](https://www.printnode.com/en) website, and click **API Keys** in the upper right corner, and create a new **API Key**.     
    The API key will need to be input in Business Central.
