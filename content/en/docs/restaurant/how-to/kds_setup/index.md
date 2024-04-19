@@ -1,6 +1,6 @@
 ---
 title: "Set up KDS"
-description: ""
+description: "There are several administrative sections that need to be configured in Business Central before you can effectively use KDS (Kitchen Display System)."
 lead: ""
 date: 2024-04-11T10:46:53+02:00
 lastmod: 2024-04-11T10:46:53+02:00
@@ -15,36 +15,49 @@ toc: true
 type: docs
 ---
 
-There are several administrative sections that need to be configured to suit your restaurant setup. 
+There are several administrative sections that need to be configured in Business Central before you can effectively use KDS (Kitchen Display System). 
 
-In the Restaurant Setup administrative section, there's a field Serving Step Discovery Method in the Kitchen Integration panel. Identifies which items are going to be produced for the kitchen, and which can't be produced. 
+To set up prerequisites and the KDS, follow the provided steps:
 
-Rest. Item Routing Profiles administrative section in Business Central
+#### Prerequisites
 
-These are actually groups of connected food items, e.g. meat with salad (prepared in different kitchen stations so they can each prepare a portion that they're meant to produce, but served as a part of the same dish)
+- Create and fully configure **Item Cards** which correspond to dishes that are going to be prepared in the restaurant.
+- Add at least one restaurant to the environment, and create a seating plan.
+- Create a **Restaurant Profile**, and assign it to POS units.
 
-Set up profiles, and assign the serving step at which the item is to be served in the dining process. Entre, main, desert. The system needs to know at which step the items need to be ready. Fast food - one serving steps; fine dining - multiple serving steps that need to be identified by the system, and placed orders in the kitchen in the correct order for doing the production.
-Print production categories column - identify to which kitchen station the order is to be sent. There can be multiple kitchen stations (burger station, fry station, grill, pizza, dessert), they need to receive orders only for items relevant to them. 
+#### Procedure 
 
-Item routing profiles are assigned to items. Navigate to an item card that you need. E.g. burger 
-Navigate to the item's NPR Properties panel, and check the value in the Rest. Item Routing Profile field. Assign this item to the item group defined by this profile. Then, the system will know to which kitchen station it needs to send this item, and at which step it should be served to customers.
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Restaurant Setup**, and choose the related link. 
+2. Make sure **KDS** is activated. 
+3. Move on to the **Kitchen Integration** panel, and select **Item Routing Profiles** as the **Serving Step Discovery Method**.
+4. Navigate to the **Print/Prod. Categories** administrative section. 
+5. Create a **Print/Prod. Category** or categories that are going to be linked to the **Item Cards** of the prepared dishes.       
+   Print/production categories determine to which kitchen station the order is to be sent (e.g. grill station, pizza station).
 
-E.g. Preserved lemon chicken skewers with summer salad (grilled meat with salad routing profile)
+   ![print_categories](Images/print_categories.PNG)
 
-Kitchen Station Selection Setup administrative section
+6. Navigate to the **Rest. Routing Profiles** administrative section. 
+7. Create **Rest. Routing Profile** or profiles, and use them to specify under which serving step the dishes are going to be served, and which print/production category they refer to.      
 
-Identify which restaurant and kitchen station to send each product category
+   {{< alert icon="📝" text="Fast food restaurants usually use a single serving step in their food preparation process, while fine-dining restaurants use multiple. Each serving step needs to be identified by the system, and the corresponding orders need to be placed in the kitchen in the correct sequence."/>}}
 
-If the serving step is MAIN and the category code is BURGER, it will go to the kitchen station called BURGER.
+   ![routing_profiles](Images/routing_profiles.PNG)
 
-In the back end, you need to create categories first, followed by profiles. First go to routing profiles, and click the Print./Prod. Categories, then select one of the previously created categories from the list. 
+   {{< alert icon="📝" text="It's possible to assign multiple categories to a single routing profile, in case multiple dish components need to be prepared in different manner before the assembly (e.g. grilled meat with salad would need to be prepared in the grill and salad stations respectively)."/>}}
+   
+8. Open an **Item Card** corresponding to one of the dishes prepared by the restaurant, e.g. cheeseburger.
+9. Navigate to the item's **NPR Properties** panel, and assign this item to the item group defined by the routing profile.    
+   In this way, you're notifying the system that the item needs to be sent to a specific kitchen station, and served to customers as a part of a specific serving step. 
 
-Log into the POS
-Select the restaurant from the list (fine dining or fast food)
-Select an available table from the floor plan to place an order
-The New Waiterpad window is displayed
-Pick a number of guests that are seated around the table. Optionally, provide personal information of one of the guests, such as name and phone number.
-Place an order by selecting the Preserved lemon chicken skewers with summer salad from the POS menu
-Press **Request (Run) Next Serving**.
+   ![routing_properties](Images/routing_properties.PNG)
 
-Navigate to Business Central/Open KDS from Minor Tom. Check if it's called Expedite View or something similar?
+10. Navigate to the **Kitchen Station Selection Setup** administrative section.       
+    Here, you can specify which category will be assigned to which kitchen station, for every restaurant available in the environment. This administrative section is more suitable for fine-dining restaurants, which have a more complex food preparation and serving system. For example, the **Drinks** category is best suited for the **Bar** kitchen station.
+11. Select the restaurant this kitchen station selection setup line is used at or leave the **Restaurant Code** field blank if you wish the setup line to be used for all restaurants in the system.       
+    The same logic should be applied to **Seating Location**, **Serving Step**, and **Print Category Code**.
+12. Provide the print category code and the kitchen station the dish is prepared in. 
+
+
+#### See also
+
+- [<ins>Kitchen Display System<ins>]({{< ref "../../explanation/kds/index.md" >}})
