@@ -1,6 +1,6 @@
 ---
 title: "Admin Button (Restaurant Seating Plan View)"
-description: ""
+description: "The main advantage of this button on the Restaurant Seating Plan View is that you don't need to go to the Sales view to access its contents, i.e. you don't need to create a waiter pad to move to the Sales view. "
 lead: ""
 date: 2023-08-22T14:04:59+02:00
 lastmod: 2023-08-22T14:04:59+02:00
