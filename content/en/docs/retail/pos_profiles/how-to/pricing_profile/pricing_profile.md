@@ -27,11 +27,13 @@ Each POS can have different customer price lists, customer discount list, and pr
 
 ![POS_set](POS_new.png)
 
-1. In the field **Item Price Function** choose between:     
+7. In the field **Item Price Function** choose between:     
    - **Find Best Retail Price function**,   
    - **Find HQ Connector Price**.
 
  ![POS_2](POS_matching.png)
+
+ {{< alert icon="❗" text="When configuring the pricing profile, it's important to check whether any specific <b>Sales Price List</b> is referenced from an <b>Item Card</b> that is also affected by the pricing profile. Any sales price list set to <b>All Customers</b> may override setup from the <b>POS Pricing Profile</b>, and be used as the price source for all customers."/>}}
 
 ## Next steps
 
@@ -50,9 +52,10 @@ Sales Price List for the POS Price Profile.
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Sales Price Lists**, and choose the related link.
 2. Click **New**.
-3. Create a price list with **POS Price Profile** as the **Assign-to Type**.
+3. Create a price list with **POS Pricing Profile** as the **Assign-to Type**.
 4. Specify **Price List Lines**.
 5. Activate the **Price List**.
+
 
 
 #### See also
