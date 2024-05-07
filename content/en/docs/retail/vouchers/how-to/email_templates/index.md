@@ -1,6 +1,6 @@
 ---
 title: "Set up Voucher E-mail templates"
-description: "This portion of the POS Academy instructs on how to set e-mail body that recipients of the voucher will receive."
+description: "This guide instructs you how to set e-mail body that recipients of the voucher will receive."
 lead: ""
 date: 2023-08-17T09:50:24+02:00
 lastmod: 2023-08-17T09:50:24+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-This portion of the POS Academy instructs on how to set e-mail body that recipients of the voucher will receive.
+Follow the provided steps to set e-mail body that recipients of the voucher will receive.
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **E-mail templates**, and choose the related link.
 2.	Click **New** in the ribbon.

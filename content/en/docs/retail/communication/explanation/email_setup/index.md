@@ -28,7 +28,7 @@ You need to do the following if you wish to use the emails setup features succes
 - Have the **EMAIL SETUP** permission set.
 - Be a fully licensed Business Central user. Delegated administrators and guest users can't use the tenant's email account. 
 
-## See also
+#### See also
 
 - [<ins>Set up Email<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email)
 - [<ins>Send Documents and Emails<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-send-documents-email)
