@@ -34,9 +34,9 @@ Source: [Adobe Commerce lifecycle policy](https://experienceleague.adobe.com/doc
 
 | Branch      | Initial release | Active support until | Security support until | 
 | ----------- | ----------- | ----------- | ----------- |
-| 8.1 | 25 Nov 2021 | 25 Nov 2023 | 25 Nov 2024 |
-| 8.2 | 8 Dec 2022 | 8 Dec 2024 | 8 Dec 2025 |
-| 8.3 | 23 Nov 2023 | 23 Nov 2025 | 23 Nov 2026 |
+| 8.1 | 25 Nov 2021 | 25 Nov 2023 | 31 Dec 2025 |
+| 8.2 | 8 Dec 2022 | 31 Dec 2024 | 31 Dec 2026 |
+| 8.3 | 23 Nov 2023 | 31 Dec 2025 | 31 Dec 2027 |
 
 Source: [PHP supported versions](https://www.php.net/supported-versions.php)
 
