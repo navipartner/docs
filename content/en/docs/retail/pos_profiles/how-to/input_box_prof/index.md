@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The POS input box profiles are used for setting up the type of data that will be recognized in the POS unit input boxes. There are two types of POS input box profiles, one is used in the **Sale View**, and the other one in the **Payment View** of the POS unit. 
+The POS input box profiles are used for setting up the type of data that will be recognized in the POS unit input boxes. There are two types of POS input box profiles - one is used in the **Sale View**, and the other one in the **Payment View** of the POS unit. 
 
 ![input_box_profiles](Images/input_box_profiles.PNG)
 
@@ -27,17 +27,17 @@ Therefore, it is necessary to define two separate profiles for each view when co
 3. Insert a unique **Code** for the input box setup method, and a **Description** in the designated fields. 
 4. Select a **POS View**.   
    This selection determines whether it will be used in the sale POS box or the payment POS box.
-5. Move onto setting up the **POS Input Box Setup Events**.     
-   The events trigger actions for inserting data in the **POS Input Box**. Every event needs to be enabled before it can be used on the POS. The following options are available: 
+5. Move onto [<ins>setting up the **POS Input Box Setup Events**<ins>]({{< ref "../../reference/input_box_profile/input_box_profile.md" >}}).     
+   The events trigger actions for inserting data in the **POS Input Box**. 
 
-| Code     | Module name | Description | Action code | Action description | POS view | Event codeunit | 
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **BOARDING_PASS** | Tax Free | Boarding Pass | BOARDINGPASS | a POS action for scanning a boarding pass | Sale | 6150837 |
-| **BOARDINGPASS** | Tax Free | Boarding Pass | BOARDINGPASS | a POS action for scanning a boarding pass | Sale | 6150837 |
-| **CUSTOMERNAME** | Customer | Customer Name | CUSTOMER_SELECT | a POS action for attaching or removing customers from a POS sale | Sale | 6150865 |
-| **CUSTOMERNO** | Customer | Customer No. | CUSTOMER_SELECT | a POS action for attaching or removing customers from a POS sale | Sale | 6150865 |
-| **DISCOUNT_COUPON** | Discount Coupon | Reference No. | SCAN_COUPON | a POS action that handles scanning discount coupons | Sale | 6151590 |
-| **EXCHLABEL** | Exchange Label | Barcode | EXCHANGELABEL | a POS action for handling exchange labels | Sale | 6150830 |
-| **GLOBAL_EXCHANGE** | Global Exchange | Handles return of the global exchange label | CROSS_REF_RETURN | a POS action for returning items based on their global cross reference numbers | Sale | 6151169 |
-| **INPUTBOX_JSON_ACTION** | JSON Action Orchestration | JSON payload action | INPUTBOX_JSON | a POS action for handling JSON sent to the input box | Sale | 6150947 | 
-| **ITEM_UNIT_PRICE** | Item | 
+{{< alert icon="📝" text="If there is a single profile setup for sale, and a single profile setup for payment, it's recommended to name them accordingly to avoid mixing them up. You can always create new sets of profiles by providing unique code and description."/>}}
+
+6. Attach the created POS input box profiles to the appropriate POS unit via its **POS Unit Card**.
+
+  ![pos_unit_input_boxes](Images/pos_unit_input_boxes.PNG)
+
+
+#### See also
+
+- [<ins>Create a new POS unit<ins>]({{< ref "../../../pos_processes/how-to/create_pos_unit/index.md" >}})
+- [<ins>POS profiles<ins>]({{< ref "../../intro.md" >}})
