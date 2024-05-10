@@ -22,7 +22,7 @@ You can define the particularities that is associated with a Restaurant, such as
 
 #### Restaurant configuration examples
 
-- **Fine-dining restaurant** - This is an à la carte restaurant in which payment is carried out after dining. It has more than one kitchen that prepares the food. 
+- **Fine-dining restaurant** - This is an à la carte restaurant in which payment is carried out after dining. It has more than one kitchen station that prepares the food. 
 - **Burger place** - Payment is carried out as soon as the order is placed, before serving. It has one kitchen in the back area. 
 - **Pizza place** - Payment is carried out as soon as the order is placed, before serving. The food is prepared in front of the customer.
 - **Take-away kiosk** - Payment is carried out as soon as the order is placed, with food being prepared in front of the customer. There's no seating arrangement.
