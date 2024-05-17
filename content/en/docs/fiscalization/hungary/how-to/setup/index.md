@@ -19,9 +19,9 @@ E-invoices, provided by [<ins>Multisoft<ins>](https://www.multisoft.hu/en/homepa
 
 To enable e-invoices, follow the provided steps:
 
-1. Navigate to the **HU MultiSoft E-Invoicing Setup** administrative section in Business Central.     
+1. Navigate to the **HU MultiSoft/NaviPartner EInvoice Setup** administrative section in Business Central.     
    A new page is displayed.
-2. Enable the HU **E-Invoicing**.
+2. Enable the **EInvoice Adjustments**.
 3. Navigate to the **POS Audit Profile** administrative section.     
    The list of audit profiles is displayed.
 4. Create a new audit profile, and select **HU_MULTISOFTEINVOICE** as the **Audit Handler**.
@@ -36,3 +36,5 @@ To enable e-invoices, follow the provided steps:
    ![hu_payment](Images/hu_payment.PNG)
 
    When sales are finished, only the mapped payment methods will be applied to the sales orders. 
+
+   {{< alert icon="📝" text="It is possible to check more than one payment method in case your business operates with multiple payment methods."/>}}
