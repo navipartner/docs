@@ -36,7 +36,7 @@ This article details how to configure NP Retail for compliance in Germany.
 
     - Set up payment method mappings. To do that, navigate to the **Payment Method Mapper** page, and create an entry for each payment method.
 
-    - Set up VAT posting setup mappings. To do that, in the **VAT Posting Setup Mapper List** create an entry for each combination of the VAT product and the VAT business posting groups.
+    - Set up VAT posting setup mappings. To do that, navigate to the **VAT Posting Setup Mapper List**, and create an entry for each combination of the VAT product and the VAT business posting groups.
 
 
 ## Next steps
