@@ -34,9 +34,9 @@ This article details how to configure NP Retail for compliance in Germany.
 
     - Click **Create Fiskaly Client** for each record you have set up on the page. The system will connect to Fiskaly, and register the POS unit with them as a Fiskaly client. After the process is completed, each record registered at Fiskaly on the page will have the **Fiskaly Client Created at** and **Last Known Fiskaly Client State** fields automatically filled in.
 
-    - Set up payment method mappings. To do that, click **Payment Method Mapping**, and on the **Payment Method Mapper** page create an entry for each payment method.
+    - Set up payment method mappings. To do that, navigate to the **Payment Method Mapper** page, and create an entry for each payment method.
 
-    - Set up VAT posting setup mappings. To do that, click **VAT Posting Setup Mapping**, and on the **VAT Post Group Mapper List** page create an entry for each combination of the VAT product and VAT business posting groups.
+    - Set up VAT posting setup mappings. To do that, in the **VAT Posting Setup Mapper List** create an entry for each combination of the VAT product and the VAT business posting groups.
 
 
 ## Next steps
