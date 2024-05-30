@@ -1,6 +1,6 @@
 ---
 title: "Set up integration with Planet"
-description: ""
+description: "Planet provides payment and technology solutions for Retail and Hospitality solutions worldwide. To set up integration with Planet in NP Retail, follow the steps provided in this article. "
 lead: ""
 date: 2024-03-14T09:47:39+01:00
 lastmod: 2024-03-14T09:47:39+01:00
