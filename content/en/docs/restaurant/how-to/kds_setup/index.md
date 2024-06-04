@@ -57,6 +57,7 @@ To set up prerequisites and the KDS, follow the provided steps:
     The same logic should be applied to **Seating Location**, **Serving Step**, and **Print Category Code**.
 12. Provide the print category code and the kitchen station the dish is prepared in. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwkgHZAFeAU?si=7fTN_L-GRigdHNlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### See also
 
