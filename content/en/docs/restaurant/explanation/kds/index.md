@@ -39,3 +39,4 @@ The transition between the preparation and packing stations is tracked on a scre
 
 ![kds_customer](Images/kds_customer.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwkgHZAFeAU?si=7fTN_L-GRigdHNlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
