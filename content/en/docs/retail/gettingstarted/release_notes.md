@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 07.06. | [<ins>Send SMS with a purchased ticket<ins>]({{< ref "../../entertainment/ticket/how-to/issue_ticket_pos/index.md" >}}) <br/> [▶️](https://www.youtube.com/watch?v=sTXZINekEj0&ab_channel=NaviPartner) | You can now sent SMS with a purchased ticket to a customer, so they can save it in their phones for later use. |
 | 08.04. | Lot number tracking on POS | It is now possible to track certain items via their Lot numbers on POS. If an item is set to have mandatory Lot number tracking, it will not be possible to finalize the sale before Lot number input. It will also be necessary to provide Lot numbers for such items during any other type of item handling on POS e.g. item returns.
 | 04.04. | [<ins>KDS (Kitchen Display System)<ins>]({{< ref "../../restaurant/explanation/kds/index.md" >}}) <br/> [▶️](https://www.youtube.com/watch?v=FwkgHZAFeAU&ab_channel=NaviPartner) | The Kitchen Display System (KDS) can now be brought up and interacted with from Minor Tom after the initial setup is performed in Business Central. | 
 | 19.03. | [<ins>Compliance with Belgian fiscal laws<ins>]({{< ref "../../fiscalization/belgium/how-to/setup/index.md" >}}) | NP Retail is now fully compliant with Belgian fiscal laws. |
