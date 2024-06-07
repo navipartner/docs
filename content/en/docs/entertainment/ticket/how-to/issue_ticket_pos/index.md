@@ -37,9 +37,14 @@ The process of issuing a ticket from the POS follows the same flow as when stand
 
 ## SMS ticket
 
-If a customer's phone number has been provided in the previous steps, they will receive an SMS containing the URL which directs them to the download link for their purchased ticket. Once they download and open the file, they will see the barcode that needs to be scanned to provide them entry to the requested event/object.
+If a customer's phone number has been provided in the previous steps, they will receive an SMS containing the URL which directs them to the download link for their purchased ticket. 
 
    ![sms_ticket_3](Images/sms_ticket_3.PNG)
+
+Once they download and open the file, they will see the barcode that needs to be scanned to provide them entry to the requested event/object.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sTXZINekEj0?si=js30xVab3D6cNtJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### See also
 
