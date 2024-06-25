@@ -21,12 +21,19 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hZ7-MGKY4tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Introduction
+## Getting started
 
 | Article Name      | Description |
 | ----------- | ----------- |
 | [<ins>NP Retail overview<ins>]({{< ref "intro.md" >}}) | Learn more about the NP Retail solution for POS systems. |
 | [<ins>Install Minor Tom<ins>]({{< ref "minor_tom.md" >}}) and [<ins>HW Connector<ins>]({{< ref "hw_connector.md" >}}) | Follow the provided instructions to download and install two small additional apps that you need to be able to run NP Retail effectively. |
+
+
+## POS layout
+
+| Article Name      | Description |
+| ----------- | ----------- |
+| [<ins>POS Frontend Editor<ins>]({{< ref "../pos_layout/explanation/pos_editor.md" >}}) |Learn how to use the POS Frontend Editor to configure the layout in a way that best suits your company's business needs. | 
 
 ## POS processes
 
