@@ -26,6 +26,7 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | Article Name      | Description |
 | ----------- | ----------- |
 | [<ins>NP Retail overview<ins>]({{< ref "intro.md" >}}) | Learn more about the NP Retail solution for POS systems. |
+| [<ins>Install Minor Tom<ins>]({{< ref "minor_tom.md" >}}) and [<ins>HW Connector<ins>]({{< ref "hw_connector.md" >}}) | Follow the provided instructions to download and install two small additional apps that you need to be able to run NP Retail effectively. |
 
 ## POS processes
 
