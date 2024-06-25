@@ -1,6 +1,6 @@
 ---
 title: "POS Editor"
-description: "The POS Editor is a collection of options for customizing the POS screen, located in the ribbon up-top. It contains labels that correspond to customizable areas on the POS screen, such as Sale Lines and Totals."
+description: "The POS Editor is a collection of options for customizing the POS screen. It contains labels that correspond to customizable areas on the POS screen, such as Sale Lines and Totals."
 lead: ""
 date: 2023-12-13T12:39:58+01:00
 lastmod: 2023-12-13T12:39:58+01:00
@@ -15,15 +15,37 @@ toc: true
 type: docs
 ---
 
-The POS Editor is a collection of options for customizing the POS screen, located in the ribbon up-top. It contains labels that correspond to customizable areas on the POS screen, such as Sale Lines and Totals.
+The POS (Frontend) Editor is a collection of options for customizing the POS screen, located in the ribbon up-top. It contains labels that correspond to customizable areas on the POS screen, such as Sale Lines and Totals.
+
+You can bring up the POS editor by pressing the <image src="Images/cog.PNG" width="30" height="30"> button at the bottom right corner of the screen. 
 
 {{< alert icon="📝" text="The POS Editor is also used for customizing the NP Retail POS mobile app layout."/>}}
 
-The following screen areas can be customized: 
+The following screen areas can be customized on the Login view and in the Sale view respectively: 
+
+## Login view editor
+
+### Logo
+
+You can upload a desired logo or provide a URL path to it. The logo will be displayed on the login screen only. If needed, you can change the logo or clear it later. 
+
+### Panel Rows
+
+Use the panel rows to select the content that will be displayed in the box on the left side of the screen, as well as the order in which it is listed. For example, the box can contain information on the last performed sale, balance, and the code of the salesperson who has conducted the sale. It is also possible to select the font size for the box content.
+
+### Panel Bottom Line
+
+You can also select which content is going to be displayed in the panel footer, e.g. the number of the POS unit that has performed the previous sale. As with the **Panel Rows**, you can choose the font size and the order of the textual components.
+
+### Footer
+
+Like the title suggests, you can modify the content of the POS login view footer. The values included by default are data on the last sale and the current date.
+
+## Sale view editor
 
 ### Grids
 
-The **Grids** option allows you to choose how many columns and rows each of the POS menus (*SALE-LEFT*, *SALE-TOP*, and *SALE-BOTTOM*) will contain. This option is especially useful when you want to make room for [<ins>new buttons<ins>]({{< ref "../../how-to/new_button/index.md" >}}) on the screen.
+The **Grids** option allows you to choose how many columns and rows each of the POS menus (*SALE-LEFT*, *SALE-TOP*, and *SALE-BOTTOM*) will contain. This option is especially useful when you want to make room for [<ins>new buttons<ins>]({{< ref "../../how-to/new_button/index.md" >}}) on the screen. If, while defining new buttons in the grid, you've left any undesired empty spaces, you can remove them all simultaneously via the **Remove Empty Buttons** option.
 
 ### Sale Lines
 
@@ -63,6 +85,8 @@ The **Template** dropdown contains the list of available templates. Changing a t
 - Alternatively, you can **Clear Changes**, and start anew.
 - The <image src="Images/cog.PNG" width="30" height="30"> icon brings up **Global Settings** which are intended for advanced users.
 - The <image src="Images/weird_icon.PNG" width="30" height="30"> icon opens the [<ins>POS Layout Setup Wizard<ins>]({{< ref "../../how-to/layout_wizard/index.md" >}}).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TOnYujxa7wc?si=pWIaJMF9Y0YYZmGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### See also
 
