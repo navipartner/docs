@@ -17,6 +17,7 @@ type: docs
 
 To learn how to achieve compliance with fiscalization requirements imposed by fiscal laws of specific countries refer to one of the following articles:
 
+- [<ins>Fiscalization compliance - Austria<ins>]({{< ref "austria/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Belgium<ins>]({{< ref "belgium/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Bulgaria<ins>]({{< ref "bulgaria/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Croatia<ins>]({{< ref "croatia/how-to/setup/index.md" >}})
