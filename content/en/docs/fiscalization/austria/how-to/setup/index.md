@@ -71,3 +71,9 @@ To configure NP Retail for compliance with Austrian fiscal laws, follow the prov
     Cash transactions are all payment made in cash, but they also include credit/debit card payments, gift cards/vouchers, and any other cash substitutes, while bank transfer is a non-cash transaction.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3AWFsa9u_Qg?si=tti_NF2Mlh29yFkn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+#### See also 
+
+- [<ins>Transactions (Austrian fiscalization)<ins>]({{< ref "../../explanation/transactions/index.md" >}})
+- [<ins>AT POS Audit Log (Austrian fiscalization)<ins>]({{< ref "../../reference/audit_log/index.md" >}})
