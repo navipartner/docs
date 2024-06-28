@@ -78,6 +78,7 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | Article Name      | Description |
 | ----------- | ----------- |
 | [<ins>Printing setup<ins>]({{< ref "../printing/intro.md" >}}) | This section contains descriptions of the processes of setting up printers, print templates, and reports. |
+| [<ins>Set up retail logo for printing<ins>]({{< ref "../pos_processes/how-to/retail_logo/index.md" >}}) | You can add a desired logo via the Retail Logo module, so you don't need to manually upload logos for each individual receipt before printing. |
 
 ## Users
 
