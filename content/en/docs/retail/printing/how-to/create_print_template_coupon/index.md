@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_print_template_coupon-1b74f376dfc91b7c5c81de27a4912b3b"
-weight: 261
+weight: 278
 toc: true
 type: docs
 ---
