@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "open_cash_register_drawer_print_template-301afc0c11fcf016db12a6eebf2e9e63"
-weight: 261
+weight: 278
 toc: true
 type: docs
 ---
