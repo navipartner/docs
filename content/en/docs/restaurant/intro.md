@@ -29,6 +29,7 @@ If you wish to use the Restaurant module, you first need to log into the NP Reta
 - [<ins>Kitchen<ins>]({{< ref "explanation/kitchen/index.md" >}})
 - [<ins>Listings<ins>]({{< ref "explanation/listings/index.md" >}})
 - [<ins>Restaurant transactions flow<ins>]({{< ref "explanation/restaurant_flow/index.md" >}})
+- [<ins>Restaurant item routing profiles<ins>]({{< ref "explanation/routing_profiles/index.md" >}})
 - [<ins>Restaurant POS View/POS menus<ins>]({{< ref "explanation/restaurant_seating_plan/index.md" >}})
 - [<ins>Restaurant Seating Plan View<ins>]({{< ref "explanation/admin/index.md" >}})
 - [<ins>POS actions used in Restaurant Module<ins>]({{< ref "reference/pos_actions/index.md" >}})
