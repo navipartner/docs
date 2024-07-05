@@ -19,7 +19,7 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 
 #### Prerequisites
 
-- [<ins>Create the API credentials<ins>]({{< ref "../api_credentials/index.md" >}}) connected to the store and the terminal via the Adyen Web admin menu.
+- Create the API credentials connected to the store and the terminal via the Adyen Web admin menu.
 
 #### Procedure
 
