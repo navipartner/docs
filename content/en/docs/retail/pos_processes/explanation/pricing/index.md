@@ -45,6 +45,8 @@ In the example provided above, an adjustment factor was applied to the unit pric
 
 It’s also recommended to run the **Verify Lines** action that checks if there are duplicate lines in the details of the **Sales Price List**. If there are issues, you will receive suggestions for fixing them, and if everything is correct, the scheme will be set to **Active**.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dDaY9iLQHE?si=YRHix8Krnc6U89cX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### See also
 
 - [<ins>Multiple prices on a group of items<ins>]({{< ref "../multiple_prices_item_group/index.md" >}})

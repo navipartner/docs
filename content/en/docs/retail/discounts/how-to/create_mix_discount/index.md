@@ -86,6 +86,8 @@ To set up mix discounts, follow the provided steps:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xDJF8fIzZW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NynY_ZB-jxc?si=3pRkVfP298FGKrvy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### See also
 
 - [<ins>Discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})

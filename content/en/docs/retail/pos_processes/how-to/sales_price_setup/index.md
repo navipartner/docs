@@ -74,6 +74,8 @@ Both pricing and discount setup can be performed in one page instead of having t
 
 If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a Default Price List in the [<ins>Price Worksheet<ins>]({{< ref "../price_worksheet_setup/index.md" >}}) administrative section. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DZFlAhoDlvI?si=EgGfm-5626PUCbkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### See also
 
 - [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
