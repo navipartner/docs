@@ -101,10 +101,10 @@
   parent = "solutions"
 
 [[main]]
-  name = "EXTERNAL PSPs"
+  name = "NP PAY"
   weight = 80
   identifier = "providers"
-  url = "/docs/providers/intro"
+  url = "/docs/np_pay/intro"
   parent = "solutions"
 
 [[social]]
