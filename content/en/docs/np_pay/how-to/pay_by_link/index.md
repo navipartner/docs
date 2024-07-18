@@ -53,3 +53,22 @@ The Pay by Link feature enables businesses to streamline and simplify the paymen
 6. After creating Pay by link, you can see the details by opening the **Related** dropdown, and navigating to **Pay by Link** > **Payment Lines**. 
 
    ![pay_by_link_lines](Images/pay_by_link_lines.PNG)
+
+   The following fields and options are used to define payment lines:
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Requested Amount** | Specifies the amount that is requested to be paid via Pay by Link. | 
+   | **Payment ID** | Specifies the unique identifier associated with each Pay by Link transaction. |
+   | **Expires At** | Specifies the deadline by which the customer needs to complete the payment. When the specified date and time expires, Pay by Link becomes invalid. |
+   | **Pay by Link URL** | Contains the unique URL generated for the customer to make a payment via Pay by Link. This URL directs the customer to a secure payment page. |
+
+After authorization is completed, the **Payment Lines** are automatically populated with **Transaction ID**, **Authorized Amount**, and **Authorization Date**. Subsequently, the payment amount can either be captured automatically upon posting or triggered manually. 
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Transaction ID** | Specifies the unique identifier for each payment transaction processed through Pay by Link. |
+   | **Amount** | Specifies the amount that is paid via Pay by Link. | 
+   | **Date Authorized** | Specifies the date when the payment has been authorized. |
+
+   
