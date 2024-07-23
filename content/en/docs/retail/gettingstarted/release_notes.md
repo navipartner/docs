@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 23.07. | Direct payment button for MPOS checkout | The **Direct Payment** button has been added to the MPOS checkout screen in addition to the **Select Payment** button. With it, users can perform direct payment with a single click instead of selecting it from the full list each time. |
 | 24.06. | [<ins>Fiscalization compliance with Austrian fiscal laws<ins>]({{< ref "../../fiscalization/austria/how-to/setup.md" >}}) <br/> [▶️](https://www.youtube.com/watch?v=3AWFsa9u_Qg) | NP Retail is now fully compliant with Austrian fiscal laws. | 
 | 24.06. | MPOS Frontend Editor improvement <br/> [▶️](https://youtu.be/7MJd86VRWt4?si=Em0-UlUsxVcMEfM5) | You can now select how many items per a row you wish to be displayed on the MPOS screen. | 
 | 24.06. | [<ins>POS Frontend Editor improvements<ins>]({{< ref "../pos_layout/explanation/pos_editor/index.md" >}}) <br/> [▶️](https://youtu.be/7MJd86VRWt4?si=Em0-UlUsxVcMEfM5) | You can now enter the POS editor configuration mode directly from the Login screen. There have also been several important additions to the POS Editor **Global Settings**, including the ability to [<ins>change the POS theme, and view the error log<ins>]({{< ref "../pos_layout/explanation/pos_editor_global_settings/index.md" >}}).|
