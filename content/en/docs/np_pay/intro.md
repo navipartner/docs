@@ -24,3 +24,4 @@ NP Pay is NaviPartner's payment service provider. Currently, only the cloud arch
 - [<ins>Set up NP Pay Cloud<ins>]({{< ref "how-to/setup/index.md" >}})
 - [<ins>Verify NP Pay Cloud setup<ins>]({{< ref "how-to/verify_setup/index.md" >}})
 - [<ins>NP Pay reconciliation setup<ins>]({{< ref "explanation/reconciliation/index.md" >}})
+- [<ins>Set up the Pay by Link feature<ins>]({{< ref "how-to/pay_by_link/index.md" >}})
