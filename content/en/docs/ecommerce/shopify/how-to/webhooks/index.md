@@ -1,6 +1,6 @@
 ---
 title: "Set up item-related Shopify webhooks"
-description: ""
+description: "It is possible to set up webhooks which allow all changes to products in Shopify to be synced to Business Central automatically. If webhooks are set up, when a product is registered in Shopify, Business Central will automatically mark the item as Shopify Item."
 lead: ""
 date: 2024-07-24T13:50:30+02:00
 lastmod: 2024-07-24T13:50:30+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-It is possible to set up webhooks which allow new products created in Shopify to be synced to Business Central automatically. If webhooks are set up, when a product is registered in Shopify, Business Central will automatically mark the item as **Shopify Item**.
+It is possible to set up webhooks which allow changes to products in Shopify to be synced to Business Central automatically. If webhooks are set up, when a product is registered in Shopify, Business Central will automatically mark the item as **Shopify Item**.
 
 #### Prerequisites
 
