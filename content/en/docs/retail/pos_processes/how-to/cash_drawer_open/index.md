@@ -15,14 +15,24 @@ toc: true
 type: docs
 ---
 
-This topic walks you through the processes of setting up the cash drawer to automatically open after each sale using the **POS Scenarios Profile** on the POS unit.
+This topic walks you through the processes of setting up the cash drawer to automatically open after each sale using the **POS Audit Profiles** on the POS unit. 
 
 There's two methods for setting up an opening mechanism for a cash drawer:
 
 - With a template
 - With OPOS
 
+## Activate the function to eject cash drawer in NP Retail
+
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Audit Profiles**, and choose the related link.      
+   Alternatively, you can navigate to the **POS Unit Card** and drill down to the **POS Audit Profile** field.
+2. On the **POS Audit Profile** page, activate the **Bin Eject After Sale** toggle switch.
+3. Make sure the **Bin Eject After Sale** toggle switch is activated for Audit Profiles of all POS units that have the opening mechanism set for the cash drawer.
+
+
 ## Configure an opening mechanism for a POS unit cash drawer with a template
+
+To configure an opening mechanism for a POS unit cash drawer with a template, make sure the prerequisites are met, and follow the provided steps:
 
 ### Prerequisites
 
