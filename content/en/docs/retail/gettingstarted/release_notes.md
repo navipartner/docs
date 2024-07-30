@@ -21,7 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
-| 29.07. | [<insShopify webhooks<ins>]({{< ref "../../ecommerce/shopify/how-to/webhooks.md" >}}) | It is now possible to set up webhooks which allow changes to products in Shopify to be synced to Business Central automatically. | 
+| 29.07. | [<ins>Shopify webhooks<ins>]({{< ref "../../ecommerce/shopify/how-to/webhooks.md" >}}) | It is now possible to set up webhooks which allow changes to products in Shopify to be synced to Business Central automatically. | 
 | 23.07. | Direct payment button for MPOS checkout | The **Direct Payment** button has been added to the MPOS checkout screen in addition to the **Select Payment** button. With it, users can perform direct payment with a single click instead of selecting it from the full list each time. |
 | 24.06. | [<ins>Fiscalization compliance with Austrian fiscal laws<ins>]({{< ref "../../fiscalization/austria/how-to/setup.md" >}}) <br/> [▶️](https://www.youtube.com/watch?v=3AWFsa9u_Qg) | NP Retail is now fully compliant with Austrian fiscal laws. | 
 | 24.06. | MPOS Frontend Editor improvement <br/> [▶️](https://youtu.be/7MJd86VRWt4?si=Em0-UlUsxVcMEfM5) | You can now select how many items per a row you wish to be displayed on the MPOS screen. | 
