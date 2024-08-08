@@ -18,7 +18,7 @@ The following administrative sections can be used to set up seating in restauran
 
 ## Seating locations
 
-You can divide each restaurant into multiple areas in the **Seating Locations** administrative section. By default, one seating location is created in the system without the seats capacity. 
+You can divide each restaurant into multiple areas in the **Seating Locations** administrative section. 
 
 ![restaurant5](restaurant5.PNG)
 
@@ -30,7 +30,7 @@ The setup is reflected in the **Restaurant Seating Plan View**:
 
 The **Seating List** contains the number of seats and tables available in a restaurant. It also contains the status and the waiter pads attributed to the tables.
 
-One seating location is created in the system by default. You can add new seating in this administrative section, or in the **Restaurant Plan View**.
+You can add new seating in this administrative section, or in the **Restaurant Plan View**.
 
 For more information, refer to the [<ins>Seating List reference guide<ins>]({{< ref "../../reference/seating_list/index.md" >}})
 

@@ -25,9 +25,7 @@ You can define how many kitchen stations are going to be in charge of preparing 
 
 ## Kitchen Station Selection Setup
 
-In this section, you can define the sequence in which a meal passes from one station to another. There are preparations that can be done in parallel or as a part of a sequence. 
-
-For example, in preparation of a Burger bundle meal, you can prepare the burger and the fries in parallel, but the full order will still be transferred to the packing station when both productions are completed. 
+In this section, you can select in which kitchen station a certain **Print Category Code** (type of menu/food) is being prepared.
 
 ![restaurant8](restaurant8.PNG)
 
