@@ -19,13 +19,13 @@ The following administrative sections are used for configuring the Kitchen setup
 
 ## Kitchen Stations
 
-You can define how many kitchen stations are going to be in charge of preparing meals/drinks for a restaurant in the **Kitchen Stations** administrative section. 
+You can define how many kitchen stations are going to be in charge of preparing meals/drinks for a restaurant in the **Kitchen Stations** administrative section. There can be at least two kitchen stations in the system. 
 
 ![restaurant7](restaurant7.PNG)
 
 ## Kitchen Station Selection Setup
 
-In this section, you can select in which kitchen station a certain **Print Category Code** (type of menu/food) is being prepared. 
+In this section, you can select in which kitchen station a certain **Print Category Code** (type of menu/food) is being prepared.
 
 ![restaurant8](restaurant8.PNG)
 

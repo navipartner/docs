@@ -22,6 +22,8 @@ We can set different color-coding on the table statues, so that a head waiter of
 
 ![restaurant1](restaurant1.PNG)
 
+{{< alert icon="📝" text="The flow statuses for serving do not apply to the fast-food restaurant environment, since all meal components are packed and delivered in one go."/>}}
+
 ## Serving Steps
 
 From the **Flow Statuses** screen, you can add a new flow for the **Serving Steps** as the **Waiter Pad Line Meal Flow** if required. Then it will become available in the **Select Flow Status - Serving Steps**.
