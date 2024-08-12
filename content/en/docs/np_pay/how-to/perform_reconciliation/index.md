@@ -55,3 +55,11 @@ In certain scenarios, you may choose to manually create a reconciliation documen
 3. Open the created **Reconciliation Document** and manually perform matching or posting.    
    The **Recreate Document** action regenerates every unposted transaction within the document; transactions that have already been posted will not be affected. 
 4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**. 
+
+## Interactive demo
+
+Try out the reconciliation feature yourself with our interactive demo:
+
+<iframe class="vidyard_iframe" title="Hartmann’s uses Dynamics 365 Business Central to artfully improve operations" src="
+https://demo.arcade.software/iUq6gBdvnTJBtkarTeUQ?embed"
+width=835 height=470 scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
