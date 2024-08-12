@@ -21,6 +21,9 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 05.08. | [<ins>NP Pay reconciliation<ins>]({{< ref "../../np_pay/how-to/perform_reconciliation.md" >}}) | You can now verify the accuracy of financial records, ensure compliance, and make informed decisions with the introduction of the NP Pay reconciliation feature. |
+| 05.08. | [<ins>NP Pay by Link<ins>]({{< ref "../../np_pay/how-to/pay_by_link.md" >}}) | The new Pay by Link feature helps streamline and simplify the payment process by allowing customers to make secure online payments through a direct link. |
+| 05.08. | NP Pay Endless aisle | The newly introduced endless isle feature gives stores the option to grant customers access and the ability to purchase items that aren't physically in stock. | 
 | 29.07. | [<insShopify webhooks<ins>]({{< ref "../../ecommerce/shopify/how-to/webhooks.md" >}}) | It is now possible to set up webhooks which allow changes to products in Shopify to be synced to Business Central automatically. | 
 | 23.07. | Direct payment button for MPOS checkout | The **Direct Payment** button has been added to the MPOS checkout screen in addition to the **Select Payment** button. With it, users can perform direct payment with a single click instead of selecting it from the full list each time. |
 | 24.06. | [<ins>Fiscalization compliance with Austrian fiscal laws<ins>]({{< ref "../../fiscalization/austria/how-to/setup.md" >}}) <br/> [▶️](https://www.youtube.com/watch?v=3AWFsa9u_Qg) | NP Retail is now fully compliant with Austrian fiscal laws. | 

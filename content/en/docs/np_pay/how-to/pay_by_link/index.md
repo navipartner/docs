@@ -50,6 +50,14 @@ The Pay by Link feature enables businesses to streamline and simplify the paymen
 
    ![pay_by_link_2](Images/pay_by_link_2.PNG)
 
+## Interactive demo
+
+Try out the NP Pay feature with our interactive demo:
+
+<iframe class="vidyard_iframe" title="Hartmann’s uses Dynamics 365 Business Central to artfully improve operations" src="
+https://demo.arcade.software/vfEhAVMfU6uPBtzCZDVG?embed"
+width=835 height=470 scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
+
 ## Next steps
 
 ### View the details
