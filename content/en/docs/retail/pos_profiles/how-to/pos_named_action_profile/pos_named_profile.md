@@ -29,15 +29,15 @@ Follow the provided steps to set all actions that need to be set in order to set
 | **Login Action Code** (required)       | Add the action *LOGIN*.     |
 | **Text Enter Action Code** (required)   | Add the action *TEXT_ENTER*.        |
 | **Item Insert Action Code** (required)  | Add the action *ITEM*. |
-| **Payment Action Code** (required) | Add the action *PAYMENT*. |
-| **Customer Action Code** (required) | Add the action *INSERT_CUSTOMER* or *CUSTOMER_SELECT*. |
+| **Payment Action Code** (required) | Add the action *PAYMENT_2*. |
+| **Customer Action Code** (required) | Add the action *CUSTOMER_SELECT*. |
 | **Lock POS Action Code** | Add the action *LOCK_POS*. |
 | **Unlock POS Action Code** | Add the action *UNLOCK_POS* |
 | **On Before Payment View Action Code** | Populate this field with an action that should work before finishing the payment in the POS. |
 | **Idle Timeout Action Code** | Add the action *SS_IDLE_TIMEOUT*. |
 | **Admin Menu Action Code** | Add the action *SS_ADMIN_MENU*. |
 
-![POS_NAMED](POS_Ac_Set.png)
+![pos_named](Images/pos_named.PNG)
 
 ## Next steps
 

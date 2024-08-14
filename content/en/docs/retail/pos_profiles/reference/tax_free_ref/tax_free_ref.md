@@ -31,6 +31,8 @@ The following tax-free parameters are linked to each POS unit, and can be config
 | **Request Timeout (ms)** | Specifies how long you need to wait before cancelling the tax-free action. This option is relevant if temporary connection issues occur in the tax-free solution environment. The suggested value is 10000 (10 seconds). |
 | **Store Voucher Prints** | Specifies whether to store tax-free prints on the voucher records. If the Global Blue tax-free solution is used, this option should be disabled. |
 
+{{< alert icon="📝" text="Tax-free vouchers will be issued on sale when a <b>POS Tax Free Profile</b> is assigned to the POS unit related to that sale."/>}}
+
 #### See also
 
 - [<ins>Tax-free module overview<ins>]({{< ref "../../../taxfree/intro.md" >}})

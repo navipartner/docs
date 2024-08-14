@@ -30,7 +30,7 @@ Each one is dedicated to setting up different aspects of POS units.
 | [<ins>**POS Audit Profile**<ins>]({{< ref "reference/audit_prof/audit_prof.md" >}}) | Refer to the options for assigning different number series and different rules for printing to a POS unit. |
 | [<ins>**POS Display Profile**<ins>]({{< ref "reference/display_profile/display_profile.md" >}}) | Configure the POS units display view. |
 | [<ins>**POS HTML Display Profile**<ins>]({{< ref "how-to/html_profile/html_profile.md" >}}) | Set up how media content is displayed, and upload a HTML file which provides responses for customer input on the POS display. |
-| [<ins>**POS End-of-Day Profile**<ins>]({{< ref "reference/eod_profile/eod_profile.md" >}}) | Set up in what manner and how often the end-of-day process will be performed. |
+| [<ins>**End-of-Day/Bin Tr. Profile**<ins>]({{< ref "reference/eod_profile/eod_profile.md" >}}) | Set up in what manner and how often the end-of-day process will be performed. |
 | [<ins>**POS Input Box Profile**<ins>]({{< ref "reference/input_box_profile/input_box_profile.md" >}}) | Set up what type of data will be supported by input boxes in POS units. |
 | [<ins>**POS Unit Receipt Profile**<ins>]({{< ref "reference/unit_receipt_profile_ref/unit_receipt_profile_ref.md" >}}) | Provide additional custom text in the receipt footer area depending on your business needs. |
 | [<ins>**POS View Profile**<ins>]({{< ref "reference/view_profile/view_profile_ref.md" >}}) | Add a custom POS theme, and configure various visual components that will be displayed on the POS unit screen. |
