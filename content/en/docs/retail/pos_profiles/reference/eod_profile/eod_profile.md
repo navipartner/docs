@@ -64,7 +64,7 @@ The following fields and options need to be populated in the **Bin Transfer** se
 | **Tr. from Bank Ref. Asgmt. Method** | Specifies the method used for reference number assignment for "transfer from bank" amounts posted in inbound (transfer-in) transactions. The following options are available: **Auto** - automatically generated; **Manual** - the number is manually input by the salesperson; **No. Series** - you can assign a number series yourself. | 
 | **Move from Bin Ref. Asgmt. Method** | Specifies the method used for reference number assignment to "move from bin" amounts posted in inbound (transfer-in) transactions. | 
 
-  ![eod_new](Images/eod_new.PNG)
+  ![eod_new](eod_new.PNG)
 
 
 #### See also

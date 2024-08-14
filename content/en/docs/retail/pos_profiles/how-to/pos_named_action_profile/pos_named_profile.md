@@ -37,7 +37,7 @@ Follow the provided steps to set all actions that need to be set in order to set
 | **Idle Timeout Action Code** | Add the action *SS_IDLE_TIMEOUT*. |
 | **Admin Menu Action Code** | Add the action *SS_ADMIN_MENU*. |
 
-![pos_named](Images/pos_named.PNG)
+![pos_named](pos_named.PNG)
 
 ## Next steps
 

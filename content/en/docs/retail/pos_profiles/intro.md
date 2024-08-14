@@ -39,6 +39,8 @@ Each one is dedicated to setting up different aspects of POS units.
 | [<ins>**POS Customer Display Profile**<ins>]({{< ref "how-to/customer_display/customer_display.md" >}}) | You can set up the content of the POS display that the customer can interact with. |
 | [<ins>**POS Receipt Profile**<ins>]({{< ref "reference/receipt_profile/index.md" >}}) | The POS Receipt profile is used for storing all configurations related to digital receipts. |
 | [<ins>**POS Layout**<ins>]({{< ref "../pos_layout/explanation/pos_editor/index.md" >}})  | Refer to guides for setting up the available POS layout components. | 
-
+| [<ins>**POS Member profile**<ins>]({{< ref "reference/member/index.md" >}}) | Refer to the list of available fields and options used to configure member-specific settings on the POS units. |
+| [<ins>**POS Loyalty profile**<ins>]({{< ref "reference/loyalty/index.md" >}}) | Refer to the list of available fields and options used to configure loyalty-specific settings on the POS units. |
+| [<ins>**POS Ticket profile**<ins>]({{< ref "reference/ticket/index.md" >}}) | Refer to the list of available fields and options used to configure ticket-specific settings on the POS units. |
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tbnKC-_cBGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

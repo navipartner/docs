@@ -42,7 +42,7 @@ The following options can be set up in the **General** section:
 | **Do Not Print Receipt On Sale** | If enabled, the receipt will not be printed after a sale is successfully conducted. | 
 | **Do Not Print EFT Receipt On Sale** | If enabled, the EFT receipt will not be printed after a sale is successfully conducted. |
 
-  ![audit_profile](Images/audit_profile.PNG)
+  ![audit_profile](audit_profile.PNG)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JaqGl38lV-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

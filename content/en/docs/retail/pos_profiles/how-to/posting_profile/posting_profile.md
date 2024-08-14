@@ -53,7 +53,6 @@ Each POS unit can have a different set of posting rules. The first thing is to s
 22. Use the following job queues for background posting: **NPR POS Post Item Entries JQ**, **NPR POS Post G/L Entries JQ**, and **Post POS Sale Documents JQ**.     
     These job queues allow the salesperson to continue with the work while the sales are being posted in the background.
 
-![posting_profile](Images/posting_profile.PNG)
 
 ## Next steps
 
