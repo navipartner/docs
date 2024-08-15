@@ -14,11 +14,14 @@ weight: 343
 toc: true
 type: docs
 ---
-You can define the particularities that is associated with a Restaurant, such as the Service Flow profile and Kitchen integration.
+You can define the general information and behavior of the restaurant's system in the **Restaurant Card**: 
 
 | Field Name      | Description |
 | ----------- | ----------- |
 | **Code/Name** | Specifies the name of the restaurant. If the restaurant is a part of a building complex, there can be several restaurant types in which the serving procedure and the production integration need to be defined. | 
+| **Service Flow Profile** | Specifies the service flow profile assigned to the restaurant. Service flow profiles define general restaurant service flow options, such as the stage at which the waiter pads need to be closed, when the seating needs to be cleared, etc. In the case of a fast food restaurant, the service flow profile should ideally be **FastFood restaurant with payment upfront**. |
+| **Default Number of Guests** | Specifies the default number of guests when a new waiter pad is created in a restaurant. **Default** implies that the value is going to be inherited from the restaurant setup. The option you select here can be overridden for each seating location individually. | 
+
 
 #### Restaurant configuration examples
 
@@ -29,12 +32,14 @@ You can define the particularities that is associated with a Restaurant, such as
 
 | Field Name      | Description |
 | ----------- | ----------- |
-| **Auto Send Kitchen Order** | Specifies whether the order is automatically sent to the kitchen once placed. | 
-| **Resend All On New Lines** | Specifies whether all lines on the waiter pad are sent to the kitchen when new lines are added to the waiter pad. | 
+| **Auto Send Kitchen Order** | Specifies whether or not kitchen orders are automatically created as soon as new products are saved to waiter pads. | 
+| **Resend All On New Lines** | Specifies whether both the new and the existing product lines are sent to the kitchen each time a new set of products is saved to a waiter pad. | 
+| **Print on POS Sale Cancel** | Specifies whether the quantity updates for items included in a cancelled POS sale should be printed and sent to the kitchen. The requests for items with zero quantity are typically printed whenever a sale is cancelled. If the **Default** option is selected, it is implied that the configuration is inherited from the **Restaurant Setup**. | 
 | **Kitchen Printing Active** | Specifies whether the kitchen printing is active. |
-| **KDS Active** | Specifies whether KDS is active or not. |
-| **Order ID Assign. Method** | Specifies the assignment method of the order ID. | 
-| **Station Req. Handl. On Serving** | Specifies how kitchen station production requests should be handled, if the product has been served prior to the production being completed. | 
+| **KDS Active** | Specifies whether KDS is active or not. If this setup is performed for a fast-food restaurant, there is a special front-end KDS that can be used. |
+| **Order ID Assign. Method** | Specifies whether a new kitchen order is created or if an existing kitchen order is updated whenever a new set of products is added to an existing waiter pad. This can affect the preparation order of dishes prepared at their respective kitchen stations.  | 
+| **Station Req. Handl. On Serving** | Specifies how the existing kitchen station production requests should be handled if a product has been served prior to the production being completed. For fast-food restaurant setup, it's recommended to select **Finish All**.  |
+| **Order is Ready for Serving** |  Specifies at which point kitchen orders are assigned the **Ready for Serving** status. For fast-food restaurants, it's recommended to select **When All Requests Are Ready**. | 
 
 #### See also
 

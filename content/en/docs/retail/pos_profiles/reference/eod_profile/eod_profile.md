@@ -1,6 +1,6 @@
 ---
-title: "End-of-Day Profile"
-description: "The End of Day profile can be used to summarize all data such as transactions, and sales order statuses that have been accumulated by the end of a single business day."
+title: "End-of-Day/Bin Tr. Profile"
+description: "The End of Day/Bin Tr. profile can be used to summarize all data such as transactions, and sales order statuses that have been accumulated by the end of a single business day."
 lead: ""
 date: 2023-07-04T15:19:37+02:00
 lastmod: 2023-07-04T15:19:37+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The End of Day profile can be used to summarize all data such as transactions, and sales order statuses that have been accumulated by the end of a single business day. You can define in what manner and how often the end-of-day process will be performed. The following fields should be set up:
+The End of Day/Bin Tr. profile can be used to summarize all data such as transactions, and sales order statuses that have been accumulated by the end of a single business day. You can define in what manner and how often the end-of-day process will be performed. The following fields should be set up in the **General** section:
 
 | Field Name      | Description |
 | ----------- | ----------- |
@@ -44,14 +44,28 @@ The End of Day profile can be used to summarize all data such as transactions, a
 | **SMS profile** | You can set an SMS profile to send an SMS to the supervisor on the result of the counting. |
 | **Z-Report Number Series** | The number series used for creating the **Document No.** in the POS entry for entries created from running the Z report. |
 | **X-Report Number series** | The number series used for creating the **Document No.** in the POS entry for entries created from running the X report. |
+| **Bin Transfer Number Series** | Specifies the number series used for creating the document number in the POS entry for entries created when performing the bin transfer. | 
 | **Show Zero Amount Lines** | When counting is performed, by default the currency with zero amount for counting isn't displayed. If this function is activated, all currencies are displayed, even if they amount to zero. This function needs to be used with discretion, as it might confuse the salespeople.  |
 | **Hide Turnover Section** | Hide the turnover statistics screen. |
 | **Disable Difference Field** | If selected, salespeople will be prompted to provide the counted amount. Otherwise, if an amount is entered in the **Difference** field, the **Counting** field will automatically be updated with the difference between the expected ledger balance amount, and the **Difference** field. |
-| **Require Denominations** | You can set an **Assist** button for denomination count on the following fields: **Counted Amount**, **Bank Deposit Amount**, and **Move to Bin Amount**. This section can only be seen on V3. |
+| **Bank Deposit Ref. Asgmt. Method**| You can specify the method used for reference number assignment to bank deposit amounts posted in end-of-day transactions. The following options are available: **Auto** - automatically generated; **Manual** - the manual number is manually input by the salesperson; **No Series** - you can assign a number series yourself. | 
+| **Move to Bin Ref. Asgmt. Method** | You can specify the method used for reference number assignment to amounts that need to be moved to other bins during end-of-day transactions. The following options are available: **Auto** - automatically generated; **Manual** - the number is manually input by the salesperson; **No. Series** - you can assign a number series yourself. | 
+| **Require Denominations** | You can set an **Assist** button for denomination count on the following fields: **Counted Amount**, **Bank Deposit Amount**, and **Move to Bin Amount**. They are controlled and activated separately.  |
 
-![endofday](End%20of%20day%20profile.PNG)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ox4sPv9T62Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+The following fields and options need to be populated in the **Bin Transfer** section:
+
+| Field Name      | Description |
+| ----------- | ----------- |
+| **In-Transit Bin Code** | Specifies the in-transit bin code used to reference an intermediary bin when posting direct transfer between two POS unit bins. | 
+| **Bank Deposit Ref. Asgmt. Method** | Specifies the method used for reference number assignment to "bank deposit" amounts posted in outbound (transfer-out) transfer transactions. The following options are available: **Auto** - automatically generated; **Manual** - the number is manually input by the salesperson; **No. Series** - you can assign a number series yourself. | 
+| **Move to Bin Ref. Asgmt. Method** | Specifies the method used for reference number assignment to "move to bin" amounts posted in outbound (transfer-out) transactions. The following options are available: **Auto** - automatically generated; **Manual** - the number is manually input by the salesperson; **No. Series** - you can assign a number series yourself. | 
+| **Require Journal for Trans. INs** | Specifies whether the system will require a pre-staged bin transfer journal line to be selected by a POS user when performing inbound bin transfer. | 
+| **Tr. from Bank Ref. Asgmt. Method** | Specifies the method used for reference number assignment for "transfer from bank" amounts posted in inbound (transfer-in) transactions. The following options are available: **Auto** - automatically generated; **Manual** - the number is manually input by the salesperson; **No. Series** - you can assign a number series yourself. | 
+| **Move from Bin Ref. Asgmt. Method** | Specifies the method used for reference number assignment to "move from bin" amounts posted in inbound (transfer-in) transactions. | 
+
+  ![eod_new](eod_new.PNG)
+
 
 #### See also
 

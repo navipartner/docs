@@ -169,3 +169,114 @@ When you scan the main item, a pop-up menu is displayed, and the salesperson can
   ![item_addon6](item_addon6.png)
 
 You can get more examples, use cases, and best practices in the [<ins>Item add-on general documentation<ins>]({{< ref "../../../pos_processes/how-to/item_addon/index.md" >}})
+
+## Example: Item add-ons as a list of selections of ingredients and substitutes in a Burger menu
+
+If a restaurant offers a burger menu to customers, you need to define a *Burger Menu* **Item Card** in the Business Central environment used by the restaurant. The price and cost of the menu needs to be specified, so you can get the margin in your accounting. In parallel, you need to have the burger menu ingredients created individually, as standalone items. If the price has already been accounted for in the burger menu, the ingredients need to have the price of 0 when sold as components of the menu. However, if you decide to sell them as extra add-ons, the extra addon price also needs to be defined. 
+
+  {{< alert icon="💡" text="If you're offering an option to change the default sauce option, the replacement sauce will not be charged additionally. "/>}} 
+
+### Item add-ons in burger menus: selling burger menu instead of burger item
+
+The burger menu consists of predefined components. You can also choose to add an option to upgrade some of the components (e.g. small fries into medium fries).
+
+1. Create the following components for the burger menu as separate **Items**:
+   - *Burger* 
+   - *Small fries*
+   - *Medium drink*
+   - *Cheese*
+   - *Tomato*
+   - *Lettuce*
+   - *Onions*
+   - *Sauce*       
+These are the elements you will use in the item add-on configuration. They will be applied for all burger types, and to different burger menus that the restaurant will sell:
+
+  ![burger_menu](Images/burger_menu.PNG)
+
+   - Burger (Burger Menu Component) (60100)
+   - Double Cheese Burger Menu (60101)
+   - Bacon and Cheese Burger Menu (60102)
+   - Double Bacon Cheese Burger Menu (60103)
+   - Sriracha Deluxe Burger Menu (60104)
+   - Veggie Burger Menu (60105)
+   - Black Bean Veggie Burger Menu (60106)
+   - Cauliflower Steak Burger Menu (60107)
+   - Grilled Chicken Burger Menu (60108)
+   - Spicy Chicken Burger Menu (60109)
+
+2. Make sure you create the following burger menus on the POS:  
+
+  ![burger_menu_2](Images/burger_menu_2.PNG)
+
+3. Create an item called **Burger** (a Burger Menu component) without a cost and a price that will be used as the item add-on component.      
+   A line named **Burger** will be displayed on the POS, together with the details of other customer order components. 
+4. Navigate to the **Item AddOn Card** for the **Burger Menu** to define its components.
+
+  ![burger_menu_3](Images/burger_menu_3.PNG)    
+  
+  Only the **Burger (60100)** item is added to the lines. It is used to make the burger option visible on the POS when you sell items 60101 thru 60109. Thus, one **Burger** is a fixed quantity sold per a single unit of the **Burger Menu**, and that component is mandatory. 
+
+5. For drinks, use the type **Select Option** instead of **Quantity**, as you wish to provide more than one option to the customers to choose from.
+6. Expand **Select Options** and choose the logic that the menu has a **Medium Drink** component, then select Coke, Diet Coke or Sprite.    
+7. Add the option to upgrade to **Large Drink** for an additional fee. 
+
+  ![burger_menu_4](Images/burger_menu_4.PNG)
+
+  {{< alert icon="💡" text="A variant code is used in this example instead of defining individual items for Coke/Diet Coke/Sprite in **Medium** or **Large**. This isn't required - it is also possible to create this setup by defining individual drink items. "/>}} 
+
+  The following logic is used when defining item variants:
+
+  ![burger_menu_5](Images/burger_menu_5.PNG)
+
+8. Make sure you set the quantity of 1 per unit, and make the quantity fixed.      
+   In the case presented above, the unit price for a **Medium Drink** is 0, as it is already in the price of the **Burger Menu**, but the upgrade has an additional price of 2.00.
+
+9. Use the same logic you've previously used for drinks when defining item add-on options for **Fries**.    
+
+  ![burger_menu_6](Images/burger_menu_6.PNG)
+
+10. Use the same logic for cheese/tomato/lettuce/onions - add two options **Without** and **Extra**. You can do so via variant codes.    
+  
+  ![burger_menu_7](Images/burger_menu_7.PNG)
+
+  For **Without**, set -1 as quantity, so that it's clearly displayed that the quantity is negative, and that it needs to be decreased when preparing the burger menu. 
+
+11. Define the sauce options customers can choose from. 
+
+  ![burger_menu_8](Images/burger_menu_8.PNG)
+
+12. Once you have all components set in the **Item AddOn**, you need to attach it to the **Burger Menu** (item).      
+    In the example of **60101 - Double Cheese Burger Menu**, which carries the cost and price for the menu, you will attach the item add-on to it in the **Item Card**.
+
+    ![burger_menu_9](Images/burger_menu_9.PNG)
+
+13. Open the POS, and define the button for selling the **Double Cheese Burger Menu**.     
+    
+    ![burger_menu_10](Images/burger_menu_10.PNG)
+
+    When selecting the **Double Cheese Burger Menu** on the POS, you will see a pop-up window with various selections you've previously defined in Business Central. 
+
+    ![burger_menu_11](Images/burger_menu_11.PNG)
+
+    ![burger_menu_12](Images/burger_menu_12.PNG)
+
+### Item add-ons as components to a burger: selling burger item instead of burger menu
+
+This setup is done in a similar manner as the previous one, except there are only burger components included. Other add-ons and toppings are offered separately. The composition of the item add-on is simpler - it only contains the necessary ingredients to make the burger. Other items can be added later during the sale. 
+
+  ![burger_menu_13](Images/burger_menu_13.PNG)
+
+## Example: Item add-on as standalone menu
+
+There's a POS action **RUN_ITEM_ADDONS** that can be used to create a standalone button for item add-ons on the POS. In its parameters, you need to attach the add-on code, and run it. 
+
+  ![burger_menu_14](Images/burger_menu_14.PNG)
+
+  ![burger_menu_15](Images/burger_menu_15.PNG)
+
+Since it is an item add-on, the condition is that there is an item on the sales line first, before you can use the button to access the menu on the POS. 
+
+#### See also
+
+- [Create item add-ons and attach them to main items]({{< ref "../create_and_attach_item_addon/index.md" >}})
+- [Set up item add-ons]({{< ref "../item_addon/index.md" >}})
