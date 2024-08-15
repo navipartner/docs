@@ -34,7 +34,7 @@ To set up the endless aisle functionality, follow the provided steps:
 4. Open the **POS Payment Method Card** that you wish to set up, and select **EFT** as the **Processing Type**.
 5. [<ins>Link the POS payment method to a POS bank terminal<ins>]({{< ref "../setup/index.md" >}}).       
    Only NP Pay POS terminals are supported.
-6. Navigate to the **EFT Adyen Payment Type Setup**, and enable the **Manual Capture** toggle switch.     
+6. Navigate to the **EFT Adyen Payment Type Setup** by clicking **Payment Type Parameters** for the created payment type, and enable the **Manual Capture** toggle switch.     
    This option ensures that the payment reservation isn't automatically captured.
 7. Navigate to the **Store Shipment Profile Card** to set up different shipment methods and fees related to the store's shipping profile.       
    The shipping profile can be assigned to the store in the **POS Shipment Profile** field of the [<ins>**POS Store Card**<ins>]({{< ref "../../../retail/pos_store/how-to/new/index.md" >}}).    
