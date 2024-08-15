@@ -1,6 +1,6 @@
 ---
 title: "Set up Endless Aisle"
-description: "The endless isle gives stores the option to grant customers the ability to access and purchase items that aren't physically in stock. In other words, even if a product isn't available or typically carried by the store, customers can still order it from the retailer's extended inventory."
+description: "The endless isle gives stores the option of granting customers the ability to access and purchase items that aren't physically in stock. In other words, even if a product isn't available or typically carried by the store, customers can still order it from the retailer's extended inventory."
 lead: ""
 date: 2024-07-29T12:56:23+02:00
 lastmod: 2024-07-29T12:56:23+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The endless isle gives stores the option to grant customers the ability to access and purchase items that aren't physically in stock. In other words, even if a product isn't available or typically carried by the store, customers can still order it from the retailer's extended inventory. 
+The endless aisle gives stores the option of granting customers the ability to access and purchase items that aren't physically in stock. In other words, even if a product isn't available or typically carried by the store, customers can still order it from the retailer's extended inventory. 
 
 The NP Pay endless aisle feature converts a POS sale, which can include out-of-stock items in a sales order. During this process, the shopper needs to make a payment reservation with their credit/debit card. They can choose from several shipment fees that are predefined at the store level, and have the option to update their shopping information if needed. The payment isn't captured until the sales order has been posted. 
 
