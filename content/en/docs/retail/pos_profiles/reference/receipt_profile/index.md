@@ -25,7 +25,7 @@ The following fields and options are available:
 | **Description** | Specifies a brief description of the POS receipt profile, that can be used for easy identification and reference. |
 | **Send E-Mail Receipt on Sale** | Determines whether an email will be sent to customers automatically following the successful sale, provided that the customers are attached to the sale in Business Central, and that their emails have been listed in the relevant **Customer Card**. |
 | **Receipt Discount Information** | Specifies how the discount information should be displayed on the receipt. The following options are available: </br> **1. <ins>PER-LINE DISCOUNT INFORMATION:<ins>** <image src="Images/per_line.PNG" width="500" height="400"> </br> **2.<ins>SUMMARY DISCOUNT INFORMATION:<ins>** <image src="Images/summary.PNG" width="500" height="400"> </br> **3.<ins>NO DISCOUNT INFORMATION<ins>** - only the calculation is displayed in the summary. | 
-| **Enable Digital Receipt** | Enable or disable the entire digital receipt module for this profile. When enabled, the digital receipts will be generated for transactions related to this profile. |
+| **Issue Digital Receipt After Sale** | Enable issuing digital receipts after sales. |
 | **QR Code Timeout Interval Enabled** | If enabled, the QR code displayed at the end of the transaction will automatically be closed after the specified time interval. | 
 | **QR Code Timeout Interval(sec.)** | Specifies the number of seconds after which the QR code at the end of the transaction will be closed. |
 
