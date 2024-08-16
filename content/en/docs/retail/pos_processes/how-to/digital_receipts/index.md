@@ -30,17 +30,19 @@ To set up digital receipts, make sure the prerequisites are met, and follow the 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Digital Receipt Setup**, and choose the related link.      
    The administrative section for setting up digital receipts is displayed.
-2. Provide the **API Key** and **API Secret** in the indicated fields.       
+2. Activate the feature via the **Enable** toggle switch.     
+   The feature can be used globally as a result. 
+3. Provide the **API Key** and **API Secret** in the indicated fields.       
    - API key is a unique identifier used for establishing connection with the Fiskaly API.
    - API secret denotes the confidential authentication code paired with your API key. 
-3. Click **Test API Credentials** in the ribbon.     
+4. Click **Test API Credentials** in the ribbon.     
    This action is used for validating the provided API key and secret, and ensuring the effectiveness of your Fiskaly API credentials. You will not be able to turn on the digital receipt functionality unless the credentials are successfully tested.     
    The outcome is reflected in the state of the **Credentials Test Success** toggle switch, and the date/time of the last test is recorded in the **Last Credentials Test Time** field.
-4. If the credentials are tested and approved, click **POS Receipt Profiles** action in the ribbon.     
+5. If the credentials are tested and approved, click **POS Receipt Profiles** action in the ribbon.     
    Alternatively, you can find the **POS Receipt Profiles** with the Business Central's *Tell Me* feature.
-5. Click **New**, and populate the [<ins>available fields and options<ins>]({{< ref "../../../pos_profiles/reference/receipt_profile/index.md" >}}).
-6. Open the **POS Unit List** administrative section, and find the POS unit you wish to set up. 
-7. Open its **POS Unit Card**, and set the **POS Receipt Profile** to the one you've created in the previous steps.    
+6. Click **New**, and populate the [<ins>available fields and options<ins>]({{< ref "../../../pos_profiles/reference/receipt_profile/index.md" >}}).
+7. Open the **POS Unit List** administrative section, and find the POS unit you wish to set up. 
+8. Open its **POS Unit Card**, and set the **POS Receipt Profile** to the one you've created in the previous steps.    
    This POS unit now supports the digital receipt functionality.
 
 ## Next steps
@@ -80,3 +82,7 @@ If you need help with configuring this POS action and its parameter, refer to th
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4e4GaR_82U?si=P4JQ4i0dJ1xydrBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Digital receipt POS actions<ins>]({{< ref "../../reference/digital_receipt_actions/index.md" >}})

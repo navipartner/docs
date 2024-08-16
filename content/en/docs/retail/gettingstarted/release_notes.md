@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 16.08. | [<ins>Digital receipt improvements<ins>]({{< ref "../pos_processes/reference/digital_receipt_actions.md" >}}) | A toggle switch for enabling digital receipts globally has been added to the **Digital Receipt Setup** administrative section, so the functionality no longer needs to be enabled for each receipt profile individually. Additionally, several POS actions have been expanded to support this feature and provide more flexibility with issuing digital receipts. | 
 | 05.08. | [<ins>NP Pay reconciliation<ins>]({{< ref "../../np_pay/how-to/perform_reconciliation.md" >}}) | You can now verify the accuracy of financial records, ensure compliance, and make informed decisions with the introduction of the NP Pay reconciliation feature. |
 | 05.08. | [<ins>NP Pay by Link<ins>]({{< ref "../../np_pay/how-to/pay_by_link.md" >}}) | The new Pay by Link feature helps streamline and simplify the payment process by allowing customers to make secure online payments through a direct link. |
 | 05.08. | [<ins>NP Pay Endless aisle<ins>]({{< ref "../../np_pay/how-to/endless_aisle.md" >}}) | The newly introduced endless isle feature gives stores the option to grant customers access and the ability to purchase items that aren't physically in stock. | 
