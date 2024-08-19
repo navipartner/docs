@@ -1,6 +1,6 @@
 ---
 title: "Receipt printer troubleshooting"
-description: "Refer to the printer printer troubleshooting guide if you encounter related issues."
+description: "Refer to the receipt printer troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:25:30+02:00
 lastmod: 2023-07-18T13:25:30+02:00

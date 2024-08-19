@@ -22,6 +22,7 @@ This section contains questions and answers pertaining to some of the common iss
 - [<ins>A4 printer troubleshooting<ins>]({{< ref "a4_printer.md" >}})
 - [<ins>Receipt printer troubleshooting<ins>]({{< ref "receipt_printer.md" >}})
 - [<ins>Label printer troubleshooting<ins>]({{< ref "label_printer.md" >}})
+- [<ins>MPOS print troubleshooting<ins>]({{< ref "mpos_printing.md" >}})
 
 ## Retail
 
