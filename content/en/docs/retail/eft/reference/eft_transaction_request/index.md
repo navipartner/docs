@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Refer to the descriptions of options and fields within the [<ins>**NPR EFT Transaction Request**<ins>]({{< ref "../../explanation/eft_transaction_request/index.md" >}}) administrative section.
+Refer to the descriptions of options and fields within the [<ins>**NPR EFT Transaction Request**<ins>]({{< ref "../../explanation/eft_transaction_request/index.md" >}}) administrative section. 
 
 | Field Name      | Description |
 | ----------- | ----------- |
