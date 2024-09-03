@@ -72,6 +72,8 @@ In the section **Apply Discount** you can define how the discount will be applie
 
 ![apply](Apply%20discount.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygfs2cSlOJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### See also
 
 - [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})

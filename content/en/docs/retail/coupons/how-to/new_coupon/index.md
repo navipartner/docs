@@ -34,6 +34,7 @@ Coupons can provide the discount to the sum of item prices on checkout if certai
 7. Provide the **Coupon Reference No.** in the window that pops up.     
    The discount coupon is now applied. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygfs2cSlOJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### See also
 

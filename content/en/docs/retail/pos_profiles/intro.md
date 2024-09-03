@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-POS profiles are the main features used for configuring POS units. They can be found in the **POS Unit Card** administrative section of all POS units defined in Business Central.
+POS profiles give you the option of configuring software components of POS units, and determine how they will overall behave in certain scenarios. Each **POS Unit Card** has a panel dedicated to selecting POS profiles 
 
 Each one is dedicated to setting up different aspects of POS units.
 
@@ -28,7 +28,7 @@ Each one is dedicated to setting up different aspects of POS units.
 | [<ins>**POS Security Profile**<ins>]({{< ref "how-to/security_profiles/security_profiles.md" >}}) | Configure security-related settings like passwords and display timeout. |
 | [<ins>**POS Self-Service Profile**<ins>]({{< ref "how-to/ss_profile/ss_profile.md" >}}) | Configure the behavior of self-service kiosks. | 
 | [<ins>**POS Audit Profile**<ins>]({{< ref "reference/audit_prof/audit_prof.md" >}}) | Refer to the options for assigning different number series and different rules for printing to a POS unit. |
-| [<ins>**POS Display Profile**<ins>]({{< ref "reference/display_profile/display_profile.md" >}}) | Configure the POS units display view. |
+| [<ins>**POS Display Profile**<ins>]({{< ref "reference/display_profile/display_profile.md" >}}) | Configure how certain elements of the PO screen will behave and where they will be displayed. |
 | [<ins>**POS HTML Display Profile**<ins>]({{< ref "how-to/html_profile/html_profile.md" >}}) | Set up how media content is displayed, and upload a HTML file which provides responses for customer input on the POS display. |
 | [<ins>**End-of-Day/Bin Tr. Profile**<ins>]({{< ref "reference/eod_profile/eod_profile.md" >}}) | Set up in what manner and how often the end-of-day process will be performed. |
 | [<ins>**POS Input Box Profile**<ins>]({{< ref "reference/input_box_profile/input_box_profile.md" >}}) | Set up what type of data will be supported by input boxes in POS units. |
