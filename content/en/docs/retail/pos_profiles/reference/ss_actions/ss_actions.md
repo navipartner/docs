@@ -1,5 +1,5 @@
 ---
-title: "POS self-service actions"
+title: "POS Self-Service Actions"
 description: "There are specific POS actions intended for the self-service mode. On the POS unit dedicated for self-service, the POS setup is configured from the POS Named Action Profile located in the POS Unit Card. "
 lead: ""
 date: 2023-07-05T14:37:24+02:00

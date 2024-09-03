@@ -1,5 +1,5 @@
 ---
-title: "POS receipt profile"
+title: "POS Receipt Profile"
 description: "The POS Receipt profile is used for storing all configurations related to digital receipts."
 lead: ""
 date: 2024-01-22T11:15:08+01:00

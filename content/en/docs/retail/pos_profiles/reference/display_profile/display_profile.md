@@ -1,6 +1,6 @@
 ---
 title: "POS Display Profile"
-description: "Each POS unit can have a different display view."
+description: "With this profile, you can configure the visual elements that will be displayed on POS unit screens. For example, you can choose whether the receipt will be visible, where it will be placed, and for how long it will be displayed. "
 lead: ""
 date: 2023-07-04T15:01:55+02:00
 lastmod: 2023-07-04T15:01:55+02:00
@@ -15,7 +15,9 @@ toc: true
 type: docs
 ---
 
-Each POS unit can have a different display view. The following fields can be set up in each **POS Display Profile**:
+With this profile, you can configure the visual elements that will be displayed on POS unit screens. For example, you can choose whether the receipt will be visible, where it will be placed, and for how long it will be displayed. 
+
+The following fields can be set up in each **POS Display Profile**:
  
 
 | Field Name      | Description |

@@ -56,7 +56,7 @@ Sales Price List for the POS Price Profile.
 4. Specify **Price List Lines**.
 5. Activate the **Price List**.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WXkcZkEfOFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### See also
 
