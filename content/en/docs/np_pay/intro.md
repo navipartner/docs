@@ -19,10 +19,30 @@ NP Pay is NaviPartner's payment service provider. Currently, only the cloud arch
 
   {{< alert icon="📝" text="NaviPartner's solutions are also compatible with multiple external payment service providers, although we offer full support only for NP Pay."/>}}
 
-## Highlighted articles
+## NP Pay features
+
+### Endless Aisle
+
+The [<ins>Endless Aisle<ins>]({{< ref "how-to/endless_aisle/index.md" >}}) feature offers customers the option of purchasing items that aren't available or typically carried by the store from the retailer's extended inventory. The inclusion of out-of-stock items is facilitated by converting a POS sale into a sales order. Customers need to make the adequate payment reservations with their credit/debit cards, and provide the shipping information. The payment itself isn't captured until the sales order has been posted. 
+
+### Pay by Link
+
+The [<ins>Pay by Link<ins>]({{< ref "how-to/pay_by_link/index.md" >}}) feature enables businesses to streamline the payment process by allowing customers to make secure online payments through a direct link, whether the sale is initiated via phone or email. 
+
+### Reconciliation
+
+[<ins>Payment reconciliation<ins>]({{< ref "explanation/reconciliation/index.md" >}}) is a critical tool for managing the complexities of financial accuracy and accountability that need to be maintained daily. Payment reconciliation is used to identify errors and discrepancies, preventing fraud, enhancing cash flow management, ensuring precise financial reporting, optimizing operational efficiency, and supporting budgeting and forecasting. 
+
+### Insights
+
+You can determine the percentage distribution between new and returning shoppers across all your stores during your latest discount campaigns.
+
+### Digital receipts
+
+
+## NP Pay setup guides
 
 - [<ins>Set up NP Pay Cloud<ins>]({{< ref "how-to/setup/index.md" >}})
 - [<ins>Verify NP Pay Cloud setup<ins>]({{< ref "how-to/verify_setup/index.md" >}})
-- [<ins>NP Pay reconciliation setup<ins>]({{< ref "explanation/reconciliation/index.md" >}})
-- [<ins>Set up the Pay by Link feature<ins>]({{< ref "how-to/pay_by_link/index.md" >}})
-- [<ins>Set up the Endless Aisle feature<ins>]({{< ref "how-to/endless_aisle/index.md" >}})
+
+
