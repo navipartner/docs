@@ -65,5 +65,3 @@ NP Pay is integrated with Shopify and supports single-click checkout, which elim
 
 - [<ins>Set up NP Pay Cloud<ins>]({{< ref "how-to/setup/index.md" >}})
 - [<ins>Verify NP Pay Cloud setup<ins>]({{< ref "how-to/verify_setup/index.md" >}})
-
-
