@@ -50,3 +50,7 @@ To set up retail inventory sets and start using them, follow the provided steps:
    A new page is displayed.
 3. Select the inventory set you wish to use for fetching inventory data, and click **OK**.     
       A page with the requested inventory data is displayed. 
+
+#### See also
+
+- [<ins>Set up Replication module<ins>]({{< ref "../setup/index.md" >}})

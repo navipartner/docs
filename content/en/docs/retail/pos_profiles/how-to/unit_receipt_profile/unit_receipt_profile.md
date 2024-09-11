@@ -34,3 +34,8 @@ Sales receipts are created per each POS unit separately, but in most cases all P
    All changes you add are automatically saved.
 
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;"><iframe src="https://share.synthesia.io/embeds/videos/e47a9668-ebac-462d-aa34-f3fb0b0d5a12" loading="lazy" title="Synthesia video player - POS Academy: Unit Receipt Text Profile " allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
+#### See also
+
+- [<ins>POS unit receipt text profile<ins>]({{< ref "../../reference/unit_receipt_profile_ref/unit_receipt_profile_ref/index.md" >}})
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})

@@ -46,3 +46,10 @@ To set up period discounts, follow the provided steps:
 | **Customer Disc. Group Filter** | If the period discount is active only for certain customers, you should select their customer discount group in this field. |
 
 5. Insert the **Item No.** and **Period Price** in the **Period Discount Lines**.
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../../coupons/how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Create a total discount<ins>]({{< ref "../total_discount/index.md" >}})
+- [<ins>Create mix discounts<ins>]({{< ref "../create_mix_discount/index.md" >}})

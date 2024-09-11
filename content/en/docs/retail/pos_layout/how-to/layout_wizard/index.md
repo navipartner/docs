@@ -43,3 +43,9 @@ The main benefit of the wizard is the ability to set up a fully populated POS un
 {{< alert icon="📝" text="The <b>Edit</b> mode can be reentered by pressing the cog icon in the bottom right corner of the screen."/>}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gMNjQMtJJhw?si=HobHN2vYeK8eV5xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS editor<ins>]({{< ref "../../explanation/pos_editor/index.md" >}})
+- [<ins>Create buttons in POS menus<ins>]({{< ref "../new_button/index.md" >}})
+- [<ins>Create POS menu filters<ins>]({{< ref "../menu_filters/index.md" >}})

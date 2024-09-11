@@ -42,3 +42,10 @@ Payment menus are used for creating, modifying, and deleting payments.
 ![PAYMENTS](mpos_payments.png)
 
 This page contains the list of all created menus. Menus can be defined for all POS units or for specific ones, in which case it is necessary to provide the **POS Unit No.** of that specific POS unit. It is also possible to provide access to some menus only to specific salespeople, in which case the **Salesperson code** needs to be provided as well.  
+
+
+#### See also
+
+- [<ins>MPOS action setup for Scandit<ins>]({{< ref "../../how-to/scandit/index.md" >}})
+- [<ins>Establish a connection between a receipt printer and an iPad/iPhone<ins>]({{< ref "../../how-to/bluetooth/index.md" >}})
+- [<ins>Create new buttons in the MPOS menu<ins>]({{< ref "../../how-to/add_buttons/index.md" >}})

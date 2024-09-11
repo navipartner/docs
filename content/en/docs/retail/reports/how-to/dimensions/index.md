@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "dimensions-c161140802eb3620e6a02324fa4979b3"
-weight: 257
+weight: 258
 toc: true
 type: docs
 ---
@@ -52,3 +52,10 @@ After personalization, the view will be visible, and you will need to define the
 To do this, navigate to the **Insights** section of the Role Center, and pick the created dimension in the **Chart Type** dropdown list.
 
 ![insights](insights1.png)
+
+#### See also
+
+- [<ins>Customize report layout in Microsoft Word<ins>]({{< ref "../word_layout/index.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../../printing/intro.md" >}})
+- [<ins>Set up event templates<ins>]({{< ref "../event_templates/index.md" >}})
+- [<ins>Chart margin/turnover by shop<ins>]({{< ref "../../explanation/chart_margin_turnover/index.md" >}})

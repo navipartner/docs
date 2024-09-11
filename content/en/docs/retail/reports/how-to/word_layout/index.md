@@ -10,12 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "word_layout-5f2560a8dbdb06aa26fddb6f4180c05e"
-weight: 257
+weight: 258
 toc: true
 type: docs
 ---
 
-Business Central has a possibility to utilize Microsoft Word for report layouts. In this way, it can be quite easy to design sales invoices, credit memos, or any other reports with specific layouts. 
+Business Central has a possibility to utilize Microsoft Word for [<ins>report layouts<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts). In this way, it can be quite easy to design sales invoices, credit memos, or any other reports with specific layouts. 
 
 To set up report layouts in Business Central, follow the provided steps:
 
@@ -37,3 +37,10 @@ To set up report layouts in Business Central, follow the provided steps:
 9. Save the file, and go back to Business Central to select the layout you want to import.
 10. Click **Layout** in the ribbon, followed by **Import Layout**.
 11. After the import is completed, go back to the **Report Layout Selection**, and select the layout you've just uploaded.
+
+#### See also
+
+- [<ins>Printing overview<ins>]({{< ref "../../../printing/intro.md" >}})
+- [<ins>Set up Global Dimensions<ins>]({{< ref "../dimensions/index.md" >}})
+- [<ins>Set up event templates<ins>]({{< ref "../event_templates/index.md" >}})
+- [<ins>Chart margin/turnover by shop<ins>]({{< ref "../../explanation/chart_margin_turnover/index.md" >}})

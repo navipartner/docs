@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "coupon_modules-816448d947c46e8e6c7dbe07001a013b"
-weight: 999
+weight: 132
 toc: true
 type: docs
 ---
@@ -35,3 +35,11 @@ The following modules are currently available:
 | **Apply Discount** | **EXTRA_ITEM_QTY** | Used for awarding the discount to the specific item selected to be discounted. It also adds the item to the POS when the coupon is scanned. The validation is performed based on the defined quantity. | **6151595** | **NPR NpDc ModuleApply: Xtr Item** |
 | **Apply Discount** | **GS1** | Used for awarding the discount according to what has been defined in the GS1 barcode. | **6060085** | **NPR NpDc Module Apply GS1** |
 | **Apply Discount** | **ITEM_LIST** | Used for awarding a discount according to the settings/rates set on the **Item List**.  | **6151596** | **NPR NpDc Module Apply ItemList** |
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../../how-to/new_coupon/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../../how-to/activity_coupons/index.md" >}})

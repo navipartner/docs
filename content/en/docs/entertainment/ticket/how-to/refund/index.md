@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "refund-95a8d61affab80ed2fa6d2075406a0f8"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---
@@ -40,3 +40,12 @@ You can refund tickets (web orders) directly from BC without accessing the POS (
 4. When you post the credit memo the amount will automatically be refunded.
 
 {{< alert icon="❗" text="Some integrations require additional manual setup on the <b>Payment Providers</b> web interface before the amount can be refunded."/>}}
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

@@ -73,4 +73,9 @@ Jobs can be scheduled in the following ways:
 
 - In the **Inventory Setup** administrative section, you can set whether the automatic cost adjustments will be run (**Automatic Cost Posting** toggle switch), as well as the frequency of automatic cost adjustment jobs (**Automatic Cost Adjustment** dropdown).
 
+#### See also
 
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../../how-to/stock_count_app/index.md" >}})
+- [<ins>Inventory and warehouse picks<ins>]({{< ref "../inventory_warehouse_pick/index.md" >}})
+- [<ins>Inventory adjustments<ins>]({{< ref "../inventory_adjustments/index.md" >}})

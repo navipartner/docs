@@ -25,11 +25,11 @@ To make it so that the customer screen points to an external website, it's recom
 The setup for both buttons is the same, the only difference being the provided values:
 
 1. Open the POS unit on which you wish to add the button.
-2. Open the POS editor by pressing the <image src="Images/cog.PNG" width="30" height="30"> button.    
+2. Open the [<ins>POS editor<ins>]({{< ref "../../explanation/pos_editor/index.md" >}}) by pressing the <image src="Images/cog.PNG" width="30" height="30"> button.    
    The edit mode is enabled.
-3. Press the cell in the part of the POS screen in which you wish to place the button, followed by **Edit** in the dropdown.
+3. Press the cell in the part of the [<ins>POS screen<ins>]({{< ref "../../explanation/sections/index.md" >}}) in which you wish to place the button, followed by **Edit** in the dropdown.
 4. Add the **Caption**, and open the **Action** dropdown list.
-5. Press **Other**, and select the **HTML_DISPLAY_LOAD** action from the full list.       
+5. Press **Other**, and select the **HTML_DISPLAY_LOAD** [<ins>action<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}) from the full list.       
 6. Press <image src="Images/edit_icon.PNG" width="30" height="30"> next to **Variables** to edit the relevant parameters.      
    </br>
     For loading the external website:
@@ -45,3 +45,8 @@ The setup for both buttons is the same, the only difference being the provided v
    - Select **Profile** as the **Load option**.
    - (Optional) If you want to redownload the media specified on the HTML Profile set **Download Media** to **True**. It's recommended to leave this option deactivated for better performance.
 7. Press **Save**, and exit the edit mode.
+
+#### See also
+
+- [<ins>Return items with the second POS screen<ins>]({{< ref "../../../pos_processes/how-to/display2/index.md" >}})
+- [<ins>Set up the POS HTML display profile<ins>]({{< ref "../../../pos_profiles/how-to/html_profile/html_profile.md" >}})

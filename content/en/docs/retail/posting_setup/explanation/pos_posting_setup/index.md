@@ -35,3 +35,8 @@ Additionally, it is possible to set up different accounts for different POS paym
 In the **POS Posting Setup** section for every **Payment Method Code**, which is used for payments in POS units, you need to set up the **Difference Account No.**, which is used if there are differences between the counted amount and the system amount in the end-of-day process.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NACqyx-5Jc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS Posting profile - examples of usage<ins>]({{< ref "../different_posting_rules/index.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "../compression/index.md" >}})

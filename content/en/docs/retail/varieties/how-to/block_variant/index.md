@@ -23,3 +23,8 @@ To block a variant and disable its usage, follow the provided steps:
    The list of **Item Variants** is displayed.
 4. Tick the **Blocked** checkbox next to the variant you wish to block.     
    The changes are automatically saved. 
+
+#### See also
+
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../create_variety.md" >}})
+- [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../matrix.md" >}})

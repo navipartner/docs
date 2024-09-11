@@ -25,8 +25,12 @@ A float is an amount of cash that needs to be available in the cash register at 
 
 3. To insert initial float for the filtered payment methods, go to **Edit list** and in field **Amount** insert the float in terms of different currencies that you want to fill in the **POS Payment Bin** for that POS Unit.       
 
-    Once the initial float is inserted and confirmed by clicking **OK**, you can no longer correct it on the same page. If you try to correct (change) the initial float, an error message stating that the initial float already exists will be displayed.
+    {{< alert icon="📝" text="Once the initial float is inserted and confirmed by clicking <b>OK</b>, you can no longer correct it on the same page. If you try to correct/change the initial float, an error message stating that the initial float already exists will be displayed."/>}}
 
-## Troubleshooting
+    The next time you open a POS, you will be greeted by a prompt for confirming the float. This concludes the configuration of the opening balance.
 
-[<ins>Initial float troubleshooting<ins>]({{< ref "../../../../troubleshooting/initial_float.md" >}})
+
+#### See also
+
+- [<ins>Initial float troubleshooting<ins>]({{< ref "../../../../troubleshooting/initial_float.md" >}})
+- [<ins>Set up POS payment bins<ins>]({{< ref "../payment_bins/index.md" >}})

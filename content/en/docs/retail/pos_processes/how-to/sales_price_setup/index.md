@@ -17,6 +17,7 @@ type: docs
 
 You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the **Unit Price**.
 
+{{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the Item card. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Sales Price List**, and choose the related link. 
 2. From **Item Card** access the **Sales Price** via **Special Sales Prices & Discount** in the ribbon.      
@@ -28,7 +29,7 @@ You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >
 | ----------- | ----------- |
 | **Code**  | Provide a code that is used for the price identification. | 
 | **Wholesales** | Provide a description for the sales price scheme. |
-| **Assign-to Type** | Assign the pricing to a group or a specific person. You can choose between **All Customers**, a specific **Customer**, **Customer Price Group**, a sales **Campaign**, a specific **Contact**. |
+| **Assign-to Type** | Assign the pricing to a group or a specific person. You can choose between **All Customers**, a specific **Customer**, **Customer Price Group**, a sales **Campaign**, a specific **Contact**. <br/> {{< alert icon="❗" text="If a sales price list is set to <b>All Customers</b>, any item that has this sales price list selected in its <b>Item Card</b> will primarily use this list as the price source for all customers, regardless of what's been selected in the <b>POS Pricing Profile</b>."/>}} |
 | **Assign-to No.** | Specify the entity to which the prices are assigned. The options depend on the selection in the **Assign-to Type** field. If you choose an entity, the price list will be used only for that entity. |
 | **VAT Bus. Posting Gr. (Price)** | Specifies the default VAT business posting group code. |
 | **Price Includes VAT** | Specifies the if prices used in this scheme include VAT. |
@@ -36,13 +37,19 @@ You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >
 | **Status** | Specifies whether the price list is in **Draft** (can be edited), **Inactive** (cannot be edited or used), or **Active** status (used for price calculations). |
 | **Currency Code** | Specifies the currency code of the price list. |
 | **Starting/Ending Dates** | Specifies the period during which the price list is active. |
-| **Line Defaults** | If flagged, all of the following actions are allowed in the detail lines. **Allow Updating Defaults** - Specifies whether users can change the values in the fields on the price list lines that contain default values from the header. This does not affect the ability to allow line or invoice discounts; **Allow Invoice Disc.** - Specifies whether invoice discount is allowed. You can change this value on the lines; **Allow Line Disc.** - Specifies whether line discounts are allowed. You can change this value on the lines. |
+| **Line Defaults** | If flagged, all of the following actions are allowed in the detail lines: <ul> <li> **Allow Updating Defaults** - Specifies whether users can change the values in the fields on the price list lines that contain default values from the header. This does not affect the ability to allow line or invoice discounts; </li> <li> **Allow Invoice Disc.** - Specifies whether invoice discount is allowed. You can change this value on the lines; </li> <li> **Allow Line Disc.** - Specifies whether line discounts are allowed. You can change this value on the lines. </li> </ul> |
 
-5. Define the details of the scheme in the **Lines** section.       
+5. (Optional) During setup, you may use one of the following actions: 
 
-### Example
+| Action Name      | Description |
+| ----------- | ----------- |
+| **Verify Lines** | Check the data consistency in the new and modified price list lines, and suggest resolutions in case of conflicts (e.g., delete duplicate lines) and set the **Price List** to Active when the verification is complete. |
+| **Copy Lines** | Copy the lines from the existing price list. New prices can be adjusted by a factor and rounded differently. Change the **Price List Status** to **Draft** to run this action. |
+| **Suggest Lines** | Create the sales price list lines based on the unit price in the Product Card (e.g., line or resource). Change the **Price List Status** to **Draft** to run this action. |
 
-In the provided screenshot all customers that benefit from a Customer Price Group = WHOLESALE, will pay for the item 70004 at a beneficial price of 1,200.00 per unit instead of the normal unit price of 1,500.00 within the period starting from 1st March and ending 31st May 23, inclusively. 
+6. Define the details of the scheme in the **Lines** section.       
+
+
 
 ## Next steps
 
@@ -62,3 +69,14 @@ In this example, you can see that different sales price, item discounts or even 
 Both pricing and discount setup can be performed in one page instead of having to navigate to each Item card to set up pricing and apply discounts individually. 
 
 ![sales_price_3](sales_price_3.PNG)
+
+### Set up price worksheet
+
+If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a Default Price List in the [<ins>Price Worksheet<ins>]({{< ref "../price_worksheet_setup/index.md" >}}) administrative section. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DZFlAhoDlvI?si=EgGfm-5626PUCbkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Multiple unit prices on an item<ins>]({{< ref "../../explanation/multiple_unit_prices_item/index.md" >}})

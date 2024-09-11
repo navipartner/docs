@@ -27,3 +27,9 @@ In this administrative section, the following options are available for setup:
 | **Vendor No.** | If this is a dedicated worksheet for a single vendor, you can enter the vendor number in this field. |
 | **Prefix Code** | Used in the item number prefix with the option **Worksheet**. |
 | **No. Series** | Specifies the number series used to create new items. |
+
+#### See also
+
+- [<ins>Item Worksheet Template<ins>]({{< ref "../template/template_ref.md" >}})
+- [<ins>Create an Item Worksheet line<ins>]({{< ref "../../how-to/create/index.md" >}})
+- [<ins>Adding variety values to the worksheet<ins>]({{< ref "../../explanation/add_variety/index.md" >}})

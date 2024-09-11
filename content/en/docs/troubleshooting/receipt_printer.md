@@ -1,6 +1,6 @@
 ---
 title: "Receipt printer troubleshooting"
-description: "Refer to the printer printer troubleshooting guide if you encounter related issues."
+description: "Refer to the receipt printer troubleshooting guide if you encounter related issues."
 lead: ""
 date: 2023-07-18T13:25:30+02:00
 lastmod: 2023-07-18T13:25:30+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-When encountering a printer-related issue, t's generally a good idea to start by turning the printer off and on again.
+When encountering a printer-related issue, it's generally a good idea to start by turning the printer off and on again.
 
 #### There's no text on the receipt. How can I fix this?
 

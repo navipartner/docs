@@ -10,10 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "exchange_label-7e9ed683b3ccdfec3902838ddacf275e"
-weight: 259
+weight: 278
 toc: true
 type: docs
 ---
+
+Exchange labels are issued by retailers to customers if they want to exchange a purchased item for the same item with a different quality (color, size) or a completely different item, rather than return the purchased item and receiving a refund.
 
 This topic describes the process of setting up exchange labels, which can later be scanned on the POS to automatically create a negative sales line for return of items.
 
@@ -41,3 +43,9 @@ This topic describes the process of setting up exchange labels, which can later 
 | **Exchange Label Exchange Period** | Specifies the validity duration of the exchange label. By default, the period is set to **3Y**. |
 | **Exchange Label Default Date** | Specifies the default starting date for the exchange label validity. If the field is left blank, the default date is the day of the label's creation.  |
 | **Insert Cross Reference When Finishing Sale** | The exchange labels are stored in the **Exchange Label** table. They are created either when using the POS action **PRINT_EXCH_LABEL** or by ticking this checkmark. An entry is automatically created in the **Exchange Label** table when finalizing a sale, although the label isn't automatically printed. | 
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})

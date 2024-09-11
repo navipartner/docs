@@ -38,3 +38,12 @@ To create new buttons in the POS menu, make sure the prerequisite is met, and fo
 7. Once you're satisfied with your changes, click **Save**.    
    The button is now displayed in the selected POS screen area.
 
+### Additional setup - pop-up menus
+
+You can also edit the look and feel of pop-up menus that are displayed once you press certain buttons on the login screen (e.g. **Function**). To do so, open the edit mode, and press the button you wish to modify the pop-up menu for. 
+
+#### See also
+
+- [<ins>POS editor<ins>]({{< ref "../../explanation/pos_editor/index.md" >}})
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../layout_wizard/index.md" >}})
+- [<ins>Create POS menu filters<ins>]({{< ref "../menu_filters/index.md" >}})

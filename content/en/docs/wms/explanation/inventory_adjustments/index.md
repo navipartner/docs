@@ -38,3 +38,9 @@ To post adjustments to the item stock, you can use the Item Journals, to perform
 - Sales are for posting negative inventory adjustments that work as sales order transactions. As soon as you provide the number of the item you wish to sell, as well as the item quantity, the unit price of that item will be displayed in the **Unit Amount** field, and the full price for that quantity in the **Amount** field. The **Unit Cost** field will contain the amount at which the item was previously procured. 
 
 ![bc sale item journal](bc_sale_item_journal.PNG)
+
+#### See also
+
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../../how-to/stock_count_app/index.md" >}})
+- [<ins>Inventory and warehouse picks<ins>]({{< ref "../inventory_warehouse_pick/index.md" >}})

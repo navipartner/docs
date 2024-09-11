@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "azure_member_registration-73d180965ec05d5babc0274e6ad2c393"
-weight: 267
+weight: 291
 toc: true
 type: docs
 ---
@@ -46,3 +46,12 @@ To make this flow possible, it's necessary to perform the following setup steps 
 14. Assign the new Azure setup profile to the membership sales setup.        
 15. Open the **Membership Notification** from the **Membership Card**, and send the SMS to the provided customer's phone number.     
     The customer should then open the SMS, and click the link inside to complete their membership registration.
+
+
+#### See also
+
+- [<ins>Member community<ins>]({{< ref "../../reference/member_community_ref/index.md" >}})
+- [<ins>Set up the membership module web services<ins>]({{< ref "../membership_setup/index.md" >}})
+- [<ins>Set up the automatic renewal process<ins>]({{< ref "../autorenewal/index.md" >}})
+- [<ins>Azure member registration setup<ins>]({{< ref "../../reference/azure_membership/index.md" >}})
+- [<ins>Membership web services<ins>]({{< ref "../../reference/membership_webservices_ref/index.md" >}})

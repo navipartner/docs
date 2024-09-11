@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The Variety Matrix is used for configuring detailed item lines on various orders by matching the available attributes. To set up variety matrix facilities on sales orders, follow the provided steps: 
+The Variety Matrix is used for configuring detailed item lines on various orders by matching the available attributes. You can enter the quantity that you’re selling from the sales order document. To set up variety matrix facilities on sales orders, follow the provided steps: 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Variety Setup** and open the related link.   
 2. Enable **Pop up Variety Matrix**.     
@@ -34,3 +34,10 @@ The Variety Matrix is used for configuring detailed item lines on various orders
 ### Set up variety matrix facilities on Sales Return Orders, Purchase Orders, and Return Purchase Orders
 
 The same procedure should be followed to enable the **Variety Matrix** popup window on **Sales Return Orders**, **Purchase Orders**, and **Return Purchase Orders**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P63eJyhAMzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../create_variety.md" >}})
+- [<ins>Assign the created variety to an item<ins>]({{< ref "../assign_variety/index.md" >}})

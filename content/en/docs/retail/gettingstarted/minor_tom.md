@@ -32,17 +32,18 @@ Minor Tom offers only the essential POS features necessary for working in retail
    **Cloud (SaaS)**
 
    - Leave the **Username** and **Password** fields empty. 
-   - Paste the URL for the Business Central instance into the **URL** field, while using the following form: https://businesscentral.dynamics/[TenantID]/[Environment]. The POS page will be automatically appended to the provided URL. Alternatively follow the steps below with **Enviroments**.
-   - Enable the toggle switch such that **Cloud** is highlighted.
-   - When the **Cloud** option is selected, a new dropdown box and a refresh button are displayed on the screen.
-     -  Click **Refresh**, and follow the login steps presented, with an account that is connected to any of the Cloud BC Environments.    
-        After the login popup is closed, the dropdown box should be filled with different environment names.
-     -  Select the environment you want to use.     
-        The **URL** field is updated with a new URL.
-     -  Click **Save** to save the changes.
+   - Paste the URL for the Business Central instance into the **URL** field.
+   - Enable the toggle switch so that the **Cloud** option is highlighted.     
+     The **Environments** section is displayed.
+   - Click **Fetch Cloud Environments**.    
+     If you haven't logged in previously, the login screen is displayed.
+  
 
    {{< alert icon="📝" text="The customer's Azure tenant needs to be <a href=\"https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime\">configured</a> prior to using the cloud version so that their session can be automatically extended on the following login." />}}
 
 4. Once the installation is complete, click **New Sale** in the sidebar (right-click to open/close the sidebar) to start using the POS features.
 
    {{< alert icon="📝" text="Whenever a new Minor Tom version is available, it will be automatically detected and downloaded as soon as you launch the app." />}}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oJW4ECnU10g?si=lGmZNIGzERzcELj-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -40,7 +40,9 @@ Follow the provided steps:
 | **Allow Guest Requests** | Since GDPR doesn’t apply only to registered users, by enabling this option, guests can also view any stored information on them.  | 
 | **Guest Actions** | You can specify which actions will be available to guest users. The available options are **Forget Me** and **Retrieve My Info**. | 
 
-For more information about customer anonymization in Business Central, refer to the following articles:
+#### See also
 
 - [<ins>Anonymize customer data<ins>]({{< ref "../../../../retail/gdpr/how-to/anonymization/index.md" >}})
 - [<ins>Anonymize customers automatically after a certain period<ins>]({{< ref "../../../../retail/gdpr/how-to/auto_anonymization/index.md" >}})
+- [<ins>Handling requests for stored personal information<ins>]({{< ref "../handle_requests/index.md" >}})
+- [<ins>Privacy consent customization<ins>]({{< ref "../../explanation/consent_widget/index.md" >}})

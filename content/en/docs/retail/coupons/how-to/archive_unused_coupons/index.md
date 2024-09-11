@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "archive_unused_coupons-eb59b633d411eb1e2406807269f28206"
-weight: 171
+weight: 131
 toc: true
 type: docs
 ---
@@ -23,3 +23,8 @@ To archive any unused coupons manually, follow the provided steps:
 3. Confirm the archiving process of the selected coupons.     
    The status of the **Coupon Qty (Open)** and **Arch. Coupon Qty** is automatically updated when an open coupon is archived.
 4. (Optional) You can also get a list of coupons whose end date has already been reached by clicking **Actions** in the ribbon, followed by **Archive**, and then **Show Expired Coupons**.     
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../new_coupon/index.md" >}})

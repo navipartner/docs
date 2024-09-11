@@ -50,3 +50,10 @@ To perform the planned stock count on the mobile device, follow the provided ste
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XmPsNlNjKkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up CS users<ins>]({{< ref "../cs_user_setup/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../stock_count_app/index.md" >}})

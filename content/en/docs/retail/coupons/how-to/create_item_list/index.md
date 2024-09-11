@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_item_list-790109557033db26839cb23c43fb6a44"
-weight: 171
+weight: 131
 toc: true
 type: docs
 ---
@@ -30,3 +30,9 @@ If you wish to create a list of items to be used as a base for applying discount
    ![priorities](Images/priorities.png)
          
    The list of items is generated, but you can modify it manually at any time.
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../new_coupon/index.md" >}})

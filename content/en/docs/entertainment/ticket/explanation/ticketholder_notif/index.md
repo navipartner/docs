@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ticketholder_notif-7a066ae6e5e11ced45c231b4fdb3044c"
-weight: 264
+weight: 289
 toc: true
 type: docs
 ---
@@ -31,3 +31,12 @@ There are different types of reminders to target the three use-cases:
 {{< alert icon="📝" text="The actual send time of the notification can be offset by a duration expressed in hours, days or minutes. The send time is an approximation, as it depends on how frequently the job for sending notifications is executed."/>}}
 
 It is also possible to state a detention time for each notification rule that can be either meant specifically for the profile or shared for all notifications of the same type. This feature prevents similar notification be sent to the same notification address for the duration of the detention time. For example, if ticket-holder bought and then revoked 5 tickets, it would be unnecessary to send 5 revoke follow-up notifications to the same **Notification Address**.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

@@ -44,3 +44,8 @@ The following options are available in the **Name and Date Formatting** section:
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmJ_q4eWDY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>POS screen contents<ins>]({{< ref "../../../pos_layout/explanation/sections/index.md" >}})
+- [<ins>POS profile overview<ins>]({{< ref "../../intro.md" >}})

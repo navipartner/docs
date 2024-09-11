@@ -54,6 +54,7 @@ To generate the POS balance report and count the contents of the payment bin, ma
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osYCSzngg-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Troubleshooting
+#### See also
 
-[<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})
+- [<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})
+- [<ins>End-of-day report (POS balance)<ins>]({{< ref "../../explanation/end-of-day-exp/index.md" >}})

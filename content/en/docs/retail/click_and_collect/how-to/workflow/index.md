@@ -71,3 +71,8 @@ To create a new collect workflow, refer to the provided steps:
    ##### On-prem
 
    For on-prem environments, you don't need to set up email accounts. However, you need to set up similar options in the **SMTP Mail Setup** administrative section instead.
+
+#### See also
+
+- [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
+- [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})

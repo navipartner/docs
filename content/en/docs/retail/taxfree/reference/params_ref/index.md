@@ -36,3 +36,8 @@ All settings in the **Dialog** section control the traveler info capture flow wh
 ## Automatic settings
 
 All settings in the **Automatic** section are filled out automatically when the **Auto Configure** action is selected on the **Tax Free Units** administrative section.
+
+#### See also
+
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "../../../../troubleshooting/tax_free.md" >}})
+- [<ins>Set up Global Blue tax-free solution<ins>]({{< ref "../../how-to/global_blue/index.md" >}})

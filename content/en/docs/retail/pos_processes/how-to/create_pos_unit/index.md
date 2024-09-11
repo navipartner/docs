@@ -15,6 +15,8 @@ toc: true
 type: docs
 ---
 
+A POS unit is a central part of the Retail solution. It consists of hardware and software components that enable services and item sale transactions at retail locations. In brief, POS units automate the transaction process and tracking of important sales data.
+
 As soon as you have at least one POS unit in the system, you can use configurations and data within as a source of information for creating a new one with ease. 
 
 Each [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) can contain multiple POS units. Most of the time, these units have an almost identical setup, the difference being their number, (since they have to be unique) and [<ins>payment bin<ins>]({{< ref "../payment_bins/index.md" >}}) (virtual representation of a cash register, or a safe). To create a new POS unit, follow the provided steps:
@@ -34,6 +36,25 @@ Each [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) can contai
    You can switch back and forth between the two POS unit cards until you're satisfied with your configuration.
 
     {{< alert icon="💡" text="Make sure that the value in the <b>No.</b> field is different than the one used for the first POS unit."/>}}
+
+    The following fields and options are available:
+
+| Field Name      | Description |  
+| ----------- | ----------- | ----------- |
+| **No.** | The unique code for the POS unit. | 
+| **Name** | The name of the POS unit. | 
+| **POS Store Code** | The POS Store to which the POS Unit is attached. | 
+| **POS Default POS Bin** | The payment bin (cash drawer) that will be used by the POS unit. It’s recommended to use the same number as the one provided in the POS Unit No. |
+| **Department Code** | The global dimension assigned to all entries from the store. If the business needs to track transactions in the General Ledger per POS unit, you can define subdimensions for analysis purposes. | 
+
+{{< alert icon="📝" text="A structured global dimension for the department can be as follows: 1. Level 1 = Dimension value 01; 2. Sub-level = Dimension value PU01 & PU02. By using Analysis by Dimensions, you can report on different levels as well as in total for the POS Store."/>}}
+
+| Field Name      | Description |   Example    |
+| ----------- | ----------- | ----------- |
+| **Project Code** | A global dimension. | 
+| **POS Type** | The type of POS Unit to be used.  | 
+| **Status** | The status of the POS unit. | 
+
 
 5. Open the **Default POS Payment Bin** dropdown list, and then **Select from full list**.       
    If there are no payment bins available, [<ins>create a new one<ins>]({{< ref "../payment_bins/index.md" >}})
@@ -56,3 +77,10 @@ After you create a POS unit, you need to link it to the POS user's ID before it 
 
 The new POS unit is created, attached to the [<ins>POS store<ins>]({{< ref "../../../pos_store/how-to/new/index.md" >}}), and ready to be used.
 
+#### See also
+
+- [<ins>POS profiles<ins>]({{< ref "../../../pos_profiles/intro.md" >}})
+- [<ins>POS screen contents<ins>]({{< ref "../../../pos_layout/explanation/sections/index.md" >}})
+- [<ins>Configure master/slave POS units<ins>]({{< ref "../../how-to/master_slave_pos/index.md" >}})
+- [<ins>Configure an opening mechanism for a POS unit cash drawer<ins>]({{< ref "../../how-to/cash_drawer_open/index.md" >}})
+- [<ins>Transfer cash between POS units<ins>]({{< ref "../../how-to/bin_transfer_action/index.md" >}})

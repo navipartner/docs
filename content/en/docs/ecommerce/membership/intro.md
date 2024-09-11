@@ -18,7 +18,7 @@ Memberships are created to provide special offers and benefits to loyal customer
 
 Membership items that are supported on the e-commerce platform can be seen in Magento Webadmin if you navigate to **Catalog** > **Products**, and open the **Add Products** dropdown. 
 
-   {{< alert icon="📝" text="These items shouldn't be created in Magento Webadmin - they are synced from Business Central."/>}}
+   {{< alert icon="📝" text="Membership items can't be created in Magento Webadmin - they are synced from Business Central."/>}}
 
    ![magento_products](magento_products.PNG)
 
@@ -40,17 +40,15 @@ The following fields are synced from Business Central in the **Membership Setup*
 - **Subscription**
 - **Validate Email** 
 
-The following fields aren't synced from Business Central. They need to be updated in Magento Webadmin if required:
+The following fields aren't synced from Business Central. However, they can to be updated in Magento Webadmin:
 
 - **Allow Setting Unlimited Guest Count**
 - **Company Membership**
 
-Refer to the article for [<ins>setting up memberships in Magento Webadmin and Business Central<ins>]({{< ref "how-to/membership_setup/index.md" >}}) for more information and processing instructions.
 
-## Membership options in Business Central
+### See also
 
-You can view and edit various options concerning memberships in the **Membership Card** of the desired membership type. For instance, you can view all points that a member has accumulated in the **Points** panel.
-
-   ![member_points](member_points.PNG)
-
-Refer to the article for [<ins>managing membership items in Business Central<ins>]({{< ref "how-to/manage_membership_items/index.md" >}}) for more information.
+- [<ins>Membership options - Magento Webadmin<ins>]({{< ref "explanation/magento_options/index.md" >}})
+- [<ins>Membership options - Business Central<ins>]({{< ref "explanation/bc_options/index.md" >}})
+- [<ins>Custom pricing for members<ins>]({{< ref "explanation/pricing/index.md" >}})
+- [<ins>Register as a member on an e-commerce website<ins>]({{< ref "how-to/new_member/index.md" >}})

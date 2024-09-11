@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "entertainment_ref-e832f6559ff150d7367ddfaeb4524838"
-weight: 304
+weight: 305
 toc: true
 type: docs
 ---
@@ -25,3 +25,8 @@ The following options are available in the **Entertainment** > **Settings** sect
 | **Date/Time Setup** | you can change the default formats. |
 | **Admission/Schedule Setup** | here, you can decide which part of the feature you're going to be able to look at for the different schedule. | 
 | **Reservation time is limited to 25min** | Once the ticket is added to the cart, a customer has 25min to purchase the ticket. | 
+
+#### See also
+
+- [<ins>Ticket delivery<ins>]({{< ref "../ticket_delivery_ref/index.md" >}})
+- [<ins>Set up ticketing (Business Central and Magento)<ins>]({{< ref "../../how-to/ticketing_setup/index.md" >}})

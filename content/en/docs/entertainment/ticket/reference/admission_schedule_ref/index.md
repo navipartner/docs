@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "admission_schedule-1cd06f65fc094e454209ad55433c0032"
-weight: 265
+weight: 290
 toc: true
 type: docs
 ---
@@ -86,3 +86,13 @@ To create a schedule that generates open entries for every weekday, you should s
 
 
 {{< alert icon="📝" text="All days are checked in this case, because it's not important which weekday December 24th is. However, if you wish the admission to be closed only if 24th is on a weekend, you should check Saturday and Sunday only."/>}}
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../../how-to/admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../../how-to/create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../../how-to/create_postpaid/index.md" >}})

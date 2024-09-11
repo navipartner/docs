@@ -1,5 +1,5 @@
 ---
-title: "Create a total discount"
+title: "Set up a total discount"
 description: "You can define different levels of discount benefits based on the total sales amount."
 lead: ""
 date: 2023-08-01T09:56:39+02:00
@@ -68,3 +68,11 @@ To set up a total discount, follow the provided steps:
 9. Select the quantity of the item, and press OK.   
    The selected items are added to the POS sale.
 10. Finalize the sale.
+
+
+#### See also
+
+- [<ins>Discount types<ins>]({{< ref "../../explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../../coupons/how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Set up period discounts<ins>]({{< ref "../period_discounts/index.md" >}})
+- [<ins>Create mix discounts<ins>]({{< ref "../create_mix_discount/index.md" >}})

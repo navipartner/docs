@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "chart_margin_turnover-360d39a3b5a0cb3aaf7be912a76e3169"
-weight: 258
+weight: 259
 toc: true
 type: docs
 ---
@@ -21,3 +21,9 @@ You can analyze the margin and turnover of each shop on a daily, weekly, monthly
 
 ![margin_turnover](margin_turnover.png)
 
+#### See also
+
+- [<ins>Customize report layout in Microsoft Word<ins>]({{< ref "../../how-to/word_layout/index.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../../printing/intro.md" >}})
+- [<ins>Set up Global Dimensions<ins>]({{< ref "../../how-to/dimensions/index.md" >}})
+- [<ins>Set up event templates<ins>]({{< ref "../../how-to/event_templates/index.md" >}})

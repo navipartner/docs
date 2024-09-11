@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_vouchers-0f9629ac7842b4f725c44374054d7536"
-weight: 305
+weight: 306
 toc: true
 type: docs
 ---
@@ -84,3 +84,7 @@ Once you’ve created a new voucher, you may want to place it in a main menu via
 ### Purchase the voucher
 
 To add the voucher to the cart from the web store, and perform the checkout, follow [<ins>this guide<ins>]({{< ref "../use_voucher/index.md" >}}).
+
+#### See also
+
+- [<ins>Apply a voucher on an item from the web store<ins>]({{< ref "../apply_voucher/index.md" >}})

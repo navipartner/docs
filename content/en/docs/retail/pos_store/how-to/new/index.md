@@ -69,3 +69,7 @@ To create new POS store follow the provided steps:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AktQ3262OJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+#### See also
+
+- [<ins>Configure store groups<ins>]({{< ref "../store_group/index.md" >}})
+- [<ins>Create a new POS unit<ins>]({{< ref "../../../pos_processes/how-to/create_pos_unit/index.md" >}})

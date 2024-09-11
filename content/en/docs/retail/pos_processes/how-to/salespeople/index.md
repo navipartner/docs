@@ -45,3 +45,8 @@ Follow the provided steps to set up salespeople/purchasers:
 
 
 {{< alert icon="📝" text="It's not possible to delete former employees from this list, or reuse codes for new employees, as this can create distortions in the statistics, and in the book entries."/>}}
+
+#### See also
+
+- [<ins>Set up users<ins>]({{< ref "../users/index.md" >}})
+- [<ins>POS info setup<ins>]({{< ref "../pos_info_setup/index.md" >}})

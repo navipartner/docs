@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ticket_designer-6ee70a5b875bf476ccaff837197a03d8"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---
@@ -159,3 +159,12 @@ A ticket will never go to the production mode unless you publish it. Once you ar
 For creating a mobile ticket the procedure is just like creating a printed ticket that will be generated for a .pdf-file. The only difference for the designer is that there is a tool for adding a .gif file for your ticket. 
 
 {{< alert icon="📝" text="This ticket will be opened in a browser."/>}} 
+
+
+#### See also
+
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

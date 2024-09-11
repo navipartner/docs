@@ -41,4 +41,9 @@ The **Counting** screen is displayed when you click **Cash Count** on the POS. I
 
 ![counting_transfer_v4](counting_transfer_v4.png)
 
-For more information about individual fields and options on the **Counting** screen, refer to the [<ins>reference guide<ins>]({{< ref "../reference/counting_ref/index.md" >}}).
+
+#### See also
+
+- [<ins>POS Counting screen<ins>]({{< ref "../reference/counting_ref/index.md" >}})
+- [<ins>Configure the POS balancing feature<ins>]({{< ref "../how-to/balance_config/index.md" >}})
+- [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../how-to/generate_eod/index.md" >}})

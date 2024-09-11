@@ -31,3 +31,10 @@ Warehouse putaways entail all processes that occur after a supply of goods from 
 Inventory putaways are by default created from source documents (purchase orders, sales return orders or transfer orders) via the **Create Inventory Put-away/Pick** action.
 
 Like the warehouse putaway, inventory putaway relates to processes of receiving and allocating the stock to the adequate storage spaces. There is a one-to-one relation between inventory putaways and the source documents related to them.
+
+#### See also
+
+- [<ins>Perform stock count (Physical Inventory Journal and mobile apps)<ins>]({{< ref "../../how-to/stock_count_bc_wms/index.md" >}})
+- [<ins>Perform shop and stock count<ins>]({{< ref "../../how-to/stock_count_app/index.md" >}})
+- [<ins>Inventory and warehouse picks<ins>]({{< ref "../inventory_warehouse_pick/index.md" >}})
+- [<ins>Inventory adjustments<ins>]({{< ref "../inventory_adjustments/index.md" >}})

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ticket_delivery_ref-23d295c164f86da97bc5dc9f46d8c4d1"
-weight: 304
+weight: 305
 toc: true
 type: docs
 ---
@@ -27,3 +27,8 @@ The following options are available in regards to the ticket delivery:
   {{< alert icon="📝" text="Even though the Ticket Designer (<b>NaviPartner</b> > <b>Entertainment</b> > <b>Ticket Designer</b>) isn't described in this guide, it's important to note that the <b>Ticket Type</b> that is configured in Business Central is in correlation with the <b>Ticket Code Type</b> from the Ticket Designer."/>}}
 
 For example, if you purchase the ticket with the **EVENT** ticket type in Business Central, then you will receive the ticket design that is related to that same ticket code type from the Ticket Designer. 
+
+#### See also
+
+- [<ins>Entertainment settings<ins>]({{< ref "../entertainment_ref/index.md" >}})
+- [<ins>Set up ticketing (Business Central and Magento)<ins>]({{< ref "../../how-to/ticketing_setup/index.md" >}})

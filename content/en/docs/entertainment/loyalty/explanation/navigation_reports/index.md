@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "navigation_reports-a75c6d7c2d40ce9127ab128f7dd22d29"
-weight: 272
+weight: 296
 toc: true
 type: docs
 ---
@@ -41,3 +41,9 @@ There are three reports created in NP Retail for tracking points:
 
 ![Membership_Points_Detail](Membership%20points%20detail.png)
 
+#### See also
+
+- [<ins>Set up the loyalty program<ins>]({{< ref "../../how-to/setup/index.md" >}})
+- [<ins>Redeem points on sale<ins>]({{< ref "../../how-to/redeem_points/index.md" >}})
+- [<ins>Assign points on sale<ins>]({{< ref "../../how-to/assign_points/index.md" >}})
+- [<ins>Navigation and reports<ins>]({{< ref "../navigation_reports/index.md" >}})

@@ -72,6 +72,12 @@ In the section **Apply Discount** you can define how the discount will be applie
 
 ![apply](Apply%20discount.png)
 
-## Troubleshooting 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygfs2cSlOJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../../how-to/discount_coupon_usecases/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../../how-to/new_coupon/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../../how-to/activity_coupons/index.md" >}})

@@ -41,3 +41,8 @@ The following options and fields are available:
 | **Comment Enabled** | You can control whether it's possible to insert comments on the POS info line or not. This control works on line level. |
 | **Before Insert Setup** | You can define different workflows to be executed when selecting an item. For example, you can calculate a value based on a percentage of the unit price of the item defined as the main item for that item add-on. | 
 | **Copy Serial No.** | If activated, the serial number of the main line is copied onto the item add-on lines. | 
+
+#### See also
+
+- [<ins>Set up item add-ons<ins>]({{< ref "../../how-to/item_addon/index.md" >}})
+- [<ins>Custom configurations for item add-ons<ins>]({{< ref "../../how-to/custom_configurations_item_addons/index.md" >}})

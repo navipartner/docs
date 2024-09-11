@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "meal_eco_setup-03e15c19b2583407077e6f6e3c6d6857"
-weight: 140
+weight: 139
 toc: true
 type: docs
 ---
@@ -27,3 +27,8 @@ To configure which items can be purchased with a specific payment method, follow
    The **POS Payment Method Items** window is displayed. 
 4. Click **Add Items** in the ribbon to bring up the extended search and find the items more quickly.         
    Once the items are added, the voucher can be used to purchase these items from the POS. 
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
+- [<ins>Add Belgian eID feature to POS<ins>]({{< ref "../belgian_eid/index.md" >}})

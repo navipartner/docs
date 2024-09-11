@@ -59,3 +59,10 @@ The MPOS editor gives users the option to set POS actions and buttons directly f
 ### Create/edit buttons in MPOS menus
 
 To create new or edit the existing buttons in the MPOS layout you've just created, follow the steps in the procedure for [<ins>Creating new buttons in the MPOS menu<ins>]({{< ref "../add_buttons.md" >}})
+
+#### See also
+
+- [<ins>MPOS action setup for Scandit<ins>]({{< ref "../scandit/index.md" >}})
+- [<ins>Establish a connection between a receipt printer and an iPad/iPhone<ins>]({{< ref "../bluetooth/index.md" >}})
+- [<ins>Create new buttons in the MPOS menu<ins>]({{< ref "../add_buttons/index.md" >}})
+- [<ins>MPOS menus<ins>]({{< ref "../../explanation/menu/index.md" >}})

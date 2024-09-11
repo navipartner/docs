@@ -1,6 +1,6 @@
 ---
-title: "Set up the printing module (Hardware Connector)"
-description: "There are three available printer extensions you can choose from when setting up the default printers for report printing."
+title: "Set up the HW Connector report printing module"
+description: "You can use the Hardware Connector Report Printer Setup page to inject the printers into the standard Business Central Printer Selections administrative section."
 lead: ""
 date: 2023-07-12T14:10:32+02:00
 lastmod: 2023-07-12T14:10:32+02:00
@@ -10,20 +10,12 @@ menu:
   docs:
     parent: ""
     identifier: "printing_module_setup-f66ded47843ca46d58145759ed8f0158"
-weight: 259
+weight: 278
 toc: true
 type: docs
 ---
 
-There are three available printer extensions you can choose from when setting up the default printers for report printing:
-
-- Hardware Connector
-- MPOS
-- PrintNode
-
-This how-to guide focuses on the recommended option that is the Hardware Connector, while the MPOS and PrintNode output setups will be explained in separate articles. 
-
-To set up the printing module, follow the provided steps:
+You can use the **Hardware Connector Report Printer Setup** page to inject the printers into the standard Business Central **Printer Selections** administrative section. After this is done, you can use **Printer Selections** to choose which printer is going to be used for printing reports.
 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Hardware Connector Report Printer Setup**, and open the related link.    
@@ -56,11 +48,28 @@ To set up the printing module, follow the provided steps:
 
 {{< alert icon="📝" text="If neither <b>User ID</b> nor <b>Report ID</b> are specified the printer selection is applicable for all users and reports that aren't defined."/>}}
 
-9.  Open the [<ins>Hardware Connector Software<ins>](../../../gettingstarted/hw_connector.md) before you start printing.     
+9.  Open the [<ins>Hardware Connector Software<ins>]({{< ref "../../../gettingstarted/hw_connector.md" >}}) before you start printing.     
    It needs to be running in the background. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VKI0MNWorPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Example setup - A5 printer
+
+To set up the A5 printer in **Hardware Connector Report Printer Setup**, follow the provided steps: 
+
+1. Navigate to the **Hardware Connector Report Printer Setup** page in Business Central. 
+2. Click **Edit List** to be able to change the current entries. 
+3. Insert **A5** as **Printer ID** and **Printer Name** in a new line.      
+   A5 is the name of the printer installed locally.  
+4. Change the **Paper Size** to **A5** paper (148mm by 210mm).      
+   As a result, this printer name becomes available in the **Printer Selection** so that anyone with a locally installed printer called A5 can use it. 
+
 ## Troubleshooting 
 
 [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+
+#### See also 
+
+- [<ins>Printer troubleshooting<ins>]({{< ref "../../../../troubleshooting/printer.md" >}})
+- [<ins>Printing overview<ins>]({{< ref "../../intro.md" >}})
+- [<ins>Print properties<ins>]({{< ref "../../explanation/print_properties/index.md" >}})

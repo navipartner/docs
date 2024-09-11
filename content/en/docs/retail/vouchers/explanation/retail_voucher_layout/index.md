@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "retail_voucher_layout-0dc065cf9abb715e5ab9bfc7c9cf9e4f"
-weight: 141
+weight: 140
 toc: true
 type: docs
 ---
@@ -135,5 +135,7 @@ There are various voucher reports for BC SaaS that you can select depending on t
 
 The font used for barcodes is **IDAutomation2D**. 
 
+#### See also
 
-
+- [<ins>Voucher types<ins>]({{< ref "../voucher_types/index.md" >}})
+- [<ins>Create a new voucher<ins>]({{< ref "../../how-to/create_new/index.md" >}})

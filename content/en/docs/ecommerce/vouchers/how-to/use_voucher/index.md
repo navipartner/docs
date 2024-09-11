@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "use_voucher-14a988ecb8ad95011c3612f8e6dae7d6"
-weight: 306
+weight: 307
 toc: true
 type: docs
 ---
@@ -61,3 +61,7 @@ Once you've created a brand-new voucher, you can purchase it in the web store. T
 ### Apply the voucher on your web order
 
 Once you've received a voucher, you can [<ins>apply the discount it provides<ins>]({{< ref "../apply_voucher/index.md" >}}) on your next purchase from the web store, or even get an item for free if it costs less than the amount the voucher provides.
+
+#### See also
+
+- [<ins>Create vouchers in Magento and Business Central<ins>]({{< ref "../create_vouchers/index.md" >}})

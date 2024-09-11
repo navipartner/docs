@@ -21,3 +21,8 @@ This user setup filters all warehouse activities across the database to the empl
 A user can be assigned to additional non-default locations for which the employee can view activity lines but not perform the activities.
 
   {{< alert icon="📝" text="One default location should be assigned to the user. This will be the location set on the mobile device. The user has the option to change the default location on the mobile device to any location that has been set for them in <b>Warehouse Employees</b>."/>}}
+
+#### See also
+
+- [<ins>Set up Capture Service<ins>]({{< ref "../../how-to/cs_setup/index.md" >}})
+- [<ins>Set up Capture Service users<ins>]({{< ref "../../how-to/cs_user_setup/index.md" >}})

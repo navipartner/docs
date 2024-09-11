@@ -257,3 +257,8 @@ For always-on or afterhours self-service, the [<ins>Adyen<ins>](https://www.adye
 #### Boca printer
 
 The [<ins>Lemur-X<ins>](https://tls-bocasystems.com/en/788/lemur-x/) is one of our smallest desktop ticket and label printers. Boca systems offer the Lemur-X as a standard with an adjustable 2''-3.25'' 200 dpi print width, cutter unit, and serial & USB interfaces. The LEDs provide feedback in error conditions. The printer allows you to print on ticket stock with a maximum thickness up to .010''.
+
+#### See also
+
+- [<ins>Self-Service Profile troubleshooting<ins>]({{< ref "../../../../troubleshooting/ss_profile.md" >}})
+- [<ins>Self-service POS actions<ins>]({{< ref "../../reference/ss_actions/ss_actions.md" >}})

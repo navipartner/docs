@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_new_sales_order-564c00625a2ab9610aea00a350513512"
-weight: 140
+weight: 139
 toc: true
 type: docs
 ---
@@ -74,3 +74,8 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
   In the **Voucher List** you will be able to see that the voucher has been used and archived. 
 
   ![vouchers11](vouchers11.png)
+
+#### See also
+
+- [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
+- [<ins>Create a new voucher<ins>]({{< ref "../create_new/index.md" >}})

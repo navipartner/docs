@@ -81,3 +81,11 @@ To create GS1 discount coupons, make sure the prerequisites are met and follow t
    {{< alert icon="📝" text="The discount is applied as a new G/L line with a negative amount which is calculated from the barcode."/>}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N77fT6kmIwM?si=o847Dntqxp6aqAbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Discount coupon setup<ins>]({{< ref "../discount_coupon_usecases/index.md" >}})
+- [<ins>Create a new coupon<ins>]({{< ref "../new_coupon/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../activity_coupons/index.md" >}})

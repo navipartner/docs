@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_price_profile-c2be3c768604897feec3f44501c9d84b"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---
@@ -39,3 +39,12 @@ To assign the notification profile to one or more lines in **Admission Schedule 
 4. Select the appropriate **Profile Code** from the list.
 
 {{< alert icon="💡" text="Click the <b>Price Simulator</b> on top of the page to see how the selected <b>Dynamic Price Profile Code</b> affects the <b>Admission Schedule Entries</b>."/>}}
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

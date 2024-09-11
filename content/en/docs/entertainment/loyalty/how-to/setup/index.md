@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup-6405c3483fcac7e6fa988f4c2c060d08"
-weight: 271
+weight: 295
 toc: true
 type: docs
 ---
@@ -82,3 +82,9 @@ All benefits which member gets being loyal to the company are summed up in coupo
    As **Coupon Setup** is selected, the benefits from the loyalty program depend on the setup of the coupon assigned to this program. So, in our example, the customer will have 20% discount, and the maximum discount amount can be 50 EUR.
 
 ![Coupon_setup](Coupon.png)
+
+#### See also
+
+- [<ins>Assign points on sale<ins>]({{< ref "../assign_points/index.md" >}})
+- [<ins>Redeem points on sale<ins>]({{< ref "../redeem_points/index.md" >}})
+- [<ins>Navigation and reports<ins>]({{< ref "../../explanation/navigation_reports/index.md" >}})

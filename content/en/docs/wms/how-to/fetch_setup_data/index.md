@@ -40,3 +40,10 @@ It's possible to fetch preset configurations on your environment, to make the ov
 
 4. Follow through with the installation process and take any necessary action.      
    After fetching of the data and installation is complete, a confirmation message is displayed, and the relevant data becomes available in the environment.
+
+#### See also
+
+- [<ins>Install WMS and RFID apps on mobile devices<ins>]({{< ref "../install_apps/index.md" >}})
+- [<ins>Set up Capture Service<ins>]({{< ref "../cs_setup/index.md" >}})
+- [<ins>Set up CS UIs<ins>]({{< ref "../cs_ui_setup/index.md" >}})
+- [<ins>Set up RFID functionalities in Business Central<ins>]({{< ref "../rfid_setup/index.md" >}})

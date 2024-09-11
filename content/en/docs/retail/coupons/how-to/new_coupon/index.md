@@ -34,6 +34,11 @@ Coupons can provide the discount to the sum of item prices on checkout if certai
 7. Provide the **Coupon Reference No.** in the window that pops up.     
    The discount coupon is now applied. 
 
-## Troubleshooting 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygfs2cSlOJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+#### See also
+
+- [<ins>Coupon troubleshooting<ins>]({{< ref "../../../../troubleshooting/coupon.md" >}})
+- [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
+- [<ins>Create discount coupons with the GS1 coding system<ins>]({{< ref "../gs1/gs1_setup/index.md" >}})
+- [<ins>Create and set up activity coupons<ins>]({{< ref "../activity_coupons/index.md" >}})

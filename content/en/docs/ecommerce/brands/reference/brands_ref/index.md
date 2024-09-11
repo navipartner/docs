@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "brands_ref-cd150c5cfe06eba0698aa3191c4fd564"
-weight: 302
+weight: 303
 toc: true
 type: docs
 ---
@@ -45,3 +45,9 @@ Learn what each of the fields on the **Brands** page is used for by referring to
 | **Meta Title**   | Specifies the headline used by search engines to display your brand page in search results. It can be the same as the **Brand Name** or provide additional information about the brand. Depending on the search engine, the **Meta Title** can display between 50-60 characters before being truncated.       |
 | **Meta Keywords**  | This field is obsolete and no longer considered by search engines. The field can be left empty.   |
 | **Meta Descriptions**  | Specifies a summarized version of the content of the brand page. This is used by search engines to display your brand page in the search results. Depending on the search engine, **Meta Descriptions** can display between 150-160 characters before being truncated.  |
+
+#### See also
+
+- [<ins>Create a brand<ins>]({{< ref "../../how-to/create_brand/index.md" >}})
+- [<ins>Edit a brand<ins>]({{< ref "../../how-to/edit_brand/index.md" >}})
+- [<ins>Delete a brand<ins>]({{< ref "../../how-to/delete_brand/index.md" >}})

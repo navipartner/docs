@@ -25,3 +25,10 @@ A Reimbursement party is the actual entity to perform reimbursement on and links
 4. Provide the **No.** which can either correspond to a customer number or a vendor number.
 5. (Optional) Modify the sequence to run the reimbursement in the **Reimburse Every** field.
 6. (Optional) Modify the **Next Posting Date Calculation** for the outcome of the process. 
+
+#### See also
+
+- [<ins>Process reimbursements<ins>]({{< ref "../process/index.md" >}})
+- [<ins>Set up reimbursement party types<ins>]({{< ref "../party_types/index.md" >}})
+- [<ins>Set up reimbursement templates<ins>]({{< ref "../template_setup/index.md" >}})
+- [<ins>Output reimbursement entries<ins>]({{< ref "../../explanation/output_entries/index.md" >}})

@@ -38,7 +38,7 @@ The initial setup of NP WMS consists of the following steps:
 
 3. Purchase the [<ins>SAAS license<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/licensing) online.
 
-  {{< alert icon="📝" text="For pricing details refer to <a href=\"https://www.navipartner.com/np-wms-pricing\">our website</a>. A trial period is offered to test the functionalities."/>}}
+  {{< alert icon="📝" text="For pricing details refer to <a href=\"https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipartner%7CAID.np-wms%7CPAPPID.051deebc-1c74-4d44-8e6c-e910c3855c25?tab=Overview\">the NP WMS section on AppSource</a>. A trial period is offered to users who wish to test the functionalities."/>}}
 
 4. Set the main parameters for your instance of NP WMS in [<ins>CS setup<ins>]({{< ref "reference/cs_setup_ref/index.md" >}}). These parameters include, but aren't limited to:
 

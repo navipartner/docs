@@ -17,8 +17,6 @@ type: docs
 
 Group codes can be predefined in Business Central, and attached to the POS sales. This functionality is useful for filtering those POS sales when they are exported from the POS to a standard sales order. It also gives users the option of filtering standard sales orders imported to a POS sale.
 
-If you navigate to **POS Actions** administrative section, you set up parameters for the actions listed below, and establish how they will be used on the POS. 
-
 ## Export current POS sale to a standard sales order (SALES_DOC_EXP)
 
 The **SALES_DOC_EXP** POS action can be mapped to a [<ins>button<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) on the POS used for exporting the current POS sale to a standard sales order. It has two parameters:
@@ -84,3 +82,7 @@ When the **GroupCodeFilter** functionality is enabled, but the **GroupCode** par
    The name of this button may vary depending on the way you've mapped it in the **POS Menus** administrative section of Business Central.  
 3. Select a customer, and press **OK**.     
    This time, you won't be prompted to provide a group code, but the sales order list will be filtered directly according to the value selected in the **GroupCode** parameter.
+
+#### See also
+
+- [<ins>Use the POS Layout Setup Wizard<ins>]({{< ref "../../../pos_layout/how-to/layout_wizard/index.md" >}})

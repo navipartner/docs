@@ -28,3 +28,9 @@ The general flow is as follows:
 3. Manually check and adjust the imported data.
 4. Validate the data in the worksheet.
 5. Implement the modifications or create new items/variants by [<ins>registering<ins>]({{< ref "explanation/register/index.md" >}}) the worksheet. 
+
+#### See also
+
+- [<ins>Item Worksheet Template<ins>]({{< ref "reference/template/template_ref.md" >}})
+- [<ins>Create an Item Worksheet line<ins>]({{< ref "how-to/create/index.md" >}})
+- [<ins>Adding variety values to the worksheet<ins>]({{< ref "explanation/add_variety/index.md" >}})

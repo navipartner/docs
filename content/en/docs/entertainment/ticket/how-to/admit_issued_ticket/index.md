@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "admit_issued_ticket-b07505c87c51ad6c1dacb939ce556758"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---
@@ -36,3 +36,9 @@ To admit an issued ticket from Business Central, follow the provided steps:
    The **Ticket Access Entry List** is displayed as a result.
 4. Click **Process**, and then **Register Arrival**.   
    The ticket is admitted as a result.
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Create prepaid tickets<ins>]({{< ref "../create_prepaid/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

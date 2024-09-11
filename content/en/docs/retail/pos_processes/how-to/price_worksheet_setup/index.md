@@ -40,3 +40,9 @@ If you want to update prices for multiple items without having to change setting
 ### Example
 
 If you create a default sales price for the item 1150 using the unit price of 500.00 and applying a factor of 1.20 on it, the new sales price will be 600.00. Then, you can run the **Implement Price Change** action to update the sales price list for the item. 
+
+#### See also
+
+- [<ins>Create an item worksheet line<ins>]({{< ref "../../../item_worksheet/how-to/create.md" >}})
+- [<ins>Adding variety values to the worksheet<ins>]({{< ref "../../../item_worksheet/explanation/add_variety/index.md" >}})
+- [<ins>Item worksheet template<ins>]({{< ref "../../../item_worksheet/reference/template/template_ref.md" >}})

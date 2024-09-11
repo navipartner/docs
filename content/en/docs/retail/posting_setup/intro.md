@@ -15,7 +15,9 @@ toc: true
 type: docs
 ---
 
-Posting groups are a [<ins>core Business Central feature<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
+Posting groups are a [<ins>core Business Central feature<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-posting-groups), expanded with NaviPartner's Retail POS Posting setup solution. They are used for mapping entities like customers, vendors, items, and resources to general ledger accounts. 
+
+## General posting groups
 
 General posting groups specify who you sell to and buy from, as well as what you sell and buy. It is also possible to combine groups to get more specific reports of transactions. The following general posting groups are available: 
 
@@ -23,9 +25,13 @@ General posting groups specify who you sell to and buy from, as well as what you
 - **General Product Posting Group** - specifies the product type to link transactions made from this item with the appropriate general ledger account. 
 - **General Posting Setup** - you can combine business and product posting groups, and choose the accounts to post to. It's possible to post the sale of one item to multiple general ledger accounts if customers are assigned to different business posting groups.
 
-There are also specific posting groups, that are distinguished by the types of data they contain:
+## Specific posting groups
 
-- **Inventory Posting Groups** - you can specify inventory groups that you will assign to the relevant item accounts on the **Inventory Posting Setup** page in Business Central. They also make inventory organization easier, as you can classify items when generating reports.       
+There are also specific posting groups, that are distinguished by the types of data they contain. Those are customer posting groups, vendor posting groups, inventory posting groups, bank account posting groups, and fixed assets posting groups.
+
+### Inventory Posting Groups
+
+You can specify inventory groups that you will assign to the relevant item accounts on the **Inventory Posting Setup** page in Business Central. They also make inventory organization easier, as you can classify items when generating reports.       
 
   If you're using locations (specified in the **Location Code** field), you need to define multiple inventor accounts in the **Inventory Posting Setup** for each inventory posting group and location.
 
@@ -37,10 +43,18 @@ There are also specific posting groups, that are distinguished by the types of d
 
 ## POS Posting Setup - NP Retail
 
-In addition to the above, NP Retail uses [<ins>**POS Posting Setup**<ins>]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to their related General Ledger Account. 
+On top of the posting solutions provided by Business Central, NP Retail uses the [<ins>**POS Posting Setup**<ins>]({{< ref "explanation/pos_posting_setup/index.md" >}}) to post the different payment methods accepted on POS to the relevant General Ledger Account. 
 
 In a typical sale performed on a POS unit, the following posting setups are employed:
 
 - **General Posting Setup for Sales a/c**
 - **VAT Posting Setup for the VAT a/c**
 - **POS Posting Setup for the Payment a/c**
+
+It's necessary to consider the posting routine you wish to apply to each individual payment method to optimize your posting setup. Refer to the other articles for more information.
+
+#### See also
+
+- [<ins>Posting priority rule<ins>]({{< ref "explanation/posting_priority_rule/index.md" >}})
+- [<ins>Posting compression (EOD)<ins>]({{< ref "explanation/compression/index.md" >}})
+- [<ins>Set up posting compression<ins>]({{< ref "how-to/posting_compression/index.md" >}})

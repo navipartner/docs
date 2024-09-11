@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "delete_brand-765cbd7340c74b7b13f46ebb6c1ce632"
-weight: 301
+weight: 302
 toc: true
 type: docs
 ---
@@ -24,3 +24,8 @@ Brands are deleted from the Magento Admin Panel. To delete a brand, follow the p
 4. Click **OK** when prompted with the popup to confirm the action.
 
 {{< alert icon="📝" text="You can also delete a brand by opening the brand page, and then clicking <b>Delete</b>." />}}
+
+#### See also
+
+- [<ins>Create a brand<ins>]({{< ref "../create_brand/index.md" >}})
+- [<ins>Delete a brand<ins>]({{< ref "../delete_brand/index.md" >}})

@@ -28,3 +28,8 @@ There is a predefined configuration created automatically when the **Replication
 Newly created or modified records are identified with the field **Replication Counter** which is populated based on the [<ins>Business Central timestamp field<ins>](https://docs.microsoft.com/en-us/dynamics-nav/how-to--use-a-timestamp-field).
 
 Import of new or modified records is handled by making API requests to the From Company (source company). API requests are based on the [<ins>Business Central Custom API pages<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+#### See also
+
+- [<ins>Set up Replication module<ins>]({{< ref "how-to/setup/index.md" >}})
+- [<ins>Set up inventory sets<ins>]({{< ref "how-to/inventory_sets/index.md" >}})

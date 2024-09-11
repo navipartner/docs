@@ -45,6 +45,7 @@ Tax-free vouchers can be printed out either as thermal or PDF, depending on the 
 
 Move on to the [<ins>NAS setup<ins>]({{< ref "../../reference/nas_setup/index.md" >}}).
 
-## Troubleshooting 
+#### See also
 
-[<ins>Tax-free troubleshooting<ins>]({{< ref "../../../../troubleshooting/tax_free.md" >}})
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "../../../../troubleshooting/tax_free.md" >}})
+- [<ins>Tax-free profile parameters<ins>]({{< ref "../../reference/params_ref/index.md" >}})

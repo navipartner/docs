@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "create_prepaid-852ef68537fd6e342aa4bdaa91d7c62b"
-weight: 262
+weight: 288
 toc: true
 type: docs
 ---
@@ -38,3 +38,11 @@ To issue prepaid tickets from Business Central, follow the provided steps:
 If tickets are internal or for an event you control yourself, it is possible to validate the tickets by placing them in the **Offline Ticket Validation** journal. 
 
 Individual tickets or the entire batch of tickets can be validated for admission at this point. This will update the arrival statistics for the ticket on the **Event Date**/**Event Time** specified on the journal line.
+
+#### See also
+
+- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
+- [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
+- [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
+- [<ins>Create postpaid tickets<ins>]({{< ref "../create_postpaid/index.md" >}})

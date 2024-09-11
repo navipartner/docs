@@ -29,3 +29,11 @@ Variety groups are combinations of varieties assembled according to a certain lo
 | **Copy Naming Variety 1-1** | The following options are available: **Blank** - this selection results in an error if **Create Copy of Variety 1 Table** is ticked; **Table Code + No. Series** - the code of the **Variety 1 Table** + the next number from the number series will be used; **Table Code + Item No** - the code of the **Variety 1 Table** + the **Item Number** will be used.
 
 {{< alert icon="📝" text="There are also fields for <b>Variety 2</b>, <b>Variety 3</b>, and <b>Variety 4</b> that are configured in the same way as <b>Variety 1</b>."/>}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7BQ8XESFc0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Set up variety matrix facilities on Sales Orders<ins>]({{< ref "../../how-to/matrix.md" >}})
+- [<ins>Create varieties in Business Central<ins>]({{< ref "../../how-to/create_variety.md" >}})
+- [<ins>Block a variant<ins>]({{< ref "../../how-to/block_variant.md" >}})

@@ -42,3 +42,8 @@ To create POS menu filters, follow the provided steps:
 13. In the **MenuFilterCode** field on the POS parameter, you need to set the **POS Menus Filter** you've created. 
 
 If you're having difficulty writing down a filter on any table in the SQL statement, you can always use the **POS Menu Filters** function to generate it, and then paste it on the POS action you're using, such as [<ins>LOOKUP<ins>]({{< ref "../../reference/sql_pos_action/index.md" >}})
+
+#### See also
+
+- [<ins>POS editor<ins>]({{< ref "../../explanation/pos_editor/index.md" >}})
+- [<ins>Create buttons in POS menus<ins>]({{< ref "../new_button/index.md" >}})

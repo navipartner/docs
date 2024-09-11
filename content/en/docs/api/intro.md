@@ -17,10 +17,12 @@ type: docs
 
 Both SOAP and REST API can used for managing our solutions. Refer to the relevant guides to learn more.
 
-## REST API
+## REST API (OData)
 
-The newest versions of Business Central use the OData v4 standard to provide REST webservice APIs.  
-The base application in the ERP system comes with a sizeable set of APIs, and NPRetail adds many additional APIs on top, intended for NaviPartner's modules. This guide is currently under construction
+The newest versions of Business Central use the OData v4 standard to provide REST webservice APIs. The base application in the ERP system comes with a sizeable set of APIs, and NPRetail adds many additional APIs on top of that, to provide easier navigation through NaviPartner's modules.
+
+OData (Open Data Protocol) is well-suited for web service application. It is built on core protocols such as HTTP and REST, and it is especially recommended for SaaS environments. You can create and publish functionalities with OData web services; you can also use them to publish pages, codeunits, and queries as OData v4 endpoints. Additionally, you can use them to achieve retrieval, update and deletion of data effectively.
+
 
 ### Microsoft Docs 
 
@@ -33,7 +35,6 @@ Read the Microsoft documentation for an introduction to Business Central APIs, a
 ### Microsoft API
 
 Refer to the [<ins>technical reference<ins>](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/) of the base ERP APIs developed by Microsoft.  
-
 
 ### NPRetail API
 

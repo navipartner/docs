@@ -1,5 +1,5 @@
 ---
-title: "Set up retail logo"
+title: "Set up retail logo for printing"
 description: "This article describes how to use the Retail Logo module, removing the need to upload logos on each receipt printer with a driver utility, and making the process much faster."
 lead: ""
 date: 2023-07-12T13:33:45+02:00
@@ -15,7 +15,8 @@ toc: true
 type: docs
 ---
 
-This article describes how to use the Retail Logo module, removing the need to upload logos on each receipt printer with a driver utility, and making the process much faster.
+If you add a desired logo via the Retail Logo module, you won't need to manually upload logos for each individual receipt before printing.
+ 
 
 When using this module, the logos are stored in each print-job (with minimal print speed impact).
 
@@ -43,3 +44,9 @@ When using this module, the logos are stored in each print-job (with minimal pri
    - **Register No.** - if left blank, all registers without a specified number filter match will print this logo.
    - **Start Date** - set a start date (inclusive) from which this logo will be printed. You can keep this field blank if no interval is needed.
    - **End Date** - Set an end date (inclusive) from which this logo will no longer be printed. You can keep this field blank if no interval is needed.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M6naAmEB7fo?si=ytxCWQsJkdvBbfFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Printing module overview<ins>]({{< ref "../../../printing/intro.md" >}})

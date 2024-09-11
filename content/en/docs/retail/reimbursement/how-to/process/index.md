@@ -31,3 +31,9 @@ Having completed the necessary configurations for the process, you now need to r
    After that, the date will be calculated according to the value in the **Reimburse every** field.
 4. Populate **Next Posting Date** the first time the reimbursement is done.    
    After that, the posting date will be based on the **Next Posting date Calculation** on the party every time the reimbursement is performed. 
+
+#### See also
+
+- [<ins>Set up reimbursement party types<ins>]({{< ref "../party_types/index.md" >}})
+- [<ins>Set up reimbursement templates<ins>]({{< ref "../template_setup/index.md" >}})
+- [<ins>Output reimbursement entries<ins>]({{< ref "../../explanation/output_entries/index.md" >}})

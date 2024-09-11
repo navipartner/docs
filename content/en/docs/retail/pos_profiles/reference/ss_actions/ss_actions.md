@@ -1,5 +1,5 @@
 ---
-title: "POS self-service actions"
+title: "POS Self-Service Actions"
 description: "There are specific POS actions intended for the self-service mode. On the POS unit dedicated for self-service, the POS setup is configured from the POS Named Action Profile located in the POS Unit Card. "
 lead: ""
 date: 2023-07-05T14:37:24+02:00
@@ -118,3 +118,7 @@ In this situation, the same POS action is set in the POS Named Action Profile fo
 
 
 {{< alert icon="📝" text="It is a similar function to SS-START-POS, with the difference being that it has a prompt to scan or insert a customer number prior to initiating the sale."/>}}
+
+#### See also
+
+- [<ins>Self-Service Profile troubleshooting<ins>]({{< ref "../../../../troubleshooting/ss_profile.md" >}})

@@ -36,6 +36,8 @@ A fee of the tax refund amount is taken in return for the service provided by th
 
 {{< alert icon="📝" text="It is also possible to provide tax free services without a middle-man tax free provider, but the details of this, regarding bookkeeping, storage of documents and compliance will depend on the country legislation."/>}}
 
-## Troubleshooting 
+#### See also
 
-[<ins>Tax-free troubleshooting<ins>]({{< ref "../../troubleshooting/tax_free.md" >}})
+- [<ins>Tax-free troubleshooting<ins>]({{< ref "../../troubleshooting/tax_free.md" >}})
+- [<ins>Set up Global Blue tax-free solution<ins>]({{< ref "how-to/global_blue/index.md" >}})
+- [<ins>Tax-free profile parameters<ins>]({{< ref "reference/params_ref/index.md" >}})

@@ -23,3 +23,8 @@ General Data Protection Regulation (GDPR) is a legal framework that sets guideli
 - request the restricted processing of their personal information.
 - request the personal information that they have provided, in a structured, commonly used and machine-readable format, and be able to transmit that information to another controller without hindrance.
 - object to the processing of their personal information.
+
+#### See also
+
+- [<ins>Anonymize customers automatically after a certain period<ins>]({{< ref "how-to/auto_anonymization/index.md" >}})
+- [<ins>Anonymize customer data<ins>]({{< ref "how-to/anonymization/index.md" >}})

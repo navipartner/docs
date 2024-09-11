@@ -42,3 +42,8 @@ There's a way to track all POS transactions from other companies in the master c
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Global Sales Entries** and choose the related link.
 2. On this page you can see in which POS store, POS unit, and on which date the sales were completed in the POS. You can also see which items were sold in each transaction.
+
+#### See also
+
+- [<ins>Create a new POS unit<ins>]({{< ref "../../../pos_processes/how-to/create_pos_unit/index.md" >}})
+- [<ins>POS profiles<ins>]({{< ref "../../intro.md" >}})

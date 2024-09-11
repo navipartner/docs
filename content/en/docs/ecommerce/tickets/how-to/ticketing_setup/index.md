@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "ticketing_setup-2f28e0cab3ea1eb9eda310003827af7f"
-weight: 303
+weight: 304
 toc: true
 type: docs
 ---
@@ -77,3 +77,9 @@ You can apply different combinations of options in the **Ticket Package App Setu
 - The **Qty (Q1)** can be used to indicate the quantity that will be added once the addon is selected. 
 - **Qty Increment Factor** is the number of tickets selected that will consequently increase the defined number of addons. 
 - **Min and Max Specified** defines the range that you can select for how many addons you wish to add. 
+
+
+#### See also
+
+- [<ins>Entertainment settings<ins>]({{< ref "../../reference/entertainment_ref/index.md" >}})
+- [<ins>Ticket delivery<ins>]({{< ref "../../reference/ticket_delivery_ref/index.md" >}})

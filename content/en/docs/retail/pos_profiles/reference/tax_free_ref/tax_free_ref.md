@@ -1,5 +1,5 @@
 ---
-title: "POS tax-free profile"
+title: "POS Tax-Free Profile"
 description: "If a shop is tax-free, all sales performed in it are exempt from the payment of certain taxes/duties. In the tax-free profile, it's necessary to set a handler for the Global Blue or the Premier Tax Free interface. "
 lead: ""
 date: 2023-07-05T10:36:54+02:00
@@ -30,3 +30,10 @@ The following tax-free parameters are linked to each POS unit, and can be config
 | **Check POS Terminal IIN** | Enables IIN matching for all EFT payment transactions. You can use this option to suggest the tax-free voucher when the source of the IIN is a region eligible for the tax-free solution. |
 | **Request Timeout (ms)** | Specifies how long you need to wait before cancelling the tax-free action. This option is relevant if temporary connection issues occur in the tax-free solution environment. The suggested value is 10000 (10 seconds). |
 | **Store Voucher Prints** | Specifies whether to store tax-free prints on the voucher records. If the Global Blue tax-free solution is used, this option should be disabled. |
+
+{{< alert icon="📝" text="Tax-free vouchers will be issued on sale when a <b>POS Tax Free Profile</b> is assigned to the POS unit related to that sale."/>}}
+
+#### See also
+
+- [<ins>Tax-free module overview<ins>]({{< ref "../../../taxfree/intro.md" >}})
+- [<ins>Tax-free profile parameters<ins>]({{< ref "../../../taxfree/reference/params_ref/index.md" >}})

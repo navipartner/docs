@@ -2,15 +2,15 @@
 title: "Explanation"
 description: ""
 lead: ""
-date: 2023-07-20T11:22:21+02:00
-lastmod: 2023-07-20T11:22:21+02:00
+date: 2023-10-30T15:59:21+04:00
+lastmod: 2023-10-30T15:59:21+04:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "explanation-4616d9d00745fd1fd76b1aeb29876451"
-weight: 162
+    identifier: "explanation-f1f976a4d52b04d1971deb64856160d7"
+weight: 800
 toc: true
 type: docs
 ---
