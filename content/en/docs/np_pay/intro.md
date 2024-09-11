@@ -39,6 +39,27 @@ You can determine the percentage distribution between new and returning shoppers
 
 ### Digital receipts
 
+NP Pay is integrated with digital receipts, which serve as virtual replacement for printed receipts. Upon completing a transaction, customers are prompted to print receipts, receive a digital receipt or skip the receipt screen. 
+
+### Buy now, pay later
+
+Through the *Buy now, pay later feature*, customers can retrieve the selected store goods, and provide payments later (either in-store or online). 
+
+### Emergency POS
+
+You can install a standalone emergency POS app on your MPOS device. It allows you to record barcodes, prices, customer contact details, and process payments through the software terminal integrated with NP Pay. Once the connection to the Business Central servers is reestablished, all sales data is synced back to the Business Central database, transactions are posted, and digital receipts are sent out. 
+
+### Smart terminals
+
+You can leverage multipurpose smart terminals that serve the purpose of traditional countertop terminals as well as support the installation of Android apps. This allows them to be used seamlessly with NaviPartner's MPOS app and the Emergency POS app. 
+
+### Customer tips
+
+Customers can select from several tipping options when making a purchase, such as 10%, 15%, or 20%. Additionally, they can enter a custom tip amount. 
+
+### Single-page checkout
+
+NP Pay is integrated with Shopify and supports single-click checkout, which eliminates the need to redirect users to third-party payment gateways and streamlines the purchasing process. 
 
 ## NP Pay setup guides
 
