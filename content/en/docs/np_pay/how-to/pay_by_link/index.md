@@ -26,8 +26,18 @@ The Pay by Link feature enables businesses to streamline and simplify the paymen
    | ----------- | ----------- |
    | **Payment Gateway Code** | Specifies which payment service provider will be used to process transactions through the link. You need to choose a payment gateway that has capturing, cancelling, and refunding functions enabled. | 
    | **Enable Pay by Link** | Use this field to enable or disable the Pay by Link feature, which integrates with payment processing. When enabled, a webhook is created to receive information from payment, allowing the system to process payments automatically. | 
-   | **E-mail Template** | Specifies the email template that will be sent for the Pay by Link via email. | 
-   | **SMS Template** | Specifies the SMS template that will be sent for the Pay by Link via SMS. | 
+   | **E-mail Template** | Specifies the [<ins>email template<ins>]({{< ref "../../../retail/communication/how-to/email_templates/index.md" >}}) that will be sent for the Pay by Link via email. | 
+
+   ![pay_by_link_email_template](Images/pay_by_link_email_template.PNG)
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **SMS Template** | Specifies the [<ins>SMS template<ins>]({{< ref "../../../retail/communication/reference/sms_template_ref/index.md" >}}) that will be sent for the Pay by Link via SMS. | 
+
+   ![pay_by_link_sms](Images/pay_by_link_sms.PNG)
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
    | **Enable Automatic Posting** | Enable or disable the automatic posting of payment lines via job queue for posting sales invoices. | 
    | **Account Type** | Defines the type of account to which the transaction will be posted. |
    | **Account No.** | Specifies the number of the account to which the transaction will be posted. |
