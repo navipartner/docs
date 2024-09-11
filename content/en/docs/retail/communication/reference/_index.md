@@ -1,16 +1,32 @@
 ---
-title: "Reference"
-description: ""
+title: "SMS Setup"
+description: "Refer to the tables with descriptions of dedicated SMS Setup fields."
 lead: ""
-date: 2023-10-31T15:00:38+04:00
-lastmod: 2023-10-31T15:00:38+04:00
+date: 2023-07-10T22:39:33+02:00
+lastmod: 2023-07-10T22:39:33+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "reference-2ca2f90381998ab98e9f8ef7cddaaeb1"
-weight: 999
+    identifier: "sms_ref-5d6c83d929f25794e304b2e4cd0d47e7"
+weight: 163
 toc: true
 type: docs
 ---
+
+In order to establish a functional SMS module, certain actions need to be set up. This is done in the **SMS Setup Card**. 
+
+| Field Name      | Description |
+| ----------- | ----------- |
+| **SMS Provider** | Specifies the organization which provides the SMS service. |
+| **Discard Msg. Older than (Hrs)** | Specifies for how many hours the message is stored in the environment. |
+| **Job Queue Category Code** | Specifies which job queue is tasked with sending the SMS. |
+| **Auto Send Attempts** | Specifies how many attempts will be made to send the SMS. After the specified number of attempts is reached, the SMS is discarded from the environment. | 
+| **Customer No.** | Specifies the phone number of the customer. |
+| **Default Sender No.** | Specifies the sender phone number. |
+| **Domestic Phone Prefix** | Specifies the local country calling code of the sender. |
+
+#### See also
+
+- [<ins>SMS templates<ins>]({{< ref "../../reference/sms_template_ref/index.md" >}})
