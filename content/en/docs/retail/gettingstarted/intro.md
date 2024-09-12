@@ -33,6 +33,12 @@ At the core of NP Retail is a POS store. Each POS store contains multiple POS un
 
 - Make sure to read the [<ins>documentation regarding automatic postings<ins>]({{< ref "../../partner/inventory_setup/index.md" >}}) before starting to use your POS. There are certain options that need to be configured in a particular way to make sure everything works properly.
 
+## Business Central licensing
+
+You need to have a correctly assigned Dynamics 365 Business Central Device license if multiple users are to access a device covered by the license simultaneously. 
+
+Refer to the [<ins>Device licenses<ins>](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/licensing#device-licenses) portion of Microsoft's licensing guide for detailed instructions on configuration and usage of license-covered devices. 
+
 ## Get started with the NP Retail setup wizard 
 
 NaviPartner has developed an [<ins>onboarding setup wizard for NP Retail<ins>]({{< ref "getting_started_wizard.md" >}}), which guides you through the configuration process of all essential modules and features. Additionally, the setup wizard is accompanied with the [<ins>POS Academy video library<ins>](https://www.youtube.com/@NaviPartnerKbh), which provides tips and tricks for completing the setup more efficiently.
