@@ -15,22 +15,24 @@ toc: true
 type: docs
 ---
 
-To set up the Shopify integration in NP Retail, make sure the prerequisites are met, and follow the provided steps:
+To set up the Shopify integration, make sure the prerequisites are met, and follow the provided steps:
 
 ### Prerequisites
 
-1. Install the NP Retail application.                   
-   The application's version should be 1700.9.50.10000 or newer.   
-
-   {{< alert icon="❗" text="The NP Retail application needs to exist in the tenant database prior to the installation of Shopify integration extension." />}}
-
-2. Install the Shopify extension in the customer tenant database.      
-
-   A private application needs to be registered on the Shopify environment that Business Central should be connected to. Other than that, nothing needs to be developed on their side to complete the integration setup. We are using the existing Shopify capabilities (web services) to send data and get data from Shopify. All data transfers are initiated from the Business Central side.
+1. Install the NP Retail application on the customer tenant database.                   
+   The application's version needs to be xxxx.42.0.10000 or newer.   
+2. Make sure a custom app is registered with Shopify.       
+   
+   {{< alert icon="📝" text="If you plan to use the retail voucher integration (Shopify Gift Cards) and want to support partial redemption of gift cards, you need to have a Shopify Plus subscription." />}}
 
 ### Procedure
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Integration Setup** and select the related link.      
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NaviPartner Feature Management** and select the related link.      
+2. Enable the **Shopify Integration** feature. 
+
+   ![shopify_integration_activation](Images/shopify_integration_activation.PNG)
+
+3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Integration Setup** and select the related link.      
    The window containing all integration areas that can be set up is displayed. You can choose which integration areas to enable, and specify the **Connection Parameters**.   
 
 {{< alert icon="📝" text="To receive the <b>Shopify Access Token</b>, a private application needs to be created in the Shopify environment that Business Central can be connected to (Shopify admin page > Apps > Manage private apps). Additionally, both read and write permissions need to be assigned to the following entities: Inventory, Orders, and Products." />}}

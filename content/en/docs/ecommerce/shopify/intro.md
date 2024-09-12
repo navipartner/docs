@@ -18,15 +18,20 @@ Shopify is an ecommerce platform that can be used for building online and offlin
 
 NaviPartner out-of-the-box Shopify integration functionality supports the following Shopify integration areas:
 
-- [<ins>Sending item information to Shopify<ins>]({{< ref "how-to/synchronize_items/index.md" >}}) (new and updated items and variants);
+- Product data sync from Business Central to Shopify (live)
 
-- [<ins>Sending available inventory to Shopify<ins>]({{< ref "explanation/send_inventory/index.md" >}}) (quantity available for sale);
+    {{< alert icon="❗" text="NaviPartner desn't currently support linking Business Central items to Shopify product variants. If it is a product variant on Shopify's end, it also needs to be created as an item variant in Business Central." />}}
 
-- [<ins>Getting sales orders from Shopify<ins>]({{< ref "explanation/getting_orders/index.md" >}}) - two types of integration are available:         
+- Product modification sync from Shopify to Business Central (live)
+- Inventory sync from Business Central to Shopify (live)
+- Getting orders from Shopify to Business Central (every 5 minutes or any other interval you choose). Two types of integration are supported here: 
+  - **Order processing is done on the Shopify side**: new orders are imported from Shopify and automatically posted once the updated information on completed orders is received (or deleted, if the order was cancelled in Shopify).
+  - **Order processing is done in Business Central**: new orders are imported from Shopify, and users need to process them in Business Central
+- Retail voucher sync from Business Central to Shopify (live)       
 
-    -	Order processing is done on the Shopify side: we import new orders from Shopify and automatically post them once we receive updated information from Shopify about completed orders (or delete them, if the order was cancelled in Shopify);
+   {{< alert icon="📝" text="Retail vouchers are created as gift cards in Shopify."/>}}
 
-    -	Order processing is done in Business Central: in this case we import new orders from Shopify, and users will need to process them in Business Central. Once a sales order is processed and posted in the Business Central we send “fulfilment” and “payment capture” requests to Shopify.
+   {{< alert icon="📝" text="<i>Live</i> means that synchronization occurs as soon as something is changed. However, there may be a one-minute-delay as the changes are processed via a job queue that runs every minute."/>}}
 
 ## Highlighted articles
 
