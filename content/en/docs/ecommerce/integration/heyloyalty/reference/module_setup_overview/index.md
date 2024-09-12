@@ -92,10 +92,15 @@ In addition, to map a member attribute and its option values to a HeyLoyalty fie
   - Specify **HeyLoyalty Name** for each attribute value.
 
 ## Stores
-Each member can have a preferred store selected on their card in BC. This is essencially a Collect Store from NP Retail [Click & Collect]({{< ref "../../../../../retail/click_and_collect/intro.md" >}}) module.
+Each member can have a preferred store selected on their card in BC. This is basically a Collect Store from NP Retail [Click & Collect]({{< ref "../../../../../retail/click_and_collect/intro.md" >}}) module.
 For each shop you have in HeyLoyalty, you'll need to create a [Collect Store]({{< ref "../../../../../retail/click_and_collect/how-to/setup/setup.md" >}}) in BC and map the entities to each other to be able to synchronize the store code selected on each member card between BC and HeyLoyalty.
-In order to associate a BC Collect store with a HeyLoyalty store, you'll need to specify in BC the id used for the store at HeyLoyalty. The id must be entered on the **Collect Store Card** page in the **HeyLoyalty Name** field.
-A HeyLoyalty store id usually consists of 5 digits. You may need to contact your HeyLoyalty provider to get the store IDs.
+To associate a BC Collect store with a HeyLoyalty store, you'll need to specify in BC the id used for the store in HeyLoyalty. The id must be entered on the **Collect Store Card** page in the **HeyLoyalty Name** field.
+A HeyLoyalty store id usually consists of 5 digits. You may need to contact your HeyLoyalty provider to obtain the store IDs.
 
 ## Data Log Subscribers
+Data log subscribers are required for the system to keep track of changes made to the data. These are automatically created by the system when the relevant HeyLoyalty integration area is enabled.
+Here is the list of automatically generated data log subscribers.
+![Page Data Log Subscribers](images/HLDataLogSubscribers.png)
+All data log subscribers should have **Delayed Data Processing (sec)** set to `20`.
+Please note that **Direct Data Processing** should not be set to `yes` (except for test/sandbox environments), as this may result in incorrect data being sent to HeyLoyalty.
 

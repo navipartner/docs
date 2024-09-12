@@ -15,10 +15,10 @@ toc: true
 type: docs
 ---
 
-In order to ensure changes done to members directly in HeyLoyalty are synchronized back to Business Central (BC) you'll need to setup a webhook in your HeyLoyalty environment.
+To ensure that changes made to members directly in HeyLoyalty are synchronised back to Business Central (BC), you'll need to set up a webhook in your HeyLoyalty environment.
 
 ## Prerequisites
-Mare sure you have finished [*setting up member synchronization*]({{< ref "setup_memb_sync/index.md" >}}) and [*created AAD application for HeyLoyalty*]({{< ref "aad_app/index.md" >}}) in BC before proceeding with this step.
+Make sure you have completed the [*setting up member synchronization*]({{< ref "setup_memb_sync/index.md" >}}) and [*created AAD application for HeyLoyalty*]({{< ref "aad_app/index.md" >}}) in BC before proceeding with this step.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Generally a BC webservice URL for HeyLoyalty has the following structure:
 ```URL
 https://api.businesscentral.dynamics.com/v2.0/<Your BC tenant ID>/<Your BC environment name>/ODataV4/Company('<Your BC company name>')/heyloyalty_services
 ```
-As you can see, there are character pairs `('` and `')` around your BC company name. HeyLoyalty doesn't support this. So you'll need to replace the character pair `('` with their URL encoded representation `%28%27`, and replace `')` with `%27%29`. For example:
+As you can see, there are character pairs `('` and `')` around your BC company name. HeyLoyalty doesn't support this. So you'll need to replace the `('` with its URL encoded representation `%28%27`, and the `')` with `%27%29`. For example:
   - Original URL:
 ```
 https://api.businesscentral.dynamics.com/v2.0/1f807cd6-d8bf-4bb0-b2e4-922d41e37d37/Production/ODataV4/Company('CRONUS%20Danmark%20A%2FS')/heyloyalty_services
@@ -43,7 +43,7 @@ https://api.businesscentral.dynamics.com/v2.0/1f807cd6-d8bf-4bb0-b2e4-922d41e37d
 ```
 
 3. In your HeyLoyalty environment:
-   - On the top menu ribbon select *Lists*, then choose *Edit list* for the list you want to set the webhook for.
+   - Select *Lists* from the top menu ribbon, then select *Edit List* for the list you want to set the webhook for.
    - Select *Webhooks* subsection
 !["Webhooks" subsection of a HeyLoyalty list](Images/HLWebhooks.png)
 <br><br>

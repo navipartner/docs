@@ -14,7 +14,7 @@ weight: 695
 toc: true
 type: docs
 ---
-You can set up your Business Central (BC) and HeyLoyalty environments to synchronize changes made to member related data. This means that new member information as well as changes made to existing members in BC will be sent to HeyLoyalty and vice versa.
+You can set up your Business Central (BC) and HeyLoyalty environments to synchronize changes to member-related data. This means that new member information and changes made to existing members in BC will be sent to HeyLoyalty and vice versa.
 
 ## Prerequisites
 - Make sure you have decided on the field mapping (exactly which HeyLoyalty fields will be used in the synchronization process, and which BC fields they will be mapped to).
