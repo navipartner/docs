@@ -37,3 +37,4 @@ To link a Shopify location to a location in Business Central, follow the provide
    If you've [<ins>already set up your connection parameters in the **Shopify Store** administrative section<ins>]({{< ref "../../reference/shopify_store/index.md" >}}), the system will be able to connect to the Shopify environment you've set up the connection to, and display a list of available Shopify locations for you to choose from.
 
    ![shopify_location_lookup](Images/shopify_location_lookup.PNG)
+
