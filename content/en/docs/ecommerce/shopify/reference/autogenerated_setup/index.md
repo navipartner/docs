@@ -54,7 +54,7 @@ By default, the following job queue entries are created automatically:
 
 Import types are needed to process data received from external sources, like Shopify.
 
-  ![import_types_shopify](Images/import_types_shopify.PNG)
+![import_types_shopify](Images/import_types_shopify.PNG)
 
 The following import types are needed for the integration (all of them are related to the [<ins>**Sales Order Integration**<ins>]({{< ref "../../how-to/sales_order_setup/index.md" >}}) area)
 
