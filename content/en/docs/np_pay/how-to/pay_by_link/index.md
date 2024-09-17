@@ -18,7 +18,7 @@ type: docs
 The Pay by Link feature enables businesses to streamline and simplify the payment process by allowing customers to make secure online payments through a direct link. 
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NP Pay Setup**, and choose the related link.           
-2. Once you're on the **NP Pay Setup**, navigate to the **Pay by Link** panel.
+2. Once you're on the **NP Pay Setup**, navigate to the **Pay by Link** panel/FastTab.
 3. Use the following fields and options to complete the setup. If necessary, refer to the screenshot below for more information.
 
    ![pay_by_link_np_pay](Images/pay_by_link_np_pay.png)
