@@ -17,10 +17,11 @@ type: docs
 
 The Pay by Link feature enables businesses to streamline and simplify the payment process by allowing customers to make secure online payments through a direct link. 
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Pay by Link Setup**, and choose the related link.           
-2. Use the following fields and options to complete the setup. If necessary, refer to the screenshot below for more information.
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NP Pay Setup**, and choose the related link.           
+2. Once you're on the **NP Pay Setup**, navigate to the **Pay by Link** panel/FastTab.
+3. Use the following fields and options to complete the setup. If necessary, refer to the screenshot below for more information.
 
-   ![pay_by_link_1](Images/pay_by_link_1.PNG)
+   ![pay_by_link_np_pay](Images/pay_by_link_np_pay.png)
    
    | Field Name      | Description |
    | ----------- | ----------- |
@@ -44,10 +45,10 @@ The Pay by Link feature enables businesses to streamline and simplify the paymen
    | **Pay by Link Expiration Duration** | Defines the expiration duration for Pay by Link payment requests. This determines for how long the payment link will remain valid after it's been generated and sent to the recipient. If the expiration duration is not explicitly set, a default expiration period of 1 day is automatically applied. | 
    | **Posting Retry Count** | Specifies the number of attempts that will be made to perform the job posting process if it's initially failed. | 
 
-3. If you want to send Pay by Link via SMS or email, you need to do additional setup in either [<ins>Email Setup<ins>]({{< ref "../../../retail/communication/explanation/email_setup/index.md" >}}) or the [<ins>SMS Setup<ins>]({{< ref "../../../retail/communication/how-to/sms_setup/index.md" >}}), depending on the desired result.
-4. Issue Pay by Link from documents (sales order, sales invoice, posted sales invoice) by opening the **Actions** dropdown in the ribbon, and selecting **Pay by Link**.    
+4. If you want to send Pay by Link via SMS or email, you need to do additional setup in either [<ins>Email Setup<ins>]({{< ref "../../../retail/communication/explanation/email_setup/index.md" >}}) or the [<ins>SMS Setup<ins>]({{< ref "../../../retail/communication/how-to/sms_setup/index.md" >}}), depending on the desired result.
+5. Issue Pay by Link from documents (sales order, sales invoice, posted sales invoice) by opening the **Actions** dropdown in the ribbon, and selecting **Pay by Link**.    
    The **Pay by Link** window is displayed. 
-5. Populate the available fields and verify the automatically input information:
+6. Populate the available fields and verify the automatically input information:
 
    | Field Name      | Description |
    | ----------- | ----------- |
