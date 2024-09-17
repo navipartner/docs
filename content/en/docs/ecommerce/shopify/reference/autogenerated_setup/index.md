@@ -19,50 +19,50 @@ The following setups are generated automatically when necessary. They don't requ
 
 ## Data log subscribers
 
-Data log subscribers are required if the system needs to keep track of changes done to the data. They are automatically generated if the relevant integration area is enabled. You can find this administrative section by looking it up in the Role Center.
+Data log subscribers are required if the system needs to keep track of changes done to the data. They are automatically generated if the relevant Shopify integration area is enabled. 
 
-The following data log subscribers are needed for the Shopify integration:
+The list of automatically generated data log subscribers is contained in the **Data Log Subscribers** administrative section.
 
-| Table                                 | Direct Data Processing Codeunit           | Itegration Area                       |
-| :---                                  |                               :----:      |                                  ---: |
-| 27           Item                     | 70010442 NP-Spfy Item Mgt.                | Item List Integration                 |
-| 32           Item Ledger Entry        | 70010446 NP-Spfy Inventory Level Mgt.     | Available Inventory Updates           |
-| 37           Sales Line               | 70010446 NP-Spfy Inventory Level Mgt.     | Available Inventory Updates           |
-| 5401         Item Variant             | 70010442 NP-Spfy Item Mgt.                | Item List Integration                 |
-| 5717         Item Reference           | 70010442 NP-Spfy Item Mgt.                | Item List Integration                 |
-| 70010435      Shopify Inventory Level | 70010442 NP-Spfy Item Mgt.                | Available Inventory Updates           |
+  ![data_log_subscribers](Images/data_log_subscribers.PNG)
 
+All data log subscribers should have **Delayed Data Processing (sec)** set to **20**. 
 
-{{< alert icon="📝" text="All data log subscribers should have <b>Delayed Data Processing (sec)</b> set to <b>1</b> and the <b>Direct Data Processing</b> set to <b>Yes</b>, except for testing environments, as it may cause incorrect inventory levels to be sent to Shopify."/>}}
+{{< alert icon="📝" text="Direct data processing shouldn't be set to <i>yes</i> except when used in the context of test/sandbox environments, as this may result in incorrect inventory levels being sent to Shopify." />}}
+
 
 ## Job Queue Entries
 
-The job queue entries are needed to automate the periodic data exchange between Business Central and Shopify. You can find this administrative section by looking it up in the Role Center.
+The job queue entries are required for automating the regular data exchange between Business Central and Shopify. They are in control of:
 
-They involve:
+ - Processing both NC task list and NC import list entries. 
+ - Running specific Shopify-related tasks, like retrieving Shopify orders and handling Shopify webhook notifications. 
 
- - Processing of both Business Central task list and import list entries. 
- - Running specific Shopify-related tasks, like getting Shopify orders. 
+The job queue entries are created automatically once the relevant integration areas are enabled.
 
-The job queue entries are created automatically once the relevant integration areas are enabled, or if a data sending task is scheduled. 
+  ![job_queue_entries_shopify](Images/job_queue_entries_shopify.PNG)
+
+By default, the following job queue entries are created automatically:
 
 |          Event                                                                                                |            Job Queue Entry Created               |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| Enable Sales Order Integration                                                                                |  Object Type to Run = Codeunit </br> Object ID to Run = 70010434 "NP-Spfy Order Mgt." </br> Description = Get Sales Orders from Shopify </br> No. of Minutes between Runs = 5 |
-| Enable Sales Order Integration                                 |     Object Type to Run = Codeunit </br> Object ID to Run = 6151509 "NPR Nc Import List Processing" </br> Description = SHOPIFY* Import List entry processing </br> Parameter String = import_type=SHOPIFY*,process_import_list </br> No. of Minutes between Runs = 5 |
-| A data sending task is scheduled (the changed item </br> or a variant,  available inventory, posted sales order etc.)| Object Type to Run = Codeunit </br> Object ID to Run = 6151508 "NPR Nc Task List Processing" </br> Description = SHOPIFY Task List processing </br> Parameter String = processor=SHOPIFY,process_task_list,max_retry=3 </br> No. of Minutes between Runs = 10 |
+| Enable Integration for a Shopify store                                                                              |  Object Type to Run = Codeunit </br> Object ID to Run = 6151508 [NPR Nc Task List Processing] </br> Description = \<Task Processor Code> (\<Store Code>) Task List processing </br> Parameter String = processor=\<Task Processor Code>,store=\<Store Code>,update_task_list,process_task_list,max_retry=3 </br> No. of Minutes between Runs = 1 |
+| Enable Sales Order Integration for any Shopify store                                 |     Object Type to Run = Codeunit </br> Object ID to Run = 6184814 [NPR Spfy Order Mgt.] </br> Description = Get Sales Orders from Shopify </br> No. of Minutes between Runs = 5 |
+| Enable Sales Order Integration for any Shopify store | Object Type to Run = Codeunit </br> Object ID to Run = 6151509 [NPR Nc Import List Processing] </br> Description = SPFY* Import List entry processing </br> Parameter String = import_type=SPFY*,process_import_list </br> No. of Minutes between Runs = 5 |
+| Enable "Auto Sync Item Changes from Shopify" for any Shopify store | Object Type to Run = Codeunit </br> Object ID to Run = 6184953 [NPR Spfy Webhook Processor JQ] </br> Description = Shopify webhook notification processor </br> No. of Minutes between Runs = 1 | 
 
 ## Import types
 
 Import types are needed to process data received from external sources, like Shopify.
 
+  ![import_types_shopify](Images/import_types_shopify.PNG)
+
 The following import types are needed for the integration (all of them are related to the [<ins>**Sales Order Integration**<ins>]({{< ref "../../how-to/sales_order_setup/index.md" >}}) area)
 
-| Code                   | Description             | Import List Update Handler      | Import Codeunit ID     |  Lookup Codeunit ID       |
+| Code                   | Description             | Import List Update Handler      | Import List Process Handler     |  Import List Lookup Handler      |
 | :----:                 |    :----:               |                          :----: |                 :----: |                    :----: |
-| SHOPIFY_CREATE_ORDER   | Create Shopify Order    | Default                         | 70010435               | 70010436                  |
-| SHOPIFY_DELETE_ORDER   | Delete Shopify Order    | Default                         | 70010437               | 70010436                  |
-| SHOPIFY_POST_ORDER     | Post Shopify Order      | Default                         | 70010438               | 70010436                  |
+| SHOPIFY_CREATE_ORDER   | Create Shopify Order    | Default                         | Shopify Order - Create               | Shopify Order – Lookup                  |
+| SHOPIFY_DELETE_ORDER   | Delete Shopify Order    | Default                         | Shopify Order - Delete               | Shopify Order – Lookup                  |
+| SHOPIFY_POST_ORDER     | Post Shopify Order      | Default                         | Shopify Order - Post               | Shopify Order – Lookup                  |
 
-{{< alert icon="📝" text="All the import types are reviewed and created automatically, when new import list entries are added."/>}}
+{{< alert icon="📝" text="All the import types are automatically created when new import list entries are added."/>}}
 
