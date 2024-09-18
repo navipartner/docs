@@ -1,6 +1,6 @@
 ---
 title: "Shopify stores"
-description: "You need to set up each Shopify shop that you want to integrate with a distinct Shopify store in Business Central."
+description: "A separate Shopify Store needs to be created in Business Central for each Shopify shop you want to integrate with."
 lead: ""
 date: 2024-09-13T10:17:12+02:00
 lastmod: 2024-09-13T10:17:12+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-You need to set up each Shopify shop that you want to integrate with a distinct Shopify store in Business Central. You can do so from the **Shopify Integration Setup** administrative section, or you can find the **Shopify Stores** administrative section with the Business Central search function. 
+A separate Shopify Store needs to be set up in Business Central for each Shopify shop you want to integrate with. You can do so from the **Shopify Integration Setup** administrative section, or you can find the **Shopify Stores** administrative section with the Business Central search function. 
 
 The **Shopify Store** page contains store-specific settings. You can select whether the integration is enabled with the store and then pick the integration areas you want to use for the store. 
 

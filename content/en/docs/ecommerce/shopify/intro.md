@@ -39,8 +39,6 @@ NaviPartner out-of-the-box Shopify integration functionality supports the follow
 - [<ins>Sales Order integration area setup<ins>]({{< ref "how-to/sales_order_setup/index.md" >}})
 - [<ins>Synchronize Items List<ins>]({{< ref "how-to/synchronize_items/index.md" >}})
 - [<ins>Set up inventory update sending (location links)<ins>]({{< ref "how-to/inventory_update/index.md" >}})
-- [<ins>Varieties<ins>]({{< ref "explanation/varieties/index.md" >}})
-- [<ins>Shopify SKU (Stock Keeping Unit)<ins>]({{< ref "explanation/sku/index.md" >}})
 - [<ins>Sending inventory to Shopify<ins>]({{< ref "explanation/send_inventory/index.md" >}})
 - [<ins>Sending data back to Shopify<ins>]({{< ref "explanation/send_data_back/index.md" >}})
 - [<ins>Getting orders from Shopify<ins>]({{< ref "explanation/getting_orders/index.md" >}})
