@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "inventory_specific_setup-0b979304aa81959fac1b0e46ed63c812"
-weight: 323
+weight: 325
 toc: true
 type: docs
 ---
@@ -38,3 +38,6 @@ To link a Shopify location to a location in Business Central, follow the provide
 
    ![shopify_location_lookup](Images/shopify_location_lookup.PNG)
 
+## Next steps
+
+- [<ins>Set up Sales Order integration area<ins>]({{< ref "how-to/sales_order_setup/index.md" >}})

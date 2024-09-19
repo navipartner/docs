@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "register_webhook_handler_app-3a0fb0a26fc37d42ac140395b02df488"
-weight: 323
+weight: 324
 toc: true
 type: docs
 ---
@@ -24,3 +24,7 @@ To register the webhook handler app for your BC SaaS environment, follow the pro
    Running this action registers the NaviPartner Shopify webhook handler app and prompts for administrator approval/consent. 
 
    {{< alert icon="❗" text="This action needs to be run by a user who is both an Azure Active Directory administrator and a Business Central administrator. You won't be able to run Shopify webhooks until this action is completed." />}}
+
+## Next steps
+
+- [<ins>Set up inventory-specific integration areas<ins>]({{< ref "../inventory_specific_setup/index.md" >}})

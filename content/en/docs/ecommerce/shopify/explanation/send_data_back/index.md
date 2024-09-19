@@ -1,5 +1,5 @@
 ---
-title: "Sending data back to Shopify"
+title: "Sending order-related data back to Shopify"
 description: "Learn more about two events which prompt data to be sent to Shopify."
 lead: ""
 date: 2023-07-11T11:18:20+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "send_data_back-81389f829598ef7087dd2ebde7f09166"
-weight: 324
+weight: 329
 toc: true
 type: docs
 ---

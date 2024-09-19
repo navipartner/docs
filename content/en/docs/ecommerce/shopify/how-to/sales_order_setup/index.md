@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "sales_order_setup-b488645bc4f691f15a792c29ba431166"
-weight: 323
+weight: 326
 toc: true
 type: docs
 ---
@@ -113,3 +113,7 @@ Location mapping needs to be set up for each store. To set up location mapping:
    | **Shipping Agent Code** and **Shipping Agent Service Code** | These fields specify a shipping agent and their service code assigned to sales orders. |
 
 {{< alert icon="📝" text="If the system is unable to identify a Business Central location with the mapping setup, the default location will be used. The default location can be specified in the <b>E-commerce Store</b> card. " />}}
+
+## Next steps
+
+- [<ins>Set up retail voucher integration area<ins>]({{< ref "../retail_voucher_integration_area/index.md" >}})

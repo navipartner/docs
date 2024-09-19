@@ -21,7 +21,7 @@ To set up the Shopify integration, make sure the prerequisites are met, and foll
 
 1. Install the NP Retail application on the customer tenant database.                   
    The application's version needs to be xxxx.42.0.10000 or newer.   
-2. Make sure a custom app is registered with Shopify.       
+2. Make sure a [<ins>custom app is registered<ins>]({{< ref "../register_shopify_custom_app/index.md" >}}) with Shopify.       
    
    {{< alert icon="📝" text="If you plan to use the retail voucher integration (Shopify Gift Cards) and want to support partial redemption of gift cards, you need to have a Shopify Plus subscription." />}}
 

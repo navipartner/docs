@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "shopify_store-c2a39488e4b4a87853e0a2d025d69897"
-weight: 325
+weight: 323
 toc: true
 type: docs
 ---
@@ -50,13 +50,13 @@ The following option can be set up in the **Retail Voucher Integration** section
 
 | Field name      | Description |
 | ----------- | ----------- |
-| **Enabled** | Specifies whether the retail voucher integration is enabled. If yes, the system will allow retail vouchers purchased in your offline shops (POS) to be used (redeemed) both on POS and in Shopify. </br> **Note:** There are several additional retail voucher integration area setups you need to perform for the functionality to work correctly. |
+| **Enabled** | Specifies whether the retail voucher integration is enabled. If yes, the system will allow retail vouchers purchased in your offline shops (POS) to be used (redeemed) both on POS and in Shopify. </br> **Note:** There are several additional [<ins>retail voucher integration area setups<ins>]({{< ref "../../how-to/retail_voucher_integration_area/index.md" >}}) you need to perform for the functionality to work correctly. |
 
 The following fields and options can be set up in the **Sales Order Integration** section:
 
 | Field name      | Description |
 | ----------- | ----------- |
-| **Enabled** | Specifies whether the sales order integration is enabled or not. If enabled, the system will set up and use a job queue to download new and updated orders from Shopify. </br> **Note:** There are several additional sales order integration area setups you need to perform for the functionality to work correctly. |
+| **Enabled** | Specifies whether the sales order integration is enabled or not. If enabled, the system will set up and use a job queue to download new and updated orders from Shopify. </br> **Note:** There are several additional [<ins>sales order integration area setups<ins>]({{< ref "../../how-to/sales_order_setup/index.md" >}}) you need to perform for the functionality to work correctly. |
 | **Allowed Payment Statuses** | Specifies the allowed Shopify payment statuses. New orders will only be imported from Shopify if the order has an allowed payment status. | 
 | **Get Payment Lines from Shopify** | Specifies the point at which the system retrieves order payment information from Shopify and creates sales order payment lines in Business Central. This can occur when the order is first imported or just before the payment capture requests are sent to Shopify. | 
 | **Post on Completion** | Specifies whether the sales order is automatically posted in Business Central when the associated Shopify order is marked as closed in Shopify. | 
@@ -73,7 +73,11 @@ The following fields and options can be set up in the **Connection Parameters** 
 | Field name      | Description |
 | ----------- | ----------- |
 | **Shopify URL** | Specifies the URL to your Shopify store. Enter the URL that people will use to access your store, e.g. *https://navipartner.myshopify.com*. |
-| **Shopify Access Token** | Specifies the Shopify access token, which is the *Admin API Access Token* from the Shopify private app setup. | 
+| **Shopify Access Token** | Specifies the Shopify [<ins>access token<ins>]({{< ref "../../how-to/register_shopify_custom_app/index.md" >}}), which is the *Admin API Access Token* from the Shopify private app setup. | 
 | **Shopify Store ID** | Specifies the Shopify internal ID assigned to this store. The field is populated automatically after you run the connection testing procedure. | 
 
 {{< alert icon="❗" text="Whenever you make changes on this page, you and other environment users need to log into Business Central again for the changes to take effect." />}}
+
+## Next steps
+
+- [<ins>Register the webhook handler app<ins>]({{< ref "../../how-to/register_webhook_handler_app/index.md" >}})

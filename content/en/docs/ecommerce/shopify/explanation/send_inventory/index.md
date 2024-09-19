@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "send_inventory-f3b7649848cf332b932d42118c4f9b63"
-weight: 324
+weight: 329
 toc: true
 type: docs
 ---
