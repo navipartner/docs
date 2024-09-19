@@ -10,14 +10,14 @@ menu:
   docs:
     parent: ""
     identifier: "shopify_store-c2a39488e4b4a87853e0a2d025d69897"
-weight: 323
+weight: 324
 toc: true
 type: docs
 ---
 
 A separate Shopify Store needs to be set up in Business Central for each Shopify shop you want to integrate with. You can do so from the **Shopify Integration Setup** administrative section, or you can find the **Shopify Stores** administrative section with the Business Central search function. 
 
-The **Shopify Store** page contains store-specific settings. You can select whether the integration is enabled with the store and then pick the integration areas you want to use for the store. 
+The **Shopify Store** page contains store-specific settings. You can select whether the integration is enabled with the store, and then pick the integration areas you want to be covered. 
 
   ![shopify_store](images/shopify_store.PNG)
 

@@ -10,14 +10,14 @@ menu:
   docs:
     parent: ""
     identifier: "retail_voucher_integration_area-f343523d0c05c19cb8d3f195afff5870"
-weight: 327
+weight: 328
 toc: true
 type: docs
 ---
 
 If the adequate setup is performed, retail vouchers sold in offline shops can be redeemed both on POS and in Shopify. The integration can be enabled for each individual retail voucher type. 
 
-     {{< alert icon="📝" text="Retail vouchers are created as gift cards in Shopify."/>}}
+  {{< alert icon="📝" text="Retail vouchers are created as gift cards in Shopify."/>}}
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.      
 2. Select the **Retail Voucher Type Card**, and enable the Shopify integration via the **Integrate with Shopify** toggle switch.

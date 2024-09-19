@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "register_shopify_custom_app-034feae2fee8bdb9d963266bf8602b66"
-weight: 328
+weight: 329
 toc: true
 type: docs
 ---
