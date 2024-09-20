@@ -80,7 +80,7 @@ On the **HL MultiChoice Field Options** page you'll need to specify the followin
 
 ## Member Attributes
 You can map any HeyLoyalty single choice or text field to a member attribute in BC.
-Please refer to [_this documenation section_]({{< ref "../../../../../retail/attributes/how-to/client_attributes/client_attributes.md" >}}), if you need more information on how to setup member attributes.
+Please refer to [_this documenation section_]({{< ref "../../../../retail/attributes/how-to/client_attributes/client_attributes.md" >}}), if you need more information on how to setup member attributes.
 {{< alert icon="📝" text="Please note that you must set the <b>Value Datatype</b> field to <i>Text</i>, <b>On Validate</b> field to <i>Lookup</i> and disable <b>LookUp Table</b> on the <b>Client Attribute Card</b> page to be able to synchronize the attribute between BC and HeyLoyalty."/>}}
 
 In addition, to map a member attribute and its option values to a HeyLoyalty field, you'll need to do the following:
@@ -92,8 +92,8 @@ In addition, to map a member attribute and its option values to a HeyLoyalty fie
   - Specify **HeyLoyalty Name** for each attribute value.
 
 ## Stores
-Each member can have a preferred store selected on their card in BC. This is basically a Collect Store from NP Retail [Click & Collect]({{< ref "../../../../../retail/click_and_collect/intro.md" >}}) module.
-For each shop you have in HeyLoyalty, you'll need to create a [Collect Store]({{< ref "../../../../../retail/click_and_collect/how-to/setup/setup.md" >}}) in BC and map the entities to each other to be able to synchronize the store code selected on each member card between BC and HeyLoyalty.
+Each member can have a preferred store selected on their card in BC. This is basically a Collect Store from NP Retail [Click & Collect]({{< ref "../../../../retail/click_and_collect/intro.md" >}}) module.
+For each shop you have in HeyLoyalty, you'll need to create a [Collect Store]({{< ref "../../../../retail/click_and_collect/how-to/setup/setup.md" >}}) in BC and map the entities to each other to be able to synchronize the store code selected on each member card between BC and HeyLoyalty.
 To associate a BC Collect store with a HeyLoyalty store, you'll need to specify in BC the id used for the store in HeyLoyalty. The id must be entered on the **Collect Store Card** page in the **HeyLoyalty Name** field.
 A HeyLoyalty store id usually consists of 5 digits. You may need to contact your HeyLoyalty provider to obtain the store IDs.
 

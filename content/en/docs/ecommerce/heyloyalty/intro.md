@@ -10,20 +10,23 @@ menu:
   docs:
     parent: ""
     identifier: "intro-6cb173f901d831a3948b28eb46606b5f"
-weight: 500
+weight: 329
 toc: true
 type: docs
 ---
 HeyLoyalty is a cloud based Danish marketing automation platform tailored for e-commerce. It provides a platform to personalize email content by predicting customer preferences. Some of the features of the platform include SMS marketing, newsletters, lead generation, push notifications, and more.
 
 NaviPartner NP Retail standard HeyLoyalty integration supports the following functionality:
-1. Member information two-way synchronization between BC and a HeyLoyalty list;
-2. Sending ticket sales and admission transactions from BC to HeyLoyalty Heybooking database.
 
-## Next steps
-- Member synchronization
-  - [Set up member synchronization]({{< ref "how-to/setup_memb_sync/index.md" >}})
-  - [Create Azure Active Directory application for HeyLoyalty]({{< ref "how-to/aad_app/index.md" >}})
-  - [Set up HeyLoyalty webhook]({{< ref "how-to/setup_hl_webhook/index.md" >}})
-- Integration with Heybooking database
-  - [Set up integration with Heybooking database]({{< ref "how-to/setup_heybook_integr/index.md" >}})
+- Member information two-way synchronization between Business Central and a HeyLoyalty list;
+- Sending ticket sales and admission transactions from BC to HeyLoyalty Heybooking database.
+
+### Member synchronization
+
+  - [<ins>Set up member synchronization<ins>]({{< ref "how-to/setup_memb_sync/index.md" >}})
+  - [<ins>Create Azure Active Directory application for HeyLoyalty<ins>]({{< ref "how-to/aad_app/index.md" >}})
+  - [<ins>Set up HeyLoyalty webhook<ins>]({{< ref "how-to/setup_hl_webhook/index.md" >}})
+
+### Integration with Heybooking database
+
+  - [<ins>Set up integration with Heybooking database<ins>]({{< ref "how-to/setup_heybook_integr/index.md" >}})

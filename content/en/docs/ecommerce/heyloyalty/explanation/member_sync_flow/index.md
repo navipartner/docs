@@ -4,7 +4,7 @@ description: "Describes the process synchronizing of member information between 
 lead: ""
 date: 2023-10-30T16:01:43+04:00
 lastmod: 2023-10-30T16:01:43+04:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
