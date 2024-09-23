@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup_memb_sync-26d71e45b0c70a2580171e8b4e8b6773"
-weight: 695
+weight: 330
 toc: true
 type: docs
 ---

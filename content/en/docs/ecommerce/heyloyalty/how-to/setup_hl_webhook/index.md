@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "setup_hl_webhook-5eb8d87a199f3677cc09551521558a88"
-weight: 700
+weight: 330
 toc: true
 type: docs
 ---

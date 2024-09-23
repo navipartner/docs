@@ -1,6 +1,6 @@
 ---
 title: "Module Setup Overview"
-description: "Gives you an overview of the setups in BC required for HeyLoyalty integration."
+description: "Gives you an overview of the setups in Business Central required for HeyLoyalty integration."
 lead: ""
 date: 2023-10-31T15:02:14+04:00
 lastmod: 2023-10-31T15:02:14+04:00
@@ -14,10 +14,11 @@ weight: 999
 toc: true
 type: docs
 ---
-This section gives you an overview of all the setups in BC that are required for the HeyLoyalty integration functionality to work properly.
+This section gives you an overview of all the setups in Business Central that are required for the HeyLoyalty integration functionality to work properly.
 
 ## HeyLoyalty Integration Setup
-This is the main setup page.
+
+This is the page from which the main setup components can be accessed and configured.
 To open the page click the ![Lightbulb](Lightbulb_icon.PNG) button and search for the **HeyLoyalty Integration Setup**.
 ![HeyLoyalty Integration Setup Page](images/HeyLoyaltyIntegrSetupPage.png)
 <details>
@@ -28,31 +29,33 @@ HeyLoyalty integration feature is not enabled by default. To enable it, navigate
 </details>
 <br>
 
-There are the following fields on the page:
+The following fields and options are available on the page:
+
 | Field name | Comment |
 |------------|---------|
 | <td>**General** FastTab</td> |
 | Enable Integration | Specifies whether the integration is enabled. This is the master on/off switch for the whole integration. |
 | <td>**Member List Integration Area** subsection</td> |
-| Member Integration | Specifies whether the Member List integration area is enabled. This will enable member information to be sent to HeyLoyalty. |
-| HeyLoyalty Member List ID | Specifies the HeyLoyalty member list ID integration is coupled with. |
-| Membership HL Field ID | Specifies the HeyLoyalty field ID (the value from column _Merge field_ in HeyLoyalty field definition page) for storing information about membership code (is not required, if you don't plan to have member membership IDs at HeyLoyalty). |
-| Required Contact Info | Specifies required contact methods (email and/or phone) that must be specified in the member card before BC will submit the member data to HeyLoyalty. |
-| Require GDPR Approval | Specifies whether the member must agree to GDPR before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
-| Require Newsletter Subscription | Specifies whether the member must subscribe to the e-mail newsletter (**E-Mail News Letter** field on the member card) before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
-| Unsubscribe if Blocked | Specifies whether the member will be unsubscribed from HeyLoyalty, if the member, or their membership has been blocked in BC. We recommend you disable this parameter. |
-| Read Member Data from Webhook | Specifies whether member data is going to be read from received HeyLoyalty webhook payload. If disabled, for each incoming webhook request system will issue an additional GET call to HeyLoyalty server in order to retrieve the most recent member data available at HeyLoyalty. The parameter must be disabled as it is not currently fully supported by HeyLoyalty. |
+| **Member Integration** | Specifies whether the Member List integration area is enabled. This will enable member information to be sent to HeyLoyalty. |
+| **HeyLoyalty Member List ID** | Specifies the HeyLoyalty member list ID integration is coupled with. |
+| **Membership HL Field ID** | Specifies the HeyLoyalty field ID (the value from column _Merge field_ in HeyLoyalty field definition page) for storing information about membership code (is not required, if you don't plan to have member membership IDs at HeyLoyalty). |
+| **Required Contact Info** | Specifies required contact methods (email and/or phone) that must be specified in the member card before BC will submit the member data to HeyLoyalty. |
+| **Require GDPR Approval** | Specifies whether the member must agree to GDPR before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
+| **Require Newsletter Subscription** | Specifies whether the member must subscribe to the e-mail newsletter (**E-Mail News Letter** field on the member card) before BC will submit the member data to HeyLoyalty. We recommend you enable this parameter. |
+| **Unsubscribe if Blocked** | Specifies whether the member will be unsubscribed from HeyLoyalty, if the member, or their membership has been blocked in BC. We recommend you disable this parameter. |
+| **Read Member Data from Webhook** | Specifies whether member data is going to be read from received HeyLoyalty webhook payload. If disabled, for each incoming webhook request system will issue an additional GET call to HeyLoyalty server in order to retrieve the most recent member data available at HeyLoyalty. The parameter must be disabled as it is not currently fully supported by HeyLoyalty. |
 | <td>**Heybooking Integration Area** subsection</td> |
-| Enabled | Specifies whether the Heybooking Integration area is enabled. This will enable booking and transaction information be sent to HeyLoyalty. |
-| Heybooking Integration ID | Specifies the Heybooking Integration ID you acquired from your HeyLoyalty partner. |
-| Send Heybooking Err. to E-Mail | Specifies the email address notifications are sent to in case of errors while importing data to HeyLoyalty Heycommerce/Booking database. |
+| **Enabled** | Specifies whether the Heybooking Integration area is enabled. This will enable booking and transaction information be sent to HeyLoyalty. |
+| **Heybooking Integration ID** | Specifies the Heybooking Integration ID you acquired from your HeyLoyalty partner. |
+| **Send Heybooking Err. to E-Mail** | Specifies the email address notifications are sent to in case of errors while importing data to HeyLoyalty Heycommerce/Booking database. |
 | <td>**Connection Parameters** FastTab</td> |
-| HeyLoyalty Api Url | Specifies the URL for HeyLoyalty Api. Default value is `https://api.heyloyalty.com/loyalty/v1` |
-| Heycommerce/Booking DB Api Url | Specifies the URL for HeyLoyalty Heycommerce/Booking database Api. Default value is `https://tracking.heycommerce.dk/api` |
-| HeyLoyalty Api Key | Specifies the HeyLoyalty Api Key you acquired from your HeyLoyalty partner. |
-| HeyLoyalty Api Secret | Specifies the HeyLoyalty Api Secret you acquired from your HeyLoyalty partner. |
+| **HeyLoyalty Api Url** | Specifies the URL for HeyLoyalty Api. Default value is `https://api.heyloyalty.com/loyalty/v1` |
+| **Heycommerce/Booking DB Api Url** | Specifies the URL for HeyLoyalty Heycommerce/Booking database Api. Default value is `https://tracking.heycommerce.dk/api` |
+| **HeyLoyalty Api Key** | Specifies the HeyLoyalty Api Key you acquired from your HeyLoyalty partner. |
+| **HeyLoyalty Api Secret** | Specifies the HeyLoyalty Api Secret you acquired from your HeyLoyalty partner. |
 
 ## HeyLoyalty Multiple Choice Fields
+
 A multiple choice field in HeyLoyalty is a field that allows users to select multiple values from a list of predefined options.<br>
 If you wish to include a HeyLoyalty multiple choice field into the member list integration scope, you'll need to set the field up as an **HL MultiChoice Field** in BC.
 To open the **HL MultiChoice Field** page, navigate to **HeyLoyalty Integration Setup** page, and in the page's menu ribbon select **Home** > **MultiChoice Fields**.
