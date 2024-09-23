@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 23.09. | [<ins>Fiscalization compliance - Ireland<ins>]({{< ref "../../fiscalization/ireland/explanation/ireland_fiscalization.md" >}}) | NP Retail is now compliant with Irish fiscal laws. | 
 | 17.09. | Pay by Link moved to NP Pay Setup | Contents of the [<ins>**Pay by Link Setup**<ins>]({{< ref "../../np_pay/how-to/pay_by_link.md" >}}) administrative section have been moved to **NP Pay Setup**. The options remain unchanged, and can be found in the **Pay by Link** FastTab. | 
 | 16.08. | [<ins>Digital receipt improvements<ins>]({{< ref "../pos_processes/reference/digital_receipt_actions.md" >}}) | A toggle switch for enabling digital receipts globally has been added to the **Digital Receipt Setup** administrative section, so the functionality no longer needs to be enabled for each receipt profile individually. Additionally, several POS actions have been expanded to support this feature and provide more flexibility with issuing digital receipts. | 
 | 05.08. | [<ins>NP Pay reconciliation<ins>]({{< ref "../../np_pay/how-to/perform_reconciliation.md" >}}) | You can now verify the accuracy of financial records, ensure compliance, and make informed decisions with the introduction of the NP Pay reconciliation feature. |
