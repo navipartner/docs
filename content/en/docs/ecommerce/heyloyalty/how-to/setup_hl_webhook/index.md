@@ -1,6 +1,6 @@
 ---
-title: "Setup HeyLoyalty webhook"
-description: "Describes the process of setting up a webhook at HeyLoyalty that is needed for sending changes done to members directly in HeyLoyalty from HeyLoyalty to BC"
+title: "Set up HeyLoyalty webhook"
+description: "This article walks you through the process of setting up a webhook at HeyLoyalty that is needed for sending changes done to members directly in HeyLoyalty to Business Central."
 lead: ""
 date: 2023-10-30T16:07:13+04:00
 lastmod: 2023-10-30T16:07:13+04:00
@@ -15,15 +15,16 @@ toc: true
 type: docs
 ---
 
-To ensure that changes made to members directly in HeyLoyalty are synchronised back to Business Central (BC), you'll need to set up a webhook in your HeyLoyalty environment.
+To ensure that the changes made to members directly in HeyLoyalty are synchronized back to Business Central (BC), you need to set up a webhook in your HeyLoyalty environment.
 
 ## Prerequisites
-Make sure you have completed the [*setting up member synchronization*]({{< ref "setup_memb_sync/index.md" >}}) and [*created AAD application for HeyLoyalty*]({{< ref "aad_app/index.md" >}}) in BC before proceeding with this step.
+
+Make sure you've [*set up member synchronization*]({{< ref "setup_memb_sync/index.md" >}}) and [*created AAD application for HeyLoyalty*]({{< ref "aad_app/index.md" >}}) in Business Central before moving on to procedural steps.
 
 ## Procedure
 
-1. Find the webservice address that was created in BC for HeyLoyalty:
-   - In BC click the ![Lightbulb](Lightbulb_icon.PNG) button, search for the **Web Services** page and open it.
+1. Find the webservice address that was created in Business Central for HeyLoyalty:
+   - In Business Central click the ![Lightbulb](Lightbulb_icon.PNG) button, search for the **Web Services** page and open it.
    - Find the service with **Service Name** = *heyloyalty_services*.
    - Copy the web service link from the field **OData V4 URL**.
 <br><br>
