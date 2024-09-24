@@ -26,7 +26,3 @@ NaviPartner NP Retail standard HeyLoyalty integration supports the following fun
   - [<ins>Set up member synchronization<ins>]({{< ref "how-to/setup_memb_sync/index.md" >}})
   - [<ins>Create Azure Active Directory application for HeyLoyalty<ins>]({{< ref "how-to/aad_app/index.md" >}})
   - [<ins>Set up HeyLoyalty webhook<ins>]({{< ref "how-to/setup_hl_webhook/index.md" >}})
-
-### Integration with Heybooking database
-
-  - [<ins>Set up integration with Heybooking database<ins>]({{< ref "how-to/setup_heybook_integr/index.md" >}})
