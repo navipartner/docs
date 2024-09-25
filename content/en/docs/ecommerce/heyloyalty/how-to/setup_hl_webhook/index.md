@@ -2,15 +2,15 @@
 title: "Set up HeyLoyalty webhook"
 description: "This article walks you through the process of setting up a webhook at HeyLoyalty that is needed for sending changes done to members directly in HeyLoyalty to Business Central."
 lead: ""
-date: 2023-10-30T16:07:13+04:00
-lastmod: 2023-10-30T16:07:13+04:00
+date: 2024-09-25T11:10:00+02:00
+lastmod: 2024-09-25T11:10:00+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup_hl_webhook-5eb8d87a199f3677cc09551521558a88"
-weight: 331
+    identifier: "setup_hl_webhook-5aac085195877e785c9315d89562bf81"
+weight: 334
 toc: true
 type: docs
 ---

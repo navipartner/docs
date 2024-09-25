@@ -1,19 +1,20 @@
 ---
-title: "Module Setup Overview"
+title: "Module setup overview"
 description: "This article provides an overview of the setups in Business Central required for HeyLoyalty integration."
 lead: ""
-date: 2023-10-31T15:02:14+04:00
-lastmod: 2023-10-31T15:02:14+04:00
+date: 2024-09-25T11:11:58+02:00
+lastmod: 2024-09-25T11:11:58+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "module_setup_overview-96c6d32f9f2721c05309b9fd113aca15"
-weight: 335
+    identifier: "module_setup_overview-bf2af91c5f35a17901269d1296330ccd"
+weight: 336
 toc: true
 type: docs
 ---
+
 This section gives you an overview of all the setups in Business Central that are required for the HeyLoyalty integration functionality to work properly.
 
 ## HeyLoyalty Integration Setup
@@ -123,5 +124,3 @@ Here is the list of automatically generated data log subscribers.
 All data log subscribers should have **Delayed Data Processing (sec)** set to `20`.
 
 {{< alert icon="❗" text="<b>Direct Data Processing</b> shouldn't be set to <i>yes</i> (except for test/sandbox environments), as this may result in incorrect data being sent to HeyLoyalty."/>}}
-
-

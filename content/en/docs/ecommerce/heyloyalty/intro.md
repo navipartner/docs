@@ -1,19 +1,20 @@
 ---
 title: "HeyLoyalty integration overview"
-description: "HeyLoyalty is a cloud based Danish marketing automation platform tailored for e-commerce. It provides a platform to personalize email content by predicting customer preferences. Some of the features of the platform include SMS marketing, newsletters, lead generation, push notifications, and more."
+description: "HeyLoyalty is a cloud based Danish marketing automation platform tailored for e-commerce. It provides a platform to personalize email content by predicting customer preferences."
 lead: ""
-date: 2023-09-21T18:51:55+04:00
-lastmod: 2023-09-21T18:51:55+04:00
+date: 2024-09-25T10:56:07+02:00
+lastmod: 2024-09-25T10:56:07+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "intro-6cb173f901d831a3948b28eb46606b5f"
-weight: 329
+    identifier: "intro-35e0fcb04f881637b1b32a66b98164d9"
+weight: 332
 toc: true
 type: docs
 ---
+
 HeyLoyalty is a cloud based Danish marketing automation platform tailored for e-commerce. It provides a platform to personalize email content by predicting customer preferences. Some of the features of the platform include SMS marketing, newsletters, lead generation, push notifications, and more.
 
 NaviPartner NP Retail standard HeyLoyalty integration supports the following functionality:

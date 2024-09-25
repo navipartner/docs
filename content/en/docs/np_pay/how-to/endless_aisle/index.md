@@ -21,8 +21,8 @@ The NP Pay endless aisle feature converts a POS sale, which can include out-of-s
 
 To set up the endless aisle functionality, follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS EFT Payment Reservation Setup**, and choose the related link.           
-2. Populate the following fields:    
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NP Pay Setup**, and choose the related link.           
+2. Populate the following fields under the **Endless Aisle** FastTab:    
    - **Payment Gateway Code** - specify which payment service provider will be used to process the payment reservation in the exported sale order; it's necessary to choose a payment gateway that supports capturing, canceling, and refunding. Only [<ins>Adyen gateways<ins>]({{< ref "../../../ecommerce/payment_gateway/how-to/adyen/index.md" >}}) are supported.
    - **Account Type** - define the type of account to which the payment reservation will be posed.
    - **Account No.** - specify the account number to which the payment reservation will be posted. 

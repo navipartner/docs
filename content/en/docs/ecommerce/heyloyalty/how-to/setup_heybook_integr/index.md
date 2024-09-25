@@ -2,15 +2,15 @@
 title: "Set up integration with Heybooking database"
 description: ""
 lead: ""
-date: 2023-10-30T16:06:50+04:00
-lastmod: 2023-10-30T16:06:50+04:00
+date: 2024-09-25T11:08:54+02:00
+lastmod: 2024-09-25T11:08:54+02:00
 draft: true
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup_heybook_integr-cf820c0797d198e65ea6a9bbec6633d6"
-weight: 330
+    identifier: "setup_heybook_integr-8166c380ea23d9fba5c96ece096b76d7"
+weight: 334
 toc: true
 type: docs
 ---
@@ -18,4 +18,5 @@ type: docs
 This documentation section will be available soon
 
 ## Next step
+
 - [Create Azure Active Directory application for HeyLoyalty]({{< ref "aad_app/index.md" >}})

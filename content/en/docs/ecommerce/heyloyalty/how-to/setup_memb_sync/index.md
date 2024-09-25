@@ -2,18 +2,19 @@
 title: "Set up member synchronization"
 description: "This article walks you through the process of setting up member data synchronization between Business Central and HeyLoyalty."
 lead: ""
-date: 2023-10-30T16:06:17+04:00
-lastmod: 2023-10-30T16:06:17+04:00
+date: 2024-09-25T11:10:47+02:00
+lastmod: 2024-09-25T11:10:47+02:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "setup_memb_sync-26d71e45b0c70a2580171e8b4e8b6773"
-weight: 330
+    identifier: "setup_memb_sync-07571473ea287051b4b2eb08668e7dc1"
+weight: 334
 toc: true
 type: docs
 ---
+
 You can set up your Business Central (BC) and HeyLoyalty environments to synchronize changes to member-related data. This means that new member information and changes made to the existing members in Business Central will be sent to HeyLoyalty and vice versa.
 
 ## Prerequisites
