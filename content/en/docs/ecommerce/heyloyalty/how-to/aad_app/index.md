@@ -21,12 +21,13 @@ To create one along with the set of credentials, follow the steps provided below
 
 #### Prerequisites
 
--	Make sure the actions are performed by a user that is both an Azure Active Directory administrator and a BC administrator. These steps require you to grant the administrator access to certain parts of your Azure Active Directory. You should therefore be an administrator in your tenant or get your administrator to perform these steps.
--	This procedure can only be used when your BC tenant is registered with Azure Active Directory as the login method. If you are using Microsoft’s SaaS this will already be the case.
+-	Make sure the actions are performed by a user that is both an Azure Active Directory administrator and a Business Central administrator. These steps require you to grant the administrator access to certain parts of your Azure Active Directory. You should therefore be an administrator in your tenant or get your administrator to perform these steps.
+-	This procedure can only be used when your Business Central tenant is registered with Azure Active Directory as the login method. If you are using Microsoft’s SaaS this will already be the case.
 
 #### Procedure
 
-1. In BC click the ![Lightbulb](Lightbulb_icon.PNG) button, search for the **HeyLoyalty Integration Setup** page and open it.
+1. In Business Central click the ![Lightbulb](Lightbulb_icon.PNG) button, search for the **HeyLoyalty Integration Setup** page and open it.
+   
 <details>
 <summary>
 Cannot find the page?
@@ -38,8 +39,8 @@ HeyLoyalty integration feature is not enabled by default. To enable it, navigate
 A pop-up window is displayed.<br>
 ![Granting permissions to NP Retail - Azure AD Application Management App](Images/AADappPermissions.png)
 
-3. Grant permission to the **NP Retail - Azure AD Application Management App**.
-This app allows the code to create the Azure Active Directory application for the HeyLoyalty integration.
+3. Grant permission to the **NP Retail - Azure AD Application Management App**.        
+   This app allows the code to create the Azure Active Directory application for the HeyLoyalty integration.
 
 4. Make sure that the consent screen identifies the application as being verified with "Navi Partner København ApS" as Microsoft Partner.
 
@@ -47,23 +48,26 @@ This app allows the code to create the Azure Active Directory application for th
 
 6. When asked if you want to create a user, click **Yes**.
 
-7. When asked if you want to grand admin consent, click **Yes**.
-If there is an issue granting consent (e.g. a pop-up didn’t open), you’ll be able to do it later.
+7. When asked if you want to grand admin consent, click **Yes**.       
+   If there is an issue granting consent (e.g. a pop-up didn’t open), you’ll be able to do it later.       
+   As soon as the Azure Active Directory application is created, the information will be displayed on the screen.      
 
-8. As soon as the Azure Active Directory application is created, the information will be displayed on the screen.
-Make sure to copy the client secret that is shown in the message box to a safe place.
-It will not be visible after the box is closed.<br>
-![Azure AD application details](Images/AADappDetails.png)
+8. Make sure to copy the client secret that is shown in the message box to a safe place.      
+   It will not be visible after the box is closed.<br>  
 
-9. In BC click the ![Lightbulb](Lightbulb_icon.PNG) button, search for "aad" and open the **Azure Active Directory Applications** page.
+  ![Azure AD application details](Images/AADappDetails.png)
+
+9. In Business Central click the ![Lightbulb](Lightbulb_icon.PNG) button, search for "aad" and open the **Azure Active Directory Applications** page.
 
 10. Find the newly created application (it’ll have "HeyLoyalty" in its name), and open the card by clicking **Client ID**.
 
-11. Make sure the application has the following user permission sets assigned: **D365 BUS FULL ACCESS** and **NPR NP RETAIL**.<br>
+11.  Make sure the application has the following user permission sets assigned: **D365 BUS FULL ACCESS** and **NPR NP RETAIL**.<br>
 You may also need to assign **PTE GLOBAL**, if NaviPartner standard HeyLoyalty integration functionality has been extended to meet your specific requirements.<br>
-Finally you'll need to assign certain Continia permission sets, if you have any of Continia products installed in your BC environment.
 
-12. On the **Azure Active Directory Application Card**, click **Grant Consent** to allow the newly created application access to the Business Central API.
+12. Assign the adequate Continia permission sets if you have any of Continia products installed in your Business Central environment.
+
+13.  On the **Azure Active Directory Application Card**, click **Grant Consent** to allow the newly created application access to the Business Central API.
 
 ## Next step
+
   - [Set up HeyLoyalty webhook]({{< ref "setup_hl_webhook/index.md" >}})
