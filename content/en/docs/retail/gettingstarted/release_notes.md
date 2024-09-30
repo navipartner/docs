@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 30.09. | Updated compliance with [<ins>German fiscal laws<ins>]({{< ref "../../fiscalization/germany/how-to/setup.md" >}}) | It is now necessary to enable fiscalization for users who abide by German fiscal laws and regulations. This can be done by activating the application area on the **DE Fiscalization Setup** administrative section. Both new and existing users are affected by this change, and won't be able to see fiscalization-related pages until they take the necessary action. |
 | 23.09. | [<ins>Fiscalization compliance - Ireland<ins>]({{< ref "../../fiscalization/ireland/explanation/ireland_fiscalization.md" >}}) | NP Retail is now compliant with Irish fiscal laws. | 
 | 23.09. | Endless Aisle moved to NP Pay Setup | Contents of the **POS EFT Payment Reservation Setup** administrative section have been moved to **NP Pay Setup** under the [<ins>**Endless Aisle**<ins>]({{< ref "../../np_pay/how-to/endless_aisle.md" >}}) FastTab. The options remain unchanged. |
 | 17.09. | Pay by Link moved to NP Pay Setup | Contents of the [<ins>**Pay by Link Setup**<ins>]({{< ref "../../np_pay/how-to/pay_by_link.md" >}}) administrative section have been moved to **NP Pay Setup**. The options remain unchanged, and can be found in the **Pay by Link** FastTab. | 

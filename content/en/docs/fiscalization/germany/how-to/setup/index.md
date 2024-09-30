@@ -19,15 +19,16 @@ This article details how to configure NP Retail for compliance in Germany.
 
 1. Reach out to NaviPartner for the account details created for your company at Fiskaly.
 
-2. Go to **POS Audit Profiles** page and create one audit profile. Use it for all POS units.
+2. Navigate to the **DE Fiscalization Setup** administrative section, and activate the application area by enabling the **Enable DE Fiscalization** toggle switch.
+3. Go to **POS Audit Profiles** page and create one audit profile. Use it for all POS units.
 
-3. For the POS audit profile created: activate the **Audit Log Enabled** option, set the **Fill Sale Fiscal No. On** field value to _Successful Sales_, and select _Fiskaly_ as the **Audit Handler**.     
+4. For the POS audit profile created: activate the **Audit Log Enabled** option, set the **Fill Sale Fiscal No. On** field value to _Successful Sales_, and select _Fiskaly_ as the **Audit Handler**.     
    This will automatically block the opening of the POS on that POS Unit if any other setup is non-compliant. 
 
-4. On the **POS Audit Profile** page click **Additional Audit Setup**.     
+5. On the **POS Audit Profile** page click **Additional Audit Setup**.     
    The **DE Fiskaly POS Unit Setup** page is displayed.
 
-5. On the **DE Fiskaly POS Unit Setup** page:
+6. On the **DE Fiskaly POS Unit Setup** page:
     - Create a separate record for each POS unit you have. For each POS unit you'll need to specify **Cash Register Brand**, **Cash Register Model**, **Serial Number**, as well as a **TSS Code**.
   
         {{< alert icon="📝" text="You'll need to create the TSS (technical security system) code first. Refer to the Create techical security systems subsection for instructions detailing how to do that."/>}}
