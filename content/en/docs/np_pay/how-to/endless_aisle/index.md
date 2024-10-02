@@ -87,13 +87,37 @@ To set up the endless aisle functionality, follow the provided steps:
 
 ## Next steps
 
-#### Reserve a POS sale to a sales order
+### Reserve a POS sale to a sales order
 
-Once all setups are complete, you can export a POS sale to a sales order with a payment reservation. You can try out the reservation process in the following interactive demo:
+Once all setups are complete, you can export a POS sale to a sales order with a payment reservation. 
+
+1. Log into the POS.
+2. Add the item or items that the customer wishes to reserve.      
+   As the feature description suggests, the item doesn't have to be in the store's stock at the moment. 
+3. Press **Reserve POS Sale to Sales Order**.     
+   A pop-up window is displayed, asking whether you wish to export the sale to a sales document in Business Central.
+4. Press **Yes**.     
+   The list of available customers is displayed.
+5. Choose a customer which will be tied to the sales order, and press **OK**.      
+   If this is a brand-new customer, press **New** instead, to create the customer entity.       
+   The **Store Shipment Methods** window is displayed.
+6. Confirm the shipment method and the shipment fee by pressing **OK**.     
+   You are prompted to scan a voucher.
+7. You can scan multiple vouchers for this sale, and deduce their value from the total payable amount.       
+   Each time you scan a voucher, you are asked whether you wish to scan another one.
+8. Once you're done scanning vouchers, press **No**.      
+   A pop-up window with the remaining payable amount is displayed, and the customer can proceed with the payment.       
+   Once the payment is complete, the corresponding **Sales Order** is displayed. You can edit the shipment address information, if needed.   
+9. Press **Close** on the sales order to finish the reservation process.     
+   The POS sale has now been exported to a sales order with a payment reservation. When the order is posted and shipped to your customer, the reserved payment will be captured.
+
+You can try out the reservation process in the following interactive demo:
 
 <iframe class="vidyard_iframe" title="Hartmann’s uses Dynamics 365 Business Central to artfully improve operations" src="
 https://demo.arcade.software/7RUlchVHtuA8okU2LwVe?embed"
 width=835 height=470 scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
+
+### Results
 
 After the export is complete, a credit sale POS entry is created. It is not going to be posted, but it contains all the necessary information on the completed POS sale. 
 
@@ -102,5 +126,7 @@ After the export is complete, a credit sale POS entry is created. It is not goin
 You can find the related sales order by navigating to **Related** > **Related Sales Documents** from the **POS Entry Card**. 
 
 From the sales order, you can review the payment reservation by navigating to **Related** > **Payments** > **Payment Lines**. The sales order is treated like a webshop order, meaning that when the document is posted, the payment is captured, and the funds are taken from the shopper's account. 
+
+   {{< alert icon="💡" text="If you've scanned vouchers, both the total payable amount and the amount deduced by redeeming vouchers during the sale are displayed in the <b>Payment Lines</b>." />}}
 
 If you decide to delete the document, the payment reservation will be canceled. 
