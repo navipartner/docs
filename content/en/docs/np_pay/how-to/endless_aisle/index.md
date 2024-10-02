@@ -23,9 +23,12 @@ To set up the endless aisle functionality, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NP Pay Setup**, and choose the related link.           
 2. Populate the following fields under the **Endless Aisle** FastTab:    
-   - **Payment Gateway Code** - specify which payment service provider will be used to process the payment reservation in the exported sale order; it's necessary to choose a payment gateway that supports capturing, canceling, and refunding. Only [<ins>Adyen gateways<ins>]({{< ref "../../../ecommerce/payment_gateway/how-to/adyen/index.md" >}}) are supported.
-   - **Account Type** - define the type of account to which the payment reservation will be posed.
-   - **Account No.** - specify the account number to which the payment reservation will be posted. 
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Payment Gateway Code** | Specify the payment service provider which will be used to process the payment reservation in the exported sale order; it's necessary to choose a payment gateway that supports capturing, canceling, and refunding. Only [<ins>Adyen gateways<ins>]({{< ref "../../../ecommerce/payment_gateway/how-to/adyen/index.md" >}}) are supported. | 
+   | **Account Type** | Define the type of account to which the payment reservation will be posed. |
+   | **Account No.** | Specify the account number to which the payment reservation will be posted. | 
 
    ![endless_aisle_1](Images/endless_aisle_1.PNG)
 
@@ -39,26 +42,48 @@ To set up the endless aisle functionality, follow the provided steps:
 7. Navigate to the **Store Shipment Profile Card** to set up different shipment methods and fees related to the store's shipping profile.       
    The shipping profile can be assigned to the store in the **POS Shipment Profile** field of the [<ins>**POS Store Card**<ins>]({{< ref "../../../retail/pos_store/how-to/new/index.md" >}}).    
 8. Populate the following fields in the **General** section:      
-   - **Code** - specify the code of the store's shipment profile.
-   - **Description** - add a brief description of the shipment profile.
-9.  Populate the following fields in the **Shipment Fees** section:       
-       - **Description** - add a brief description of the shipment option that will be displayed on the POS and in the sales order.
-       - **Shipment Method Code** - specify the code for the shipment method to be used in the sales order. 
-       - **Shipping Agent Code** - specify the code for shipping agent to be used in the sales order. 
-       - **Shipping Agent Service Code** - specify the code for the shipping agent service to be used in the sales order.
-       - **Shipment Fee Type** - specify how the shipment fee is represented on the POS and in the sales order (G/L account or an item).
-10. Move on to configuring the **SALES_DOC_EXP** [<ins>POS action<ins>]({{< ref "../../../retail/pos_layout/how-to/new_button/index.md" >}}).       
-    This action is used for exporting the POS sale with a payment reservation. The following parameters need to be populated:
-      - **Select Customer** - set to true; this parameter will prompt the user to select a customer for the sales order.
-      - **POS Payment Reservation** - set to true; this parameter enables the payment reservation functionality.
-      - **POS Payment Method Code** - specify a POS payment method that has previously been declared as EFT and supporting manual capture; this method will be used to make the payment reservation.
-      - **Open Document** - set to true; when enabled, the sales order is opened automatically after being created, allowing you to easily update the shipping information, if needed.
-      - **Select Shipment Method** - set to true; this parameter enables the shipment method selection; when you select the shipment method, it will be added as a line on the POS sale, and exported to the sales order. 
-11. Move on to configuring the **EFT_RESERVE_DOC_PAY** [<ins>POS action<ins>]({{< ref "../../../retail/pos_layout/how-to/new_button/index.md" >}}).       
-      - **Open Document** - when set to true, the document will be opened for review before the payment reservation is made.
-      - **POS Payment Method Code** - specify a POS payment method that has previously been declared as EFT and supporting manual capture; this method will be used to make the payment reservation. 
-      - **Select Customer** - set to true; this parameter will prompt the user to select a customer for the sales order.
 
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Code** | Specify the code of the store's shipment profile. | 
+   | **Description** | Add a brief description of the shipment profile. |
+
+9. Populate the following fields in the **Shipment Fees** section:      
+
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Description** | Add a brief description of the shipment option that will be displayed on the POS and in the sales order. |
+   | **Shipment Method Code** | Specify the code for the shipment method to be used in the sales order. |
+   | **Shipping Agent Code** | Specify the code for shipping agent to be used in the sales order. |
+   | **Shipping Agent Service Code** | Specify the code for the shipping agent service to be used in the sales order. |
+   | **Shipment Fee Type** | Specify how the shipment fee is represented on the POS and in the sales order (G/L account or an item). |
+
+10. Move on to configuring the **SALES_DOC_EXP** [<ins>POS action<ins>]({{< ref "../../../retail/pos_layout/how-to/new_button/index.md" >}}):     
+
+   | Parameter Name      | Description |
+   | ----------- | ----------- |
+   | **Select Customer** | Set to **true**; this parameter will prompt the user to select a customer for the sales order. |
+   | **POS Payment Reservation** | Set to **true**; this parameter enables the payment reservation functionality. |
+   | **POS Payment Method Code** | Specify a POS payment method that has previously been declared as EFT and supporting manual capture; this method will be used to make the payment reservation. |
+   | **Open Document** | Set to **true**; when enabled, the sales order is opened automatically after being created, allowing you to easily update the shipping information, if needed. |
+   | **Select Shipment Method** | Set to **true**; this parameter enables the shipment method selection; when you select the shipment method, it will be added as a line on the POS sale, and exported to the sales order. |
+   | **Ask for vouchers** | When set to **true**, you will be prompted to scan a voucher before the payment reservation. After the scan is done, you will be asked whether you wish to scan additional vouchers. Once you're done, the card reservation will be executed if there's any remaining payable amount. |
+   | **Voucher type** | You can specify the voucher type you're going to use for the payment reservation in this field. If it isn't specified, the system will find it based on the reference number. |
+   | **Ask for voucher type** | If set to **true**, the system will prompt for the voucher type that you're going to use in the payment reservation before scanning the voucher.  |
+   | **Open voucher list** | If set to **true**, if you scan a blank voucher reference number, the voucher list is going to be opened, and you can select the voucher from it. |
+
+11. Move on to configuring the **EFT_RESERVE_DOC_PAY** [<ins>POS action<ins>]({{< ref "../../../retail/pos_layout/how-to/new_button/index.md" >}}):       
+
+   | Parameter Name      | Description |
+   | ----------- | ----------- |
+   | **Open Document** | When set to **true**, the document will be opened for review before the payment reservation is made. |
+   | **POS Payment Method Code** | Specify a POS payment method that has previously been declared as EFT and supporting manual capture; this method will be used to make the payment reservation. |
+   | **Select Customer** | Set to **true**; this parameter will prompt the user to select a customer for the sales order. |
+   | **Ask for vouchers** | When set to **true**, you will be prompted to scan a voucher before the payment reservation. After the scan is done, you will be asked whether you wish to scan additional vouchers. Once you're done, the card reservation will be executed if there's any remaining payable amount. |
+   | **Voucher type** | You can specify the voucher type you're going to use for the payment reservation in this field. If it isn't specified, the system will find it based on the reference number. |
+   | **Ask for voucher type** | If set to **true**, the system will prompt for the voucher type that you're going to use in the payment reservation before scanning the voucher.  |
+   | **Open voucher list** | If set to **true**, if you scan a blank voucher reference number, the voucher list is going to be opened, and you can select the voucher from it. |
+ 
 
 ## Next steps
 
