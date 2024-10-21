@@ -1,6 +1,6 @@
 ---
 title: "POS Academy"
-description: "The POS Academy is a series of training guides and videos that enable users to become more competent users of NaviPartner’s cloud-based POS solution, such as NP Retail."
+description: "The POS Academy is a series of training guides and videos that help you become more competent in using NaviPartner’s cloud-based POS solution, such as NP Retail."
 lead: ""
 date: 2023-08-01T13:10:01+02:00
 lastmod: 2023-08-01T13:10:01+02:00
@@ -15,9 +15,9 @@ toc: true
 type: docs
 ---
 
-The POS Academy is a series of training guides and videos that enable users to become more competent users of NaviPartner’s cloud-based POS solution, such as NP Retail.
+The POS Academy is a series of training guides and videos that help you become more competent in using NaviPartner’s cloud-based POS solution, such as NP Retail.
 
-Its main purpose is to provide a standardized, comprehensive training program for our users. The guides are based around a fictional company and they build upon one another, taking the viewer on a journey through all the necessary steps in POS operation and configuration. They showcase real-life examples and best practices, and their goal is to both demonstrate a way of configuration and inspire viewers to explore new ideas and options.
+Its main purpose is to provide a standardized, comprehensive training program for our users. The guides are based around a fictional company that requires specific POS operations and configurations to help them with their daily work. Though your business needs may differ, the overall approach and principles explored in the provided guides may serve as an example for how you can use NaviPartner's features. The guides showcase real-life examples and best practices, and their goal is to both demonstrate a way of configuration and inspire viewers to explore new ideas and options.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hZ7-MGKY4tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -39,36 +39,36 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Starting the day in POS<ins>]({{< ref "../pos_processes/how-to/start_pos/index.md" >}}) | Open the POS for the first time and learn about the existing POS statuses. |
+| [<ins>Starting the day in POS<ins>]({{< ref "../pos_processes/how-to/start_pos/index.md" >}}) | Open the POS for the daily shift, and learn about the existing POS statuses. |
 | [<ins>Initial float amount setup<ins>]({{< ref "../pos_processes/how-to/initial_float/index.md" >}}) | Learn how to add the initial float amount to POS units. |
 
 ## Sales cycle
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>Sales and returns<ins>]({{< ref "../pos_processes/how-to/sales_cycle/index.md" >}}) | Go through the examples of the main sales processes on the POS. |
-| [<ins>Discounts<ins>]({{< ref "../discounts/intro.md" >}}) | Get acquainted with an extensive list of discounts used in NP Retail, and the accompanying examples. |
+| [<ins>Sales and returns<ins>]({{< ref "../pos_processes/how-to/sales_cycle/index.md" >}}) | Go through the examples of accepting payment and providing refunds on the POS. |
+| [<ins>Discounts<ins>]({{< ref "../discounts/intro.md" >}}) | Get acquainted with the discount types used in NP Retail, and view the accompanying examples of use. |
 | [<ins>Vouchers<ins>]({{< ref "../vouchers/intro.md" >}}) | Learn how to issue vouchers from the POS. | 
 | [<ins>Pay with different payment methods<ins>]({{< ref "../pos_processes/how-to/payment_methods/index.md" >}}) | Go through the guides for performing payment with cash, vouchers, foreign currencies etc. |
 | [<ins>Payment operations<ins>]({{< ref "../pos_processes/how-to/payment_operations/index.md" >}})  | Get acquainted with some of the variations to the basic POS payment process. |
-| [<ins>Credit sales<ins>]({{< ref "../pos_processes/how-to/credit_sales/index.md" >}}) | Create different sales documents, post and print them, and a lot more. |
+| [<ins>Credit sales<ins>]({{< ref "../pos_processes/how-to/credit_sales/index.md" >}}) | Create different sales documents, then post and print them. |
 
 ## End of day
 
 | Article Name      | Description |
 | ----------- | ----------- |
 | [<ins>Configure the POS balancing feature<ins>]({{< ref "../pos_processes/how-to/balance_config/index.md" >}}) | The setup of the POS balancing feature is mainly done as a part of the **POS End of Day Profile** setup in Business Central. |
-| [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../pos_processes/how-to/generate_eod/index.md" >}}) |   Once the previous step has been completed, you can move on to generating EOD reports from the POS unit itself. |
+| [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../pos_processes/how-to/generate_eod/index.md" >}}) |   Once the POS balancing feature setup been completed, you can move on to generating EOD reports from the POS unit itself. |
 
 
 ## Fictional company configuration
 
 | Article Name      | Description |
 | ----------- | ----------- |
-| [<ins>POS store<ins>]({{< ref "../pos_store/how-to/new/index.md" >}}) | The POS store is an entity of the highest level in the POS setup. It corresponds to a physical store, which is why the POS store setup you perform in NP Retail needs to match the specifics of the physical store. |
+| [<ins>POS store<ins>]({{< ref "../pos_store/how-to/new/index.md" >}}) | A POS store corresponds to a physical retail store, which is why the the setup you perform in NP Retail needs to match the specifics of the physical store. |
 | [<ins>POS units<ins>]({{< ref "../pos_processes/how-to/create_pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. A |
-| [<ins>POS profile setup<ins>]({{< ref "../pos_profiles/intro.md" >}}) | This portion of the POS Academy contains instructions for setting up the necessary profiles for a POS store. |
-| [<ins>POS payment bin setup<ins>]({{< ref "../pos_processes/how-to/payment_bins/index.md" >}}) | This section is used for configuring containers in which money, or any legal tender, is stored and received  |
+| [<ins>POS profile setup<ins>]({{< ref "../pos_profiles/intro.md" >}}) | POS profiles are grouped options and configurations that can be set up to dictate how POS units are used to perform sales-related procedures.  |
+| [<ins>POS payment bin setup<ins>]({{< ref "../pos_processes/how-to/payment_bins/index.md" >}}) | Set up containers in which money, or any legal tender, is stored and received  |
 | [<ins>Posting setup<ins>]({{< ref "../posting_setup/explanation/different_posting_rules/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |
 | [<ins>Payment methods<ins>]({{< ref "../pos_processes/reference/payment_method/index.md" >}}) | You can use this feature to define what payment method is going to be accepted on the POS. | 
 | [<ins>Variety setup<ins>]({{< ref "../varieties/how-to/create_variety/index.md" >}}) | You are walked through the process of creating a set of varieties for the Trousers item, for which you will set up a combination of Color, Length and Waist.| 

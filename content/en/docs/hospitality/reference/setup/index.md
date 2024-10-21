@@ -1,6 +1,6 @@
 ---
 title: "Restaurant setup"
-description: "The Restaurant Setup page is where we configure the general setup for the Restaurant Module. It covers the No. series, Seating Statuses, POS Actions that are used in different processes, Kitchen integration with KDS or Printer and Print Templates for the Kitchen printers."
+description: "The Restaurant Setup page is where we configure the general setup for the NP Hospitality Module. It covers the No. series, Seating Statuses, POS Actions that are used in different processes, Kitchen integration with KDS or Printer and Print Templates for the Kitchen printers."
 lead: ""
 date: 2023-08-22T09:42:12+02:00
 lastmod: 2023-08-22T09:42:12+02:00
@@ -14,7 +14,7 @@ weight: 343
 toc: true
 type: docs
 ---
-The **Restaurant Setup** page is where we configure the general setup for the Restaurant Module. It covers the **No. series**, **Seating Statuses**, **POS Actions** that are used in different processes, **Kitchen integration** with **KDS** or **Printer** and **Print Templates** for the **Kitchen** printers.  
+The **Restaurant Setup** page is where we configure the general setup for the NP Hospitality module. It covers the **No. series**, **Seating Statuses**, **POS Actions** that are used in different processes, **Kitchen integration** with **KDS** or **Printer** and **Print Templates** for the **Kitchen** printers.  
  
 The following fields and options are available in the **General** section:
 
