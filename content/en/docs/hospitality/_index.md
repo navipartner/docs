@@ -1,5 +1,5 @@
 ---
-title: "Restaurant"
+title: "NP Hospitality"
 description: ""
 lead: ""
 date: 2023-08-22T09:37:43+02:00
