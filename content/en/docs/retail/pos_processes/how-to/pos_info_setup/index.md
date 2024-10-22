@@ -176,7 +176,7 @@ Once the POS info is configured, you can navigate to the **Customer Card** to se
 1. Open the POS.
 2. Scan the items. 
    On selecting the customer, a message is displayed for the salesperson to act upon.
-3. Perform the necessary actions, and press OK.     
+3. Perform the necessary actions, and press **OK**.     
    The message disappears as the result. 
 4. Navigate to the **POS Entry List** administrative section in Business Central.     
    The message is logged on the POS info POS entry on that ticket. 
@@ -226,7 +226,7 @@ Once the POS info is configured, you can navigate to the **Customer Card** to se
   
    ![captionbox_code](captionbox_code.PNG)
 
-5. (Optional) You can also display the POS info in the status bar. If you wish to do this, change the POS View and add the following text to the status bar definition section:  
+5. (Optional) You can also display the POS info in the status bar. If you wish to do this, change the POS view and add the following text to the status bar definition section:  
 
     ```
       {

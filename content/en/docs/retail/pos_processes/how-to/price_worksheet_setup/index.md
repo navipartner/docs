@@ -32,7 +32,7 @@ If you want to update prices for multiple items without having to change setting
 | Field Name      | Description |
 | ----------- | ----------- |
 | **Manage** | You can select 1 line or multiple line & then apply the delete function to clear the lines from the worksheet. |
-| **Suggest Lines** | Create a list of items, based on defined criteria and at the same time establish a Default Price List, using adjustment factors on the Unit Price of the items. When the worksheet is filled, the price list can be also manually modified if necessary. |
+| **Suggest Lines** | Create a list of items, based on defined criteria and at the same time establish a **Default Price List**, using adjustment factors on the unit price of the items. When the worksheet is filled, the price list can be also manually modified if necessary. |
 | **Copy Lines** | Lines can be copied from an existing **Price List**. |
 | **Implement Price Change** | Update the **Price List** with the one provided in the worksheet. |
 | **Open Price List** | If a price list is already assigned to the worksheet, you will see the **Price List Code** on the first column in the details. |
