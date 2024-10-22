@@ -27,7 +27,7 @@ There's two methods for setting up an opening mechanism for a cash drawer:
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Audit Profiles**, and choose the related link.      
    Alternatively, you can navigate to the **POS Unit Card** and drill down to the **POS Audit Profile** field.
 2. On the **POS Audit Profile** page, activate the **Bin Eject After Sale** toggle switch.
-3. Make sure the **Bin Eject After Sale** toggle switch is activated for Audit Profiles of all POS units that have the opening mechanism set for the cash drawer.
+3. Make sure the **Bin Eject After Sale** toggle switch is activated for audit profiles of all POS units that have the opening mechanism set for the cash drawer.
 
 
 ## Configure an opening mechanism for a POS unit cash drawer with a template
@@ -49,7 +49,7 @@ To configure an opening mechanism for a POS unit cash drawer with a template, ma
 2. Click the POS unit you wish to configure the cash drawer opening mechanism for.
 3. Click the dropdown next to the **POS Scenarios Profile** and then **Select from full list**.  
 4. Click **New**, or select an existing profile, then click **Manage** followed by **Edit**.
-5. Select the **POS Scenarios Set Entries** line with **Workflow Code** FINISH_SALE.
+5. Select the **POS Scenarios Set Entries** line with **Workflow Code** **FINISH_SALE**.
 6. Click **Manage**, and then click **POS Scenario Steps**.
 7. Add **EjectPaymentBin** in **Subscriber Function**.
 8. Navigate back and select the edited **POS Scenarios Profile** for the POS unit.
@@ -81,9 +81,10 @@ This topic section walks you through the process of setting up the POS Payment B
 3. Click the dropdown next to the **Default POS Payment Bin** and then **Select from full list**.  
 4. Click **Edit List**.
 5. In the field **Eject Method** input **OPOS**.
-6. Click **Eject Method Parameters**.
-7. In the pop up in the field **Value** input the **Logical Device Name** of the OPOS printer on the POS.      
-   The POS Unit with this POS payment bin is now using OPOS to open whenever opening the drawer in POS.
+6. Click **Eject Method Parameters**.     
+   A pop-up window is displayed.
+7. In the **Value** field of the pop-up window provide the **Logical Device Name** of the OPOS printer on the POS.      
+   The POS unit with this POS payment bin is now using OPOS whenever opening the drawer in POS.
 
 #### See also
 

@@ -121,7 +121,7 @@ To create a POS info box in which a salesperson can choose between various optio
 ### Procedure
 
 1. Open the POS.
-2. Press the previously created POS info button.    
+2. Press the previously created **POS Info** button.    
 3. Choose the POS info value from the **POS Info Lookup**.
 4. Complete the sale by finalizing the payment.
 5. To view the message provided on the POS in Business Central, navigate to the **POS Entry List** administrative section.

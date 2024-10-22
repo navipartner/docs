@@ -23,15 +23,15 @@ A POS period is initiated as soon as the POS is opened, and finalized at the end
    
 | Field Name      | Description |
 | ----------- | ----------- |
-| **Entry No.** | Specifies the POS Period entry number. It is assigned automatically. |
+| **Entry No.** | Specifies the POS period entry number. It is assigned automatically. |
 | **POS Store Code**/**POS Unit No.** | Specifies the POS store/POS unit impacted by the POS period. |
 | **Document No.** | If the transactions are posted in an uncompressed format, the document number can be left blank, whereas if they are posted in a compressed format (per a POS period), the document number used for posting is displayed in the POS register. |
-| **From Entry No.** | Specifies the POS entry number from the beginning of the POS period, for the transaction from the POS entry table. |
+| **From Entry No.** | Specifies the POS entry number from the beginning of the POS period, for the transaction from the **POS Entry** table. |
 | **To Entry No.** | Specifies the POS entry number at the end of the POS period, for the transaction from the POS entry table. |
-| **Status** | Specifies the status o the POS unit. | 
+| **Status** | Specifies the status of the POS unit. | 
 | **Posting Compression** | Specifies the method used for compressing the posting of the transactions. |
 
-3. Select the action you wish to take from the ones presented in the ribbon: 
+3. Select the action you wish to take from the ones provided in the ribbon: 
 
 | Field Name      | Description |
 | ----------- | ----------- |

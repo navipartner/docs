@@ -1,6 +1,6 @@
 ---
 title: "Create an item_list for applying discounts"
-description: "If you wish to create a list of items to be used as a base for applying discounts, you will choose **ITEM_LIST** as the discount module."
+description: "If you wish to create a list of items to be used as a base for applying discounts, you need to choose ITEM_LIST as the discount module."
 lead: ""
 date: 2023-10-04T09:08:09+02:00
 lastmod: 2023-10-04T09:08:09+02:00

@@ -38,7 +38,7 @@ To set up digital receipts, make sure the prerequisites are met, and follow the 
 4. Click **Test API Credentials** in the ribbon.     
    This action is used for validating the provided API key and secret, and ensuring the effectiveness of your Fiskaly API credentials. You will not be able to turn on the digital receipt functionality unless the credentials are successfully tested.     
    The outcome is reflected in the state of the **Credentials Test Success** toggle switch, and the date/time of the last test is recorded in the **Last Credentials Test Time** field.
-5. If the credentials are tested and approved, click **POS Receipt Profiles** action in the ribbon.     
+5. If the credentials are tested and approved, click **POS Receipt Profiles** in the ribbon.     
    Alternatively, you can find the **POS Receipt Profiles** with the Business Central's *Tell Me* feature.
 6. Click **New**, and populate the [<ins>available fields and options<ins>]({{< ref "../../../pos_profiles/reference/receipt_profile/index.md" >}}).
 7. Open the **POS Unit List** administrative section, and find the POS unit you wish to set up. 
@@ -49,7 +49,7 @@ To set up digital receipts, make sure the prerequisites are met, and follow the 
 
 ### (Optional) Add logo to the digital receipt header
 
-Fiskaly provides an option of adding a logo of your choice to the digital receipt header. You can do this from the Fiskaly Dashboard.
+Fiskaly provides an option to add a logo of your choice to the digital receipt header. You can do this from the Fiskaly Dashboard.
 
 1. Click **Fiskaly Receipt** in the sidebar of the Fiskaly Dashboard.     
    A new page is displayed.

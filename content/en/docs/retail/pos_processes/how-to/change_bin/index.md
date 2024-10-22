@@ -24,9 +24,9 @@ Bins represent physical shelves and rows in which the shop's inventory is stored
 
 ## Procedure
 
-1. Click **POS** in the Role Center's ribbon, followed by **Open POS**.     
+1. Open the **POS**.    
    The POS login screen is displayed.
-2. Enter the **Salesperson Code** in the provided field to log in.
+2. Enter the **Salesperson Code** in the provided field to log in.      
    The button to which the **CHANGE_BIN** action is attached can be found in the menu you've previously placed it in.
 3. Select the item you wish to purchase, then select its variant, and click **OK**.
 4. Click the **CHANGE_BIN** button, then select the bin you wish to take it from, and click **OK**.   

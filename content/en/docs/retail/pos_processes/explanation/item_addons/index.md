@@ -29,3 +29,7 @@ You need to perform the following setup if you want to create the add-on menu as
 
 - [<ins>Create item add-ons<ins>]({{< ref "../../how-to/create_and_attach_item_addon/index.md" >}}).
 - Create the POS button for the Item add-on menu to be used in the POS.
+
+#### See also
+
+- [<ins>Item add-on custom configurations<ins>]({{< ref "../../how-to/custom_configurations_item_addons/index.md" >}})

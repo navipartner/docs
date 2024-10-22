@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-This is the main procedure for creating item add-ons that is common for all custom configurations. Follow the provided instructions to create item add-ons:
+This is the main procedure for creating [<ins>item add-ons<ins>]({{< ref "../../explanation/item_addons/index.md" >}}) that is common for all custom configurations. Follow the provided instructions to create item add-ons:
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Item AddOns**, and choose the related link.    
     A list of all existing item add-ons is displayed.
@@ -26,10 +26,15 @@ This is the main procedure for creating item add-ons that is common for all cust
 
 ## Attach item add-ons to the main item
 
-{{< alert icon="❗" text="Any custom configuration you may wish to perform should be done between the common creation steps and this procedure. For more details, refer to the <a href=\"/docs/retail/pos_academy/item_addons/custom_configurations/\">article with custom configuration examples</a>."/>}} 
+{{< alert icon="❗" text="Any custom configuration you may wish to perform should be done between the common creation steps and this procedure. For more details, refer to the <a href=\"/docs/retail/pos_processes/how-to/custom_configurations_item_addons/\">article with custom configuration examples</a>."/>}} 
 
 1.	Navigate to the **Item Card** of the main item.
 2.	In the **NPR Properties** section, insert the item add-on code in the **Item AddOn No**.     
     Whenever you scan the main item, a second line is added on the POS for the item add-on.
 
 ![item_addon1](item_addon1.PNG)
+
+#### See also
+
+- [Item addons]({{< ref "../../explanation/item_addons/index.md" >}})
+- [<ins>Item add-on custom configurations<ins>]({{< ref "../custom_configurations_item_addons/index.md" >}})

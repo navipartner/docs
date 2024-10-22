@@ -61,12 +61,12 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "../pos_processes/how-to/generate_eod/index.md" >}}) |   Once the POS balancing feature setup been completed, you can move on to generating EOD reports from the POS unit itself. |
 
 
-## Fictional company configuration
+## Example company configuration
 
 | Article Name      | Description |
 | ----------- | ----------- |
 | [<ins>POS store<ins>]({{< ref "../pos_store/how-to/new/index.md" >}}) | A POS store corresponds to a physical retail store, which is why the the setup you perform in NP Retail needs to match the specifics of the physical store. |
-| [<ins>POS units<ins>]({{< ref "../pos_processes/how-to/create_pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. A |
+| [<ins>POS units<ins>]({{< ref "../pos_processes/how-to/create_pos_unit/index.md" >}}) | POS units automate the transaction process and tracking of important sales data. |
 | [<ins>POS profile setup<ins>]({{< ref "../pos_profiles/intro.md" >}}) | POS profiles are grouped options and configurations that can be set up to dictate how POS units are used to perform sales-related procedures.  |
 | [<ins>POS payment bin setup<ins>]({{< ref "../pos_processes/how-to/payment_bins/index.md" >}}) | Set up containers in which money, or any legal tender, is stored and received  |
 | [<ins>Posting setup<ins>]({{< ref "../posting_setup/explanation/different_posting_rules/index.md" >}}) | The POS Posting Setup defines how the receipts for cash and other payment methods are posted in the General Ledger or Sub-Ledgers in the system.  |

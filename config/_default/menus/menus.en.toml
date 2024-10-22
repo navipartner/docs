@@ -66,10 +66,10 @@
   parent = "solutions"
 
 [[main]]
-  name = "RESTAURANT"
+  name = "HOSPITALITY"
   weight = 30
   identifier = "restaurant"
-  url = "/docs/restaurant/intro"
+  url = "/docs/hospitality/intro"
   parent = "solutions"
 
 [[main]]

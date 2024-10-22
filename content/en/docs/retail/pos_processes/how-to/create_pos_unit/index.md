@@ -23,6 +23,7 @@ Each [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) can contai
 
 ## Prerequisites
 
+ - Have a [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) defined in the environment.
  - Have at least one POS unit defined in the environment.
 
 ## Procedure
@@ -41,13 +42,13 @@ Each [<ins>POS store<ins>]({{< ref "../../../pos_store/intro.md" >}}) can contai
 
 | Field Name      | Description |  
 | ----------- | ----------- | ----------- |
-| **No.** | The unique code for the POS unit. | 
-| **Name** | The name of the POS unit. | 
-| **POS Store Code** | The POS Store to which the POS Unit is attached. | 
-| **POS Default POS Bin** | The payment bin (cash drawer) that will be used by the POS unit. It’s recommended to use the same number as the one provided in the POS Unit No. |
-| **Department Code** | The global dimension assigned to all entries from the store. If the business needs to track transactions in the General Ledger per POS unit, you can define subdimensions for analysis purposes. | 
+| **No.** | Specifies the unique code for the POS unit. | 
+| **Name** | Specifies the name of the POS unit. | 
+| **POS Store Code** | Specifies the POS store to which the POS unit is attached. | 
+| **POS Default POS Bin** | Specifies the payment bin (cash drawer) that will be used by the POS unit. It’s recommended to use the same number as the one provided in the **POS Unit No.**. |
+| **Department Code** | Specifies the global dimension assigned to all entries from the store. If the business needs to track transactions in the General Ledger for each POS unit, you can define subdimensions for analysis purposes. | 
 
-{{< alert icon="📝" text="A structured global dimension for the department can be as follows: 1. Level 1 = Dimension value 01; 2. Sub-level = Dimension value PU01 & PU02. By using Analysis by Dimensions, you can report on different levels as well as in total for the POS Store."/>}}
+{{< alert icon="📝" text="A structured global dimension for the department can be as follows: <br/> <ul> <li> Level 1 = Dimension value 01; </li> <br/> <li> Sub-level = Dimension value PU01 & PU02. </li> </ul> By using <b>Analysis by Dimensions</b>, you can report on different levels as well as in total for the POS store."/>}}
 
 | Field Name      | Description |   Example    |
 | ----------- | ----------- | ----------- |

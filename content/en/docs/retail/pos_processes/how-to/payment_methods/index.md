@@ -29,7 +29,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 #### Procedure 
 
 1. Open the POS. 
-2. Press the Test Items button.      
+2. Press **Test Items**.      
    A table with available items is displayed. 
 3. Select the **Tommy Hilfiger Gingham Shirt** item.      
    The **Item Variants Lookup** window is displayed. 
@@ -50,7 +50,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 #### Procedure 
 
 1. Open the POS. 
-2. Press the Test Items button.     
+2. Press **Test Items**.     
    A table with available items is displayed. 
 3. Select **Tommy Hilfiger Gingham Shirt**.     
    The Item Variants Lookup window is displayed. 
@@ -73,7 +73,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 #### Procedure 
 
 1. Open the POS. 
-2. Press the **Test Items** button. 
+2. Press **Test Items**. 
 3. Select **Tommy Hilfiger Gingham Shirt**.     
    The **Item Variants Lookup** window is displayed. 
 4. Select the size and color. 
@@ -94,7 +94,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 #### Procedure 
 
 1. Open the POS. 
-2. Press the **Test Items** button. 
+2. Press **Test Items**. 
 3. Select **Tommy Hilfiger Gingham Shirt**.     
    The Item Variants Lookup window is displayed. 
 4. Select the size and color.    
@@ -117,7 +117,7 @@ Payment directly from the POS results in a created **Payment Line** in the relev
 #### Procedure 
 
 1. Open the POS. 
-2. Press the button **Test Items**. 
+2. Press **Test Items**. 
 3. Select **Tommy Hilfiger Gingham Shirt**.      
    The **Item Variants Lookup** window is displayed. 
 4. Select the size and color.    
