@@ -15,13 +15,13 @@ toc: true
 type: docs
 ---
 
-You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the **Unit Price**.
+You can define [<ins>prices<ins>]({{< ref "../../explanation/pricing/index.md" >}}) for specific items in the **Sales Price List** in which the **Price** functions are combined with the **Discount** function. Follow the provided steps to learn how to set up the sales price from the price list, in a scenario in which the price is different from the unit price.
 
-{{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the Item card. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}
+{{< alert icon="📝" text="In Business Central and NP Retail, the sales price takes priority over the unit price in the <b>Item Card</b>. Whenever a sales order or a POS sale is done, the system will first check if an item has a sales price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Sales Price List**, and choose the related link. 
 2. From **Item Card** access the **Sales Price** via **Special Sales Prices & Discount** in the ribbon.      
-   On an item level, there will be a line or a list if that item is already in a Sales Price of some sort. Otherwise, you need to create a new list by selecting the **Sales Price List**.
+   On an item level, there will be a line or a list if that item is already in a sales price of some sort. Otherwise, you need to create a new list by selecting the **Sales Price List**.
 3. Click **Sales Prices & Discount** in the **Item Card** to access the **Sales Price** card.      
 4. Populate the following fields:
 
@@ -72,7 +72,7 @@ Both pricing and discount setup can be performed in one page instead of having t
 
 ### Set up price worksheet
 
-If you want to update prices for multiple items without having to change settings in each Item Card individually, you can create a Default Price List in the [<ins>Price Worksheet<ins>]({{< ref "../price_worksheet_setup/index.md" >}}) administrative section. 
+If you want to update prices for multiple items without having to change settings in each **Item Card** individually, you can create a **Default Price List** in the [<ins>**Price Worksheet**<ins>]({{< ref "../price_worksheet_setup/index.md" >}}) administrative section. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DZFlAhoDlvI?si=EgGfm-5626PUCbkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

@@ -25,13 +25,13 @@ The following configuration illustrates the registration of an item belonging to
 | **Description** | A short description of the **Item Category**. | **Hummel Lana Leggings** |
 | **Description 2** | An optional additional description. | Leave it blank. |
 | **Blocked** | Blocks the record from being posted in transactions. E.g. an item that is placed in a quarantine. | Disactivated | 
-| **Type** | There are several possible types of items: </br> - **Inventory** - Physical objects, such as bicycles, telephones, and desks, for which you need to use all inventory processes. This can also include non-physical items, such as software licenses and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory; </br> - **Non-inventory** - Physical objects, such as bolts or pens, that a business consumes but doesn’t need to fully track in the inventory (e.g. low-cost items that are only used internally); </br> - **Service** - A labor time unit, such as a consultancy hour, for limited business support. | **Inventory** | 
+| **Type** | There are several possible types of items: <ul> <li> **Inventory** - Physical objects, such as bicycles, telephones, and desks, for which you need to use all inventory processes. This can also include non-physical items, such as software licenses and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory;</li> <li>**Non-inventory** - Physical objects, such as bolts or pens, that a business consumes but doesn’t need to fully track in the inventory (e.g. low-cost items that are only used internally); </li> <li> **Service** - A labor time unit, such as a consultancy hour, for limited business support.</li> </ul> | **Inventory** | 
 
 {{< alert icon="📝" text="The Service and Non-Inventory types do not support tracking inventory quantities and values."/>}}
 
 | Field Name      | Description | Example  |
 | ----------- | ----------- | ----------- |
-| **Item Status** | The item status specifies the following actions allowed for the item: **Initial** (TRUE), **Blocked** (FALSE), **Delete Allowed** (TRUE), **Rename Allowed** (TRUE), **Purchase Insert** (TRUE), **Purchase Release** (TRUE), **Purchase Post** (TRUE), **Sales Insert** (TRUE), **Sales Release** (TRUE), and **Sales Post** (TRUE). | **01NEW** |
+| **Item Status** | The item status specifies the following actions allowed for the item: <ul> <li> **Initial** (TRUE) </li> <li> **Blocked** (FALSE) </li> <li> **Delete Allowed** (TRUE) </li> <li> **Rename Allowed** (TRUE) </li> <li> **Purchase Insert** (TRUE) </li> <li> **Purchase Release** (TRUE)</li> <li> **Purchase Post** (TRUE) </li> <li> **Sales Insert** (TRUE) </li> <li> **Sales Release** (TRUE) </li> <li> **Sales Post** (TRUE) </li> </ul> | **01NEW** |
 | **Item Brand** | If a brand name is required, it can be stated here. | **Hummel** | 
 | **Base Unit of Measure** | The base unit for measuring an item, such as a piece, box, or pallet. | **PCS** | 
 | **Item Category Code** | The **Item Category** is used for grouping items. The items inherit all characteristics defined in the **Item Category**. | **GARMENT** |
@@ -76,7 +76,7 @@ The variety setup is a customized way of treating variant codes on the POS unit,
 | ----------- | ----------- | ----------- |
 | **Main Item/Variation** | Specifies if the item is a main item or a variation of another item. | Leave it blank. |
 | **Main Item No.** | Specifies the number of the main item if this item is a variation of another item. | Leave it blank. |
-| **Item AddOn No.** | The code of the item AddOn that can be attached to the item. It affects the behavior on the POS when selling items.  E.g. You can attach an item accessory or insurance to the item. When selling the item on the POS, a second line is automatically inserted with the item defined in the Item AddOn scheme.  | Leave it blank. |
+| **Item AddOn No.** | The code of the item add-on that can be attached to the item. It affects the behavior on the POS when selling items.  E.g. You can attach an item accessory or insurance to the item. When selling the item on the POS, a second line is automatically inserted with the item defined in the item add-on scheme.  | Leave it blank. |
 | **Rest. Item Routing Profile** | Additional information can be attached to the **Item Card** for the NP Restaurant module. | Leave it blank. |
 | **Guarantee Voucher** | When selling the item, a guarantee voucher is issued automatically if this field is active. | Leave it blank. |
 | **No. Print on Receipt** | When the item is sold, a receipt isn’t printed automatically if this field is active. | Leave it blank. |

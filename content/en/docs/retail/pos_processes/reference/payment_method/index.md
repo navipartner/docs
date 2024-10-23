@@ -20,16 +20,16 @@ The **POS Payment Method Card** is where you define what payment method is going
 
 | Field Name      | Description | 
 | ----------- | ----------- | 
-| **Code** | The code given to the POS Payment Method. |
-| **Description** | The short description of the payment method.  | 
-| **Processing Type** | The manner in which the POS Method is processed. Many reports are based on this field, so it’s important to provide the adequate type carefully. |
-| **Return Payment Method Type** | Specify which payment method will be returned as change on concluded transactions.  | 
-| **Block POS Payment** | If you wish to stop using a POS payment method that has been used in the past, you can activate this option. |
+| **Code** | Specifies the code given to the POS payment method. |
+| **Description** | Specifies the short description of the payment method.  | 
+| **Processing Type** | Specifies the manner in which the POS payment method is processed. Many reports are based on this field, so it’s important to provide the adequate type carefully. |
+| **Return Payment Method Type** | Specifies which payment method will be returned as change on concluded transactions.  | 
+| **Block POS Payment** | Activate this option if you wish to stop using a POS payment method that has been used in the past. |
 | **Open Drawer** | Specifies if the drawer will be opened after the POS transaction ends when the selected POS Payment Method is used in transaction.  | 
 | **Bin for Virtual-Count** | This field is used if you set a POS payment method to be self-counted and you don’t need to count it manually.  | 
 | **Include in Counting** | Determines if the POS Payment Method will be counted when you perform balancing.  |  
 | **Currency Code** | If you use a foreign currency, you will need to set the currency code here. | 
-| **Fixed Rate** | You can specify the **Fixed Rate** which will be used to convert 100 units of foreign currency into local currency. **Example**: 1 FCY = 6.15 LCY, hence the value to be inserted = 100 x 6.15 = 615 instead of 6.15. | 
+| **Fixed Rate** | Specifies the **Fixed Rate** which will be used to convert 100 units of foreign currency into local currency. **Example**: 1 FCY = 6.15 LCY, hence the value to be inserted = 100 x 6.15 = 615 instead of 6.15. | 
 | **Use Standard Exchange Rate** | Instead of defining a fixed rate in the **POS Payment Card** itself, you can use the Business Central currency rate, defined in **Currencies**. |
 | **POS Condensed** | As the transactions are posted from POS Entry into General Ledger, you can set that the posting for payment be consolidated for that POS Payment Method.  | 
 | **Condensed Posting Description** | Set description of the entry by using different syntax. | 

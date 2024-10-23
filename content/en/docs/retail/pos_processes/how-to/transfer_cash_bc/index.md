@@ -18,7 +18,7 @@ type: docs
 A transfer journal is prepared in the back office, reflecting from which source POS payment bin the cash is taken, and to which target POS payment bin will the cash is sent. The transfer process itself is done in two steps:
 
 1. The journal is released from the back office.      
-   The POS Payment Bin Transfer Journal needs to be released so that the transferred cash becomes available on the receiving end. 
+   The **POS Payment Bin Transfer Journal** needs to be released so that the transferred cash becomes available on the receiving end. 
 2. The journal is accepted on the POS. 
 
 To create a POS Payment Bin Transfer Journal, and gain the ability to initiate cash transfer from the back office, make sure the prerequisites are met, and follow the provided steps:
@@ -35,19 +35,19 @@ Before performing these transfers, you need to set up the rules that will govern
 #### Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Payment Bin Transfer Journal**, and open the related link.       
-2. Populate the details for the POS Payment Bin Transfer Journal from there:
+2. Populate the details for the POS payment bin transfer journal from there:
 
 | Field Name      | Description |
 | ----------- | ----------- |
-| **Document No.** | The document number can be inserted manually or retrieved from the number series defined in the **Bin Transfer Profile**. | 
-| **Status** | The status of the POS Payment Bin Transfer Journal is displayed here. |
+| **Document No.** | Specifies the number of the document. It can be inserted manually or retrieved from the number series defined in the **Bin Transfer Profile**. | 
+| **Status** | Specifies the status of the POS payment bin transfer journal. |
 | **Store Code** | Specifies which store is targeted by the transfer. | 
 | **Transfer from Bin Code** | Specifies the code of the POS unit which is receiving the cash. | 
 | **Received at POS Unit Code** | Specifies the code of the payment bin to which the cash is transferred . | 
 | **Payment Method** | Specifies the payment method of the transferred resources. |
 | **Amount** | Specifies the transferred amount. | 
 | **External Document No.** | Specifies an optional additional reference number. | 
-| **Has Denominations** | You can specify denominations used for sorting the transferred amount on the **Home** tab of the page. | 
+| **Has Denominations** | Specifies denominations used for sorting the transferred amount on the **Home** tab of the page. | 
 
    ![transfer_journal](Images/transfer_journal.PNG)
 
