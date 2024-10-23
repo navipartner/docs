@@ -34,7 +34,7 @@ The following fields can be set up in each **POS Display Profile**:
 | **Receipt Width** | Specifies the width of the whole receipt on the Customer Display. |
 | **Receipt Placement** | Specifies the alignment of the receipt on the screen. It can be **Right**, **Left**, and **Center**. |
 | **Receipt Description Padding** | Specifies the size of the field containing the **Sales Line Description**. |
-| **Receipt Total Padding** | Specifies the size of the fields that contain the **Sales Line Totals** (i.e. Quantity x Unit Price). |
+| **Receipt Total Padding** | Specifies the size of the fields that contain the **Sales Line Totals** (i.e. The **Quantity** is multiplied by the **Unit Price**). |
 | **Receipt Grand Total Padding** |  Specifies the size of the field that contains the total for the entire sale. |
 
 ![POS_display](POS_display.png)

@@ -67,7 +67,7 @@ To collect input when a sale is finalized and the total amount is negative (i.e.
 
 When this option is selected, the customer will be presented with the digital input for their phone number and signature on the customer display, and when they press the **Submit** button, the information will sent back to the sales screen, where the cashier can verify the provided information. 
 
-The cashier has three option here:
+The cashier has three options here:
 
 - Hit the red button to reattempt the input, so the customer gets the possibility to try again. This could be relevant if the signature is declined or the phone number was incorrect. 
 - Hit the green button to verify and accept the provided input.

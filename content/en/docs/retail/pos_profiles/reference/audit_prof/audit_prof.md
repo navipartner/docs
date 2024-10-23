@@ -23,19 +23,19 @@ The following options can be set up in the **General** section:
 
 | Field Name      | Description |
 | ----------- | ----------- |
-| **Code**       | The unique code for the POS Audit Profile.     |
-| **Description**   | The short description of profile.        |
-| **Sales ticket No. Series**  | The number series used for creating the document number. |
-| **Sale Fiscal No. Series** | The number series used for creating the fiscal number. |
-| **Credit Sale Fiscal No. Series** | The items will be searched by their cross reference numbers. |
-| **Balancing Fiscal No. Series** | The number series used for creating the fiscal number for balancing. |
+| **Code**       | Specifies the unique code for the POS Audit Profile.     |
+| **Description**   | Specifies the short description of profile.        |
+| **Sales ticket No. Series**  | Specifies the number series used for creating the document number. |
+| **Sale Fiscal No. Series** | Specifies the number series used for creating the fiscal number. |
+| **Credit Sale Fiscal No. Series** | If the credit sale number series is provided, the items will be searched by their cross reference numbers. |
+| **Balancing Fiscal No. Series** | Specifies the number series used for creating the fiscal number for balancing. |
 | **Fill Sales Fiscal No. On** | You can choose between **All Sale** and **Successful Sale**. |
 | **Audit Log Enabled** | Used in certain countries for creating additional logs, usually for VAT. |
 | **Audit Handler** | If **Audit Log Enabled** is checked, use this field to choose which handler will be used to create the log. |
 | **Allow Zero Amount Sale** | Allow the sale to be finalized with the amount zero. |
 | **Allow Sales and Return in Same Transaction** | Allow both negative and positive transactions in a sale. |
 | **Print Receipt On Cancel Sale** | Allow receipts to be printed even when the sale is canceled. |
-| **Allow Printing Receipt Copy** | Set up whether a copy is printed or not. Available options are: **Always**, **Once**, **Never**. |
+| **Allow Printing Receipt Copy** | Specify whether a copy is printed or not. The available options are: <ul> <li> **Always**</li> <li>**Once**</li> <li>**Never**</li> </ul>. |
 | **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. You can make a list of possible reasons for return in the **Return Reasons** administrative section.  | 
 | **Bin Eject After Credit Sale** | If enabled, the physical bin will be ejected following a successful credit sale. | 
 | **Bin Eject After Sale** | If enabled, the physical bin will be ejected following a successful direct sale. |
