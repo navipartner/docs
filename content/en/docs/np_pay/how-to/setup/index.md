@@ -33,6 +33,3 @@ To set up NP Pay Cloud payment service provider on a POS unit, follow the provid
 7.	Close the page and navigate to **POS Unit Parameters**.
 8.	In the **POS ID** insert the terminal ID.      
     The ID is usually expressed in the following format: [Terminal Type] - [Serial Number] - for example P400Plus-123123123.
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lYpd0Pe4X6E?si=3zjIgDXGEJgA8_2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
