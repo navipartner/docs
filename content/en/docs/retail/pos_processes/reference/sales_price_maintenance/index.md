@@ -23,11 +23,11 @@ The following fields and options are available:
 | ----------- | ----------- |
 | **ID** | Specifies the sequential number used for identification of the sales price maintenance entry. |
 | **Sales Type** | Specifies the sales type for which the corresponding sales price is created. This is where you select how many entities will be affected by the given sales price (all customers, a specific customer, customer price group or a designated sales price campaign). |
-| **Sales Code** | The code used for retrieving specific entities from the **Sales Type** selected in the previous field. |
+| **Sales Code** | Specifies the code used for retrieving specific entities from the **Sales Type** selected in the previous field. |
 | **Price List Code** | Specifies the code of the price list that is retrieved and affected by this price maintenance scenario. |
 | **Currency Code** | Specifies the code of the currency in which the prices are expressed. |
 | **Prices Including VAT** | Specifies whether the prices are VAT-inclusive. |
-| **VAT Bus. Posting Gr. (Price)** | Used for retrieving the VAT percentage if the price is VAT-inclusive. |
+| **VAT Bus. Posting Gr. (Price)** | Retrieve the VAT percentage if the price is VAT-inclusive. |
 | **Allow Invoice Disc.** | Specifies if the invoice discount is set on the sales price for this group. |
 | **Allow Line Disc.** | Specifies if the line discount is set on the sales price for this group. | 
 | **Internal Unit Price** | Specifies the price on which the calculation is based. |

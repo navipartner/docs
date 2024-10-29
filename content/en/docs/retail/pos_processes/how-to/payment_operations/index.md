@@ -29,18 +29,18 @@ Apply the payment via the POS to open sales documents, in order to allow the cus
 #### Procedure
 
 1. Open the POS. 
-2. Press the **Customers** button.     
+2. Press **Customers**.     
    The menu with customer functions is displayed. 
-3. Press the **Payment from Customer for Applying Invoices** button.     
+3. Press **Payment from Customer for Applying Invoices**.     
    The list of customers is displayed. 
 4. Find and select the customer that will reconcile a sales document, then press **OK**.    
    The list of all open customer ledger entries for the selected customer is displayed. 
 5 Find the sales document that the customer wants to settle.     
-6. Input the amount that the customer needs to pay in the **Amount to Apply** field. 
-7. Press **OK** to create a sales line on the POS with the input amount. 
-8. Press **Go to payment**. 
-9. Finish the sale by pressing the **Cash Payment** button. 
-10. Confirm the amount in the **Cash** pop-up window.     
+1. Input the amount that the customer needs to pay in the **Amount to Apply** field. 
+2. Press **OK** to create a sales line on the POS with the input amount. 
+3. Press **Go to payment**. 
+4. Finish the sale by pressing the **Cash Payment** button. 
+5.  Confirm the amount in the **Cash** pop-up window.     
     When the POS entry has been posted, you will see that the customer ledger entry is closed with this payment. 
 
 ## Accept customer deposits from the POS
@@ -57,9 +57,9 @@ The deposits are tied to the customer’s balance and can be applied to past and
 1. Open the POS. 
 2. Press **Customers** to open the menu with customer functions.     
    The **Customer Menu** window is displayed. 
-3. Press the **Payment from the Customer for Deposit** button. 
+3. Press **Payment from the Customer for Deposit**. 
 4. Input the amount that the customer wants to deposit in the dialog box and press **OK**.    
-   The Customers window is displayed. 
+   The **Customers** window is displayed. 
 5. Select the customer from the customer list. 
 6. Press **OK** to create a sales line on the POS with the input amount. 
 7. Press the **Go to payment** button. 
@@ -86,9 +86,9 @@ To use the pay-out and pay-in functionalities, make sure the prerequisites are m
 ### Pay-out procedure
 
 1. Open the POS. 
-2. Press the **Other Functions** button.     
+2. Press **Other Functions**.     
    The table with available functions is displayed. 
-3. Press the **Pay-Out** button. 
+3. Press **Pay-Out**. 
 4. Input the amount that you want to take from the payment bin and press **OK**. 
 5. Select the G/L account **Office Supplies**. 
 6. Finish the sale with the **Cash** payment method to take out money. 
@@ -96,8 +96,8 @@ To use the pay-out and pay-in functionalities, make sure the prerequisites are m
 ### Pay-in procedure
 
 1. Open the POS. 
-2. Press the **Other Functions** button. 
-3. Press the **Pay-In** button. 
+2. Press **Other Functions**. 
+3. Press **Pay-In**. 
 4. Input the amount that you want to put into the payment bin, i.e., the leftover cash from a previous pay-out, and press **OK**. 
 5. Select the **Office Supplies** G/L account. 
 6. Finish the sale with Cash payment method. 
@@ -151,12 +151,12 @@ To park a sale from the POS, make sure the prerequisite is met, and follow the p
 #### Procedure
 
 1. Open the POS. 
-2. Press the **Test Items** button.    
+2. Press **Test Items**.    
    A table with available items is displayed. 
 3. Select the **Tommy Hilfiger Gingham Shirt** item.     
    The **Item Variants Lookup** window is displayed. 
 4. Select the size and color, then press **OK**.  
-5. Press the **Park Sale** button.    
+5. Press **Park Sale**.    
    A pop-up window for confirming the sale delay is displayed. 
 6. Confirm that you want to save the sale. 
 
@@ -172,7 +172,7 @@ To retrieve a parked sale from the POS, make sure the prerequisite is met, and f
 
 1. Open the POS. 
 2. Navigate to the **Sales View**. 
-3. Press the **Retrieve Parked Sale** button.     
+3. Press **Retrieve Parked Sale**.     
    The **POS Saved Sales** window is displayed. 
 4. Select the sale from the list and press **OK**.     
    The parked sale is previewed in a new window. 

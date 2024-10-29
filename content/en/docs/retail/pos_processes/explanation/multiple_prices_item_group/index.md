@@ -30,8 +30,9 @@ The following points need to be considered in this configuration:
 
 If you specify **3** as the **Quantity**, the discount is also applied to **6**, **9**, **12**, **15**, and so on, until the **Max Quantity** is reached. 
 
-- The discount amount is multiplied by the factor. 
+In a practical example, if the quantity is **3**, a discount amount of **DKK 50,00** is set; if the quantity is **6**, the discount amount is **DKK 100,00**; if the quantity reaches **9** the discount amount is **DKK 150,00**, and so on until the maximum allowed amount is reached.
 
-#### Example
+#### See also
 
-If the quantity is **3**, a discount amount of **DKK 50,00** is set; if the quantity is **6**, the discount amount is **DKK 100,00**; if the quantity reaches **9** the discount amount is **DKK 150,00**, and so on until the maximum allowed amount is reached.
+- [<ins>Multiple prices on an item<ins>]({{< ref "../multiple_unit_prices_item/index.md" >}})
+- [<ins>Pricing<ins>]({{< ref "../pricing/index.md" >}})

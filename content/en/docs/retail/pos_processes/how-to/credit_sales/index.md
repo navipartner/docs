@@ -20,11 +20,11 @@ Depending on the button and the action parameters set up in Business Central, yo
 
 The following article goes through the procedure of performing credit sale with posting the invoice automatically.
 
-#### Prerequisite in Business Central
+### Prerequisite in Business Central
 
-- The **Invoice Customer** button needs to be set up, and the selected sales document format needs to be **Invoice**. This is done by attaching the **SALES_DOC_EXP** action to the **Invoice Customer** POS button with the **Invoice** parameter set to **true** to make sure the invoices are posted automatically after the sale is finished. 
+- The **Invoice Customer** [<ins>button needs to be set up<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}), and the selected sales document format needs to be **Invoice**. This is done by attaching the **SALES_DOC_EXP** action to the **Invoice Customer** POS button with the **Invoice** parameter set to **true** to make sure the invoices are posted automatically after the sale is finished. 
 
-#### Procedure on the POS
+### Procedure on the POS
 
 1.	Open the POS.
 2.	Enter the item ID **1000** in **Item No.** box.
@@ -42,13 +42,13 @@ The following article goes through the procedure of performing credit sale with 
 
 This tutorial portion describes the process of issuing credit vouchers from the POS unit as a refund in the return sale process. Make sure the prerequisites are met and follow the provided steps:
 
-#### Prerequisites in Business Central
+### Prerequisites in Business Central
 
 - The **Credit Voucher Retail Voucher Type** needs to be defined in the company setup.
 - The **ISSUE_CREDITVOUCHER** action needs to be attached to the **Issue Credit Voucher** button.
 - The **Cash Sales Reverse** button needs to be set up with the default settings.
 
-#### Procedure on the POS
+### Procedure on the POS
 
 1.	Open the POS.
 2.	Click **Other Functions**, followed by **Return Sales**, and finally **Cash Sales Reverse**.
@@ -56,21 +56,21 @@ This tutorial portion describes the process of issuing credit vouchers from the 
     The item from the initial sale is displayed in a POS sales line with the negative amount attached.
 4.	Press **Go to Payment**.
 5.	Press **Issue Credit Voucher**, and then press **Issue Credit Voucher** again.     
-    A popup window with the automatically populated voucher amount (**5000**). You can change the amount of the credit voucher and choose another refund payment method for the remaining amount. 
+    A pop-up window with the automatically populated voucher amount (**5000**) is displayed. You can change the amount of the credit voucher and choose another refund payment method for the remaining amount. 
 6.	Press **OK**.     
-    The credit voucher is displayed in a POS payment line with **Reference No.** **2808000106931** and the amount **5.000**.      
+    The credit voucher is displayed in a POS payment line with the **Reference No.** **2808000106931** and the amount **5.000**.      
     The return sale is complete, and the credit voucher issued. 
 
 ## Issue a credit voucher when the sale is lower than the gift voucher amount
 
 The following guide refers to the gift voucher **2904100108599** of **6.000** used for a sale of **5.000**. Make sure that the prerequisites are met and follow the provided steps:
 
-#### Prerequisites in Business Central
+### Prerequisites in Business Central
 
 - The **Retail Voucher Type** needs to be defined in the company setup so that there are **Credit Voucher** and **Gift Voucher** types.
--	The Credit Voucher needs to be set up as a return voucher for **Gift Vouchers** which can’t be used partially. This gift voucher type is attached to the **Scan Retail Gift Voucher – Full Redeem** button.
+-The credit voucher needs to be set up as a return voucher for **Gift Vouchers** which can’t be used partially. This gift voucher type is attached to the **Scan Retail Gift Voucher – Full Redeem** button.
 
-#### Procedure on the POS
+### Procedure on the POS
 
 1.	Open the POS.
 2.	Enter the item ID **1000** in **Item No.** box.

@@ -1,6 +1,6 @@
 ---
 title: "Kitchen Display System"
-description: "The Kitchen Display System (KDS) is built on top of the NP Restaurant module to provide convenient interface for changing virtual stations that each restaurant order goes through before its completion."
+description: "The Kitchen Display System (KDS) is built on top of the NP Hospitality module to provide convenient interface for changing virtual stations that each restaurant order goes through before its completion."
 lead: ""
 date: 2024-04-01T09:14:52+02:00
 lastmod: 2024-04-01T09:14:52+02:00

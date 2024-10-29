@@ -35,7 +35,7 @@ You can set up the content of customer display in **Display Setup**. Here, it is
    The **POS Unit Card** popup window is displayed.
 3. In the **Profiles** panel, click the dropdown next to the **POS Display Profile**, and then **New**.  
    A new **POS Display Profile** will be opened and ready for input.
-4. Fill out the **Code** field.
+4. Populate the **Code** field.
 5. Click the dropdown next to the **Display Content Code**, and then click the **Select from full list** button.
 6. From the page **Select - Display Content**, you click on the **Content Line** field on the far right to open another page called **Display Content Lines**.
 7. Click **New** to input a URL or to upload an image.    

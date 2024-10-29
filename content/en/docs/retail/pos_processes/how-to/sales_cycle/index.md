@@ -68,7 +68,7 @@ A miscellaneous (misc.) item has a price that varies and can be set on the POS d
 
 #### Prerequisites
 
--	Make sure the Various Item Sales checkbox in the item 700030 is ticked.
+-	Make sure the **Various Item Sales** checkbox in the item **700030** is ticked.
 
 #### Procedure
 

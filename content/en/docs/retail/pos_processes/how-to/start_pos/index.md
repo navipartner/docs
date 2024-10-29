@@ -29,8 +29,8 @@ After the balancing is completed at the end of the day, the POS unit status swit
 
 When a POS Unit is being balanced, it enters the end-of-day state.
 
-- The X-Report returns the POS unit state to Open.
-- The Z-Report sets the POS unit state to Closed if successful or returns its state to Open if unsuccessful. 
+- The X-Report returns the POS unit state to **Open**.
+- The Z-Report sets the POS unit state to **Closed** if successful or returns its state to Open if unsuccessful. 
 
 ## Open the POS for the first time
 
@@ -45,10 +45,11 @@ The X report provides an overview of the day’s activities performed on the POS
 To print the balance, follow the provided steps:
 
 1. Open the **POS**.
-2. Click **Other Functions**.
-3. Click **POS action – POS Unit X-Report**.    
+2. Press **Other Functions**.       
+   A pop-up window is displayed.
+3. Press **POS Unit X-Report**.    
    There are 5 tabs – **Overview**, **Discount**, **Turnover**, **Tax Summary** and **Show All**.
-4. Click the tabs to see information regarding all transactions that took place in the POS on the current day.
+4. Open each tab to see information regarding the transactions that took place in the POS on the current day.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oQFDJ1WTdyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

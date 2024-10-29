@@ -21,7 +21,7 @@ To set up users in Business Central, make sure the prerequisite is met, and foll
 
 #### Prerequisite
 
-- Users and POS Units need to be created in the system, as well as the codes that are necessary for completing this setup.
+- Users and POS units need to be created in the system, as well as the codes that are necessary for completing this setup.
 
 #### Procedure 
 

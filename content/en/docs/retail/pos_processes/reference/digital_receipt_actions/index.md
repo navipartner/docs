@@ -32,3 +32,7 @@ You can send digital receipts via SMS, provided that you've previously created a
 ## PRINT_RECEIPT - Printing receipt
 
 Customers can print digital receipts on running the **PRINT_RECEIPT** POS action with the action parameter **Issue Digital Receipts** enabled. It will issue a digital receipt automatically after the action ends, only if one hasn't previously been issued. Otherwise, the first one that was issued will be used when requested the second time.
+
+#### See also
+
+- [<ins>Set up digital receipts<ins>]({{< ref "../../how-to/digital_receipts/index.md" >}})

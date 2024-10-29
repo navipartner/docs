@@ -29,6 +29,6 @@ You can also establish a multi-level hierarchy of main item categories (parents)
 | Level 2 | (CHILD)	| JEWELRY | 
 | Level 3 | (CHILDREN) | BRACELET, EARRINGS, NECKLACE |
 
-In addition to Item categories, you can predefine Item attributes like style and make, that can be used for providing product specifications, or adding physical dimensions, like the material the jewelry is made of (gold, silver, platinum, etc.).
+In addition to item categories, you can predefine item attributes like style and make, that can be used for providing product specifications, or adding physical dimensions, like the material the jewelry is made of (gold, silver, platinum, etc.).
 
 When creating item categories, the same item category card is used for creating both parent and children item categories.

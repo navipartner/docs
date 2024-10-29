@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-POS Payment View Event Setup can be used for entering a certain dimension in a POS transaction. For example, you can create a setup in which you can analyze each transaction based on the Dimension you provide. 
+The **POS Payment View Event Setup** can be used for entering a certain [<ins>dimension<ins>](https://learn.microsoft.com/en-us/training/modules/dimensions-dynamics-365-business-central/) in a POS transaction. For example, you can create a setup in which you can analyze each transaction based on the dimension you provide. 
 
 Its most common usage involves attaching a dimension value for post codes, so that you can track the sales per post codes. Nevertheless, it can be used for any dimension that is configured in the **POS Payment View Event Setup**.
 

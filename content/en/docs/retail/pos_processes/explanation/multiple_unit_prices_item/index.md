@@ -15,11 +15,11 @@ toc: true
 type: docs
 ---
 
-You can define item prices on the POS according to the sold quantities. 
+You can define item prices on the POS according to the purchased quantities. 
 
  {{< alert icon="📝" text="This functionality is POS-exclusive and does not work on sales orders from Business Central."/>}}
 
-If an item’s standard unit price is 250.00 and you want to set a specific price for a quantity range, you can take the following approach:
+If an item’s standard unit price is 250.00 and you want to set a specific price for a quantity range, you can apply the following approach:
 
 |  Quantity  |  Unit Price  |  Unit Price    |   Explanation   |
 | ----------- | ----------- | ----------- | ----------- |
@@ -33,18 +33,18 @@ If an item’s standard unit price is 250.00 and you want to set a specific pric
 
 The function to define this scheme is found on the **Item Card** itself, under **Special Sales Prices & Discount** > **Multiple Unit Price**.
 
-|  Quantity  |  Unit Price  |  Example | 
+|  Field Name  |  Description  |  Example | 
 | ----------- | ----------- | ----------- | 
-| **Main No.** | The item code. | **10010** |
-| **Description** | The short description of the item category. | **Multiple Price Levels** |
-| **Status** | The status of the scheme. | **Active** | 
-| **Modified Date** | The date on which the latest changes are performed on the page. | **System-generated** |
+| **Main No.** | Specifies the item code. | **10010** |
+| **Description** | Specifies the short description of the item category. | **Multiple Price Levels** |
+| **Status** | Specifies the status of the scheme. | **Active** | 
+| **Modified Date** | Specifies the date on which the latest changes on the page have been applied. | **System-generated** |
 | **Block Custom Discount** | Block the related record to prevent it from being used. | Deactivated | 
-| **Base Unit of Measure** | The base unit used to measure the item, such as a piece, a box, or a pallet. | **PCS** |
-| **Starting date / Closing date / Starting Time** | The date & time range for the scheme. |  | 
-| **Global 1/Global 2** | Global dimension values as a condition for applying the scheme.  |   | 
-| **Service Item Group** | You can specify the code for the service item. Whenever this item is purchased, a service contract for the item is created in parallel.  | Leave it blank. |
-| **Multiple Unit Price** | The details of the multiple lines and the unit price that applies to them. |   |
+| **Base Unit of Measure** | Specifies base unit used to measure the item, such as a piece, a box, or a pallet. | **PCS** |
+| **Starting date / Closing date / Starting Time** | Specifies the relevant date & time range for the scheme. |  | 
+| **Global 1/Global 2** | Specifies global dimension values as a condition for applying the scheme.  |   | 
+| **Service Item Group** | Specifies the code of the service item. Whenever this item is purchased, a service contract for the item is created in parallel.  | Leave it blank in this instance. |
+| **Multiple Unit Price** | Specifies the details of the multiple lines and the unit price that applies to them. |   |
 
 ## Multiple unit prices on an item – Business Central
 
@@ -64,3 +64,8 @@ So, in the case of the example stated above, the following would be true:
 - If the quantity is 5 or higher, the unit price is 250.00 per unit (normal price).
 
 The Business Central function to define this multiple price scheme is found on the **Item Card**, under **Special Sales Prices & Discount** > **Sales Price** > **Sales Price List**.
+
+#### See also
+
+- [<ins>Multiple prices on a group of items<ins>]({{< ref "../multiple_prices_item_group/index.md" >}})
+- [<ins>Pricing<ins>]({{< ref "../pricing/index.md" >}})

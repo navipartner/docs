@@ -1,6 +1,6 @@
 ---
 title: "Pricing"
-description: "Pricing is a process of adjusting the value that the shop receives in exchange for goods. There are several price types."
+description: "Pricing is a process of adjusting the value of products and services sold in shops."
 lead: ""
 date: 2023-07-07T13:06:41+02:00
 lastmod: 2023-07-07T13:06:41+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Pricing is a process of adjusting the value that the shop receives in exchange for goods. There are several price types.
+Pricing is a process of adjusting the value of products and services sold in shops. There are several price types:
 
 ## Unit price
 
@@ -33,7 +33,7 @@ Unit Price Excl. VAT is the Unit Price without VAT. If the Unit Price is stated 
 
 You can create a [<ins>selling price<ins>]({{< ref "../../how-to/sales_price_setup/index.md" >}}) for a specific group of customers. Business Central combines different ways of affecting a price, like defining a specific price, discount or a combination of both for a group of customers. These configurations can be performed in the **Sales Price List** page.
 
-{{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the Item card. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the unit price will be applied."/>}}
+{{< alert icon="📝" text="In Business Central and NP Retail, the Sales Price takes priority on the Unit Price in the <b>Item Card</b>. Whenever a sales order or a POS sale is done, the system will first check if an item has a Sales Price. If it does, that price will be applied, otherwise, the Unit Price will be applied."/>}}
 
 ### Sales price list actions 
 
@@ -50,6 +50,7 @@ It’s also recommended to run the **Verify Lines** action that checks if there 
 #### See also
 
 - [<ins>Multiple prices on a group of items<ins>]({{< ref "../multiple_prices_item_group/index.md" >}})
+- [<ins>Multiple prices on an item<ins>]({{< ref "../multiple_unit_prices_item/index.md" >}})
 - [<ins>Sales price list setup<ins>]({{< ref "../../how-to/sales_price_setup/index.md" >}})
 - [<ins>Sales price setup<ins>]({{< ref "../../how-to/sales_price_setup/index.md" >}})
 - [<ins>Sales price maintenance<ins>]({{< ref "../../reference/sales_price_maintenance/index.md" >}})
