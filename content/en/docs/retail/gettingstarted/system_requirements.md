@@ -126,7 +126,7 @@ All payment terminals can be used as stand-alone solutions. For integrated solut
 
 **Label printers**
 
-- Zebra ZD410
+- Zebra ZD411
 - Zebra ZD420
 - Zebra ZD421
 
