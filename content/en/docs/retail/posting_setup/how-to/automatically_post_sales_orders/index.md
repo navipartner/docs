@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "automatically_post_sales_orders-1ccbb0115989088281712be2710cde9d"
-weight: 255
+weight: 254
 toc: true
 type: docs
 ---
