@@ -93,7 +93,7 @@ Our solution works with a wide variety of hardware. Feel free to reach out to us
 
 You can use all Zebra scanners with our solution. 
 
-### Cash drawers
+### Payment terminals
 
 All payment terminals can be used as stand-alone solutions. For integrated solutions, see the list below: 
 
