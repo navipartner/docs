@@ -19,7 +19,7 @@ The **Shopify Item Prices** page stores pre-calculated item prices before they a
 
   ![shopify_item_prices](Images/shopify_item_prices.PNG)
 
-Records on the page are updated with periodic price calculation routine.
+Records on the page are updated with periodic price calculation routine. See the article section on **Triggering item price synchronization** for more information. 
 
 ## Setting prices and discounts for Shopify items
 
