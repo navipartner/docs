@@ -54,3 +54,7 @@ VAT is only due when an MPV is redeemed to obtain the underlying goods or servic
 {{< alert icon="💡" text="VAT becomes due only when the MPV is redeemed, and VAT is applied to the goods or services received, not to the voucher itself." />}}
 
 To create a Multi-Purpose voucher, refer to the [<ins>instructions<ins>]({{< ref "../../how-to/create_mpv/index.md" >}})
+
+#### See also
+
+- [<ins>Single-purpose vouchers and multi-purpose vouchers - examples<ins>]({{< ref "../../reference/spv_and_mpv_examples/index.md" >}})
