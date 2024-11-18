@@ -29,6 +29,19 @@ The ERP price model is based on item, date, quantity, and customers. It is capab
 
  The learn more about the ERP price model, see the following article on [<ins>managing sales prices in Dynamics 365 Business Central<ins>](https://docs.microsoft.com/en-us/learn/modules/manage-sales-prices-dynamics-365-business-central/).
 
+## Item-based pricing
+
+It is possible to create a specific pricing rule on item level. This is useful for scenarios in which there are multiple ticket items that need to be priced differently (e.g. tickets for children, adults, students etc.), which is inconvenient for admission and schedule-based setups.
+
+This kind of dynamic pricing can be done by creating a designated **Item Price Profile Code** and referencing it from the **Ticket Item Card**'s **Prices Profiles** function. 
+
+  ![item_pricing_dynamic_tickets](Images/item_pricing_dynamic_tickets.PNG)
+
+
+You can also set up the necessary **Prices Profiles** from the **Admission Schedule Lines**.
+
+  ![admission_schedule_dpw](Images/admission_schedule_dpw.png)
+
 ## Time-based pricing
 
 The ticket time-based model is based on admissions and their schedules. It is capable of overruling the ERP price model with a different price, based on the time slot the ticket is selected for.
