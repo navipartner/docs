@@ -26,3 +26,5 @@ Before the stocktaking process is initiated, there are certain preparation steps
 5. [<ins>Transfer and Post Stock-Take Worksheet<ins>]({{< ref "how-to/transfer_post_stocktake/index.md" >}})
 
 The way in which you configure these entities will determine the finer details related to the stocktaking process. All of these can be saved as templates to be reused in different occurrences.
+
+{{< alert icon="❗" text="Although the NP WMS extension contains the necessary code for handling stock take, you aren't required to have a WMS license to run the stock take. You do, however, need to set the permission for <b>NPPRW NP WMS</b> on the <b>User Card</b> of the user performing the stock take. "/>}}

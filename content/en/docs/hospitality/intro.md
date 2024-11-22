@@ -1,5 +1,5 @@
 ---
-title: "NP Hospitality overview"
+title: "Hospitality overview"
 description: "The NP Hospitality module aims to facilitate activities in restaurant, fast food and café environments. The supported layouts range from simple to complex, with multiple table locations, order-taking, moving of orders, kitchen information, and split billing."
 lead: ""
 date: 2023-08-22T09:38:03+02:00
