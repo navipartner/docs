@@ -46,6 +46,9 @@ To be able to use vouchers in your store, you first need to perform the necessar
 
    Retailers can create and customize different voucher types within the **Voucher Type Card**, tailoring them to meet specific business needs.
 
-2. [<ins>**Set up buttons on the POS**<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}).
-3. [<ins>**Create a new voucher**<ins>]({{< ref "how-to/create_new/index.md" >}})
+2. [<ins>**Set up buttons on the POS**<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}).       
+
+    {{< alert icon="📝" text="One of the buttons needs to have the <b>ISSUE_VOUCHER</b> action attached for the whole process to work. The parameters set on this button determine which voucher will be created with which amount, and how much the customer will pay for it."/>}}
+
+3. [<ins>**Issue a voucher**<ins>]({{< ref "how-to/issue_gift_vouchers/index.md" >}}).
 

@@ -78,4 +78,3 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
 #### See also
 
 - [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
-- [<ins>Create a new voucher<ins>]({{< ref "../create_new/index.md" >}})

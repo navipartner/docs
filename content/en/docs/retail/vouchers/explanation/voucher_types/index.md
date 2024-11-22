@@ -100,4 +100,3 @@ You can also set the POS payment method in this section. Any payment method you 
 #### See also
 
 - [<ins>Discount types<ins>]({{< ref "../../../discounts/explanation/discount_types/index.md" >}})
-- [<ins>Create a new voucher<ins>]({{< ref "../../how-to/create_new/index.md" >}})
