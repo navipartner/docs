@@ -29,10 +29,11 @@ After the voucher type is created, the voucher needs to be purchased.
 - **Quantity** - when the button is used, if quantity is entered, it will be created this number of vouchers.
 - **ScanReferenceNos** - This value should be set to **false**.
 - **VoucherTypeCode** - Choose which voucher type will be created when the button is used.
+  
 {{< alert icon="📝" text="If the information about the voucher type, quantity, amount, discount isn't entered in parameters, when choosing button with the <b>Issue voucher</b> action, a window displays prompting you to provide this information."/>}}
 
-2. After the button has been created, click on it, and the line with a voucher will be added to the sales lines.
-3. Navigate to the payment, and click **OK** to end the sale.      
+1. After the button has been created, click on it, and the line with a voucher will be added to the sales lines.
+2. Navigate to the payment, and click **OK** to end the sale.      
    After the sale is finalized, you will see a new voucher created in the **Retail vouchers** list.
 
 
