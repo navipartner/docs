@@ -39,7 +39,7 @@ To issue gift vouchers, make sure the prerequisites are met, and follow the prov
 8.	Press **Go to Payment**.
 9.	Choose **Cash Payment**.
 10.	Click **OK**.      
-    The sale is finished, and the gift voucher is issued.
+    The sale is finished, and the gift voucher is issued. You can see information about the voucher you've issued in  **Retail Voucher Entries**.
 
     {{< alert icon="📝" text="In this example, the parameters for issuing a voucher weren't modified, so the cashier is prompted to provide the voucher quantity and amount. Had the <b>ISSUE_VOUCHER</b> POS action's parameters been specified, the steps 4 thru 7 wouldn't have been necessary. "/>}}
 
