@@ -34,21 +34,17 @@ Retail vouchers function as an independent payment method, allowing customers to
 
 Here, you configure rules for issuing vouchers:
 
-  - **Account No.** specifies the number of the account used for posting the sale of vouchers.       
-    When a customer purchases a voucher in a store, that sale will be posted under this account number. 
-  - **Partner Code** is used in relation to the global voucher validation method. It allows you to establish a connection between multiple companies in an environment.       
-  Validation methods are discussed in more detail in the section describing the **Validate Vouchers** FastTab.
-  - **Allow Top-up** lets you increase the value of a voucher after the initial purchase by the amount provided by the customer.      
-    If you wish to use this option, you also need to create a POS button which will be used to trigger the top-up.
-  - **Minimum Amount Issue** specifies the minimum amount that needs to be paid for the voucher to be issued.
-  - **Max Voucher Count** specifies the maximum number of vouchers of this type that can be issued.
-  - **Manual Reference number on Sales Orders** allows you to assign a reference number you wish on a voucher when you create the voucher form a sales order.
-  - **Reference Number** specifies the account number for tracking voucher sales.
-  - **Send Method via POS** specifies the manner in which vouchers are delivered to customers:     
-    - **Printer** - vouchers are printed
-    - **Email** - vouchers are sent to the provided email
-    - **SMS** - vouchers are sent to the provided phone number      
-    The adequate template or code unit needs to be provided in relation to any of the listed delivery methods. 
+  | Field Name      | Description |
+  | ----------- | ----------- | 
+  | **Account No.** | Specifies the number of the account used for posting the sale of vouchers. When a customer purchases a voucher in a store, that sale will be posted under this account number. |
+  | **Partner Code** | Used in relation to the global voucher validation method. It allows you to establish a connection between multiple companies in an environment. Validation methods are discussed in more detail in the section describing the **Validate Vouchers** FastTab. |
+  | **Allow Top-up** | Lets you increase the value of a voucher after the initial purchase by the amount provided by the customer. If you wish to use this option, you also need to create a POS button which will be used to trigger the top-up. |
+  | **Minimum Amount Issue** | Specifies the minimum amount that needs to be paid for the voucher to be issued. |
+  | **Max Voucher Count** | Specifies the maximum number of vouchers of this type that can be issued. | 
+  | **Manual Reference number on Sales Orders** | Allows you to assign a reference number you wish on a voucher when you create the voucher form a sales order. | 
+  | **Reference Number** | Specifies the account number for tracking voucher sales. |
+  | **Send Method via POS** | Specifies the manner in which vouchers are delivered to customers. The adequate template or code unit needs to be provided in relation to any of the listed delivery methods. The following options are available: <ul> <li> **Printer** - vouchers are printed </li> <li>**Email** - vouchers are sent to the provided email address</li> <li>**SMS** - vouchers are sent to the provided phone number </li> </ul>
+
 
 ### Setup Voucher     
 
