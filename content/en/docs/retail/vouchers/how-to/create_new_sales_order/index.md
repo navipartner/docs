@@ -39,7 +39,7 @@ Vouchers can be generated through a sales order. To do so, follow the provided s
 6. Select the appropriate type of voucher (e.g gift voucher), and click **OK**.       
    A notification that the voucher has been created will be displayed. 
 
-    Using the function above, the system will create a new line in Sales order for the selected voucher type. 
+    Using the function above, the system will create a new line in the sales order for the selected voucher type. 
 
 {{< alert icon="📝" text="If necessary, new sales lines for items and G/L accounts can be added."/>}}
 
@@ -78,4 +78,3 @@ Follow the provided steps to redeem a voucher for sale from a Sales Order:
 #### See also
 
 - [<ins>Voucher types<ins>]({{< ref "../../explanation/voucher_types/index.md" >}})
-- [<ins>Create a new voucher<ins>]({{< ref "../create_new/index.md" >}})

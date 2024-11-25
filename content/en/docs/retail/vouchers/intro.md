@@ -15,15 +15,40 @@ toc: true
 type: docs
 ---
 
-A Retail Voucher is a document that entitles the owner to purchase goods or services. As such, it can take the form of a paper, electronic voucher, token and so on. It is widely used in the Retail & Service industries. The most common types are Gift Vouchers and Credit Vouchers. However, there are also Food/Meal Vouchers, Travel Vouchers, Labor Vouchers, and Supplier’s Vouchers. 
+A Retail Voucher is a document that allows its holder to purchase goods or services. Vouchers can come in various forms, such as paper documents, electronic codes, or physical tokens. They are commonly used across the Retail and Service industries, with popular examples including:
 
-As different types of Retail Vouchers are widely used in the world, NP Retail has provided the Retail Vouchers Module. In this module, you can define different types of Retail Vouchers, with their own conditions.  
+- [<ins>Gift vouchers<ins>]({{< ref "how-to/issue_gift_vouchers/index.md" >}})
+- Credit vouchers
+- [<ins>Food/meal vouchers<ins>]({{< ref "explanation/meal_eco/index.md" >}})
+- Labor vouchers
+- Supplier's vouchers
 
-There are vouchers that are issued internally by a store and redeemed in it. There are also vouchers that are issued by 3rd parties, such as suppliers or companies with certain agreements stating that their vouchers are redeemed in stores – these are typically known as external vouchers. Finally, there are Global Vouchers that are issued by multiple stores within a company and are redeemed in any store owned by the company. 
+## Retail vouchers module by NP Retail
 
-Retailers offer different types of vouchers which are defined in the **Voucher Types Card**. 
+Recognizing the widespread use of vouchers, NP Retail has developed a Retail Vouchers Module. This module enables businesses to define and manage various types of vouchers, each with specific rules and conditions.
 
-#### See also
+Retail vouchers can be categorized based on their origin and usage:
 
-- [<ins>Voucher types<ins>]({{< ref "explanation/voucher_types/index.md" >}})
-- [<ins>Create a voucher on a sales order<ins>]({{< ref "how-to/create_new_sales_order/index.md" >}})
+- **Internal vouchers**      
+  Issued and redeemed within the same store
+
+- **External vouchers**      
+  Issued by third parties (e.g. suppliers or partner companies) under agreements allowing redemption at participating stores
+
+- **Global vouchers**      
+  Issued by multiple stores within the same company and redeemable at any store owned by the company
+
+## Setting up retail vouchers
+
+To be able to use vouchers in your store, you first need to perform the necessary setup in Business Central
+
+1. [<ins>**Create the voucher type**<ins>]({{< ref "explanation/voucher_types/index.md" >}})
+
+   Retailers can create and customize different voucher types within the **Voucher Type Card**, tailoring them to meet specific business needs.
+
+2. [<ins>**Set up buttons on the POS**<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}).       
+
+    {{< alert icon="📝" text="One of the buttons needs to have the <b>ISSUE_VOUCHER</b> action attached for the whole process to work. The parameters set on this button determine which voucher will be created with which amount, and how much the customer will pay for it."/>}}
+
+3. [<ins>**Issue a voucher**<ins>]({{< ref "how-to/issue_gift_vouchers/index.md" >}}).
+

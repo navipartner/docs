@@ -1,6 +1,6 @@
 ---
 title: "Cash out a voucher"
-description: "After the voucher is purchased, a customer can return it to the salesperson, and receive the cash back. They will be compensated in full as the result or reduced by the commission fee amount."
+description: "A customer can return a purchased voucher to the salesperson, and receive the cash back. They will be compensated in full as the result or reduced by the commission fee amount."
 lead: ""
 date: 2023-07-11T09:57:36+02:00
 lastmod: 2023-07-11T09:57:36+02:00
@@ -15,31 +15,41 @@ toc: true
 type: docs
 ---
 
-After the voucher is purchased, a customer can return it to the salesperson, and receive the cash back. They will be compensated in full as the result or reduced by the commission fee amount.
+A customer can return a purchased voucher to the salesperson, and receive their cash back. They are either compensated in full as the result or with the reduction equal to the commission fee amount.
 
-The voucher cash-out is performed with the POS action **CASHOUT_VOUCHER**.
+{{< alert icon="📝" text="The voucher cash-out is performed with the POS action <b>CASHOUT_VOUCHER</b>."/>}}
 
-1. Add this [<ins>action<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}) to the POS Menu.      
+#### Prerequisite
+
+- Attach the **CASHOUT_VOUCHER** POS action to a [<ins>button<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) in the POS menu.      
    The parameters set on this button determine if the commission fee will be charged and how it'll be posted.
 
-    ![parameters](Cashout_parameters.png)
+   ![parameters](Cashout_parameters.png)
 
-   - **Commission G/L Account** - If the parameter **Deduct Commission** is set to **true**, this parameter needs to specify the G/L Account on which the commission will be posted.
-   - **Commission %** - If the parameter **Deduct Commission** is set to **true**, this parameter needs to specify the commission percentage that will be applied on the voucher's value.
-   - **Deduct Commission** - Specifies if the commission should be calculated and deducted from the voucher value. If it's set to **false**, the commission won't be charged, and the full voucher value will be suggested for the cash-out.
-   - **Open Voucher List** - If it's set to **true**, and the **Reference No.** is left blank during the voucher cash-out, the **Voucher List** will be opened.
-   - **Voucher Type** - Choose which voucher type will be used as a filter. If it isn't set, the **Voucher Type List** will be opened during the voucher cash-out.
+   | Parameter Name      | Description |
+   | ----------- | ----------- | 
+   | **Commission G/L Account** | If the parameter **Deduct Commission** is set to **true**, this parameter needs to specify the G/L Account on which the commission will be posted. |
+   | **Commission %** | If the parameter **Deduct Commission** is set to **true**, this parameter needs to specify the commission percentage that will be applied on the voucher's value. |
+   | **Deduct Commission** | Specifies if the commission should be calculated and deducted from the voucher value. If it's set to **false**, the commission won't be charged, and the full voucher value will be suggested for the cash-out. |
+   | **Open Voucher List** | If it's set to **true**, and the **Reference No.** is left blank during the voucher cash-out, the **Voucher List** will be opened. |
+   | **Voucher Type** | Choose which voucher type will be used as a filter. If it isn't set, the **Voucher Type List** will be opened during the voucher cash-out. |
 
-    {{< alert icon="📝" text="If <b>Deduct Commission</b> is enabled and the <b>Commission Account</b> or <b>Commission Percentage</b> are omitted, the run-time error will occur."/>}}
+   {{< alert icon="📝" text="A run-time error will occur if <b>Deduct Commission</b> is enabled while the <b>Commission Account</b> or <b>Commission Percentage</b> are omitted."/>}}
 
-2. After the [<ins>button has been created<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}), select that button and the window for the **Voucher Scanning** will pop up.      
-   In it, you should provide the relevant reference number.
+#### Procedure
 
-3. If the voucher is valid, it will result in creation of the POS sale line for the commission as well as the POS payment line for the voucher cash-out.
-4. Navigate to the payment and click **OK** to end the sale.      
-   The suggested amount will be the difference between the value of the voucher and the commission.
+1. Open the POS, and press the button with the attached action.       
+   The window for the **Voucher Scanning** will pop up.      
+   
+2. Provide the voucher's reference number in the pop-up.      
+   If the voucher is valid, a POS sale line is created for the commission, whereas a corresponding POS payment line is created for the voucher cash-out.         
 
-   After the sale is finalized, the voucher will be archived.
+   {{< alert icon="📝" text="Voucher reference numbers can also be retrieved from the <b>Retail Vouchers</b> administrative section in Business Central."/>}}
+
+3. Navigate to the payment and click **OK** to end the sale.      
+   The suggested amount is equal to the difference between the value of the voucher and the commission.
+
+   The voucher is archived as soon as the sale is finalized.
 
 #### See also
 
