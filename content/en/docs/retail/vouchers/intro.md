@@ -38,11 +38,11 @@ Retail vouchers can be categorized based on their origin and usage:
 - **Global vouchers**      
   Issued by multiple stores within the same company and redeemable at any store owned by the company
 
-## Setting up retail vouchers
+## Setting up and using retail vouchers
 
-To be able to use vouchers in your store, you first need to perform the necessary setup in Business Central
+To be able to use vouchers in your store, you first need to perform the necessary setup in Business Central and on the POS.
 
-1. [<ins>**Create the voucher type**<ins>]({{< ref "explanation/voucher_types/index.md" >}})
+1. [<ins>**Create the voucher type**<ins>]({{< ref "explanation/voucher_types/index.md" >}}).
 
    Retailers can create and customize different voucher types within the **Voucher Type Card**, tailoring them to meet specific business needs.
 
@@ -51,4 +51,6 @@ To be able to use vouchers in your store, you first need to perform the necessar
     {{< alert icon="📝" text="One of the buttons needs to have the <b>ISSUE_VOUCHER</b> action attached for the whole process to work. The parameters set on this button determine which voucher will be created with which amount, and how much the customer will pay for it."/>}}
 
 3. [<ins>**Issue a voucher**<ins>]({{< ref "how-to/issue_gift_vouchers/index.md" >}}).
+
+    Once a voucher has been created, it can be issued to a customer from the POS. All issued vouchers can be found in the **Retail Voucher Entries** in Business Central.
 
