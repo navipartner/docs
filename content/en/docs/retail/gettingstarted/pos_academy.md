@@ -122,7 +122,6 @@ Its main purpose is to provide a standardized, comprehensive training program fo
 | ----------- | ----------- |
 | [<ins>Retail voucher overview<ins>]({{< ref "../vouchers/intro.md" >}}) | A Retail Voucher is a document that entitles the owner to purchase goods or services with it. Learn more in this article. |
 | [<ins>POS actions for Retail Vouchers<ins>]({{< ref "../vouchers/reference/pos_actions_vouchers/index.md" >}}) | Learn which actions can be used in relation with the retail vouchers, and what their purpose is. | 
-| [<ins>Create vouchers issued and redeemed by the same store<ins>]({{< ref "../vouchers/how-to/vouchers_issued_by_same_store/index.md" >}}) | Refer to the processing instructions for creating vouchers issued and redeemed by the same store. | 
 | [<ins>Issuing different types of vouchers<ins>]({{< ref "../vouchers/explanation/issuing_vouchers/index.md" >}}) | Take a look at this reference article which demonstrates different types of vouchers. |
 | [<ins>External voucher setup<ins>]({{< ref "../vouchers/how-to/external_vouchers/index.md" >}}) | This portion of the POS Academy uses GS1 Gratis as an example for the external retail voucher setup. |
 | [<ins>Vouchers issued in web stores<ins>]({{< ref "../vouchers/how-to/web_stores/index.md" >}}) | Learn how to set up gift vouchers that are issued in web stores. | 
