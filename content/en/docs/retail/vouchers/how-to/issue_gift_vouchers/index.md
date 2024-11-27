@@ -22,7 +22,12 @@ To issue gift vouchers, make sure the prerequisites are met, and follow the prov
 #### Prerequisites in Business Central
 
 - The **Gift Voucher Retail Voucher Type** needs to be [<ins>defined<ins>]({{< ref "../../explanation/voucher_types/index.md" >}}) in the company setup.
-- The [<ins>**Issue Gift Voucher (General)**<ins>]({{< ref "../../reference/pos_actions_vouchers/index.md" >}}) [<ins>button needs to be set<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).
+- The **Issue Gift Voucher** button with the [<ins>**ISSUE_VOUCHER** action<ins>]({{< ref "../../reference/pos_actions_vouchers/index.md" >}}) needs to be [<ins>added to the POS<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}).        
+  For gift vouchers, make sure the action's **VoucherTypeCode** parameter is set to **GIFTVOUCHER**.      
+
+  ![gift_voucher_param](Images/gift_voucher_param.PNG)
+
+- Make sure that **Voucher** is set as the **Processing Type** in the **Payment Method Card** of the payment method selected for this transaction. 
 
 #### Procedure on POS
 
@@ -41,7 +46,7 @@ To issue gift vouchers, make sure the prerequisites are met, and follow the prov
 10.	Click **OK**.      
     The sale is finished, and the gift voucher is issued. You can see information about the voucher you've issued in  **Retail Voucher Entries**.
 
-    {{< alert icon="📝" text="In this example, the parameters for issuing a voucher weren't modified, so the cashier is prompted to provide the voucher quantity and amount. Had the <b>ISSUE_VOUCHER</b> POS action's parameters been specified, the steps 4 thru 7 wouldn't have been necessary. "/>}}
+    {{< alert icon="📝" text="In this example, some of the parameters for issuing a voucher weren't modified, so the cashier is prompted to provide the voucher quantity and amount. Had the <b>ISSUE_VOUCHER</b> POS action's parameters been specified, the steps 4 thru 7 wouldn't have been necessary. "/>}}
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPpyT5wZDhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
