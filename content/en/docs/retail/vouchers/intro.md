@@ -47,10 +47,15 @@ To be able to use vouchers in your store, you first need to perform the necessar
    Retailers can create and customize different voucher types within the **Voucher Type Card**, tailoring them to meet specific business needs.
 
 2. [<ins>**Set up buttons on the POS**<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}).       
-
-    {{< alert icon="📝" text="One of the buttons needs to have the <b>ISSUE_VOUCHER</b> action attached for the whole process to work. The parameters set on this button determine which voucher will be created with which amount, and how much the customer will pay for it."/>}}
+   
+   The buttons need to be have the following [<ins>actions<ins>]({{< ref "reference/pos_actions_vouchers/index.md" >}}) attached:
+   - **ISSUE_VOUCHER** - If attached to a button, this action enables salespeople to issue vouchers to customers. The parameters set on this button determine the voucher type and amount that will be created, and how much the customer will pay for it. 
+   - **SCAN_VOUCHER_2** - If attached to a button, this action is used when customers wish to redeem their vouchers in a store.       
 
 3. [<ins>**Issue a voucher**<ins>]({{< ref "how-to/issue_gift_vouchers/index.md" >}}).
 
     Once a voucher has been created, it can be issued to a customer from the POS. All issued vouchers can be found in the **Retail Voucher Entries** in Business Central.
 
+4. [<ins>**Redeem a voucher**<ins>]({{< ref "how-to/redeem_voucher/index.md" >}}).       
+   
+   Customers can redeem issued vouchers in stores.

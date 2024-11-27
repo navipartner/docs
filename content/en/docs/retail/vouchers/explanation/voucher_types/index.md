@@ -82,8 +82,8 @@ This section manages rules for redeeming vouchers (in the **Apply Payment Module
   - **Default Redemption**      
     - The voucher is fully redeemed in a single transaction. 
     - If a customer uses a voucher to purchase goods with lower amount than the amount on the voucher, the initial voucher is archived, and a new voucher is created for the remaining amount.       
-  </br>
-    You can determine which return voucher type is created for the remaining amount with the **Setup Apply Payment** option in the **Retail Voucher Type Card** ribbon.     
+
+  {{< alert icon="❗" text="You can determine which <b>Return Voucher Type</b> is created for the remaining amount with the <b>Setup Apply Payment</b> option in the <b>Retail Voucher Type Card</b> ribbon. "/>}}     
 
   ![return_voucher](Images/return_voucher.PNG)
 
@@ -94,7 +94,7 @@ This section manages rules for redeeming vouchers (in the **Apply Payment Module
   - **Limited Redemption**
     - If a customer attempts to use a voucher to purchase goods with lower amount than the amount on the voucher, the customer will be prevented from using the voucher altogether.
 
-You can also set the POS payment type in this section. Any payment method you specify here needs to have **Voucher** set as its **Processing Type** in the **Payment Method Card**.
+{{< alert icon="❗" text="You can also set the POS payment type in this section. Any payment method you specify here needs to have <b>Voucher</b> set as its <b>Processing Type</b> in the <b>Payment Method Card</b>. "/>}}
 
   ![voucher_processing_type](Images/voucher_processing_type.PNG)
 
