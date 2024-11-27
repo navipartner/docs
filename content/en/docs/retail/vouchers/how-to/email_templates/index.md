@@ -19,15 +19,18 @@ Follow the provided steps to set e-mail body that recipients of the voucher will
 
 1.	Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **E-mail templates**, and choose the related link.
 2.	Click **New** in the ribbon.
-3.	Fill in the following data:
+3.	Provide the following information in the designated fields:
     - Code
     - Description
     - Table No. – set the value 6151013
     - Filename
     - Subject
-    - From E-mal Name
+    - From E-mail Name
     - From Email Address
-    - Report ID
+    - Report ID (the provided Report ID determines which attachment is sent to the customer)             
+
+    These fields are mandatory, but you can also configure the other available fields according to your business needs.
+
 4.	Choose whether to **Use HTML Template** or not.
 5.	Use **Mail lines** to define e-mail body that will be sent to voucher recipients.
 
