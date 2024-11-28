@@ -1,5 +1,5 @@
 ---
-title: "Webservice API "
+title: "NaviPartner API overview "
 description: "Both SOAP and REST API can used for managing our solutions. Refer to the relevant guides to learn more."
 lead: ""
 date: 2023-07-18T13:42:14+02:00
@@ -23,6 +23,7 @@ The newest versions of Business Central use the OData v4 standard to provide RES
 
 OData (Open Data Protocol) is well-suited for web service application. It is built on core protocols such as HTTP and REST, and it is especially recommended for SaaS environments. You can create and publish functionalities with OData web services; you can also use them to publish pages, codeunits, and queries as OData v4 endpoints. Additionally, you can use them to achieve retrieval, update and deletion of data effectively.
 
+Learn how you can use our REST APIs and webhooks on NaviPartner's [<ins>**API Portal**<ins>](https://api.navipartner.com/intro).
 
 ### Microsoft Docs 
 
