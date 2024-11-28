@@ -43,7 +43,12 @@ To issue gift vouchers, make sure the prerequisites are met, and follow the prov
    A pop-up window containing available options for redeeming the voucher is displayed.
 5. Press **Scan Retail Gift Voucher – Full Redeem**.      
    A pop-up window prompting you to provide the voucher's reference number is displayed.
-6. Input the gift voucher’s reference number in the designated field.
-7. Confirm that the remaining amount is going to be issued as a **Credit Voucher**.    
-   The sale is now concluded.
+6. Input the gift voucher’s reference number in the designated field.      
+   The voucher amount is applied to the sale and the subtotal is recalculated accordingly.
+7. (Optional) If the voucher amount exceeds the value of the item, confirm that the remaining amount is going to be issued as a **Credit Voucher**.    
+   The sale is now concluded for this scenario. The used voucher is archived, whereas a new credit voucher is created. The credit voucher can be used to perform a different purchase later.
+8. (Optional) If the voucher amount is lower than the value of the item, press **Cash Payment** for the leftover amount.     
+   A pop-up window in which the cash amount should be provided is displayed. 
+9. Enter the cash amount provided by the customer, and press **OK**.     
+   The sale is now concluded and the used voucher is archived.
 
