@@ -38,7 +38,7 @@ Retail vouchers can be categorized based on their origin and usage:
 - **Global vouchers**      
   Issued by multiple stores within the same company and redeemable at any store owned by the company
 
-## Setting up and using retail vouchers (POS)
+## Set up and use vouchers (POS)
 
 To be able to use vouchers in your store, you first need to perform the necessary setup in Business Central and on the POS.
 
@@ -60,5 +60,15 @@ To be able to use vouchers in your store, you first need to perform the necessar
    
    Customers can redeem issued vouchers in stores.
 
-## Set up and use gift vouchers (e-commerce)
+## Set up and use vouchers (e-commerce)
 
+To be able to sell vouchers in your web store, you first need to perform the necessary setup in Business Central and Magento Webadmin.
+
+1. [<ins>**Set up voucher email templates**<ins>]({{< ref "how-to/email_templates/index.md" >}})       
+   Choose what the vouchers sent to customers via email look like, as modify their content according to your business needs and company voice.  
+
+2. [<ins>**Set up gift vouchers in Magento Webadmin**<ins>]({{< ref "how-to/web_stores/index.md" >}})       
+   Perform the necessary setup in Magento Webadmin to make vouchers purchasable and redeemable in your web store. 
+
+3. [<ins>**Purchase and redeem vouchers (web stores)**<ins>]({{< ref "how-to/web_stores_customers/index.md" >}})       
+   See the flow of purchasing and redeeming vouchers from a customer's perspective.
