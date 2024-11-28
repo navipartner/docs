@@ -38,7 +38,7 @@ Retail vouchers can be categorized based on their origin and usage:
 - **Global vouchers**      
   Issued by multiple stores within the same company and redeemable at any store owned by the company
 
-## Setting up and using retail vouchers
+## Setting up and using retail vouchers (POS)
 
 To be able to use vouchers in your store, you first need to perform the necessary setup in Business Central and on the POS.
 
@@ -59,3 +59,6 @@ To be able to use vouchers in your store, you first need to perform the necessar
 4. [<ins>**Redeem a voucher**<ins>]({{< ref "how-to/redeem_voucher/index.md" >}}).       
    
    Customers can redeem issued vouchers in stores.
+
+## Set up and use gift vouchers (e-commerce)
+

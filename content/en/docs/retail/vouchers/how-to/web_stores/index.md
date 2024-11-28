@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "web_stores-3065f720019e5ff603cc30edd14408fa"
-weight: 45
+weight: 139
 toc: true
 type: docs
 ---
@@ -19,7 +19,7 @@ type: docs
 
 #### Prerequisite
 
-- In order to set up gift vouchers in Magento, it is necessary to perform retail voucher setup in Business Central.
+- Perform the necessary [<ins>retail voucher setup<ins>]({{< ref "../email_templates/index.md" >}}) in Business Central.
 
 #### Procedure
 
