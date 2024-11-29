@@ -34,6 +34,7 @@ To issue gift vouchers, make sure the prerequisites are met, and follow the prov
   
   ![credit_voucher_return](Images/credit_voucher_return.PNG)
 
+
 #### Procedure
 
 1. Open the POS.
