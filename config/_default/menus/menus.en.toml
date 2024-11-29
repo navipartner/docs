@@ -37,7 +37,7 @@
   name = "API"
   weight = 2
   identifier = "api"
-  url = "/docs/api/intro"
+  url = "https://api.navipartner.com/intro"
 
 [[main]]
   name = "PARTNERS"
