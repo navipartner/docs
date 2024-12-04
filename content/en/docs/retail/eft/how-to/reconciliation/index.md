@@ -30,7 +30,7 @@ To import a new reconciliation file:
 5. Click the plus sign at the top of the screen to create a new EFT reconciliation.
 6. Populate the necessary fields in the **EFT Reconciliation** card.
 
- {{< alert icon="⚠️" text="Make sure that the value in the **Provider** field has previously been created."/>}}
+ {{< alert icon="⚠️" text="Make sure that the value in the <b>Provider</b> field has previously been created."/>}}
 
 7. To set up the import handler, choose **Import Handlers** in the **EFT Reconciliation** card under **Related**.
 8. Click **Import File**.
