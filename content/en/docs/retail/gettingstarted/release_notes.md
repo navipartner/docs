@@ -21,6 +21,8 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 04.12. | **Not for Matching** [<ins>reconciliation status<ins>]({{< ref "../../np_pay/how-to/perform_reconciliation.md" >}}) | A new status has been introduced for reconciliation. It is used to help differentiate all adjustments that don't require actual matching (e.g. fees, invoice deductions and payment costs) from empty **Matching Entry System ID** values and **Matched** entries. |
+| 04.12. | [<ins>XL and XXL font sizes on POS<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}) | In addition to the small (S), medium (M) and large (L), the caption fonts of POS layout components can now also be extra large (XL) and extra extra large (XXL). |
 | 29.11. | [<ins>REST API documentation<ins>](https://api.navipartner.com/intro) | Explore NaviPartner's API guide and refer to comprehensive documentation on APIs and webhooks across our products. Over the next year, we will regularly update this portal and migrate all legacy APIs.  | 
 | 18.11. | [<ins>Dynamic ticket pricing improvements<ins>]({{< ref "../../entertainment/ticket/explanation/pricing.md" >}}) | Ticket pricing can now be defined on item level in addition to the existing admission and schedule-based pricing methods. |
 | 07.10. | [<ins>Tap to Pay (NP Pay feature for Android)<ins>]({{< ref "../../np_pay/how-to/tap_to_pay.md" >}}) | Tap to Pay is a new NP Pay feature integrated with the NP Retail POS app that can be used from Android devices to accept payments and perform refunds.  |

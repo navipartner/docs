@@ -22,7 +22,7 @@ In this scenario, the entire processing is handled automatically. User interacti
 
 The automatic flow involves the creation of an NP Pay Webhook Request, upon which the job queue generates a reconciliation document, attempts to match it, and proceeds to post it. 
 
-The process is conducted as followed:
+The process is conducted as follows:
 
 1. When a new report is ready, NP Pay triggers a webhook request creating a new record on the **NP Pay Webhook Requests** page.
 
@@ -54,7 +54,10 @@ In certain scenarios, you may choose to manually create a reconciliation documen
 
 3. Open the created **Reconciliation Document** and manually perform matching or posting.    
    The **Recreate Document** action regenerates every unposted transaction within the document; transactions that have already been posted will not be affected. 
-4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**. 
+4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**.        
+
+
+   {{< alert icon="⚠️" text="Certain entries don't need to be matched to complete the reconciliation. Such items are, for example, fees, invoice deductions, payment costs and merchant/acquirer payouts. They are assigned the <b>Not for Matching</b> status, which is for all intents and purposes later considered as <b>Matched</b> during the posting process. "/>}}
 
 ## Interactive demo
 

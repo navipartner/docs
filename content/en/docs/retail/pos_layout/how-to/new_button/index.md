@@ -32,7 +32,7 @@ To create new buttons in the POS menu, make sure the prerequisite is met, and fo
 
    ![new_button](Images/new_button.PNG)
 
-5. Provide the **Caption**, and make sure you've attached the desired POS **Action** to it.     
+5. Provide the **Caption**, specify its size (you can choose between S, M, L, XL and XXL) and make sure you've attached the desired POS **Action** to it.     
    If the POS action you need doesn't exist yet, you can [<ins>create it<ins>]({{< ref "../../../pos_processes/reference/pos_actions_ref/index.md" >}}).
 6. (Optional) You can also provide an image for the button background, change its color, and even add a password that will be required before the button's action is triggered.
 7. Once you're satisfied with your changes, click **Save**.    
