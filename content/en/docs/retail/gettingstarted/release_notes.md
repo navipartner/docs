@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 05.12. | [<ins>Tipping option for NP Pay terminals<ins>]({{< ref "../../np_pay/how-to/enable_tips.md" >}}) | It is now possible to enable tipping on NP Pay terminals upon completion of successful transactions. | 
 | 04.12. | **Not for Matching** [<ins>reconciliation status<ins>]({{< ref "../../np_pay/how-to/perform_reconciliation.md" >}}) | A new status has been introduced for reconciliation. It is used to help differentiate all adjustments that don't require actual matching (e.g. fees, invoice deductions and payment costs) from empty **Matching Entry System ID** values and **Matched** entries. |
 | 04.12. | [<ins>XL and XXL font sizes on POS<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}}) | In addition to the small (S), medium (M) and large (L), the caption fonts of POS layout components can now also be extra large (XL) and extra extra large (XXL). |
 | 29.11. | [<ins>REST API documentation<ins>](https://api.navipartner.com/intro) | Explore NaviPartner's API guide and refer to comprehensive documentation on APIs and webhooks across our products. Over the next year, we will regularly update this portal and migrate all legacy APIs.  | 
