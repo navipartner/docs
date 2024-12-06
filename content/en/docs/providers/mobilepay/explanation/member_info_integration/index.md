@@ -28,7 +28,7 @@ and on the **Customer Card** page as an action:
 
   ![request_customer_info](Images/request_customer_info.png)
 
-{{< alert icon="📝" text="The <b>Customer Card</b> page action is visible only when an integration is selected for this use case on the setup page."/>}}
+{{< alert icon="📝" text="The <b>Request Customer Information</b> action is visible only when an integration is selected for this use case on the <b>Member Info Integration Setup</b> page."/>}}
 
 You can select which integrations you wish to use on the **Member Info Integration Setup** page. You can also set up an **Implicit Phone No. Prefix** to be used during requests so that you don't have to provide it on the POS for each member.
 
