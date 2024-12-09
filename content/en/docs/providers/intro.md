@@ -52,6 +52,10 @@ Vipps MobilePay is the most recently developed version of the MobilePay solution
 
 [<ins>Set up Vipps MobilePay integration<ins>]({{< ref "mobilepay/how-to/vipps_setup/index.md" >}})
 
+MobilePay/Vipps Login allows Danish and Norwegian stores to create new members on the POS by asking the customer for their phone number, typing it into the POS, then sending a push notification to their smartphone, where they need to provide consent for sharing their info (name, address, etc.).
+
+[<ins>Use Vipps/MobilePay Login functionality<ins>]({{< ref "mobilepay/how-to/login_setup/index.md" >}})
+
 ## Softpay
 
 With Softpay integration, you can use an Android device as a Payment Terminal, if the device has NFC.  
