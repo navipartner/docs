@@ -43,7 +43,7 @@
   name = "PARTNERS"
   weight = 3
   identifier = "partner-docs"
-  url = "/docs/partner/intro"
+  url = "/docs/partner/inventory_setup/"
   
   [[main]]
   name = "TROUBLESHOOTING"

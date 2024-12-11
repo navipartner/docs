@@ -37,6 +37,8 @@ The Global Blue tax free setup is performed in several sections of Business Cent
    A window in which logos can be uploaded and set up is displayed.   
 10. To make sure the Global Blue logo is printed out on the thermal tax-free vouchers, upload it in the **Retail Logo Setup** page with the keyword **TAXFREE**.          
    ![Global Blue Tax Free Logo Upload Example](tax-free-logo-setup.png)        
+11. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit List** and select the related link.               
+12. Open the POS Unit Card associated with the POS unit you will use for the tax-free integration, and attach the profile you've created to it by selecting it from the **POS Tax Free Profile** dropdown list.
    
 
 Tax-free vouchers can be printed out either as thermal or PDF, depending on the customer choice and coordination between them and Global Blue. For thermal vouchers, the **Output Path** field should direct to a thermal printer, and for PDF a regular printer needs to be specified. The alternative for normal windows-connected PDF printer is to print the voucher via the [<ins>Google Cloud Print<ins>](https://www.google.com/cloudprint/learn).
