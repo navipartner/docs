@@ -28,19 +28,24 @@ The administrative section **Ticket Coupon Profile** has been created to accommo
 1. Navigate to the **Ticket Coupon Profiles** administrative section.     
 2. Define the coupon type you will use for this purpose, and make sure to include meaningful required admission code.     
    The coupon type will be used later connected to the specific coupon type. 
-3. Navigate to the **Ticket Types** administrative section, and create a new ticket type. 
-4. Add the profile code of the ticket coupon profile created at the beginning of the procedure to the **Coupon Profile Code** column. 
-5. Create a new button on the POS, and attach the **TM_TICKETMGMT_3** action to it. 
-6. Configure the action's variables:     
+3. Mark at least one coupon aliases within the profile group as **Default**.      
+   If this is done, the alias name will not need to be specifically provided when the coupon is requested.       
+
+   {{< alert icon="📝" text="The coupon alias is the method that web stores use to attempt to acquire a coupon for a specific purpose."/>}}
+
+4. Navigate to the **Ticket Types** administrative section, and create a new ticket type. 
+5. Add the profile code of the ticket coupon profile created at the beginning of the procedure to the **Coupon Profile Code** column. 
+6. Create a new button on the POS, and attach the **TM_TICKETMGMT_3** action to it. 
+7. Configure the action's variables:     
    - Set the **CouponAliasCode** to the alias assigned to the ticket coupon profile you're using.
    - Set **Function (Enum)** to **Ticket to Coupon**. 
    - Add a caption that will be visible on the button when added to the POS.
    - Optionally add the second caption.
 
-7. Open the POS to perform the sale. 
-8. Select the item that needs to be purchased.       
+8. Open the POS to perform the sale. 
+9. Select the item that needs to be purchased.       
    The item can also be a new membership or membership renewal. 
-9. Press the button you've created in the previous steps.      
-   A 100% discount is automatically applied to the item's price. 
-10. Finalize the POS sale.     
-    When the coupon is scanned and used, it will be automatically created and archived. You can see it when you use the **View Ticket Coupons** action in the **Ticket List**.
+10. Press the button you've created in the previous steps.      
+    A 100% discount is automatically applied to the item's price. 
+11. Finalize the POS sale.     
+    When the coupon is scanned and used, it will be automatically created and archived. You can see it when you use the **View Ticket Coupons** action in the **Ticket List**. The same coupon can also be found under **Archived Coupons**.
