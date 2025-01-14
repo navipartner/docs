@@ -1,6 +1,6 @@
 ---
 title: "Set up the Ticket to Coupon feature"
-description: ""
+description: "The Ticket to Coupon functionality allows customers to purchase tickets that can be redeemed for specific items or services at designated attractions."
 lead: ""
 date: 2024-12-11T11:58:10+01:00
 lastmod: 2024-12-11T11:58:10+01:00
@@ -15,37 +15,61 @@ toc: true
 type: docs
 ---
 
-You can create a ticket, which can be purchased online. When you choose a ticket item on checkout and use the **Ticket to Coupon** action, the ticket is scanned, and the customer can purchase it. When they are next in situation that requires them to scan a coupon, they can scan the purchased ticket to achieve the needed result. 
+The Ticket to Coupon functionality allows customers to purchase tickets that can be redeemed for specific items or services at designated attractions. 
 
-The coupon is both created and archived on the spot automatically in the background. When this happens, the coupon is exported to Business Central and posted. 
+When customers present their ticket at the counter, cashiers can utilize the **Ticket to Coupon** POS action to scan the ticket. The system then applies the corresponding discount to the physical product or service linked to the ticket’s associated coupons. 
 
-{{< alert icon="📝" text="The document number needs to match the number from the coupon reservation request."/>}}
+The coupon is both created and archived on the spot automatically in the background. When this happens, the coupon is exported to Business Central and posted.     
 
-Tickets can also be used to purchase and renew memberships. 
+   {{< alert icon="📝" text="Tickets can also be used for purchasing and renewing memberships. "/>}}
 
-The administrative section **Ticket Coupon Profile** has been created to accommodate this setup and the necessary configurations. You can use it to create or maintain the coupons per profile. In this table you connect one ticket with a coupon or multiple coupons.
 
-1. Navigate to the **Ticket Coupon Profiles** administrative section.     
-2. Define the coupon type you will use for this purpose, and make sure to include meaningful required admission code.     
-   The coupon type will be used later connected to the specific coupon type. 
-3. Mark at least one coupon aliases within the profile group as **Default**.      
-   If this is done, the alias name will not need to be specifically provided when the coupon is requested.       
+The administrative section **Ticket Coupon Profile** is used to configure and maintain ticket-to-coupon setups. This includes associating tickets with one or more coupons.
 
-   {{< alert icon="📝" text="The coupon alias is the method that web stores use to attempt to acquire a coupon for a specific purpose."/>}}
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Ticket Coupon Profiles** and choose the related link.
+   You will need to create or modify coupons per a profile.
+2. Define the **Coupon Type** to be used, and ensure that a meaningful **Required Admission Code** is included.     
+   The coupon type will be linked to the specific coupons later in the process. 
 
-4. Navigate to the **Ticket Types** administrative section, and create a new ticket type. 
-5. Add the profile code of the ticket coupon profile created at the beginning of the procedure to the **Coupon Profile Code** column. 
-6. Create a new button on the POS, and attach the **TM_TICKETMGMT_3** action to it. 
-7. Configure the action's variables:     
+   ![ticket_coupon_profile](images/ticket_coupon_profiles.png)
+
+3. Edit the selected coupon type, and click **Setup**, followed by **Setup Apply Discount** in its ribbon.      
+
+   ![setup_apply_discount](images/setup_apply_discount.png)        
+
+   The **Coupon List Items** window is displayed.
+
+4. Add the product or products the discount should be applied to in the **Coupon List Items** table.
+
+5. To ensure parity with the Ticket to Membership feature, designate a coupon alias within the profile group as **Default** (even if only one alias exists).      
+   This ensures that the alias name is automatically provided when the coupon is requested online.       
+
+   {{< alert icon="📝" text="The coupon alias is used by web stores to acquire a coupon for a specific purpose."/>}}
+
+6. Tick the **Enabled** checkbox next to the relevant profiles.
+7. In **Valid From Date** select one of the following options:    
+   - **Purchase** - The coupon will be valid from the purchase date until the end date defined by the **Valid For Date Formula**.
+   - **First Admission** - The coupon will be valid starting from the first admission date, with the validity ending according to the **Valid For Date Formula**. 
+   - **Selected Admission** - The coupon will be valid from the date of the **Required Admission**.
+   - Blank - The coupon will be valid for the same date range as the ticket. 
+
+   {{< alert icon="⚠️" text="Coupons created for a ticket will remain valid even if the ticket is revoked. Therefore, leaving the field blank or selecting the <b>Purchase</b> option may increase the risk of misuse or fraud."/>}}
+
+8. Navigate to the **Ticket Types** administrative section, and create a new ticket type. 
+9.  Add the profile code of the previously created ticket coupon profile to the **Coupon Profile Code** column. 
+10. Create a new button on the POS, and assign the **TM_TICKETMGMT_3** action to it. 
+11. Configure the action's variables:     
    - Set the **CouponAliasCode** to the alias assigned to the ticket coupon profile you're using.
    - Set **Function (Enum)** to **Ticket to Coupon**. 
-   - Add a caption that will be visible on the button when added to the POS.
-   - Optionally add the second caption.
+   - Add a caption for the button that will appear on the POS interface.
+   - Optionally, add a secondary caption for additional clarity.
 
-8. Open the POS to perform the sale. 
-9. Select the item that needs to be purchased.       
-   The item can also be a new membership or membership renewal. 
-10. Press the button you've created in the previous steps.      
-    A 100% discount is automatically applied to the item's price. 
-11. Finalize the POS sale.     
-    When the coupon is scanned and used, it will be automatically created and archived. You can see it when you use the **View Ticket Coupons** action in the **Ticket List**. The same coupon can also be found under **Archived Coupons**.
+12. Open the POS interface to perform a sale. 
+13. Select the item to be purchased, which may include new memberships or membership renewals.
+14. Press the newly created button to apply the discount.      
+    A 100% discount is automatically applied to the selected item. 
+15. Complete the POS transaction.     
+    The coupon is created and archived automatically. You can view the coupon using the **View Ticket Coupons** action in the **Ticket List** or find it under **Archived Coupons**.
+
+
+{{< alert icon="📝" text="The document number needs to match the number from the coupon reservation request."/>}}
