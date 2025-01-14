@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Integration with Planet tax-free offers several benefits, such as simplification of complex tax-free shopping for eligible customers thanks to automated VAT refunds and reduced number of manual errors. 
+Integration with [<ins>Planet tax-free<ins>](https://www.planetpayment.com/) offers several benefits, such as simplification of complex tax-free shopping for eligible customers thanks to automated VAT refunds and reduced number of manual errors. 
 
 To use Planet tax-free solution, you need to create the corresponding tax-free profile in Business Central, and attach it to a POS unit. 
 
@@ -31,7 +31,7 @@ If you require more precise instructions, follow the provided steps:
   {{< alert icon="📝" text="The <b>Auto Configure</b> option isn't supported for the Planet tax-free integration."/>}}
 
 4. Click **Set Parameters** in the ribbon.     
-   Populate the [<ins>parameter-related fields<ins>]({{< ref "../../reference/params_ref/index.md" >}}).       
+   Populate the parameter-related fields as indicated in the provided screenshot.       
 
   ![planet_taxfree_params](Images/planet_taxfree_params.png)
 
