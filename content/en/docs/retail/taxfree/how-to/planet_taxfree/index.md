@@ -25,8 +25,8 @@ If you require more precise instructions, follow the provided steps:
    The page which contains all POS tax free profiles created in the environment is displayed. Here, you can link the tax free parameters to each available POS unit.
 2. Click **New** and define [<ins>all necessary options<ins>]({{< ref "../../../pos_profiles/reference/tax_free_ref/tax_free_ref.md" >}}).   
    The **Code** field is mandatory. 
-3. In the **Handler ID** field, select the **PREMIER_PI** for the Planet integrated solution.    
-   As soon as you specify the handler ID, you need to set the accompanying parameters. The following parameters should be used for production environments:
+3. In the **Handler ID** field, select **PREMIER_PI** for the Planet integrated solution.    
+   As soon as you specify the handler ID, you need to set the accompanying parameters.
 
   {{< alert icon="📝" text="The <b>Auto Configure</b> option isn't supported for the Planet tax-free integration."/>}}
 
@@ -35,21 +35,10 @@ If you require more precise instructions, follow the provided steps:
 
   ![planet_taxfree_params](Images/planet_taxfree_params.png)
 
-5. Choose between **PROD** or **TEST** to determine whether the integration will be established on the production environment, or not.         
-   The **PROD** option should be selected for customers. 
+5. Select the **PROD** environment.         
+   The **TEST** option should only be used internally by NaviPartner employees, and it requires a different set of parameters. 
 6. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit List** and select the related link.               
-7. Open the POS Unit Card associated with the POS unit you will use for the tax-free integration, and attach the profile you've created to it by selecting it from the **POS Tax Free Profile** dropdown list.
-8. 
-
-
-
-<!--    sta treba da proveri anita:
-
-   - parametri za premier pi handler - za testiranje (mansa joj je poslao za testiranje)
-   - kako se zove akcija koja se kaci na POS da bi radila integracija (nema premier u nazivu izgleda, ili barem ja ne mogu da je nadjem na listi postojecih akcija; postoji neka generalna TAX_FREE akcija, ali nisam sigurna da je to to)
-   - printing - da li se referencira neki codeunit ili template? da li ce se samo inicirati stampanje kada krenu prvi put da stampaju voucher? (da li je proverila sa klaudijem da li je to slucaj)
-   - nije defiinisan bio codeunit i moguce da fali u setupu.
-   - Mihails je isto radio na refaktorisanju ovog feature-a. -->
-
-
+7. Open the **POS Unit Card** associated with the POS unit you will use for the tax-free integration, and attach the profile you've created to it by selecting it from the **POS Tax Free Profile** dropdown list.
+8. Open the POS that is going to be using the tax-free integration, and [<ins>create a new button on it<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}) via the POS Layout Setup Wizard.
+9. Customize the button and add the caption you wish to it, but make sure that it has the **TAX_FREE** action attached.
 
