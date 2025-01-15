@@ -67,9 +67,10 @@ The administrative section **Ticket Coupon Profile** is used to configure and ma
 12. Open the POS interface to perform a sale. 
 13. Select the item to be purchased, which may include new memberships or membership renewals.
 14. Press the newly created button to apply the discount.      
+15. Scan the ticket or enter its number in the pop-up.      
+
+    ![pos_ticket_to_coupon](Images/pos_ticket_to_coupon.png)
+
     A 100% discount is automatically applied to the selected item. 
-15. Complete the POS transaction.     
+16. Complete the POS transaction.     
     The coupon is created and archived automatically. You can view the coupon using the **View Ticket Coupons** action in the **Ticket List** or find it under **Archived Coupons**.
-
-
-{{< alert icon="📝" text="The document number needs to match the number from the coupon reservation request."/>}}
