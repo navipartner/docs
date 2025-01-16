@@ -26,9 +26,9 @@ This article details how to configure NP Retail for compliance in Germany.
    This will automatically block the opening of the POS on that POS Unit if any other setup is non-compliant. 
 
 5. On the **POS Audit Profile** page click **Additional Audit Setup**.     
-   The **DE Fiskaly POS Unit Setup** page is displayed.
+   The **DE Fiskaly TSS Clients** page is displayed.
 
-6. On the **DE Fiskaly POS Unit Setup** page:
+6. On the **DE Fiskaly TSS Clients** page:
     - Create a separate record for each POS unit you have. For each POS unit you'll need to specify **Cash Register Brand**, **Cash Register Model**, **Serial Number**, as well as a **TSS Code**.
   
         {{< alert icon="📝" text="You'll need to create the TSS (technical security system) code first. Refer to the Create techical security systems subsection for instructions detailing how to do that."/>}}
@@ -44,7 +44,7 @@ This article details how to configure NP Retail for compliance in Germany.
 
 ### Create technical security systems (TSS)
 
-1. On the **DE Fiskaly POS Unit Setup** use the *Look up value* function of the **TSS Code** field to open the **DE Technical Security Systems** page.
+1. On the **DE Fiskaly TSS Clients** setup page use the *Look up value* function of the **TSS Code** field to open the **DE Technical Security Systems** page.
 
 2. On the **DE Technical Security Systems** page create at least one TSS.
    
@@ -56,7 +56,7 @@ This article details how to configure NP Retail for compliance in Germany.
 
 4. Click **Create Fiskaly TSS** for each record you have set up on the page. The system will connect to Fiskaly, and register the TSS with them. After the process is completed, each record registered at Fiskaly on the page will have the **Fiskaly TSS Created at** and **Last Known Fiskaly State** fields automatically filled in, as well as **TSS Admin PUK** and **TSS Admin PIN** assigned.
   
-  {{< alert icon="📝" text="You can skip this step. The system will check whether the TSS is registered at Fiskaly, and run the process automatically whenever the function <b>Create Fiskaly Client</b> is run on the <b>DE Fiskaly POS Unit Setup</b> page."/>}}
+  {{< alert icon="📝" text="You can skip this step. The system will check whether the TSS is registered at Fiskaly, and run the process automatically whenever the function <b>Create Fiskaly Client</b> is run on the <b>DE Fiskaly TSS Clients</b> setup page."/>}}
 
 ### Creating connection parameter sets
 
