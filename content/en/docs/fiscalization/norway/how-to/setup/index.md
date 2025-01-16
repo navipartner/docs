@@ -24,9 +24,7 @@ This article details how to configure NP Retail for compliance with Norwegian fi
 3. Enable the fiscalization compliance with Norway by activating the **Enable NO Fiscalisation** toggle switch on the **NO Tax Fiscalization Setup** page.
 4. Reach out to NaviPartner for a self-signed certificate that contains a proper algorithm, that is specific to your customer.
 5. Move to the **Sign Certificate** panel, and click **Upload Certificate**.
-6. Move on to the **SAF-T Cash** panel, and populate the available fields with additional information for exporting an XML file to the **SAF-T** POS unit. 
-	- **SAF-T Contact No.** – choose the contact person.
-	- **Not Applicable VAT Code** – choose the VAT code that is used for VAT business and product combinations that don’t have the assigned VAT codes when exporting the transaction data with those posting group combinations.
+6. Move on to the **SAF-T Cash** panel, and populate the field **SAF-T Contact No.** for exporting an XML file. 
 7. Click **VAT Posting Setup Mapping**, and on the **VAT Post Group Mapper List** page, create an entry for each combination of the VAT product and VAT business posting groups.          
    Codes are set in order to fulfill law regulations when posting sales and purchase documents. All codes are listed on the **VAT Codes** table.       
    The VAT codes that are defined by Norwegian fiscal laws are linked to VAT Business and Product combinations.

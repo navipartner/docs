@@ -1,5 +1,5 @@
 ---
-title: "Post customer ledger entries from a POS entry"
+title: "Post customer ledger entries from a POS entry (RS fiscalization)"
 description: "This article guides you through the process of posting customer ledger entries from a POS entry."
 lead: ""
 date: 2024-10-07T13:21:13+02:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: ""
     identifier: "post_cle-2f90e4da4c31fa6ab540972353a4eddc"
-weight: 254
+weight: 818
 toc: true
 type: docs
 ---
