@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The Fiskaly SIGN DE x Submission API enables the management of taxpayer, establishment, client, and submission data necessary for submitting declarations related to the use of Electronic Record-Keeping Systems/ERS (Elektronische Aufzeichnungssysteme/EAS in German) as required by fiscal authorities.
+The Fiskaly SIGN DE x Submission API enables the management of taxpayer, establishment, client, and submission data necessary for submitting a declaration on the use of Electronic Record-Keeping Systems/ERS (Elektronische Aufzeichnungssysteme/EAS in German) as required by fiscal authorities.
 
 Key features of the integration include:
 
