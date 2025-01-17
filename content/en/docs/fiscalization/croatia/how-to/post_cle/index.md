@@ -17,8 +17,8 @@ type: docs
 
 To be able to post customer ledger entries from a POS entry,follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Posting Profiles**, and choose the related link.     
-2. Select one of the available posting profiles, or create a **New** one. 
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **CRO Tax Fiscalization Setup**, and choose the related link.     
+2. Go to the **Customer Ledger Entry Posting Setup** section.
 3. **Enable Posting** of customer ledger entries via the designated toggle switch in the **Customer Ledger Entry Posting Setup** FastTab.
 4. Configure the following options according to your business needs: 
 
