@@ -17,6 +17,13 @@ type: docs
 
 Learn which new features and improvements have been introduced to our solutions. You can click the ▶️ button next to some of the entries to view the accompanying video guides on our YouTube channel.
 
+## 2025
+
+| Date      | Feature | Description |
+| ----------- | ----------- | ----------- |
+| 21.01. | [<ins>Ticket Deferral feature<ins>]({{< ref "../../entertainment/ticket/how-to/ticket_deferral.md" >}}) | The new Ticket Revenue Deferral feature enables accurate revenue recognition by temporarily recording ticket sales as deferred revenue until tickets are redeemed. | 
+| 21.01. | [<ins>Ticket to Coupon feature<ins>]({{< ref "../../entertainment/ticket/how-to/ticket_to_coupon.md" >}}) | The Ticket to Coupon feature allows customers to redeem tickets for specific items or services at designated attractions, with discounts applied automatically via the **Ticket to Coupon** POS action. <br/> Coupons are generated, archived, and exported to Business Central in real time, ensuring seamless tracking and posting. Setup and management are handled through the **Ticket Coupon Profile** administrative section. | 
+
 ## 2024
 
 | Date      | Feature | Description |

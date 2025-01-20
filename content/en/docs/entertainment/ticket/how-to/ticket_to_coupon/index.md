@@ -74,3 +74,6 @@ The administrative section **Ticket Coupon Profile** is used to configure and ma
     A 100% discount is automatically applied to the selected item. 
 16. Complete the POS transaction.     
     The coupon is created and archived automatically. You can view the coupon using the **View Ticket Coupons** action in the **Ticket List** or find it under **Archived Coupons**.
+
+
+   {{< alert icon="❗" text="Coupons created for a ticket serve the function of single-purpose vouchers, and there needs to be an accounting decision on booking/deferring income for the purchased tickets. "/>}}
