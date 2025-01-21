@@ -39,8 +39,7 @@ User intervention may be required in the following cases:
 - **Handling failed matches** - it may be required to manually finish the matching process if lines fail to match automatically (this may also involve finalizing a parked or incomplete sales).
 - **Handling chargebacks** - you may need to manually confirm awareness of chargeback-type transactions prior to posting.
 - **Final option for unmatched entries** - you may need to post unmatched entries without matching with user confirmation. 
-- **Manual posting** - it may be necessary to finish processing entries if automatic posting isn't enabled. For this purpose, you can use the **Set as Reconciled** action in **NP Pay Setup**. 
-
+- **Manual posting** - it may be necessary to finish processing entries if automatic posting isn't enabled. 
 
 ## Manual reconciliation
 
