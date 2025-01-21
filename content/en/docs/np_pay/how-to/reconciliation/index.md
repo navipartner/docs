@@ -37,7 +37,6 @@ To set up NP Pay Reconciliation Automation in the SaaS environment, make sure th
 6. Input the **Download Report API Key** received from NaviPartner as the Report Service User Credential.
 7. Specify the number series for creating reconciliation documents in the **Reconciliation Document Nos** field, and specify the number series for posting during the reconciliation process in the **Posting Document Nos**.
 8. Specify whether you want the reconciliation lines to be automatically posted after the matching is successfully completed in the background.     
-   
 9.  Specify whether you want the chargeback-related transactions to be automatically posted or triggered manually. 
 10. Specify whether you want to post the entries with the **Posting date** being the same as the **Date of Transaction**.
 11. Set the **Reconciliation Integration Starting Date** from which the integration will become effective.
