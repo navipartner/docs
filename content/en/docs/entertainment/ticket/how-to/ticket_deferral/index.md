@@ -30,15 +30,15 @@ To set up this feature, follow the provided steps:
 3. Open the **Ticket Defer Revenue Profile** by clicking **Navigate** followed by **Deferral Profile** in the ribbon. 
 4. Create **New** and populate the necessary fields:
 
-| Field Name      | Description |
-| ----------- | ----------- |
-| **Code** | Specifies a unique identifier for the profile. |
-| **Description** | Specifies a brief description of the profile. |
-| **Achieved Revenue Account** | Specifies the account to which revenue is moved when a ticket is redeemed. | 
-| **Journal Template Name** | References a journal for posting, if applicable. | 
-| **No. Series** | Specifies the number series what will be used for posting the documents. | 
-| **Posting Mode** | The following options are available: <br/> <ul> <li> **Compressed** - posts the total of all entries for a single day; picks a number from the specified **No. Series**; </li> <li> **Uncompressed** - posts one line per transaction; picks a number from the specified **No. Series**; </li> <li> **Inline** - posts directly from the original document; uses the number of the original document. </li> </ul> | 
-| **Max Attempts** | Specifies the maximum number of retries for the associated job before manual intervention is required. |
+   | Field Name      | Description |
+   | ----------- | ----------- |
+   | **Code** | Specifies a unique identifier for the profile. |
+   | **Description** | Specifies a brief description of the profile. |
+   | **Achieved Revenue Account** | Specifies the account to which revenue is moved when a ticket is redeemed. | 
+   | **Journal Template Name** | References a journal for posting, if applicable. | 
+   | **No. Series** | Specifies the number series what will be used for posting the documents. | 
+   | **Posting Mode** | The following options are available: <br/> <ul> <li> **Compressed** - posts the total of all entries for a single day; picks a number from the specified **No. Series**; </li> <li> **Uncompressed** - posts one line per transaction; picks a number from the specified **No. Series**; </li> <li> **Inline** - posts directly from the original document; uses the number of the original document. </li> </ul> | 
+   | **Max Attempts** | Specifies the maximum number of retries for the associated job before manual intervention is required. |
 
 5. Click **Actions** in the ribbon, followed by **Setup Job Queue**.     
    The job queue is created. 
@@ -48,8 +48,8 @@ To set up this feature, follow the provided steps:
 8. Either make sure the **Defer Revenue** checkbox is selected or unselected, depending on whether you wish the individual ticket items to be deferrable. 
 9.  Navigate to the **General Posting Setup** administrative section and select the relevant **Gen. Prod. Posting Group** from the list. 
 10.  Populate the following fields in the posting group:     
-   - **Sales Account** - enter the ID of the unearned revenue account.
-   - **Achieved Revenue (Ticketing) Account** - specify the account ID if only certain posting groups support ticket deferral.
+        - **Sales Account** - enter the ID of the unearned revenue account.
+        - **Achieved Revenue (Ticketing) Account** - specify the account ID if only certain posting groups support ticket deferral.
 
   {{< alert icon="📝" text="If all posting groups support ticket deferral, you only need to configure the <b>Achieved Revenue Account</b> in the <b>Ticket Defer Revenue Profile</b>."/>}}
 
@@ -77,12 +77,12 @@ After a ticket sale, you can monitor and manage deferrals in Business Central:
 
 The Ticket Revenue Deferral Overview window displays the deferral status of the selected ticket request. The deferral process is managed in stages, reflected in the status values:
 
-- **Registered** - indicates that the ticket has been purchased.
-- **Waiting** - the POS entry or sales order has been posted, and the **Amount to Defer** is applied. The system waits for the ticket to be used.
-- **Pending Deferral** - when the ticket is used, this status is set. At the scheduled time, a background job transfers the **Amount to Defer** from the original sales account to the achieved revenue account.
-- **Deferred** - the deferral process is complete, and the revenue has been recognized.
-- **Unresolved** - this status occurs if the job queue reaches its maximum retry limit without successfully completing the deferral. In this case, manual intervention is required to resolve the issue.
-- **Immediate** -assigned to tickets that are issued free-of-charge.
-- **Deferred (Forced)** - applied when a ticket has expired and can no longer be used, but the revenue is still posted.
+   - **Registered** - indicates that the ticket has been purchased.
+   - **Waiting** - the POS entry or sales order has been posted, and the **Amount to Defer** is applied. The system waits for the ticket to be used.
+   - **Pending Deferral** - when the ticket is used, this status is set. At the scheduled time, a background job transfers the **Amount to Defer** from the original sales account to the achieved revenue account.
+   - **Deferred** - the deferral process is complete, and the revenue has been recognized.
+   - **Unresolved** - this status occurs if the job queue reaches its maximum retry limit without successfully completing the deferral. In this case, manual intervention is required to resolve the issue.
+   - **Immediate** -assigned to tickets that are issued free-of-charge.
+   - **Deferred (Forced)** - applied when a ticket has expired and can no longer be used, but the revenue is still posted.
 
 {{< alert icon="📝" text="In most cases, deferral actions are carried out automatically by a scheduled background job. However, the <b>Defer Revenue</b> and <b>Defer Revenue (Batch)</b> actions, located under <b>Process</b> in the ribbon, is available for manual use if necessary."/>}}

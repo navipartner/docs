@@ -58,11 +58,11 @@ The administrative section **Ticket Coupon Profile** is used to configure and ma
 8. Navigate to the **Ticket Types** administrative section, and create a new ticket type. 
 9.  Add the profile code of the previously created ticket coupon profile to the **Coupon Profile Code** column. 
 10. Create a new button on the POS, and assign the **TM_TICKETMGMT_3** action to it. 
-11. Configure the action's variables:     
-   - Set the **CouponAliasCode** to the alias assigned to the ticket coupon profile you're using.
-   - Set **Function (Enum)** to **Ticket to Coupon**. 
-   - Add a caption for the button that will appear on the POS interface.
-   - Optionally, add a secondary caption for additional clarity.
+11. Configure the action's variables:       
+       - Set the **CouponAliasCode** to the alias assigned to the ticket coupon profile you're using.
+       - Set **Function (Enum)** to **Ticket to Coupon**. 
+       - Add a caption for the button that will appear on the POS interface.
+       - Optionally, add a secondary caption for additional clarity.
 
 12. Open the POS interface to perform a sale. 
 13. Select the item to be purchased, which may include new memberships or membership renewals.
@@ -76,4 +76,4 @@ The administrative section **Ticket Coupon Profile** is used to configure and ma
     The coupon is created and archived automatically. You can view the coupon using the **View Ticket Coupons** action in the **Ticket List** or find it under **Archived Coupons**.
 
 
-   {{< alert icon="❗" text="The Ticket to Coupon functionality is legally classified as a single-purpose voucher. Unlike multi-purpose vouchers, which do not specify a purpose and can be redeemed for various items or services, single-purpose vouchers explicitly state their intended use. This distinction impacts accounting and tax treatment. Organizations implementing this feature must ensure an accounting decision is made regarding how income from sold tickets is booked or deferred. Since single-purpose vouchers define their specific use, VAT is applicable at the time of sale, as opposed to multi-purpose vouchers, which defer VAT calculation until redemption. Please consult your tax and accounting advisors to ensure compliance with applicable regulations."/>}}
+   {{< alert icon="❗" text="This type of tickets is legally classified as a single-purpose voucher. Unlike multi-purpose vouchers, which do not specify a purpose and can be redeemed for various items or services, single-purpose vouchers explicitly state their intended use. This distinction impacts accounting and tax treatment. Organizations implementing this feature must ensure an accounting decision is made regarding how income from sold tickets is booked or deferred. <br/> <br/> Since single-purpose vouchers define their specific use, VAT is applicable at the time of sale, as opposed to multi-purpose vouchers, which defer VAT calculation until redemption. Please consult your tax and accounting advisors to ensure compliance with applicable regulations."/>}}
