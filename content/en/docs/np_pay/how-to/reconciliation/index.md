@@ -28,20 +28,25 @@ To set up NP Pay Reconciliation Automation in the SaaS environment, make sure th
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NP Pay Setup**, and choose the related link.           
    The **NP Pay Setup** administrative section is displayed.
-2. Set the **Environment Type** in the **Management** section to either **Test Environment** or **Live/Production Environment** depending on the type of your NP Pay account. 
-3. Provide the **Management API Key** received from NaviPartner as the Web Service User Credential.
-4. Move on to the **Reconciliation** section, and input the **Download Report API Key** received from NaviPartner as the Report Service User Credential.
-5. Specify the number series for creating reconciliation documents in the **Reconciliation Document Nos** field, and specify the number series for posting during the reconciliation process in the **Posting Document Nos**.
-6. Specify whether you want the reconciliation lines to be automatically posted after the matching is successfully completed in the background.
-7. Specify whether you want the chargeback-related transactions to be automatically posted or triggered manually. 
-8. Specify whether you want to post the entries with the **Posting date** being the same as the **Date of Transaction**.
-9. Set the **Reconciliation Integration Starting Date** from which the integration will become effective.
+2. Activate the **Enable NP Pay Automation** if you wish to enable specific integrations like Pay by Link without adding the reconciliation functionality or importing external webhooks. 
+3. Set the **Environment Type** in the **Management** section to either **Test Environment** or **Live/Production Environment** depending on the type of your NP Pay account. 
+4. Provide the **Management API Key** received from NaviPartner as the Web Service User Credential.     
+   The key is tested automatically as soon as you input it. A warning is displayed if the key is expired or removed. 
+5. Move on to the **Reconciliation** section, and activate the **Enable Reconciliation** toggle switch for handling reconciliation tasks.      
+   It creates a job queue for processing reconciliation webhooks if the Reconciliation Webhook setup is missing.
+6. Input the **Download Report API Key** received from NaviPartner as the Report Service User Credential.
+7. Specify the number series for creating reconciliation documents in the **Reconciliation Document Nos** field, and specify the number series for posting during the reconciliation process in the **Posting Document Nos**.
+8. Specify whether you want the reconciliation lines to be automatically posted after the matching is successfully completed in the background.     
+   
+9.  Specify whether you want the chargeback-related transactions to be automatically posted or triggered manually. 
+10. Specify whether you want to post the entries with the **Posting date** being the same as the **Date of Transaction**.
+11. Set the **Reconciliation Integration Starting Date** from which the integration will become effective.
 
    ![np_pay_setup](Images/np_pay_setup.PNG)
    
-10. Click **Actions** in the ribbon, followed by **Configurations** in the dropdown list, and then click **Upgrade Payment Lines** to mark all payments before the specified date as reconciled. 
-11. **Enable NP Pay Automation** in the **General** section to create a web service and job queue for processing reconciliation-related webhooks.
-12. Give consent for the NP Pay webhook application to access the automation, web service API, and sign by clicking **Create Setup (Admin)** under **Actions/Configurations**.
+12. Click **Actions** in the ribbon, followed by **Configurations** in the dropdown list, and then click **Upgrade Payment Lines** to mark all payments before the specified date as reconciled. 
+13. **Enable NP Pay Automation** in the **General** section to create a web service and job queue for processing reconciliation-related webhooks.
+14. Give consent for the NP Pay webhook application to access the automation, web service API, and sign by clicking **Create Setup (Admin)** under **Actions/Configurations**.
 
    ![np_pay_consent](Images/np_pay_consent.PNG)
 
