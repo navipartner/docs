@@ -39,7 +39,8 @@ User intervention may be required in the following cases:
 - **Handling failed matches** - it may be required to manually finish the matching process if lines fail to match automatically (this may also involve finalizing a parked or incomplete sales).
 - **Handling chargebacks** - you may need to manually confirm awareness of chargeback-type transactions prior to posting.
 - **Final option for unmatched entries** - you may need to post unmatched entries without matching with user confirmation. 
-- **Manual posting** - it may be necessary to finish processing entries if automatic posting isn't enabled. 
+- **Manual posting** - it may be necessary to finish processing entries if automatic posting isn't enabled. For this purpose, you can use the **Set as Reconciled** action in **NP Pay Setup**. 
+
 
 ## Manual reconciliation
 
@@ -54,10 +55,12 @@ In certain scenarios, you may choose to manually create a reconciliation documen
 
 3. Open the created **Reconciliation Document** and manually perform matching or posting.    
    The **Recreate Document** action regenerates every unposted transaction within the document; transactions that have already been posted will not be affected. 
-4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**.        
 
+4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**.        
+   If posting is disabled, the **Reconciled** status is assigned at the end of the reconciliation workflow. This status ensures the matched transactions aren't processed in other reconciliation documents. 
 
    {{< alert icon="⚠️" text="Certain entries don't need to be matched to complete the reconciliation. Such items are, for example, fees, invoice deductions, payment costs and merchant/acquirer payouts. They are assigned the <b>Not for Matching</b> status, which is for all intents and purposes later considered as <b>Matched</b> during the posting process. "/>}}
+
 
 ## Interactive demo
 
