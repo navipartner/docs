@@ -32,10 +32,10 @@ Retail vouchers can be categorized based on their origin and usage:
 - **Internal vouchers**      
   Issued and redeemed within the same store
 
-- **External vouchers**      
+- [<ins>**External vouchers**<ins>]({{< ref "how-to/external_vouchers/index.md" >}})      
   Issued by third parties (e.g. suppliers or partner companies) under agreements allowing redemption at participating stores
 
-- **Global vouchers**      
+- [<ins>**Global vouchers**<ins>]({{< ref "how-to/global_vouchers/index.md" >}})       
   Issued by multiple stores within the same company and redeemable at any store owned by the company
 
 ## Set up and use vouchers (POS)
