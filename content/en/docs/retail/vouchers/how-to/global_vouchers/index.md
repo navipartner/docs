@@ -20,7 +20,7 @@ Global vouchers are issued by multiple companies within the same database, and c
 Follow the steps below to configure global vouchers in the managing company and subsidiary company environments.
 
 
-## Managing Company Setup
+## Managing company setup
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types**, and choose the related link.     
     A list of all existing **Retail Vouchers** is displayed.
@@ -35,7 +35,7 @@ Follow the steps below to configure global vouchers in the managing company and 
 5. Set **Validate Voucher Module** to **DEFAULT**.    
    After completing these steps, proceed to set up subsidiary company environments.
 
-## Subsidiary Company Setup
+## Subsidiary company setup
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types**, and choose the related link.     
    A list of all existing **Retail Vouchers** is displayed.
