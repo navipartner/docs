@@ -55,6 +55,9 @@ In certain scenarios, you may choose to manually create a reconciliation documen
 3. Open the created **Reconciliation Document** and manually perform matching or posting.    
    The **Recreate Document** action regenerates every unposted transaction within the document; transactions that have already been posted will not be affected. 
 4. If you haven't done so already, you need to ensure the **Match Entries** have been completed prior to posting. If the transactions have already been matched, post them by selecting **Post Entries**.        
+   Manual reconciliation may result in one of the two statuses:
+   - **Reconciled** - ensures the matched transactions aren't processed in other reconciliation documents. 
+   - **Not to Be Reconciled** - applied for the entries that do not require reconciliation with the existing transaction entries. 
 
 
    {{< alert icon="⚠️" text="Certain entries don't need to be matched to complete the reconciliation. Such items are, for example, fees, invoice deductions, payment costs and merchant/acquirer payouts. They are assigned the <b>Not for Matching</b> status, which is for all intents and purposes later considered as <b>Matched</b> during the posting process. "/>}}
