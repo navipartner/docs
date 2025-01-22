@@ -37,7 +37,7 @@ Here, you configure rules for issuing vouchers:
   | Field Name      | Description |
   | ----------- | ----------- | 
   | **Account No.** | Specifies the number of the account used for posting the sale of vouchers. When a customer purchases a voucher in a store, that sale will be posted under this account number. |
-  | **Partner Code** | Used in relation to the global voucher validation method. It allows you to establish a connection between multiple companies in an environment. Validation methods are discussed in more detail in the section describing the **Validate Vouchers** FastTab. |
+  | **Partner Code** | Used in relation to the [<ins>global voucher validation method<ins>]({{< ref "../../how-to/global_vouchers/index.md" >}}). It allows you to establish a connection between multiple companies in an environment. Validation methods are discussed in more detail in the section describing the **Validate Vouchers** FastTab. |
   | **Allow Top-up** | Lets you increase the value of a voucher after the initial purchase by the amount provided by the customer. If you wish to use this option, you also need to create a POS button which will be used to trigger the top-up. </br> This function is typically used for gift vouchers. |
   | **Minimum Amount Issue** | Specifies the minimum amount that needs to be paid for the voucher to be issued. </br> Typically, this amount is specified for credit vouchers, but can also be applied for gift vouchers where the shop’s policy is not to sell vouchers below a specified value. |
   | **Max Voucher Count** | Specifies the maximum number of vouchers of this type that can be issued. | 
