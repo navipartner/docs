@@ -19,7 +19,7 @@ This article describes the available fields and options found in the **Reconcili
 
    ![np_pay_document](Images/np_pay_document.PNG)
 
-From the **Reconciliation Document Details**, you can recreate the document, match the available entries, and post them. If necessary it is also possible to **Reverse Postings** via a designated action. The action completely reverses all postings related o the selected reconciliation document. 
+From the **Reconciliation Document Details**, you can recreate the document, match the available entries, and post them. If necessary it is also possible to **Reverse Postings** via a designated action. The action completely reverses all postings related to the selected reconciliation document. 
 
 To access the full list of documents, you can navigate to the **NP Pay Reconciliation List**. This section contains information such as batch numbers, merchant account details, document dates, transaction dates, total transaction amounts, and the total posted accounts. 
 

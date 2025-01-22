@@ -30,7 +30,7 @@ To set up NP Pay Reconciliation Automation in the SaaS environment, make sure th
    The **NP Pay Setup** administrative section is displayed.
 2. Activate the **Enable NP Pay Automation** toggle switch.     
    It creates a common web service for importing NP Pay webhooks and allows you to activate specific integrations such as Pay by Link without adding the reconciliation functionality. 
-3. Activate the **Enable Reconciliation** toggle switch if toy want to handle reconciliation tasks.      
+3. Activate the **Enable Reconciliation** toggle switch if you want to handle reconciliation tasks.      
    It creates a job queue for processing reconciliation webhooks and initializes the reconciliation webhook setup if it's missing.
 4. Set the **Environment Type** in the **Management** section to either **Test Environment** or **Live/Production Environment** depending on the type of your NP Pay account. 
 5. Provide the **Management API Key** received from NaviPartner as the Web Service User Credential.     
