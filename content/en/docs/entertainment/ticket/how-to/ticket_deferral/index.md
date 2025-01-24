@@ -23,12 +23,8 @@ The **Ticket Defer Revenue Insight** section in the Role Center provides a centr
 
 To set up this feature, follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Ticket Requests** and choose the related link.     
-   The list of requests related to ticketing is displayed.
-2. Click **Navigate** in the ribbon, followed by **Ticket Revenue Deferral**.     
-   The **Ticket Revenue Deferral Overview** window is displayed. 
-3. Open the **Ticket Defer Revenue Profile** by clicking **Navigate** followed by **Deferral Profile** in the ribbon. 
-4. Create **New** and populate the necessary fields:
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Ticket Defer Revenue Profile** and choose the related link. 
+2. Create **New** and populate the necessary fields:
 
    | Field Name      | Description |
    | ----------- | ----------- |
@@ -40,14 +36,14 @@ To set up this feature, follow the provided steps:
    | **Posting Mode** | The following options are available: <br/> <ul> <li> **Compressed** - posts the total of all entries for a single day; picks a number from the specified **No. Series**; </li> <li> **Uncompressed** - posts one line per transaction; picks a number from the specified **No. Series**; </li> <li> **Inline** - posts directly from the original document; uses the number of the original document. </li> </ul> | 
    | **Max Attempts** | Specifies the maximum number of retries for the associated job before manual intervention is required. |
 
-5. Click **Actions** in the ribbon, followed by **Setup Job Queue**.     
+3. Click **Actions** in the ribbon, followed by **Setup Job Queue**.     
    The job queue is created. 
-6. Navigate to the **Ticket Type** administrative section and assign the relevant **Defer Revenue Profile Code** to applicable ticket types.    
+4. Navigate to the **Ticket Type** administrative section and assign the relevant **Defer Revenue Profile Code** to applicable ticket types.    
    Individual ticket items can be excluded from deferral on their item cards.
-7. Navigate to the **Ticket Item List** administrative section, and open the **Ticket Item Cards** of the tickets that belong to the selected ticket type. 
-8. Either make sure the **Defer Revenue** checkbox is selected or unselected, depending on whether you wish the individual ticket items to be deferrable. 
-9.  Navigate to the **General Posting Setup** administrative section and select the relevant **Gen. Prod. Posting Group** from the list. 
-10.  Populate the following fields in the posting group:     
+5. Navigate to the **Ticket Item List** administrative section, and open the **Ticket Item Cards** of the tickets that belong to the selected ticket type. 
+6. Either make sure the **Defer Revenue** checkbox is selected or unselected, depending on whether you wish the individual ticket items to be deferrable. 
+7.  Navigate to the **General Posting Setup** administrative section and select the relevant **Gen. Prod. Posting Group** from the list. 
+8.   Populate the following fields in the posting group:     
         - **Sales Account** - enter the ID of the unearned revenue account.
         - **Achieved Revenue (Ticketing) Account** - specify the account ID if only certain posting groups support ticket deferral.
 
