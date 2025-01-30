@@ -1,6 +1,6 @@
 ---
 title: "Purchase vouchers in the web store"
-description: "Once you've created a brand-new voucher, you can purchase it in the web store."
+description: "This guide provides step-by-step instructions for purchasing vouchers in the web store. Follow these steps to complete your transaction successfully."
 lead: ""
 date: 2023-11-08T15:08:41+01:00
 lastmod: 2023-11-08T15:08:41+01:00
@@ -15,52 +15,56 @@ toc: true
 type: docs
 ---
 
-Once you've created a brand-new voucher, you can purchase it in the web store. To do so, follow the provided steps:
+This guide provides step-by-step instructions for purchasing vouchers in the web store. Follow these steps to complete your transaction successfully:
 
 #### Prerequisites
 
-- [<ins>Create a new voucher<ins>]({{< ref "../create_vouchers/index.md" >}}), and place it in the main menu of the web store.
+- [<ins>Create a new voucher<ins>]({{< ref "../create_vouchers/index.md" >}}).
+- Ensure the voucher is available in the main menu of the web store.
 
 #### Procedure in the web store
 
-1. Find the voucher you've created and  in the main menu of the web store.       
-   A page with all relevant voucher-related information is displayed.
-2. Populate the required fields (**Recipient name** and **Recipient email**), then click **Add to Cart**.     
-   The voucher is now ready for checkout.
-3. Go to checkout by clicking the cart button in the upper right corner.      
-   You can also select the voucher quantity if you wish.       
+1. Find the voucher you wish to purchase in the main menu of the web store.       
+   A page displaying all relevant voucher details is displayed.
+2. Fill in the recipient's name and email address in the designated fields.
+3. Click **Add to Cart**.     
+   The voucher is now added to your cart and ready for checkout.
+4. Click the cart icon in the upper-right corner.       
 
    ![voucher_checkout](Images/voucher_checkout.PNG)
 
-4. Check whether everything is in order, and click **Go to Checkout**.
-5. Provide billing information, and select the payment method.      
+5. Adjust the voucher quantity if necessary and click **Go to Checkout**.
+6. Provide the required billing information, and select the payment method.      
    If you're paying with card, you also need to provide credit card details before purchasing the voucher.
-6. Scroll down, and click **Place Order**.    
+7. Scroll down, and click **Place Order**.    
    It may take some time for the payment to be processed and completed.
-7. Once the order has been placed, note your order number, and copy it.       
+8. Once the order is placed, note your order number.      
    A confirmation email is also sent to the email address you've provided in the previous steps.
 
 
 ## Next steps
 
-### Find your order details in Magento Webadmin
+### Find the order details in Magento Webadmin
+
+This portion of the guide is performed in the back-end, and it needs to be performed by someone with access to Magento Webadmin, who has the necessary credentials.
 
 1. Log into **Magento Webadmin**.
 2. Click **Sales** > **Orders**.     
-   The list of all placed orders is displayed. Among them, you can see the details on the order you've just placed.      
+   The list of all placed orders is displayed. 
+3. Locate your order in the list.
 
    {{< alert icon="📝" text="If you can't find your order number, click <b>Clear Filter</b>. Once you've done so, you will be able to see your order number at the top of the list."/>}}
 
-3. Click the **Order Number** you've received from the web store.        
+4. Click the **Order Number** from the email confirmation.        
 
    {{< alert icon="📝" text="You can also find the sales order number in the <b>Import List</b> administrative section in Business Central."/>}}
 
-4. Click **Select** in the **NaviConnect** tab, and then **View XML**.       
-   You are presented with an XML document that represents the voucher. You can see the external order number in the *<sales_order_lines>* element
+5. Click **Select** in the **NaviConnect** tab, and then **View XML**.       
+   The order number is listed under the <sales_order_lines> element.
 
-### Apply the voucher on your web order
+### Apply the voucher on the web order
 
-Once you've received a voucher, you can [<ins>apply the discount it provides<ins>]({{< ref "../apply_voucher/index.md" >}}) on your next purchase from the web store, or even get an item for free if it costs less than the amount the voucher provides.
+Once you've received a voucher, you can use it to [<ins>apply a discount<ins>]({{< ref "../apply_voucher/index.md" >}}) on your next purchase. If the item costs less than the voucher amount, you may be able to get it for free.
 
 #### See also
 
