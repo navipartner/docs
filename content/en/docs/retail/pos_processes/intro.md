@@ -71,7 +71,6 @@ The following guides and explanations are intended for end users working daily o
 - [<ins>Create new buttons in the POS menu<ins>]({{< ref "../pos_layout/how-to/new_button/index.md" >}})
 - [<ins>Add a logo to the POS screen<ins>]({{< ref "how-to/logo/index.md" >}})
 - [<ins>Change a bin from the POS sale<ins>]({{< ref "how-to/change_bin/index.md" >}})
-- [<ins>Return items with the second POS screen<ins>]({{< ref "how-to/display2/index.md" >}})
 - [<ins>Generate end-of-day report (POS balance)<ins>]({{< ref "how-to/generate_eod/index.md" >}})
 - [<ins>Insert the initial float for a POS unit<ins>]({{< ref "how-to/initial_float/index.md" >}})
 - [<ins>Send email receipts from the POS sale<ins>]({{< ref "how-to/pos_sale_receipts/index.md" >}})

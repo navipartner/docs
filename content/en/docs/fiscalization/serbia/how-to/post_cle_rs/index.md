@@ -2,14 +2,14 @@
 title: "Post customer ledger entries from a POS entry (RS fiscalization)"
 description: "This article guides you through the process of posting customer ledger entries from a POS entry."
 lead: ""
-date: 2024-10-07T13:21:13+02:00
-lastmod: 2024-10-07T13:21:13+02:00
+date: 2025-01-31T11:09:27+01:00
+lastmod: 2025-01-31T11:09:27+01:00
 draft: false
 images: []
 menu:
   docs:
     parent: ""
-    identifier: "post_cle-2f90e4da4c31fa6ab540972353a4eddc"
+    identifier: "post_cle_rs-7e27f06709c0711fcd77ba2d963e7312"
 weight: 818
 toc: true
 type: docs
