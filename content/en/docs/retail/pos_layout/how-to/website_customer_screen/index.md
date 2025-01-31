@@ -48,5 +48,4 @@ The setup for both buttons is the same, the only difference being the provided v
 
 #### See also
 
-- [<ins>Return items with the second POS screen<ins>]({{< ref "../../../pos_processes/how-to/display2/index.md" >}})
 - [<ins>Set up the POS HTML display profile<ins>]({{< ref "../../../pos_profiles/how-to/html_profile/html_profile.md" >}})
