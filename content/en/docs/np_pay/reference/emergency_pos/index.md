@@ -55,14 +55,14 @@ The payment setup page specifies all configurations related to sales and payment
 
   | Action Name      | Description |
   | ----------- | ----------- |
-  | **Sale POS ID** | References the POS unit. There should be only one device per a POS unit. This allows for sharing the same cash drawer between the regular POS unit and the emergency POS unit. | 
-  | **EFT Payment Method** fields | All EFT payment method fields are related to the POS payment method. For EFT, when parsing the payment details of NP Pay after synchronization, card mapping occurs automatically. |
-  | **Cash Payment Method** fields | These fields define specific details about the cash payment method. |
-  | **EFT Payment Method: Monetary Unit/Cash Payment Method: Monetary Unit** | Monetary unit is the lowest payable amount, e.g. a value of 0.50 means that you can pay 1.00, 1.50 and 2.00, but not 1.33, 1.25 etc. | 
-  | **Payment Integration** | The following options are available: <br/> <ul> <li>**Adyen Tap to Pay** - uses the Adyen Payments app for payment integration. This option is used for Android devices.</li> <li>LAN Terminal - uses the built-in payment feature on NP Pay devices. </li> </ul> | 
-  | **Encryption Details** | The ID, password and the version are all specified either on a terminal level or on a store level. When using the [<ins>Tap to pay<ins>]({{< ref "../../how-to/tap_to_pay/index.md" >}}) feature, the info needs to be configured on the store level, since it doesn't appear on the **Terminal List**. | 
-  | **Tap to Pay** | When all settings are configured in **Encryption Details** and the **Adyen Merchant Setup**, it is possible to establish a connection with the **Adyen Payments** app. This process is called **Boarding**. If the Adyen Payments app has been uninstalled or if a user has unregistered the app, a new boarding process is required. | 
-  | **Local Terminal** | The **POI ID** identifies the NP Pay device (it typically has the following structure: "[device model]-[Serialnumber]). This is only applicable to NP Pay devices, and is automatically populated in most cases. | 
+  | **Sale POS ID** | References the POS unit. Each POS unit should be linked to only one device. This setup allows the emergency POS to share the same cash drawer as the regular POS. | 
+  | **EFT Payment Method** fields | All EFT payment method fields are related to the POS payment method. When sales sync with NP Pay, card details are automatically mapped. |
+  | **Cash Payment Method** fields | 	Specify configuration details for handling cash transactions. |
+  | **EFT Payment Method: Monetary Unit/Cash Payment Method: Monetary Unit** | Defines the smallest accepted payment unit. For example, a value of 0.50 means valid payments are 1.00, 1.50, 2.00, but not 1.33 or 1.25. | 
+  | **Payment Integration** | Configures payment processing options: <ul><li>Adyen Tap to Pay – Uses the Adyen Payments app for Android devices.</li><li>LAN Terminal – Uses the NP Pay device’s built-in payment functionality.</li></ul> | 
+  | **Encryption Details** | Stores security credentials (ID, password, and version) at either the terminal or store level. When using the [<ins>Tap to pay<ins>]({{< ref "../../how-to/tap_to_pay/index.md" >}}) feature, configuration must be done at the store level, as the **Terminal List** does not include these details.| 
+  | **Tap to Pay** | After configuring Encryption Details and Adyen Merchant Setup, you can establish a connection with the Adyen Payments app (a process called Boarding). If the app is uninstalled or unregistered, the Boarding process must be repeated.| 
+  | **Local Terminal** | The **POI ID** uniquely identifies an NP Pay device using the format: [Device Model]-[Serial Number]. This applies only to NP Pay devices and is usually auto-filled. | 
 
    ![emergency_5](Images/emergency_5.png)
 

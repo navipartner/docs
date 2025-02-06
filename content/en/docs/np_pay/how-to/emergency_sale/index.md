@@ -27,7 +27,7 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
 1. Open the **NP Retail Emergency mPOS** app on your device.      
    The home screen is displayed.
 
-    {{< alert icon="📝" text="If unsynchronized sales exist, you’ll be notified to sync them."/>}}
+    {{< alert icon="📝" text="If unsynchronized sales exist, you’ll be prompted to sync them."/>}}
 
 2. Tap **New Sale**
 
@@ -43,7 +43,7 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
     ![emergency_9](Images/emergency_9.png) 
 
 6. Choose a payment method and complete the transaction.       
-   If the sufficient amount has been paid, the user is prompted with the End of Sale pop-up window.
+   If the sufficient amount has been paid, the **End of Sale** pop-up window is displayed.
 
     ![emergency_11](Images/emergency_11.png)
    
@@ -51,12 +51,12 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
    The customer will get the receipt as soon as the sale is synchronized to Business Central.
    
 8. Tap **End Sale**.     
-   The sale is finished and are redirected back to the home screen.
+   The sale is finished and you are redirected back to the home screen.
 
 
 ## Checking sale history
 
-- Access **History** to view past transactions.
+- If you wish, you can access **History** to view past transactions.
 
     ![emergency_12](Images/emergency_12.png)
 
@@ -66,7 +66,7 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
 
 ## Troubleshooting and support
 
-- Use the **Help** page to view logs and troubleshoot errors.
+- If needed, use the **Help** page to view logs and troubleshoot errors.
 
   {{< alert icon="📝" text="Error and crash events are automatically collected, but enabling the Logs feature extends the info written to a local file."/>}}
 

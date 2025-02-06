@@ -1,6 +1,6 @@
 ---
 title: "NP Retail Emergency mPOS overview"
-description: "NP Retail Emergency mPOS is an application designed to help customers process payments when Business Central (BC) or the internet is unavailable. This app ensures business continuity by allowing transactions even in emergency situations."
+description: "NP Retail Emergency mPOS is an application designed to help customers process payments when either Business Central (BC) or the Internet is unavailable. This app ensures business continuity by allowing transactions even in emergency situations."
 lead: ""
 date: 2025-02-04T13:53:20+01:00
 lastmod: 2025-02-04T13:53:20+01:00
@@ -15,14 +15,14 @@ toc: true
 type: docs
 ---
 
-NP Retail Emergency mPOS is an application designed to help customers process payments when Business Central (BC) or the internet is unavailable. This app ensures business continuity by allowing transactions even in emergency situations.
+NP Retail Emergency mPOS is an application designed to help customers process payments when either Business Central (BC) or the Internet is unavailable. This app ensures business continuity by allowing transactions even in emergency situations.
 
 - [<ins>Set up NP Retail Emergency mPOS<ins>]({{< ref "../../how-to/emergency_pos/index.md" >}}).
 - [<ins>Perform a sale via the NP Retail Emergency mPOS app<ins>]({{< ref "../../how-to/emergency_sale/index.md" >}}).
 
-Besides being able to take card payments, the app includes a way to specify that the cashier receives cash. This has the side effect that each Emergency mPOS device will be tied to an existing POS, but it does not require an additional device license since we synchronize the data to Business Central manually, with a click of a button.
+The app supports both card and cash payments, allowing cashiers to record received cash transactions. Each emergency mPOS device is linked to an existing POS unit, but does not require an additional device license. Instead, transactions are manually synchronized to Business Central with a single click.
 
-When we synchronize to Business Central, the data ends up in the **External POS Sales**, which has been slightly upgraded for this purpose. From here, the data can be converted to a **POS Entry** and posted as normal. When the conversion is complete, the flow will check if a customer specified they want the receipt in a digital format either via email or via SMS.
+When synchronization is finished, transaction data is stored in **External POS Sales** within Business Central. From there, it can be converted into a **POS Entry** and posted as usual. If a customer has requested a digital receipt, it will be automatically sent via email or SMS once the synchronization is complete.
 
 ### Supported devices
 

@@ -21,13 +21,12 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Emergency mPOS Setup**, and choose the related link.           
 2. Provide the basic information needed for the emergency POS to work correctly, such as supported payment methods and SMS/email templates.
-3. Contact the NaviPartner consultancy team to assist with **NP Pay POS Payment Setup** for automatic configuration.
+3. Contact the NaviPartner consultancy team to assist with **NP Pay POS Payment Setup** for automatic configuration and installation of necessary software (if applicable).
 
 ## Prepare your device
 
-### Prerequisites
+### Prerequisite
 
-- Request software installation for NP Pay from the NaviPartner consultancy team.
 - Install the **Adyen Payments** app if you're also using the [<ins>Tap to pay<ins>]({{< ref "../tap_to_pay/index.md" >}}) feature.      
   There is both a live and a test version of this app in the Google Play store. 
 
@@ -36,7 +35,7 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 1. Open the **NP Retail Emergency mPOS** app on your device.      
    The home screen is displayed.
 
-    {{< alert icon="📝" text="If unsynchronized sales exist, you’ll be notified to sync them."/>}}
+    {{< alert icon="📝" text="If unsynchronized sales exist, you’ll be prompted to sync them."/>}}
 
 2. Tap **Setup**. 
 
@@ -49,8 +48,6 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
    ![emergency_2](Images/emergency_2.png)
 
 3. Sign in or scan a QR code to configure the device.     
-
-   {{< alert icon="📝" text="These options only work if the preliminary setup has been performed in the <b>Emergency mPOS Setup</b> administrative section in Business Central. "/>}}
 
    ![emergency_3](Images/emergency_3.png)
 
