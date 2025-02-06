@@ -1,5 +1,5 @@
 ---
-title: "Male a sale on NP Retail Emergency mPOS"
+title: "Make a sale on NP Retail Emergency mPOS"
 description: "Use the NP Retail Emergency mPOS to process a transaction by adding items, selecting a payment method, and completing the sale. If the internet is unavailable, sales will sync automatically once connectivity is restored."
 lead: ""
 date: 2025-02-06T11:52:25+01:00
@@ -64,6 +64,15 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
 
     ![emergency_13](Images/emergency_13.png)
 
-## Managing payments
-
 ## Troubleshooting and support
+
+- Use the **Help** page to view logs and troubleshoot errors.
+
+  {{< alert icon="📝" text="Error and crash events are automatically collected, but enabling the Logs feature extends the info written to a local file."/>}}
+
+- Upload logs for developer review if issues persist.
+
+    ![emergency_7](Images/emergency_7.png)
+
+
+  {{< alert icon="⚠️" text="Be cautious when using <b>Delete Database</b> — this action is irreversible."/>}}

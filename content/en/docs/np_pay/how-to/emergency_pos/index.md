@@ -69,9 +69,12 @@ The other setup pages and the options they contain are briefly outlined in this 
 
 The payment setup page specifies all configurations related to sales and payments. 
 
-- Define payment methods (EFT, cash, Tap to Pay, LAN Terminal).
+- Define payment methods (EFT, cash).
+- Select the payment integration, depending on the device you're using:   
+  - **Tap to Pay** - uses the Adyen Payments app; applicable for Android devices.
+  - **LAN Terminal** - uses the built-in payment feature on NP Pay terminals.
 - Configure encryption details for secure transactions.
-- Enable Boarding for Adyen Payments app integration.
+- Establish connection with the Adyen Payments app (**Board App**).
 
   ![emergency_5](Images/emergency_5.png)
 
