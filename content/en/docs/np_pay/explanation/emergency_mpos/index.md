@@ -31,13 +31,13 @@ NP Retail Emergency MPOS can be installed on either standard Android devices or 
   - Provide a limited payment experience compared to the dedicated payment terminals. 
   - It is a subset of the [<ins>Payment experience feature<ins>](https://www.adyen.com/devices/tap-to-pay-on-android)
   
-- NP Pay terminals (e.g. [<ins>AMS1<ins>[https://www.adyen.com/devices/ams1], [<ins>S1E2L<ins>[https://www.adyen.com/devices/castles-s1e2l])
+- NP Pay terminals (e.g. [<ins>AMS1<ins>](https://www.adyen.com/devices/ams1), [<ins>S1E2L<ins>](https://www.adyen.com/devices/castles-s1e2l))
 
   - Include full built-in payment features without requiring additional apps. 
   - Function as a standalone payment terminal.
   - Currently, two models have been tested and verified. These models are less powerful in terms of hardware but come with more integrated features from NP Pay.
 
-#### AMS1 terminal features
+### AMS1 terminal features
 
 The AMS1 is an all-in-one payment terminal that supports Android app installations and enables fast, mobile payment processing. It features built-in 4G connectivity and Wi-Fi compatibility, ensuring reliable internet access and redundancy. When docked, it functions as a traditional countertop terminal, maintaining a continuous charge for uninterrupted operation during power outages.
 
