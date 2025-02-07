@@ -33,6 +33,10 @@ The [<ins>Pay by Link<ins>]({{< ref "how-to/pay_by_link/index.md" >}}) feature e
 
 [<ins>Payment reconciliation<ins>]({{< ref "explanation/reconciliation/index.md" >}}) is a critical tool for managing the complexities of financial accuracy and accountability that need to be maintained daily. Payment reconciliation is used to identify errors and discrepancies, preventing fraud, enhancing cash flow management, ensuring precise financial reporting, optimizing operational efficiency, and supporting budgeting and forecasting. 
 
+### Emergency mPOS
+
+[<ins>NP Retail Emergency MPOS<ins>]({{< ref "explanation/emergency_mpos.md" >}}) is an application designed to help customers process payments when either Business Central (BC) or the Internet is unavailable. It ensures business continuity by allowing transactions even in emergency situations.
+
 ### Insights
 
 You can determine the percentage distribution between new and returning shoppers across all your stores during your latest discount campaigns.
