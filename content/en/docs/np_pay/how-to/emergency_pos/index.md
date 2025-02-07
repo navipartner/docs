@@ -47,7 +47,8 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 
    ![emergency_2](Images/emergency_2.png)
 
-3. Sign in or scan a QR code to configure the device.     
+3. Sign in or scan a QR code to configure the device.       
+   The QR code is provided by the **Emergency mPOS Setup** administrative section in Business Central.
 
    ![emergency_3](Images/emergency_3.png)
 
@@ -71,7 +72,8 @@ The payment setup page specifies all configurations related to sales and payment
   - **Tap to Pay** - uses the Adyen Payments app; applicable for Android devices.
   - **LAN Terminal** - uses the built-in payment feature on NP Pay terminals.
 - Configure encryption details for secure transactions.
-- Establish connection with the Adyen Payments app (**Board App**).
+- Establish connection with the Adyen Payments app (**Board App**).      
+  The **Board App** option is only relevant if you're also using Tap to Pay.
 
   ![emergency_5](Images/emergency_5.png)
 

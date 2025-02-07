@@ -48,7 +48,7 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
     ![emergency_11](Images/emergency_11.png)
    
 7. Provide the customer's phone number and email, and tick the checkbox next to the preferred receipt format (SMS or Email).    
-   The customer will get the receipt as soon as the sale is synchronized to Business Central.
+   The customer will get the receipt after the sale is synchronized to Business Central and the next job queue is resolved.
    
 8. Tap **End Sale**.     
    The sale is finished and you are redirected back to the home screen.
