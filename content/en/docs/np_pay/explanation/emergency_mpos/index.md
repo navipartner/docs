@@ -47,6 +47,12 @@ The AMS1 is an all-in-one payment terminal that supports Android app installatio
 
 Additionally, the AMS1 operates independently of standard POS systems, reducing vulnerability to ransomware attacks and ensuring ongoing transaction capability. It can be used as either a mobile POS device or a countertop payment terminal, making it a versatile solution for daily retail operations.
 
+### S1E2L terminal features
+
+S1E2L is an all-in-one mPOS device designed for secure and efficient payment processing. For connectivity, the S1E2L supports Wi-Fi and Bluetooth interfaces, ensuring reliable communication across various network environments. Its replaceable battery provides extended operational time, essential for high-transaction settings.
+
+It accepts multiple payment methods, including contactless, chip, and swipe card transactions, and supports various payment types such as gift cards, debit/credit cards, local payment methods, and e-wallets.
+
 ### See also
 
 - [<ins>Set up NP Retail Emergency mPOS<ins>]({{< ref "../../how-to/emergency_pos/index.md" >}}).
