@@ -21,11 +21,8 @@ To set this feature up, make sure the prerequisites are met, and follow the prov
 
 ## Prerequisites
 
-- NaviPartner consultancy team needs to perform the initial setup that is required for the feature to work. If you wish to enable this feature, please make a request via a ticket. 
-- Make sure you have the web service user API key.
-- Make sure you have the encryption ID, key and version.
-- Have a store in place.
-- Have the merchant account.
+- NaviPartner consultancy team needs to perform the initial setup that is required for the feature to work. If you wish to enable this feature, please make a request via a ticket.    
+  The information they need to provide includes the API key, encryption data, store data, and the merchant account. 
 
 ## Procedure in Business Central
 
