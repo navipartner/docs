@@ -32,7 +32,7 @@ NP Retail Emergency mPOS can be installed on either standard Android devices or 
 
   - require the **Adyen Payments** app that is run via our **NP Pay Setup** to process transactions. 
   - provide a limited payment experience compared to the dedicated payment terminals. 
-  - need to have received a security update within the last 12 months. Without up-to-date security patches, Adyen Payments will not work. 
+  - need to have received a security update within the last 12 months - without up-to-date security patches, Adyen Payments will not work. 
   - offer a subset of the [<ins>Payment experience feature<ins>](https://www.adyen.com/devices/tap-to-pay-on-android)
   
 - NP Pay terminals (e.g. [<ins>AMS1<ins>](https://www.adyen.com/devices/ams1), [<ins>S1E2L<ins>](https://www.adyen.com/devices/castles-s1e2l))
