@@ -17,6 +17,9 @@ type: docs
 
 The Fiskaly SIGN DE x Submission API enables the management of taxpayer, establishment, client, and submission data necessary for submitting a declaration on the use of Electronic Record-Keeping Systems/ERS (Elektronische Aufzeichnungssysteme/EAS in German) as required by fiscal authorities.
 
+  {{< alert icon="📝" text="The declaration requirement (Mitteilungspflicht) under §146a (4) AO <a href=\"https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2024-06-28-mitteilungsverpflichtung-nach-AO.html\">took effect</a> across Germany on <b>January 1, 2025</b>, with a grace period extending until <b>July 31, 2025</b>. This requirement applies to digital cash registers, taximeters, and odometers. <\br> <b>Integrators are advised to refer to the German Finance Ministry’s (BMF) <a href=\"https://www.bundesfinanzministerium.de/Content/DE/FAQ/FAQ-steuergerechtigkeit-belegpflicht.html\">FAQ</a> for further details.</b> "/>}}
+ 
+
 Key features of the integration include:
 
 - Input and validation of all relevant data
