@@ -17,11 +17,13 @@ type: docs
 
 NaviPartner offers different types of membership alterations, including upgrades, renewals, and extensions. You can organize these alterations into groups and assign each group to a specific POS unit. This ensures that only the alterations within the assigned group are available at that POS, helping to control which changes can be processed at each location.
 
+   {{< alert icon="📝" text="One alteration can simultaneously be present in multiple groups."/>}}
+
 To use the feature, follow the provided steps:
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Membership Alteration**, and choose the related link.    
    The list of available membership alterations is displayed.
-2. Select the alteration you want to add to a group, then click, then then click **Add Alteration to Groups**.   
+2. Select the alteration you want to add to a group, then click **Add Alteration to Groups**.   
    The **Membership Alteration Groups** window is displayed. 
 3. Click **New**. 
 4. Enter a unique code and description to distinguish it from other groups, then click **OK**.      
@@ -32,3 +34,6 @@ To use the feature, follow the provided steps:
 5. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Member Profiles**, and choose the related link.    
 6. Click **New** or select an existing member profile to attach the alteration group.
 7. In the **Alteration Group** dropdown, select the alteration group you created.
+8. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit List**, and choose the related link.    
+9. Open the **POS Unit** you wish to assign the member profile to.
+10. In the **POS Member Profile** dropdown, select the profile you've edited.
