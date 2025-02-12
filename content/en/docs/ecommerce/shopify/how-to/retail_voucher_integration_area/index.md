@@ -1,6 +1,6 @@
 ---
 title: "Set up retail voucher integration area"
-description: "If the adequate setup is performed, retail vouchers sold in offline shops can be redeemed both on POS and in Shopify."
+description: "If the adequate setup is performed, retail vouchers purchased in offline shops and in Shopify can be redeemed in Shopify."
 lead: ""
 date: 2024-09-16T15:58:36+02:00
 lastmod: 2024-09-16T15:58:36+02:00
@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-If the adequate setup is performed, retail vouchers sold in offline shops can be redeemed both on POS and in Shopify. The integration can be enabled for each individual retail voucher type. 
+If the adequate setup is performed, retail vouchers purchased in offline shops and in Shopify can be redeemed in Shopify. The integration can be enabled for each individual retail voucher type. 
 
   {{< alert icon="📝" text="Retail vouchers are created as gift cards in Shopify."/>}}
 
@@ -25,6 +25,41 @@ If the adequate setup is performed, retail vouchers sold in offline shops can be
    The store code should correspond to the Shopify store with which retail vouchers of this type are integrated. 
 
    {{< alert icon="📝" text="You can only integrate a retail voucher type with a single Shopify store (the system doesn't support integrating the same retail voucher type with multiple Shopify stores)." />}}
+
+
+## Handling Shopify gift cards in Business Central
+
+When a Shopify order containing a gift card is imported into Business Central, the system can automatically create a retail voucher instead of a standard inventory item, if the proper setup is performed. The gift card sales line is assigned to a G/L account rather than requiring a specific product mapping. 
+
+To make sure this behavior is applied, follow the provided steps in Business Central:
+
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.      
+2. Create a new **Voucher Type** that the system will use when creating new retail vouchers in Business Central for gift cards purchased in Shopify.
+3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Stores** and select the related link.
+4. Open the **Shopify Store** you wish to modify, and scroll down to its **Retail Voucher Integration** section.     
+5. In the **Voucher Type (Sold at Shopify)** dropdown list, select the voucher type you've created for this purpose. 
+
+  ![shopify_voucher](Images/shopify_voucher.png)
+
+Each retail voucher will have a unique reference number based on:
+
+- Shopify’s internal gift card ID
+- The last four characters of the gift card reference number
+
+  ![shopify_ref](Images/shopify_ref.png)
+
+### Limitations
+
+Currently, gift cards sold through Shopify can't be directly redeemed at POS in Business Central. This is due to a limitation in Shopify’s API, which only provides the last four characters of the gift card reference number, rather than the full number needed for standard redemption processes.
+
+#### Workaround for Using Shopify Gift Cards at POS
+
+While direct scanning or manual entry of the full gift card number is not possible, you can still redeem Shopify gift cards at POS using a manual search:
+
+1. Search for the retail voucher in Business Central using the last four characters of the gift card reference number.
+2. Identify the correct voucher by cross-referencing the internal Shopify gift card ID (a unique identifier provided by Shopify).
+3. Apply the voucher manually to complete the transaction.
+
 
 ## See also
 

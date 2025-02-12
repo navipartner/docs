@@ -19,8 +19,6 @@ A separate Shopify Store needs to be set up in Business Central for each Shopify
 
 The **Shopify Store** page contains store-specific settings. You can select whether the integration is enabled with the store, and then pick the integration areas you want to be covered. 
 
-  ![shopify_store](images/shopify_store.PNG)
-
 The following fields and options can be set up in the **General** section:
 
 | Field name      | Description |
@@ -53,6 +51,7 @@ The following option can be set up in the **Retail Voucher Integration** section
 | Field name      | Description |
 | ----------- | ----------- |
 | **Enabled** | Specifies whether the retail voucher integration is enabled. If yes, the system will allow retail vouchers purchased in your offline shops (POS) to be used (redeemed) both on POS and in Shopify. </br> **Note:** There are several additional [<ins>retail voucher integration area setups<ins>]({{< ref "../../how-to/retail_voucher_integration_area/index.md" >}}) you need to perform for the functionality to work correctly. |
+| **Voucher Type (Sold at Shopify)** | Specifies the type of retail voucher that Business Central will create for gift cards sold on Shopify. When a Shopify order containing a gift card is imported, this setting ensures that the system correctly categorizes the transaction as a voucher instead of requiring an inventory item. </br> This field must be populated to enable proper gift card handling. If not specified, gift card sales may not be processed correctly in Business Central. | 
 
 The following fields and options can be set up in the **Sales Order Integration** section:
 
