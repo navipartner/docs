@@ -35,8 +35,10 @@ To ensure compliance with Italian fiscal laws, follow the provided steps:
 3. Make sure this audit profile is set for all POS units from the **POS Unit List** that need to be compliant with Italian fiscalization laws.
 4. Move on to the **IT POS Unit Mapping** page, and enter the **Fiscal Printer IP** address for the POS unit connected to the printer, and set the **Fiscal Printer Rounding Type** to **Standard Rounding**.       
 5. To obtain the **Fiscal Printer RT Type** and **Fiscal Printer Serial No.**, create a POS button using the **IT_PRINT_MGT** action, and set the parameters to **Get Fiscal Printer Model**.     
-   The **Fiscal Printer RT Type** and **Fiscal Printer Serial No.** fields are populated after the **RT Printer Type** and **RT Serial No.** are executed from the POS.
-6. To be able to log into the printer, create a POS button using the **IT_PRINT_MGT** action, and set the parameters to **Log in Fiscal Printer**.      
+
+    {{< alert icon="📝" text="The <b>Fiscal Printer RT Type</b> and <b>Fiscal Printer Serial No.</b> fields are populated after the <b>RT Printer Type</b> and <b>RT Serial No.</b> are executed from the POS."/>}}
+ 
+6. To be able to log into the printer, create a POS button using the **IT_PRINT_MGT** action, and set the parameter value to **Log in Fiscal Printer**.      
 7. Ensure that the printer’s password, stored in **IT POS Unit Mapping** under **Fiscal Printer Password**, is correctly configured.     
    When triggered, the **IT_PRINT_MGT** action takes the printer's password from **IT POS Unit Mapping** and logs into the fiscal printer with it. 
 8. Set up the action to get the fiscal printer VAT codes. The action is **IT_PRINT_MGT** while its parameter should be set to **Setup Printer**.          
@@ -50,7 +52,7 @@ To ensure compliance with Italian fiscal laws, follow the provided steps:
 
 9.  From the **IT POS Payment Method Mapping** table, choose the POS payment method corresponding to the Italian fiscalization payment methods from the **IT Payment Method** field. 
 10. Assign a unique **IT Payment Method Index** to each payment method.      
-   The index value determines how payments are grouped in X and Z reports.         
+   The index value determines how cumulative payment amounts are grouped in X and Z reports.         
 
    The following range (possible variants of payment methods) of index values is available for printer payment types:
 
@@ -60,7 +62,7 @@ To ensure compliance with Italian fiscal laws, follow the provided steps:
    - 3Ticket – 1-10
    - 4Multiple tickets – 1-99
    - 5Not Paid – 0-Mixed (goods and services);1-goods; 2-services; 3-Invoice to follow; 4-RT invoice;5-national health
-   - 6Payment discounts – 0-generic; 1-multi-use voucher. 
+   - 6Payment discounts – 0-generic; 1-multi-use voucher
 
 11. Set rounding for cash payments.      
     Refer to the following rules:
@@ -83,7 +85,7 @@ To ensure compliance with Italian fiscal laws, follow the provided steps:
 
     {{< alert icon="📝" text="When performing this action on POS, enter the amount transferred to or from the cash register, and then confirm the transaction to print the configuration document that the money has been transferred. This action only updates the printer memory."/>}}
 
-## Additional setup
+## Additional setup and usage
 
 ### Issue lottery code
 
