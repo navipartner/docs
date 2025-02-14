@@ -19,7 +19,6 @@ NP Retail is a solution that combines the functionalities of the POS and ERP sys
 
 At the core of NP Retail is a POS store. Each POS store contains multiple POS units used for conducting business. Daily work on POS involves going through the entirety of the sales cycle, which consists of preparing the opening balance, conducting the sales (while redeeming coupons and vouchers where appropriate), and finally performing the end-of-day procedure - posting the sales and syncing all relevant information with the ERP database.
 
-![pos_academy_1](pos_academy_1.jpg)
 
 ## Get started
 
