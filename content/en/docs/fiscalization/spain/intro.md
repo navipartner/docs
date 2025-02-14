@@ -21,3 +21,5 @@ NP Retail is integrated with Fiskaly SIGN ES APIs, with API calls determined by 
 - The TicketBAI API is included in the solution and is available for clients operating in Araba, Bizkaia, and Gipuzkoa.
 
 For the rest of Spain, compliance is governed by Verifactu legislation, which applies to the following regions: Andalusia, Aragon, Principality of Asturias, Cantabria, Castilla-La Mancha, Castile and León, Catalonia, Extremadura, Galicia, Balearic Islands, La Rioja, Madrid Region, Murcia Region, and Valencian Community.
+
+To configure NP Retail to comply with Spanish fiscal laws, refer to the [<ins>how-to guide<ins>]({{< ref "how-to/setup/index.md" >}}).

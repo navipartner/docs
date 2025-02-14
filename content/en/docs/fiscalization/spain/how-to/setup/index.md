@@ -37,12 +37,12 @@ This guide explains how to configure NP Retail to comply with Spanish fiscal law
 9. Enable the **Require Item Return Reason** toggle switch.      
   As a result, when processing a return, a **Return Reason Code** will be required.
 
-  ![spain_2](Images/spain_2.png)
+   ![spain_2](Images/spain_2.png)
 
 10. Navigate to the **ES Organizations** administrative section, and provide all the necessary information in the **ES Organization Card**.     
     The **API Key** and **Secret** are obtained from Fiskaly upon API creation. These credentials are displayed only once, so ensure they are copied and entered immediately.
 
-   ![spain_3](Images/spain_3.png)
+    ![spain_3](Images/spain_3.png)
 
 11. In the **Taxpayer** section, select the applicable business territory.      
     The system will configure compliance settings based on the selected territory (TicketBAI or Verifactu).
