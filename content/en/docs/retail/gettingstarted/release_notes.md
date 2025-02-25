@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 25.02. | [<ins>NP Pay - Merchant Account Setup improvements<ins>]({{< ref "../../np_pay/how-to/reconciliation.md" >}}) | You can now configure the **Merchant Account Setup** from the **NP Pay Merchant Accounts** page by selecting a merchant from the list, and using the **Open Setup** action in the ribbon. If no setup exists, you can create a new one. As a result, creating a setup card directly from the **NP Pay Merchant Setup** page is no longer possible.  | 
 | 13.02. | [<ins>Fiscalization compliance - Spain<ins>]({{< ref "../../fiscalization/spain/how-to/setup.md" >}}) | NP Retail is now compliant with Spanish fiscal laws. | 
 | 12.02. | [<ins>Shopify Gift Card Import into Business Central<in>]({{< ref "../../ecommerce/shopify/how-to/retail_voucher_integration_area.md" >}}) | With this new improvement, gift card sales from Shopify are now automatically imported into Business Central as retail vouchers if the necessary setup is performed. | 
 | 11.02. | [<ins>Membership alteration groups<ins>]({{< ref "../../entertainment/membership/how-to/limit_alterations.md" >}}) | You can now group membership alterations (like renewals, upgrades, and extensions) and assign them to specific POS units, ensuring only the designated alterations are available at each location. |

@@ -70,9 +70,15 @@ To set up NP Pay Reconciliation Automation in the SaaS environment, make sure th
 
 ### Set up merchant account
 
-1. Navigate back to the **NP Pay Setup** administrative section, and click **Open Merchant Account Setup** under **Actions/Additional Setup**.
-2. Select the **Merchant Account**, and assign the **Posting Source Code**.
-3. Create/assign general ledger accounts for all journal types.
+1. Navigate to the **NP Pay Merchant Accounts** page.
+2. Select a merchant, and click **Open Setup** in the ribbon.     
+   
+   ![merchant_setup](images/merchant_setup.png)     
+
+   If no associated **Merchant Account Setup** exists, the system will prompt you to create a new one.
+
+3. Assign the **Posting Source Code**.
+5. Create/assign general ledger accounts for all journal types.
 
    ![np_pay_merchant](Images/np_pay_merchant.PNG)
 
