@@ -32,7 +32,7 @@ With the proper setup, Business Central can send information about new and updat
 
    {{< alert icon="📝" text="Blocked items and item variants won't be sent to Shopify." />}}
 
-   After an item is added to the Shopify synchronization scope, each time the item or a related item variant is changed in Business Central, the following information is scheduled to be sent to Shopify:
+   After an item is added to the Shopify synchronization scope, and its item variants are included in the synchronization process, each time the item or a related item variant is changed in Business Central, the following information is scheduled to be sent to Shopify:
 
    | Field name      | Description |
    | ----------- | ----------- |
@@ -78,6 +78,19 @@ With the proper setup, Business Central can send information about new and updat
    | **Shopify Inventory Item ID** | Specifies the unique Shopify inventory item ID, which is used for managing inventory quantities in Shopify. | 
 
  {{< alert icon="📝" text="Item list synchronization is a one-way process, unless you've enabled <b>Auto Sync Item Changes from Shopify</b> option for your Shopify store and registered the webhook handler app. Furthermore, the option to sync changes from Shopify to Business Central is only available for BC SaaS environments. Otherwise, any changes made in Business Central will be synchronized to Shopify, but the changes made directly in Shopify won't be synced back to Business Central." />}}
+
+## Exclude item variant from synchronization
+
+If you wish to exclude specific item variants from the synchronization process with a Shopify store, follow the provided steps:
+
+1. Open the relevant **Item Card**.
+2. Click **Related** > **Item** > **Variants** in the **Item Card's** ribbon.      
+   The **Item Variants** window is displayed.   
+3. Select the **Not Available in Shopify** checkbox.
+
+   ![shopify_excl_variant](Images/shopify_excl_variant.png)
+
+   The item variant is now removed from the synchronization process, and will not be added to the Shopify store.
 
 ## Additional information
 
