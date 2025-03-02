@@ -25,14 +25,14 @@ The following POS actions in the **Menu Buttons Setup** administrative section n
 
 - **Create Click N Collect Order** with the **CREATE_COLLECT_ORD** action code is mainly used for creating Click & Collect orders via POS in the local store.     
 
-In the **POS Parameter Values section**, you can pre-set the order amount percentage that needs to be made by a customer as prepayment. in the **prepaymentPercent** row. If not set, customers will be prompted to insert a percentage which will be taken as prepayment in the sales order.  
+In the **POS Parameter Values section**, you can pre-set the order amount percentage that needs to be made by a customer as prepayment in the **prepaymentPercent** row. If not set, customers will be prompted to insert a percentage which will be taken as prepayment in the sales order.  
 
-- **Process Click N Collect Order** with the **PROCESS_COLLECT_ORD** action code is mainly used for displaying a list of collect orders that need processing (orders that have neither been confirmed or rejected).
+- **Process Click N Collect Order** with the **PROCESS_COLLECT_ORD** action code is mainly used for displaying a list of collect orders that need processing (orders that have neither been confirmed nor rejected).
 - **Pickup Click N Collect Order** with the **DELIVER_COLLECT_ORD** action code is mainly used for delivering the processed collect orders via the POS in the collecting store. 
 
 #### See also
 
 - [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "how-to/setup/setup/index.md" >}})
-- [<ins>Crate a new Collect Workflow<ins>]({{< ref "how-to/workflow/index.md" >}})
+- [<ins>Create a new Collect Workflow<ins>]({{< ref "how-to/workflow/index.md" >}})
 - [<ins>Create a new Collect Store<ins>]({{< ref "how-to/stores/index.md" >}})
-- [<ins>Accept web-store collect order in Business Central<ins>]({{< ref "how-to/accept_web_orders/index.md" >}})
+- [<ins>Accept web-store collect orders in Business Central<ins>]({{< ref "how-to/accept_web_orders/index.md" >}})

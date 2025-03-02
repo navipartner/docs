@@ -32,5 +32,5 @@ To accept web store collect orders in Business Central, follow the provided step
 #### See also
 
 - [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
-- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
 - [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})
