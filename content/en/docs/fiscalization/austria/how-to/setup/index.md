@@ -29,7 +29,6 @@ To configure NP Retail for compliance with Austrian fiscal laws, follow the prov
 4. Create a POS audit profile that will be used for all POS units that are going to be used. Make sure the following configurations are applied: 
    - Select **AT_FISKALY** as the **Audit Handler**.
    - Make sure the **Audit Log Enabled** toggle switch is active. 
-   - Make sure the **Allow Sales and Return in the Same Transaction** toggle switch is disabled. 
 5. Open the **AT Organizations** page from the **AT Fiscalization Setup** ribbon.       
    The AT organization can be created for a company or on a POS store level.
 6. Create a new AT organization.
