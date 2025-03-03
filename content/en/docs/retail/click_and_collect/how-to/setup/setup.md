@@ -65,6 +65,6 @@ To apply the Click & Collect feature in a store, you need to attach the followin
 
 #### See also
 
-- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
 - [<ins>Create a new Collect Store<ins>]({{< ref "../stores/index.md" >}})
-- [<ins>Accept web-store collect order in Business Central<ins>]({{< ref "../accept_web_orders/index.md" >}})
+- [<ins>Accept web-store collect orders in Business Central<ins>]({{< ref "../accept_web_orders/index.md" >}})

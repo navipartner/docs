@@ -41,4 +41,4 @@ The following actions can be taken after completing the initial procedure. All o
 #### See also
 
 - [<ins>Set up Click & Collect module in NP Retail<ins>]({{< ref "../setup/setup/index.md" >}})
-- [<ins>Crate a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
+- [<ins>Create a new Collect Workflow<ins>]({{< ref "../workflow/index.md" >}})
