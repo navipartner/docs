@@ -25,7 +25,9 @@ With the proper setup, Business Central can send information about new and updat
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Items** and select the related link.     
    From the list of items, select the item you wish to send update notifications to Shopify about.
-2. In the **Shopify** section of the **Item Card** activate the **Shopify Item** toggle switch.      
+2. (Optional) Make sure you've selected the adequate **Item Category** if you want it to be copied to Shopify as a product tag.    
+   Product tags in Shopify are created for the selected category, as well as for any parent categories in the hierarchy. 
+3. In the **Shopify** section of the **Item Card** activate the **Shopify Item** toggle switch.      
    This step should be repeated for all items that you wish to be synchronized between Business Central and Shopify. 
 
    ![shopify_sync](Images/shopify_sync.PNG)
