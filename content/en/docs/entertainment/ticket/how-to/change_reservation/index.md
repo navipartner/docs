@@ -32,13 +32,13 @@ With this functionality, it is easy for you to modify a customer's ticket reserv
  
 {{< alert icon="📝" text="The <a href=\"/docs/entertainment/ticket/authorization_code_rescheduling/\">authorization code</a> is not for back office users working in Business Central. It is intended for the customer to change their own reservation online (which requires that the feature is set up on the website). This will produce a random number such as '2842-3921' which can be put on a print ticket in the Ticket Designer."/>}}
 
-1. Find the customer's ticket in the **Ticket List** (for example, by using the **External Ticket No.**).  
-2. Click **Process**, and choose **Change Ticket Reservation**.    
+3. Find the customer's ticket in the **Ticket List** (for example, by using the **External Ticket No.**).  
+4. Click **Process**, and choose **Change Ticket Reservation**.    
    A popup window is displayed. 
-3. Click the **Scheduled Time Description** cell describing the open record.    
+5. Click the **Scheduled Time Description** cell describing the open record.    
    You can now view the other admission lines.  
-4. Choose the new time and date that the customer would prefer to change to.
-5. Click **OK**.     
+6. Choose the new time and date that the customer would prefer to change to.
+7. Click **OK**.     
    Ticket reservation has been successfully changed.
 
 #### See also
