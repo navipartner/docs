@@ -37,10 +37,6 @@ The [<ins>Pay by Link<ins>]({{< ref "how-to/pay_by_link/index.md" >}}) feature e
 
 [<ins>NP Retail Emergency MPOS<ins>]({{< ref "explanation/emergency_mpos.md" >}}) is an application designed to help customers process payments when either Business Central (BC) or the Internet is unavailable. It ensures business continuity by allowing transactions even in emergency situations.
 
-### Insights
-
-You can determine the percentage distribution between new and returning shoppers across all your stores during your latest discount campaigns.
-
 ### Digital receipts
 
 NP Pay is integrated with digital receipts, which serve as virtual replacement for printed receipts. Upon completing a transaction, customers are prompted to print receipts, receive a digital receipt or skip the receipt screen. 
@@ -48,10 +44,6 @@ NP Pay is integrated with digital receipts, which serve as virtual replacement f
 ### Buy now, pay later
 
 Through the *Buy now, pay later feature*, customers can retrieve the selected store goods, and provide payments later (either in-store or online). 
-
-### Emergency POS
-
-You can install a standalone emergency POS app on your MPOS device. It allows you to record barcodes, prices, customer contact details, and process payments through the software terminal integrated with NP Pay. Once the connection to the Business Central servers is reestablished, all sales data is synced back to the Business Central database, transactions are posted, and digital receipts are sent out. 
 
 ### Smart terminals
 
