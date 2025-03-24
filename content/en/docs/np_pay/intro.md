@@ -37,14 +37,6 @@ The [<ins>Pay by Link<ins>]({{< ref "how-to/pay_by_link/index.md" >}}) feature e
 
 [<ins>NP Retail Emergency MPOS<ins>]({{< ref "explanation/emergency_mpos.md" >}}) is an application designed to help customers process payments when either Business Central (BC) or the Internet is unavailable. It ensures business continuity by allowing transactions even in emergency situations.
 
-### Digital receipts
-
-NP Pay is integrated with digital receipts, which serve as virtual replacement for printed receipts. Upon completing a transaction, customers are prompted to print receipts, receive a digital receipt or skip the receipt screen. 
-
-### Buy now, pay later
-
-Through the *Buy now, pay later feature*, customers can retrieve the selected store goods, and provide payments later (either in-store or online). 
-
 ### Smart terminals
 
 You can leverage multipurpose smart terminals that serve the purpose of traditional countertop terminals as well as support the installation of Android apps. This allows them to be used seamlessly with NaviPartner's MPOS app and the Emergency POS app. 
