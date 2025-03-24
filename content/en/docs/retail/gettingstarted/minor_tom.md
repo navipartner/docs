@@ -27,7 +27,7 @@ Minor Tom offers only the essential POS features necessary for working in retail
 
    - Both **Username** and **Password** are optional, but you can provide them if you wish to enable the auto-login feature. 
    - In the **URL** field paste the URL of the Business Central instance in the following form: https://www.examplecustomer.dynamics-retail.net.
-   - Make sure that the toggle switch is deactivated so that **OnPrem** is highligted. 
+   - Make sure that the toggle switch is deactivated so that **OnPrem** is highlighted. 
 
    **Cloud (SaaS)**
 

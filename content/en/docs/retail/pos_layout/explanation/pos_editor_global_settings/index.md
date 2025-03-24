@@ -27,7 +27,7 @@ This tab is intended for restaurant POS users only. You can add or modify admin 
 
 ## Maintenance
 
-You can view the last error stack trace easily from this tab without having to open Business Central to interract with the error log.
+You can view the last error stack trace easily from this tab without having to open Business Central to interact with the error log.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7MJd86VRWt4?si=0t87jOtNm_VW0fp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
