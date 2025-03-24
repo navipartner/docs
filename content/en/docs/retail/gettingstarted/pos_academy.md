@@ -15,9 +15,9 @@ toc: true
 type: docs
 ---
 
-The POS Academy is a series of training guides and videos that help you become more competent in using NaviPartner’s cloud-based POS solution, such as NP Retail.
+The POS Academy is a series of training guides and videos that help you become more competent in using NaviPartner’s cloud-based solutions, such as NP Retail.
 
-Its main purpose is to provide a standardized, comprehensive training program for our users. The guides are based around a fictional company that requires specific POS operations and configurations to help them with their daily work. Though your business needs may differ, the overall approach and principles explored in the provided guides may serve as an example for how you can use NaviPartner's features. The guides showcase real-life examples and best practices, and their goal is to both demonstrate a way of configuration and inspire viewers to explore new ideas and options.
+The main purpose of the academy is to provide a standardized, comprehensive training program for our users. The guides are based around a fictional company that requires specific POS operations and configurations to assist with the users' daily work. Though your business needs may differ, the overall approach and principles explored in the provided guides may serve as an example for how you can use NaviPartner's features. The guides showcase real-life examples and best practices, and their goal is to both demonstrate a way of configuration and inspire viewers to explore new ideas and options.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hZ7-MGKY4tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

@@ -29,7 +29,7 @@ The trial version of the NP Retail solution is readily available on the [<ins>Na
 4. Open one of the available solutions in your browser to get started.    
    A set of instructions is displayed. Follow these instructions to set up the application on your smart device.
 
-{{< alert icon="💡" text="If you need assistance in using the free trial version, click the <b>Help</b> button in the bottom right corner or visit the support page." />}}
+   {{< alert icon="💡" text="If you need assistance in using the free trial version, click the <b>Help</b> button in the bottom right corner or visit the support page." />}}
 
 
 5. Download the **NP Retail Cloud POS** app from the App Store, and install it. 
