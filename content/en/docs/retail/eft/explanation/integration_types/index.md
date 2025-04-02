@@ -1,6 +1,6 @@
 ---
 title: "EFT integration types"
-description: "Each EFT integration subscribes to the framework and implements the necessary operations along with any integration-specific auxiliary operations that are not supported by default in the framework."
+description: "Each EFT integration is built on a common framework, implementing essential operations along with any additional functions required for specific integrations."
 lead: ""
 date: 2023-07-06T09:00:53+02:00
 lastmod: 2023-07-06T09:00:53+02:00
@@ -15,38 +15,36 @@ toc: true
 type: docs
 ---
 
-Each EFT integration subscribes to the framework and implements the necessary operations along with any integration-specific auxiliary operations that are not supported by default in the framework.
+Each EFT integration is built on a common framework, implementing essential operations along with any additional functions required for specific integrations. These integrations are categorized into two main types:
 
-We group all EFT integrations into two categories:
+## Client-side integrations
 
-- Integrations that require a client-side component, since communication with locally-connected hardware is necessary.      
-  An example is a traditional EFT Pin pad connected to the local machine on COM, USB or ethernet.
+These require a local component for communication with connected hardware, such as an EFT PIN pad linked via COM, USB, or Ethernet.
 
-- Integrations that don't require any client-side components, since communication with the external system can be done fully from the NAV server using the C/AL and DotNet interop.         
+For client-side integrations, NP Retail provides **Stargate**, a hardware proxy that enables communication between the NST and the local POS machine. Stargate operates by compiling .NET DLLs that extend NP Retail’s request/response interface and storing them in the NAV database.
 
-  An example is a webservice-API-based integration that allows users to pay through a smartphone app via an intermediate server that links the POS, and the end customer's device.      
-  It can also be an integration that communicates with a local POS hardware device via an external server instead of a direct local route through the POS machine.
+- These DLL assemblies are deployed to local POS machines and updated via the Stargate framework.
+- To optimize performance, integration-specific graphical interfaces (GUI) should be handled locally using .NET dialogs, reducing the need for repeated communication with the NAV server.
+- A *MOCK_CLIENT_SIDE* integration is available in NP Retail as an example for developing Stargate-based EFT integrations.
+- A generic *EFTDialog.dll* assembly is also available for displaying EFT dialogs on local machines, with the source code provided upon request.
 
-{{< alert icon="📝" text="The second type of integration is usually simpler to implement and maintain, as there are fewer parts involved from NPRetail's side."/>}}
+## Server-side integrations
 
-## Client-side integration (Stargate) 
+These do not require a local component, as communication with external systems happens directly through the NAV server using C/AL and .NET interop.
 
-For client-side integrations we offer our hardware proxy (Stargate) to communicate back and forth between the NST and the local machine. Stargate works by building .NET DLLs that extend our request/response .NET interface and uploading these DLL packages into the customers NAV database where needed.
-Initial deployment of these assemblies to the local POS machines and any future assembly updates are handled by the Stargate framework.
+For server-side integrations, standard C/AL development techniques are used to manage web service requests. These integrations rely on **Transcendence**, which dynamically loads HTML, CSS, and JavaScript at runtime. The interface continuously updates every second by checking the transaction status with the NST and the external server.
 
-For Stargate integrations, the best approach to integration-specific GUI is usually to keep it local via .NET dialogs to prevent excessive ping-pongs between the client machine and the NAV server for each dialog update.   
+Common methods for implementing server-side integrations include:
 
-We have a *MOCK_CLIENT_SIDE* integration in NP Retail that can be used as an example of how to develop a Stargate EFT integration.
+- Long-polling HTTP requests (e.g., MobilePay)
+- Frequent HTTP status checks, using standard C/AL and .NET interop
+- Callback responses, which are more complex since NAV does not support open API callbacks. In such cases, an external system (e.g., Azure Functions) may be required to expose a public API for handling callbacks.
 
-On the local machine, it uses a generic *EFTDialog.dll* to show a simple EFT dialog. This assembly can be reused by other integrations if needed – the source code will be supplied upon request.
 
-## Server-side integration
+#### Examples:
 
-For server-side integrations you can use mostly standard C/AL development concepts to implement your webservice requests.
-It uses Transcendence to load HTML, CSS and JS at run-time, and displays a dialog that continually updates every second by pinging back to the NST and invoking an external server to check the transaction status.
+- Web API-based integrations that facilitate payments through a mobile app, linking the POS to the customer’s device via an intermediate server.
+- Integrations that communicate with POS hardware through an external server instead of a direct local connection.
 
-Your server-side integration will most likely be implemented via one of the following mechanisms:
 
-- Long-polling HTTP requests (e.g MOBILEPAY)
-- High frequency HTTP result check requests (these integrations should be straightforward, using the standard C/AL and .NET interop)
-- Callback responses (these integrations pose a problem for NAV as they don't support the concept of an unprotected open API; if this is an only option available to your server-side integration, you will most likely need to use an external system to expose a public API for the callback, i.e. an Azure Function, or similar).
+{{< alert icon="📝" text="Server-side integrations are generally easier to develop and maintain, as they involve fewer components on NP Retail’s side."/>}}
