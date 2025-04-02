@@ -1,6 +1,6 @@
 ---
 title: "Perform credit sales from POS"
-description: "You can create different sales documents (Invoice or Sales Order), post them automatically or manually, print them, check the customer limit, copy relevant information from the POS, and a lot more."
+description: "Depending on the button configurations and action parameters set in Business Central, the POS system can create various sales documents (Invoices or Sales Orders), process postings automatically or manually, print documents, check customer credit limits, and transfer relevant information from the POS."
 lead: ""
 date: 2023-08-03T14:41:16+02:00
 lastmod: 2023-08-03T14:41:16+02:00
@@ -14,15 +14,17 @@ weight: 112
 toc: true
 type: docs
 ---
-Depending on the button and the action parameters set up in Business Central, you can create different sales documents (Invoice or Sales Order), post them automatically or manually, print them, check the customer limit, copy relevant information from the POS, and a lot more. 
+Depending on the button configurations and action parameters set in Business Central, the POS system can create various sales documents (Invoices or Sales Orders), process postings automatically or manually, print documents, check customer credit limits, and transfer relevant information from the POS.
 
 ## Perform credit sale – invoice
 
-The following article goes through the procedure of performing credit sale with posting the invoice automatically.
+This section explains how to process a credit sale where an invoice is automatically posted after the sale.
 
 ### Prerequisite in Business Central
 
-- The **Invoice Customer** [<ins>button needs to be set up<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}), and the selected sales document format needs to be **Invoice**. This is done by attaching the **SALES_DOC_EXP** action to the **Invoice Customer** POS button with the **Invoice** parameter set to **true** to make sure the invoices are posted automatically after the sale is finished. 
+- The **Invoice Customer** [<ins>button needs to be configured<ins>]({{< ref "../../../pos_layout/how-to/new_button/index.md" >}}),
+- The **SALES_DOC_EXP** action must be attached to the **Invoice Customer POS** button.
+- The **Invoice** parameter must be set to **true** to ensure automatic invoice posting.
 
 ### Procedure on the POS
 
@@ -40,7 +42,7 @@ The following article goes through the procedure of performing credit sale with 
 
 ## Issue credit vouchers as a refund in the return sale
 
-This tutorial portion describes the process of issuing credit vouchers from the POS unit as a refund in the return sale process. Make sure the prerequisites are met and follow the provided steps:
+This section describes how to issue credit vouchers as a refund when processing a return sale through the POS. Make sure the prerequisites are met and follow the provided steps:
 
 ### Prerequisites in Business Central
 
@@ -56,19 +58,20 @@ This tutorial portion describes the process of issuing credit vouchers from the 
     The item from the initial sale is displayed in a POS sales line with the negative amount attached.
 4.	Press **Go to Payment**.
 5.	Press **Issue Credit Voucher**, and then press **Issue Credit Voucher** again.     
-    A pop-up window with the automatically populated voucher amount (**5000**) is displayed. You can change the amount of the credit voucher and choose another refund payment method for the remaining amount. 
+    A pop-up window with the automatically populated voucher amount (**5000**) is displayed. You can adjust the amount of the credit voucher and choose another refund payment method for the remaining amount. 
 6.	Press **OK**.     
     The credit voucher is displayed in a POS payment line with the **Reference No.** **2808000106931** and the amount **5.000**.      
     The return sale is complete, and the credit voucher issued. 
 
 ## Issue a credit voucher when the sale is lower than the gift voucher amount
 
-The following guide refers to the gift voucher **2904100108599** of **6.000** used for a sale of **5.000**. Make sure that the prerequisites are met and follow the provided steps:
+This section outlines the process of issuing a credit voucher when a gift voucher is used for a purchase that is lower than its total value. The example uses **Gift Voucher 2904100108599** with a value of **6,000** for a sale of **5,000**.
 
 ### Prerequisites in Business Central
 
-- The **Retail Voucher Type** needs to be defined in the company setup so that there are **Credit Voucher** and **Gift Voucher** types.
--The credit voucher needs to be set up as a return voucher for **Gift Vouchers** which can’t be used partially. This gift voucher type is attached to the **Scan Retail Gift Voucher – Full Redeem** button.
+- The **Retail Voucher Type** must be configured in the company setup to support both **Credit Voucher** and **Gift Voucher** types.
+- The **Credit Voucher** must be defined as a return voucher for **Gift Vouchers** that cannot be partially redeemed.
+- The **Scan Retail Gift Voucher – Full Redeem** button must be assigned to this gift voucher type.
 
 ### Procedure on the POS
 

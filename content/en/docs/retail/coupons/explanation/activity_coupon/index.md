@@ -1,6 +1,6 @@
 ---
 title: "Activity coupons"
-description: "Activity coupons can either be printed or taken out of magazine/newspaper cuttings. There are usually multiple activity coupons issued with the same number, and each one is redeemed against a single item."
+description: "Activity coupons provide discounts on specific items and can be either printed or obtained from magazines or newspapers. Multiple coupons can share the same coupon number, but each coupon can only be redeemed for a single item."
 lead: ""
 date: 2023-12-15T11:48:49+01:00
 lastmod: 2023-12-15T11:48:49+01:00
@@ -15,11 +15,19 @@ toc: true
 type: docs
 ---
 
-Activity coupons can either be printed or taken out of magazine/newspaper cuttings. There are usually multiple activity coupons issued with the same number, and each one can be redeemed against a single item.
+Activity coupons provide discounts on specific items and can be either printed or obtained from magazines or newspapers. Multiple coupons can share the same coupon number, but each coupon can only be redeemed for a single item.
 
-These coupons offer a discount amount or a discount percentage which can be applied to a predefined list of items. There are no priorities on the items - a single coupon can be applied to a single item unit stated in the list.
+## How activity coupons work
 
-For example, if a customer purchases two or three items eligible for a coupon discount, and they have only one coupon, that coupon will be applied to only one item on the list. However, if they have more than one coupon, they can use them at the same time, and apply them to the corresponding number of items. 
+- Coupons apply a fixed discount amount or a discount percentage to eligible items.
+- There is no priority among items - each coupon applies to only one eligible item per use. 
+
+## Example usage
+
+- A customer purchases two eligible items but has only one coupon. The coupon applies to only one of the items.
+- If the customer has two coupons, both items can receive a discount. 
+
+## Rules for coupon application
 
 If two items with the same item reference number are purchased during the same sale, and the customer has provided two coupons, they are applied to both items respectively, as each item is unique. Therefore, the salesperson will scan the item twice instead of changing the quantity of the first item to 2 on the first sale line. Afterwards, the salesperson will scan the coupons.
 

@@ -1,6 +1,6 @@
 ---
 title: "EFT lookup"
-description: "In NP Retail, the EFT module supports looking up past transaction results, if the EFT integration in use supports it."
+description: "In NP Retail, the EFT module allows users to review past transaction results, provided the EFT integration in use supports this feature."
 lead: ""
 date: 2023-07-06T09:16:47+02:00
 lastmod: 2023-07-06T09:16:47+02:00
@@ -15,20 +15,25 @@ toc: true
 type: docs
 ---
 
-In NP Retail, the EFT module supports looking up past transaction results, if the EFT integration in use supports it.
-This lookup transaction request can browse through results as far back in time as the integration supports. Most of them can retrieve at least the most recently finished transaction.
+In NP Retail, the EFT module allows users to review past transaction results, provided the EFT integration in use supports this feature. The lookup function enables browsing through historical transactions within the timeframe allowed by the integration, with most systems retrieving at least the most recent transaction.
 
-If NP Retail experiences a crash or an outage on any layer (ranging from the payment terminal, local POS client or BC backend server) while an EFT transaction is active, the module prompts the POS salesperson to perform lookup of the unknown transaction result the next time they use the integration.
+If an EFT transaction is interrupted due to a system crash or outage—whether on the payment terminal, local POS client, or BC backend server—NP Retail prompts the POS salesperson to retrieve the transaction result upon the next use of the EFT integration.
 
+## Possible outcomes of an EFT lookup
 
-There are a couple of outcomes that can happen from here:
+#### Transaction successfully completed with fiscal impact (payment processed)
 
-- The transaction is completed successfully with fiscal impact (the payment is performed) and we are still in the same active sale context in the POS.
-NPRetail creates the missing payment line in the active sale.
-- The transaction is completed successfully with fiscal impact, but we are no longer in the same active sale context.   
-NP Retail prompts the salesperson about the out-of-sync payment and expects either a resume of the relevant POS sale which might be parked followed by another EFT lookup.   
-If the original POS sale has been cancelled, the manual cancellation (void or refund) on the payment terminal used for the payment is required to bring the two systems back in sync.
-- The transaction is completed successfully with no fiscal impact.    
-We are in sync, and the salesperson is informed about it via a prompt.
-- Lookup failed.   
-NP Retail informs the salesperson about the failed lookup and allows more lookup attempts. 
+- If the transaction is still linked to an active sale in the POS, NP Retail automatically adds the missing payment line.
+
+- If the transaction is no longer linked to an active sale:
+  - The system notifies the salesperson about the out-of-sync payment.
+  - The salesperson may need to resume a parked sale and perform another EFT lookup.
+  - If the original sale was canceled, the payment must be manually voided or refunded at the terminal to ensure both systems are synchronized.
+
+#### Transaction successfully completed without fiscal impact
+
+- The system is already in sync, and the salesperson is informed via a prompt.
+
+#### Lookup failed
+
+- NP Retail notifies the salesperson of the failed attempt and allows additional lookup attempts if needed.

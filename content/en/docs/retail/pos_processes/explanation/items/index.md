@@ -15,24 +15,41 @@ toc: true
 type: docs
 ---
 
-Items are products that are sold to customers in stores, restaurants, and other establishments. You can purchase or manufacture and resell them to customers. As such, each item needs to be registered in its own **Item Card**. Item cards hold information required to buy, store, sell, deliver, and account for items. An item can be structured as a parent item with underlying child items in a bill of materials (BOM) or as a complete or a manufactured item. 
+Items represent the products sold to customers in stores, restaurants, and other establishments. These products can be purchased, manufactured, and resold. Each item must be registered in an **Item Card**, which stores essential information for purchasing, storing, selling, delivering, and accounting for the item.
+
+An item can be structured in different ways:
+
+- As a parent item with associated child items in a bill of materials (BOM).
+- As a complete product that is purchased and sold as-is.
+- As a manufactured item that requires production before sale.
 
 ## Dependencies/prerequisites
 
-There are a few prerequisites for registering an item. If the following entities aren’t created beforehand, they can be created at the time of registering the item: 
+Before creating an item, ensure that the following entities are set up. If they are not already created, they can be configured while registering the item.
 
-- **Item categories**     
-  Although not mandatory, there are a few advantages to using item groups to group items that share certain characteristics. There are certain properties or presets that can be defined in an **Item Category Card** that will help you create an item more quickly. Whatever properties are defined in an item category will be copied over to the **Item Card** of the item that belongs to it. 
-- **Posting groups**    
-  The following posting groups should be set up: 
-    - **Inventory Posting Group** – assigns the inventory account that will be used by the item. 
-    - **Gen. Prod. Posting Group** – assigns appropriate G/L accounts according to the **General Ledger Posting Setup**. 
-    - **VAT Prod. Posting Group** – assigns appropriate G/L accounts according to the **VAT Posting Setup**. 
-    - **VAT Bus. Posting Gr. (Price)** – assigns the **VAT Business Posting Group** to the product. This group isn’t mandatory, but it’s recommended. 
-- **Unit of measure**      
-  If you predefine in what unit of measure your items are being kept, purchased, and sold, you won’t need to create it, only to assign it.
-- **Vendor**      
-  If you define the source from which you purchase the goods, you should also define the vendor in advance. If you purchase the same item from multiple vendors, you can connect those vendors to the **Item Card**. The vendors will then be displayed on the **Item Vendor Catalog** page, so that you can easily select an alternate vendor. 
+### Item Categories (Optional)
+
+While not mandatory, item categories provide advantages when grouping similar items. Defining an **Item Category Card** allows certain properties and presets to be copied to the **Item Card**, speeding up the item creation process.
+
+### Posting Groups
+
+The following posting groups must be configured to ensure proper financial tracking:
+
+| Posting Group      | Description |
+| ----------- | ----------- |
+| **Inventory Posting Group** | Assigns the inventory account used for the item. |
+| **Gen. Prod. Posting Group** | Defines the general ledger (G/L) accounts based on the **General Ledger Posting Setup**. |
+| **VAT Prod. Posting Group** | Defines the appropriate G/L accounts based on the **VAT Posting Setup**. |
+| **VAT Bus. Posting Gr. (Price)** | Assigns a **VAT Business Posting Group** to the item. This is optional but recommended. |
+
+### Unit of measure
+
+Predefining units of measure for storing, purchasing, and selling items simplifies item setup. If units of measure are already defined, they only need to be assigned to the item.
+
+### Vendor
+
+If items are sourced from specific vendors, the vendor should be set up in advance. If an item is purchased from multiple vendors, they can be linked to the **Item Card**. These vendors will be displayed on the **Item Vendor Catalog** page, allowing for quick vendor selection.
+
 
 #### See also
 

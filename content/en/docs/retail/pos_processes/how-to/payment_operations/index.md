@@ -1,6 +1,6 @@
 ---
 title: "Perform different payment operations"
-description: "There are many variations to the basic POS payment process. Refer to these tutorials for more information."
+description: "There are multiple ways to process payments through the POS system. This section outlines how to apply payments to open sales documents, accept customer deposits, perform pay-out/pay-in operations, create sales orders with prepayments, and park sales for later retrieval."
 lead: ""
 date: 2023-08-03T14:18:46+02:00
 lastmod: 2023-08-03T14:18:46+02:00
@@ -15,11 +15,11 @@ toc: true
 type: docs
 ---
 
-There are many variations to the basic POS payment process. Some of them are outlined in this tutorial portion.
+There are multiple ways to process payments through the POS system. This section outlines how to apply payments to open sales documents, accept customer deposits, perform pay-out/pay-in operations, create sales orders with prepayments, and park sales for later retrieval.
 
 ## Apply payments to open sales documents on the POS 
 
-Apply the payment via the POS to open sales documents, in order to allow the customers to pay for invoices with cash, vouchers, or via a payment terminal. 
+Payments can be applied to open sales documents, allowing customers to pay invoices using cash, vouchers, or a payment terminal.
 
 #### Prerequisites
 
@@ -29,23 +29,20 @@ Apply the payment via the POS to open sales documents, in order to allow the cus
 #### Procedure
 
 1. Open the POS. 
-2. Press **Customers**.     
-   The menu with customer functions is displayed. 
-3. Press **Payment from Customer for Applying Invoices**.     
+2. Select **Customers** to display customer functions.     
+3. Choose **Payment from Customer for Applying Invoices**.     
    The list of customers is displayed. 
 4. Find and select the customer that will reconcile a sales document, then press **OK**.    
    The list of all open customer ledger entries for the selected customer is displayed. 
-5 Find the sales document that the customer wants to settle.     
-1. Input the amount that the customer needs to pay in the **Amount to Apply** field. 
-2. Press **OK** to create a sales line on the POS with the input amount. 
-3. Press **Go to payment**. 
-4. Finish the sale by pressing the **Cash Payment** button. 
-5.  Confirm the amount in the **Cash** pop-up window.     
-    When the POS entry has been posted, you will see that the customer ledger entry is closed with this payment. 
+5. Find the sales document that the customer wants to settle, and enter the amount to be applied in the **Amount to Apply** field.     
+6. Press **OK** to create a sales line for the applied amount. 
+7. Proceed to payment by selecting **Go to payment**. 
+8. Finalize the sale by selecting **Cash Payment** and confirming the amount. 
+   Once the transaction is posted, the customer ledger entry is closed. 
 
 ## Accept customer deposits from the POS
 
-The deposits are tied to the customer’s balance and can be applied to past and future sales documents in Business Central. Follow the provided steps to accept customer deposits from the POS:
+Customer deposits can be recorded through the POS and later applied to past or future sales documents in Business Central. Follow the provided steps to accept customer deposits from the POS:
 
 #### Prerequisites
 
@@ -55,26 +52,23 @@ The deposits are tied to the customer’s balance and can be applied to past and
 #### Procedure
 
 1. Open the POS. 
-2. Press **Customers** to open the menu with customer functions.     
+2. Select **Customers** to display customer functions.     
    The **Customer Menu** window is displayed. 
-3. Press **Payment from the Customer for Deposit**. 
-4. Input the amount that the customer wants to deposit in the dialog box and press **OK**.    
+3. Choose **Payment from the Customer for Deposit**. 
+4. Enter the deposit amount in the dialog box and press **OK**.    
    The **Customers** window is displayed. 
-5. Select the customer from the customer list. 
-6. Press **OK** to create a sales line on the POS with the input amount. 
+5. Select the customer from the displayed list. 
+6. Confirm by selecting **OK**, creating a sales line with the deposit amount. 
 7. Press the **Go to payment** button. 
-8. Finish the sale by pressing the **Cash Payment** button.     
-   When the POS entry has been posted, you’ll be able to see the payment in the customer's ledger entries as an open payment. 
+8. Complete the transaction by selecting **Cash Payment**.     
+   Once posted, the payment appears in the customer's ledger entries as an open payment.
 
 ## Pay-out/Pay-in from the POS 
 
-This topic describes the process of taking cash out of and putting it into the payment bin attached to the POS unit. 
+The Pay-Out and Pay-In functions allow cash to be taken from or added to the POS payment bin. These operations create general ledger entries.
 
-Both pay-out and pay-in operations create general ledger entries on a selected G/L account. 
-
-These features are used when the salespeople need cash in-hand to pay for products/services for the store/employees, and when there is leftover cash that needs to be put back into the POS payment bin.  
-
-For instance, you can use Pay-out when there is an immediate need to buy office or cleaning supplies, or if an employee is sent to buy lunch on the store’s budget. If there is any leftover cash, then the Pay-in button can be used to put the money back into the payment bin. 
+- Pay-Out is used when store employees need cash for immediate purchases, such as office supplies.
+- Pay-In is used to return leftover cash to the payment bin.
 
 To use the pay-out and pay-in functionalities, make sure the prerequisites are met, and follow the provided steps: 
 
@@ -89,22 +83,22 @@ To use the pay-out and pay-in functionalities, make sure the prerequisites are m
 2. Press **Other Functions**.     
    The table with available functions is displayed. 
 3. Press **Pay-Out**. 
-4. Input the amount that you want to take from the payment bin and press **OK**. 
-5. Select the G/L account **Office Supplies**. 
-6. Finish the sale with the **Cash** payment method to take out money. 
+4. Enter the amount to withdraw, and select **OK**. 
+5. Select the appropriate G/L account, such as **Office Supplies**. 
+6. Finalize the transaction using **Cash** payment. 
 
 ### Pay-in procedure
 
 1. Open the POS. 
 2. Press **Other Functions**. 
 3. Press **Pay-In**. 
-4. Input the amount that you want to put into the payment bin, i.e., the leftover cash from a previous pay-out, and press **OK**. 
-5. Select the **Office Supplies** G/L account. 
-6. Finish the sale with Cash payment method. 
+4. Enter the amount to return to the payment bin and select **OK**. 
+5. Select the appropriate G/L account. 
+6. Finalize the transaction using **Cash** payment. 
 
 ## Create a sales order with prepayment
 
-This article describes the process of creating sales orders with prepayment. It is a type of a credit sale defined via buttons and the action parameter setup. 
+Sales orders with prepayments allow customers to partially pay for an order upfront. To create a sales order with prepayment, make sure the prerequisites are met, and follow the provided steps:
 
 #### Prerequisites
 
@@ -135,12 +129,12 @@ This article describes the process of creating sales orders with prepayment. It 
 
 ## Park a sale from the POS (save/retrieve sale)
 
-The Park Sale feature gives you the option to quickly save and later retrieve the same sale when a customer needs to delay finishing the sale, and you want to process another sale in the meantime.  
+The Park Sale feature allows sales to be temporarily saved and retrieved later. This is useful when a customer needs more time before completing the transaction.
  
-Some of the most common situations leading to saving the sales are: 
+Common scenarios:
 
-- the customer is missing items on the purchase needs to peruse the store again.  
-- the customer has forgotten their wallet/phone in the car. 
+- The customer forgot an item and needs to browse the store again.  
+- The customer left their wallet or phone in their car. 
 
 To park a sale from the POS, make sure the prerequisite is met, and follow the provided steps: 
 
