@@ -27,6 +27,7 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 
 ### Prerequisite
 
+- Download and install [<ins>NP Retail Emergency Mpos<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos).
 - Install the **Adyen Payments** app if you're also using the [<ins>Tap to pay<ins>]({{< ref "../tap_to_pay/index.md" >}}) feature.      
   There is both a live and a test version of this app in the Google Play store. 
 
