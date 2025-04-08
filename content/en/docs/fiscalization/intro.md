@@ -30,5 +30,6 @@ To learn how to achieve compliance with fiscalization requirements imposed by fi
 - [<ins>Fiscalization compliance - Norway<ins>]({{< ref "norway/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Serbia<ins>]({{< ref "serbia/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Slovenia<ins>]({{< ref "slovenia/how-to/setup/index.md" >}})
+- [<ins>Fiscalization compliance - Spain<ins>]({{< ref "spain/how-to/setup/index.md" >}})
 - [<ins>Fiscalization compliance - Sweden<ins>]({{< ref "sweden/how-to/setup/index.md" >}})
 
