@@ -1,55 +1,88 @@
 # Technical guide for contributors
 
-Hugo Doks is a new tool that we're using for contributing to our [documentation portal](https://docs.navipartner.com/).
+[Hugo Doks](https://getdoks.org/) is a new tool that we're using for contributing to our [documentation portal](https://docs.navipartner.com/).
 
 ## Contributing in desktop editors
 
 ### Prerequisites
 
-To start working with the documentation repository, make sure the following prerequisites are met:
+Before working with the documentation repository, ensure the following tools are installed:
 
-- Install [Node.js](https://nodejs.org/en)
-   Follow [this guide](https://phoenixnap.com/kb/install-node-js-npm-on-windows) if you need additional help in its installation.
-- Install [Git](https://git-scm.com/)
-- Install Visual Studio Code/GitHub Editor (if you plan on using it as a code editor); otherwise, you just need a link to [our browser editor](https://github.dev/navipartner/docs)
-- Request a contributor role for the repo from me, Gustav or Mikkel Mansa.
+- [Node.js](https://nodejs.org/en)
+  Follow [this guide](https://phoenixnap.com/kb/install-node-js-npm-on-windows) if you need help with the installation. Node.js is required to run commands for testing and generating content locally.
+- [Git](https://git-scm.com/)
+- Code Editor
+  It's recommended that you install [Visual Studio Code](https://code.visualstudio.com/) if you wish to use a desktop code editor. However, you can also use [our browser editor](https://github.dev/navipartner/docs) if that's your preferred method.
+- Repository access
+  Request contributor access from Gustav or Mikkel Mansa.
 
 ### Procedure
 
-1. Clone the docs repo in your Visual Studio Code/GitHub editor.
-2. Run _npm install_ in your **Terminal**.
-3. Use the _npm run create_ + _filepath_ command to create new files, e.g. _npm run create docs/retail/reimbursement/how-to/setup/index.md_ .
-   Refer to the difference between the _index.md and index.md files specified below in the Useful information section.
-5. Make sure the **Weight** parameter in the metadata section corresponds to the area of the table of contents that you wish to place the doc in.
-6. Make sure you add a description in the corresponding parameter.
-7. Make sure you've added a **Title**.
-8. Once you're done editing, commit and push.
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [docs repo](https://github.com/navipartner/docs) in your Visual Studio Code/GitHub editor.
+
+  ![image](https://github.com/user-attachments/assets/ff0ef5d0-7d82-4477-82ac-499003eaa153)
+
+2. Install dependencies by running _npm install_ in your **Terminal**.
+   ```bash
+   npm install
+   ```
+   This ensures all required Node modules are available. Now, you can start working on the content.
+3. Click the name of the branch in the bottom left corner of Visual Studio Code, then click **Create New Branch** in the dropdown that is displayed at the top of the screen.
+4. Use the following nomenclature when creating new branches: _topic/your_initials/short_description_
+
+    Example:
+    ```bash
+    topic/js/creating_new_articles
+    ```
+    This helps keep branches organized and avoids conflicts.
+  
+5. To create new files, choose the place within the menu in which it makes sense to place it, and use the following command: __npm run create_ + _filepath__
+
+    Example:
+    ```bash
+    npm run create docs/retail/reimbursement/how-to/setup/index.md
+    ```
+    Refer to the difference between the _index.md and index.md files specified below in the **Useful information section**.
+8. Update metadata in the frontmatter of your .md file:\
+  - Set the Weight value to control where the doc appears in the TOC.
+  - Add a Title.
+  - Add a Description.
+
+  ![image](https://github.com/user-attachments/assets/743a93de-941e-402d-83f6-f370be7ccee8)
+
+7. Once you're done editing, commit and push your changes.
 
 
-
-## Contributing in the browser editor
+## Working in the browser editor
 
 1. Go to https://github.dev/navipartner/docs.
-2. Pull, or otherwise make sure the state of the main branch is up-to-date.
-3. Find the file you wish to edit (content/docs).
-4. Commit and push.
-5. Open https://github.com/navipartner/docs in your browser, and click Compare and Pull Request.
+2. Pull the latest changes to ensure your main branch is up to date.
+3. Navigate to the file you want to edit (content/docs).
+4. Make your edits, then commit and push.
+5. Open https://github.com/navipartner/docs in your browser, and click **Compare & Pull Request** to submit your changes.
 
 ## Create new files in the browser editor
 
 ### Prerequisites
 
-- Make sure Node.js is installed, along with its NPM commands.
+- Node.js must be installed, along with its npm commands.
 
 ### Procedure
 
-1. Run _npm install_ in your **Terminal**.
-2. Use the _npm run create_ + _filepath_ command to create new files, e.g. _npm run create docs/retail/reimbursement/how-to/setup/index.md_ .
+1. In your **Terminal**, run:
+   ```bash
+   npm install
+   ```
+3. Then create the file:
+   ```bash
+   npm run create docs/retail/reimbursement/how-to/setup/index.md
+   ```
+5. Use the _npm run create_ + _filepath_ command to create new files, e.g. _npm run create docs/retail/reimbursement/how-to/setup/index.md_ .
    Refer to the difference between the _index.md and index.md files specified below in the Useful information section.
-3. Make sure the **Weight** parameter in the metadata section corresponds to the area of the table of contents that you wish to place the doc in.
-4. Make sure you add a description in the corresponding parameter.
-5. Make sure you've added a **Title**.
-6. Once you're done editing, commit and push.
+6. Make sure the **Weight** parameter in the metadata section corresponds to the area of the table of contents that you wish to place the doc in.
+7. Make sure you add a description in the corresponding parameter.
+8. Make sure you've added a **Title**.
+9. Once you're done editing, commit and push.
 
 # Useful information
 
