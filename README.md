@@ -42,15 +42,17 @@ Before working with the documentation repository, ensure the following tools are
     ```bash
     npm run create docs/retail/reimbursement/how-to/setup/index.md
     ```
-    Refer to the difference between the _index.md and index.md files specified below in the **Useful information section**.
-8. Update metadata in the frontmatter of your .md file:\
-  - Set the Weight value to control where the doc appears in the TOC.
-  - Add a Title.
-  - Add a Description.
+    Be mindful of the difference between the _index.md and index.md files specified below in the **Useful information section**.
+8. Update metadata in the frontmatter of your .md file:
+  - Set the **Weight** value to control where the doc appears in the TOC.
+  - Add a **Title**.
+  - Add a **Description**.
 
   ![image](https://github.com/user-attachments/assets/743a93de-941e-402d-83f6-f370be7ccee8)
 
-7. Once you're done editing, commit and push your changes.
+  Refer to the [Contributor guide](https://github.com/navipartner/docs/wiki/Contributor-guide) for more information on formatting, structure etc.
+
+7. Once you're done editing the topic, commit and push your changes.
 
 
 ## Working in the browser editor
