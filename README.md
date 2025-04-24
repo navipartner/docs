@@ -22,13 +22,28 @@ Before working with the documentation repository, ensure the following tools are
 
   ![image](https://github.com/user-attachments/assets/ff0ef5d0-7d82-4477-82ac-499003eaa153)
 
-2. Install dependencies by running _npm install_ in your **Terminal**.
+  Cloning is essentially the process of copying the content and structure of the help portal, in its current production state. 
+  There are multiple ways to perform cloning, one of them being the following:
+  - Use the Ctrl + Shift + P keybord combo to open Git commands in the search bar up-top.
+  - Select **Git: Clone** from the dropdown list.
+  - Provide the URL from the screenshot (https://github.com/navipartner/docs.git).
+  - Press **Enter**.
+  - You will also need to provide your account info and select the destination for the cloned repo.
+
+2. Open the terminal, and provide the following commands:
+
+   ```bash
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+   ```
+   
+3. Install dependencies by running _npm install_ in your **Terminal**.
    ```bash
    npm install
    ```
    This ensures all required Node modules are available. Now, you can start working on the content.
-3. Click the name of the branch in the bottom left corner of Visual Studio Code, then click **Create New Branch** in the dropdown that is displayed at the top of the screen.
-4. Use the following nomenclature when creating new branches: _topic/your_initials/short_description_
+4. Click the name of the branch in the bottom left corner of Visual Studio Code, then click **Create New Branch** in the dropdown that is displayed at the top of the screen.
+5. Use the following nomenclature when creating new branches: _topic/your_initials/short_description_
 
     Example:
     ```bash
@@ -36,14 +51,14 @@ Before working with the documentation repository, ensure the following tools are
     ```
     This helps keep branches organized and avoids conflicts.
   
-5. To create new files, choose the place within the menu in which it makes sense to place it, and use the following command: __npm run create_ + _filepath__
+6. To create new files, choose the place within the menu in which it makes sense to place it, and use the following command: __npm run create_ + _filepath__
 
     Example:
     ```bash
     npm run create docs/retail/reimbursement/how-to/setup/index.md
     ```
     Be mindful of the difference between the _index.md and index.md files specified below in the **Useful information section**.
-8. Update metadata in the frontmatter of your .md file:
+7. Update metadata in the frontmatter of your .md file:
   - Set the **Weight** value to control where the doc appears in the TOC.
   - Add a **Title**.
   - Add a **Description**.
@@ -52,7 +67,7 @@ Before working with the documentation repository, ensure the following tools are
 
   Refer to the [Contributor guide](https://github.com/navipartner/docs/wiki/Contributor-guide) for more information on formatting, structure etc.
 
-7. Once you're done editing the topic, commit and push your changes.
+8. Once you're done editing the topic, commit and push your changes.
 
 
 ## Working in the browser editor
