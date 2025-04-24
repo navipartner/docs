@@ -21,6 +21,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 24.04. | [<ins>External Job Queue Refresher<ins>]({{< ref "../posting_setup/how-to/job_queue_refresher/index.md" >}}) | Job Queue Refresher has been redesigned to bring more reliability and control to how job queues are managed in Business Central SaaS environments. |
 | 16.04. | Print and Admit action as a POS Input Box function | The **TM_PRINT_AND_ADMIT** POS action can now be run from the POS input box, provided it has previously been listed under the [<ins>**POS Input Box Setup Events**<ins>]({{< ref "../pos_profiles/how-to/input_box_prof/index.md" >}}) in Business Central. | 
 | 11.04. | Ticket List Price fields | Two new fields, **List Price Incl. VAT** and **List Price Excl. VAT**, have been added to the **Ticket Table**, **Ticket List**, and **Ticket Reservation Request**. These fields store the ERP base price adjusted by dynamic pricing—before discounts are applied—and are updated at the end of sale. | 
 | 11.04. | POS action for rebooking reservations with price adjustment | A new POS action, TM_REBOOK_FOR_TODAY, allows users to scan a previously issued ticket, revoke it, and issue a new ticket for the same event on the current day, applying today's pricing. The system automatically handles any price difference between the original and new ticket. |
