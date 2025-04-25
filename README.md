@@ -71,8 +71,9 @@ Before working with the documentation repository, ensure the following tools are
 
    ```bash
    npm run start
-   ```
-  The website will be generated locally, most likely on _http://localhost:1313/_.
+   ```      
+   The website will be generated locally, most likely on _http://localhost:1313/_.
+   
 9. Once you're done editing the topic, commit and push your changes.
 
 
