@@ -67,7 +67,13 @@ Before working with the documentation repository, ensure the following tools are
 
   Refer to the [Contributor guide](https://github.com/navipartner/docs/wiki/Contributor-guide) for more information on formatting, structure etc.
 
-8. Once you're done editing the topic, commit and push your changes.
+8. To test the changes you make on the help portal locally, use the following command:
+
+   ```bash
+   npm run start
+   ```
+  The website will be generated locally, most likely on _http://localhost:1313/_.
+9. Once you're done editing the topic, commit and push your changes.
 
 
 ## Working in the browser editor
