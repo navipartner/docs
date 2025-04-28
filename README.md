@@ -148,4 +148,4 @@ Edit the "width" param in the assets/scss/common/_global.scss file. Currently, i
 
 https://hugomods.com/docs/images/
 
-Example without shortcodes: <image src="Images/edit_icon.PNG" width="30" height="30">
+Example without shortcodes: \<image src="Images/edit_icon.PNG" width="30" height="30">
