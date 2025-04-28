@@ -37,28 +37,48 @@ Before working with the documentation repository, ensure the following tools are
      git config --global user.email "your.email@example.com"
    ```
    
-3. Install dependencies by running _npm install_ in your **Terminal**.
+3. Open the **Terminal**, and ensure that the filepath is correct, i.e. that it leads to the folder in which the repo is stored.
+
+   ![image](https://github.com/user-attachments/assets/eeb93fac-7b5c-4dc0-bdca-236de4a46028)
+
+4. Install dependencies by running _npm install_ in your **Terminal**.
    ```bash
    npm install
    ```
    This ensures all required Node modules are available. Now, you can start working on the content.
-4. Click the name of the branch in the bottom left corner of Visual Studio Code, then click **Create New Branch** in the dropdown that is displayed at the top of the screen.
-5. Use the following nomenclature when creating new branches: _topic/your_initials/short_description_
+5. Click the **Source Control** icon in the left sidebar.       
+
+   ![image](https://github.com/user-attachments/assets/0c18286c-0bc2-4c62-b7aa-1731e09ea345)
+   
+6. Git **Pull** from the master branch on the server.        
+
+   ![image](https://github.com/user-attachments/assets/9e105793-f35b-44b6-be08-cf84bd2c4356)
+
+   This ensures that the project version clone you have locally is up to date. 
+7. Click the name of the branch in the bottom left corner of Visual Studio Code, then click **Create New Branch** in the dropdown that is displayed at the top of the screen.     
+
+   ![image](https://github.com/user-attachments/assets/9c844075-9de1-492e-88ef-cf984b6cf189)
+
+8. Use the following nomenclature when creating new branches: _topic/your_initials/short_description_
 
     Example:
     ```bash
     topic/js/creating_new_articles
     ```
+    ![image](https://github.com/user-attachments/assets/f5b7049e-cf93-4193-87e2-0f7089280d3f)
+
     This helps keep branches organized and avoids conflicts.
   
-6. To create new files, choose the place within the menu in which it makes sense to place it, and use the following command: __npm run create_ + _filepath__
+9. To create new files, choose the place within the menu in which it makes sense to place it, and use the following command in the Visual Studio Code **Terminal**: __npm run create_ + _filepath__
 
     Example:
     ```bash
     npm run create docs/retail/reimbursement/how-to/setup/index.md
     ```
-    Be mindful of the difference between the _index.md and index.md files specified below in the **Useful information section**.
-7. Update metadata in the frontmatter of your .md file:
+    ![image](https://github.com/user-attachments/assets/10892bdc-c190-4b4b-8d16-76e679d98321)      
+    
+   Be mindful of the difference between the _index.md and index.md files specified below in the **Useful information section**.
+11. Update metadata in the frontmatter of your .md file:
   - Set the **Weight** value to control where the doc appears in the TOC.
   - Add a **Title**.
   - Add a **Description**.
