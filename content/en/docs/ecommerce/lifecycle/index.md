@@ -23,6 +23,7 @@ Therefore, NP Ecommerce is following the Magento Open Source release cycle, and 
 
 | Release      | General availability | End of software support[^1] | Dependent PHP version | 
 | ----------- | ----------- | ----------- | ----------- |
+| 2.4.8 | April 8, 2025  | April 11, 2028 | 8.3 and 8.4 |
 | 2.4.7 | April 9, 2024  | April 9, 2027 | 8.2 and 8.3 |
 | 2.4.6 | March 14, 2023 | March 14, 2026 | 8.1 and 8.2 |
 | 2.4.5 | August 9, 2022 | August 9, 2025 | 8.1 |
