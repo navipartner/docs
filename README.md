@@ -14,7 +14,7 @@ Before working with the documentation repository, ensure the following tools are
 - Code Editor
   It's recommended that you install [Visual Studio Code](https://code.visualstudio.com/) if you wish to use a desktop code editor. However, you can also use [our browser editor](https://github.dev/navipartner/docs) if that's your preferred method.
 - Repository access
-  Request contributor access from Gustav or Mikkel Mansa.
+  Request contributor access from Mikkel Mansa.
 
 ### Procedure
 
