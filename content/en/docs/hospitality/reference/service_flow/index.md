@@ -15,20 +15,22 @@ toc: true
 type: docs
 ---
 
-The following fields and options are available in the **Rest. Service Flow Profile Card**:
+The following fields and options are available on the **Rest. Service Flow Profile Card**:
 
 | Field Name      | Description |
 | ----------- | ----------- |
-| **Code** | Specifies the ID of the service flow. | 
-| **Description** | Specifies the type of the process that the restaurant wishes to adopt, e.g. à la carte restaurant with payment after dining. | 
-| **AutoSave to W/Pad on Sale End** | Specifies whether the items placed in the POS sale and other accompanying selected functions are automatically saved to a waiter pad at the end of the sale. The configuration is done with the **NEW_WAITER_PAD** POS action. | 
-| **Close Waiter Pad On** | Specifies the stage at which the waiter pad is going to be closed automatically, e.g. Payment if served. |
-| **Only if Fully Paid** | Specifies whether waiter pads are only automatically closed after full payment is received. If disabled, the waiter pads will automatically be closed after the initial payment, even if the sale remains partially unpaid afterwards. | 
-| **Clear Seating On** | Specifies the stage at which the seating on a table will be cleared and reset to empty, e.g. Waiter pad closed. | 
-| **Seating Status after Clearing** | Specifies the status code that is going to be assigned to seatings on clearing. E.g. **Ready** - it is assumed that the waiter cleans the table after the guest has paid for the meal and departed. | 
-| **W/Pad Ready for Pmt. Status** | Specifies the ready-for-payment status code on the waiter pad. |
+| **Code** | DEFAULT – The code is a general configuration that is going to be used in the Restaurant Setup. | 
+| **Description** | What Kind of process we want to adopt? For example: A'la carte restaurant with payment after dining | 
+| **AutoSave to W/Pad on Sale End** | Specifies whether the items placed in the POS sale and other accompanying selected functions are automatically saved to a waiter pad at the end of the sale. The configuration is done with the **NEW_WAITER_PAD** POS action. |
+| **New Waiter Pad Action** | Specifies the code for the POS action that is used when a new waiter pad is created at the end of a sale. Recommended value is "NEW_WAITER_PAD" |
+| **Close Waiter Pad On** | At what stage of the process do we want to close the waiter pad automatically? For example: Payment |
+| **Only if Fully Paid** | We activate this condition if we want to be strict on the payment. <br> {{< alert icon="📝" text="If not enabled, system will automatically close waiter pads after the first payment, even if the sale remains partially unpaid after that."/>}} | 
+| **Clear Seating On** | At what stage do we want to clear the seating on a table and reset to empty? For example: Waiter Pad Close | 
+| **Seating Status after Clearing** | What kind of Status do we want to attribute to the table when we finish clearing the seating? Here we are setting it to READY, as we are assuming that it is the waiter that cleans the table himself after the guest paid & leaved. For example: READY <br> {{< alert icon="📝" text="It can be TOCLEAN, if we have personnel who are responsible to do the cleaning after service. Then they will do the cleaning & re-set it to READY."/>}} |
+| **Set W/Pad Ready for Pmt. On** | Specifies whether and when system should automatically change waiter pad status to "ready for payment" (the status specified in field "W/Pad Ready for Pmt. Status"). For example, we can set it to : Pre-Receipt if Served. The system will check if the last order has been served and the pre-receipt printed. |
+| **W/Pad Ready for Pmt. Status** | Specifies the "ready for payment" status code on the waiter pad. We have two options here, depends on the business flow, we can specify to ask from payment after ordered or based on the above defined logic for field: “Set W/Pad Ready for Pmt. On” |
 
-![restaurant4](restaurant4.PNG)
+![restaurant4](images/Rest_Service_Flow_Profile.png)
 
 #### See also
 
