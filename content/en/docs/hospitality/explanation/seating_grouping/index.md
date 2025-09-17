@@ -40,7 +40,9 @@ In the **Print/Prod Categories** you can predefine different categories that wil
 
 The routing profile defines how the meal (**Item**) is going to be served, and under which production category it will be grouped. When ordering a meal or an item, the system will map a route that the meal will be sent through to reach the production kitchen stations, and then the tables it was requested by.
 
-{{< alert icon="❗" text="When creating an item for the restaurant, it is important to configure the <b>Rest. Item Routing Profile</b> on the <b>Item Card</b> under the <b>NPR Properties</b> section."/>}}
+{{< alert icon="❗" text="When creating an item for the restaurant, it is important to configure the <b>Rest. Item Routing Profile</b> on the <b>Item Card</b> under the <b>NPR Properties</b> section"/>}}
+
+For more information about Restaurant item routing profiles, refer to the [<ins>Restaurant item routing profiles<ins>]({{< ref "../../explanation/routing_profiles/index.md" >}}).
 
 ![restaurant3](restaurant3.PNG)
 
