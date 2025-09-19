@@ -28,12 +28,12 @@ If you require more precise instructions, follow the provided steps:
 3. In the **Handler ID** field, select **PREMIER_PI** for the Planet integrated solution.    
    As soon as you specify the handler ID, you need to set the accompanying parameters.
 
-  {{< alert icon="📝" text="The <b>Auto Configure</b> option isn't supported for the Planet tax-free integration."/>}}
+   {{< alert icon="📝" text="The <b>Auto Configure</b> option isn't supported for the Planet tax-free integration."/>}}
 
 4. Click **Set Parameters** in the ribbon.     
-   Populate the parameter-related fields as indicated in the provided screenshot.       
+   Populate the parameter-related fields.     
 
-  ![planet_taxfree_params](Images/planet_taxfree_params.png)
+   {{< alert icon="🔒" text="Contact NaviPartner or Planet to obtain the credentials required to configure the integration."/>}}
 
 5. Select the **PROD** environment.         
    The **TEST** option should only be used internally by NaviPartner employees, and it requires a different set of parameters. 
