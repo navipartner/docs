@@ -1,63 +1,91 @@
 <!-- Manual collapsible section menu -->
 <ul class="list-unstyled collapsible-sidebar">
-  {{ $currentPage := . -}}
-  {{ $section := $currentPage.Section -}}
-  {{ range (index .Site.Menus $section) -}}
-    {{- $active := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
-    {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
+  {{- $currentPage := . -}}
+  {{- $section := $currentPage.Section -}}
+  {{- range (index .Site.Menus $section) }}
+    {{- $isActive := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+    {{- $isActive = or $isActive (eq $currentPage.Section .Identifier) -}}
+    {{- $cid := printf "section-%s" (md5 .URL) -}}
     <li class="mb-1">
-      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+      <button class="btn btn-toggle align-items-center rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#{{ $cid }}"
+              aria-expanded="{{ if $isActive }}true{{ else }}false{{ end }}">
         {{ .Name }}
       </button>
-      {{ if .HasChildren -}}
-        <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}">
+
+      {{- if .HasChildren }}
+        <div class="collapse{{ if $isActive }} show{{ end }}" id="{{ $cid }}">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            {{ range .Children -}}
-              {{ if .HasChildren -}}
+            {{- range .Children }}
+              {{- if .HasChildren }}
+                {{- $isActive2 := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+                {{- $isActive2 = or $isActive2 (eq $currentPage.Section .Identifier) -}}
+                {{- $cid2 := printf "section-%s" (md5 .URL) -}}
                 <li class="my-1 ms-3">
-                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+                  <button class="btn btn-toggle align-items-center rounded collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#{{ $cid2 }}"
+                          aria-expanded="{{ if $isActive2 }}true{{ else }}false{{ end }}">
                     {{ .Name }}
                   </button>
-                  {{ if .HasChildren -}}
-                    <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}">
+
+                  {{- if .HasChildren }}
+                    <div class="collapse{{ if $isActive2 }} show{{ end }}" id="{{ $cid2 }}">
                       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        {{ range .Children -}}
-                          {{ if .HasChildren -}}
+                        {{- range .Children }}
+                          {{- if .HasChildren }}
+                            {{- $isActive3 := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+                            {{- $isActive3 = or $isActive3 (eq $currentPage.Section .Identifier) -}}
+                            {{- $cid3 := printf "section-%s" (md5 .URL) -}}
                             <li class="my-1 ms-3">
-                              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+                              <button class="btn btn-toggle align-items-center rounded collapsed"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target="#{{ $cid3 }}"
+                                      aria-expanded="{{ if $isActive3 }}true{{ else }}false{{ end }}">
                                 {{ .Name }}
                               </button>
-                              {{ if .HasChildren -}}
-                                <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}">
+
+                              {{- if .HasChildren }}
+                                <div class="collapse{{ if $isActive3 }} show{{ end }}" id="{{ $cid3 }}">
                                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                  {{ range .Children -}}
-                                    {{- $active := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
-                                    {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-                                    <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                                  {{ end -}}
+                                    {{- range .Children }}
+                                      {{- $isActiveLeaf := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+                                      {{- $isActiveLeaf = or $isActiveLeaf (eq $currentPage.Section .Identifier) -}}
+                                      <li>
+                                        <a class="docs-link rounded{{ if $isActiveLeaf }} active{{ end }}"
+                                           href="{{ .URL | relURL }}">{{ .Name }}</a>
+                                      </li>
+                                    {{- end }}
                                   </ul>
                                 </div>
-                              {{ end -}}
+                              {{- end }}
                             </li>
-                          {{ else -}}
-                            {{- $active := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
-                            {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-                            <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                          {{ end -}}
-                        {{ end -}}
+                          {{- else }}
+                            {{- $isActiveLeaf := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+                            {{- $isActiveLeaf = or $isActiveLeaf (eq $currentPage.Section .Identifier) -}}
+                            <li>
+                              <a class="docs-link rounded{{ if $isActiveLeaf }} active{{ end }}"
+                                 href="{{ .URL | relURL }}">{{ .Name }}</a>
+                            </li>
+                          {{- end }}
+                        {{- end }}
                       </ul>
                     </div>
-                  {{ end -}}
+                  {{- end }}
                 </li>
-              {{ else -}}
-                {{- $active := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
-                {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-                <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-              {{ end -}}
-            {{ end -}}
+              {{- else }}
+                {{- $isActiveLeaf := or ($currentPage.IsMenuCurrent $section .) ($currentPage.HasMenuCurrent $section .) -}}
+                {{- $isActiveLeaf = or $isActiveLeaf (eq $currentPage.Section .Identifier) -}}
+                <li>
+                  <a class="docs-link rounded{{ if $isActiveLeaf }} active{{ end }}"
+                     href="{{ .URL | relURL }}">{{ .Name }}</a>
+                </li>
+              {{- end }}
+            {{- end }}
           </ul>
         </div>
-      {{ end -}}
+      {{- end }}
     </li>
-  {{ end -}}
+  {{- end }}
 </ul>

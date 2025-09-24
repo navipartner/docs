@@ -130,6 +130,12 @@ pre {
   margin: 2.125rem 0;
 }
 
+.collapsible-sidebar .collapse { content-visibility: auto; contain-intrinsic-size: 600px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .collapsible-sidebar .collapse { transition: none !important; }
+}
+
 .btn-toggle {
   display: inline-flex;
   align-items: center;

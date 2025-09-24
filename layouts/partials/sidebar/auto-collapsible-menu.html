@@ -1,57 +1,99 @@
 <!-- Auto collapsible section menu -->
 <ul class="list-unstyled collapsible-sidebar">
-  {{ $currentPage := . -}}
-  {{ $section := $currentPage.Section -}}
-  {{ range (where .Site.Sections "Section" "in" $section) }}
-    {{ range .Sections }}
-      {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+  {{- $current := . -}}
+  {{- $section := $current.Section -}}
+
+  {{- range (where .Site.Sections "Section" "in" $section) }}
+    {{- range .Sections }}
+      {{- $active := in $current.RelPermalink .RelPermalink -}}
+      {{- $cid := printf "sec-%s" (md5 .RelPermalink) -}}
       <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+        <button
+          class="btn btn-toggle align-items-center rounded collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#{{ $cid }}"
+          aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
           {{ .Title }}
         </button>
-        <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
+
+        <div
+          class="collapse{{ if $active }} show{{ end }}"
+          id="{{ $cid }}"
+          {{/* Uncomment to keep only one top-level section open at a time: */}}
+          {{/* data-bs-parent=".collapsible-sidebar" */}}>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            {{ range .Pages }}
-              {{ if .IsNode }}
-                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+
+            {{- range .Pages }}
+              {{- if .IsNode }}
+                {{- $active2 := in $current.RelPermalink .RelPermalink -}}
+                {{- $cid2 := printf "sec-%s" (md5 .RelPermalink) -}}
                 <li class="my-1 ms-3">
-                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+                  <button
+                    class="btn btn-toggle align-items-center rounded collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#{{ $cid2 }}"
+                    aria-expanded="{{ if $active2 }}true{{ else }}false{{ end }}">
                     {{ .Title }}
                   </button>
-                  <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
+
+                  <div
+                    class="collapse{{ if $active2 }} show{{ end }}"
+                    id="{{ $cid2 }}"
+                    {{/* data-bs-parent="#{{ $cid }}" */}}>
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                      {{ range .Pages }}
-                        {{ if .IsNode }}
-                          {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+
+                      {{- range .Pages }}
+                        {{- if .IsNode }}
+                          {{- $active3 := in $current.RelPermalink .RelPermalink -}}
+                          {{- $cid3 := printf "sec-%s" (md5 .RelPermalink) -}}
                           <li class="my-1 ms-3">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+                            <button
+                              class="btn btn-toggle align-items-center rounded collapsed"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#{{ $cid3 }}"
+                              aria-expanded="{{ if $active3 }}true{{ else }}false{{ end }}">
                               {{ .Title }}
                             </button>
-                            <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
+
+                            <div
+                              class="collapse{{ if $active3 }} show{{ end }}"
+                              id="{{ $cid3 }}"
+                              {{/* data-bs-parent="#{{ $cid2 }}" */}}>
                               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                {{ range .Pages }}
-                                  {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                                  <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                {{ end }}
+                                {{- range .Pages }}
+                                  {{- $leafActive := in $current.RelPermalink .RelPermalink -}}
+                                  <li>
+                                    <a class="docs-link rounded{{ if $leafActive }} active{{ end }}"
+                                       href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                  </li>
+                                {{- end }}
                               </ul>
                             </div>
                           </li>
-                        {{ else }}
-                          {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                          <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                        {{ end }}
-                      {{ end }}
+                        {{- else }}
+                          {{- $leafActive := in $current.RelPermalink .RelPermalink -}}
+                          <li>
+                            <a class="docs-link rounded{{ if $leafActive }} active{{ end }}"
+                               href="{{ .RelPermalink }}">{{ .Title }}</a>
+                          </li>
+                        {{- end }}
+                      {{- end }}
+
                     </ul>
                   </div>
                 </li>
-              {{ else }}
-                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-              {{ end }}
-            {{ end }}
+              {{- else }}
+                {{- $leafActive := in $current.RelPermalink .RelPermalink -}}
+                <li>
+                  <a class="docs-link rounded{{ if $leafActive }} active{{ end }}"
+                     href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+              {{- end }}
+            {{- end }}
+
           </ul>
         </div>
       </li>
-    {{ end }}
-  {{ end }}
+    {{- end }}
+  {{- end }}
 </ul>
