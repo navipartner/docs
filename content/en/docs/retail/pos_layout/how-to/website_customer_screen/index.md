@@ -16,10 +16,6 @@ type: docs
 ---
 Salespeople can make the customer display (second display) point to an external website with merchant-specific content they wish to display to the customers, after which they may switch back to the **Receipt** view. This website can, for example, contain a sign-up form, terms and conditions or some similar content that may be relevant for the current transaction. 
 
-It's also possible to enable the **Virtual Keyboard** plugin - an on-screen keyboard which the customer can use to input data on the external website, which is useful for populating various registration forms. 
-
-{{< alert icon="📝" text="The requirement for using the Virtual Keyboard plugin is to have control of the website, and to modify the Content Security Policy (CSP). The CSP should contain the frame-src Directive with the value 'data:'. Otherwise the content of the keyboard will not be loaded."/>}}
-
 To make it so that the customer screen points to an external website, it's recommended to create two buttons. The first one should point to the external website, while the second one should be used for loading the Receipt View. 
 
 The setup for both buttons is the same, the only difference being the provided values:
@@ -35,7 +31,6 @@ The setup for both buttons is the same, the only difference being the provided v
     For loading the external website:
    - Select **Website** as the **Load option**.
    - Enter the URL of the website you want to display in **Website Url**.
-   - (Optional) If you want to have the on-screen keyboard, set **Plugin: Virtual Keyboard** to **True**.
    </br>
 
 
