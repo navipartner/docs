@@ -48,18 +48,8 @@ Minor Tom offers only the essential POS features necessary for working in retail
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJW4ECnU10g?si=lGmZNIGzERzcELj-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Install Minor Tom for self-service POS (SaaS)
 
-Follow the provided steps for installing the standard layout for the non-customized SaaS self-service module. 
 
-1. Download and install [<ins>Self-Service Minor Tom<ins>](https://npminortomselfservice.blob.core.windows.net/prod/Setup.exe).
-2. Download and install [<ins>HW Connector<ins>]({{< ref "hw_connector.md" >}})
-3. Once installed, open the self-service Minor Tom, and provide the POS-relevant information in the available fields.       
+#### See also
 
-   ![ss_minor_tom](ss_minor_tom.png)      
-
-  After entering the information, a window showing all configuration settings appears. 
-
-  ![ss_mt_res](ss_mt_res.png)
-
-4. If you're satisfied with the configuration, click **Validate**.
+- [<ins>Instal Self-service Minor Tom<ins>]({{< ref "minor_tom_selfservice.md" >}})
