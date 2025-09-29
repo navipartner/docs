@@ -26,9 +26,6 @@ To enable e-invoices, follow the provided steps:
    The list of audit profiles is displayed.
 4. Create a new audit profile, and select **HU_MULTISOFTEINVOICE** as the **Audit Handler**.
 5. Enable the **Audit Log**.
-
-   ![hu_audit](Images/hu_audit.PNG)
-
 6. Make sure this audit profile is selected on all POS units in the **Profiles** section of each **POS Unit Card**.
 7. Navigate to **HU Payment Method Mapping**. 
 8. Select payment method codes will be available while processing invoices, and relate them to one of the three available payment methods.
