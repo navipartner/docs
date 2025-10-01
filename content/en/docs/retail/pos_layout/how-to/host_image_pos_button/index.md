@@ -1,5 +1,5 @@
 ---
-title: "Host Image on POS buttons"
+title: "Host image on POS buttons"
 description: "How to host and display item images on POS buttons, using either dynamic placeholders or direct image links."
 lead: ""
 date: 2023-10-10T15:16:32+02:00
@@ -19,8 +19,6 @@ type: docs
 In certain POS configurations, it is possible to assign custom images to buttons in order to improve usability and create a more intuitive layout for cashiers. This is especially helpful in environments where speed and visual recognition are important, such as in retail and hospitality.
 To achieve this, the POS allows image URLs to be linked to each button. However, these URLs must follow strict formatting rules and rely on specific data structures within the POS. 
        
-### How to Change a Button Image in the POS
-
 There are **two scenarios** for hosting images on POS buttons.
 
 In the **first scenario**, the image is linked to the item added to the sales line. The system dynamically replaces the placeholder {6} in the image URL with the actual Item No., so the correct image is displayed during the sales process.
@@ -52,11 +50,11 @@ The steps are the same as in the first scenario, except for the following differ
  - Image URL: Instead of using a dynamic placeholder, enter a **direct link** to the specific image file (for example, URL/10001.jpg).
  - Result: The image will always appear on the button itself, regardless of the sales process context.
 
-### Image Hosting Requirements
+### Image hosting requirements
 
 The image button feature requires URLs that point directly to raw image files. These URLs need to be publicly accessible without any authentication or login, and they must serve the image file itself—not redirect to preview pages or external applications. Because of this, platforms like SharePoint are not suitable for hosting these images.
 
-##### Recommended Solution
+##### Recommended solution
 
 For reliable and hassle-free hosting, we recommend using **Cloudflare** Images. To get started, create an account on Cloudflare, **upload** your images via their dashboard, and **copy the direct URLs** provided. These URLs can then be used in the POS configuration with dynamic placeholders, allowing images to load correctly based on the item numbers.
 
@@ -67,7 +65,7 @@ It might not be ideal to store images directly inside Business Central, and the 
 3.	**Retrieving** all images from Business Central SaaS is **slowe**r than pulling images from dedicated image hosts. The latency and speed of delivery are much improved when using services like Cloudflare.
 Therefore, storing images in a dedicated image hosting service like Cloudflare significantly improves both performance and cost-effectiveness.
 
-#### How to Get Started with Cloudflare for Image Hosting
+#### How to get started with Cloudflare for image hosting
 
 Cloudflare provides a simple and efficient way to host your images and serve them through their global Content Delivery Network (CDN). Below are the steps to upload and manage your images on Cloudflare, ensuring that they are ready for use in your POS system. <br>
 Steps to Upload and Use Images with Cloudflare:
