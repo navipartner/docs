@@ -22,7 +22,6 @@ The process relies on two configurable settings that must be properly set up for
 Prior to finalizing payment, a confirmation prompt allows the customer to approve or decline the provided information, which then determines whether the return proceeds or is canceled.
 
 
-
 ### Prerequsities
 
 On **Member Info Integration Setup** page, customer needs to set **Return Request Info** field. After that, the main setup – **Return Information Collection Setup**, can be accessed from action on the page.
