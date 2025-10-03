@@ -54,3 +54,7 @@ The **POS Payment Method Card** is where you define what payment method is going
 {{< alert icon="📝" text="The Denominations must be set for the currencies on the <b>POS Payment Card</b>."/>}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/czGJ2OqvsNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### See also
+
+- [<ins>Limit payment methods to specific items<ins>]({{< ref "../../../vouchers/how-to/meal_eco_setup/index.md" >}})
