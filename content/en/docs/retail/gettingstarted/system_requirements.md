@@ -156,17 +156,17 @@ All payment terminals can be used as stand-alone solutions. For integrated solut
 
 Minimum requirements:
 
-CPU: Intel i3 5th gen      
+CPU: Intel i3 8th gen      
 RAM: 4GB        
 HDD: 120GB      
-Operating system: Windows 10        
+Operating system: Windows 11
 
 Recommended requirements:
 
 CPU: Intel i5 10th gen         
 RAM: 8GB         
 SSD: 512GB          
-Operating system: Windows 10 Pro          
+Operating system: Windows 11
 
 **SmartPhones**
 
