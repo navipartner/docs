@@ -99,7 +99,7 @@ All payment terminals can be used as stand-alone solutions. For integrated solut
 
 **Adyen**
 
-- All terminals that support the [<ins>Adyen Cloud Integration<ins>](https://www.adyen.com/pos-payments/terminals) (Android 4.4 or newer, iOS 11 or newer, and Windows 10).
+- All terminals that support the [<ins>Adyen Cloud Integration<ins>](https://www.adyen.com/pos-payments/terminals) (Android 4.4 or newer, and Windows 10).
 
 **Nets**
 
@@ -170,8 +170,8 @@ Operating system: Windows 11
 
 **SmartPhones**
 
-Our system can be operated on Apple and Android smartphones and tablets.
-Hardware requirements: integrated camera
+As long as your device supports its operating system, it will continue to be supported in terms of updates and compatibility. <br>
+Hardware requirements: integrated camera <br>
 Software requirements: the latest three major versions and their updates
 
 
