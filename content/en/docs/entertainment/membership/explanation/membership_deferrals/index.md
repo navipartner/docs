@@ -1,3 +1,19 @@
+---
+title: "POS Deferral Posting"
+description: "Explains how to set up and use Deferral Templates for Membership items that require revenue to be posted on a deferral basis."
+lead: ""
+date: 2024-10-30T10:36:21+01:00
+lastmod: 2024-10-30T10:36:21+01:00
+draft: false
+images: []
+menu:
+  docs:
+    parent: ""
+    identifier: "pos_deferral_posting"
+weight: 292
+toc: true
+type: docs
+---
 For any **Membership** that is sold as an **Item** and needs to be posted on a deferral basis, a **Default Deferral Template** must be specified on the Item card.
 The **Deferral Template** defines how deferral amounts are distributed across accounting periods and determines the posting date for each transaction segment.
 The key difference between regular items and memberships is that memberships have a **validity period** (from Valid From Date to Valid Until Date), which directly influences the deferral posting schedule. In contrast, regular items follow the Deferral Template strictly, without regard to any validity period.
