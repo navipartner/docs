@@ -23,7 +23,7 @@ The ticket information structure is complex and consists of several entities whi
 
 #### See also
 
-- [<ins>Using the Ticket Designer<ins>]({{< ref "how-to/ticket_designer/index.md" >}})
+- [<ins>Using the NP Designer<ins>]({{< ref "how-to/ticket_designer/index.md" >}})
 - [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "how-to/ticket_setup_wizard/index.md" >}})
 - [<ins>Create prepaid tickets<ins>]({{< ref "how-to/create_prepaid.md" >}})
 - [<ins>Create postpaid tickets<ins>]({{< ref "how-to/create_postpaid/index.md" >}})

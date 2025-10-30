@@ -30,7 +30,7 @@ With this functionality, it is easy for you to modify a customer's ticket reserv
 
    The default **Authorization Code Scheme** is "[N*4]-[N*4]" and can be changed in **Ticket Setup**.  
  
-{{< alert icon="📝" text="The <a href=\"/docs/entertainment/ticket/authorization_code_rescheduling/\">authorization code</a> is not for back office users working in Business Central. It is intended for the customer to change their own reservation online (which requires that the feature is set up on the website). This will produce a random number such as '2842-3921' which can be put on a print ticket in the Ticket Designer."/>}}
+{{< alert icon="📝" text="The <a href=\"/docs/entertainment/ticket/authorization_code_rescheduling/\">authorization code</a> is not for back office users working in Business Central. It is intended for the customer to change their own reservation online (which requires that the feature is set up on the website). This will produce a random number such as '2842-3921' which can be put on a print ticket in the NP Designer."/>}}
 
 3. Find the customer's ticket in the **Ticket List** (for example, by using the **External Ticket No.**).  
 4. Click **Process**, and choose **Change Ticket Reservation**.    
@@ -43,7 +43,7 @@ With this functionality, it is easy for you to modify a customer's ticket reserv
 
 #### See also
 
-- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>NP Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
 - [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
 - [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
 - [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})

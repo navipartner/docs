@@ -36,7 +36,7 @@ The following fields and options are available in the Ticket Statistics Matrix a
 
 #### See also
 
-- [<ins>Ticket Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
+- [<ins>NP Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
 - [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
 - [<ins>Set up DIY printed tickets<ins>]({{< ref "../../how-to/diy_printed_ticket/index.md" >}})
 - [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../../how-to/ticket_setup_wizard/index.md" >}})
