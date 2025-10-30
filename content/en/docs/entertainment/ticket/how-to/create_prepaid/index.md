@@ -41,7 +41,7 @@ Individual tickets or the entire batch of tickets can be validated for admission
 
 #### See also
 
-- [<ins>Ticket Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
+- [<ins>NP Designer<ins>]({{< ref "../ticket_designer/index.md" >}})
 - [<ins>Set up DIY printed tickets<ins>]({{< ref "../diy_printed_ticket/index.md" >}})
 - [<ins>Set up tickets using the Ticket Setup Wizard<ins>]({{< ref "../ticket_setup_wizard/index.md" >}})
 - [<ins>Admit an issued ticket<ins>]({{< ref "../admit_issued_ticket/index.md" >}})
