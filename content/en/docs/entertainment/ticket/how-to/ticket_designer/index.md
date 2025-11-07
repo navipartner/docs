@@ -35,7 +35,7 @@ To access the NP Designer application, only the user's email address is required
 
 The **Designs** page is the main workspace in NP Designer, where users create and manage ticket layouts. New tickets can be started from a blank design or by duplicating an existing one. All designs are shown as cards with a preview, name, creation date, and language. Users can add new designs via the Add new design button, or organize them into folders using Add new folder.
 
-<!-- ![designs](images/Designs_Page.png) -->
+When creating a new design in NP Designer, the user can choose the design type:  **Ticket**, **Voucher**, or **Coupon**. After the design is created, it is automatically marked with the selected type, making it easy to identify and manage within the system.
 
 Each design card also includes an options menu where users can delete, duplicate, and see the history of changes or rename designs.
 
@@ -44,8 +44,6 @@ Each design card also includes an options menu where users can delete, duplicate
 ### Ticket creation
 
 The **Designs** page provides a canvas for creating and customizing ticket layouts, supported by intuitive tools for flexible design. At the top, users can name the design and set the language, while changes can be saved anytime using the Save button.
-
-<!-- ![ticket_creation](images/Ticket_Creation.png) -->
 
 On the left side of the editor, a toolbar gives access to design elements such as text, images, shapes, and QR or barcodes. Elements are added by dragging them onto the layout, where they can be positioned and resized.
 
