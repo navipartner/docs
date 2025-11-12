@@ -19,8 +19,8 @@ If you want to enable synchronization of product modifications made in Shopify b
 
 To register the webhook handler app for your BC SaaS environment, follow the provided steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Integration Setup** and select the related link.
-2. Select **Actions**, followed by **Initial Setup** > **Azure Active Directory OAuth** > **Register Webhook Handler App**.        
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Store** and select the related link.
+2. Select **Actions**, followed by **Initial Setup** > **Microsoft Entra ID OAuth** > **Register Webhook Handler App**.        
    Running this action registers the NaviPartner Shopify webhook handler app and prompts for administrator approval/consent. 
 
    {{< alert icon="❗" text="This action needs to be run by a user who is both an Azure Active Directory administrator and a Business Central administrator. You won't be able to run Shopify webhooks until this action is completed." />}}
