@@ -23,7 +23,7 @@ To register the webhook handler app for your BC SaaS environment, follow the pro
 2. Select **Actions**, followed by **Initial Setup** > **Microsoft Entra ID OAuth** > **Register Webhook Handler App**.        
    Running this action registers the NaviPartner Shopify webhook handler app and prompts for administrator approval/consent. 
 
-   {{< alert icon="❗" text="This action needs to be run by a user who is both an Azure Active Directory administrator and a Business Central administrator. You won't be able to run Shopify webhooks until this action is completed." />}}
+   {{< alert icon="❗" text="This action needs to be run by a user who is both an Microsoft Entra ID administrator and a Business Central administrator. You won't be able to run Shopify webhooks until this action is completed." />}}
 
 3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Store**, and choose the related link.
 4. Enable the **Auto Sync Item Changes from Shopify** toggle switch.       

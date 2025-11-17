@@ -19,4 +19,4 @@ This documentation section will be available soon
 
 ## Next step
 
-- [Create Azure Active Directory application for HeyLoyalty]({{< ref "aad_app/index.md" >}})
+- [Create Microsoft Entra ID application for HeyLoyalty]({{< ref "aad_app/index.md" >}})
