@@ -59,7 +59,7 @@ Make sure you've [*set up member synchronization*]({{< ref "setup_memb_sync/inde
 | **Send as raw json object** | `Yes` |
 | **Simplified format** | `Yes` |
 | **Authentication type** | `OAuth 2.0` |
-| **Username** | The **Application (Client) ID** from the Azure AD application details page that was shown to you at the end of the ["Create Azure Active Directory application for HeyLoyalty"]({{< ref "aad_app/index.md" >}}) process |
+| **Username** | The **Application (Client) ID** from the Azure AD application details page that was shown to you at the end of the ["Create Microsoft Entra ID application for HeyLoyalty"]({{< ref "aad_app/index.md" >}}) process |
 | **Password** | The **Client Secret** value from the **Azure AD application details** page |
 | **base URL** | `https://login.microsoftonline.com/<Your BC tenant ID>/oauth2/v2.0` |
 | **scopes (optional)** | `https://api.businesscentral.dynamics.com/.default` |
