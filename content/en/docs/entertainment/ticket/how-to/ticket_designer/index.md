@@ -35,7 +35,7 @@ To access the NP Designer application, only the user's email address is required
 
 The **Designs** page is the main workspace in NP Designer, where users create and manage ticket layouts. New tickets can be started from a blank design or by duplicating an existing one. All designs are shown as cards with a preview, name, creation date, and language. Users can add new designs via the Add new design button, or organize them into folders using Add new folder.
 
-When creating a new design in NP Designer, the user can choose the design type:  **Ticket**, **Voucher**, **Coupon**, **Membership** or **Attraction Wallet**. After the design is created, it is automatically marked with the selected type, making it easy to identify and manage within the system. When creating designs, it’s important to select the appropriate design type. The available types are now retrieved directly from Business Central, ensuring that users always choose from accurate and up-to-date options.
+When creating a new design in NP Designer, the user can choose the design type:  **Ticket**, **Voucher**, **Coupon**, **Membership** or **Attraction Wallet**. When creating designs, it’s important to select the appropriate design type. The available types are now retrieved directly from Business Central, ensuring that users always choose from accurate and up-to-date options.
 
 The manifest link generated in the email allows recipients to access the voucher design as intended.
 To ensure proper functionality of vouchers with SendGrid and the Designer, it is important to enable Manifest on the NP Designer Setup Card in Business Central.
