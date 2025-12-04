@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is NP Pay, but it's also possible to integrate our solutions with external PSPs like SoftPay, Nets Baxi etc. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
+Electronic Funds Transfer (EFT) is a term that covers all of electronic payment services compatible with NP solutions. The fully supported native payment service provider is NP Pay, but it's also possible to integrate our solutions with external PSPs like Nets Baxi or others. These integrations can incorporate anything from credit card terminals to smartphone payment systems, depending on the local market.
 
 All integrations need to be linked to payment methods used on the POS, since that's where they are triggered from. Establishing links between EFT integrations and POS payment methods is done in the **EFT Setup** administrative section in Business Central. When the setup is complete, the POS invokes a specific EFT framework depending on the selected payment method.
 
@@ -41,7 +41,6 @@ When using NETS BAXI/Viking integrations, there are two different ways of commun
 
 [<ins>Set up NETS Cloud integration<ins>]({{< ref "nets_baxi/how-to/setup/index.md" >}})
 
-
 ## MobilePay/Vipps MobilePay
 
 MobilePay is a Danish app used for making payments/transfers through the phone. By integrating MobilePay with the POS, you will significantly simplify the payment process. Customers will be able to scan a QR code, and the POS will register the payment automatically, which ensures its successful processing. 
@@ -55,12 +54,6 @@ Vipps MobilePay is the most recently developed version of the MobilePay solution
 MobilePay/Vipps Login allows Danish and Norwegian stores to create new members on the POS by asking the customer for their phone number, typing it into the POS, then sending a push notification to their smartphone, where they need to provide consent for sharing their info (name, address, etc.).
 
 [<ins>Use Vipps/MobilePay Login functionality<ins>]({{< ref "mobilepay/how-to/login_setup/index.md" >}})
-
-## Softpay
-
-With Softpay integration, you can use an Android device as a Payment Terminal, if the device has NFC.  
-
-[<ins>Set up Softpay integration<ins>]({{< ref "softpay/how-to/setup/index.md" >}})
 
 ## Standalone terminal
 
