@@ -191,6 +191,8 @@ $navbar-dark-active-color:          $link-color-dark;
   transition: transform 0.35s ease;
   transform-origin: 0.5em 50%;
   margin-bottom: 0.125rem;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
 }
 
 [data-dark-mode] body .btn-toggle[aria-expanded="true"] {

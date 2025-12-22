@@ -1,6 +1,6 @@
 ---
-title: "Set up external job queue refresher"
-description: "The external job queue refresher ensures that all critical background jobs continue running without user intervention - even outside working hours or on weekends."
+title: "Set up Job Queue Refresher"
+description: "The job queue refresher ensures that all critical background jobs continue running without user intervention, even outside working hours or on weekends."
 lead: ""
 date: 2025-04-23T11:31:49+02:00
 lastmod: 2025-04-23T11:31:49+02:00
@@ -15,40 +15,202 @@ toc: true
 type: docs
 ---
 
-The external job queue refresher ensures that all critical background jobs continue running without user intervention - even outside working hours or on weekends. It is particularly useful for maintaining integrations, POS processing, and periodic data tasks. 
+Business Central uses background tasks (job queues) to run **automated processes** such as data synchronization, integrations, POS handling, inventory calculations, and other recurring operations.
 
-To set up the external job queue refresher, make sure the prerequisites are met, and follow the provided steps:
+For these processes to work reliably, job queues must remain available, correctly configured, and able to restart if errors occur.
+
+The **Job Queue Refresher** in NP Retail ensures this stability by monitoring selected job queues, known as **monitored jobs**.
+
+A job queue can become monitored **automatically** (protected job queues) or **manually** when a user marks it as monitored.
+
 
 #### Prerequisites
 
-- Install the latest version of NP Retail (v76.0 or higher)
-- Make sure you're working on a SaaS environment. 
-- Gain Azure administrative access to register applications.
+Before configuring the **Job Queue Refresher**, ensure the following requirements are met.
+General requirements:
+ - NP Retail version 109.0 or higher is installed.
+ - The setup is performed by a full Business Central user with permissions to manage job queues.
+
+Additional requirements for **External Refresher**:
+ - Business Central SaaS environment (external refresher is not available for OnPrem environments).
+ - The user performing the steps must be both a Microsoft Entra ID administrator and a Business Central administrator.
+
 
 #### Procedure
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Job Queue Refresh Setup**, and choose the related link.     
-   The administrative section is displayed.
-2. Click **Actions** in the ribbon, followed by **External JQ Refresher** > **Create External JQ Refresher User**.       
-   This action creates an Entra App that will represent the external worker in your Azure tenant. The system also registers a new Entra App user that will be used to execute job queues.          
-   If the process was unsuccessful, consent needs to be given manually through the **Grant Consent** action on the **Microsoft Entra Application** card.
-3. Click **Actions** in the ribbon again, followed by **Enable External JQ Refresher**.     
-   The worker-based integration for the current company is enabled. From that moment, job queues can be refreshed automatically without relying on users to log in.       
-   
-   {{< alert icon="📝" text="The <b>Refresh Now</b> action in the ribbon allows any authorized user to manually refresh a job queue in the company without waiting for the hourly schedule. This is especially useful when a job has been stopped by mistake, and needs to be restarted immediately."/>}}
+**Step 1: Open Job Queue Refresh Setup**
+ - Select the Search icon.
+ - Search for **Job Queue Refresh Setup**.
+ - Open the page containing the refresher configuration settings.
 
-## Monitored Job Queue Entries
+**Step 2: Configure general settings (applies to External refresher only)**
+ - **Default Runner User**: Specifies the user under which a job queue runs if no runner user is assigned directly to that job.
+ - **Default Time Zone**: Defines how job queue schedules are interpreted and executed.
 
-Each job queue entry that is flagged as **Managed by App** (in its corresponding [<ins>Job Queue Entry Card<ins>]({{< ref "../../reference/job_queue_card/index.md" >}})) is tracked and included in the refresh logic. Its corresponding record is created in the **Monitored Job Queue Entries** list. 
+ Time zone settings ensure that scheduled job queues run at the correct local time even when users operate in different regions.
 
-The **Monitored Job Queue Entries** list gives you full visibility and control over all tracked job queues. You can see which ones are managed, which users are assigned to run them, and what parameters are defined. If needed, you can also use the **Recreate Monitored Jobs** action to resynchronize the list.
+**Step 3: Set up Monitored Jobs**
 
-![job_queue_refresh](Images/job_queue_refresh.png)
+**Monitored jobs** are checked and refreshed either when a qualified **user logs** into the system (login-based refresher) or automatically via the **External Job Queue Refresher** but not more frequently than once per hour.
 
-Each monitored entry has a field **JQ Runner User Name**, which refers to the user responsible for executing that specific job. 
+ - {{< alert icon="💡" >}}
+See section [Set up Monitored Jobs](#set-up-monitored-jobs).
+{{< /alert >}}
 
-It's important to assign a user that has been granted the **Ext JQ Refresher** permission set. If no user is assigned, the system will fall back to the default runner user, which you can specify in the setup. This allows you to distribute job queues across different Entra ID (Job Queue Runner) users - an important step for environments with a high volume of parallel jobs.
+**Step 4: Enable the Job Queue Refresher**
 
-  {{< alert icon="📝" text="For developers working with customizing job queues, we recommend using the <i>OnBeforeInsertRecurringJobQueueEntry</i> event to assign custom parameters and control behavior during the job queue registration."/>}}
+Set the toggle **Enabled** to On. 
 
-   
+This enables the login-based refresher, which will now monitor and perform corrections on monitored jobs. 
+
+**Step 5: Recommended: Set up External Job Queue Refresher**
+
+  - {{< alert icon="💡" >}}
+See section [Set up External Job Queue Refresher](#set-up-external-job-queue-refresher).
+{{< /alert >}}
+
+    
+## Set up External Job Queue Refresher
+
+By configuring the External Job Queue Refresher, workloads can be distributed across several service accounts, allowing increased parallel job queue execution and improved processing efficiency in high-volume environments.
+
+  - {{< alert icon="💡" >}}
+This section requires the [Step-by-Step Setup](#procedure) completed. 
+{{< /alert >}}
+
+
+**Step 1: Create External Refresher User (Privileged user required)**
+
+Open Actions → External JQ Refresher → **Create External JQ Refresher User**.
+
+The system creates a Microsoft Entra Application and a service user used by the Cloudflare Worker. It also tries to grant user consent.
+
+**Step 2: Grant Consent (If the previous step experienced any issues with it, otherwise, this step can be skipped)**
+1.	Open the created **Entra App**.
+2.	Select **Grant Consent**.
+3.	**Approve** all requested permissions.
+
+**Step 3: Enable External Refresher**
+
+Open Actions → External JQ Refresher → **Enable External JQ Refresher**.
+
+Once enabled, the Cloudflare Worker performs the refresh once per hour.
+
+**Step 4: Runner Users and Multiple Entra Apps**
+
+To support larger environments, monitored jobs may be distributed across multiple Entra Apps.
+Assigning a runner user:
+1.	**Repeat** the Step 1 (“Create External Refresher User”) as many times as many JQ Runners you will need.
+2.	Find **Monitored Jobs** list in the **Job Queue Refresh Setup**.
+3.	Select a Monitored Job.
+4.	Set the **Job Queue Runner User Name** field.
+
+## Set up Monitored Jobs
+
+[Protected Job Queues](#protected-job-queues) are added to the monitored jobs list **automatically**.
+
+Users may also add additional job queues **manually**. There are several ways to add a job queue to the **monitored jobs list**:
+
+1. From the **Job Queue Entry** card, set the **Monitored Job** field to true.
+
+2. From the Monitored Jobs list, use the **New** action to create a job queue that does not yet exist.
+
+3. From the Monitored Jobs list, use the **Create from Job Queues** action to add an existing job queue that is not yet monitored. Multiple job queue entries can be added at the same time.
+
+Once added, the monitored job becomes part of the **refresher cycle**.
+
+
+## Protected Job Queues
+
+Protected Job Queues are essential NP Retail job queues that must remain available and correctly configured.
+
+For protected job queues, the refresher ensures that they are restored if deleted (in the list of monitored jobs) and that their parameters remain consistent with expected system defaults.
+
+
+### Customizable Protected Monitored Jobs
+Some protected jobs may allow changes to certain parameters. These are customizable protected jobs.
+
+Customers may adjust parameters such as **schedule** or **configuration**. The refresher will not override these changes.
+
+ - {{< alert icon="📝" text="If a Job Queue is set as a Monitored Job, its values should be edited in its Monitored Job card, if permitted."/>}}
+
+The following jobs are currently configured as default customizable protected jobs:
+ - Adjust Cost – Item Entries
+ - Retention Policy JQ
+ - NPR Shopify Export BC Transactions JQ
+
+#### Fields Always Customizable
+The following fields are always safe to edit, regardless of whether the job queue is protected, and their values will not be overridden by system defaults:
+ - Description
+ - Notif. Profile on Error
+ - NPR Auto-Resched. after Error
+ - NPR Auto-Resched. Delay (sec.)
+
+
+## Useful Functions
+
+### Manual Refresh
+The **Refresh Now** action immediately triggers a refresh cycle without waiting for the next scheduled interval.
+Useful when a job queue has been stopped or when configuration changes must be applied instantly.
+
+### Managing the Monitored Jobs list
+The **Monitored Jobs** list displays all monitored jobs.
+
+From here, users can:
+ - **review** monitored job entries,
+ - **assign** JQ runner users,
+ - **modify** allowed parameters,
+ - **use** Recreate Monitored Jobs to restore missing entries,
+ - **delete** a custom monitored job (not protected),
+ - either **add an existing job queue** or **create a new monitored** job from scratch.
+
+
+### Disabling the External Job Queue Refresher 
+
+The **Disable External JQ Refresher** action removes the current tenant-environment-company information from Cloudflare worker, which prevents it from future processing by the External Job Queue Refresher.
+
+ - {{< alert icon="📝" text="The system may automatically disable the External Job Queue Refresher if the tenant-environment-company information is removed or outdated. In such cases, the refresher must be re-enabled."/>}}
+
+### Navigating to the Job Queue Entry
+
+The **Job Queue Entry** card action opens related job queue entry card. It is useful when there are multiple job queue entries with the same object ID and only one or few of them are set as **Monitored Job**. 
+
+
+## Developer Guide for Extending Job Queue Refresher
+
+This section is intended for developers and partners who build extensions (PTEs) that require integration with the Job Queue Refresher functionality. It explains how protected job queues are defined, how customizable protected job queues are implemented, which events are available, and how the refresher logic can be extended.
+
+### Defining Protected Job Queue
+
+Protected job queues are identified using the **NPR NP Protected Job** boolean field.
+
+When set to true, the job queue becomes protected and is monitored accordingly.
+Protected job queues and their corresponding monitored job entry are restored if deleted and have their parameters enforced according to system rules.
+Extensions may set this flag for their own job queues if they should be protected by the refresher.
+
+### Adding Protected Job Queue in PTE
+
+To add a protected job queue through a Per-Tenant extension:
+1.	Create a **Job Queue entry**
+2.	Use **SetProtected(true)**
+3.	Optionally, **subscribe to events** to mark it as customizable or adjust its behavior
+
+Such job queues are automatically added to the monitored jobs list.
+
+### Defining Customizable Protected Job Queues
+
+To allow users to change parameters of a protected job queue (for example, schedules), the system exposes the following event:
+
+*Codeunit "NPR Job Queue Management*: <br>
+**OnCheckIfIsNprCustomizableJob(JobQueueEntry: Record "Job Queue Entry"; var NprCustomizableJob: Boolean; var Handled: Boolean)**
+
+Subscribing to this event allows the developer to:
+ - mark selected protected job queues as **customizable**,
+ - allow **user-defined parameters** to override defaults
+ - adjust **protected job queue** behavior for specific scenarios
+
+#### Events for Extending Refresher Functionality
+
+Developers can use the following events to adjust or extend refresher logic:
+1. **OnBeforeInsertRecurringJobQueueEntry(var JobQueueEntry: Record "Job Queue Entry")** used for customizing job queue parameters during creation.
+2. **OnCheckIfIsNprCustomizableJob(JobQueueEntry: Record "Job Queue Entry"; var NprCustomizableJob: Boolean; var Handled: Boolean)** used to determine whether a protected job queue should be treated as customizable.
