@@ -131,7 +131,8 @@ body {
       top: 4rem;
       z-index: 1000;
       height: calc(100vh - 4rem);
-      width: calc(100% - 800px);
+      width: 320px;
+      max-width: 320px;
     }
 
     .docs-sidebar-top {
