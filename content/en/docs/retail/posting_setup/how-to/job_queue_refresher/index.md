@@ -23,8 +23,42 @@ The **Job Queue Refresher** in NP Retail ensures this stability by monitoring se
 
 A job queue can become monitored **automatically** (protected job queues) or **manually** when a user marks it as monitored.
 
+## Benefits of Job Queue Refresher
 
-#### Prerequisites
+General benefits:
+ - Monitored job queues are **restored** if deleted.
+ - Parameters are **restored** to expected values.
+ - Job queues are restarted if their status is **Error** or **On Hold** (note that job queues that have **Manually Set On Hold** to true are never refreshed by neither of the refreshers).
+
+These mechanisms ensure consistent execution of automated processes.
+
+**Additional benefits of the External Refresher**: <br>
+The external refresher uses a Cloudflare Worker that connects to the environment once per hour and performs the refresh cycle.
+
+This enables:
+ - Automated job queue **monitoring** even when no users log into Business Central.
+ - The ability to distribute monitored jobs across **multiple Entra App users**, increasing parallel processing capacity and improving performance.
+
+
+## How the Refresher Works
+
+1.	Monitored jobs are **identified**
+ - protected job queues are added automatically
+ - users can manually mark additional job queues as monitored
+2.	The **refresher** checks monitored jobs (External refresher: once per hour, Login-based refresher: on full user login, but not more frequently than once per hour)
+ - whether the job queue exists
+ - whether parameters match expected values
+ - whether the job queue stopped due to error or was set to “On Hold”
+3.	The refresher performs **corrective** actions
+ - restarts job queues
+ - recreates missing job queues
+ - restores expected parameters
+
+If the external refresher is not enabled, these checks occur when a full user with corresponding permissions logs into the system (not more than once per hour).
+
+
+
+## Prerequisites
 
 Before configuring the **Job Queue Refresher**, ensure the following requirements are met.
 General requirements:
@@ -36,7 +70,7 @@ Additional requirements for **External Refresher**:
  - The user performing the steps must be both a Microsoft Entra ID administrator and a Business Central administrator.
 
 
-#### Procedure
+## Step-by-Step Setup
 
 **Step 1: Open Job Queue Refresh Setup**
  - Select the Search icon.
@@ -70,7 +104,7 @@ See section [Set up External Job Queue Refresher](#set-up-external-job-queue-ref
 {{< /alert >}}
 
     
-## Set up External Job Queue Refresher
+### Set up External Job Queue Refresher
 
 By configuring the External Job Queue Refresher, workloads can be distributed across several service accounts, allowing increased parallel job queue execution and improved processing efficiency in high-volume environments.
 
@@ -105,7 +139,7 @@ Assigning a runner user:
 3.	Select a Monitored Job.
 4.	Set the **Job Queue Runner User Name** field.
 
-## Set up Monitored Jobs
+### Set up Monitored Jobs
 
 [Protected Job Queues](#protected-job-queues) are added to the monitored jobs list **automatically**.
 
