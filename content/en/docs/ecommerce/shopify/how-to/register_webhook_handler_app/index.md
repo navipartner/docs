@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-If you want to enable synchronization of product modifications made in Shopify back to Business Central, you need to register the **webhook handler application**. This application acts as a proxy between **Shopify** and **Business Central**, translating Shopify requests into a format that Business Central can recognize and accept.
+If you want to enable synchronization of modifications made to entities (such as products or customers) in Shopify back to Business Central, you need to register the **webhook handler application**. This application acts as a proxy between **Shopify** and **Business Central**, translating Shopify requests into a format that Business Central can recognize and accept.
 
 ### Prerequisites
 
@@ -51,19 +51,14 @@ To register the webhook handler app for your BC SaaS environment, follow the pro
 ![App](Images/App.png)
 
 After the process has been completed, the following Microsoft Entra App should appear in the list of entra apps in BC.
+![Mic_Entra_app](Images/Mic_Entra_app.png)
 
 As soon as this option is enabled, you will start receiving Shopify webhook notifications.        
 
-   Each time you create/update/delete a product in Shopify, a new entry is created in the **Shopify Webhook Notifications** administrative section in Business Central. The records are automatically processed in Business Central via a job queue which is by default set to be run every minute. 
+   Each time you create/update/delete an entity in Shopify, for which you have a webhook subscription, a new entry is created in the **Shopify Webhook Notifications** administrative section in Business Central.
 
-   Once the **Shopify Webhook Notification** is processed in Business Central, the changes will be displayed in the **Shopify Integration** section of the relevant **Item Card**.       
+   Once the Shopify Webhook Notification has been processed in Business Central, the changes will be displayed in the **Shopify Integration** section of the relevant entity card (e.g. the **Item** or **Customer** Card).       
 
-   The following information is updated:
-   - **Integrate with This Store** - determines whether the item is integrated with the store
-   - **Shopify Status** - the status of the product in Shopify (draft/active/archived)
-   - **Shopify Name** - the contents of the product's **Title** field in Shopify
-   - **Shopify Description** - the contents of the product's **Description** field in Shopify
-   - **Shopify Product ID**, **Shopify Variant ID**, **Shopify Inventory Item ID** - the IDs associated with the product in Shopify
 
 ### Next steps
 
