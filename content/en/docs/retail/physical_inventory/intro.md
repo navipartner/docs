@@ -29,6 +29,6 @@ Before the stocktaking process is initiated, there are certain preparation steps
 
 The way in which you configure these entities will determine the finer details related to the stocktaking process. All of these can be saved as templates to be reused in different occurrences.
 
- {{< alert icon="❗" text="Although the NP WMS extension contains the necessary functionality for handling stock take, a WMS license is not required to perform the stock-take process itself. <br> Customers can capture real-time stock status either by using rented status scanners or by using the NP WMS app. When the NP WMS app is used, an NP WMS device license is required. <br><br> Additionally, the appropriate permissions for NPPRN NP WMS must be configured on the User Card of the user performing the stock take. "/>}}
+ {{< alert icon="❗" text="Although the NP WMS extension contains the necessary functionality for handling stock take, a WMS license is not required to perform the stock-take process itself. <br> Customers can capture stock data using offline status scanners or the NP WMS Android app. The NP WMS Android app requires an NP WMS device license. <br><br> Additionally, the appropriate permissions for NPPRN NP WMS must be configured on the User Card of the user performing the stock take. "/>}}
 
  </div>
