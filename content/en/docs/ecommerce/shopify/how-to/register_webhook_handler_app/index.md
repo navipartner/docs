@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-If you want to enable synchronization of modifications made to entities (such as products or customers) in Shopify back to Business Central, you need to register the **webhook handler application**. This application acts as a proxy between **Shopify** and **Business Central**, translating Shopify requests into a format that Business Central can recognize and accept.
+If you want to enable synchronization of modifications made to entities (such as **products** or **customers**) in Shopify back to Business Central, you need to register the **webhook handler application**. This application acts as a proxy between **Shopify** and **Business Central**, translating Shopify requests into a format that Business Central can recognize and accept.
 
 ### Prerequisites
 
