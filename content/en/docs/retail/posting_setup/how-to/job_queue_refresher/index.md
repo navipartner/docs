@@ -21,7 +21,7 @@ For these processes to work reliably, job queues must remain available, correctl
 
 The **Job Queue Refresher** in NP Retail ensures this stability by monitoring selected job queues, known as **monitored jobs**.
 
-A job queue can become monitored **automatically** (protected job queues) or **manually** when a user marks it as monitored.
+The Job Queue Refresher can operate in two modes depending on how it is triggered: a **Login-based** mode, initiated by signing in as a full Business Central user, and an **External Refresher** mode, initiated by a Cloudflare Worker using an Entra application user.
 
 ## Benefits of Job Queue Refresher
 
@@ -141,7 +141,8 @@ Assigning a runner user:
 
 ### Set up Monitored Jobs
 
-[Protected Job Queues](#protected-job-queues) are added to the monitored jobs list **automatically**.
+A job queue can become monitored **automatically** ([Protected Job Queues](#protected-job-queues)) or **manually** when a user marks it as monitored.
+
 
 Users may also add additional job queues **manually**. There are several ways to add a job queue to the **monitored jobs list**:
 
@@ -150,6 +151,7 @@ Users may also add additional job queues **manually**. There are several ways to
 2. From the Monitored Jobs list, use the **New** action to create a job queue that does not yet exist.
 
 3. From the Monitored Jobs list, use the **Create from Job Queues** action to add an existing job queue that is not yet monitored. Multiple job queue entries can be added at the same time.
+
 
 Once added, the monitored job becomes part of the **refresher cycle**.
 
