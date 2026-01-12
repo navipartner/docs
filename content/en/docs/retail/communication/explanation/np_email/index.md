@@ -28,6 +28,7 @@ Before using NP Email, the following requirements must be met:
     - **Billing email**
     - **Sending email**
     - **Domain administrator contact** (DNS access required)
+    - **Emails of the employees** who should have access to SendGrid
  - **Templates** created in NP Email and linked to relevant notification setups (e.g., Membership and Ticketing).
 
 ## Create email templates 
