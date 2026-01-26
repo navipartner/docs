@@ -17,6 +17,15 @@ type: docs
 
 Learn which new features and improvements have been introduced to our solutions. You can click the ▶️ button next to some of the entries to view the accompanying video guides on our YouTube channel.
 
+
+## 2026
+
+| Date      | Feature | Description |
+| ----------- | ----------- | ----------- |
+| 11.01 | View Online option for Cupons | Quickly access coupons in a web browser, improving accessibility and user experience. |
+| 11.01 | Shopify: POS transaction sync | Synchronize POS transactions with Shopify, ensuring all sales data is accurately reflected in Shopify store. |
+| 11.01 | [<ins>Job Queue Refrehser<ins>]({{< ref "../../retail/posting_setup/how-to/job_queue_refresher/index.md" >}}) | The Job Queue Refresher in NP Retail ensures this stability by monitoring selected job queues. |
+
 ## 2025
 
 | Date      | Feature | Description |
