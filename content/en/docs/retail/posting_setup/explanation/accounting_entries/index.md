@@ -217,3 +217,14 @@ During the balancing process, the contra entry is created in a compressed format
 ![intermediary_acc2](Images/intermediary_acc2.PNG)
 
 {{< alert icon="📝" text="If you don't want to create an intermediary account in your Chart of Account, you can use the G/L account that is associated with your bank account instead."/>}}
+
+## Accounting Perspective on POS Entries
+
+POS transactions **reduce inventory** throughout the day to allow stock monitoring. However, the financial postings for these transactions are recorded only **after** the daily cash registry is closed.
+
+Once the registry is closed, **transactions are posted** to the chart of accounts for sales, discounts, COGS, VAT, bank, customer, and inventory, according to the configurations in the General Posting Setup, VAT Posting Setup, Inventory Posting Setup, Banking Setup, and Customer Setup.
+
+Depending on the system configuration, the transactions may be posted directly to the ledger or first sent to the general journal for review.
+
+
+{{< alert icon="📝" text="Sales reports during the day will not reflect the financial transactions until the daily cash registry is closed and the postings are completed."/>}}
