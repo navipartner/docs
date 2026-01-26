@@ -218,7 +218,7 @@ During the balancing process, the contra entry is created in a compressed format
 
 {{< alert icon="📝" text="If you don't want to create an intermediary account in your Chart of Account, you can use the G/L account that is associated with your bank account instead."/>}}
 
-## Accounting Perspective on POS Entries
+## Accounting perspective on POS Entries
 
 POS transactions **reduce inventory** throughout the day to allow stock monitoring. However, the financial postings for these transactions are recorded only **after** the daily cash registry is closed.
 
