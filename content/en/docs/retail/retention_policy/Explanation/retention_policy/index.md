@@ -40,7 +40,7 @@ The **NPR Retention Policy Log Entries Page** lets customers view when retention
 
 The new retention policies use the same logic and filtering as the default NPR retention policies.
 
-Old setup for NPR tables in the standard retention policy are cleared automatically.
+Old setup for NPR tables in the standard retention policy is cleared automatically.
 
 #### See also
 
