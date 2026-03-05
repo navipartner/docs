@@ -1,5 +1,5 @@
 ---
-title: "explanation"
+title: "Explanation"
 description: ""
 lead: ""
 date: 2023-07-20T11:29:02+02:00
