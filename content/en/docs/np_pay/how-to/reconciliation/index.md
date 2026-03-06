@@ -78,9 +78,43 @@ To set up NP Pay Reconciliation Automation in the SaaS environment, make sure th
    If no associated **Merchant Account Setup** exists, the system will prompt you to create a new one.
 
 3. Assign the **Posting Source Code**.
-5. Create/assign general ledger accounts for all journal types.
+4. Create/assign general ledger accounts for all journal types.
 
-   ![np_pay_merchant](Images/np_pay_merchant.PNG)
+   ![np_pay_merchant](Images/np_pay_merchant.png)
+
+#### Merchant account setup – multiple payout currencies
+
+The **NP Pay Merchant Account Default Setup**, opened from **NP Pay Setup**, works as the default configuration for reconciliation posting. This setup is applied when no currency-specific configuration is defined.
+
+An action, **Open Merchant Currency Setup**, allows defining additional, currency-specific merchant account configurations.
+<p align="center">
+<img src="Images/open_merch_setup.png" alt="open_merch_setup">
+</p>
+
+Using **Merchant Currency Setup**, it is possible to specify a separate **Reconciliation Account Type** and **Account No.** per currency that exists in Business Central. These settings are maintained per merchant, allowing different merchants to have different account mappings for the same currency.
+<p align="center">
+<img src="Images/merchant_acc_setup.png" alt="merchant_acc_setup">
+</p>
+
+
+During reconciliation posting, the system applies the following logic:
+1. It first looks for a matching combination of **Merchant Account Name + Currency Code + Reconciliation Account Type** in the Merchant Currency Setup.
+
+2. If no matching record is found, the system falls back to the **Default Merchant Account Setup**.
+
+This gives full flexibility to the user: <br>
+specific accounts can be configured only for selected reconciliation transaction types and currencies, while all remaining postings continue to use the default setup.
+
+**Example**
+
+A merchant processes transactions in **DKK** and **EUR**, where **DKK** is the LCY.
+ - The **Default Setup** is used for posting DKK transactions.
+ - For EUR transactions, the user creates Merchant Currency Setup lines for the required Reconciliation Account Types with **Currency Code = EUR**.
+ - As a result, EUR transactions are posted to the accounts defined in the Merchant Currency Setup, while DKK transactions continue to use the Default Setup.
+
+It is also possible to fully replace the Default Setup by defining Merchant Currency Setup lines for all required currencies and reconciliation account types, including the LCY (for example, setting DKK as the NP Pay Currency Code). <br>
+However, the recommended approach is to keep the Default Setup filled for the LCY and use Merchant Currency Setup only for additional currencies.
+
 
 ### Perform reconciliation
 
