@@ -22,6 +22,7 @@ Learn which new features and improvements have been introduced to our solutions.
 
 | Date      | Feature | Description |
 | ----------- | ----------- | ----------- |
+| 18.02 | [<ins>NPR Retention Policy<ins>]({{< ref "..\retention_policy\Explanation\retention_policy\index.md" >}}) | New retention policy specifically for NaviPartner (NPR) tables. Previously, retention for these tables was handled using the standard functionality. To improve processing speed, our tables now have a dedicated implementation. |
 | 11.01 | View Online option for Cupons | Quickly access coupons in a web browser, improving accessibility and user experience. |
 | 11.01 | Shopify: POS transaction sync | Synchronize POS transactions with Shopify, ensuring all sales data is accurately reflected in Shopify store. |
 | 11.01 | [<ins>Job Queue Refrehser<ins>]({{< ref "../../retail/posting_setup/how-to/job_queue_refresher/index.md" >}}) | The Job Queue Refresher in NP Retail ensures this stability by monitoring selected job queues. |
