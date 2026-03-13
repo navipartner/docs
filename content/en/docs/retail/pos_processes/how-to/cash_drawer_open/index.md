@@ -47,16 +47,9 @@ To configure an opening mechanism for a POS unit cash drawer with a template, ma
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit List**, and choose the related link.     
    A list of all existing POS units is displayed.  
 2. Click the POS unit you wish to configure the cash drawer opening mechanism for.
-3. Click the dropdown next to the **POS Scenarios Profile** and then **Select from full list**.  
-4. Click **New**, or select an existing profile, then click **Manage** followed by **Edit**.
-5. Select the **POS Scenarios Set Entries** line with **Workflow Code** **FINISH_SALE**.
-6. Click **Manage**, and then click **POS Scenario Steps**.
-7. Add **EjectPaymentBin** in **Subscriber Function**.
-8. Navigate back and select the edited **POS Scenarios Profile** for the POS unit.
-9. Navigate back to the **POS Unit** card.
-10. Click the dropdown next to the **Default POS Payment Bin** and then **Select from full list**.  
-11. Click **Edit List**.
-12. In the field **Eject Method** input **TEMPLATE**, then click **OK**.
+3. Click the dropdown next to the **Default POS Payment Bin** and then **Select from full list**.  
+4. Click **Edit List**.
+5. In the field **Eject Method** input **TEMPLATE**, then click **OK**.
 
 ## Configure an opening mechanism for a POS unit cash drawer with OPOS
 
