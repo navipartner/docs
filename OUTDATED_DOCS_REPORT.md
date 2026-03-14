@@ -1,307 +1,394 @@
-# Retail Documentation Outdated Analysis Report
+# Outdated Documentation Report
 
-**Date:** 2026-03-14
-**Scope:** `content/en/docs/retail/` — focused on oldest, screenshot-heavy, and early-2024 docs
-**Source repo checked:** `navipartner/npcore-partners` (public partner fork of npcore)
+**Report Date:** 2026-03-14  
+**Docs Repo:** navipartner/docs  
+**Code Repo:** navipartner/npcore-partners (public source-available)  
 
 ---
 
 ## Executive Summary
 
-Analysis of 12+ retail documentation articles against the npcore-partners codebase reveals **3 Critical**, **4 High**, **3 Medium**, and **3 Low** priority findings. The most severe issues involve entire modules (Service/Repair Module, Stock-Take/Physical Inventory) that have been moved to `__Obsolete (NOT SUPPORTED)` in the codebase while their documentation remains live and gives no indication of deprecation. Additionally, several docs reference obsolete terminology (Pepper Integration, Payment Type POS, Item Cross Reference) and contain outdated table/page references.
+After cross-referencing documentation content against the `navipartner/npcore-partners` codebase, this report identifies **significant outdated documentation** across all analyzed focus areas. The most critical findings are:
+
+1. **Three entire provider integrations documented are OBSOLETE** — Pepper, Flexiiterm, and MobilePay V10 all reside in `__Obsolete (NOT SUPPORTED)` in the codebase
+2. **Bulgarian fiscalization docs reference wrong POS action codes** that no longer exist
+3. **All 13 troubleshooting docs** haven't been updated since mid-2023 and reference potentially outdated UI flows
+4. **Self-service profile doc** references "Major Tom" and "FLEXI Outdoor Kiosk" which have no presence in current code
 
 ---
 
 ## CRITICAL Priority Findings
 
-### 1. Service Module / Customer Repair — ENTIRE MODULE OBSOLETE
-**Files affected:**
-- `content/en/docs/retail/service_module/reference/customer_repair_flow/index.md` (2023-09-12)
-- `content/en/docs/retail/service_module/how-to/setup/index.md` (2023-07-11)
-- `content/en/docs/retail/service_module/intro.md` (2023-07-11)
+### 1. Pepper Integration — ENTIRE SECTION IS OBSOLETE
+- **Files affected:** All files under `content/en/docs/providers/pepper/`
+  - `pepper_terminal/index.md` — Set up a Pepper terminal
+  - `pepper_package_import/index.md` — Import Pepper package  
+  - `new_terminal_type/index.md` — Create new terminal type
+  - `pepper_params/index.md` — Pepper parameters
+  - `pepper_card_types/index.md` — Pepper card types
+  - `pepper_install_button/index.md` — Pepper install button
+- **Evidence:** ALL Pepper code files in the codebase are located under `Application/src/__Obsolete (NOT SUPPORTED)/EFT/Pepper/` — including `PepperTerminalCard.Page.al`, `PepperTerminalList.Page.al`, `PepperConfigList.Page.al`, etc.
+- **Impact:** Users following these guides are setting up a deprecated integration. No active code exists for Pepper outside the obsolete folder.
+- **Recommendation:** Add deprecation banners to all Pepper docs, or remove them. Point users to active EFT integrations (Adyen, NETS BAXI, NETS Cloud, Planet PAX, Vipps MobilePay, Verifone VIM).
 
-**Evidence from code:**
-All Customer Repair tables and objects are in `Application/src/__Obsolete (NOT SUPPORTED)/Repair/`:
-- `CustomerRepairSetup.Table.al` → `ObsoleteState = Removed`
-- `CustomerRepair.Table.al` → `ObsoleteState = Removed`
-- `CustomerRepairJournal.Table.al` → `ObsoleteState = Removed`
-- `ItemRepair.Table.al` → `ObsoleteState = Removed`
-- `ItemRepairLog.Table.al` → `ObsoleteState = Removed`
+### 2. Flexiiterm Integration — ENTIRE SECTION IS OBSOLETE
+- **File:** `content/en/docs/providers/flexiiterm/how-to/setup/index.md`
+- **Evidence:** All Flexiiterm code files are under `Application/src/__Obsolete (NOT SUPPORTED)/EFT/NETS PSAM (Flexiiterm)/` — including `EFTFlexiitermProt.Codeunit.al`, `EFTFlexiitermInteg.Codeunit.al`, `POSActionEFTFlexiiterm.Codeunit.al`.
+- **Impact:** Doc describes setting up integration with "older NETS PSAM terminals, e.g., Ingenico IPP350 terminals" — this entire integration is no longer supported.
+- **Recommendation:** Mark as deprecated. Redirect users to NETS BAXI (native) or NETS Cloud integration.
 
-**Impact:** The entire service_module section (6 docs) documents a feature that has been **removed** from the codebase. The docs reference:
-- `Customer Repair Setup` administrative section (removed)
-- `Customer Repair Card` (removed)
-- `Finalize Repair` shortcut (no code match found)
-- Report IDs 6014502, 6014504, 6185131-6185134 (likely removed)
-- Page ID 6185133 for RUNPAGE action (likely invalid)
-- Table 6014504 references in email/SMS setup (removed)
+### 3. MobilePay V10 Setup — OBSOLETE, REPLACED BY Vipps MobilePay
+- **File:** `content/en/docs/providers/mobilepay/how-to/setup/index.md`
+- **Evidence:** 
+  - MobilePay V10 code is under `Application/src/__Obsolete (NOT SUPPORTED)/EFT/MobilePay V10/`
+  - New integration exists: `Application/src/POS Payment/EFT/Integrations/Vipps Mobilepay/`
+  - New workflow enum value: `VIPPS_MOBILEPAY` (value 202)
+  - Doc references `MOBILEPAY_V10` as the EFT Integration Type
+- **Impact:** Doc tells users to select `MOBILEPAY_V10` which is deprecated. The replacement is `VIPPS_MOBILEPAY`.
+- **Note:** A newer Vipps MobilePay doc exists at `content/en/docs/providers/mobilepay/how-to/vipps_setup/index.md` (dated 2024-03-19) which is current. However, the OLD MobilePay V10 setup doc is still published without deprecation notice.
+- **Recommendation:** Add deprecation banner to old MobilePay V10 doc. Cross-link to Vipps MobilePay setup.
 
-**Recommendation:** Add prominent deprecation/removal notices to all service_module docs, or remove the section entirely. If the functionality has been replaced, link to the replacement.
-
----
-
-### 2. Physical Inventory / Stock-Take — MODULE MOVED TO SEPARATE APP
-**Files affected:**
-- `content/en/docs/retail/physical_inventory/reference/stocktake_template/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/how-to/stocktake_template/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/how-to/stocktake_worksheet/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/how-to/stocktake_config/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/how-to/item_journal_template/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/how-to/transfer_post_stocktake/index.md` (2024-01-11)
-- `content/en/docs/retail/physical_inventory/explanation/stocktake_dimension/index.md` (2024-01-11)
-
-**Evidence from code:**
-All Stock-Take tables are in `Application/src/__Obsolete (NOT SUPPORTED)/StockTake/`:
-- `StockTakeTemplate.Table.al` → `ObsoleteReason = 'Object moved to NP Warehouse App.'`, `ObsoleteTag = '2023-06-28'`
-- `StockTakeConfiguration.Table.al` → `ObsoleteReason = 'Object moved to NP Warehouse App.'`
-- `StockTakeWorksheet.Table.al` → in `__Obsolete (NOT SUPPORTED)` folder
-- `StockTakeWorksheetLine.Table.al` → in `__Obsolete (NOT SUPPORTED)` folder
-
-**Impact:** All 7 physical inventory docs describe functionality that was moved to a separate "NP Warehouse App" since 2023-06-28. Users following these docs in the core NP Retail product will not find these features.
-
-**Additional obsolete reference in docs:**
-- The stocktake_template reference doc mentions **Item Cross Reference** as a barcode translation table — this BC concept was renamed to **Item Reference** in Business Central 2021 Wave 1. The code shows the old `Item Cross Reference` record in upgrade codeunits only.
-- The **Alternative No.** table referenced in the docs is also in `__Obsolete (NOT SUPPORTED)/Alternative Number/`
-
-**Recommendation:** Add clear notices that Stock-Take has moved to NP Warehouse App. Either redirect users to that app's documentation or update docs to reflect the new location. Fix "Item Cross Reference" → "Item Reference" terminology.
-
----
-
-### 3. EFT Docs Reference Obsolete "Pepper Integration" Terminology
-**Files affected:**
-- `content/en/docs/retail/eft/how-to/eft_bin/index.md` (2023-11-22)
-
-**Evidence from code:**
-The doc states: *"In most Terminal Integrations (other than **Pepper Integration** and External Terminal)..."*
-
-The entire Pepper integration is in `Application/src/__Obsolete (NOT SUPPORTED)/EFT/Pepper/`:
-- `PepperLibraryTSD.Codeunit.al` → `ObsoleteTag = '2023-06-28'`
-- `PepperTerminal.Table.al` → `ObsoleteTag = '2025-06-13'`, `ObsoleteReason = 'No longer supported'`
-- All Pepper objects are marked obsolete
-
-**Impact:** Referencing Pepper Integration as a current integration option is misleading. The doc should only reference currently supported integrations (Adyen, NETS BAXI, NETS Cloud, External Terminal).
-
-**Recommendation:** Remove Pepper references. Update the introductory text to only list current supported EFT integrations.
+### 4. Bulgarian Fiscalization — WRONG ACTION CODES
+- **File:** `content/en/docs/fiscalization/bulgaria/how-to/setup/index.md` (2023-12-01, 5 images)
+- **Evidence:**
+  - Doc references action code `BG_FISCALPRINTER_MGT` → Code has `BG_SIS_FP_MGT` (enum value 190)
+  - Doc references action code `BG_FP_CASHIER_MGT` with parameter `setCashier` → Code has `BG_SIS_FP_CASHIER` (enum value 195)
+  - Neither `BG_FISCALPRINTER_MGT` nor `BG_FP_CASHIER_MGT` exist in the POSWorkflow enum
+- **Impact:** Users following this guide will not be able to create the required POS actions for fiscal printer management and cashier management — the action codes simply don't exist anymore.
+- **Additional concern:** 5 screenshots showing old UI that likely reflects pre-rename state.
+- **Recommendation:** Immediately update action codes from `BG_FISCALPRINTER_MGT` → `BG_SIS_FP_MGT` and `BG_FP_CASHIER_MGT` → `BG_SIS_FP_CASHIER`. Retake screenshots.
 
 ---
 
 ## HIGH Priority Findings
 
-### 4. EFT BIN Group Doc — Partially Outdated Table References
-**Files affected:**
-- `content/en/docs/retail/eft/how-to/bin_group/index.md` (2023-08-07)
+### 5. Self-Service Profile Troubleshooting — Multiple Outdated References
+- **File:** `content/en/docs/troubleshooting/ss_profile.md` (2023-07-18)
+- **Issues found:**
+  - References "Major Tom" (step 17: "Configure Major Tom for self-service") — no `Major Tom` reference found in current codebase
+  - References "FLEXI Outdoor Kiosk" (step 18) — no `FLEXI Outdoor` reference found in current code
+  - References configuring "POS View" with JSON file editing (step 7) — this may be outdated if POS views are now managed differently
+  - References "SS-POS" actions and "POS Named Actions Profile" — these exist in code but the specific workflow may have changed
+  - References "SSP (Adyen - EFT)" payment type setup (step 14) — Adyen integration exists but setup flow may have changed
+- **Recommendation:** Full rewrite needed. Verify each step against current codebase and setup wizard flows.
 
-**Evidence from code:**
-- The doc references **EFT Mapping Group Payment Links** — the old table `NPR EFT BIN Group Paym. Link` (6184512) has been marked `ObsoleteReason = 'Replaced by "NPR EFT Bin Group Payment Link"'`. The old page `NPR EFT BIN Group Paym. Links` is also obsolete, replaced by `NPR EFT BIN Group PaymentLinks`.
-- The doc says to provide **DAN** in the **Payment Type POS** field. However, the `Payment Type POS` table (`NPR Payment Type POS`, 6014402) has `ObsoleteState = Removed`. The field still exists on the EFT BIN Group Payment Link table but the standalone table is gone.
-- The doc uses the old **Lightbulb icon** search method (Tell Me has evolved in newer BC versions)
-- Screenshot `eft_bin_group.PNG` likely shows old UI
+### 6. Credit Memo Troubleshooting — Potentially Outdated POS Flow
+- **File:** `content/en/docs/troubleshooting/credit_memo.md` (2023-07-18)
+- **Issues found:**
+  - References "Other function (menu)" → "Return (menu)" → "Cash Sales Reverse" POS navigation flow
+  - `Cash Sales Reverse` returns 0 results in the codebase — this specific action name/flow may have been renamed or restructured
+- **Recommendation:** Verify the current POS return/credit memo flow and update navigation steps.
 
-**Field names still valid in code:** `Card Issuer ID`, `BIN From`, `BIN To`, `BIN Group Priority`, `BIN Group Code`, `EFT AID Mapping List`, `Registered application provider ID`, `ApplicationID` — all confirmed present.
+### 7. EOD Report Troubleshooting — "Profiles" Section Reference May Be Outdated
+- **File:** `content/en/docs/troubleshooting/eod.md` (2023-07-18)
+- **Issues found:**
+  - Step 1 says "Open one of the POS units... navigate to the **Profiles** section" — POS Unit Card layout may have changed
+  - Step 2: "Open the **End of Day Profile** dropdown list, and click **New**" — the profile creation flow may differ in current versions
+  - References `Master & Slave` terminology for End of Day — while `POS End of Day Profile` exists in code, the terminology may have been updated
+- **Recommendation:** Verify current POS Unit Card layout and EOD profile creation flow.
 
-**Recommendation:** Update table/page name references for the Payment Links. Verify "Payment Type POS" terminology vs current "POS Payment Method" naming. Update screenshot. Remove or clarify Pepper reference.
+### 8. France Fiscalization Setup — Specific Codeunit Reference
+- **File:** `content/en/docs/fiscalization/france/how-to/setup/index.md` (2023-07-06)
+- **Issues found:**
+  - Step 13 references codeunit `6184851 "NPR FR Audit Arch. Workshifts"` — the codeunit exists in code as `FRAuditArchWorkshifts.Codeunit.al` but the numeric ID should be verified as IDs can change across versions
+  - Step 14 references "Auto Archive URL", "Auto Archive API Key", "Auto Archive SAS" — these field names should be verified
+  - References print templates `EPSON_RECEIPT_2_FR` and `EPSON_END_OF_DAY_Z_FR` — template names should be verified
+  - Many setup enforcement rules listed — field names like "Fill Sale Fiscal No. On", "Print Receipt On Sale Cancel", "Do Not Print Receipt On Sale", "Allow Zero Amount Sales" should all be verified against current `POSAuditProfile.Table.al`
+- **Recommendation:** Verify all field names, codeunit IDs, and template names against current code. This is a complex setup guide that must be accurate.
 
----
+### 9. Spain Fiscalization — 9 Screenshots Potentially Showing Old UI
+- **File:** `content/en/docs/fiscalization/spain/how-to/setup/index.md` (2025-02-14, 9 images)
+- **Issues found:**
+  - This doc is relatively recent (Feb 2025) and references `ES_FISKALY` audit handler which exists in code
+  - References `ES Fiscalization Setup`, `ES Organizations`, `ES Signers`, `ES Clients` — all confirmed in code
+  - However, 9 screenshots make it highly maintenance-heavy — any UI change invalidates multiple images
+  - References `ES POS Audit Log Aux. Info` table — should be verified
+- **Recommendation:** Verify screenshots match current UI. Consider reducing screenshot count.
 
-### 5. POS Posting Setup / Accounting Entries — 23 Screenshots Likely Outdated
-**Files affected:**
-- `content/en/docs/retail/posting_setup/explanation/accounting_entries/index.md` (2023-08-16, **23 images**)
-
-**Evidence from code:**
-- The POS Posting Setup page and table (`NPR POS Posting Setup`, table 6150618, page 6150657) are **still active** in the codebase.
-- Field references `Include In Counting`, `Bin for Virtual-Count`, `Fixed Rate`, `Bank Rate` are confirmed in code.
-- The document references **POS Payment Method Card** which exists as `NPR POS Payment Method Card`.
-- Page/table structure appears largely intact.
-
-**Primary concern:** With 23 screenshots dated to August 2023, the UI shown almost certainly does not match the current Business Central interface (BC has had multiple visual updates since). Even if the conceptual flow is correct, outdated screenshots cause confusion.
-
-**Secondary concern:** The doc mentions "compress the entries" and "double entry" during virtual counting — this workflow logic should be verified against current EOD process which has been updated.
-
-**Recommendation:** Re-capture all 23 screenshots against current BC version. Review EOD virtual counting workflow for accuracy. This is a major effort but the doc is a key reference for posting setup.
-
----
-
-### 6. Item Add-On Docs — Screenshot-Heavy, Partially Outdated UI
-**Files affected:**
-- `content/en/docs/retail/pos_processes/how-to/custom_configurations_item_addons/index.md` (2023-08-18, **20 images**)
-- `content/en/docs/retail/pos_processes/how-to/item_addon/index.md` (2023-07-11, **15 images**)
-
-**Evidence from code:**
-- The **Item AddOn Card** (`NPR NpIa Item AddOn`) is confirmed active in code
-- **Item AddOn Line** table (6151126) is active
-- **Before Insert Function** field and **UnitPriceFromMaster** function are confirmed present
-- **RUN_ITEM_ADDONS** POS action (enum value 150) is confirmed active
-- **NPR Properties** section on Item Card page extension is confirmed
-- **Per Unit**, **Fixed Quantity**, **Mandatory**, **Copy Serial No.** fields — likely still present (part of the AddOn Line table)
-
-**Primary concern:** 35 combined screenshots across both docs are from 2023 and show old BC UI. The *burger menu example* in custom_configurations doc is extensive (15 images for that section alone) and very likely shows outdated POS and BC screenshots.
-
-**Secondary concern:** The docs reference **Item AddOn Line Setup** accessed via "Manage" > "Before Insert Setup" — this navigation path should be verified against current UI.
-
-**Recommendation:** Re-capture screenshots. The functional flow appears mostly correct based on code analysis, but the visual representation is stale. Consolidate the two docs if possible to reduce maintenance burden.
-
----
-
-### 7. Self-Service Profile Doc — Multiple Outdated References
-**Files affected:**
-- `content/en/docs/retail/pos_profiles/how-to/ss_profile/ss_profile.md` (2024-02-19, **9 images**)
-
-**Evidence from code:**
-- **POS Named Actions Profile** — confirmed active (table field `POS Named Actions Profile` on POS Unit, page `NPR POS Named Actions Profile`)
-- **SS-START-POS**, **SS-ITEM**, **SS-PAYMENT**, **SS-IDLE-TIMEOUT** — all confirmed as active POS workflow enum values
-- **TEXT_ENTER** — not found in quick search, may need verification
-- **POS View Profile** fields (`Initial Sales View`, `After End-of-Sale View`, `POS Theme Code`) — all confirmed active
-- **End of Day Type** `MASTER_SLAVE` and **Master POS Unit No.** — confirmed active
-- **POS Security Profile** `Lock Timeout` — needs verification
-
-**Outdated references found:**
-1. The doc references **codeunit 6150702 NPR POS UI Management** — this codeunit exists but the label names mentioned (`Sale_TimeoutTitle`, `Sale_TimeoutCaption`, `Sale_TimeoutButtonCaption`) should be verified as label names can change.
-2. The doc references **Table 6014406 - Sale Line POS** — the table `NPR POS Sale Line` still has ID 6014406, so this is correct. However, the field numbers (12 = Qty, 6 = Number) need verification as these may have changed.
-3. The doc mentions **Major Tom** kiosk mode configuration — Major Tom reference found only once in the codebase (a logging-related codeunit). The "Configuration view of Major Tom" section may describe UI that has changed significantly.
-4. The doc links to "creating POS themes" but the link target `[creating POS themes]` is broken (no href).
-5. Screenshots show old POS UI and Business Central pages.
-
-**Recommendation:** Verify all field numbers. Fix broken link for POS themes. Update Major Tom section. Re-capture 9 screenshots. Verify TEXT_ENTER action name.
+### 10. Italy Fiscalization — 9 Screenshots, Complex Setup
+- **File:** `content/en/docs/fiscalization/italy/how-to/setup/index.md` (2024-02-20, 9 images)
+- **Issues found:**
+  - `IT_PRINT_MGT`, `IT_EJ_REPORT`, `IT_LOTT_CODE`, `IT_CASH_MGT` action codes all confirmed in POSWorkflow enum — these are CORRECT
+  - `IT_ENTRATE` audit handler confirmed in code — CORRECT
+  - References `IT Tax Fiscalization Setup`, `IT POS Unit Mapping`, `NPR IT VAT Department Codebook`, `IT POS Payment Method Mapping` — should all be verified
+  - 9 screenshots showing parameter configurations and payment setups
+- **Recommendation:** Verify page names and screenshots match current UI.
 
 ---
 
 ## MEDIUM Priority Findings
 
-### 8. SQL Statements for Lookup POS Action — Potentially Stale Action Name
-**Files affected:**
-- `content/en/docs/retail/pos_layout/reference/sql_pos_action/index.md` (2023-09-12)
+### 11. WMS Handling Codeunits — Static Reference Table, Potentially Incomplete
+- **File:** `content/en/docs/wms/reference/handling_codeunits/index.md` (2023-09-20)
+- **Issues found:**
+  - Lists 37 specific codeunits with IDs (6185182-6185291)
+  - Unable to verify individual codeunit numbers against npcore-partners (WMS code not visible in public repo)
+  - Some codeunit names contain "RFID" references which may have been updated
+  - Reference table format hasn't been updated since 2023-09-20
+- **Recommendation:** Cross-check all codeunit numbers and names against current WMS codebase. Add/remove any codeunits that have changed.
 
-**Evidence from code:**
-- No direct match for a POS action literally called `LOOKUP` was found. The current action appears to be `ITEM_LOOKUP` (codeunit `NPR POS Action: Item Lookup`).
-- The SQL filter syntax described is standard Business Central filter syntax and remains valid.
-- Screenshot `pos_action_sql_filter.png` shows old UI.
+### 12. WMS Hardware Recommendations — Outdated Product References
+- **File:** `content/en/docs/wms/explanation/hardware/index.md` (2023-11-22)
+- **Issues found:**
+  - Recommends specific hardware models that may be discontinued:
+    - Zebra RFD8500 — this product is now replaced by RFD8500i/RFD40
+    - Impinj xSpan Gateway — rebranded/updated product line
+    - Impinj xArray Gateway — product line updated
+    - "Samsung Galazy XCover Pro" — **TYPO** in "Galazy" (should be "Galaxy"), and XCover Pro has newer models (XCover6 Pro, XCover7)
+    - Zebra ZD500R — this model has been superseded by ZD421R/ZD621R
+  - Links to specification PDF files that may be outdated
+- **Recommendation:** Update hardware recommendations to current models. Fix "Galazy" typo.
 
-**Recommendation:** Verify whether the action is still called `LOOKUP` or has been renamed to `ITEM_LOOKUP`. Update the action name reference and screenshot.
+### 13. Power BI for WMS — Outdated Date Range and BC Version Reference
+- **File:** `content/en/docs/power_bi/wms/how-to/installation/index.md` (2023-11-23, 5 images)
+- **Issues found:**
+  - Step 8 references default **To Date** as `31/12/2024` — this is now in the past
+  - References "Business Central version 22" — BC is now on much later versions
+  - 5 screenshots from 2023 likely show outdated UI
+- **Recommendation:** Update date range defaults and BC version reference. Retake screenshots.
 
----
+### 14. Power BI for Retail — Outdated BC Version Reference
+- **File:** `content/en/docs/power_bi/retail/how-to/install/index.md` (2023-11-23)
+- **Issues found:**
+  - Step 6 states: "This specialized version facilitates seamless integration with the Business Central version 22 and newer." — BC 22 is old
+  - Contains embedded YouTube video that should be verified as still current
+  - Multiple screenshots from 2023
+- **Recommendation:** Update BC version reference. Verify YouTube video and screenshots.
 
-### 9. Data Archives Docs — References Standard BC Feature, Minor Issues
-**Files affected:**
-- `content/en/docs/retail/eft/how-to/create_data_archive/index.md` (2023-08-07)
-- `content/en/docs/retail/eft/explanation/data_archives/index.md` (2023-11-22)
+### 15. Power BI for Entertainment/Attraction — "ENVIROMENTNAME" Typo
+- **File:** `content/en/docs/power_bi/entertainment/how-to/install/index.md` (2023-11-23)
+- **Issues found:**
+  - Step 1 says "ENVIROMENTNAME-PROD" — this appears to be a typo (should be ENVIRONMENTNAME)
+  - The URL example also uses "EnviromentName-Prod" — same typo
+  - Otherwise follows same pattern as Retail install (2023-era)
+- **Recommendation:** Fix typo, update screenshots and BC version references.
 
-**Evidence from code:**
-- Data Archive functionality exists in code as `NPR Reten. Pol. Data Archive` (codeunit 6059927) integrated with BC's Retention Policy framework.
-- The **Data Archive List** is a standard BC page, not NP-specific.
-- The docs describe a manual archiving process while the code suggests the current approach uses **Retention Policies** for automated archiving.
+### 16. Partner: Artifact Feeds — Potentially Outdated DevOps References
+- **File:** `content/en/docs/partner/artifact_feeds/index.md` (2023-11-22, 7 images)
+- **Issues found:**
+  - References Azure DevOps at `navipartner.visualstudio.com` — should verify this URL is still valid
+  - References "PublicFeeds" project and "NaviPartner.NavApps" feed
+  - Step 3 says "currently two" core apps — this count may have changed
+  - 7 screenshots of the Azure DevOps Artifact Feeds UI which changes frequently
+  - NuGet package management instructions may be outdated
+- **Recommendation:** Verify DevOps URLs, app count, and retake all 7 screenshots.
 
-**Specific issues:**
-1. The explanation doc has a broken link: `../howto/create_data_archive.md` — should likely be `../../how-to/create_data_archive/index.md`
-2. The how-to describes a fully manual "Start/Stop Logging" workflow that may not reflect the current retention policy-based approach.
-3. The docs are categorized under `eft/` but Data Archives apply more broadly.
+### 17. Partner: Inventory Setup — May Need BC Version Update
+- **File:** `content/en/docs/partner/inventory_setup/index.md` (2023-10-26, 2 images)
+- **Issues found:**
+  - Core advice (disable Automatic Cost Posting, set Automatic Cost Adjustment to Never) is likely still valid
+  - 2 screenshots of Business Central Inventory Setup page that may show old UI
+  - References "NaviPartner creates a job" — the specific job queue setup may have changed
+- **Recommendation:** Verify screenshots against current BC UI and confirm job queue setup details.
 
-**Recommendation:** Update the data archive docs to reflect the retention policy integration. Fix the broken cross-reference link. Consider moving these docs to a more general section.
+### 18. Croatia Fiscalization — 2 Screenshots, Old Date
+- **File:** `content/en/docs/fiscalization/croatia/how-to/setup/index.md` (2023-10-19)
+- **Issues found:**
+  - `CRO_FINA` audit handler confirmed in code — CORRECT
+  - `CRO Tax Fiscalization Setup` confirmed — CORRECT
+  - References `Certificate Subject OIB`, `Bill No. Series`, `Accompanying Document No. Series` — should be verified
+  - 2 screenshots from 2023
+- **Recommendation:** Verify field names and update screenshots.
 
----
+### 19. Denmark Fiscalization — Brief but Old
+- **File:** `content/en/docs/fiscalization/denmark/how-to/setup/index.md` (2023-12-22)
+- **Issues found:**
+  - `DK_SKAT` audit handler confirmed in code — CORRECT
+  - `DK Fiscalization Setup` table confirmed in code — CORRECT
+  - References `SAFTCash` panel and `SAF-T Contact No.` — should verify field names
+  - Very short doc — may be missing steps that have been added since
+- **Recommendation:** Verify completeness against current setup requirements.
 
-### 10. Responsibility Center / Take Photo — Minor Staleness
-**Files affected:**
-- `content/en/docs/retail/pos_processes/how-to/responsibility_center/index.md` (2023-11-22)
-- `content/en/docs/retail/pos_processes/how-to/take_photo/index.md` (2023-11-22)
-
-**Evidence from code:**
-- **CHANGE_RESP_CENTER** — confirmed active (enum value 132), parameters `Fixed Resp Center` and `Lookup Resp Center` confirmed in code
-- **TAKE_PHOTO** — confirmed active (enum value 19)
-- **POS Entry Media Info List** — confirmed active
-- **POS Parameter Values** — confirmed active concept
-
-**Issues:**
-1. Both docs use old navigation: "Click **POS** in the Role Center's ribbon, followed by **Open POS**" — this navigation path may have changed in newer BC versions.
-2. The Take Photo doc references **POS Entry Factbox** with an "Images Exist" field — should be verified.
-3. The Take Photo doc embeds a YouTube video (`XmVeUrNa42U`) that may show old UI.
-4. No screenshots in Responsibility Center doc (actually a positive — less to maintain).
-5. The Take Photo doc has one screenshot showing old POS UI.
-
-**Recommendation:** Verify navigation paths against current BC. The core functionality appears intact in code, so these are lower priority than the obsolete module docs.
+### 20. Slovenia Fiscalization — Old Date
+- **File:** `content/en/docs/fiscalization/slovenia/how-to/setup/index.md` (2023-11-30)
+- **Issues found:**
+  - `SI_DAVKI` audit handler confirmed in code — CORRECT
+  - `SI Tax Fiscalization Setup` confirmed — CORRECT
+  - References `Salesperson Tax Number` field — should be verified
+- **Recommendation:** Verify all field names against current code.
 
 ---
 
 ## LOW Priority Findings
 
-### 11. EFT BIN Mapping Doc — Functional but Stale Language
-**Files affected:**
-- `content/en/docs/retail/eft/how-to/eft_bin/index.md` (2023-11-22)
+### 21. Sweden Fiscalization — Informational Only, No Setup Steps
+- **File:** `content/en/docs/fiscalization/sweden/how-to/setup/index.md` (2023-09-06)
+- **Issues found:**
+  - This is only an overview/explanation page, not a setup guide
+  - CleanCash® integration confirmed in code (`[SE] CleanCash/` folder)
+  - Historical information about "Legislation on 1 January 2010" is still accurate
+  - States "over 80,000 CleanCash® units installed" — number may be higher now
+- **Recommendation:** Low priority. Consider adding actual setup steps.
 
-**Evidence from code:** All referenced entities (EFT Transaction Requests, Card Number, Card Application ID, Card Issuer ID) are confirmed active in code. The workflow described appears valid.
+### 22. Troubleshooting Docs (Printers) — Generic, Likely Still Valid
+- **Files:** `a4_printer.md`, `receipt_printer.md`, `label_printer.md`, `printer.md`
+- **Issues found:**
+  - Hardware troubleshooting advice (power checks, driver checks, etc.) is generic and likely still valid
+  - `label_printer.md` references **Object Output Selection** — this page exists in code (`ObjectOutputSelection.Page.al`)
+  - `printer.md` references **Print Template Output Setup** and **Print Template List** — both exist in code
+  - These docs contain no screenshots and are text-only Q&A
+- **Recommendation:** Low priority. Content is generic enough to remain valid, though a review for completeness would be beneficial.
 
-**Issues:**
-1. References Pepper Integration as an exception (obsolete — see Critical #3)
-2. Uses **Page Inspection** (Ctrl+F1) workflow which is still valid in BC but somewhat niche
-3. No screenshots (positive for maintenance)
+### 23. Coupon Troubleshooting — Field Names Appear Valid
+- **File:** `content/en/docs/troubleshooting/coupon.md` (2023-07-18, 2 images)
+- **Issues found:**
+  - `Coupon Type Card` exists in code (`NpDcCouponTypeCard.Page.al`)
+  - `Multi-Use Coupon` field exists in code
+  - `Validate Coupon Module` exists in code
+  - 2 small screenshots may show old UI
+- **Recommendation:** Low priority. Verify screenshots.
 
-**Recommendation:** Remove Pepper reference. Otherwise low priority.
+### 24. Initial Float Troubleshooting — References POS Payment Bin
+- **File:** `content/en/docs/troubleshooting/initial_float.md` (2023-07-24)
+- **Issues found:**
+  - References `POS Payment Bin Set Float` page — `POSPaymBinSetFloat.Page.al` exists in code
+  - References `Confirm Bin Contents` window — should be verified
+  - No screenshots, text-only
+- **Recommendation:** Low priority. Verify window/dialog names.
+
+### 25. Tax-Free Troubleshooting — References Audit Roll
+- **File:** `content/en/docs/troubleshooting/tax_free.md` (2023-07-18)
+- **Issues found:**
+  - References `Audit Roll` and `Tax Free Voucher` page — `TaxFreeVoucher.Page.al` exists in code
+  - Short, text-only doc
+- **Recommendation:** Low priority. Verify `Audit Roll` still exists as a navigable page.
+
+### 26. Shipping Labels (Shipmondo) — Appears Current
+- **File:** `content/en/docs/shipping_labels/shipmondo/how-to/setup/index.md` (2023-10-18)
+- **Issues found:**
+  - `Shipping Provider Setup` page confirmed in code
+  - `Package Shipping Agents` page confirmed in code
+  - `NPR Services Combination` confirmed in code
+  - GLS service codes (GLSDK_SD, GLSDK_HD, GLSDK_BP) would need Shipmondo API verification
+  - References Shipmondo website navigation which may have changed
+- **Recommendation:** Low priority for code accuracy. Verify Shipmondo website steps still match.
+
+### 27. NETS BAXI Setup — Active Integration, May Need Review
+- **File:** `content/en/docs/providers/nets_baxi/how-to/setup/index.md` (2023-07-06)
+- **Issues found:**
+  - NETS BAXI code exists in active folder (`POS Payment/EFT/Integrations/NETS BAXI/`)
+  - NETS Cloud also exists in active folder — both are active integrations
+  - `NETS_BAXI_NET` and `NETS_CLOUD` EFT Integration Types should be verified in current enum
+  - Doc references `Socket Listener` parameter — should be verified
+- **Recommendation:** Low priority. Integration is active but doc is from 2023 — worth a review.
+
+### 28. Standalone Terminal Setup — Active but No Code Match
+- **File:** `content/en/docs/providers/standalone_terminal/how-to/setup/index.md` (2023-07-06)
+- **Issues found:**
+  - Code folder is `Application/src/POS Payment/EFT/Integrations/External Terminal/`
+  - Doc references `EXTERNAL_TERMINAL` as the EFT Integration Type — this name matches the code folder
+  - Basic setup, unlikely to have changed significantly
+- **Recommendation:** Low priority.
+
+### 29. Planet Setup — Relatively Recent
+- **File:** `content/en/docs/providers/planet/how-to/setup/index.md` (2024-03-14)
+- **Issues found:**
+  - `Planet PAX` code exists in active folder
+  - References `PLANET_PAX` as EFT Integration Type — likely correct
+  - 1 screenshot
+- **Recommendation:** Low priority. Most recent provider doc.
+
+### 30. MatrixScan / WMS Explanation — Marketing Content
+- **File:** `content/en/docs/wms/explanation/matrixcount/index.md` (2023-11-22)
+- **Issues found:**
+  - Primarily marketing/explanation content about Scandit MatrixScan
+  - No specific code references to verify
+  - External link to scandit.com should be verified
+- **Recommendation:** Low priority. Verify external links still work.
 
 ---
 
-### 12. Create Data Archive How-To — Uses Old Lightbulb Icon
-**Files affected:**
-- `content/en/docs/retail/eft/how-to/create_data_archive/index.md` (2023-08-07)
+## Summary Table
 
-**Issue:** References "Click the ![Lightbulb](Lightbulb_icon.PNG) button" — while Tell Me (the lightbulb/search) still exists in BC, newer docs typically use different phrasing. Very minor.
-
-**Recommendation:** Low priority standardization update.
+| # | Area | File | Last Updated | Priority | Key Issue |
+|---|------|------|-------------|----------|-----------|
+| 1 | Providers | pepper/* (6 files) | 2023-07 | **CRITICAL** | Entire integration OBSOLETE in code |
+| 2 | Providers | flexiiterm/setup | 2023-07 | **CRITICAL** | Entire integration OBSOLETE in code |
+| 3 | Providers | mobilepay/setup | 2023-07 | **CRITICAL** | MobilePay V10 OBSOLETE, replaced by Vipps MobilePay |
+| 4 | Fiscalization | bulgaria/setup | 2023-12 | **CRITICAL** | Wrong POS action codes (BG_FISCALPRINTER_MGT → BG_SIS_FP_MGT) |
+| 5 | Troubleshooting | ss_profile.md | 2023-07 | **HIGH** | References "Major Tom", "FLEXI Outdoor Kiosk" — not in code |
+| 6 | Troubleshooting | credit_memo.md | 2023-07 | **HIGH** | "Cash Sales Reverse" not found in code |
+| 7 | Troubleshooting | eod.md | 2023-07 | **HIGH** | POS Unit navigation may be outdated |
+| 8 | Fiscalization | france/setup | 2023-07 | **HIGH** | Complex setup with specific codeunit IDs to verify |
+| 9 | Fiscalization | spain/setup | 2025-02 | **HIGH** | 9 screenshots need verification |
+| 10 | Fiscalization | italy/setup | 2024-02 | **HIGH** | 9 screenshots, complex setup (action codes verified OK) |
+| 11 | WMS | handling_codeunits | 2023-09 | **MEDIUM** | 37 codeunit IDs to verify |
+| 12 | WMS | hardware | 2023-11 | **MEDIUM** | Outdated hardware models, "Galazy" typo |
+| 13 | Power BI | wms/installation | 2023-11 | **MEDIUM** | "To Date: 31/12/2024" is past, BC v22 reference |
+| 14 | Power BI | retail/install | 2023-11 | **MEDIUM** | BC version 22 reference outdated |
+| 15 | Power BI | entertainment/install | 2023-11 | **MEDIUM** | "ENVIROMENTNAME" typo |
+| 16 | Partner | artifact_feeds | 2023-11 | **MEDIUM** | 7 screenshots, DevOps URLs to verify |
+| 17 | Partner | inventory_setup | 2023-10 | **MEDIUM** | 2 screenshots to verify |
+| 18 | Fiscalization | croatia/setup | 2023-10 | **MEDIUM** | Old, 2 screenshots |
+| 19 | Fiscalization | denmark/setup | 2023-12 | **MEDIUM** | May be incomplete |
+| 20 | Fiscalization | slovenia/setup | 2023-11 | **MEDIUM** | Field names to verify |
+| 21 | Fiscalization | sweden/setup | 2023-09 | **LOW** | Informational only, no setup steps |
+| 22 | Troubleshooting | printer docs (4) | 2023-07 | **LOW** | Generic content, likely still valid |
+| 23 | Troubleshooting | coupon.md | 2023-07 | **LOW** | Field names verified OK, 2 screenshots |
+| 24 | Troubleshooting | initial_float.md | 2023-07 | **LOW** | POS Payment Bin verified in code |
+| 25 | Troubleshooting | tax_free.md | 2023-07 | **LOW** | Tax Free Voucher verified in code |
+| 26 | Shipping Labels | shipmondo/setup | 2023-10 | **LOW** | Code references verified OK |
+| 27 | Providers | nets_baxi/setup | 2023-07 | **LOW** | Active integration, old doc |
+| 28 | Providers | standalone_terminal/setup | 2023-07 | **LOW** | Active integration, basic setup |
+| 29 | Providers | planet/setup | 2024-03 | **LOW** | Most recent, active integration |
+| 30 | WMS | matrixcount | 2023-11 | **LOW** | Marketing content, verify links |
 
 ---
 
-### 13. Physical Inventory Reference Doc — Dense but Architecture Valid (If App Exists)
-**Files affected:**
-- `content/en/docs/retail/physical_inventory/reference/stocktake_template/index.md` (2024-01-11)
+## Statistics
 
-**Issue:** The reference doc is thorough and well-structured. If the NP Warehouse App still uses these same concepts, the content may be reusable. However, it's currently misleading as it implies these features are in the core retail product.
+- **Total findings:** 30
+- **CRITICAL:** 4 findings (Pepper, Flexiiterm, MobilePay V10, Bulgaria action codes)
+- **HIGH:** 6 findings  
+- **MEDIUM:** 10 findings
+- **LOW:** 10 findings
+- **Screenshot-heavy docs needing review:** Spain (9), Italy (9), Artifact Feeds (7), Power BI WMS (5), Bulgaria (5)
+- **Oldest unmodified docs:** All troubleshooting docs from July 2023
 
-**Recommendation:** Move to NP Warehouse documentation or add clear redirect.
+## Active vs. Obsolete EFT Integrations
 
----
+### Active (in code):
+- Adyen
+- External Terminal (Standalone)
+- NETS BAXI
+- NETS Cloud
+- Planet PAX
+- Verifone VIM
+- Vipps MobilePay
 
-## Screenshot Impact Summary
+### Obsolete (NOT SUPPORTED in code, but still documented):
+- **Pepper** — fully documented with 6 articles
+- **Flexiiterm** (NETS PSAM) — 1 setup article
+- **MobilePay V10** — 1 setup article (replacement: Vipps MobilePay)
+- MobilePay V6 — (not documented, older obsolete)
+- Softpay — (in obsolete folder, not documented)
 
-| Document | Images | Last Updated | Priority |
-|----------|--------|--------------|----------|
-| accounting_entries/index.md | 23 | 2023-08-16 | HIGH |
-| custom_configurations_item_addons/index.md | 20 | 2023-08-18 | HIGH |
-| item_addon/index.md | 15 | 2023-07-11 | HIGH |
-| ss_profile/ss_profile.md | 9 | 2024-02-19 | HIGH |
-| service_module/how-to/setup/index.md | 1 | 2023-07-11 | CRITICAL (module obsolete) |
-| service_module/intro.md | 1 | 2023-07-11 | CRITICAL (module obsolete) |
-| sql_pos_action/index.md | 1 | 2023-09-12 | MEDIUM |
-| take_photo/index.md | 1 | 2023-07-12 | LOW |
-| bin_group/index.md | 1 | 2023-08-07 | HIGH |
-| **TOTAL** | **72** | | |
+### Not yet documented:
+- **Verifone VIM** — exists in active code, no docs found
+- **Adyen** — major integration with many code files, limited dedicated docs
 
 ---
 
 ## Recommended Action Plan
 
-### Immediate (Sprint 1):
-1. **Add deprecation banners** to all Service Module docs (6 files) — module is `ObsoleteState = Removed`
-2. **Add deprecation/redirect banners** to all Physical Inventory docs (7 files) — moved to NP Warehouse App
-3. **Remove Pepper Integration references** from EFT docs
+### Immediate (Week 1):
+1. Add deprecation banners to Pepper, Flexiiterm, and MobilePay V10 docs
+2. Fix Bulgarian fiscalization action codes (BG_FISCALPRINTER_MGT → BG_SIS_FP_MGT, BG_FP_CASHIER_MGT → BG_SIS_FP_CASHIER)
+3. Fix typos: "Galazy" → "Galaxy", "ENVIROMENTNAME" → "ENVIRONMENTNAME"
 
-### Short-term (Sprint 2):
-4. **Update EFT BIN Group doc** — fix obsolete table names, update Payment Links references
-5. **Verify and update Self-Service Profile doc** — fix broken link, verify field numbers, update Major Tom section
-6. **Update SQL POS action doc** — verify LOOKUP vs ITEM_LOOKUP action name
+### Short-term (Weeks 2-4):
+4. Review and update Self-Service Profile troubleshooting
+5. Verify credit memo POS flow ("Cash Sales Reverse")
+6. Update Power BI docs with current BC version references and date ranges
+7. Review France fiscalization codeunit IDs and field names
 
-### Medium-term (Sprint 3-4):
-7. **Re-capture screenshots** for accounting_entries (23), custom_configurations_item_addons (20), item_addon (15), and ss_profile (9) — **67 screenshots total**
-8. **Update Data Archive docs** — align with retention policy approach, fix broken links
-9. **Review navigation instructions** across all docs for current BC version compatibility
+### Medium-term (Months 2-3):
+8. Retake screenshots for Spain (9), Italy (9), Bulgaria (5) fiscalization docs
+9. Update Partner artifact feeds doc with current DevOps screenshots
+10. Review all WMS codeunit references
+11. Update hardware recommendations doc
+12. Create documentation for Verifone VIM and expanded Adyen docs
 
----
-
-## Methodology
-
-- Read all specified documentation files from the docs repo
-- Searched `navipartner/npcore-partners` codebase via GitHub code search for:
-  - Table names, page names, codeunit names mentioned in docs
-  - Field names and POS action codes
-  - Obsolete markers (`ObsoleteState`, `ObsoleteReason`, `ObsoleteTag`)
-  - Code file locations (active vs `__Obsolete (NOT SUPPORTED)` vs `__Legacy (STILL SUPPORTED)`)
-- Cross-referenced doc terminology against code captions and field names
-- Checked for broken internal links and outdated cross-references
-- Assessed screenshot freshness based on file dates and BC version evolution
+### Ongoing:
+13. Establish quarterly review cycle for all fiscalization docs
+14. Add "last verified" dates to documentation frontmatter
