@@ -113,26 +113,135 @@ This file is meant for approval before any documentation content is edited.
 4. In "make a sale" page, update line-edit/remove instructions with platform-specific behavior (swipe on mobile vs explicit action buttons on Windows).
 5. In reference page tables, annotate each setup/action item with applicability (`Android`, `NP Pay`, `Windows`, `All`).
 
-### Draft section to add (example)
+### Per-file implementation pack (ready-to-paste draft content)
+
+The sections below are concrete draft snippets for the 4 NP Pay pages reported in DOC-284.
+
+#### A) `content/en/docs/np_pay/explanation/emergency_mpos/index.md`
+
+**Action 1: Update "Supported devices" intro paragraph**
+
+Replace current intro under `## Supported devices` with:
 
 ```md
-## Windows support
+The NP Retail Emergency mPOS app supports Android-based devices and a dedicated Windows app. The sections below outline differences between Android devices, NP Pay terminals, and Windows.
+```
 
-Emergency mPOS is also available as a Windows application.
+**Action 2: Add Windows subsection**
 
-### Windows-specific behavior
+Insert after `### NP Pay terminals`:
+
+```md
+### Windows app
+
+The Windows version of Emergency mPOS supports emergency sales and synchronization with Business Central, but it does not provide the same payment/scanning capabilities as Android-based flows.
+
+#### Windows-specific behavior and limitations
 
 - **Tap to Pay** is not available on Windows.
+- **Board App (Adyen Payments app)** is not used on Windows.
 - **Camera/BinaryEye scanning** is not used on Windows.
 - **Scan input** is hidden in the Windows UI.
-- **Line edit/delete** actions are exposed as buttons (not swipe gestures).
+- **Line edit/delete** actions are exposed as on-screen buttons instead of swipe gestures.
 ```
+
+#### B) `content/en/docs/np_pay/how-to/emergency_pos/index.md`
+
+**Action 1: Split prerequisites by platform**
+
+Replace current prerequisite bullets with:
+
+```md
+### Prerequisite
+
+#### Android and NP Pay terminals
+
+- Download and install [<ins>NP Retail Emergency mPOS<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos).
+- Install the **Adyen Payments** app if you're using [<ins>Tap to Pay<ins>]({{< ref "../tap_to_pay/index.md" >}}).
+
+#### Windows
+
+- Install the NP Retail Emergency mPOS Windows application from the approved internal distribution source for your environment.
+- Complete the same **Quick Setup** flow (sign-in or QR setup) to connect with Business Central.
+```
+
+**Action 2: Add Windows caveats in setup sections**
+
+Append these notes:
+
+```md
+{{< alert icon="📝" text="Windows does not use the Adyen Board App flow. Tap to Pay setup applies only to Android-based devices."/>}}
+```
+
+under `### Payment setup`, and:
+
+```md
+{{< alert icon="📝" text="Windows does not use BinaryEye/camera scanning. Scanner setup options in this section apply to Android-based devices."/>}}
+```
+
+under `### Scanner setup`.
+
+#### C) `content/en/docs/np_pay/how-to/emergency_sale/index.md`
+
+**Action 1: Update sale-line editing instruction**
+
+Replace step 4 with:
+
+```md
+4. (Optional) Edit or remove sale lines as needed:
+   - **Android/NP Pay terminals:** swipe a line right/left to expose edit or delete actions.
+   - **Windows:** use the explicit line action buttons shown in the sales view.
+```
+
+**Action 2: Add scan-input behavior note**
+
+Add after step 4:
+
+```md
+{{< alert icon="📝" text="On Windows, <b>Scan input</b> is hidden. Use supported scanner integration or manual item entry according to your setup."/>}}
+```
+
+#### D) `content/en/docs/np_pay/reference/emergency_pos/index.md`
+
+**Action 1: Add platform applicability note**
+
+Insert near top of the page:
+
+```md
+{{< alert icon="📝" text="Some setup options are platform-specific. Unless otherwise stated, options apply to Android/NP Pay and Windows. Tap to Pay and BinaryEye-related options are Android-only."/>}}
+```
+
+**Action 2: Refine setup tables with platform scope**
+
+In `## Payment setup` table, update descriptions to include platform qualifiers:
+
+- **Payment Integration** description should explicitly say:
+  - **Adyen Tap to Pay** -> Android-only
+  - **LAN Terminal** -> NP Pay terminal flow
+  - Windows follows emergency payment flow without Tap to Pay boarding
+- **Tap to Pay** row -> Android-only
+- **Local Terminal** row -> NP Pay terminal-specific
+
+In `## Scanner setup`, append:
+
+```md
+Windows note: BinaryEye/camera scanning is not used on Windows; scanner behavior depends on supported Windows input integrations.
+```
+
+#### E) Editorial consistency changes in same 4 files
+
+1. Ensure wording is consistent:
+   - "Emergency mPOS" (preferred) and "Emergency POS" only when it refers to setup page names in BC.
+2. Add one "Applies to" sentence in each page where behavior differs by platform.
+3. Keep screenshots unless UI mismatch is confirmed; if mismatched, add temporary note instead of removing images in this iteration.
 
 ### Acceptance checks
 
 - Emergency mPOS pages no longer imply Android-only setup.
 - Every mentioned behavior difference has platform context.
 - No mobile-only instruction remains unqualified where Windows differs.
+- All four NP Pay files from DOC-284 include explicit Windows coverage.
+- Setup and sales flow pages contain Windows caveats for Tap to Pay, scanning, and line actions.
 
 ---
 
