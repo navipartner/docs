@@ -28,6 +28,40 @@ This file is meant for approval before any documentation content is edited.
 
 ---
 
+## Traceability matrix (DOC-284 -> action pack coverage)
+
+| DOC-284 requirement | Coverage in this file |
+| --- | --- |
+| Emergency mPOS Windows support in existing docs | Workstream 1 (file list + detailed actions + draft block + acceptance checks) |
+| Windows setup path/download source | Workstream 1 detailed actions item 3 + Open question #1 |
+| Windows limitations: Tap to Pay disabled | Workstream 1 detailed actions item 2 + draft section |
+| Windows limitations: BinaryEye/camera scanning not used | Workstream 1 detailed actions item 2 + draft section |
+| Windows limitations: Scan input hidden | Workstream 1 detailed actions item 2 + draft section |
+| Windows UX difference for line edit/delete vs swipe | Workstream 1 detailed actions item 2 and item 4 + draft section |
+| Membership notifications: Days Before behavior | Workstream 2 detailed actions item 1 and item 2 + draft table rows |
+| Notification timing before validity/activation | Workstream 2 detailed actions item 2 + draft table rows |
+| Impact on non-activated memberships | Workstream 2 detailed actions item 2 + acceptance checks |
+| Removed "Send notification on sale" option | Workstream 2 detailed actions item 3 + draft table rows + optional release note |
+| E-commerce membership sales-document processing | Workstream 3 (updates + new article) |
+| Required BC setup for online membership sales | Workstream 3 detailed actions item 2 |
+| Interaction with membership sales setup/creation | Workstream 3 detailed actions items 1-4 |
+| Data requirements (including birth date when age verification applies) | Workstream 3 detailed actions item 2 + new article stub |
+| Shopify storefront respects BC age verification | Workstream 4 (updates + new storefront-focused article) |
+| Storefront birth date requirement/validation | Workstream 4 detailed actions item 2 + warning block + stub |
+| Age-window enforcement online | Workstream 4 detailed actions item 2 + acceptance checks |
+| Admin metadata/field prerequisites | Workstream 4 detailed actions item 2 + stub prerequisites |
+| Entria voucher usage at checkout | Workstream 5 (new section + how-to article) |
+| Entria setup/prerequisites incl. BC API key/backend | Workstream 5 detailed actions items 2-3 + stub prerequisites |
+| Voucher behavior alongside normal payment flow | Workstream 5 detailed actions item 2 + stub payment outcomes |
+| Kiosk: auto-skip dining choice when fewer than two options | Workstream 6 detailed actions item 2 + stub |
+| Kiosk: expected behavior when no dining options configured | Workstream 6 detailed actions item 2 + stub |
+| Kiosk: languages from tenant configuration | Workstream 6 detailed actions item 2 + stub |
+| Kiosk: Refresh Kiosk / Exit to App / Out of Order controls | Workstream 6 detailed actions item 2 + stub |
+| Kiosk: refresh should preserve/continue active sale flow | Workstream 6 detailed actions item 2 + stub (updated wording below) |
+| Kiosk: membership check loading spinner | Workstream 6 detailed actions item 2 + stub |
+
+---
+
 ## Repository mapping summary
 
 ### Existing files confirmed in repo
@@ -575,7 +609,7 @@ type: docs
 
 ## Session behavior
 
-- Refresh does not continue prior sale unless explicitly restored by supported flow.
+- Refresh continues the active sale/session flow instead of dropping the in-progress sale.
 - Membership checks show loading spinner while validation is in progress.
 ```
 
