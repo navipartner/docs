@@ -27,9 +27,16 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 
 ### Prerequisite
 
-- Download and install [<ins>NP Retail Emergency Mpos<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos).
+#### Android devices and NP Pay terminals
+
+- Download and install [<ins>NP Retail Emergency mPOS<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos).
 - Install the **Adyen Payments** app if you're also using the [<ins>Tap to pay<ins>]({{< ref "../tap_to_pay/index.md" >}}) feature.      
-  There is both a live and a test version of this app in the Google Play store. 
+  There is both a live and a test version of this app in the Google Play store.
+
+#### Windows
+
+- Install the NP Retail Emergency mPOS Windows application from the approved software distribution source used by your organization.
+- Use the same **Quick Setup** process in the app to connect to Business Central (sign in or scan the setup QR code).
 
 ### Set up the Emergency mPOS app
 
@@ -78,6 +85,8 @@ The payment setup page specifies all configurations related to sales and payment
 
   ![emergency_5](Images/emergency_5.png)
 
+{{< alert icon="📝" text="Windows does not use the Adyen Board App flow. Tap to Pay setup applies only to Android-based devices."/>}}
+
 
 ### Scanner setup
 
@@ -85,6 +94,8 @@ The payment setup page specifies all configurations related to sales and payment
 - Opt for HID mode for built-in hardware scanners.
 
   ![emergency_6](Images/emergency_6.png)
+
+{{< alert icon="📝" text="Windows does not use BinaryEye/camera scanning. Scanner setup options in this section apply to Android-based devices."/>}}
 
 ### See also
 
