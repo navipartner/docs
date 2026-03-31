@@ -133,6 +133,8 @@ Pay special attention to the instructions on [<ins>Item add-ons as a list of sel
 
 For more information, refer to the article on the [<ins>Restaurant transactions flow<ins>]({{< ref "../../explanation/restaurant_flow/index.md" >}})
 
+For kiosk-specific web-app and operator behavior (dining option auto-skip rules, language configuration, Refresh Kiosk, Exit to App, Out of Order, and refresh/session handling), refer to [<ins>Self-service kiosk and operator flow<ins>]({{< ref "../self_service_kiosk_operator_flow/index.md" >}}).
+
 ### Ordering and payment
 
 Orders are taken from the POS Sale view, after which the customer/salesperson can proceed to the Payment View.
