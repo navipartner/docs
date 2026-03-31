@@ -29,14 +29,11 @@ NP Retail Emergency mPOS is an application designed to help customers process pa
 
 #### Android devices and NP Pay terminals
 
-- Download and install [<ins>NP Retail Emergency mPOS<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos).
-- Install the **Adyen Payments** app if you're also using the [<ins>Tap to pay<ins>]({{< ref "../tap_to_pay/index.md" >}}) feature.      
-  There is both a live and a test version of this app in the Google Play store.
+If you are using an Android device or an NP Pay terminal, install [<ins>NP Retail Emergency mPOS<ins>](https://play.google.com/store/apps/details?id=com.navipartner.retail.emergencympos) from Google Play. If your setup includes [<ins>Tap to pay<ins>]({{< ref "../tap_to_pay/index.md" >}}), you also need the **Adyen Payments** app, which is available in both live and test variants.
 
 #### Windows
 
-- Install the NP Retail Emergency mPOS Windows application from the approved software distribution source used by your organization.
-- Use the same **Quick Setup** process in the app to connect to Business Central (sign in or scan the setup QR code).
+If you are using Windows, install the NP Retail Emergency mPOS Windows app from your organization's approved software distribution source. After installation, connect the app to Business Central by running the standard **Quick Setup** flow and authenticating either by sign-in or by scanning the setup QR code.
 
 ### Set up the Emergency mPOS app
 
@@ -85,7 +82,7 @@ The payment setup page specifies all configurations related to sales and payment
 
   ![emergency_5](Images/emergency_5.png)
 
-{{< alert icon="📝" text="Windows does not use the Adyen Board App flow. Tap to Pay setup applies only to Android-based devices."/>}}
+For Windows setups, the Adyen **Board App** flow is not used. In practice, this means Tap to Pay-specific configuration applies to Android-based devices only.
 
 
 ### Scanner setup
@@ -95,7 +92,7 @@ The payment setup page specifies all configurations related to sales and payment
 
   ![emergency_6](Images/emergency_6.png)
 
-{{< alert icon="📝" text="Windows does not use BinaryEye/camera scanning. Scanner setup options in this section apply to Android-based devices."/>}}
+In Windows environments, BinaryEye and camera-based scanning are not part of the flow. The scanner options in this section therefore describe Android-based device behavior.
 
 ### See also
 

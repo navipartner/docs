@@ -15,26 +15,21 @@ toc: true
 type: docs
 ---
 
-When age verification is enabled in Business Central membership setup, the Shopify storefront membership flow applies the same age constraints online.
+When age verification is enabled in Business Central membership setup, the same rules are applied in the Shopify storefront membership flow. In practice, this means the online experience follows the setup you define in Business Central, instead of using separate storefront-specific age rules.
 
 ## Prerequisites
 
-- In **Membership Setup**, enable **Enable Age Verification** for the relevant membership.
-- In **Membership Sales Setup**, define valid age constraint values (**Age Constraint Type** and **Age Constraint (Years)**).
-- Ensure the storefront membership flow captures the birth date required for validation.
+Before this flow can work, age verification must be enabled for the relevant membership in **Membership Setup**. You also need to define the matching age constraints in **Membership Sales Setup** by setting both **Age Constraint Type** and **Age Constraint (Years)**. Finally, make sure your storefront membership form actually collects a birth date, because that value is required for validation.
 
 ## Storefront behavior
 
-- The customer is required to provide a birth date for memberships that use age verification.
-- The storefront validates the provided birth date against the age constraints configured in Business Central.
-- If the age is outside the allowed range, the membership purchase/registration is blocked until valid data is provided.
+For memberships that use age verification, the customer must provide a birth date during the online flow. The storefront then validates that date against the age rules configured in Business Central. If the customer does not meet the allowed age range, the membership purchase or registration is blocked until valid data is entered.
 
 {{< alert icon="⚠️" text="If age verification is enabled in Membership Setup, storefront membership flows must collect a valid birth date. Missing or out-of-range birth dates will block completion."/>}}
 
 ## Administration notes
 
-- Keep Business Central age constraints aligned with the membership offer shown online.
-- If validation fails unexpectedly, first verify the membership sales setup constraints and the storefront birth-date field mapping.
+Keep your Business Central age constraints aligned with the membership offer shown online, so customers do not see unexpected validation errors. If validation starts failing unexpectedly, first verify the membership sales setup constraints and then confirm that the storefront birth-date field is correctly mapped and sent in the request.
 
 ## See also
 

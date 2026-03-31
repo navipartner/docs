@@ -71,15 +71,11 @@ It accepts multiple payment methods, including contactless, chip, and swipe card
 
 ### Windows app
 
-Emergency mPOS is also available as a Windows application. The Windows app supports emergency sales and synchronization with Business Central, but its payment and scanning behavior differs from Android-based flows.
+Emergency mPOS is also available as a Windows application. The Windows app supports emergency sales and synchronization with Business Central in the same overall emergency flow, but some payment and scanning behaviors are different from Android-based devices.
 
 #### Windows-specific behavior and limitations
 
-- Tap to Pay is not available on Windows.
-- Adyen **Board App** flow is not used on Windows.
-- BinaryEye/camera scanning is not used on Windows.
-- **Scan input** is hidden on Windows.
-- Sale line edit/delete actions are shown as explicit buttons instead of swipe gestures.
+On Windows, Tap to Pay is not available and the Adyen **Board App** flow is not used. Camera-based scanning with BinaryEye is also not used in the Windows flow, and the **Scan input** option is hidden in the interface. When users need to edit or delete sale lines, they do this through visible action buttons in the sales view, rather than with swipe gestures as on Android-based devices.
 
 ### See also
 

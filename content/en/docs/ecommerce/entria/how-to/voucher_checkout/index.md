@@ -15,36 +15,24 @@ toc: true
 type: docs
 ---
 
-Use this guide if you want customers to apply vouchers directly in Entria checkout.
+Use this guide when you want customers to apply vouchers directly in Entria checkout.
 
 ## Prerequisites
 
-- Voucher support must be enabled in the Entria backend.
-- Voucher payment provider and voucher collection endpoint must be configured.
-- The integration must be able to authenticate against Business Central APIs (for example, BC API key setup where required by your environment).
-- Voucher currency and checkout currency must be compatible.
+Before vouchers can be used in checkout, the voucher functionality must be enabled in the Entria backend and connected to a configured voucher payment provider and voucher collection endpoint. Your integration must also be able to authenticate toward Business Central APIs, for example through BC API key configuration in environments where that is required. Finally, make sure voucher currency and checkout currency are compatible.
 
 ## Apply a voucher in checkout
 
-1. Open the checkout page and proceed to payment.
-2. Enter the voucher code in the voucher input field.
-3. Apply the voucher.
-4. Confirm that the voucher amount is deducted from the total.
+When a customer reaches the payment step in checkout, they can enter the voucher code in the voucher input field and apply it. If the voucher is valid, checkout updates immediately and deducts the voucher amount from the order total.
 
 ## Payment outcomes
 
-- **Voucher covers full amount**: checkout can be completed without an extra payment method.
-- **Voucher covers partial amount**: customer pays the remaining balance with a regular payment method.
-- **Voucher rejected**: checkout remains open and shows a validation error.
+There are three expected outcomes when applying a voucher. If the voucher covers the full order amount, checkout can be completed without selecting an additional payment method. If the voucher only covers part of the amount, the customer pays the remaining balance with a regular payment method. If the voucher is rejected, checkout stays open and shows a validation error so the customer can try another code or continue without voucher payment.
 
 ## Common validation errors
 
-- Voucher code not found.
-- Voucher already used or exhausted.
-- Voucher currency does not match checkout currency.
-- Backend/API authentication or configuration issue when validating voucher.
+Most validation failures are caused by one of the following conditions: the voucher code can not be found, the voucher has already been used or exhausted, the voucher currency does not match the checkout currency, or backend/API authentication and configuration is not valid at the time of voucher validation.
 
 ## Operational notes
 
-- If voucher validation fails unexpectedly, verify backend integration logs first.
-- If checkout behavior differs between environments, verify environment-specific API key and voucher provider settings.
+If voucher validation fails unexpectedly, start by checking backend integration logs, as they usually show whether the issue is data-related or configuration-related. If checkout behavior differs between environments, compare environment-specific API key and voucher provider settings first, since those differences are a common root cause.

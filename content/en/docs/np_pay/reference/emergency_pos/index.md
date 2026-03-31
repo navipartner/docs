@@ -41,7 +41,7 @@ The **Setup** page is opened by tapping **Setup** on the home screen. It contain
   | **Quick Setup** | Perform basic setup. |
   | **BC** | Configure Business Central options. | 
   | **Payment** | Configure payment. | 
-| **Scanner** | Choose between **Camera** and **HID** (Hardware Input Device/keyboard simulator) for scanning. This setup applies to Android-based flows. | 
+| **Scanner** | Choose between **Camera** and **HID** (Hardware Input Device/keyboard simulator) for scanning. This setup is relevant for Android-based flows. | 
   | **Items** | Manage products and pricing. |
   | **Help** | Access troubleshooting guides. |        
 
@@ -61,9 +61,9 @@ The payment setup page specifies all configurations related to sales and payment
   | **EFT Payment Method** fields | All EFT payment method fields are related to the POS payment method. When sales sync with NP Pay, card details are automatically mapped. |
   | **Cash Payment Method** fields | 	Specify configuration details for handling cash transactions. |
   | **EFT Payment Method: Monetary Unit/Cash Payment Method: Monetary Unit** | Defines the smallest accepted payment unit. For example, a value of 0.50 means valid payments are 1.00, 1.50, 2.00, but not 1.33 or 1.25. | 
-| **Payment Integration** | Configures payment processing options: <ul><li>Adyen Tap to Pay – Uses the Adyen Payments app for Android devices only.</li><li>LAN Terminal – Uses the NP Pay device’s built-in payment functionality.</li></ul> On Windows, Tap to Pay boarding is not used. | 
-| **Encryption Details** | Stores security credentials (ID, password, and version) at either the terminal or store level. When using the [<ins>Tap to pay<ins>]({{< ref "../../how-to/tap_to_pay/index.md" >}}) feature, configuration must be done at the store level, as the **Terminal List** does not include these details. This applies to Android Tap to Pay flows.| 
-| **Tap to Pay** | After configuring Encryption Details and Adyen Merchant Setup, you can establish a connection with the Adyen Payments app (a process called Boarding). If the app is uninstalled or unregistered, the Boarding process must be repeated. Android-only feature.| 
+| **Payment Integration** | Configures payment processing options. **Adyen Tap to Pay** uses the Adyen Payments app and is available only on Android devices. **LAN Terminal** uses the NP Pay device’s built-in payment functionality. On Windows, the Tap to Pay boarding flow is not used. | 
+| **Encryption Details** | Stores security credentials (ID, password, and version) at either the terminal or store level. When using the [<ins>Tap to pay<ins>]({{< ref "../../how-to/tap_to_pay/index.md" >}}) feature, configuration must be done at the store level, because the **Terminal List** does not include these details. This applies to Android Tap to Pay flows.| 
+| **Tap to Pay** | After configuring Encryption Details and Adyen Merchant Setup, you can establish a connection with the Adyen Payments app (a process called boarding). If the app is uninstalled or unregistered, the boarding process must be repeated. This feature is available only on Android.| 
 | **Local Terminal** | The **POI ID** uniquely identifies an NP Pay device using the format: [Device Model]-[Serial Number]. This applies only to NP Pay devices and is usually auto-filled. | 
 
    ![emergency_5](Images/emergency_5.png)
@@ -72,7 +72,7 @@ The payment setup page specifies all configurations related to sales and payment
 
 For scanning, you can either use the camera together with the **Binary Eye** app for barcode scanning, or the HID (Hardware Input Device), which is keyboard simulated events. The latter is typically used with devices that have built-in laser scanner functionality. 
 
-Windows note: BinaryEye/camera scanning is not used on Windows, and **Scan input** is hidden.
+On Windows, BinaryEye/camera scanning is not used and **Scan input** is hidden.
 
    ![emergency_6](Images/emergency_6.png)
 
@@ -119,7 +119,7 @@ You can also take the following actions:
 
 - Cancel the entire sale if no payments have been made. 
 - Proceed to the **Payments** page, by pressing the green cart button.
-- Edit or remove lines with the buttons that appear from swiping the item to the right and left respectively (Android/NP Pay). On Windows, use explicit on-screen line action buttons.
+- On Android and NP Pay devices, you edit or remove lines by swiping the item to the right or left. On Windows, those actions are shown as explicit on-screen buttons.
 
   ![emergency_10](Images/emergency_10.png)
 

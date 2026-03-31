@@ -19,22 +19,15 @@ Use this guide when memberships are sold through Shopify and imported to Busines
 
 ## Prerequisites
 
-- Membership lines must be configured in [<ins>Membership sales setup<ins>]({{< ref "../../../../entertainment/membership/reference/membership_sales_setup/index.md" >}}).
-- Incoming order data must include required member/customer fields.
-- If age verification is used, membership constraints must be configured and birth-date data must be available for validation.
+Before you start processing memberships from e-commerce orders, make sure the relevant membership lines are configured in [<ins>Membership sales setup<ins>]({{< ref "../../../../entertainment/membership/reference/membership_sales_setup/index.md" >}}). In addition, verify that incoming Shopify order data contains the customer and member details required by your setup. If age verification is enabled, birth-date information must be available in the order so the system can evaluate age constraints correctly.
 
 ## Processing flow
 
-1. Shopify order is imported into Business Central.
-2. Membership-related lines are matched to configured membership sales setup lines.
-3. Membership creation logic is executed for valid lines.
-4. Lines missing setup or required data are blocked until corrected.
+When an order is imported from Shopify, Business Central evaluates each membership-related line and tries to match it with the corresponding setup line. If the setup and required data are available, the membership creation flow continues automatically. If something is missing, such as mapping or required member data, the line is blocked until the setup or data issue is corrected.
 
 ## Common validation issues
 
-- No matching membership sales setup line exists for an imported membership line.
-- Required member data is missing in the imported order.
-- Age verification is enabled but the provided birth date is missing or outside the configured range.
+The most common issue is missing setup mapping, where an imported membership line has no corresponding line in **Membership Sales Setup**. Another common cause is missing required member data in the incoming order. In scenarios with age verification enabled, the process can also fail if birth-date data is missing or falls outside the configured age range.
 
 ## See also
 

@@ -58,11 +58,11 @@ The following fields and options are available in the **CRM & Loyalty** FastTab:
 | **Customer Config. Template Code** | Defines the customer template through which customers will be created whenever a new member is created for this membership. |
 | **Create Welcome Notification** | Defines whether the welcome notification is enabled. | 
 | **Create Renewal Notifications** | Specifies whether renewal notifications are enabled or disabled. | 
-| **Days Before** | Specifies how many days before the validity/activation point a membership notification is sent. Use `0` to send on the same date. |
+| **Days Before** | Defines how early the system should send membership notifications in relation to the validity or activation date. If this field is set to `0`, the notification is sent on the same date. |
 
-The **Send notification on sale** option is no longer available. Notification timing is now controlled through the notification setup behavior and the **Days Before** value.
+The **Send notification on sale** option is no longer available. Instead, notification timing is controlled through the standard notification setup together with the **Days Before** value.
 
-For non-activated memberships, notifications can be scheduled before the membership validity date according to the configured **Days Before** value.
+For non-activated memberships, this means you can still schedule communication before the actual validity start date, as long as the **Days Before** configuration is set accordingly.
 
 The **Card** FastTab is related to the physical membership card. The following fields and options are available:
 
@@ -83,6 +83,6 @@ The **GDPR** FastTab contains the following fields and options:
 
 ## Shopify storefront behavior
 
-If **Enable Age Verification** is enabled for a membership, the Shopify membership flow can enforce birth-date input and age-range validation according to your membership sales setup constraints.
+If **Enable Age Verification** is enabled for a membership, the Shopify storefront can enforce birth-date input and validate the member's age range based on the constraints defined in membership sales setup.
 
 For setup details and expected storefront behavior, see [<ins>Shopify membership age verification behavior<ins>]({{< ref "../../../../ecommerce/shopify/how-to/membership_age_verification/index.md" >}}).
