@@ -50,3 +50,4 @@ To set up the Shopify integration, make sure the prerequisites are met, and foll
 ## Next steps
 
 - [<ins>Create a Shopify store<ins>]({{< ref "../../reference/shopify_store/index.md" >}})
+- [<ins>Shopify membership age verification behavior<ins>]({{< ref "../membership_age_verification/index.md" >}})

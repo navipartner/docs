@@ -33,3 +33,11 @@ The following columns should be populated when creating new lines in this admini
 | **Age Constraint (Years)** | Specifies the acceptable age for a member. | 
 
 You can create a membership via the **Create Membership** action in the ribbon. This action creates membership in the same way it would've been created from the POS.
+
+## Membership sales from e-commerce orders
+
+Memberships can also be created from imported e-commerce sales documents when membership-related lines are configured in this setup. In practice, this means that incoming order lines must match valid records in **Membership Sales Setup**, and the order data must include all fields required to create the member and membership correctly.
+
+If age verification is enabled and the membership line is age-constrained, the imported order must include the member's birth date so the configured age window can be validated before creation.
+
+For storefront-specific setup and behavior details, refer to [<ins>Shopify membership age verification behavior<ins>]({{< ref "../../../../ecommerce/shopify/how-to/membership_age_verification/index.md" >}}) and [<ins>Set up e-commerce membership sales processing<ins>]({{< ref "../../../../ecommerce/shopify/how-to/ecommerce_membership_sales/index.md" >}}).

@@ -87,6 +87,18 @@ To define a payment method mapping:
    | **Payment Method Code** | Specifies a Business Central payment method to be assigned to sales orders. |
    | **Payment Gateway Code** | Specifies the payment gateway to use for payment capture requests. | 
 
+## E-commerce membership sales
+
+Memberships can be processed from imported e-commerce sales documents when membership items are included in the incoming Shopify order.
+
+Before using this flow, make sure:
+
+- membership-related lines are configured in [<ins>Membership sales setup<ins>]({{< ref "../../../../entertainment/membership/reference/membership_sales_setup/index.md" >}})
+- required customer/member fields are available in incoming order data
+- age/birth date constraints are configured where applicable
+
+For storefront age validation behavior, refer to [<ins>Shopify membership age verification behavior<ins>]({{< ref "../membership_age_verification/index.md" >}}).
+
 
 ## Set up Location mapping
 

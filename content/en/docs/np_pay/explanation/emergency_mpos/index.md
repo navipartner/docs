@@ -26,7 +26,7 @@ After synchronization, transaction data is saved under **External POS Sales** in
 
 ## Supported devices
 
-The NP Retail Emergency mPOS app can be installed on standard Android devices or NP Pay terminals. The following sections outline the differences between these device types.
+The NP Retail Emergency mPOS app can be installed on standard Android devices, NP Pay terminals, or Windows devices. The following sections outline the differences between these platform types.
 
 ### Android devices
 
@@ -68,6 +68,14 @@ The AMS1 operates independently of standard POS systems, reducing vulnerability 
 S1E2L is an all-in-one mPOS device designed for secure and efficient payment processing. For connectivity, the S1E2L supports Wi-Fi and Bluetooth interfaces, ensuring reliable communication across various network environments. Its replaceable battery provides extended operational time, essential for high-transaction settings.
 
 It accepts multiple payment methods, including contactless, chip, and swipe card transactions, and supports various payment types such as gift cards, debit/credit cards, local payment methods, and e-wallets.
+
+### Windows app
+
+Emergency mPOS is also available as a Windows application. The Windows app supports emergency sales and synchronization with Business Central in the same overall emergency flow, but some payment and scanning behaviors are different from Android-based devices.
+
+#### Windows-specific behavior and limitations
+
+On Windows, Tap to Pay is not available and the Adyen **Board App** flow is not used. Camera-based scanning with BinaryEye is also not used in the Windows flow, and the **Scan input** option is hidden in the interface. When users need to edit or delete sale lines, they do this through visible action buttons in the sales view, rather than with swipe gestures as on Android-based devices.
 
 ### See also
 

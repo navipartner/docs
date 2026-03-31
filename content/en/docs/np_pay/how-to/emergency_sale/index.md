@@ -34,9 +34,11 @@ Use the NP Retail Emergency mPOS to process a transaction by adding items, selec
    ![emergency_1_1](Images/emergency_1_1.png)
 
 3. Scan or add items manually.
-4. (Optional) If needed, edit or remove lines with the buttons that appear from swiping the item to the right and left respectively.
+4. (Optional) If needed, edit or remove lines. On Android and NP Pay terminals, these actions are exposed by swiping the item line left or right. On Windows, the same actions are available as visible line-action buttons in the sale view.
 
      ![emergency_10](Images/emergency_10.png)
+
+   {{< alert icon="📝" text="On Windows, <b>Scan input</b> is hidden. Depending on your setup, items can be added through supported scanner integration or by manual line entry."/>}}
 
 5. Tap the **Cart** icon to proceed to payment.
 
