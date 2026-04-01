@@ -22,7 +22,7 @@ To configure NP Retail for compliance with Belgian fiscal laws, follow the provi
    
    ![belgium](Images/belgium.PNG)
   
-3. Enable the audit log, and set the **Audit Handler** to **BG_DISCALSEALING**.
+3. Enable the audit log, and set the **Audit Handler** to **BE_FISCALSEALING**.
 4. Make sure this audit profile is set for all POS units from the **POS Unit List** that need to be compliant with Belgian fiscalization laws.
 
 ## Next steps - Set Seal No. On Receipt

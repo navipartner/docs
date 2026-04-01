@@ -44,6 +44,8 @@ For shops that use a device for counting the number of visitors, it is possible 
 
 Possibilities are countless, which gives us the freedom to create solutions that meet customers’ needs.
 
+{{< alert icon="📝" text="This section currently focuses on retail and WMS report packages. Restaurant-specific Power BI content is currently out of scope of this section and should be documented separately when that reporting package is published."/>}}
+
 ## Report variant pricing
 
 The following table contains the pricing options for all available report variants: 

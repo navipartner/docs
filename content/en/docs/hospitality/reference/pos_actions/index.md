@@ -28,7 +28,7 @@ This table contains all POS actions relevant for setting up the Restaurant Modul
 | **RV_SET_R-VIEW** | Save the currently selected items to the waiter pad, and switch to the **Restaurant** view. |
 | **RV_SET_TABLE_STATUS** | Set the seating (table) status from the **Restaurant** view. |
 | **RV_SET_W/PAD_STATUS** | Set the waiter pad status/serving step from the **Restaurant** view. |
-| **RUNPAGE** | Open the **Kitchen Request List** for the head waiter. |
+| **RUNPAGE** | Generic POS action for opening a Business Central page from POS. In restaurant scenarios, it is often used for kitchen-related pages, but it is not limited to the **Kitchen Request List**. |
 | **RUN_W/PAD_ACTION** | Run the waiter pad functions directly from the **Sales** view with the following options: **Print Pre-Receipt**, **Send Kitchen Order**, **Request Next Serving**, **Request Specific Serving**, **Merge Waiter Pad**, **Close w/out Saving**. |
 | **SHOW_WAITER_PAD** | Handle transferring between the POS and the waiter pad. When you press the POS menu button, you will receive details of that waiter pad. | 
 

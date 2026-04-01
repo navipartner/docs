@@ -17,6 +17,8 @@ type: docs
 
 Before you start using NP WMS, you need to configure the rules which define how it will work. This is done in the **CS Setup** administrative section.
 
+{{< alert icon="⚠️" text="Parts of the legacy Capture Service/WMS setup described in this article are moving to the NP Warehouse App. If your environment uses the newer NP Warehouse App architecture, treat this page as legacy guidance and validate setup names and behavior in your current app version."/>}}
+
 The CS setup consists of the following sections:
 
 ## General Setup 

@@ -15,7 +15,9 @@ toc: true
 type: docs
 ---
 
-Flexiiterm is used for integrating NaviPartner with the older NETS PSAM terminals, e.g., Ingenico IPP350 terminals. 
+{{< alert icon="⚠️" text="Legacy integration: FlexiiTerm is maintained for existing legacy installations only. For new implementations, use currently supported EFT providers."/>}}
+
+Flexiiterm is used for integrating NaviPartner with older NETS PSAM terminals, e.g., Ingenico IPP350 terminals. 
 
 To set up POS Unit 04 to use Flexiiterm integration, follow the provided steps:
 

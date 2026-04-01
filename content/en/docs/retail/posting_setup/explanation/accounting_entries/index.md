@@ -218,13 +218,12 @@ During the balancing process, the contra entry is created in a compressed format
 
 {{< alert icon="📝" text="If you don't want to create an intermediary account in your Chart of Account, you can use the G/L account that is associated with your bank account instead."/>}}
 
-## Accounting perspective on POS Entries
+## Accounting perspective on POS entries
 
-POS transactions **reduce inventory** throughout the day to allow stock monitoring. However, the financial postings for these transactions are recorded only **after** the daily cash registry is closed.
+POS transactions update operational sales data continuously, and inventory updates can be reflected during daily operations. Financial posting behavior depends on your posting setup and process design.
 
-Once the registry is closed, **transactions are posted** to the chart of accounts for sales, discounts, COGS, VAT, bank, customer, and inventory, according to the configurations in the General Posting Setup, VAT Posting Setup, Inventory Posting Setup, Banking Setup, and Customer Setup.
+In many setups, financial entries are finalized during end-of-day balancing and posting. In other setups, entries can be posted through configured posting flows before closing, for example through journal-based or job-queue-driven processes.
 
-Depending on the system configuration, the transactions may be posted directly to the ledger or first sent to the general journal for review.
+Actual timing is therefore determined by your configured POS posting setup, posting profiles, and operational routines.
 
-
-{{< alert icon="📝" text="Sales reports during the day will not reflect the financial transactions until the daily cash registry is closed and the postings are completed."/>}}
+{{< alert icon="📝" text="Do not assume that all accounting effects occur only after register close. Validate posting timing against your current setup and posting process."/>}}

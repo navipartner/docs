@@ -1,6 +1,6 @@
 ---
 title: "Pepper"
-description: ""
+description: "Legacy integration documentation for Pepper terminals."
 lead: ""
 date: 2024-04-09T11:04:32+02:00
 lastmod: 2024-04-09T11:04:32+02:00
@@ -14,3 +14,5 @@ weight: 655
 toc: true
 type: docs
 ---
+
+{{< alert icon="⚠️" text="Pepper integration is documented here for legacy environments only. For new deployments, use currently supported EFT providers and implementation guidance validated for your market."/>}}

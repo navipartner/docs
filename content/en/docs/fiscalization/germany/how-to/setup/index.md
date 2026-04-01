@@ -22,7 +22,7 @@ This article details how to configure NP Retail for compliance in Germany.
 2. Navigate to the **DE Fiscalization Setup** administrative section, and activate the application area by enabling the **Enable DE Fiscalization** toggle switch.
 3. Go to **POS Audit Profiles** page and create one audit profile. Use it for all POS units.
 
-4. For the POS audit profile created: activate the **Audit Log Enabled** option, set the **Fill Sale Fiscal No. On** field value to _Successful Sales_, and select _Fiskaly_ as the **Audit Handler**.     
+4. For the POS audit profile created: activate the **Audit Log Enabled** option, set the **Fill Sale Fiscal No. On** field value to _Successful Sales_, and select **DE_FISKALY** as the **Audit Handler**.     
    This will automatically block the opening of the POS on that POS Unit if any other setup is non-compliant. 
 
 5. On the **POS Audit Profile** page click **Additional Audit Setup**.     

@@ -19,7 +19,7 @@ With the proper setup, Business Central can send information about new and updat
 
 ### Prerequisite
 
-- Make sure that the **Item List Integration** area on the **Shopify Integration Setup** page is enabled.
+- Make sure that the **Item List Integration** area is enabled for the relevant Shopify store in **Shopify Stores**.
 
 ### Procedure
 

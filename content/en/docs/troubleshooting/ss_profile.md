@@ -50,7 +50,7 @@ It's important to check whether all the necessary steps have been taken in the c
 15. If the payment dialogue from Adyen is white, or has a white background, a fix can be applied.   
     A CSS (FIXCSS.css) file needs to be installed for the payment dialogue from the Terminal T (Adyen). If this fix isn't working, a new CSS file needs to be created.
 16. The print template for the ticket with the specific printer format needs to be configured. 
-17. Configure Major Tom for self-service. 
+17. Configure kiosk mode for self-service (if used in your environment). 
 18. Configure hardware.    
     - FLEXI Outdoor Kiosk
     - Adyen Payment Terminal

@@ -15,14 +15,17 @@ toc: true
 type: docs
 ---
 
-If the adequate setup is performed, retail vouchers purchased in offline shops and in Shopify can be redeemed in Shopify. The integration can be enabled for each individual retail voucher type. 
+If the adequate setup is performed, retail vouchers purchased in offline shops and in Shopify can be redeemed in Shopify. The integration can be enabled for each individual retail voucher type.
 
   {{< alert icon="📝" text="Retail vouchers are created as gift cards in Shopify."/>}}
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.      
-2. Select the **Retail Voucher Type Card**, and enable the Shopify integration via the **Integrate with Shopify** toggle switch.
-3. Provide the **Shopify Store Code**.       
-   The store code should correspond to the Shopify store with which retail vouchers of this type are integrated. 
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Stores** and select the related link.
+2. Open the Shopify store you want to use.
+3. Configure the store and enable the required Shopify integration areas.
+4. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.
+5. Select the **Retail Voucher Type Card**, and enable the Shopify integration via the **Integrate with Shopify** toggle switch.
+6. Provide the **Shopify Store Code**.
+   The store code should correspond to the Shopify store with which retail vouchers of this type are integrated.
 
    {{< alert icon="📝" text="You can only integrate a retail voucher type with a single Shopify store (the system doesn't support integrating the same retail voucher type with multiple Shopify stores)." />}}
 
@@ -33,7 +36,7 @@ When a Shopify order containing a gift card is imported into Business Central, t
 
 To make sure this behavior is applied, follow the provided steps in Business Central:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.      
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Retail Voucher Types** and select the related link.
 2. Create a new **Voucher Type** that the system will use when creating new retail vouchers in Business Central for gift cards purchased in Shopify.
 3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Stores** and select the related link.
 4. Open the **Shopify Store** you wish to modify, and scroll down to its **Retail Voucher Integration** section.     

@@ -17,11 +17,11 @@ type: docs
 
 1. Request access to [<ins>NaviPartner Azure DevOps system<ins>](https://navipartner.visualstudio.com/).    
    To get the access you need to contact **NaviPartner** using the common communication channel.
-2. Once the account is ready, visit [<ins>Public Feeds project<ins>](https://navipartner.visualstudio.com/PublicFeeds/_artifacts/feed/NaviPartner.NavApps).     
+2. Once the account is ready, visit [<ins>Public Feeds project<ins>](https://navipartner.pkgs.visualstudio.com/PublicFeeds/_artifacts/feed/NaviPartner.NavApps).     
 
    The previous link is also accessible from [<ins>the main NaviPartner`s DevOps site<ins>](https://navipartner.visualstudio.com/).
 
-3. From the **NaviPartner.NavApps**, feed, you have to decide which one of our core apps (currently two) you need to use and click on it.     
+3. From the **NaviPartner.NavApps** feed, choose the package you need and click it.     
    Each item in the list is called, in NuGet words, a package).         
    
    ![1](artifacts_feeds_packages.png)

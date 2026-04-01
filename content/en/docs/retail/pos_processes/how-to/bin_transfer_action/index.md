@@ -40,7 +40,7 @@ To complete the transfer, make sure the prerequisites are met, and follow the pr
 
   ![eod_intransit](Images/eod_intransit.PNG)
 
-  In the **Transfer Out** section, you need to reference the **IN-TRANSIT** bin. and in the **Transfer Out** section, you need to enable **Require Journal for Trans. INs** to receive a journal from the source POS payment bin. When you receive the cash, you need to validate the transfer journal - there's no need to type in the details of the transfer received from the source POS unit bin.
+  In the **Transfer Out** section, you need to reference the **IN-TRANSIT** bin. In the **Transfer In** section, enable **Require Journal for Trans. INs** to receive a journal from the source POS payment bin. When you receive the cash, validate the transfer journal - there is no need to type the transfer details manually.
 
 ## Procedure - Source POS
 
@@ -61,8 +61,8 @@ To complete the transfer, make sure the prerequisites are met, and follow the pr
 
 ## Procedure - Target POS
 
-1. Open the POS which you are going to transfer the cash from. 
-2. Press the button  that has the **Transfer In**.      
+1. Open the POS that is going to receive the cash (the target POS unit). 
+2. Press the button that has the **Transfer In** parameter attached.      
    A new window is displayed.
 3. Press **Get Transfer Jnl. Line**, and select the available bin.
 4. **Finalize** and **Complete** the bin transfer.       

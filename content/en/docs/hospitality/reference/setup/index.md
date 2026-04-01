@@ -38,12 +38,12 @@ The following fields and options are available in the **Seating** section:
 
 The **Kitchen Integration** section describes how to send the orders to the kitchen and on which platform the order will be monitored in the kitchen.
 
-The **POS Actions** section contains codes for specific actions in specific circumstances. A new action or processes can be build & attached to the specific steps as defined in the fields.
+The **POS Actions** section contains codes for specific actions in specific circumstances. A new action or process can be built and attached to the specific steps as defined in the fields.
 
 - **SAVE LAYOUT ACTION** - This action stores the restaurant layout from the front-end editor.
 - **SELECT RESTAURANT ACTION** - Specifies the code for the POS action that is used, when a restaurant is selected on restaurant view. Recommended value is "RV_SELECT_RESTAURANT"
 - **SELECT TABLE ACTION** - This action can be run when a table is selected in the **Restaurant View**. If left blank, it runs the slide-in menu screen.
-- **GO TO POS ACTION** - This action can be run when taking the orders to the **Restaurant View**.
+- **GO TO POS ACTION** - Legacy field. In current implementations this field is typically hidden or not used.
 - **NEW WAITER PAD ACTION** - This action creates a new waiter pad for the selected seating code.
 - **SELECT WAITER PAD ACTION** – This action is blank for time being.
 - **SET WAITER PAD STATUS ACTION** - An action to set the Waiter Pad status/serving step from the **Restaurant View**.

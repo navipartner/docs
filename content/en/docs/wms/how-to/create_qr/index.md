@@ -17,6 +17,8 @@ type: docs
 
 A QR code is a machine-readable optical label that can contain information about the entity it's attached to. Each of the existing users has their own unique QR code. To create a QR code in NP WMS:
 
+{{< alert icon="⚠️" text="Parts of the legacy Capture Service setup are being moved to NP Warehouse App. Verify object names and setup page availability in your current app package before following the steps below."/>}}
+
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NPRW CS QR Code List** and choose the related link.        
    The list of configured users is displayed.              

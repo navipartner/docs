@@ -38,7 +38,7 @@ To install the application, make sure the prerequisite is met, and follow the pr
 5. Once the app is installed, click on the application name to initiate its activation.     
    You can explore the content carefully curated with test data.
 
-   {{< alert icon="📝" text="If you determine that the app suits your business and organization, contact us to obtain the app link with the unlocked parameter fields. This specialized version, exclusively provided by NaviPartner, facilitates seamless integration with Business Central version 22."/>}}
+   {{< alert icon="📝" text="If you determine that the app suits your business and organization, contact NaviPartner to obtain the app link with unlocked parameter fields. Verify your Business Central version compatibility before rollout."/>}}
 
 6. To connect to your data from Business Central, click **Connect your data** in the alert ribbon in the **NP Power BI for WMS** app.     
 

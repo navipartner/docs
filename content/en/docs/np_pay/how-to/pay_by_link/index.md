@@ -54,7 +54,7 @@ The Pay by Link feature enables businesses to streamline and simplify the paymen
    | ----------- | ----------- |
    | **Amount** | Specifies the total payment amount for Pay by Link. It is automatically populated with the total amount including VAT from the related document, and it can be changed to the lower amount for partial payments. | 
    | **Send to E-mail** | Specifies the email address to which the Pay by Link will be sent. This field is automatically populated with the email address of the customer associated with the document, but it can be edited if needed. | 
-   | **Send to Mobile Phone No.** | Specifies the phone number to which Pay by Link will be sent. This field is automatically populated with the email address of the customer associated with the document, but it can be edited if needed. | 
+   | **Send to Mobile Phone No.** | Specifies the phone number to which Pay by Link will be sent. This field is automatically populated with the mobile phone number of the customer associated with the document, but it can be edited if needed. | 
    | **Send SMS** | Indicates whether an SMS notification is going to be sent to customers. This field is automatically enabled if the **Bill-to Customer** was populated with a mobile phone number. | 
    | **Send E-mail** | Indicates whether an email notification is going to be sent to customers. This field is automatically enabled if the **Bill-to Customer** was populated with an email address. | 
    | **Expiration Link Duration** | Specifies the duration for the Pay by Link payment requests. This field is automatically populated with the value from **Pay by Link Setup**. | 

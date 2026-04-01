@@ -69,12 +69,12 @@ Loyalty programs can have different benefits if you set up **Points to Amount Se
 All benefits which member gets being loyal to the company are summed up in coupon which is created from points customer has in their account. 
 
 1. Set the **Point Rate** which determines how much money the customer will receive per 1 point accumulated. 
-2. In **Points Threshold** you can set the amount of points the customer must earn so that they can benefit from the loyalty program.     
+2. In **Voucher Point Threshold** (**Points Threshold** in some UI versions) you can set the amount of points the customer must earn so that they can benefit from the loyalty program.     
    In the example illustrated by the screenshot above, the customer needs to have 100 points to be able to get 1EUR for every point accumulated.
 
     {{< alert icon="📝" text="Instead of money, customers can get a discount % when they accumulate enough points."/>}}
 
-3. In the **Value Assignment** field you need to set **Coupon Setup**, so that after the customer accumulates the necessary points (points set up in the **Points Threshold** field) they will receive benefits associated with the coupon assigned.       
+3. In the **Value Assignment** field you need to set **Coupon Setup**, so that after the customer accumulates the necessary points (points set up in the **Voucher Point Threshold** / **Points Threshold** field) they will receive benefits associated with the coupon assigned.       
    In the example illustrated by the screenshot below, after the customer gets 500 points, they will be able to use the coupon with the “20%OFF” name, and enjoy the benefits that this coupon offers. 
 
 ![Loyalty_points_setup_example](Loyalty%20points%20setup%20example.png)

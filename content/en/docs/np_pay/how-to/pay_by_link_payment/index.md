@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: ""
-    identifier: "pay_by_link-7b679f94313e92a19cf1eb2af30a1c84"
+    identifier: "pay_by_link_payment-7b679f94313e92a19cf1eb2af30a1c84"
 weight: 627
 toc: true
 type: docs

@@ -16,3 +16,5 @@ type: docs
 ---
 
 Companies need to send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the [<ins>Offentlig Information Online UBL<ins>](https://www.oioubl.info/classes/en/index.html) (OIOUBL) format. If a company does not send these documents electronically, the authorities are entitled to deny the payment. 
+
+{{< alert icon="⚠️" text="The legacy <b>NP OIOUBL</b> implementation is considered obsolete and is not actively maintained. For new implementations, use Microsoft standard OIOUBL capabilities and verify your setup approach with the current release documentation."/>}}
