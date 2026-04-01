@@ -29,24 +29,28 @@ The most important next step is to focus on documentation that can mislead users
 Fiscalization is the highest-risk area because incorrect setup instructions can lead directly to incorrect configuration.
 
 Key problems:
+
 - outdated handler names
 - obsolete action names
 - field naming drift
 - instructions that do not reflect current validation or enum-driven setup
 
 Highest-priority pages:
+
 - Belgium setup
 - Bulgaria setup
 - Italy setup
 - Spain setup
 
 Recommended changes:
+
 - update all handler/action references to current names from code
 - correct field captions and setup terminology
 - remove or rewrite obsolete workflow descriptions
 - verify all setup steps against current product behavior
 
 Why this matters:
+
 - these pages are operational setup guides
 - naming drift here is more serious than in informational pages
 
@@ -57,6 +61,7 @@ Why this matters:
 These pages are highly visible and directly used during day-to-day setup and troubleshooting.
 
 Key problem areas:
+
 - tax free
 - vouchers
 - SS profile guidance
@@ -64,17 +69,20 @@ Key problem areas:
 - Pay by Link field and action labels
 
 Representative issues:
+
 - outdated field and action names
 - legacy terminology that no longer matches the UI
 - incorrect setup location or page names
 - workflow descriptions that no longer match actual behavior
 
 Recommended changes:
+
 - align all page, field, and action names with current product terminology
 - rewrite instructions that point users to the wrong setup entity
 - remove obsolete references such as legacy printing guidance where applicable
 
 Why this matters:
+
 - these docs are user-facing and frequently used
 - stale terminology creates avoidable support and onboarding friction
 
@@ -85,18 +93,21 @@ Why this matters:
 Hospitality documentation appears to have both terminology drift and internal inconsistency.
 
 Key problem areas:
+
 - KDS setup
 - fast-food setup
 - restaurant profile / routing profile naming
 - contradictory explanations of operational flow
 
 Recommended changes:
+
 - standardize terminology across hospitality pages
 - align setup steps with current object/page naming
 - resolve contradictory explanations between related pages
 - make kitchen/KDS flow descriptions consistent and current
 
 Why this matters:
+
 - these guides describe operational setup and process flow
 - inconsistent terminology makes the area harder to implement correctly
 
@@ -109,17 +120,20 @@ This is one of the most important structural issues in the audit.
 The current problem is not only naming drift. Some WMS/Capture Service documentation appears to describe functionality as if it belongs to the current npcore scope, while the implementation has moved to the NP Warehouse app.
 
 Key problems:
+
 - active-looking docs for functionality not present as live objects in npcore
 - references built from legacy or obsolete snapshots
 - broken or misleading references in WMS object and setup pages
 
 Recommended changes:
+
 - add explicit notes where functionality belongs to NP Warehouse rather than npcore
 - review WMS reference pages for object accuracy
 - rebuild or retire legacy object-name/reference content where needed
 - avoid presenting historical implementation details as current setup guidance
 
 Why this matters:
+
 - this causes product-boundary confusion
 - readers may try to set up functionality in the wrong extension context
 
@@ -130,17 +144,20 @@ Why this matters:
 Several documentation areas present unsupported, obsolete, or historical functionality as if it were current.
 
 Highest-risk examples:
+
 - OIO UBL / e-invoicing
 - selected provider integrations
 - older integration variants now marked obsolete in code
 
 Recommended changes:
+
 - add clear deprecation warnings
 - mark historical guides as legacy where appropriate
 - distinguish supported integrations from no-longer-supported ones
 - avoid removing context unless needed, but prevent obsolete guides from being interpreted as current recommendations
 
 Why this matters:
+
 - unsupported integrations create user confusion and avoidable implementation risk
 - deprecation status should be explicit, not inferred
 
@@ -155,6 +172,7 @@ These changes are important, but should follow the high-confidence accuracy fixe
 Old screenshot-led guides drift faster than text-led guidance.
 
 Recommended approach:
+
 - reduce screenshots where exact text instructions are sufficient
 - recapture screenshots only for pages where visuals are necessary
 - prioritize Retail, Hospitality, Shopify, NP Pay, Fiscalization, and Shipmondo
@@ -162,6 +180,7 @@ Recommended approach:
 ### Site hygiene fixes
 
 Several pages also need quality cleanup:
+
 - broken links
 - malformed markdown or HTML
 - missing image assets
@@ -171,6 +190,7 @@ Several pages also need quality cleanup:
 ### External-fact validation
 
 Some pages include claims that should be refreshed separately from code-backed documentation fixes:
+
 - Power BI product/limit statements
 - Shopify admin wording
 - carrier/product examples in shipping integrations
@@ -220,6 +240,7 @@ This cleanup should be considered successful when:
 ## Out of Scope for This Overview
 
 This overview intentionally does not include:
+
 - every individual page issue from the full audit
 - low-impact copy edits and typos unless they affect understanding
 - complete rewrite proposals for all stale pages
