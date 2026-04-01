@@ -217,9 +217,9 @@ If you look at the syntax on the **Caption**, you can interpret it as follows:
 
    ![ss-item-addon1](ss-item_addon.png)
 
-### Configuration of the kiosk mode in Major Tom
+### Configuration of the kiosk mode in POS UI management tools
 
-Major Tom has a kiosk mode that is configured for unattended POS. When you open the configuration view of Major Tom, you can change the display mode to kiosk mode. On selecting the kiosk mode for self-service, you will see a new configuration banner for the kiosk mode. From it, you can reach the self-service configuration view. 
+Use the kiosk-mode settings in your current POS UI management tools to configure unattended POS behavior. If your environment still uses older tooling names, follow your implementation documentation for the equivalent setup path. 
 
 ### SS POS theme
 

@@ -17,6 +17,8 @@ type: docs
 
 All users who will should have access to the [<ins>mobile apps<ins>]({{< ref "../install_apps/index.md" >}}) should be created in the **CS Users** setup section. Each CS user should also be an active BC user.  
 
+  {{< alert icon="⚠️" text="Capture Service and parts of legacy NP WMS setup have been moved to the NP Warehouse App in newer releases. If your environment uses NP Warehouse App objects, use the corresponding setup pages in that app as the source of truth."/>}}
+
   {{< alert icon="📝" text="Each device which uses NP WMS will be assigned a BC user. This user should be active and have their <b>License Type</b> set to be <b>Device Only User</b> (ISV)."/>}}
 
 ## Prerequisites

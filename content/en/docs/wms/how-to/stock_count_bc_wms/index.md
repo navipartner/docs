@@ -15,9 +15,9 @@ toc: true
 type: docs
 ---
 
-It's necessary to periodically compare the actual stock quantity with the stock quantity recorded in the Business Central. Stock counting is performed by comparing the physical inventory from warehouses and the calculated inventory in Business Central, and settling the differences between the two using Inventory Journals. The first segment of the stock count procedure is performed in the Physical Inventory Journal in Business Central, and then taken up by the NP mobile apps.
+It's necessary to periodically compare the actual stock quantity with the stock quantity recorded in Business Central. Stock counting is performed by comparing the physical inventory from warehouses and the calculated inventory in Business Central, and settling the differences between the two using journals. The first segment of the stock count procedure is performed in the **Physical Inventory Journal** in Business Central, and then taken up by the NP mobile apps.
 
-NaviPartner provides two types of stock counts - planned and unplanned. In the planned stock count, you have a predefined list of items that need to be counted. The counting is performed using the NP mobile app for scanning the items, and then updating the counted quantities in Business Central. The counting sheet is then posted in Business Central.  After the warehouse employees scan the items, they can be updated in Business Central and finally the revised stock count list can be posted. The unplanned stock count implies that the need for checking the stock count arises on the spot, as opposed to having an item list ready.
+NaviPartner provides two types of stock counts - planned and unplanned. In the planned stock count, you have a predefined list of items that need to be counted. The counting is performed using the NP mobile app for scanning the items, and then updating the counted quantities in Business Central. The counting sheet is then posted in Business Central. After the warehouse employees scan the items, they can be updated in Business Central and finally the revised stock count list can be posted. The unplanned stock count implies that the need for checking the stock count arises on the spot, as opposed to having an item list ready.
 
 ## Perform planned stock count (Business Central)
 

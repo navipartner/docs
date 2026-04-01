@@ -56,3 +56,5 @@ type: docs
 |   6185265   | **NPRW CS UI Transf. Head Handl.**  |  Used for transfer head handling. | | 
 |   6185289   | **NPRW CS UI Reason List**  | Opens a list of reason codes.  | |
 |   6185291   | **NPRW CS UI Whse Item Handling**  | Used for item handling.  | |
+
+{{< alert icon="⚠️" text="Part of the Capture Service/WMS object surface has been moved to NP Warehouse App in newer product versions. Treat this list as legacy reference and verify codeunit ownership in your installed app version before implementing customizations."/>}}

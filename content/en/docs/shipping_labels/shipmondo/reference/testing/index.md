@@ -17,9 +17,9 @@ type: docs
 
 After the integration is installed, there are certain steps it's recommended to take to ensure that everything has been set up properly.
 
-- Make sure the Shipmondo connector is turned on on the customer's computer.
+- Make sure the integration is configured and enabled in **Shipping Provider Setup** in Business Central.
 - Never send the same shipment to Shipmondo twice from the **Shipping Provider Document** page.
 - Check the **Response Shipment ID** and **Response Package No.** fields on the **Shipping Provider Document** page to see whether the shipment is going to be sent to the Shipmondo website or not.
 - Note that there's no way to see what the label looks like in Business Central (other than viewing the code directly).
-- The **Pakkeable Test Mode** field needs to be switched off on the **Shipmondo Provider Setup** page if you want the shipment to land on the Shipmondo website. 
-- Keep in mind that the following flow should be maintained: **Web order** > **Import list** > **Sales order** > **Posting** > **Shipping Provider Document** > **Shipmondo website** > **Label**. Also, note that all steps after the **Posting** segment are performed automatically.
+- Use the environment/test mode fields in **Shipping Provider Setup** to control whether requests go to test/sandbox or production endpoints.
+- Keep in mind that the following flow should be maintained: **Web order** > **Import list** > **Sales order** > **Posting** > **Shipping Provider Document** > **Shipmondo website** > **Label**. Steps after **Posting** are only automatic when the relevant shipping automation options (for example immediate send) are enabled in setup.

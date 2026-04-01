@@ -17,6 +17,8 @@ type: docs
 
 Administrators are notified whenever a request for retrieving or deleting personal information is issued by guest users or registered users. 
 
+{{< alert icon="📝" text="This article documents the Magento e-commerce GDPR request flow. If you use Shopify only, use your Shopify privacy tooling and process definitions instead."/>}}
+
 ## Processing guest requests
 
 Guest users can see the stored information about them by appending <i>/customer/privacy/guest</i> to the store URL.

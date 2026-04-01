@@ -24,6 +24,8 @@ You need to attach an EFT integration type for every POS payment method which wi
 
 ## Pepper setup
 
+{{< alert icon="⚠️" text="The Pepper integration is legacy and may be obsolete or unsupported in current deployments. Use it only if your solution design explicitly requires it and the project has confirmed support coverage."/>}}
+
 The Pepper terminal integration can be used for a wide variety of terminals. There are different ways to connect the terminals, so most setups are a variation of the one provided in further text. For more information on the terminals supported in the integration, refer to the [<ins>Treibauf Pepper Library<ins>](https://www.treibauf.ch/en/terminal-type-search/) check list.
 
 To set up the Pepper terminal integration, take the following actions in the indicated order:
@@ -44,7 +46,9 @@ When using NETS BAXI/Viking integrations, there are two different ways of commun
 
 ## MobilePay/Vipps MobilePay
 
-MobilePay is a Danish app used for making payments/transfers through the phone. By integrating MobilePay with the POS, you will significantly simplify the payment process. Customers will be able to scan a QR code, and the POS will register the payment automatically, which ensures its successful processing. 
+MobilePay is a Danish app used for making payments/transfers through the phone. By integrating MobilePay with the POS, you will significantly simplify the payment process. Customers will be able to scan a QR code, and the POS will register the payment automatically, which ensures its successful processing.
+
+{{< alert icon="📝" text="For new implementations, prioritize <b>Vipps MobilePay</b>. The older MobilePay V10 setup is kept for legacy environments."/>}}
 
 [<ins>Set up MobilePay integration<ins>]({{< ref "mobilepay/how-to/setup/index.md" >}})
 
@@ -63,6 +67,8 @@ You can use the standalone terminal integration, either as an additional securit
 [<ins>Set up standalone terminal integration<ins>]({{< ref "standalone_terminal/how-to/setup/index.md" >}})
 
 ## Flexiiterm
+
+{{< alert icon="⚠️" text="Flexiiterm is a legacy integration used with older terminal setups. Confirm support status before using it in new projects."/>}}
 
 Flexiiterm is used for integrating NaviPartner with the older NETS PSAM terminals, e.g., Ingenico IPP350 terminals.  
 

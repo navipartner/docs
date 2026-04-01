@@ -17,6 +17,8 @@ type: docs
 
 To send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically, you first need to perform certain configurations in Business Central.
 
+{{< alert icon="⚠️" text="Maintenance status: the NP OIOUBL implementation is marked for deprecation and is no longer actively maintained. Use this guide only for existing installations, and validate current support options before enabling it in new projects."/>}}
+
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Document Sending Profiles**, and select the related link.      
 2. Open the **OIOUBL** profile, and select **Through Exchange Service** in the **Electronic Document** field.
 3. Navigate to the **NP OIOUBL Setup** administrative section.

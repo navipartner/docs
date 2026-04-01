@@ -45,6 +45,7 @@ To set up integration with Shipmondo, follow the provided steps on the Shipmondo
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shipping Provider Setup**, and choose the related link.       
    The page for setting up information about API in use is displayed. 
+   {{< alert icon="📝" text="Depending on your app version, this page can be named <b>Shipping Provider Setup</b> or <b>Shipmondo Provider Setup</b>. Use the Shipmondo-specific provider setup page in your environment."/>}}
 2. Click **Actions** in the ribbon, followed by **Shipping Agents**.       
    The **Package Shipping Agents** page is displayed.
 3. Create a new entry, and when inputting the **Code**, open the dropdown to **Select from full list**.     

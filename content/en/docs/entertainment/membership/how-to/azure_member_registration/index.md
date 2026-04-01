@@ -35,7 +35,7 @@ To make this flow possible, it's necessary to perform the following setup steps 
    The customer's device will be redirected to that URL when registering their membership.
 9. Provide the URL to the terms of service for the membership registration in the **Terms of Service Url** field.
 10. Select the **SMS Template** that the customer will receive or create a new one.    
-    If you're creating a new template, make sure that the **Document Sending Profile** table with the ID **6060135** is selected in the **Table No.** field. This table contains the best-suited values for the SMS template used in this scenario.
+    If you're creating a new template, make sure the **Membership Notification Entry** table with the ID **6060139** is selected in the **Table No.** field. This table contains the values used in this scenario.
 
     ![azure_membership_sms](Images/azure_membership_sms.PNG)
 

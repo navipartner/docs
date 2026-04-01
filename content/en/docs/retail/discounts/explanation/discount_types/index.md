@@ -61,7 +61,9 @@ When this type of discount is selected, a new tab **Mix discount levels** is dis
 
 In the example above, if a customer buys 5 items, they will get 5% discount on items from the **Mix Discount Lines**, but if they buy 15 items, they will get the 10% discount.
 
-## Combination Mix Type
+## Combination mix type (mix configuration)
+
+The **Combination** value in the **Mix type** field controls how mix discount lines are grouped and validated. It is a **mix configuration**, not an additional discount type.
 
 If you select **Combination** in the **Mix type** field in the **General** tab, in **Mix Discount Lines** there will be **New part** and **Part card** actions.
 

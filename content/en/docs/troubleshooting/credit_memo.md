@@ -19,8 +19,10 @@ type: docs
 
 Yes. To achieve this, follow the provided steps:
 
- 1. From the POS, click **Other function (menu)** followed by **Return (menu)**. 
- 2. Click **Cash Sales Reverse**, and provide the return receipt reference number in the popup window that is displayed.     
-   The receipt number corresponds to the document number form the relevant POS entry.
- 3. Navigate to **Payment**, and then click **Create Credit Memo**.
-       The credit memo is created.
+ 1. From the POS, open the return flow that your menu profile exposes (for example **Other function (menu)** > **Return (menu)**).
+ 2. Select the reverse/return action used in your POS menu, and provide the return receipt reference number in the pop-up window.
+    The receipt number corresponds to the document number from the relevant POS entry.
+ 3. Navigate to **Payment**, and then run the credit memo action configured in your environment.
+    The credit memo is created.
+
+{{< alert icon="📝" text="Action captions can differ between environments because POS menus are configurable. If your labels differ from this example, follow your configured return/reversal and credit-memo actions."/>}}

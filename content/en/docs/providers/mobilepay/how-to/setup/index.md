@@ -15,6 +15,8 @@ toc: true
 type: docs
 ---
 
+{{< alert icon="⚠️" text="This article documents the legacy MobilePay V10 integration and is kept for existing installations only. For new implementations, use <b>Vipps MobilePay</b>: <a href='{{< ref \"../vipps_setup/index.md\" >}}'>Set up Vipps MobilePay integration</a>." />}}
+
 [<ins>MobilePay<ins>](https://www.mobilepay.dk/) is a digital-wallet software used in Finland and Denmark. It is best-suited for online purchases, as it enables online purchase with just one swipe. 
 
 From the customer’s side, the payment flow when purchasing from an online store is as follows: 
@@ -29,7 +31,7 @@ However, to enable MobilePay, the following procedure needs to be performed in N
    The **EFT Setup** window is displayed.
 2. Open the **Payment Type POS** dropdown and link the selected POS unit with EFT configurations for MobilePay.    
 3. Select the appropriate **POS Unit No.** and the **EFT Integration Type**.     
-   For example, **MOBILEPAY_V10** will enable MobilePay V10 for the selected POS unit).
+   For example, **MOBILEPAY_V10** enables the legacy MobilePay V10 integration for the selected POS unit.
 4. Navigate to the **Payment Type Parameters** in the ribbon.  
 5. Fill in all the fields.   
     - The environment can be either **Production** or **Sandbox**, depending on whether you wish all customers to have access to the MobilePay setup or not. 

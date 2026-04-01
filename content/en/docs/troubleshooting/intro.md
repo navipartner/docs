@@ -32,5 +32,4 @@ This section contains questions and answers pertaining to some of the common iss
 - [<ins>Tax-free troubleshooting<ins>]({{< ref "tax_free.md" >}})
 - [<ins>End-of-day report troubleshooting<ins>]({{< ref "eod.md" >}})
 - [<ins>Credit memo troubleshooting<ins>]({{< ref "credit_memo.md" >}})
-- [<ins>Initial float troubleshooting<ins>]({{< ref "initial_float.md" >}})
 

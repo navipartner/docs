@@ -15,7 +15,7 @@ toc: true
 type: docs
 ---
 
-The following fields and options are available in the in the **Azure Member Registration Setup** administrative section:
+The following fields and options are available in the **Azure Member Registration Setup** administrative section:
 
 | Field Name      | Description |
 | ----------- | ----------- |
@@ -25,7 +25,7 @@ The following fields and options are available in the in the **Azure Member Regi
 | **Queue Name** | Specifies the name for the job queue which is used for synchronizing the data in Business Central when a member registers via the member registration URL. | 
 | **Enabled** | Specifies whether the applied configuration is enabled or not. | 
 | **Member Registration URL** | Specifies the URL value the user device will be redirected to for member registration. | 
-| **Terms of Service URL Store Voucher Prints** | Specifies the URL that brings up the terms of service. |
+| **Terms of Service URL** | Specifies the URL that brings up the terms of service. |
 | **E-mail Template** | Specifies the template used for sending a welcome email to new members. |
 | **SMS Template** | Specifies the template used for sending a welcome SMS to new members. |
 | **Allow Anonymous Wallet** | Specifies if the wallet is going to be included in the welcome notification. |
