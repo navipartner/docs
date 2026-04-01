@@ -18,26 +18,25 @@ type: docs
 To set up the Quickpay online payment gateway integration in Business Central, make sure that prerequisites are met and follow the provided steps.
 
 ## Prerequisites
- 
-- Acquire a merchant account.       
+
+- Acquire a merchant account.
     To use Quickpay, you first need to register a merchant account. The merchant account can either be obtained through NaviPartner or you can create it [<ins>on your own<ins>](https://quickpay.net/helpdesk/create-quickpay-account/).
 
-- Obtain an API key.    
+- Obtain an API key.
     An API key needs to be procured before any interaction between Business Central and Quickpay can occur. The key can be obtained in the [<ins>Quickpay Manager<ins>](https://quickpay.net/helpdesk/integration-setup/).
 
 - Ensure that the user associated with the API key has at least the same permissions as the **Api User** system user. This can be achieved by using the **Use template** functionality in Quickpay.
- 
+
 ## Procedure
 
 1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Payment Gateways**, and select the related link.
 
-2. Click **New** to create a code for QuickPay.      
+2. Click **New** to create a code for QuickPay.
 
-  ![Payment Gateway List](bambora_integration_list.PNG)   
+  ![Payment Gateway List](bambora_integration_list.PNG)
 
   {{< alert icon="📝" text="Depending on the required setup, the options to <b>Enable Capture</b>, <b>Refund</b> and <b>Cancel</b> need to be flagged as illustrated in the provided screenshot."/>}}
 
+1. Click **Show Setup Card** and update the **API Password** field with the key you've previously obtained as a prerequiste.
 
-3. Click **Show Setup Card** and update the **API Password** field with the key you've previously obtained as a prerequiste.
-
-4. Verify the connectivity with Quickpay using the **Test Connection** action.
+2. Verify the connectivity with Quickpay using the **Test Connectivity** action.
