@@ -15,37 +15,37 @@ toc: true
 type: docs
 ---
 
-To send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically, you first need to perform certain configurations in Business Central.
+To send sales invoices and credit memos to the Danish public sector electronically, you first need to perform certain configurations in Business Central.
 
 {{< alert icon="⚠️" text="Maintenance status: the NP OIOUBL implementation is marked for deprecation and is no longer actively maintained. Use this guide only for existing installations, and validate current support options before enabling it in new projects."/>}}
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Document Sending Profiles**, and select the related link.      
-2. Open the **OIOUBL** profile, and select **Through Exchange Service** in the **Electronic Document** field.
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Document Sending Profiles**, and select the related link.
+2. Open the **OIOUBL** profile, and select **Through Document Exchange Service** in the **Electronic Document** field.
 3. Navigate to the **NP OIOUBL Setup** administrative section.
 
   {{< alert icon="📝" text="When the <b>Enabled</b> toggle switch is disabled, the files will be downloaded instead of being sent to the public sector. The file will also never be sent on the Demo, Test, and Sandbox environments - it will always be downloaded in the browser."/>}}
 
-4. Open the **Actions** dropdown, click **Setup Pages**, followed by **Electronic Document Formats**.
-5. Set the necessary codeunit - 6060015.    
+1. Open the **Actions** dropdown, click **Setup Pages**, followed by **Electronic Document Formats**.
+2. Set the necessary codeunit - 6060015.
 
   ![oio_ubl_codeunit](Images/oio_ubl_codeunit.png)
 
-6. Open the **Customer Card** used for sending the documents with the OIO UBL extension.
-7. Populate the following fields: 
+1. Open the **Customer Card** used for sending the documents with the OIO UBL extension.
+2. Populate the following fields:
    - **Document Sending Profile**
    - **VAT Registration No.** in the following format: \[DK][VAT registration number] e.g. *DK123121562*
    - **GLN**
    - **Profile Code**
-8. Enable the **Use GLN in Electronic Documents** toggle switch.
-9. Navigate to the **Profile List**, and create a profile with the **BILSIM** code.
-10. Navigate to the **Currencies** administrative section, and make sure the currencies you're using have the OIO UBL **Currency Code** filled in.
+3. Enable the **Use GLN in Electronic Documents** toggle switch.
+4. Navigate to the **Profile List**, and create a profile with the **BILSIM** code.
+5. Navigate to the **Currencies** administrative section, and make sure the currencies you're using have the OIO UBL **Currency Code** filled in.
 
   ![oio_ubl_currencies](Images/oio_ubl_currencies.png)
 
-11. If you're sending sales documents, make sure the following fields are populated in them: **External Document**, **VAT Number** and **Contact**.    
+1. If you're sending sales documents, make sure the following fields are populated in them: **External Document**, **VAT Number** and **Contact**.
     If some of these are missing, an error will occur.
-12.  Once everything is set correctly, send the documents with the **Post & Send** action.
-13.  Confirm the destination to which the document is about to be sent.    
+2. Once everything is set correctly, send the documents with the **Post & Send** action.
+3. Confirm the destination to which the document is about to be sent.
 
 ## Next steps - checking the file validity
 

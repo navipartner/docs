@@ -1,6 +1,6 @@
 ---
 title: "OIO UBL integration overview"
-description: "Companies need to send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the Offentlig Information Online UBL (OIOUBL) format."
+description: "Companies need to send sales invoices and credit memos to the Danish public sector electronically in the Offentlig Information Online UBL (OIOUBL) format."
 lead: ""
 date: 2023-09-21T14:58:25+02:00
 lastmod: 2023-09-21T14:58:25+02:00
@@ -15,6 +15,6 @@ toc: true
 type: docs
 ---
 
-Companies need to send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the [<ins>Offentlig Information Online UBL<ins>](https://www.oioubl.info/classes/en/index.html) (OIOUBL) format. If a company does not send these documents electronically, the authorities are entitled to deny the payment. 
+Companies need to send sales invoices and credit memos to the Danish public sector electronically in the [<ins>Offentlig Information Online UBL<ins>](https://www.oioubl.info/classes/en/index.html) (OIOUBL) format. If a company does not send these documents electronically, the authorities are entitled to deny the payment.
 
 {{< alert icon="⚠️" text="The legacy <b>NP OIOUBL</b> implementation is considered obsolete and is not actively maintained. For new implementations, use Microsoft standard OIOUBL capabilities and verify your setup approach with the current release documentation."/>}}
