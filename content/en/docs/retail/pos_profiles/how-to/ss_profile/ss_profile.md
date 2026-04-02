@@ -21,15 +21,15 @@ There are specific POS actions for the self-service mode that should be set up. 
 
 To set up the POS unit for self-service, you need to take the following steps:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit** and open the related link.
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **POS Unit** and open the related link. 
 2. Select the POS unit you wish to configure the self-service profile for, and open its **POS Unit Card**.
-3. In **POS Type** select **Unattended**, to signify that no salesperson will be attending to the POS Unit.
+3. In **POS Type** select **Unattended**, to signify that no salesperson will be attending to the POS Unit. 
 4. Open the **POS View Profile** setup, and configure the following:
    - Activate **Show Prices Including VAT**.
-   - Select **Sales View** in the **Initial Sales View** field.
-   - Select **Login View** in the **After End-of-Sale View** field.
+   - Select **Sales View** in the **Initial Sales View** field. 
+   - Select **Login View** in the **After End-of-Sale View** field. 
    - If there's a specific theme that should be used for the customer, define and set it up in the **POS Theme Code** field.
-5. Open the **POS End of Day Profile** setup.
+5. Open the **POS End of Day Profile** setup.     
    In it, you need to set up a **Master & Slave** end-of-day type. The self-service unit will be attached to a master POS unit, while a salesperson will perform the physical count.
    As we don't use **Cash** on an outdoor self-service kiosk, any credit card and voucher transactions will be transferred automatically to the master POS unit when balancing is performed.
 6. Open the **POS Named Actions Profile** setup and define a designated POS Name Actions Profile for self-service:
@@ -39,18 +39,19 @@ To set up the POS unit for self-service, you need to take the following steps:
    - In **Payment Action Code** add **SS-PAYMENT**.
    - In **Lock POS Action Code** add **SS-IDLE-TIMEOUT**.
    - In **Idle Timeout Action Code** add **SS-IDLE-TIMEOUT**.
-7. Open the **POS Security Profile** setup, and make sure that the **Lock Timeout** field is always set to **NEVER**, as the unattended kiosk shouldn't be locked.
+7. Open the **POS Security Profile** setup, and make sure that the **Lock Timeout** field is always set to **NEVER**, as the unattended kiosk shouldn't be locked. 
 8. Populate the rest of the mandatory fields.
 
 ## Next steps
 
 ### POS view setup
 
-The [<ins>POS view<ins>]({{< ref "../../reference/view_profile/view_profile_ref.md" >}}) is configured according to what you require to see on the screen, but for the self-service environment, there are additional features that need to be considered:
+The [<ins>POS view<ins>](../reference/POS_view_profile.md) is configured according to what you require to see on the screen, but for the self-service environment, there are additional features that need to be considered:
 
 #### Timeout
 
 If a customer initiates a transaction, and then decides to leave it as-is before finalizing the process, they will be redirected to the login view after the number of seconds you define in the timeout JSON file passes. All elements in the timeout logic are configurable.
+
 
       TIMEOUT Json:
       "timeout": {
@@ -60,6 +61,7 @@ If a customer initiates a transaction, and then decides to leave it as-is before
                         buttonCaption: "Yes, but I need more time",
                         action: "SS-IDLE-TIMEOUT"
                            }
+
 
 In the example above, the message that is displayed on the screen is hardcoded. However, if you wish to display the message in different languages, you can use *I$*, which is a label defined in Business Central.
 
@@ -89,11 +91,12 @@ Then, the *I$* label follows the standard translation as per codeunit *6150702 N
 
 #### Login view
 
-It's recommended to have a simple login view which can be operated easily.
+It's recommended to have a simple login view which can be operated easily. 
 
 ![ss_login](ss_login.png)
 
-Here's what the JSON for NP Burger looks like:
+Here's what the JSON for NP Burger looks like: 
+
 
       {
       "tag": "login",
@@ -129,9 +132,11 @@ Here's what the JSON for NP Burger looks like:
       ]
       }
 
-If you are using an image, you should insert the image in the JSON file instead of adding a background image in POS menus.
 
-The login JSON for ticketing service looks like this:
+
+If you are using an image, you should insert the image in the JSON file instead of adding a background image in POS menus. 
+
+The login JSON for ticketing service looks like this: 
 
       {
       "tag": "login",
@@ -165,15 +170,16 @@ The login JSON for ticketing service looks like this:
 
 {{< alert icon="⚠️" text="If you insert a URL in the POS menu button, and you don't have a description in the <b>Description</b> field, you need to set <b>Enabled</b> to <b>No</b> to avoid the issue if you touch the image on the touch screen. " />}}
 
+
 #### Cart view
 
-You can set up what kind of view you're going to have. You can choose between the classic sales grid view with the POS sales lines or a cart view.
+You can set up what kind of view you're going to have. You can choose between the classic sales grid view with the POS sales lines or a cart view. 
 
 ![cart_view_json](cart_view_json.png)
 
 ![cart_view_json2](cart_view_json2.PNG)
 
-### Special buttons for self-service POS
+### Special buttons for self-service POS 
 
 There are several optional buttons that can be added to the self-service POS screen.
 
@@ -191,9 +197,9 @@ The additional logic in the POS menus is that on the POS action type ITEM, you c
 
 If you look at the syntax on the **Caption**, you can interpret it as follows:
 
-- \<big>, \<Small> , \<Medium>, \<h1>, \<h2>: Size of the letters
-- Day Ticket / From Age 3/100 DKK: The actual caption (hard-coded)
-- Sum (12, 6,"31001"): The sum of all quantities for the item number "31001" in the sales line. (Field 12 = Qty & 6=Number - from Table 6014406 - Sale Line POS)
+- \<big>, \<Small> , \<Medium>, \<h1>, \<h2>: Size of the letters   
+- Day Ticket / From Age 3/100 DKK: The actual caption (hard-coded)    
+- Sum (12, 6,”31001”): The sum of all quantities for the item number “31001” in the sales line. (Field 12 = Qty & 6=Number – from Table 6014406 - Sale Line POS)	  
 
 #### SS-ITEM-ADDON in the self-service environment
 
@@ -203,17 +209,17 @@ If you look at the syntax on the **Caption**, you can interpret it as follows:
 
 - **If there's an addon item associated with the main item:**
 
-   There's also the function with which you can associate a list of items to the main item. When you sell the main item, the menu is automatically displayed on the screen, and it's possible to choose from the list of addon items. This is used for extras that can be ordered when buying the main item.
+   There's also the function with which you can associate a list of items to the main item. When you sell the main item, the menu is automatically displayed on the screen, and it's possible to choose from the list of addon items. This is used for extras that can be ordered when buying the main item. 
 
-   An example would be a fast food business in which you can buy a set menu, but you get to choose which sauce you want to accompany the menu. On selecting the menu, a popup window displays with the list of selectable items.
-
-   Each time you buy the main product, you can choose one or all item addons. Note that the configuration of item addons is to have a fixed quantity of one of the sub-products. You can't choose more than one of each product.
+   An example would be a fast food business in which you can buy a set menu, but you get to choose which sauce you want to accompany the menu. On selecting the menu, a popup window displays with the list of selectable items. 
+   
+   Each time you buy the main product, you can choose one or all item addons. Note that the configuration of item addons is to have a fixed quantity of one of the sub-products. You can't choose more than one of each product. 
 
    ![ss-item-addon1](ss-item_addon.png)
 
 ### Configuration of the kiosk mode in POS UI management tools
 
-Use the kiosk-mode settings in your current POS UI management tools to configure unattended POS behavior. If your environment still uses older tooling names, follow your implementation documentation for the equivalent setup path.
+Use the kiosk-mode settings in your current POS UI management tools to configure unattended POS behavior. If your environment still uses older tooling names, follow your implementation documentation for the equivalent setup path. 
 
 ### SS POS theme
 
@@ -223,18 +229,18 @@ The POS theme on the self-service POS might differ from that of the classic POS,
 
 ### EOD for SS POS
 
-By default, a self-service POS is unattended, so there's no function to perform balancing, since no salesperson will perform it on that POS. The self-service POS is attached to a master POS, in a master & slave configuration.
+By default, a self-service POS is unattended, so there's no function to perform balancing, since no salesperson will perform it on that POS. The self-service POS is attached to a master POS, in a master & slave configuration. 
 
-All sales and the payment received are performed on each individual self-service POS. At the end of the day, when the balancing process is initiated on the master POS unit, the payment amounts from the self-service POS is transferred in total to the master POS. Therefore, when the master POS is balanced, the receipt from the self-service is taken into account. At the same time, the statistics for sale of the self-service POS will be merged with that of the master POS.
+All sales and the payment received are performed on each individual self-service POS. At the end of the day, when the balancing process is initiated on the master POS unit, the payment amounts from the self-service POS is transferred in total to the master POS. Therefore, when the master POS is balanced, the receipt from the self-service is taken into account. At the same time, the statistics for sale of the self-service POS will be merged with that of the master POS. 
 
 For this to occur, a specific setup needs to be performed in the POS End of Day Profile of the **POS Unit Card**.
 
-1. In the **POS End of Day Profile** set the **End of Day Type** to **Master & Slave**.
+1. In the **POS End of Day Profile** set the **End of Day Type** to **Master & Slave**.    
    Unlike the individual type, this process consolidates more than one POS for balancing purposes.
-2. In the **Master POS Unit No.** add the number of the POS that is going to be used as master.
-3. Make sure that both the master POS, and the self-service POS have this specific End of Day Profile.
-4. In the **POS Unit Card** select **Unattended** for the **POS Type**.
-   Otherwise, the automatic transfer will not be done.
+2. In the **Master POS Unit No.** add the number of the POS that is going to be used as master. 
+3. Make sure that both the master POS, and the self-service POS have this specific End of Day Profile. 
+4. In the **POS Unit Card** select **Unattended** for the **POS Type**.   
+   Otherwise, the automatic transfer will not be done. 
 
 ### Hardware
 
@@ -242,11 +248,11 @@ This hardware is usually self-contained and free-standing, unlike the usual POS 
 
 #### FLEXI Outdoor Kiosk
 
-The [<ins>FLEXI Outdoor Wall (Newline)<ins>](https://www.conceptkiosk.com/product/flexi-outdoor-wall-newline/) is a wall-mounted interactive kiosk based on the FLEXI Outdoor unit. This unit is customizable with many of the same components as the FLEXI Outdoor, and the Access Gate editions, despite the smaller size.
+The [<ins>FLEXI Outdoor Wall (Newline)<ins>](https://www.conceptkiosk.com/product/flexi-outdoor-wall-newline/) is a wall-mounted interactive kiosk based on the FLEXI Outdoor unit. This unit is customizable with many of the same components as the FLEXI Outdoor, and the Access Gate editions, despite the smaller size. 
 
 #### Adyen payment terminal
 
-For always-on or afterhours self-service, the [<ins>Adyen<ins>](https://www.adyen.com/pos-payments/terminals/verifone-ux-series) UX series is ready to accept payments at any time. It's built with the outdoors and anti-tamper measures in mind to protect information from the elements.
+For always-on or afterhours self-service, the [<ins>Adyen<ins>](https://www.adyen.com/pos-payments/terminals/verifone-ux-series) UX series is ready to accept payments at any time. It's built with the outdoors and anti-tamper measures in mind to protect information from the elements. 
 
 #### Boca printer
 
