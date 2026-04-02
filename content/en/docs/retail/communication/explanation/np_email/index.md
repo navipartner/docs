@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: ""
-    identifier: "email_setup-e24025e6fffa59f29dac87df3fb0ca81"
+    identifier: "np_email-e24025e6fffa59f29dac87df3fb0ca81"
 weight: 162
 toc: true
 type: docs
@@ -69,7 +69,7 @@ To enable email delivery for retail vouchers, configuration is required in **Bus
 - When selecting dynamic fields from the Designer, note that data fields are not yet categorized. Currently, all available fields from Business Central (Ticket, Coupon, and Voucher) are displayed. Be sure to select only the fields relevant to Voucher.
 
 - {{< alert icon="📝" >}}
-For more information about NP Designer, refer to <a href="{{< ref "../../../entertainment/ticket/how-to/ticket_designer/index.md" >}}" target="_blank"><ins>this link.</ins></a>
+For more information about NP Designer, refer to [<ins>Use the NP Designer<ins>]({{< ref "/docs/entertainment/ticket/how-to/ticket_designer/index.md" >}}).
 {{< /alert >}}
 
 ### Adding test data in SendGrid
