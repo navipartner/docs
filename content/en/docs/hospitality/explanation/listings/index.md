@@ -17,7 +17,7 @@ type: docs
 
 ## Waiter Pad List
 
-The **Waiter Pad List** contains a list of all waiter pads in the system. It tracks down all orders, ordered items, and the service steps in which the orders were placed.
+The **Waiter Pad List** contains a list of all waiter pads in the system. It tracks down all orders, ordered items, and the service steps in which the orders were placed. 
 
 ![restaurant14](restaurant14.png)
 
@@ -25,11 +25,11 @@ From it, the waiter can move seating, and merge waiter pads, as well as close an
 
 ## Kitchen Order List
 
-The **Kitchen Order List** contains a list of orders that has been created by the waiters. It provides statuses of the orders if they have already been served, planned, made active, or prepared to be served.
+The **Kitchen Order List** contains a list of orders that has been created by the waiters. It provides statuses of the orders if they have already been served, planned, made active, or prepared to be served. 
 
-## Kitchen Request Stations
+## Kitchen Request Stations List
 
-The **Kitchen Request Stations** page contains a list of requests that has been initiated by the waiters. It provides a status of the request, as well as the stage of production they're in.
+The **Kitchen Request Station List** contains a list of requests that has been initiated by the waiters. It provides a status of the request, as well as the stage of production they're in.
 
 ### Kitchen Preparation
 
@@ -37,7 +37,7 @@ From the **Kitchen Stations**, you can select in which kitchen station you wish 
 
 ![restaurant15](restaurant15.png)
 
-From the **Kitchen Request List** for that kitchen, the chef can monitor what needs to be prepared. From here, they can start their production and complete it. Any change in quantity will be displayed on the screen, and needs to be accepted for production. The chef can push ahead, and finish a dish while keeping time, while planning the next one.
+From the **Kitchen Request List** for that kitchen, the chef can monitor what needs to be prepared. From here, they can start their production and complete it. Any change in quantity will be displayed on the screen, and needs to be accepted for production. The chef can push ahead, and finish a dish while keeping time, while planning the next one. 
 
 ### Kitchen Request Source Links
 
@@ -45,9 +45,9 @@ These requests can be traced up to the waiter pad if needed. This is kept in a l
 
 ### Kitchen Request (Expedite)
 
-The **Kitchen Request (Expedite)** is the main screen where the head-waiter or restaurant manager monitors what is happening with the waiters' orders. The head-waiter can ask the waiter to request for serving from their waiter pad or from a POS unit when they see that the planned dish wasn't started on yet.
+The **Kitchen Request (Expedite)** is the main screen where the head-waiter or restaurant manager monitors what is happening with the waiters' orders. The head-waiter can ask the waiter to request for serving from their waiter pad or from a POS unit when they see that the planned dish wasn't started on yet. 
 
-If the **Production Status** is **Finished**, the head-waiter can set it to **Served**, and request from the waiter to serve their guests.
+If the **Production Status** is **Finished**, the head-waiter can set it to **Served**, and request from the waiter to serve their guests. 
 
 ![restaurant16](restaurant16.PNG)
 
