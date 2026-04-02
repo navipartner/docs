@@ -15,15 +15,15 @@ toc: true
 type: docs
 ---
 
-Ticket rescheduling is made convenient for online users (self-service). It is done via [<ins>web setup<ins>](../howto/ChangeTicketReservation.md), and creation of a new authorization code (pin code) printed on the ticket.
+Ticket rescheduling is made convenient for online users (self-service). It is done via [<ins>web setup<ins>]({{< ref "../../how-to/change_reservation/index.md" >}}), and creation of a new authorization code (pin code) printed on the ticket.
 
 The maximum length for the produced **Authorization Code** is 10 characters. The template can be specified on the **Ticket Setup** page, and is characterized by the following:  
 
 - The template starts with the **[** character and ends with the **]** character.  
 - The first character after **[** determines what type of random characters or digits to generate.  
-    - N for digits 0–9  
-    - A for uppercase letters A-Z        
-    - X is a combination of N and A  
+  - N for digits 0–9  
+  - A for uppercase letters A-Z
+  - X is a combination of N and A  
 
 {{< alert icon="📝" text="A number will repeat the random character. Characters outside of the <b>[</b> and <b>]</b> will be copied verbatim. The <b>[ ]</b> characters may not be used."/>}}
 
@@ -36,15 +36,15 @@ NP-[X*3] will produce a code similar to "NP-X2Y".
 
 The authorization code is also generated back-office for the backend worker to see:
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button and search for **Ticket List**.     
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button and search for **Ticket List**.
    The list of existing tickets is displayed.  
 2. Find the ticket you need to retrieve the authorization code for.
-3. Go to the **Navigate** tab and open **Ticket Request**.         
-   You can now see the unique authorization code in its respective column. 
+3. Go to the **Navigate** tab and open **Ticket Request**.
+   You can now see the unique authorization code in its respective column.
 
 {{< alert icon="📝" text="The <b>Authorization Code</b> is not for back office users working in Business Central. It is intended for the customer to change their own reservation online (which requires that the feature is set up on the website). This will produce a random number such as '2842-3921' which can be put on a print ticket in the ticket designer."/>}}
 
-#### See also
+### See also
 
 - [<ins>NP Designer<ins>]({{< ref "../../how-to/ticket_designer/index.md" >}})
 - [<ins>Create dynamic tickets<ins>]({{< ref "../../how-to/create_dynamic_ticket/index.md" >}})
