@@ -69,7 +69,7 @@ To enable email delivery for retail vouchers, configuration is required in **Bus
 - When selecting dynamic fields from the Designer, note that data fields are not yet categorized. Currently, all available fields from Business Central (Ticket, Coupon, and Voucher) are displayed. Be sure to select only the fields relevant to Voucher.
 
 - {{< alert icon="📝" >}}
-For more information about NP Designer, refer to <a href="{{< ref "../../../entertainment/ticket/how-to/ticket_designer/index.md" >}}" target="_blank"><ins>this link.</ins></a>
+For more information about NP Designer, refer to <a href="{{< ref "entertainment/ticket/how-to/ticket_designer/index.md" >}}" target="_blank"><ins>this link.</ins></a>
 {{< /alert >}}
 
 ### Adding test data in SendGrid
