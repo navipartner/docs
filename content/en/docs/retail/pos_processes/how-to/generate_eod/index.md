@@ -21,19 +21,19 @@ To generate the POS balance report and count the contents of the payment bin, ma
 
 ## Prerequisite
 
-- Ensure the [<ins>POS balancing configuration<ins>]({{< ref "balance_config.md" >}}) is complete in Business Central.
+- Ensure the [<ins>POS balancing configuration<ins>]({{< ref "../balance_config/index.md" >}}) is complete in Business Central.
 
 ## Procedure
 
-1. From the **POS**, click **Other Functions (menu)**, followed by **End of Day Balancing**.     
-   The **POS Workshift Checkpoint** is displayed, along with the [<ins>Z-Report overview<ins>]({{< ref "../../explanation/end-of-day-exp.md" >}}). 
-   
+1. From the **POS**, click **Other Functions (menu)**, followed by **End of Day Balancing**.
+   The **POS Workshift Checkpoint** is displayed, along with the [<ins>Z-Report overview<ins>]({{< ref "../../explanation/end-of-day-exp.md" >}}).
+
    {{< alert icon="📝" text="To see all work shift statistics, open the <b>Show All</b> tab."/>}}
 
    ![balance_the_pos_v4_all](balance_pos_v4_balancing_screen_%20all.png)
 
-2. Select **Cash Count** in the lower left corner after reviewing the statistics.      
-   The counting screen is displayed. In the upper right corner, you can see which currencies have been collected in the payment bin, and are ready to be counted and balanced.     
+2. Select **Cash Count** in the lower left corner after reviewing the statistics.
+   The counting screen is displayed. In the upper right corner, you can see which currencies have been collected in the payment bin, and are ready to be counted and balanced.
 
    ![cash_count](cash_count_v4.PNG)
 
@@ -45,20 +45,19 @@ To generate the POS balance report and count the contents of the payment bin, ma
 
 4. (Optional) Click the dialog box icon to add a comment which will let users know what caused the difference between the amounts.
 5. Enter the amount that should be deposited to the bank in the **Bank Deposit** field.
-6. Enter the amount that should be deposited to the store safe in the **Move to Bin** field.      
+6. Enter the amount that should be deposited to the store safe in the **Move to Bin** field.
 
     {{< alert icon="📝" text="Once you provide the amount that should be transferred in one of the fields, the remaining amount is automatically populated in the other field. So, for example, if you enter 3000,00 into the field <b>New Float Amount</b>, then the field <b>Bank Deposit Amount</b> is automatically populated with the value 635,0.."/>}}
 
-7. Click **Finalize** to complete the counting process.      
+7. Click **Finalize** to complete the counting process.
    The button will become green, indicating that the amount has been saved and processed.
-8. Repeat this process for every currency that requires counting.    
-9. When opening the POS for the next shift, confirm the recorded payment bin contents.      
+8. Repeat this process for every currency that requires counting.
+9. When opening the POS for the next shift, confirm the recorded payment bin contents.
    If incorrect, rebalance the POS to correct any discrepancies.
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osYCSzngg-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-#### See also
+### See also
 
 - [<ins>End-of-day troubleshooting<ins>]({{< ref "../../../../troubleshooting/eod.md" >}})
-- [<ins>End-of-day report (POS balance)<ins>]({{< ref "../../explanation/end-of-day-exp/index.md" >}})
+- [<ins>End-of-day report (POS balance)<ins>]({{< ref "../../explanation/end-of-day-exp.md" >}})

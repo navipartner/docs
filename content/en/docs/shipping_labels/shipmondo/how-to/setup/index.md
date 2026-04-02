@@ -68,4 +68,4 @@ To set up integration with Shipmondo, follow the provided steps on the Shipmondo
 
 ## Next steps - Test connection
 
-If you need assistance in testing the connection between Shipmondo and your Business Central environment, refer to the guide for [<ins>Testing connection with Shipmondo<ins>]({{< ref "../test_shipmondo/index.md" >}}).
+If you need assistance in testing the connection between Shipmondo and your Business Central environment, refer to the guide for [<ins>Test Shipmondo integration<ins>]({{< ref "../test_shipmondo/index.md" >}}).
