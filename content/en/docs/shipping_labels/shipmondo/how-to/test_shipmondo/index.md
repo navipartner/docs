@@ -21,14 +21,14 @@ Once you've completed the necessary setup for the [<ins>integration with Shipmon
 
 - Find information about your **User** and **Key** from the Shipmondo website to be able to use the Shipmondo API.
      1. Click **Settings** in the ribbon on the Shipmondo website.
-     2. Select **API**, followed by **Access**.     
+     2. Select **API**, followed by **Access**.
         The **API access** information is displayed. You can use the **User** and **Key** values provided here.
 
 #### Procedure
 
-1. Open the [<ins>Shipmondo API specification page<ins>](https://app.shipmondo.com/api/public/v3/specification#/).    
+1. Open the [<ins>Shipmondo API specification page<ins>](https://app.shipmondo.com/api/public/v3/specification#/).
    Use the **User** and **Key** you've retrieved from the Shipmondo website to get full access to this page and its contents.
-2. Select **Account** > **Retrieve balance** from the list of **ENDPOINTS** in the left sidebar.     
+2. Select **Account** > **Retrieve balance** from the list of **ENDPOINTS** in the left sidebar.
    The information about the requested endpoint is displayed.
 3. Provide your API **User** and **Key** in the **Auth** box on the right side of the screen.
 4. Click **Send API Request**.
@@ -36,16 +36,16 @@ Once you've completed the necessary setup for the [<ins>integration with Shipmon
    Set **Shipmondo API Environment** to **Sandbox** while testing, and switch to **Production** only for live operation.
 6. Provide the **API User** and **API Key** you've copied from the Shipmondo website in the indicated fields.
 7. Open the [<ins>Shipmondo API specification page<ins>](https://app.shipmondo.com/api/public/v3/specification#/) again, and select **Shipments** > **Create a shipment** endpoint from the left sidebar.
-8. Provide your API **User** and **Key** in the **Auth** box, and change the **product_code** parameter in the **Body** section to **"GLSDK_BP"**
-9. Click **Send API Request** to test the setup.       
+8. Provide your API **User** and **Key** in the **Auth** box, and change the **product_code** parameter in the **Body** section to **"GLSDK_BP"**.
+9. Click **Send API Request** to test the setup.
 
-    {{< alert icon="❗" text="If you get the error response <b>Receiver attention is required</b>, change the <b>attention</b> parameter in the <b>receiver</b> section of the <b>Auth</b> box from <b>null</b> to <b>test</b>. Then reattempt sending the API request."/>}}
+    {{< alert icon="❗" text="If you get the error response <b>Receiver attention is required</b>, change the <b>attention</b> parameter in the <b>receiver</b> section of the request body from <b>null</b> to <b>test</b>. Then reattempt sending the API request."/>}}
 
 10. Navigate to the **Shipping Provider Setup** in Business Central, and **Enable Shipping**.
-11. (Optional) Although printers are set up on the customers' end, you can retrieve a list of printers from the **NPR Package Printers** page by selecting **Actions** followed by **Get printers**.      
+11. (Optional) Although printers are set up on the customers' end, you can retrieve a list of printers from the **NPR Package Printers** page by selecting **Actions** followed by **Get printers**.
     You can reach this page from the **Shipping Provider Setup** by selecting **Actions** > **Printer**.
-    
-    After configuring the **Shipping Provider Setup** page, it should appear as presented in the following screenshot:     
+
+    After configuring the **Shipping Provider Setup** page, it should appear as presented in the following screenshot:
 
     ![shipping_provider_setup](Images/shipping_provider_setup.png)
 
@@ -58,7 +58,7 @@ If **Send Package Doc. Immediately** is disabled, the document stays in Business
 
    ![shipmondo_documents](Images/shipmondo_documents.PNG)
 
-When you purchase an item from the web store, you can navigate to the **Import List** in Business Central, find your order, and then click **Import Selected** in the ribbon. Afterwards, you can find your imported order in the **Sales Orders** list to **Post** it. 
+When you purchase an item from the web store, you can navigate to the **Import List** in Business Central, find your order, and then click **Import Selected** in the ribbon. Afterwards, you can find your imported order in the **Sales Orders** list to **Post** it.
 
    ![shipmondo_posting](Images/shipmondo_posting.png)
 
