@@ -1,6 +1,6 @@
 ---
 title: "POS Audit Profile"
-description: "The POS audit profile is used for assigning different number series and different rules for printing to different POS units."
+description: "The POS audit profile is used for assigning different number series and different rules for POS behavior and printing to different POS units."
 lead: ""
 date: 2023-07-04T14:57:36+02:00
 lastmod: 2023-07-04T14:57:36+02:00
@@ -20,7 +20,6 @@ The POS audit profile is used for assigning different number series and differen
 
 The following options can be set up in the **General** section:
 
-
 | Field Name      | Description |
 | ----------- | ----------- |
 | **Code**       | Specifies the unique code for the POS Audit Profile.     |
@@ -36,10 +35,10 @@ The following options can be set up in the **General** section:
 | **Allow Sales and Return in Same Transaction** | Allow both negative and positive transactions in a sale. |
 | **Print Receipt On Cancel Sale** | Allow receipts to be printed even when the sale is canceled. |
 | **Allow Printing Receipt Copy** | Specify whether a copy is printed or not. The available options are: <ul> <li> **Always**</li> <li>**Once**</li> <li>**Never**</li> </ul>. |
-| **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. You can make a list of possible reasons for return in the **Return Reasons** administrative section.  | 
-| **Bin Eject After Credit Sale** | If enabled, the physical bin will be ejected following a successful credit sale. | 
+| **Require Item Return Reason** | If this field is checked in the moment of returning goods in the POS, the cashier will be asked to enter the reason code for the return of the goods. You can make a list of possible reasons for return in the **Return Reasons** administrative section.  |
+| **Bin Eject After Credit Sale** | If enabled, the physical bin will be ejected following a successful credit sale. |
 | **Bin Eject After Sale** | If enabled, the physical bin will be ejected following a successful direct sale. |
-| **Do Not Print Receipt On Sale** | If enabled, the receipt will not be printed after a sale is successfully conducted. | 
+| **Do Not Print Receipt On Sale** | If enabled, the receipt will not be printed after a sale is successfully conducted. |
 | **Do Not Print EFT Receipt On Sale** | If enabled, the EFT receipt will not be printed after a sale is successfully conducted. |
 
   ![audit_profile](audit_profile.PNG)
