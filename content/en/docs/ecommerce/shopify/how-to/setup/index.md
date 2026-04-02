@@ -19,21 +19,21 @@ To set up the Shopify integration, make sure the prerequisites are met, and foll
 
 ### Prerequisites
 
-1. Install the NP Retail application on the customer tenant database.
+1. Install the NP Retail application on the customer tenant database.                   
    Use an NP Retail app version that includes Shopify integration support. Verify the exact minimum version in the release notes for your installed package.
-2. Make sure a [<ins>custom app is registered<ins>]({{< ref "../register_shopify_custom_app/index.md" >}}) with Shopify.
-
+2. Make sure a [<ins>custom app is registered<ins>]({{< ref "../register_shopify_custom_app/index.md" >}}) with Shopify.       
+   
    {{< alert icon="📝" text="If you plan to use the retail voucher integration (Shopify Gift Cards) and want to support partial redemption of gift cards, you need to have a Shopify Plus subscription." />}}
 
 ### Procedure
 
-1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NaviPartner Feature Management** and select the related link.
-2. Enable the **Shopify Integration** feature.
+1. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **NaviPartner Feature Management** and select the related link.      
+2. Enable the **Shopify Integration** feature. 
 
    ![shopify_integration_activation](Images/shopify_integration_activation.PNG)
 
-3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Integration Setup** and select the related link.
-4. Enable the integration, choose which version of Shopify API you wish to use, and set up the Shopify stores you want to integrate with.
+3. Click the ![Lightbulb](Lightbulb_icon.PNG) button, enter **Shopify Integration Setup** and select the related link.      
+4. Enable the integration, choose which version of Shopify API you wish to use, and set up the Shopify stores you want to integrate with.     
    Check the provided screenshot and table with the available fields and options.
 
    ![shopify_integration_setup](Images/shopify_integration_setup.PNG)
@@ -41,10 +41,11 @@ To set up the Shopify integration, make sure the prerequisites are met, and foll
    | Field name      | Description |
    | ----------- | ----------- |
    | **Enable Integration** | Specifies whether the integration is enabled or not. This is the master on/off switch for the integration. |
-   | **Shopify API Version** | Specifies the Shopify API version that Business Central will use to communicate with Shopify. The available values depend on your installed app version; use the version recommended in your release documentation. |
+   | **Shopify API Version** | Specifies the Shopify API version that Business Central will use to communicate with Shopify. The available values depend on your installed app version; use the version recommended in your release documentation. | 
    | **Data Processing Handler ID** | Specifies a code used by the system to identify the import types, task processor, and data log subscribers associated with the Shopify integration. |
 
 {{< alert icon="❗" text="Whenever you make changes on this page, you and other environment users need to log into Business Central again for the changes to take effect." />}}
+
 
 ## Next steps
 
