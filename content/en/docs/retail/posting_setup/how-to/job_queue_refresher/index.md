@@ -249,7 +249,7 @@ Subscribing to this event allows the developer to:
 
 If a tenant extends **Job Queue Entry** with additional fields, or adds table relations containing extra parameters, those values can be lost when custom job queues are recreated by the refresher logic.
 
-To support this scenario, two integration events are available in codeunit **6014663 "NPR Job Queue Management"**. These events make it possible to preserve and restore custom field values when converting between **Job Queue Entry** and **NPR Monitored Job Queue Entry**.
+To support this scenario, two integration events are available in codeunit 6014663 **NPR Job Queue Management**. These events make it possible to preserve and restore custom field values when creating an **NPR Monitored Job Queue Entry** from a Job Queue Entry, and when recreating a Job Queue Entry from an NPR Monitored Job Queue Entry.
 
 #### Snapshot extensibility
 
