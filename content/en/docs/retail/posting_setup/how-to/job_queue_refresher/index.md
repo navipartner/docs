@@ -139,6 +139,8 @@ Assigning a runner user:
 3.	Select a Monitored Job.
 4.	Set the **Job Queue Runner User Name** field.
 
+To review all the existing Job Queue Runner users, open the page under Actions → External JQ Refresher → [**Show External JQ Refresher Users**](#job-queue-runner-users).
+
 ### Set up Monitored Jobs
 
 A job queue can become monitored **automatically** ([Protected Job Queues](#protected-job-queues)) or **manually** when a user marks it as monitored.
@@ -154,6 +156,21 @@ Users may also add additional job queues **manually**. There are several ways to
 
 
 Once added, the monitored job becomes part of the **refresher cycle**.
+
+
+## Job Queue Runner Users
+
+This page displays an updated list of Job Queue Runner users retrieved from the external database.
+
+The **Last Success Date Time**, **Last Error Text**, and **Failed Attempts** fields can be reviewed here for failure analysis.
+
+A Job Queue Runner user is automatically excluded from use if its **Failed Attempts** counter exceeds 14. After 15 failed attempts, the Job Queue Runner becomes idle until the **Failed Attempts** counter is reset.
+
+This page provides a **Reset Failed Attempts** action, which allows you to reactivate an idle Job Queue Runner.
+
+The **Last Error Text** field is cleared after a single successful execution, so it is recommended to make sure the issue preventing the Job Queue Runner from operating is resolved before resetting its **Failed Attempts** counter.
+
+ - {{< alert icon="📝" text="The external system performs up to 2 retries using a failing Job Queue Runner user per Job Queue Refresher execution (once per hour), resulting in a failure window of at least 8 hours before the Job Queue Runner becomes idle."/>}}
 
 
 ## Protected Job Queues
