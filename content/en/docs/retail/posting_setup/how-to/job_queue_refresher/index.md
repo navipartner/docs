@@ -245,8 +245,26 @@ Subscribing to this event allows the developer to:
  - allow **user-defined parameters** to override defaults
  - adjust **protected job queue** behavior for specific scenarios
 
+### Extending Job Queue Entry and Monitored Job Queue Entry Fields
+
+If a tenant extends **Job Queue Entry** with additional fields, or adds table relations containing extra parameters, those values can be lost when custom job queues are recreated by the refresher logic.
+
+To support this scenario, two integration events are available in codeunit **6014663 "NPR Job Queue Management"**. These events make it possible to preserve and restore custom field values when converting between **Job Queue Entry** and **NPR Monitored Job Queue Entry**.
+
+#### Snapshot extensibility
+
+Use **OnBeforeBuildMonitoredFromJobQueueEntry(var MonitoredJQEntry: Record "NPR Monitored Job Queue Entry"; JobQueueEntry: Record "Job Queue Entry")** to transfer custom values when creating a monitored entry from a job queue entry.
+
+#### Restore extensibility
+
+Use **OnBeforeRestoreJobQueueEntryFromMonitored(var JobQueueEntry: Record "Job Queue Entry"; MonitoredJQEntry: Record "NPR Monitored Job Queue Entry")** to restore custom values when recreating a job queue entry from its monitored entry.
+
+Table **6151148 "NPR Monitored Job Queue Entry"**, page **6185041 "NPR Monitored JQ Entries"**, and page **6185042 "NPR Monitored JQ Entry Card"** are public and can be extended with additional fields.
+
 #### Events for Extending Refresher Functionality
 
 Developers can use the following events to adjust or extend refresher logic:
 1. **OnBeforeInsertRecurringJobQueueEntry(var JobQueueEntry: Record "Job Queue Entry")** used for customizing job queue parameters during creation.
 2. **OnCheckIfIsNprCustomizableJob(JobQueueEntry: Record "Job Queue Entry"; var NprCustomizableJob: Boolean; var Handled: Boolean)** used to determine whether a protected job queue should be treated as customizable.
+3. **OnBeforeBuildMonitoredFromJobQueueEntry(var MonitoredJQEntry: Record "NPR Monitored Job Queue Entry"; JobQueueEntry: Record "Job Queue Entry")** used to transfer custom values when creating a monitored entry from a job queue entry.
+4. **OnBeforeRestoreJobQueueEntryFromMonitored(var JobQueueEntry: Record "Job Queue Entry"; MonitoredJQEntry: Record "NPR Monitored Job Queue Entry")** used to restore custom values when recreating a job queue entry from its monitored entry.
