@@ -49,3 +49,7 @@ Each order is sent to the kitchen in the form of a waiter request for meal prepa
   ![restaurant_setup](Images/restaurant_setup.PNG)
 
 In the **Print Template Output Setup** you can set the printer on which the templates are printed. The output printers also need to be physically configured in each kitchen station.
+
+## Routing profile required for menu items
+
+An item can only be added to a restaurant menu if its item card has a **Rest. Item Routing Profile** set. If the field is blank, adding or changing the item on a menu is blocked with an error asking you to set the item's routing profile first. This ensures every menu item has kitchen routing and is not silently skipped when orders are sent to the kitchen. See also [<ins>Restaurant menu items<ins>]({{< ref "../../reference/menu_items/index.md" >}}).

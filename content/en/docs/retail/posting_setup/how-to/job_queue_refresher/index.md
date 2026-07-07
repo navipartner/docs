@@ -139,6 +139,8 @@ Assigning a runner user:
 3.	Select a Monitored Job.
 4.	Set the **Job Queue Runner User Name** field.
 
+{{< alert icon="📝" text="When you look up a runner user (on <b>Default Refresher User Name</b> or on a monitored job's <b>JQ Runner User Name</b>), the picker now lists only <b>Job Queue Runner Users</b> that are actually registered for the external refresher, filtered to those below the <b>Failed Attempts</b> limit. Entra Applications that are not operational refresher users no longer appear in the lookup."/>}}
+
 To review all the existing Job Queue Runner users, open the page under Actions → External JQ Refresher → [**Show External JQ Refresher Users**](#job-queue-runner-users).
 
 ### Set up Monitored Jobs
