@@ -58,6 +58,18 @@ Customers are selected by using the **Customer search routine**. During the orde
    For more information, refer to the article on [<ins>E-commerce stores<ins>]({{< ref "../../how-to/sales_order_setup/index.md" >}}).
 
 
+## Reservation token on ticket orders
+
+When an order contains reserved tickets, the ticket reservation token is written back onto the Shopify order so downstream systems can read it. It is stored in three places on the order:
+
+- As an order **custom attribute** with the key `reservationToken`.
+- As an order **metafield** `np-ticket.reservation_token`.
+- As an app-owned order **metafield** `$app:np-ticket.np-ticket-reservation-token`.
+
+In addition, the metafield `np-ticket.line_items_data` holds a JSON map that links each Shopify order line item to its reserved ticket line, so consumers can match order lines to reservations.
+
+Anything reading the order data downstream (apps, reports, integrations) can therefore retrieve the reservation token and the line-item mapping directly from the order.
+
 ### Next steps
 
 - [<ins>Send data back to Shopify<ins>]({{< ref "../send_data_back/index.md" >}})

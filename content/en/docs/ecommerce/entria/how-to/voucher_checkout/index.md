@@ -21,6 +21,15 @@ Use this guide when you want customers to apply vouchers directly in Entria chec
 
 Before vouchers can be used in checkout, the voucher functionality must be enabled in the Entria backend and connected to a configured voucher payment provider and voucher collection endpoint. Your integration must also be able to authenticate toward Business Central APIs, for example through BC API key configuration in environments where that is required. Finally, make sure voucher currency and checkout currency are compatible.
 
+## Limit the amount on voucher products
+
+For voucher products that let the shopper choose a value (open-amount vouchers), you can constrain the allowed amount in the product configuration:
+
+- **Min Price** and **Max Price** set the lowest and highest amount a shopper can enter.
+- **Price Steps** define a fixed list of allowed amounts (for example 100, 250, 500).
+
+If price steps are defined, the shopper must pick one of the listed amounts — the min/max range is not used. If no price steps are defined, a custom amount is accepted as long as it is within the min/max range. Amounts that break these rules are rejected when the voucher line is added to the cart.
+
 ## Apply a voucher in checkout
 
 When a customer reaches the payment step in checkout, they can enter the voucher code in the voucher input field and apply it. If the voucher is valid, checkout updates immediately and deducts the voucher amount from the order total.
